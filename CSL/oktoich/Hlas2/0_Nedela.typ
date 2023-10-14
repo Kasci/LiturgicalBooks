@@ -105,16 +105,71 @@
 )
 
 #let N_Ne = (
-  "1": (),
-  "3": (),
-  "S1": (),
-  "4": (),
-  "5": (),
-  "6": (),
-  "S2": (),
-  "7": (),
-  "8": (),
-  "9": (),
+  "1": (
+    ("", "", "Vo hlubiňí postlá inohdá, faraonítskoje vsevójinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť, preproslávlennyj Hospóď, slávno bo proslávisja."),
+    ("", "", "Trójičnoje i jedinonačáľnoje jestestvó božestvá, písnenno vospojím hlahóľušče: mílosti pučínu neizčerpájemuju, suščéstvennuju jáko imúšči, tebí kláňajuščichsja sobľudí i spasí, jáko čelovikoľúbec."),
+    ("", "", "Íže istóčnik, i kóreň Otéc sýj, jáko vinóven, íže v Sýňi, i svjaťím tvojém Dúsi, sráslennaho božestvá trisólnečnyj sérdcu mojemú istočí svít, i pričástijem osijáj, Bohoďíteľnaho sijánija."),
+    ("", "", "Trisvítlaja jedínice Bohonačáľnaja, vés razorí hrichóv i strastéj mojích mrák, svítlych lučéj tvojích sladčájšimi pričaščéňmi, i sotvorí mja tvojejá nepristúpnyja slávy chrám i síň prečístuju."),
+    ("Bohoródičen", "", "Tók drévnij jestestvá nášeho, stradávšij bezmístno, i k tlí popólzšijsja prečístaja, voplóščsja vo utróbi tvojéj Bóh Slóvo, čelovikoľúbňi osijá, i Bohonačáliju trisvítlomu nás tájno naučí."),
+  ),
+  "3": (
+    ("", "", "Na kámeni mjá víry utverdív, razširíl jesí ustá mojá na vrahí mojá, vozveselí bo sja dúch mój, vnehdá píti: ňísť svját, jákože Bóh náš, i ňísť práveden, páče tebé Hóspodi."),
+    ("", "", "Rávenstvom jestestvá Bohonačálije jedinočéstnoje slávľu ťá lícy: živót bo ot životá tý proizšéd netľínno, jedín sýj Bóh náš, i ňísť svját, páče tebé Hóspodi."),
+    ("", "", "Tý číny neveščéstvennyja i nebésnyja sostávil jesí, jáko zercála tvojejá dobróty: Tróice nerazďíľnoje jedinonačálije, píti neprestánno tebí: no i nýňi náše ot brénnych úst prijimí chvalénije."),
+    ("", "", "Utverdí na kámeni víry, i razširí ľubvé tvojejá pučínoju serdcá i mýsľ tvojích ráb, jedínice trisólnečnaja: tý bo Bóh náš, na nehóže upovájušče, da ne posramímsja."),
+    ("Bohoródičen", "", "Íže vsják préžde sostáv osuščestvovávyj tvári, vo utróbi tvojéj osuščestvovásja, neizčétnoju bláhostiju Bohoródice, i svít trisólnečnyj vsím vozsijá jedínaho Božestvá i Hospóďstva."),
+  ),
+  "S1": (
+    ("", "Blahoutróbija", "Jehdá v načáľi Adáma sozdál jesí Hóspodi, tohdá Slóvu tvojemú ipostásnomu vozopíl jesí blahoutróbne: sotvorím po nášemu podóbiju, Dúch že svjatýj soprisútstvovaše soďíteľ. Ťímže vopijém tí: tvórče Bóže náš, sláva tebí."),
+    ("Bohoródičen", "", "Jehdá k nám Bóh prijití izvóli, tohdá v tvojú prečístaja, čisťíjšuju utróbu vselísja, i spasé tobóju čelovíčeskoje smišénije, darovávyj vsím cárstvo nebésnoje. Ťímže vopijém tí, Bohoródice čístaja, rádujsja Vladýčice."),
+  ),
+  "4": (
+    ("", "", "Pojú ťa, slúchom bo Hóspodi uslýšach i užasóchsja, do mené bo ídeši, mené iščjá zablúždšaho. Ťím mnóhoje tvojé snizchoždénije, jéže na mjá, proslavľáju mnohomílostive."),
+    ("", "", "Razumíti ťá nižé čínove móhut neveščéstvenniji ánheľstiji, jedínice, Tróice beznačáľnaja: no úbo mý brénnym jazýkom tvojú súščestvennuju bláhosť vospivájem, i víroju slávim."),
+    ("", "", "Sýj sozdáteľ jestestvá čelovíčeskaho, vsederžíteľu, vsé mojé vídiši nýňi, jáko vsevídec nemožénije: ťímže uščédri rabá tvojehó, i k žízni lúčšej páki vozvedí."),
+    ("", "", "Jedínicy načáľnyja nesmísna trí líca vospivájem, jáko svójstvenne imúščaja, i razďíľňi ipostási: no úbo sojedinéna i nerazďíľna, v sovíťi že, i slávi, i Božeství."),
+    ("Bohoródičen", "", "Chrám ťá číst i preneporóčen, prisnoďívo Bohoródice, vseďíteľ obríte jedínu jávi ot víka, v ňúže vséľsja: voobrazí čelovíčeskoje jestestvó, jáko čelovikoľúbec."),
+  ),
+  "5": (
+    ("", "", "Prosviščénije vo ťmí ležáščich, spasénije otčájannych Christé Spáse mój, k tebí útreňuju carjú míra, prosvití mja sijánijem tvojím: inóho bo rázvi tebé Bóha ne znáju."),
+    ("", "", "Jáko vsjáčeski na vsjá súščyja tvojehó prómysla, mirodárnyja prostirájaj lučý, i spasíteľnyja, carjú míra, sobľudí mja v míri tvojém: tý bo živót i mír vsjáčeskomu."),
+    ("", "", "Mojséju v kupiňí jáko javílsja jesí v viďíniji óhnenňi, ánhel naréklsja jesí Ótčeje Slóvo, jéže k nám tvojé predjavľája prišéstvije: ímže vsím jávi vozvistíl jesí deržávu Bohonačálija jedínaho, trijipostásnuju."),
+    ("", "", "Jáže jestéstvennuju, soprisnosúščnuju slávu predlóžiši, jedinonačáľňijšaja Tróice svjatája, vospivájuščich ťá pravoslávnoju víroju, tvojejá slávy víďiti spodóbi, beznačáľnuju, i jedínu zarjú trisólnečnuju."),
+    ("Bohoródičen", "", "Soderžíteľnyj po suščestvú sýj Bóh Slóvo, vsím vikóm, Ďívo Máti, vo črévi tvojém uderžásja neizrečénno, čelovíki prizyvája ko jedínstvu jedínaho Hospóďstva."),
+  ),
+  "6": (
+    ("", "", "V bézdňi hrichóvňij vaľájasja, neizsľídnuju milosérdija tvojehó prizyváju bézdnu: ot tlí Bóže mjá vozvedí."),
+    ("", "", "Volíteľu mílosti, pomíluj v ťá vírujuščich, Bóže trisólnečne, i prehrišénij izbávi, i strastéj, i bíd, rabý tvojá."),
+    ("", "", "Volíteľu mílosti, pomíluj v ťá vírujuščich, Bóže trisólnečne, i prehrišénij izbávi, i strastéj, i bíd, rabý tvojá."),
+    ("", "", "Neizrečénnoju pučínoju bláhosti, neobmýslimuju tvojehó sijánija, i trisijánnaho Božestvá svitodáteľnuju zarjú podážď mí."),
+    ("Bohoródičen", "", "Neizrečénne Ďívo, výšnij čelovík býsť iz tebé, v čelovíka po vsemú obólksja, i svítom mjá trisólnčnym ozarí."),
+  ),
+  "S2": (
+    ("", "Blahoutróbija", "Blahoutróbija pučínu nám prostrýj, prijimí nás mílostive, prízri na ľúdi ťá slávjaščyja, prijimí písň prosjáščich ťá, Tróice jedínice beznačáľnaja: na ťá bo upovájem vsích Bóha, prehrišénij dáti proščénije."),
+    ("Bohoródičen", "", "Blahoutróbija róždši istóčnik, mílostiva tý jesí blahája Bohoródice: tý bo vírnych jedíno zastuplénije, tý skorbjáščich uťišénije. Ťímže tebí nýňi vsí víroju pripádajem, obristí razrišénije ľútych, obohaťíjuščesja jedínoju tebé pómoščiju."),
+  ),
+  "7": (
+    ("", "", "Óbrazu zlatómu na póli deíri služímu, trijé tvojí ótrocy nebrehóša bezbóžnaho veľínija: posreďí že ohňá vvérženi, orošájemi pojáchu: blahoslovén jesí Bóže otéc nášich."),
+    ("", "", "Ustavľáješi prísno ánheľskaja vójinstva k nepreložéniju, jedíne sýj neizmínne i trijipostásne Hóspodi: pokaží úbo i mojé sérdce neprelóžno vsehdá, vo jéže sláviti ťá tépľi, i vospiváti blahočéstno."),
+    ("", "", "Ustavľáješi prísno ánheľskaja vójinstva k nepreložéniju, jedíne sýj neizmínne i trijipostásne Hóspodi: pokaží úbo i mojé sérdce neprelóžno vsehdá, vo jéže sláviti ťá tépľi, i vospiváti blahočéstno."),
+    ("", "", "Lícy úmniji neveščéstvennych suščéstv, tvojími lučámi Bóže jedinonačáľne, i trisólnečne, ozarjájemi byvájut, položénijem vtoríji svítove: íchže i mené sijáňmi, i pričástijem pokaží svít, jáko svetoďíteľ trisijánen."),
+    ("Bohoródičen", "", "Napravľáti nás i vozvyšáti k nebesém ne oskuďíj, tebé ľúbjaščich, íže za neizrečénnoje čelovikoľúbije, býv čelovík vo utróbi Ďívy, i obožív čelovíka, i na prestóľi slávy so Otcém siďáj."),
+  ),
+  "8": (
+    ("", "", "O podóbiji zláťi nebréhše treblážénniji júnoši, neizménnyj i živýj Bóžij óbraz víďivše, sredí ohňá vospiváchu: osuščestvovánnaja da pojét Hóspoda vsjá tvár, i prevoznósit vo vsjá víki."),
+    ("", "", "Nepristúpnaja Tróice soprisnosúščnaja, sobeznačáľnaja, Bohonačáľnaja, neizmínnaja vo vsích, kromí svitonósnych svójstv, vsjákij lukávyj uprazdní soprotivoležáščich sovít, i stužénija démonov, nevrédna sobľudájaj mjá prísno, Hóspodi vsích."),
+    ("", "", "Nepristúpnaja Tróice soprisnosúščnaja, sobeznačáľnaja, Bohonačáľnaja, neizmínnaja vo vsích, kromí svitonósnych svójstv, vsjákij lukávyj uprazdní soprotivoležáščich sovít, i stužénija démonov, nevrédna sobľudájaj mjá prísno, Hóspodi vsích."),
+    ("", "", "Premúdri i vsemóščňie, neopísannoje, trisólnečnoje jedinonačálije sostávľšeje mír, i sobľudájuščeje v nevredímom číňi vsesoveršénnom, vselísja v mojé sérdce, píti i sláviti ťá nemólčno s líki ánheľskimi vo vsjá víki."),
+    ("", "", "Premúdroste Ótčaja, nepostižíme, neizrečénne, Bóžij Slóve, neprelóžnoje tvojé jestestvó ne izminív, jestestvó čelovíčeskoje mílostivne vosprijál jesí: i jedínstvennuju Tróicu čestí vsích naučíl jesí, jáko Hóspodonačálije vsích vikóv."),
+    // TODO: Tu je rozdiel oproti Lvovskemu oktoichu
+  ),
+  "9": (
+    ("", "", "Jáže préžde sólnca svitíľnika Bóha vozsijávšaho, plótski k nám prišédšaho, iz bokú ďivíču neizrečénno voplotívšaja, blahoslovénnaja vsečístaja, ťá Bohoródice veličájem."),
+    ("", "", "Ot svíta beznačáľna, sobeznačálen Sýn svít vozsijá, i sojestéstvennyj svít Dúch izýde, neizrečénno Bohoľípno, netľínnu roždestvú uverjájemi, vkúpi že i neizrečénnomu ischoždéniju."),
+    ("", "", "Vozsijáj v serdcách trisólnečnoje Božestvó, vospivájuščich ťá, trisijánnym svítom tvojím: i dážď rázum jéže vo vsích razumíti, i ďíjati tvojé choťínije blahóje i soveršénnoje, i veličáti i sláviti ťá."),
+    ("", "", "Neizčéten jestestvóm sýj jáko Bóh, neizčétnuju pučínu ščedrót jáko imíja, uščédrila jesí Tróice préžde: táko i nýňi uščédri rabý tvojá, i ot prehrišénij izbávi, i napástej i obstojánij."),
+    ("Bohoródičen", "", "Spasí mja Bóže mój, ot vsjákaho iskušénija i ozloblénija, íže v trijéch lícich vospivájemyj neskazánno, jedínstvenňi Bóh i vsesíľnyj, i tvojé stádo sochraní, Bohoródicy molítvami."),
+  ),
 )
 
 #let U_Ne = (

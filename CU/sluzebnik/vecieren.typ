@@ -2,8 +2,6 @@
 
 = Malá večiereň
 
-TODO:
-
 = Večiereň
 
 #let vecieren = (
