@@ -203,6 +203,9 @@
 
 #let kanonUtieren(kanon, dayIdx) = {
   let typ = typs.at(str(dayIdx))
+  if "?" in kanon {
+    typ = kanon.at("?")
+  }
   for k in range(1,10) {
     let kk = "P"+str(k)
     if kk in kanon {
