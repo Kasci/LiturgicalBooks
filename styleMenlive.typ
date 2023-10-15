@@ -169,6 +169,7 @@
   pripivy.at(str(day)).at(int(kanon)-1)
 }
 
+// TODO: move to corresponding language package
 #let typs = (
   "0": (
     "Kanón voskrésnyj",
