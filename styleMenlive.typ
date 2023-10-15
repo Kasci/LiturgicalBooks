@@ -454,16 +454,16 @@
   #colbreak(weak: true)
   #header[Povečerie\ (v sobotu v noci)]
   #hlasPovecerie(ne_p)
-  // #colbreak(weak: true)
-  // #header[Polnočnica]
-  // #hlasPolnocnica(ne_n)
-  // #colbreak(weak: true)
-  // #header[Utiereň]
-  // #hlasUtieren(ne_u, 0)
-  // #colbreak(weak: true)
-  // #header[Liturgia]
-  // #hlasLiturgia(ne_l)
-  // #colbreak(weak: true)
+  #colbreak(weak: true)
+  #header[Polnočnica]
+  #hlasPolnocnica(ne_n)
+  #colbreak(weak: true)
+  #header[Utiereň]
+  #hlasUtieren(ne_u, 0)
+  #colbreak(weak: true)
+  #header[Liturgia]
+  #hlasLiturgia(ne_l)
+  #colbreak(weak: true)
   
   #superheader[Pondelok]
   #header[Večiereň\ (v nedeľu večer)]
@@ -471,13 +471,13 @@
   #colbreak(weak: true)
   #header[Povečerie\ (v nedeľu v noci)]
   #hlasPovecerie(po_p)
-  // #colbreak(weak: true)
-  // #header[Utiereň]
-  // #hlasUtieren(po_u, 1)
-  // #colbreak(weak: true)
-  // #header[Liturgia]
-  // #hlasLiturgia(po_l)
-  // #colbreak(weak: true)
+  #colbreak(weak: true)
+  #header[Utiereň]
+  #hlasUtieren(po_u, 1)
+  #colbreak(weak: true)
+  #header[Liturgia]
+  #hlasLiturgia(po_l)
+  #colbreak(weak: true)
   
   #superheader[Utorok]
   #header[Večiereň\ (v pondelok večer)]
@@ -485,13 +485,13 @@
   #colbreak(weak: true)
   #header[Povečerie\ (v pondelok v noci)]
   #hlasPovecerie(ut_p)
-  // #colbreak(weak: true)
-  // #header[Utiereň]
-  // #hlasUtieren(ut_u, 2)
-  // #colbreak(weak: true)
-  // #header[Liturgia]
-  // #hlasLiturgia(ut_l)
-  // #colbreak(weak: true)
+  #colbreak(weak: true)
+  #header[Utiereň]
+  #hlasUtieren(ut_u, 2)
+  #colbreak(weak: true)
+  #header[Liturgia]
+  #hlasLiturgia(ut_l)
+  #colbreak(weak: true)
   
   #superheader[Streda]
   #header[Večiereň\ (v utorok večer)]
@@ -499,13 +499,13 @@
   #colbreak(weak: true)
   #header[Povečerie\ (v utorok v noci)]
   #hlasPovecerie(sr_p)
-  // #colbreak(weak: true)
-  // #header[Utiereň]
-  // #hlasUtieren(sr_u, 3)
-  // #colbreak(weak: true)
-  // #header[Liturgia]
-  // #hlasLiturgia(sr_l)
-  // #colbreak(weak: true)
+  #colbreak(weak: true)
+  #header[Utiereň]
+  #hlasUtieren(sr_u, 3)
+  #colbreak(weak: true)
+  #header[Liturgia]
+  #hlasLiturgia(sr_l)
+  #colbreak(weak: true)
   
   #superheader[Štvrtok]
   #header[Večiereň\ (v stredu večer)]
@@ -513,13 +513,13 @@
   #colbreak(weak: true)
   #header[Povečerie\ (v stredu v noci)]
   #hlasPovecerie(st_p)
-  // #colbreak(weak: true)
-  // #header[Utiereň]
-  // #hlasUtieren(st_u, 4)
-  // #colbreak(weak: true)
-  // #header[Liturgia]
-  // #hlasLiturgia(st_l)
-  // #colbreak(weak: true)
+  #colbreak(weak: true)
+  #header[Utiereň]
+  #hlasUtieren(st_u, 4)
+  #colbreak(weak: true)
+  #header[Liturgia]
+  #hlasLiturgia(st_l)
+  #colbreak(weak: true)
   
   #superheader[Piatok]
   #header[Večiereň\ (vo štvrtok večer)]
@@ -527,13 +527,13 @@
   #colbreak(weak: true)
   #header[Povečerie\ (v štvrtok v noci)]
   #hlasPovecerie(pi_p)
-  // #colbreak(weak: true)
-  // #header[Utiereň]
-  // #hlasUtieren(pi_u, 5)
-  // #colbreak(weak: true)
-  // #header[Liturgia]
-  // #hlasLiturgia(pi_l)
-  // #colbreak(weak: true)
+  #colbreak(weak: true)
+  #header[Utiereň]
+  #hlasUtieren(pi_u, 5)
+  #colbreak(weak: true)
+  #header[Liturgia]
+  #hlasLiturgia(pi_l)
+  #colbreak(weak: true)
   
   #superheader[Sobota]
   #header[Večiereň\ (v piatok večer)]
@@ -541,11 +541,11 @@
   #colbreak(weak: true)
   #header[Povečerie\ (v piatok v noci)]
   #hlasPovecerie(so_p)
-  // #colbreak(weak: true)
-  // #header[Utiereň]
-  // #hlasUtieren(so_u, 6)
-  // #colbreak(weak: true)
-  // #header[Liturgia]
-  // #hlasLiturgia(so_l)
-  // #colbreak(weak: true)
+  #colbreak(weak: true)
+  #header[Utiereň]
+  #hlasUtieren(so_u, 6)
+  #colbreak(weak: true)
+  #header[Liturgia]
+  #hlasLiturgia(so_l)
+  #colbreak(weak: true)
 ]

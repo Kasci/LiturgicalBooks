@@ -173,6 +173,10 @@
 )
 
 #let U_Ne = (
+  "T": (
+    ("", "", "Jehdá snizšél jesí k smérti, životé bezsmértnyj, tohdá ád umertvíl jesí blistánijem božestvá. Jehdá že i uméršyja ot preispódnich voskresíl jesí, vsjá síly nebésnyja vzyváchu: žiznodávče Christé Bóže náš, sláva tebí."),
+    ("Bohoródičen", "", "Vsjá páče smýsla, vsjá preslávnaja tvojá Bohoródice, tájinstva, čistoťí zapečátannoj, i ďívstvu chranímu Máti poználasja jesí nelóžna, Bóha róždši ístinnaho: tohó molí spastísja dušám nášym."),  
+  ),
   "S1": (
     ("", "", "Blahoobráznyj Jósif, s dréva sném prečístoje tvojé ťílo, plaščaníceju čístoju obvív, i blahoucháňmi vo hróbi nóve zakrýv položí: no tridnéven voskrésl jesí Hóspodi, podajá mírovi véliju mílosť."),
     ("", "", "Mironósicam ženám pri hróbi predstáv ánhel vopijáše: míra mértvym súť prilíčna, Christós že istľínija javísja čúžď. No vozopíjte: voskrése Hospóď, podajá mírovi véliju mílosť."),
@@ -376,7 +380,7 @@
     ("", "", "Ráspjat i pohrebén býl jesí Christé, jákože izvólil jesí, isprovérhl jesí smérť, i voskrésl jesí vo slávi, jáko Bóh i Vladýka, dáruja mírovi žízň víčnuju i véliju mílosť."),
     ("", "", "O voístinnu bezzakónniji, pečátavše kámeň, bóľšich nás čudés spodóbiste! Ímut rázum strážije, dnés prójde iz hróba, i hlahólachu: rcýte, jáko nám spjáščym, prijidóša učenicý, i ukradóša jehó. I któ krádet mertvecá, páče že i náha? Sám voskrése samovlástno jáko Bóh, ostávľ vo hróbi i pohrebáteľnaja svojá: prijidíte vídite judéje, káko ne rastórže pečáti, smérť poprávyj i ródu čelovíčeskomu bezkonéčnuju žízň dárujaj, i véliju mílosť."),
   ),
-  "T": (
+  "T2": (
     ("", "", "Voskrés iz hróba, i úzy rasterzál jesí áda, razrušíl jesí osuždénije smérti Hóspodi, vsjá ot sitéj vrahá izbávivyj, javívyj že sebé apóstolom tvojím, poslál jesí já na própoviď, i ťími mír tvój podál jesí vselénňij, jedíne mnohomílostive."),
   ),
 )
