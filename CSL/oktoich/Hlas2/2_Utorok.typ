@@ -91,7 +91,7 @@
     ("Bohoródičen", "", "Bohoródice ne prézri mené trébujušča zastuplénija, jéže ot tebé: na ťá bo upová dušá mojá, pomíluj mjá."),
   ),
   "S3": (
-    ("", "Blahoutróbija súšči", "Blahoutróbija nezavístnyj istóčnik, vo Jordáňi pohruzíl jesí strují Joánne otňúduže priľížno moľú ťa: strasťmí mnóhimi potopľájema, pučínoju mjá žitéjskoju, na vsjákij déň ľúto, blahoprijátnymi tvojími molítvami, k životá pristánišču rukovodí."),
+    ("", "Blahoutróbija", "Blahoutróbija nezavístnyj istóčnik, vo Jordáňi pohruzíl jesí strují Joánne otňúduže priľížno moľú ťa: strasťmí mnóhimi potopľájema, pučínoju mjá žitéjskoju, na vsjákij déň ľúto, blahoprijátnymi tvojími molítvami, k životá pristánišču rukovodí."),
     ("", "", "Blahoutróbija rádi mílosti bláže, spastí tvojé sozdánije Christé prišél jesí, preklóň nebesá schoždénijem tvojím. Ťímže strášnoje smotrénije tvojé pojúšče, vopijém tí: moľbámi Predtéči tvojehó očiščénije hrichóv podážď nám, jáko jedín blahoutróben."),
     ("Bohoródičen", "", "Któ víďi, któ slýša Máter raždájuščuju svojehó soďíteľa neiskusomúžno, dojáščuju dajúščaho píšču vsjákoj plóti? Ole čudesé! prestól cheruvímskij javísja črévo tvojé Bohoródice blahodátnaja, molí o dušách nášich."),
   ),
