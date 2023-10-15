@@ -383,12 +383,24 @@
 
 #let L_Ne = (
   "B": (
-    
+    ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse, vo cárstviji tvojém."),
+    ("", "", "Krest tebí prinósim v proščénije prehrišénij: jehóže nás rádi prijál jesí čelovikoľúbče."),
+    ("", "", "Poklaňájemsja tvojemú Vladýko pohrebéniju, i vostániju: ímiže ot tľínija izbávil jesí mír čelovikoľúbče."),
+    ("", "", "Smértiju tvojéju Hóspodi, požérta býsť smérť: i voskresénijem tvojím Spáse, mír spásl jesí."),
+    ("", "", "Mironósicy srítil jesí, voskrés ot hróba, i učenikóm vozvistíl jesí, reščí tvojé vostánije."),
+    ("", "", "Íže vo ťmí spjáščiji ťá svít víďivše, v preispódňijšich ádovych Christé voskrésóša."),
+    ("", "", "Otcá proslávim, Sýnu poklonímsja vsí, i svjatómu Dúchu vírno vospojím."),
+    ("Bohoródičen", "", "Rádujsja prestóle ohnezráčnyj. Rádujsja, nevísta nenevístnaja. Rádujsja, jáže Bóha čelovíkom Ďívo róždšaja."),
   ),
   "TKB": (
-    
+    ("", "", "Jehdá snizšél jesí k smérti, životé bezsmértnyj, tohdá ád umertvíl jesí blistánijem božestvá. Jehdá že i uméršyja ot preispódnich voskresíl jesí, vsjá síly nebésnyja vzyváchu: žiznodávče Christé Bóže náš, sláva tebí."),
+    ("", "", "Voskrésl jesí ot hróba vsesíľne Spáse, i ád víďiv čúdo, užasésja, i mértviji vostáša: tvár že víďašči srádujetsja tebí, i Adám sveselítsja, i mír Spáse mój vospivájet ťá prísno."),
+    ("Bohoródičen", "", "Vsjá páče smýsla, vsjá preslávnaja tvojá Bohoródice, tájinstva, čistoťí zapečátannoj, i ďívstvu chranímu Máti poználasja jesí nelóžna, Bóha róždši ístinnaho: tohó molí spastísja dušám nášym."), 
   ),
   "P": (
-    
+    ("", "", "Kríposť mojá i pínije mojé Hospóď, i býsť mňí vo spasénije."),
+    ("", "", "Nakazúja nakazá mja Hospóď, smérti že ne predadé mja."),
+    ("", "", "Uslýšit ťá Hospóď v déň pečáli, zaščítit ťá ímja Bóha Jákovľa."),
+    ("", "", "Hóspodi spasí carjá, i uslýši ný, vóňže ášče déň prizovém ťá."),
   )
 )

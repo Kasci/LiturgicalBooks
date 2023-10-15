@@ -243,11 +243,15 @@
     ("Múčeničen", "", "Po Chrisťí postradávše dáže do smérti, o strastotérpcy múčenicy! Dúšy úbo ímate na nebesích v rucí Bóžiji, i po míru vsemú počitájemy súť váša móšči, svjaščénnicy poklaňájutsja, i ľúdije vsí, rádujuščesja, sohlásno vopijém: són čésten pred Hóspodem smérť prepodóbnych jehó."),
     ("Krestobohoródičen", "Jehdá ot dréva", "Jehdá neskvérnaja áhnica víďi svojehó áhnca, na zakolénije jáko čelovíka vóleju vlekóma, rydájušči hlahólaše: bezčádstvovati mjá nýňi tščíšisja Christé, róždšuju ťá. Čtó sijé sotvoríl jesí izbáviteľu vsích? Obáče vospiváju i slávľu tvojú krájňuju bláhosť páče umá i slóva, čelovikoľúbče."),
   )
-)
-
+) 
 
 #let L_Pi = (
   "B": (
-    
+    ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Hóspodi vo cárstviji tvojém."),
+    ("", "", "Iskoreníl jesí Vladýko, zlóbnyj térn, vinéc ternóv vóleju nosív, dolhoterpilíve."),
+    ("", "", "Ráspjat býv, bezhríšne, na lóbňim, sokrušíl jesí hlavú lukávaho, i vsjá čelovíki spásl jesí."),
+    ("", "", "Sokrušájemi múčenicy, vrahá sokrušíli jesté vsjú sílu, i pobídnyja vincý prijáste."),
+    ("", "", "Okroplénijem božéstvennyja króve vírniji prosviščájemi, jedíno v trijéch lícich Božestvó čtím."),
+    ("", "", "Jáko áhnca povíšena na drévi, vseneporóčnaja víďašči Christá, rydájušči s pláčem, tohó veličáše."),
   )
 )

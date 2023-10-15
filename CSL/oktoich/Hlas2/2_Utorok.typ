@@ -252,6 +252,11 @@
 
 #let L_Ut = (
   "B": (
-    
+    ("", "", "Hlás tí prinósim razbójnič, i vopijém tí: pomjaní nás Hóspodi vo cárstviji tvojém."),
+    ("", "", "Razbójnika prevzydóch, i bludnícu strasťmí: uščédri mjá Spáse samoosuždénnaho."),
+    ("", "", "Pohruzívyj bézdnu blahoutróbija vo voďí Predtéče, tvojími molítvami strásti mojá umáli."),
+    ("", "", "Íže preléstnaja tečénija, krovéj tečéňmi izsušívše, Christóvy strástotérpcy, dostójno slávimi jesté."),
+    ("", "", "Vitíjstvujaj, jákože písano jésť, úm čelovíčeskij ne móžet Božestvá jedíno načálo píti triipostásnoje."),
+    ("", "", "Jáže neopáľno róždšuju Bóha prebeznačáľna, pochváľnymi vsí písňmi neprestánno vospojím."),
   )
 )

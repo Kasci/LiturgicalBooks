@@ -249,9 +249,13 @@
   )
 )
 
-
 #let L_So = (
   "B": (
-    
+    ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Hóspodi vo cárstviji tvojém."),
+    ("", "", "Christóvym strástém upodóbľšesja múčenicy, strásti čelovíčeskija razlíčnyja prísno isciľájete."),
+    ("", "", "So proróki, apóstoly, so prepodóbnymi učíteli, soďíteľu vsích dóbri uhodíša."),
+    ("", "", "So vsími svjatými tvojími, jáko čelovikoľúbec Hóspodi, vsjá íže víroju prestávľšyjasja, učiní rabý tvojá, mólimsja."),
+    ("", "", "O Tróice presúščnaja, čtúščich ťá uščédri, ot prélesti vrážija i sítej, vsích izbavľájušči prísno."),
+    ("", "", "Moľbý ráb tvojích ne prézri vseneporóčnaja, spasájušči nás ot vsjákich bíd i skorbéj."),
   )
 )

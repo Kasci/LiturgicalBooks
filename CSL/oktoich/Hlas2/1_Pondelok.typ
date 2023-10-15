@@ -247,6 +247,11 @@
 
 #let L_Po = (
   "B": (
-    
+    ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse vo cárstviji tvojém."),
+    ("", "", "Spasí mja Hóspodi Bóže, i óbščnika sotvorí části ot duší vozľúbľšym ťá."),
+    ("", "", "Vsjá nebésnaja vóinstva so stráchom slúžat tí jáko Bóhu: íchže molítvami spasí nás."),
+    ("", "", "Orúžijem víry stradáľcy, pobidíste polkí vrážija, i prineséni býste k Bóhu."),
+    ("", "", "Počitájut číni úmniji, s čelovíčeskim ródom, Tróicu próstu, jedínaho že suščestvá Božestvó."),
+    ("", "", "Prečístaja Vladýčice, jáže Bóha bez símene róždšaja, tohó molí spastísja nám."),
   )
 )

@@ -245,9 +245,13 @@
   )
 )
 
-
 #let L_St = (
   "B": (
-    
+    ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse, vo cárstviji tvojém."),
+    ("", "", "Mirskíja koncý prošédše apóstoli, ot ťmý prélesti i zločéstija čelovíki izbávili jesté premúdriji."),
+    ("", "", "Mréžeju blahodáti iz hlubiný sújetstva, vsích čelovík, učenicý Spásovy múdri vozvelí jesté."),
+    ("", "", "Íže tečénije skončávšyja, i víru sobľúdšyja, strastotérpcy Hospódni, sohlásno vírniji vospoím."),
+    ("", "", "Ravnoďíteľna Rodíteľu Sýna, so Dúchom propovídavše, vospojím Tróicu nesozdánnuju."),
+    ("", "", "Apóstolov pochvalá, stradáľcev udobrénije, tý jesí prečístaja Ďívo, i míra spasénije."),
   )
 )

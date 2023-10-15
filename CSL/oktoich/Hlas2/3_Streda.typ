@@ -243,9 +243,13 @@
   )
 )
 
-
 #let L_Sr = (
   "B": (
-    
+    ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse, vo cárstviji tvojém."),
+    ("", "", "Na krest voznésšusja tí Spáse, sovoznésl jesí vsé čelovíčeskoje jestestvó, neprestánno pojúščeje ťá."),
+    ("", "", "Adámovo rukopisánije kopijém tvojím razdrál jesí, tohó napisúja v knízi živých čelovikoľúbče."),
+    ("", "", "Podóbnicy bývše raspjátije Preterpívšemu, tohó óbščnicy i slávi javístesja múčenicy."),
+    ("", "", "Otéc prebeznačáľnyj, Sýn sobeznačáľnyj, da pojétsja vo jedínoj čésti i slávi kúpno so svjatým Dúchom."),
+    ("", "", "Na kresťí jáko víďivši, jehóže bez símene rodilá jesí, tohó dolhoterpínije otrokovíce, vospivála jesí slezjášči."),
   )
 )
