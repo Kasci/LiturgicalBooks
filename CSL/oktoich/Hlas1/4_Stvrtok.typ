@@ -96,10 +96,6 @@
     ("Bohoródičen", "", "Prorócy ťá jásno provozvistíša otrokovíce, Máter Bóžiju: i apóstoli božéstvenniji v míri propovídaša, i mý virovachom. Ťímže vsí blahočestnomúdrenňi počitájušče vospivájem ťá, i Bohoródicu voístinnu prísno imenújem."),
   ),
   "K": (
-    "?": (
-      "Kanón svjatým apóstolom",
-      "Kanón Nikoláju čudotvórcu"
-    ),
     "P1": (
       "1": (
         ("", "", "Tvojá pobidíteľnaja desníca Bohoľípno v kríposti proslávisja: tá vo bezsmértne, jáko vsemohúščaja, protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."),

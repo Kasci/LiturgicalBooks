@@ -92,10 +92,6 @@
     ("Bohoródičen", "", "Bohoródice Ďívo Maríje, róždšaja Christá izbáviteľa i Spása, molísja tohó blahostýni, so apóstoly i múčeniki, i proróki, s prepodóbnymi že i svjaščennomúčeniki, očiščénije hrichóv darováti nám, i véliju mílosť."),
   ),
   "K": (
-    "?": (
-      "",
-      ""
-    ),
     "P1": (
       "1": (
         ("", "", "Moiséjskuju písň vospriímši, vozopíj dušé: pomóščnik i pokrovíteľ býsť mňí vo spasénije, séj mój Bóh, i proslávľu jehó."),

@@ -169,11 +169,40 @@
   pripivy.at(str(day)).at(int(kanon)-1)
 }
 
+#let typs = (
+  "0": (
+    "Kanón voskrésnyj",
+    "Kanón krestovoskresnyj",
+    "Kanón presvjaťíj Bohoródici"
+  ),
+  "1": (
+    "Kanón umilíteľnyj",
+    "Kanón bezplótnym"
+  ),
+  "2": (
+    "Kanón pokajánen",
+    "Kanón svjatómu velíkomu proróku Joánnu predtéči"
+  ),
+  "3": (
+    "Kanón čestnómu i životvorjáščemu krestú",
+    "Kanón presvjaťíj Bohoródici"
+  ),
+  "4": (
+    "Kanón svjatým apóstolom",
+    "Kanón Nikoláju čudotvórcu"
+  ),
+  "5": (
+    "Kanón čéstnómu i životvorjáščemu krestú",
+    "Kanón presvjaťíj Bohoródici"
+  ),
+  "6": (
+    "Kanón svjatým múčenikom, i svjatítelem, i prepodóbnym i usópšym",
+    "Kanón usópšym"
+  )
+)
+
 #let kanonUtieren(kanon, dayIdx) = {
-  let typ = none
-  if "?" in kanon {
-    typ = kanon.at("?")
-  }
+  let typ = typs.at(str(dayIdx))
   for k in range(1,10) {
     let kk = "P"+str(k)
     if kk in kanon {

@@ -212,11 +212,6 @@
     ("", "", "Slovesá Hospódňa, slovesá čísta."), 
   ),
   "K": (
-    "?": (
-      "Kanón voskrésnyj",
-      "Kanón krestovoskresnyj",
-      "Kanón presvjaťíj Bohoródici"
-    ),
     "P1": (
       "1": (
         ("", "", "Tvojá pobidíteľnaja desníca Bohoľípno v kríposti proslávisja: tá bo bezsmértne, jáko vsemohúščaja, protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."),

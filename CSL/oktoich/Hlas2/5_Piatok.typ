@@ -96,10 +96,6 @@
     ("Krestobohoródičen", "", "Čéstným krestóm Sýna tvojehó sochraňájemi Vladýčice, čístaja Bohoródice, vsják prilóh boríteľa vsí udóbňi pobiždájem: sehó rádi po dólhu ťá ublažájem, jáko Bóžiju Máter, i jedínu upovánije dušám nášym."),
   ),
   "K": (
-    "?": (
-      "",
-      ""
-    ),
     "P1": (
       "1": (
         ("", "", "Netrénu, neobýčnu, nemókrenno morskúju šéstvovav stezjú, izbránnyj vopijáše Izráiľ: Hóspodevi poím, jáko proslávisja."),

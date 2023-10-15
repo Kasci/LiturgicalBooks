@@ -92,10 +92,6 @@
     ("Bohoródičen", "", "Jedína krípkaja i téplaja predstáteľnice róda čelovíčeskaho, Bohoródice Ďívo, neprestánno molí so proróki i múčeniki, so svjatíteli že i póstniki i prepodóbnymi, jehóže rodilá jesí páče jestestvá Bóha Slóva, spastí vsjáčeskaja."),
   ),
   "K": (
-    "?": (
-      "Kanón svjatým múčenikom, i svjatítelem, i prepodóbnym i usópšym",
-      "Kanón usópšym"
-    ),
     "P1": (
       "1": (
         ("", "", "Stolpóm óhnennym i óblačnym Izráiľa nastavléj, jáko Bóh, móre razvérže, kolesnícy že faraónovy hlubinóju pokrý. Pojím písň pobídnuju , jáko jedín proslávisja."),

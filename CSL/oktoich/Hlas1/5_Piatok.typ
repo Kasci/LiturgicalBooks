@@ -96,10 +96,6 @@
     ("Krestobohoródičen", "", "Íže tvojé zastuplénije sťažávše prečístaja, i tvojími molítvami ot bíd izbavľájemsja: krestóm bo Sýna tvojehó vsehdá chraními vezší, po dólhu ťá vsí blahočéstno veličájem."),
   ),
   "K": (
-    "?": (
-      "Kanón čéstnómu i životvorjáščemu krestú",
-      "Kanón presvjaťíj Bohoródici"
-    ),
     "P1": (
       "1": (
         ("", "", "Pomóhšemu Bóhu vo Jehípťi Moiséovi, i ťím faraóna so vsevójinstvom pohruzívšemu, pobídnuju písň pojím, jáko proslávisja."),

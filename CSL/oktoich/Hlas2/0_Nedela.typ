@@ -213,11 +213,6 @@
     ("", "", "Hóspodi Bóže mój na ťá upovách, spasí mja."),
   ),
   "K": (
-    "?": (
-      "",
-      "",
-      ""
-    ),
     "P1": (
       "1": (
         ("", "", "Vo hlubiňí postlá inohdá, faraonítskoje vsevójinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť, preproslávlennyj Hospóď, slávno bo proslávisja."),

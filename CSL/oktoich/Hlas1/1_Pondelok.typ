@@ -96,10 +96,6 @@
     ("Bohoródičen", "", "Neveščéstvennych vójinstv preimúščaja otrokovíce, i číny nebésnyja prevoschoďáščaja jedína, dostójnuju pochvalú ot ních prijémleši vsečístaja: no molí Sýna tvojehó so ánhely, jéže izbávitisja mňí ot strastéj mučíteľstva, jedínomu osuždénnomu."),
   ),
   "K": (
-    "?": (
-      "Kanón umilíteľnyj",
-      "Kanón bezplótnym"
-    ),
     "P1": (
       "1": (
         ("", "", "Tvojá pobidíteľnaja desníca Bohoľípno v kríposti proslávisja: tá bo bezsmértne, jáko vsemohúščaja protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."),

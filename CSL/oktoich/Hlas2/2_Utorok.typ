@@ -96,10 +96,6 @@
     ("Bohoródičen", "", "Któ víďi, któ slýša Máter raždájuščuju svojehó soďíteľa neiskusomúžno, dojáščuju dajúščaho píšču vsjákoj plóti? Ole čudesé! prestól cheruvímskij javísja črévo tvojé Bohoródice blahodátnaja, molí o dušách nášich."),
   ),
   "K": (
-    "?": (
-      "",
-      ""
-    ),
     "P1": (
       "1": (
         ("", "", "Moiséjskuju písň vospriímši, vozopíj dušé: pomóščnik i pokrovítel býsť mňí vo spasénije, séj mój Bóh, i proslávľu jehó."),

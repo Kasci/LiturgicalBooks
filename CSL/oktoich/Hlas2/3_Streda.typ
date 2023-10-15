@@ -96,10 +96,6 @@
     ("Krestobohoródičen", "", "Čéstným krestóm Sýna tvojehó sochraňájemi, Vladýčice čístaja Bohoródice, vsják prilóh boríteľa vsí udóbňi pobiždájem: sehó rádi po dólhu ťá ublažájem, jáko Máter Bóžiju, jedínu upovánije dušám nášym."),
   ),
   "K": (
-    "?": (
-      "",
-      ""
-    ),
     "P1": (
       "1": (
         ("", "", "Vo hlubiňí postlá inohdá faraonítskoje vsevójinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť, preproslávlennyj Hospóď, slávno bo proslávisja."),

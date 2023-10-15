@@ -96,10 +96,6 @@
     ("Krestobohoródičen", "", "Neskvérnaja áhnica, áhnca i pástyrja povíšena na drévi mértva zrjášči, pláčušči viščáše, máterski vosklicájušči: káko preterpľú tvojé jéže páče slóva Sýne mój snítije, i vóľnyja strásti, Bóže preblahíj?"),
   ),
   "K": (
-    "?": (
-      "Kanón čestnómu i životvorjáščemu krestú",
-      "Kanón presvjaťíj Bohoródici"
-    ),
     "P1": (
       "1": (
         ("", "", "Hórkija rabóty izbávľsja Izráiľ, neprochodímoje prójde jáko súšu, vrahá zrjá potopľájema, písň jáko blahoďíteľu pojét Bóhu, čudoďíjuščemu mýšceju vysókoju, jáko proslávisja."),

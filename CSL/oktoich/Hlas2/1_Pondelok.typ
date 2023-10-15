@@ -96,10 +96,6 @@
     ("Bohoródičen", "", "Bohoródice beznevístnaja čístaja, jáže bez símene róždšaja vsích Vladýku, tohó so ánhely molí, izbávitisja nám ot vsjákaho nedoumínija, i dáti umilénije i svít dušám nášym, i sohrišénij očiščénije, jáže jedína vskóri zastupájušči."),
   ),
   "K": (
-    "?": (
-      "",
-      ""
-    ),
     "P1": (
       "1": (
         ("", "", "Hrjadíte ľúdije, pojím písň Christú Bóhu, razďíľšemu móre, i nastávľšemu ľúdi, jáže izvedé iz rabóty jehípetskija, jáko proslávisja."),

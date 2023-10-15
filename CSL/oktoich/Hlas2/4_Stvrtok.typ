@@ -96,10 +96,6 @@
     ("Bohoródičen", "", "Neiskusobráčnaja prečístaja, svjatája Bohoródice beznevístnaja, Sýna tvojehó, jehóže páče jestestvá plótiju rodilá jesí, so apóstoly prísno molí sohrišénij proščénije, i žitijá ispravlénije, i strastéj preminénije darováti vsím pojúščym ťá."),
   ),
   "K": (
-    "?": (
-      "",
-      ""
-    ),
     "P1": (
       "1": (
         ("", "", "Vo hlubiňí postlá inohdá, faraonítskoje vsevójinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť, preproslávlennyj Hospóď, slávno bo proslávisja."),

@@ -96,10 +96,6 @@
     ("Bohoródičen", "", "Beznevístnaja čístaja Bohoródice Ďívo, jedína vírnym predstáteľnice i pokróve: bíd i skorbéj i ľútych obstojánij vsích izbávi, na ťá upovánije otrokovíce imúščich: i dúši náša spasí božéstvennymi molítvami tvojími."),
   ),
   "K": (
-    "?": (
-      "Kanón pokajánen",
-      "Kanón svjatómu velíkomu proróku Joánnu predtéči"
-    ),
     "P1": (
       "1": (
         ("", "", "Písň pobídnuju pojím vsí Bóhu: sotvóršemu dívnaja čudesá mýšceju vysókoju, i spásšemu Izráiľa, jáko proslávisja."),
