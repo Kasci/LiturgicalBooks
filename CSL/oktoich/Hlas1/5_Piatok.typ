@@ -233,7 +233,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Tebé na dréve prihvóždšahosja plótiju, i živót nám podávšaho, jáko Spása i Vladýku pojím neprestánno."),
     ("", "", "Tvojím krestóm Christé, jedíno stádo býsť ánhelov i čelovíkov, i vo jedínom sobóri nébo i zemľá veselítsja: Hóspodi sláva tebí."),
     ("Múčeničen", "", "Strástotérpcy Christóvy prijidíte ľúdije vsí počtím píňmi i písňmi Dúchóvnymi, svetíľniki míra, i propoívédniki víry, istóčniki prisnotekúščija, iz níchže istekájut vírnym iscilénija. Ťích molítvami Christé Bóže náš, mír dáruj míru tvojemú, i dušám nášym véliju mílosť."),

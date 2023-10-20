@@ -62,9 +62,8 @@
   underline(stroke: (thickness: 3pt, paint: red))[
     #align(center)[#text(20pt)[
       #primText[#upper[#txt]]
-    ]
+    ]]
   ]
-]
 }
 #let header(txt) = {
   align(center)[#text(15pt)[

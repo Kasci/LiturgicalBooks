@@ -232,7 +232,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Soďíjannych mnóju ľútych pomyšľája bezmístnaja, k tvojím pribiháju ščedrótam, mytarjá podražája, i bludnícu slezívšuju i blúdnaho sýna: ťímže i pripádaju tí mílostive, préžde dáže ne osúdiši mjá, poščadí mja Bóže, i pomíluj mjá."),
     ("", "", "Bezzakónija mojá prézri Hóspodi, ot Ďívy roždéjsja, i sérdce mojé očísti, chrám sijé tvorjá svjatómu tvojemú Dúchu. Ne otríni mené ot tvojehó licá, bezmírnuju imíjaj véliju mílosť."),
     ("", "", "Po Chrisťí postradávše dáže do smérti, o strastotérpcy múčenicy, dúšy bo ímate na nebesích v rucí Bóžijej, i po míru vsemú počitájemi súť váša móšči. Svjaščénnicy poklaňájutsja i ľúdije vsí, rádujuščesja, sohlásno vopijém: són čésten pred Hóspodem smérť prepodóbnych jehó."),

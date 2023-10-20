@@ -233,7 +233,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Apóstoli slávniji, prosvitívše vselénnuju, prísno Bóha molíte, spastísja dušám nášym."),
     ("", "", "Petrá i Pavla sohlásno pochválim: Lukú, Matféja, Márka, Joánna, Andréja, Fomú, Varfoloméja, Símona kananíta, Jákova i Filíppa, i vés lík učeníčeskij dostójno da voschválim."),
     ("Múčeničen", "", "Veselítesja múčenicy o Hóspoďi, jáko pódvihom dóbrym podvizástesja: protívistesja carém, i mučítelej pobidíste: ohňá i mečá ne ustrašístesja, i zviréj dívijich sňidájuščich ťilesá váša: Christú so ánhely písň vozsylájušče, s nebesé vincý prijáste: prosíte darováti míru mír, i dušám nášym véliju mílosť."),

@@ -236,7 +236,7 @@
     ("Mértven", "", "Uvý mňí, kolík pódvih ímať dušá razlučájuščisja ot ťilesé! uvý mňí, tohdá kolíko slezít, i ňísť íže pomílujet jú! ko ánhelom óči vozvoďášči, bezďíľno mólitsja: k čelovíkom rúci prostirájušči, i ne ímať pomohájuščaho. Ťímže vozľúblennaja mojá brátije, razumívše krátkuju nášu žízň, prestávlenym pokója ot Christá prósim, i dušám nášym vélija mílosti."),
     ("Bohoródičen", "", "Prijidíte, Máter svíta písňmi nemólčnymi vsí proslávim, tá bo rodí spasénije náše: i rádujsja prinesém, jáko jedínoj róždšej vsích načáľňijšaho, íže préžde vík Bóha. rádujsja, jáže Jévu róždšuju páki nazdávšaja, rádujsja prečístaja Ďívo neiskusobráčnaja."),
   ),
-  "PO": (
+  "ST": (
     ("", "", "Stremlénije smértnoje i tľú tvojéju živonósnoju smértiju nizložíl jesí Vladýko: vsím že istočíl jesí živót víčnyj, i zemným uméršym vostánije darová. Ťímže mólimsja tebí Spáse: íže víroju k tebí prestávľšyjasja upokój, i netľínňij tvojéj slávi sích spodóbi čelovikoľúbče."),
     ("", "", "Da čelovíki óbščniki Božéstvennaho tvojehó cárstvija soďílaješi Christé, raspjátije preterpíl jesí, i smérť vóľnuju priját. Sehó rádi mólimsja: tvojím milosérdijem pričástniki javí cárstvija tvojehó, víroju k tebé prestávľšyjasja, i sládkija dobróty tvojejá sích spodóbi čelovikoľúbče."),
     ("", "", "Spastí tvojé sozdánije voschoťív, smotrénija že voístinnu strášnoje táinstvo, rádujasja soveršíl jesí jáko preblahíj: i cinóju iskupíl jesí vés mír čestnóju tvojéju króviju. Ťímže mólimsja: íže víroju k tebí prestávľšyjasja, so vsími svjatými izbavlénija spodóbi."),

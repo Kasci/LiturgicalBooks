@@ -241,7 +241,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Vsích prevoschoždú hrichóm, kohó naučú pokajániju? Ášče vozdochnú jáko mytár, nepščúju oťahčíti nebesá: ášče slezjú jákože bludníca, oskverňáju slezámi zémľu. No dážď mí ostavlénije hrichóv Bóže, i pomíluj mjá."),
     ("", "", "Bezzakónija mojá prézri Hóspodi, ot Ďívy roždéjsja, i sérdce mojé očísti, chrám sijé tvorjá svjatáho tvojehó Dúcha: ne otvérži mené ot tvojehó licá, bezmírnuju imíjaj véliju mílosť."),
     ("", "", "Krest Christóv vzémše svjatíji múčenicy, orúžije nepobidímoje, vsjú diávoľu sílu uprazdníša, i prijémše vincý nebésnyja, steťiná nám býša, o nás tomú moľáščesja."),

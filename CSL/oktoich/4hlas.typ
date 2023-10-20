@@ -3,10 +3,6 @@
 
 = Hlas 4
 
-#align(horizon + center)[#primText[
-  #text(40pt)[Hlas 4]
-]]
-
 #let V_Ne = ()
 #let V_Po = ()
 #let V_Ut = ()

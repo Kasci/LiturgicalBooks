@@ -238,7 +238,7 @@
     ("Mértven", "", "Ďílom Spáse mój javľáješi, jáko tý jesí vsích voskresénije, slóvom Slóve Lázarja ot mértvych vozstávil jesí. Jehdá že mértviji ot hrobóv voskresóša, i vratá ádova smatóšasja: tohdá čelovíkom smérť són javľášesja. No íže na spasénije svojehó sozdánija, a ne na osuždénije prišédyj, íchže izbrál jesí, upokój jáko čelovikoľúbec."),
     ("Bohoródičen", "", "Rádujsja ot nás, svjatája Bohoródice Ďívo čístyj sosúde vsejá vselénnyja: sviščé neuhasímaja, vmistílišče nevmistímaho, chráme neoborímyj. Rádujsja, iz nejáže rodísja Áhnec Bóžij, vzémľaj hrichí vsehó míra."),
   ),
-  "PO": (
+  "ST": (
     ("", "Prechváľniji múčenicy", "Tebí Spáse mólimsja, tvojehó sládkaho pričástija prestávľšichsja spodóbi, i vselí vo obíteľich prepodóbnych so svjatými tvojími, i v nebésnaja žilíšča, blahoutróbijem tvojím prezrjá bezzakónija, i podajá sím pokój."),
     ("", "", "Páče vídimych tvojá Spáse obiščánija, jáže óko ne víďi, i úcho ne slýša, i na sérdce čelovíka nikohdáže vzýde: mólim ťá Vladýko, sládkaho tvojehó pričástija polučíti spodóbi, k tebí prestávľšyjasja, i podážď ím víčnuju žízň."),
     ("", "", "O kresťí tvojém veseľáščesja. o kresťí tvojém nadíjuščesja rabí tvojí, k tebí prestávišasja čelovikoľúbče: ímže nýňi izbavlénije ťích prehrišénij, krest tvój dáruj, i króv prolijánnuju za mirskíj živót, blahosérdijem tvojím proščája sohrišénija, i prosviščája svítom licá tvojehó."),

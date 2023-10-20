@@ -232,7 +232,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Tebé na drévi prihvóždšahosja plótiju, i živót nám podávšaho, jáko Spása i Vladýku, pojím neprestánno."),
     ("", "", "Tvojím krestóm Christé, jedíno stádo býsť ánhelov i čelovíkov, i vo jedínom sobóri nébo i zemľá veselítsja, vopijá: Hóspodi sláva tebí."),
     ("", "", "Vás vsechváľniji múčenicy, ni skórb, ni tesnotá, ni hlád, ni honénije, nižé rány, ni járosť zviréj, ni méč, nižé óhň preťáščij razlučíti ot Bóha vozmohóša: ľubóviju že páče k nemú, jáko v čuždích podvíhšesja ťilesích, jestestvó zabýste, smérť prezrívše. Ťímže i po dostojániju boľíznej vášich mzdú prijáste, i nebésnaho cárstvija nasľídnicy býste, neprestánno molítesja o dušách nášich."),

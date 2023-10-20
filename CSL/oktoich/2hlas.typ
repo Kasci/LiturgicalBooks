@@ -3,10 +3,6 @@
 
 = Hlas 2
 
-#align(horizon + center)[#primText[
-  #text(40pt)[Hlas 2]
-]]
-
 #import "Hlas2/0_Nedela.typ": *
 #import "Hlas2/1_Pondelok.typ": *
 #import "Hlas2/2_Utorok.typ": *

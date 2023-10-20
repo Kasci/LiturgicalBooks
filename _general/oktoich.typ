@@ -15,14 +15,22 @@
   
   // HEADINGS
   show heading.where(level: 1): it => [ 
-    #align(center, text(0pt, rgb("ffffff"), upper(it)))
+    #align(horizon + center)[#primText[
+      #text(40pt)[#it]
+    ]]
   ]
   
   show heading.where(level: 2): it => [ 
-    #align(center, text(0pt, rgb("ffffff"), it))
+    #superheader(it)
   ]
   show heading.where(level: 3): it => [ 
-    #align(center, text(0pt, rgb("ffffff"), it))
+    #header(it)
+  ]
+  show heading.where(level: 4): it => [ 
+    #subheader(it)
+  ]
+  show heading.where(level: 5): it => [ 
+    #subsubheader(it)
   ]
 
   // Main body.

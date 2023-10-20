@@ -233,7 +233,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Vozvelíčil jesí Spáse, vo vselénňij verchóvnych apóstol imená, navykóša nebésnym, neizrečénna dáša zemným iscilénija, i síni ích jedíny nedúhi uvračeváchu: íbo ot rýbarej čudotvorjášče, i íže o Judéj Bohoslóvjašče blahodáti učénija, íchže rádi blahoutróbne, dážď nám véliju mílosť."),
     ("", "", "Íže ot neprávednych ďijánij vsehdá borími, i k tebí pribihájušče voístinnu súščemu Bóhu, hlás tvojích učeník prinósim tí, hlahóľušče: spasí ny nastávniče, pohibájem. Pokaží i nýňi vrahóm nášim, mólimsja, jáko pokryváješi ľúdi, i spasáješi ot bíd, molítvami apóstol prezirája hrichí, za mnóhuju blahostýňu, Hóspodi sláva tebí."),
     ("", "", "Svjatých tvojích mnóžestvo, mólit ťá Christé: pomíluj i spasí nás jáko čelovikoľúbec."),

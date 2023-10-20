@@ -235,7 +235,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Ín vík tebé dušé ožidájet, i sudijá chóščet tvojá obličíti tájnaja i ľútaja. Ne prebúdi úbo v ních, no predvarí vopijúšči sudijí: Bóže, očísti mjá i spasí mja."),
     ("", "", "Ne iskusí mené spáse mój, ľínostiju hrichóvnoju oderžíma, no vozdvíhni mojé pomyšlénije k pokajániju, i tvojehó vinohráda ďílateľa iskúsna javí mja. Dáruj mí jedinonadesjátaho časá mzdú, i véliju mílosť."),
     ("Múčeničen", "", "Síji vójini carjá velíkaho protívišasja poveľínijem mučítelevym, dóblestvenňi neradíša o múkach, i prélesť vsjú poprávše, dostójno vinčáni býša prósjat u Spása míra dušám nášym, i vélija mílosti."),

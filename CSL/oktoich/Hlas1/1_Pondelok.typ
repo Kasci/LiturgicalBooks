@@ -233,7 +233,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Ín ťá mír dušé ožidájet, i sudijá chóščet tvojá obličíti tájnaja i ľútaja. Ne prebúdi úbo v zďíšnich, no predvarí vopijúšči sudijí: Bóže očísti mjá, i spasí mja."),
     ("", "", "Ne prenebrezí mené Spáse mój ľínostiju hrichóvnoju oderžíma, vozdvíhni mojé pomyšlénije k pokajániju, i tvojehó vinohráda ďílateľa iskúsna pokaží mja: dáruj mí jedinahonádesjate časá mzdú, i véliju mílosť."),
     ("Múčeničen", "", "Strástotérpcy Christóvy, prijidíte ľúdije vsí počtím, píňmi i písňmi duchóvnymi, svitíľniki míra, i propovídniki víry, istóčnik prisnotekúščij, iz nehóže istekájut vírnym iscilénija: Ťích molítvami Christé Bóže náš, mír dáruj míru tvojemú, i dušám nášym véliju mílosť."),

@@ -231,7 +231,7 @@
       ),
     ),
   ),
-  "CH": (
+  "ST": (
     ("", "", "Krestá tvojehó drévo Christé Bóže, drévo živótnoje pokazál jesí nám vírujuščym v ťá, i sím uprazdníl jesí deržávu imúščaho smérti: oživíl že jesí ný umerščvlénnyja hrichóm. Ťímže vopijém tí: blahodáteľu vsích, Hóspodi sláva tebí."),
     ("", "", "Vóleju obniščáv obniščánija rádi Adámova Christé Bóže, prišél jesí na zémľu ot Ďívy voplóščsja, i raspjátije prijál jesí, da nás svobodíši ot rabóty vrážija, Hóspodi sláva tebí."),
     ("Múčeničen", "", "Vsják hrád i straná čtút móšči váša, o strástotérpcy múčenicy: vý bo zakónno postradávše, vincý nebésnyja prijáste, i sehó rádi svjatítelem jesté pochvalá i cérkvam blahoľípije."),
