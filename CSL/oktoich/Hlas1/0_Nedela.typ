@@ -387,9 +387,6 @@
     ("", "", "Strástéj tvojích božéstvennym jázvam poklaňájemsja Christé Bóže, i jéže v Sijóňi Vladýčnemu svjaščennoďíjstviju, na konéc vikóv Bohojavlénňi bývšemu: íbo vo ťmí spjáščyja, Sólnce prosvití právdy, k nevečérnemu nastavľája sijániju: Hóspodi sláva tebí."),
     ("", "", "Ľubomjatéžnyj róde jevréjskij vnušíte, hďí súť, íže k Pilátu prišédšiji: da rekút strehúščiji vóini: hďí súť pečáti hróbnyja? Hďí preložén býsť pohrebénnyj? Hďí pródan býsť neprodánnyj? Káko ukrádeno býsť sokróvišče? Čtó oklevetújete Spásovo vostánije prebezzakóniji judéji? voskrése íže v mértvych svobóď, i podajét mírovi véliju mílosť."),
   ),
-  "T2": (
-    ("", "", "Dnés spasénije míru býsť, pojém voskrésšemu iz hróba, i načáľniku žízni nášeja: razrušív bo smértiju smérť, pobídu dadé nám, i véliju mílosť."),
-  ),
 )
 
 #let L_Ne = (

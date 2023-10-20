@@ -93,7 +93,7 @@
   "S3": (
     ("", "Milosérdija súšči", "Íže svitíla svítlaja, svjatýja tvojá učenikí Slóve v mír posláv, i prosvitíl jesí podsólnečnuju, ťmý nerazúmija izbavľája vsích čelovík. Ťích molítvami prísno umolén byvája, júže vo ťmí dúšu mojú prosvití čelovikoľúbče, i spasí mja."),
     ("", "", "Lučámi čudés Nikólaje, prosviščáješi podsólnečnuju vsjú, i razrišáješi mrák skorbéj, i bíd othoňáješi našéstvije, predstátel sýj tepľíjšij."),
-    ("Bohoródičen", "", "Neiskusobráčnaja prečístaja, svjatája Bohoródice beznevístnaja, Sýna tvojehó, jehóže páče jestestvá plótiju rodilá jesí, so apóstoly prísno molí sohrišénij proščénije, i žitijá ispravlénije, i strastéj preminénije darováti vsím pojúščym ťá."),
+    ("Bohoródičen", "", "Neisku-sobráčnaja prečístaja, svjatája Bohoródice beznevístnaja, Sýna tvojehó, jehóže páče jestestvá plótiju rodilá jesí, so apóstoly prísno molí sohrišénij proščénije, i žitijá ispravlénije, i strastéj preminénije darováti vsím pojúščym ťá."),
   ),
   "K": (
     "P1": (
@@ -160,7 +160,7 @@
         ("", "", "Zakóna Bóžija ispólniteľu, molí blaháho Bóha, zakóny božéstvennyja mí sobľudáti, i bezzakónnujuščich vráh izmí mja, i bisóvskaho vréda, vseblažénne Nikólaje."),
         ("", "", "Jákože drévle predstáv svjáte, izbavľája júnoši trí: síce i mené ot vsjákaho hrichá izbávi tvojími k Bóhu molítvami, Bohomúdre Nikólaje."),
         ("", "", "Svjaščennoďílateľu Christóv, hríšnikom isporúčniče, velíkij čudotvórče, blahodávca molí Bóha, da ne posramít mené v čás súdnyj."),
-        ("Bohoródičen", "", "Hospodorodíteľnice čístaja, obladájema mjá mnóhimi strasťmí, jáko blahá predstávši izbávi ot sích: jáko da ťá vospiváju dušéju i sérdcem i jazýkom, spasájem."),
+        ("Bohoródičen", "", "Hospodo-rodíteľnice čístaja, obladájema mjá mnóhimi strasťmí, jáko blahá predstávši izbávi ot sích: jáko da ťá vospiváju dušéju i sérdcem i jazýkom, spasájem."),
       ),
     ),
     "P6": (

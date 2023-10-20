@@ -375,9 +375,6 @@
     ("", "", "Ráspjat i pohrebén býl jesí Christé, jákože izvólil jesí, isprovérhl jesí smérť, i voskrésl jesí vo slávi, jáko Bóh i Vladýka, dáruja mírovi žízň víčnuju i véliju mílosť."),
     ("", "", "O voístinnu bezzakónniji, pečátavše kámeň, bóľšich nás čudés spodóbiste! Ímut rázum strážije, dnés prójde iz hróba, i hlahólachu: rcýte, jáko nám spjáščym, prijidóša učenicý, i ukradóša jehó. I któ krádet mertvecá, páče že i náha? Sám voskrése samovlástno jáko Bóh, ostávľ vo hróbi i pohrebáteľnaja svojá: prijidíte vídite judéje, káko ne rastórže pečáti, smérť poprávyj i ródu čelovíčeskomu bezkonéčnuju žízň dárujaj, i véliju mílosť."),
   ),
-  "T2": (
-    ("", "", "Voskrés iz hróba, i úzy rasterzál jesí áda, razrušíl jesí osuždénije smérti Hóspodi, vsjá ot sitéj vrahá izbávivyj, javívyj že sebé apóstolom tvojím, poslál jesí já na própoviď, i ťími mír tvój podál jesí vselénňij, jedíne mnohomílostive."),
-  ),
 )
 
 #let L_Ne = (

@@ -1,6 +1,6 @@
 #include("1hlas.typ")
-// #pagebreak()
-// #include("2hlas.typ")
+#pagebreak()
+#include("2hlas.typ")
 // #pagebreak()
 // #include("3hlas.typ")
 // #pagebreak()

@@ -10,7 +10,33 @@
 
 #let project(body) = {
   
-  set page(paper:"a5", numbering: "1", number-align: center,  margin: (x: 35pt, y: 40pt), background: bg)
+  set page(
+    paper:"a5", 
+    numbering: "1", 
+    number-align: top+right,  
+    margin: (x: 35pt, y: 40pt), 
+    background: bg,
+    footer: locate(loc => {
+      let h1 = query(
+        selector(heading.where(level:1)).before(loc),
+        loc,
+      )
+      let h2 = query(
+        selector(heading.where(level:2)).before(loc),
+        loc,
+      )
+      let h3 = query(
+        selector(heading.where(level:3)).before(loc),
+        loc,
+      )
+      let body1 = h1.last().body
+      let body2 = h2.last().body
+      let body3 = h3.last().body
+      text(8pt, body1 + " - " + body2 + h(1fr) + body3)
+    }), 
+    header-ascent: 75%,
+    footer-descent: 75%
+  )
   set text(font: "Monomakh Unicode", lang: "cu")
   
   // HEADINGS

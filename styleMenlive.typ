@@ -68,9 +68,6 @@
 )
 
 #let hlasVecieren(day, dayidx) = {
-  /**
-  * HOSPODI VOZVACH
-  */
   [==== Hóspodi, vozzvách]
 
   let c = counter("day")
@@ -88,9 +85,6 @@
   tbl.push((primText[S:I:], last))
   styleTable(tbl)
 
-  /**
-  * STICHIRY
-  */
   [==== Stichíry na stichovňi]
   
   let (first, ..verse, last) = day.at("S")
@@ -115,10 +109,6 @@
   tbl.push((primText[S:I:], last))
   styleTable(tbl)
 
-  /**
-  * TROPAR
-  * - not mandartory
-  */
   if "T" in day {
     [==== Tropar]
     let (tropar, last) = day.at("T")
@@ -304,10 +294,7 @@
           styleTable(tbl)
         }
       }
-      /**
-      * KONDAK & IKOS
-      * - not mandatory
-      */
+      
       if k == 6 and "K" in kanon {
         [===== Kondák i Ikos]
         let (kon, ikos) = kanon.at("K")
@@ -396,10 +383,10 @@
 
   if "P" in day {
     [==== Prokimen]
-    let (prokmien, versv) = day.at("P")
+    let (prokimen, versv) = day.at("P")
     [
     #set par(first-line-indent: 1em)
-      #prokmien.at(2)
+      #prokimen.at(2)
       
       #primText[Stich:] #versv.at(2)
     ]
@@ -516,17 +503,21 @@
   }
   
   if "P" in day {
-    [==== Prokimen]
     let (prokimen, vers, aleluja, versA) = day.at("P")
-    let tbl = ()
-    tbl.push((primText[$#sym.PP$], prokimen))
-    tbl.push((primText[$#sym.SS #sym.TT$], vers))
-    styleTable(tbl)
+    [==== Prokimen]
+    [
+    #set par(first-line-indent: 1em)
+      #prokimen.at(2)
+      
+      #primText[Stich:] #vers.at(2)
+    ]
     [===== Allilúia]
-    let tbl = ()
-    tbl.push((primText[$#sym.AA$], aleluja))
-    tbl.push((primText[$#sym.SS #sym.TT$], versA))
-    styleTable(tbl)
+    [
+    #set par(first-line-indent: 1em)
+      #aleluja.at(2)
+      
+      #primText[Stich:] #versA.at(2)
+    ]
   }
 }
 

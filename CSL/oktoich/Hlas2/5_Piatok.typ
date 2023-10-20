@@ -88,7 +88,7 @@
     ("", "", "Životvorjáščij krest tvojejá bláhosti, jehóže darovál jesí nám nedostójnym, Hóspodi, tebí prinósim v molítvu: spasí hrád tvój, mír dáruja Bohoródicy rádi, jedíne čelovikoľúbče."),
     ("", "", "Prečístomu óbrazu tvojemú poklaňájemsja blahíj, prosjášče proščénija prehrišénij nášich Christé Bóže: vóleju bo bláhovolíl jesí plótiju vzýti na krest, da izbáviši jáže sozdál jesí ot rabóty vrážija. Ťím blahodárstvenno vopijém tí: rádosti ispólnil jesí vsjá Spáse náš, prišédyj spastí mír."),
     ("Múčeničen", "", "Tebé oďivájuščaho nébo óblaki, imúšče svjatíji oďijánije v míri, múki ot bezzakónnych preterpíša, i prélesť ídoľskuju uprazdníša. Ťích molítvami i nás svobodí ot nevídimaho vrahá, Spáse, i spasí nás."),
-    ("Krestobohoródičen", "", "Predstojášči u krestá tvojehó, jáže bez símene róždšaja ťá Christé, i ne terpjášči zríti neprávedne stráždušča, rydáše s pláčem, i vopijáše tí: káko stráždeši, íže jestestvóm bezstrásten, sladčájšij Sýne? Pojú tvojú krájňuju bláhosť."),
+    ("Krestobohoródičen", "", "Pred-stojášči u krestá tvojehó, jáže bez símene róždšaja ťá Christé, i ne terpjášči zríti neprávedne stráždušča, rydáše s pláčem, i vopijáše tí: káko stráždeši, íže jestestvóm bezstrásten, sladčájšij Sýne? Pojú tvojú krájňuju bláhosť."),
   ),
   "S3": (
     ("", "", "Jáko razbójnik ispovíduju, i vopijú ti blahómu: pomjaní mja Hóspodi, vo cárstviji tvojém: i s ním mjá sopričtí, íže vóleju strásti nás rádi preterpívyj."),
@@ -186,7 +186,7 @@
         ("", "", "Bohoprotívnoje veľínije bezzakónnujuščaho mučíteľa, vysók plámeň voznesló jésť: Christós že prostré Bohočestívym otrokóm rósu duchóvnuju, sýj blahoslovén i preproslávlen."),
         ("", "", "Pádša mjá prestuplénijem vozdvíhl jesí, na krest vozdvížen íže vsích Voskresénije, i sovozdvižénije Slóve: i nizvérhl jesí svérhšaho boríteľa, vsehó bezďíľna mértva pokazál jesí. Sláva deržávi tvojéj."),
         ("", "", "Hvozďmí prihvozdíl jesí Christé hrichí práotca, tróstiju že bijém, napisál jesí svobódu vsím čelovíkom. Sláva stradániju tvojemú, ímže izbávichomsja ťmý strastéj."),
-        ("Múčeničen", "", "Sikómi býša po ťilesém skvernoubíjstvennymi rukámi, dobropobídniji Christóvy velikomúčenicy, i prebyváchu dúchom ot Bóha nerazlučími, sikúšče múžestva mečém, i zakalájušče ľstívaho vrahá."),
+        ("Múčeničen", "", "Sikómi býša po ťilesém skvernoubíjstven-nymi rukámi, dobropobídniji Christóvy velikomúčenicy, i prebyváchu dúchom ot Bóha nerazlučími, sikúšče múžestva mečém, i zakalájušče ľstívaho vrahá."),
         ("Múčeničen", "", "Kríposť nepoborímuju raspénšahosja Christá imíja, vóinstvo nepobidímoje, hubíteľnoje vóinstvo v konéc pohubí: postradáv že, vinéc pobídy priját, žízň blažénnuju i nehíblemuju."),
         ("Bohoródičen", "", "Paláta oduševlénnaja caréva, i prestól ohneobráznyj Ďívo pokazálasja jesí, na némže siďá, vozdvíže ot pérvaho padénija vsjá čelovíki, i sosidénijem otéčeskim počté."),
       ),
@@ -226,7 +226,7 @@
       ),
       "2": (
         ("", "", "Beznačáľna rodíteľa Sýn, Bóh i Hospóď, voplóščsja ot Ďívy nám javísja, omračénnaja prosvitíti, sobráti rastočénnaja. Ťím vsepítuju Bohoródicu veličájem."),
-        ("", "", "Čelovikoľúbca Hóspoda jedínaho mnohomílostivaho, páče umá že i slóva rodilá jesí: tohó molí Ďívo, v čás strášnyj sudá izbáviti rabá tvojehó ohňá víčnaho."),
+        ("", "", "Čelovikoľúbca Hóspoda jedí-naho mnohomílostivaho, páče umá že i slóva rodilá jesí: tohó molí Ďívo, v čás strášnyj sudá izbáviti rabá tvojehó ohňá víčnaho."),
         ("", "", "Nám pojúščym ťá, i víroju slávjaščym, i k božéstvennomu tvojemú pokróvu prísno pritekájuščym, podážď s nebesé razrišénije ľútych, i múčaščich strastéj, Bohonevísto, i múki i sudá izbávi."),
         ("", "", "Krasén vo viďíniji, vo vkušéniji že horčájšij, íže mené umorívyj hrichá plód, jehóže napitáchsja v sýtosť, strášnaho čáju sudá, ot nehóže mjá ischití presvjatája Ďívo Máti."),
         ("", "", "Ublaží prečístaja, smirénnoje sérdce mojé, ozlóblennoje slastnými zatvóry, jáko blahómu rodíteľnica, i blahá súšči vsjá: i k pokajániju mjá blahích dveréj vvedí."),

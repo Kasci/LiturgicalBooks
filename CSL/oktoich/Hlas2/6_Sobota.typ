@@ -133,7 +133,7 @@
         ("", "", "Zakóny sobľudájušče Dúcha, pervosvjaščénnicy premúdrenno upasóste ľúdi, jáko kórmčiji preizrjádniji na božéstvenňi pristánišči, i preložívšesja ot žitéjskich mólv, k tišiňí preidóste životá."),
         ("", "", "Na zemlí prišéľcy javístesja, preložívše otcý žízň vášu na nebesá, jákože píšet, blahočestnomúdrenňi, i plotskíja strásti obuzdávše boľízňmi vozderžánija, síloju Christóvoju."),
         ("", "", "Íchže prevél jesí Vladýko, ot vrémennaho žitijá mnohočíslennoje mnóžestvo, v pravoslávňij poslužívšyja tebí Slóve víri, vsích spasájemych mnóžestvom sočetáv, víčnaho spodóbi životá."),
-        ("", "", "Mértvosti božéstvennyja želájušče, žízň bezkonéčnuju chodátajstvujušče voístinnu, tobóju prečístaja Vladýčice Bohorodíteľnice, čestnýja žený spodóbišasja tojá, moľášče Sýna tvojehó i Bóha o nás."),
+        ("", "", "Mértvosti božéstvennyja želájušče, žízň bezkonéč-nuju chodátajstvujušče voístinnu, tobóju prečístaja Vladýčice Bohorodíteľnice, čestnýja žený spodóbišasja tojá, moľášče Sýna tvojehó i Bóha o nás."),
         ("Bohoródičen", "", "Hóru prisínnuju zrít ťá dobroďítelmi, prorók Avvakúm Bohoródice, iz nejáže javísja Bóh neizrečénno, dobroďíteliju pokrýv nebesá, i ród čelovíčeskij iz istľínija spasýj."),
       ),
       "2": (

@@ -187,7 +187,7 @@
         ("", "", "Bóže vsjáčeskich, Ninevíťany zapreščénija raždájuščaho smérť, pokájavšyjasja drévle spásl jesí: tákožde jedíne čelovikoľúbče, premnóhim bludóm oskvernénnoje sérdce mojé, nýňi obraščájuščejesja, ľútych izbávi múk."),
         ("Múčeničen", "", "Ujazvísja ľúťi, ujazvíti voschoťívyj vás zloďíj, Bohoblažénniji božéstvenniji múčenicy, i neiscílen prebýsť, vsím že vírnym iscilénije jázvy váša javíšasja, ujázvlenym prilóhom vétchaho zapináteľa."),
         ("Múčeničen", "", "Ni zviréj ľútych, ni mučítelej preščénija, ni ohňá, ni rán, ni mečá sekúščaho, ni razžžénnych ubojástesja sosúd, no jákože v čuždích ťilesích vsjá preterpíste velikomúčency: sehó rádi vinčáni býste."),
-        ("Bohoródičen", "", "Neveščéstvennaho svíta žilíšče črévo tvojé býsť, prečístaja Bohonevísto otrokovíce, svítlosťmi božéstvennaho rázuma bezbóžije othnávšaho, jehóže pojúšče zovém: blahoslovén Bóh otéc nášich."),
+        ("Bohoródičen", "", "Neveščés-tvennaho svíta žilíšče črévo tvojé býsť, prečístaja Bohonevísto otrokovíce, svítlosťmi božéstvennaho rázuma bezbóžije othnávšaho, jehóže pojúšče zovém: blahoslovén Bóh otéc nášich."),
       ),
       "2": (
         ("", "", "Vitíji javíšasja ótrocy, ľubomúdrijšiji drévle, ot Bohoprijátnyja bo duší, Bohoslóvjašče ustnámi pojáchu: prebožéstvennyj otcév i náš Bóže blahoslovén jesí."),

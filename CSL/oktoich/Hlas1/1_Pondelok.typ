@@ -188,7 +188,7 @@
         ("", "", "Premnóžestvom bludá, Hóspodi, dúšu oskverních ľúťi. Prevoschoďáščuju úbo Christé imýj blahostýňu, prijimí jáko blúdnaho, i pojúšča mjá uščédri: prepítyj otcév Bóh, i preproslávlen."),
         ("Múčeničen", "", "Zakónom Christóvym blahomóščno ukripľájemi, bezzakónnych sovíty pohubíša, nepobidímiji múčenicy, zakónno že skončávšesja, vospiváchu: prepítyj otcév Bóh blahoslovén jesí."),
         ("Múčeničen", "", "Bohozárniji Hospódni múčenicy, raspalájemi svítom Tróičeskim, jávi mučénija ťmú, i prélesti mhlú razrušíste, pojúšče: prepítyj otcév Bóh, i preproslávlen."),
-        ("Bohoródičen", "", "Zakóni jestestvá v tebí obnovľájutsja: zakonodávca bo Christá kromí zakón plotskích raždáješi, vseneporóčnaja, vsím izbavlénije zakonopolahájušča pojúščym: prepítyj otcév Bóh i preproslávlen."),
+        ("Bohoródičen", "", "Zakóni jestestvá v tebí obnovľájutsja: zakonodávca bo Christá kromí zakón plotskích raždáješi, vseneporóčnaja, vsím izbavlénije zakonopolahá-jušča pojúščym: prepítyj otcév Bóh i preproslávlen."),
       ),
       "2": (
         ("", "", "Tebé úmnuju Bohoródice, péšč razsmotrjájem vírniji: jákože bo ótroki spasé trí prevoznosímyj, mír obnoví, vo črévi tvojém vsecíl, chváľnyj otcév Bóh, i preproslávlen."),
