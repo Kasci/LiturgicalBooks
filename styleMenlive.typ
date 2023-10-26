@@ -136,7 +136,7 @@
         )
       }
       tbl.insert(0,(primText[$#sym.II$], irmos))
-      tbl.insert(1,(primText[$#sym.PP$], makeGray(make("Presvjatája Bohoródice spasí nás."))))
+      tbl.insert(1,(primText[$#sym.rho$], makeGray(make("Presvjatája Bohoródice spasí nás."))))
       tbl.push((primText[S:], semilast))  
       tbl.push((primText[I:], last))  
       styleTable(tbl)
@@ -167,7 +167,7 @@
         )
       }
       tbl.insert(0,(primText[$#sym.II$], irmos)) 
-      tbl.insert(1,(primText[$#sym.PP$], makeGray(make("Presvjatája Tróice Bóže náš, sláva tebí."))))   
+      tbl.insert(1,(primText[$#sym.rho$], makeGray(make("Presvjatája Tróice Bóže náš, sláva tebí."))))   
       tbl.push((primText[S:], semilast))  
       tbl.push((primText[I:], last))  
       styleTable(tbl)
@@ -286,7 +286,7 @@
           // TODO: pridat pripivy
           if dayIdx == 0 {
             let p = pripiv(dayIdx, i, 0)
-            tbl.insert(1,(primText[$#sym.PP$], makeGray(make(p))))   
+            tbl.insert(1,(primText[$#sym.rho$], makeGray(make(p))))   
           }
           if typ != none {
             tbl.insert(0, ("", make(secText(typ.at(i - 1))))            )
@@ -318,6 +318,18 @@
   make("Ispovímsja tebí Hóspodi, vsím sérdcem mojím, povím vsjá čudesá tvojá."),
 )
 
+#let stichiry = (
+  "x": (
+    make("Ispólnichomsja zaútra mílosti tvojejá Hóspodi, i vozrádovachomsja i vozveselíchomsja, vo vsjá dní náša vozveselíchomsja, za dní, v ňáže smiríl ný jesí, ľíta, v ňáže víďichom zlája: i prízri na rabý tvojá, i na ďilá tvojá, i nastávi sýny ích."),
+    make("I búdi svítlosť Hóspoda Bóha nášeho na nás, i ďilá rúk nášich isprávi na nás, i ďílo rúk nášich isprávi.")
+  ),
+  "6": (
+    make("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
+    make("Dúšy ích vo blahích vodvorjátsja."),
+    make("I pámjať ích v ród i ród.")
+  )
+)
+
 #let hlasUtieren(day, dayIdx) = {
   let c = counter("day")
 
@@ -346,9 +358,9 @@
       }
       if dayIdx == 0 {
         if i == 1 {
-          tbl.insert(1, (primText[$#sym.SS #sym.TT$],makeGray(make("Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá."))))
+          tbl.insert(1, ([],makeGray(make("Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá."))))
         } else if i == 2 {
-          tbl.insert(1, (primText[$#sym.SS #sym.TT$],makeGray(make("Ispovímsja tebí Hóspodi vsím sérdcem mojím, povím vsjá čudesá tvojá."))))
+          tbl.insert(1, ([],makeGray(make("Ispovímsja tebí Hóspodi vsím sérdcem mojím, povím vsjá čudesá tvojá."))))
         }
       }
       tbl.push((primText[S:I:], last))    
@@ -434,14 +446,24 @@
 
   if "ST" in day {
     [==== Stichíry stichóvňi]
-    let (..verse, last) = day.at("ST")
-    c.update(verse.len())
+    let (first, ..verse, last) = day.at("ST")
+    let s = ()
+    if str(dayIdx) in stichiry {
+      s = stichiry.at(str(dayIdx))
+    } else {
+      s = stichiry.at("x")
+    }
+    let stichy = s.slice(-1*(verse.len()))
+    c.update(1)
+    let z = verse.zip(stichy)
     let tbl = {
-      verse.map(k => (
-            primText[#c.display("i:"); #c.update(c => c - 1)], k
+      z.map(k => (
+            primText[#c.display("i:"); #c.step()], k.at(0),
+            [], makeGray(k.at(1))
         )
       )
     }
+    tbl.insert(0, (primText[#c.display("i:"); #c.step()], first))
     tbl.push((primText[S:I:], last))
     styleTable(tbl)
   }
@@ -483,7 +505,7 @@
           primText[#c.display("i:"); #c.update(c => c - 1)], k.at(0)
         )} else {(
           primText[#c.display("i:"); #c.update(c => c - 1)], k.at(0), 
-          primText[$#sym.SS #sym.TT$], makeGray(k.at(1))
+          [], makeGray(k.at(1))
         )}
       )
     }
