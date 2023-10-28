@@ -68,46 +68,51 @@
 )
 
 #let hlasVecieren(day, dayidx) = {
-  [==== Hóspodi, vozzvách]
-
   let c = counter("day")
-  let (..verse, last) = day.at("HV")
-  c.update(verse.len())
-  let h = hospodi.slice(-1*(verse.len()))
-  let z = verse.zip(h)
-  let tbl = {
-    z.map(k => (
-          primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
-          [], makeGray(k.at(1))
-      )
-    )
-  }
-  tbl.push((primText[S:I:], last))
-  styleTable(tbl)
-
-  [==== Stichíry na stichovňi]
   
-  let (first, ..verse, last) = day.at("S")
-  c.update(2)
-  let stichy = ()
-  if (str(dayidx) in stichiry) {
-    stichy = stichiry.at(str(dayidx))
-  } else {
-    stichy = stichiry.at("x")
-  }
-  let s = stichy.slice(-1*(verse.len()))
-  let z = verse.zip(s)
-  let tbl = {
-    z.map(k => (
-        primText[#c.display("i:"); #c.step()], k.at(0),
-          [], makeGray(k.at(1))
+  if "HV" in day {
+    [==== Hóspodi, vozzvách]
+
+    let (..verse, last) = day.at("HV")
+    c.update(verse.len())
+    let h = hospodi.slice(-1*(verse.len()))
+    let z = verse.zip(h)
+    let tbl = {
+      z.map(k => (
+            primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
+            [], makeGray(k.at(1))
+        )
       )
-    )
+    }
+    tbl.push((primText[S:I:], last))
+    styleTable(tbl)
   }
-  c.update(1)
-  tbl.insert(0, (primText[#c.display("i:"); #c.step()], first))
-  tbl.push((primText[S:I:], last))
-  styleTable(tbl)
+
+  if "S" in day {
+    [==== Stichíry na stichovňi]
+
+    let (first, ..verse, last) = day.at("S")
+    c.update(2)
+    let stichy = ()
+    if (str(dayidx) in stichiry) {
+      stichy = stichiry.at(str(dayidx))
+    } else {
+      stichy = stichiry.at("x")
+    }
+    let s = stichy.slice(-1*(verse.len()))
+    let z = verse.zip(s)
+    let tbl = {
+      z.map(k => (
+          primText[#c.display("i:"); #c.step()], k.at(0),
+            [], makeGray(k.at(1))
+        )
+      )
+    }
+    c.update(1)
+    tbl.insert(0, (primText[#c.display("i:"); #c.step()], first))
+    tbl.push((primText[S:I:], last))
+    styleTable(tbl)
+  }
 
   if "T" in day {
     [==== Tropar]
@@ -403,11 +408,13 @@
       #primText[Stich:] #versv.at(2)
     ]
   }
-  
-  [==== Kanon]
 
-  let kanon = day.at("K")
-  kanonUtieren(kanon, dayIdx)
+  if "K" in day { 
+    [==== Kanon]
+
+    let kanon = day.at("K")
+    kanonUtieren(kanon, dayIdx)
+  }
 
   if "CH" in day {
     [==== Chvalite]
