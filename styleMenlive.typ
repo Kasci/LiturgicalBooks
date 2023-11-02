@@ -380,7 +380,7 @@
   }
 
   if "A1" in day [==== Stepénny]
-  for i in range(1,4) {
+  for i in range(1,5) {
     let a = "A"+str(i)
     if a in day {
       [===== Antifón #i]
