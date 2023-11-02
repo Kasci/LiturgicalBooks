@@ -242,7 +242,7 @@
   }
 }
 
-#let hlasUtieren(day, dayIdx, typs, pripivy, sd_st, ch_st) = {
+#let hlasUtieren(day, dayIdx, typs, pripivy, sd_st, ch_st, su_st) = {
   let c = counter("day")
 
   if "T" in day {
@@ -344,7 +344,7 @@
     } else {
       /* TYZDEN */
       let (..verse, last) = day.at("CH")
-      let b = chvalite.slice(-1*(verse.len()+2),-2)
+      let b = ch_st.slice(-1*(verse.len()+2),-2)
       let z = verse.zip(b)
       c.update(verse.len())
       tbl = {
@@ -363,10 +363,10 @@
     [==== Stichíry stichóvňi]
     let (first, ..verse, last) = day.at("ST")
     let s = ()
-    if str(dayIdx) in stichiry {
-      s = stichiry.at(str(dayIdx))
+    if str(dayIdx) in su_st {
+      s = su_st.at(str(dayIdx))
     } else {
-      s = stichiry.at("x")
+      s = su_st.at("x")
     }
     let stichy = s.slice(-1*(verse.len()))
     c.update(1)
@@ -454,110 +454,110 @@
             so_v, so_p, so_u, so_l,
             h_st, s_st, p_st, n_st,
             typs, pripivy,
-            sd_st, ch_st, b_st) = [
+            sd_st, ch_st, su_st, b_st) = [
   #show: rest => columns(2, rest)
   
   == Nedeľa
-  // === Malá večiereň\ (v sobotu večer)
-  // #hlasVecieren(ne_m, -1, h_st, s_st)
-  // #colbreak(weak: true)
-  // === Večiereň\ (v sobotu večer)
-  // #hlasVecieren(ne_v, 0, h_st, s_st)
-  // #colbreak(weak: true)
-  // === Povečerie\ (v sobotu v noci)
-  // #hlasPovecerie(ne_p, p_st)
-  // #colbreak(weak: true)
-  // === Polnočnica
-  // #hlasPolnocnica(ne_n, n_st)
-  // #colbreak(weak: true)
-  === Utiereň
-  #hlasUtieren(ne_u, 0, typs, pripivy, sd_st, ch_st)
+  === Malá večiereň\ (v sobotu večer)
+  #hlasVecieren(ne_m, -1, h_st, s_st)
   #colbreak(weak: true)
-  // === Liturgia
-  // #hlasLiturgia(ne_l, b_st)
-  // #colbreak(weak: true)
+  === Večiereň\ (v sobotu večer)
+  #hlasVecieren(ne_v, 0, h_st, s_st)
+  #colbreak(weak: true)
+  === Povečerie\ (v sobotu v noci)
+  #hlasPovecerie(ne_p, p_st)
+  #colbreak(weak: true)
+  === Polnočnica
+  #hlasPolnocnica(ne_n, n_st)
+  #colbreak(weak: true)
+  === Utiereň
+  #hlasUtieren(ne_u, 0, typs, pripivy, sd_st, ch_st, su_st)
+  #colbreak(weak: true)
+  === Liturgia
+  #hlasLiturgia(ne_l, b_st)
+  #colbreak(weak: true)
   
-  // == Pondelok
-  // === Večiereň\ (v nedeľu večer)
-  // #hlasVecieren(po_v, 1, h_st, s_st)
-  // #colbreak(weak: true)
-  // === Povečerie\ (v nedeľu v noci)
-  // #hlasPovecerie(po_p, p_st)
-  // #colbreak(weak: true)
-  // === Utiereň
-  // #hlasUtieren(po_u, 1)
-  // #colbreak(weak: true)
-  // === Liturgia
-  // #hlasLiturgia(po_l, b_st)
-  // #colbreak(weak: true)
+  == Pondelok
+  === Večiereň\ (v nedeľu večer)
+  #hlasVecieren(po_v, 1, h_st, s_st)
+  #colbreak(weak: true)
+  === Povečerie\ (v nedeľu v noci)
+  #hlasPovecerie(po_p, p_st)
+  #colbreak(weak: true)
+  === Utiereň
+  #hlasUtieren(po_u, 1, typs, pripivy, sd_st, ch_st, su_st)
+  #colbreak(weak: true)
+  === Liturgia
+  #hlasLiturgia(po_l, b_st)
+  #colbreak(weak: true)
   
-  // == Utorok
-  // === Večiereň\ (v pondelok večer)
-  // #hlasVecieren(ut_v, 2, h_st, s_st)
-  // #colbreak(weak: true)
-  // === Povečerie\ (v pondelok v noci)
-  // #hlasPovecerie(ut_p, p_st)
-  // #colbreak(weak: true)
-  // === Utiereň
-  // #hlasUtieren(ut_u, 2)
-  // #colbreak(weak: true)
-  // === Liturgia
-  // #hlasLiturgia(ut_l, b_st)
-  // #colbreak(weak: true)
+  == Utorok
+  === Večiereň\ (v pondelok večer)
+  #hlasVecieren(ut_v, 2, h_st, s_st)
+  #colbreak(weak: true)
+  === Povečerie\ (v pondelok v noci)
+  #hlasPovecerie(ut_p, p_st)
+  #colbreak(weak: true)
+  === Utiereň
+  #hlasUtieren(ut_u, 2, typs, pripivy, sd_st, ch_st, su_st)
+  #colbreak(weak: true)
+  === Liturgia
+  #hlasLiturgia(ut_l, b_st)
+  #colbreak(weak: true)
   
-  // == Streda
-  // === Večiereň\ (v utorok večer)
-  // #hlasVecieren(sr_v, 3, h_st, s_st)
-  // #colbreak(weak: true)
-  // === Povečerie\ (v utorok v noci)
-  // #hlasPovecerie(sr_p, p_st)
-  // #colbreak(weak: true)
-  // === Utiereň
-  // #hlasUtieren(sr_u, 3)
-  // #colbreak(weak: true)
-  // === Liturgia
-  // #hlasLiturgia(sr_l, b_st)
-  // #colbreak(weak: true)
+  == Streda
+  === Večiereň\ (v utorok večer)
+  #hlasVecieren(sr_v, 3, h_st, s_st)
+  #colbreak(weak: true)
+  === Povečerie\ (v utorok v noci)
+  #hlasPovecerie(sr_p, p_st)
+  #colbreak(weak: true)
+  === Utiereň
+  #hlasUtieren(sr_u, 3, typs, pripivy, sd_st, ch_st, su_st)
+  #colbreak(weak: true)
+  === Liturgia
+  #hlasLiturgia(sr_l, b_st)
+  #colbreak(weak: true)
   
-  // == Štvrtok
-  // === Večiereň\ (v stredu večer)
-  // #hlasVecieren(st_v, 4, h_st, s_st)
-  // #colbreak(weak: true)
-  // === Povečerie\ (v stredu v noci)
-  // #hlasPovecerie(st_p, p_st)
-  // #colbreak(weak: true)
-  // === Utiereň
-  // #hlasUtieren(st_u, 4)
-  // #colbreak(weak: true)
-  // === Liturgia
-  // #hlasLiturgia(st_l, b_st)
-  // #colbreak(weak: true)
+  == Štvrtok
+  === Večiereň\ (v stredu večer)
+  #hlasVecieren(st_v, 4, h_st, s_st)
+  #colbreak(weak: true)
+  === Povečerie\ (v stredu v noci)
+  #hlasPovecerie(st_p, p_st)
+  #colbreak(weak: true)
+  === Utiereň
+  #hlasUtieren(st_u, 4, typs, pripivy, sd_st, ch_st, su_st)
+  #colbreak(weak: true)
+  === Liturgia
+  #hlasLiturgia(st_l, b_st)
+  #colbreak(weak: true)
   
-  // == Piatok
-  // === Večiereň\ (vo štvrtok večer)
-  // #hlasVecieren(pi_v, 5, h_st, s_st)
-  // #colbreak(weak: true)
-  // === Povečerie\ (v štvrtok v noci)
-  // #hlasPovecerie(pi_p, p_st)
-  // #colbreak(weak: true)
-  // === Utiereň
-  // #hlasUtieren(pi_u, 5)
-  // #colbreak(weak: true)
-  // === Liturgia
-  // #hlasLiturgia(pi_l, b_st)
-  // #colbreak(weak: true)
+  == Piatok
+  === Večiereň\ (vo štvrtok večer)
+  #hlasVecieren(pi_v, 5, h_st, s_st)
+  #colbreak(weak: true)
+  === Povečerie\ (v štvrtok v noci)
+  #hlasPovecerie(pi_p, p_st)
+  #colbreak(weak: true)
+  === Utiereň
+  #hlasUtieren(pi_u, 5, typs, pripivy, sd_st, ch_st, su_st)
+  #colbreak(weak: true)
+  === Liturgia
+  #hlasLiturgia(pi_l, b_st)
+  #colbreak(weak: true)
   
-  // == Sobota
-  // === Večiereň\ (v piatok večer)
-  // #hlasVecieren(so_v, 6, h_st, s_st)
-  // #colbreak(weak: true)
-  // === Povečerie\ (v piatok v noci)
-  // #hlasPovecerie(so_p, p_st)
-  // #colbreak(weak: true)
-  // === Utiereň
-  // #hlasUtieren(so_u, 6)
-  // #colbreak(weak: true)
-  // === Liturgia
-  // #hlasLiturgia(so_l, b_st)
-  // #colbreak(weak: true)
+  == Sobota
+  === Večiereň\ (v piatok večer)
+  #hlasVecieren(so_v, 6, h_st, s_st)
+  #colbreak(weak: true)
+  === Povečerie\ (v piatok v noci)
+  #hlasPovecerie(so_p, p_st)
+  #colbreak(weak: true)
+  === Utiereň
+  #hlasUtieren(so_u, 6, typs, pripivy, sd_st, ch_st, su_st)
+  #colbreak(weak: true)
+  === Liturgia
+  #hlasLiturgia(so_l, b_st)
+  #colbreak(weak: true)
 ]

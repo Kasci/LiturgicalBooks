@@ -21,4 +21,4 @@
         V_So, P_So, U_So, L_So,
         h_st, s_st, p_st, n_st,
         typs, pripivy,
-        sd_st, ch_st, b_st)
+        sd_st, ch_st, su_st, b_st)
