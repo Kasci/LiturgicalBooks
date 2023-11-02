@@ -1,6 +1,6 @@
 #let V_Sr = (
   "HV": (
-    ("","Ne ktomú","Drévo izhná mja drévle iz rajá, nýňi že drévo k rajú vozvedé, tebí raspénšusja Christé."),
+    ("","Ne ktomú vozbraňájemi","Drévo izhná mja drévle iz rajá, nýňi že drévo k rajú vozvedé, tebí raspénšusja Christé."),
     ("","","Čúdo strášno, sozdániju káko sozdáteľ predstojá, osuždájem jésť, i raspinájem, na spasénije čelovíkov!"),
     ("","","Kreste Christóv, ánhel svjatých čúdo, dijávolu že i bisóm velíkaja jázva, spasáj rabý tvojá."),
     ("","Dnés bdít Júda","Víďašči prostérta na drévi áhnca, neskvérnaja áhnica i Ďíva, posreďí dvojú razbójniku, uvý mňí, vopijáše, sladčájšeje mojé čádo! Čtó stránnoje sijé, i preslávnoje táinstvo? Káko ťá bezzakónnyj sobór na krest vozdvíže, i žélčiju napojí, mánny nasýtivšaho čelovíki?"),

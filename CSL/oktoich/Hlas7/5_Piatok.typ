@@ -1,6 +1,6 @@
 #let V_Pi = (
   "HV": (
-    ("","Ne ktomú","Da čelovíka Bóha soďílaješi, čelovík býl jesí preblahíj Christé, i raspjálsja jesí: sláva síľi tvojéj."),
+    ("","Ne ktomú vozbraňájemi","Da čelovíka Bóha soďílaješi, čelovík býl jesí preblahíj Christé, i raspjálsja jesí: sláva síľi tvojéj."),
     ("","","Jehdá na krest ťá Iisúse, sónm jevréjskij osudí, zemľá trjasášesja, i sólnca svít skryvášesja."),
     ("","","Térnijem ťá bezsmértne, vinčá sobór bezzakónnyj, prélesti térnije iz kórene sikúšča, carjú svjatýj."),
     ("","Dnés bdít Júda","Víďašči prostérta na drévi áhnca, neskvérnaja áhnica i Ďíva, posreďí dvojú razbójniku, uvý mňí, vopijáše, sladčájšeje mojé čádo! Čtó stránnoje sijé i preslávnoje táinstvo? Káko ťá bezzakónnyj sónm na krest vozdvíže, i žélči napojí, mánny nasýščšaho čelovíki?"),

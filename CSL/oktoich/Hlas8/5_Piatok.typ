@@ -1,6 +1,6 @@
 #let V_Pi = (
   "HV": (
-    ("","O preslávnaho čudesé","Živonósnyj sád, krest presvjatýj, na vysotú voznosím javľájetsja dnés: slavoslóvjat vsí koncý zemníji, ustrašájutsja démonskija polkí. o kakovýj dár zemným darovásja! Ímže Christé spasí dúšy náša, jáko jedín blahoutróben."),
+    ("","O preslávnaho čudesé!","Živonósnyj sád, krest presvjatýj, na vysotú voznosím javľájetsja dnés: slavoslóvjat vsí koncý zemníji, ustrašájutsja démonskija polkí. o kakovýj dár zemným darovásja! Ímže Christé spasí dúšy náša, jáko jedín blahoutróben."),
     ("","","O preslávnaho čudesé! Jáko hrózd ispólnen životá, ponesýj výšňaho, ot zemlí vozdvizájem krest víditsja dnés: ímže vsí k Bóhu privlekóchomsja, i požérta býsť do koncá smérť. O drévo prečestnóje! ímže vosprijáchom vo Jedémi bezsmértnuju píšču, Christá slávjašče."),
     ("","","O mnóhija tvojejá bláhosti, jáže k nám Iisúse bláže! Káko sebé smiríl jesí, i býl jesí čelovík, i postradáti izvólil jesí, krest i smérť ponósnuju, za nepotrébnyja rabý preterpív? kotóryj tí dostójnyj dár prinesém Bohopodóbnyj? Tóčiju slávim ťá blahodarjášče vírniji."),
     ("","","O neizrečénnyja bláhosti voplóščšahosja iz tebé Bohoródice vsepítaja! Krest bo i smérť jáko čelovikoľúbec preterpív, da mír spasét, jehóže sozdá. Tohó molí i mené okajánnaho i mnohoboľíznennaho da izbávit múki: i iďíže svít sijájet nevečérnij, vselít mjá."),
@@ -91,7 +91,7 @@
     ("Krestobohoródičen","","Íže ot krovéj tvojích čístych voplóščšahosja, i páče umá ot tebé čístaja rodívšahosja, na drévi vísjašča posreďí zloďíjev zrjášči, utróboju boľáše, i Máterski pláčušči vopijáše: uvý mňí čádo mojé! Čtó božéstvennoje i neizrečénnoje smotrénije tvojé, ímže oživíl jesí sozdánije tvojé? Vospiváju tvojé blahoutróbije."),
   ),
   "S3": (
-    ("","Poveľínnoje","Tvojím krestóm Christé Spáse i smértiju, mučíteľstvo vrážije nizložísja, i smérť umertvísja, i mértvyja jáže imíjaše ád ot víka v sebí svjázannyja, vnezápu otpustí pľínniki vsjá, vospivájuščyja deržávu tvojú, i strášnoje tvojé bláže, i božéstvennoje schoždénije, ímže vsích spásl jesí."),
+    ("","Poveľínnoje tájno","Tvojím krestóm Christé Spáse i smértiju, mučíteľstvo vrážije nizložísja, i smérť umertvísja, i mértvyja jáže imíjaše ád ot víka v sebí svjázannyja, vnezápu otpustí pľínniki vsjá, vospivájuščyja deržávu tvojú, i strášnoje tvojé bláže, i božéstvennoje schoždénije, ímže vsích spásl jesí."),
     ("","","Obožénija lóžnaho upovánija rodonačálnik tľínija, jáže ot nehó vsím vinóven javísja. Tý že krestóm tvojím žízň istočáješi jáko prebláhíj: vóleju bo prihvoždén býl jesí, da ot pérvaho razrišíši osuždénija. Ťímže vospivájem tvojú Christé vóľnuju strásť."),
     ("Krestobohoródičen","","Neskvérnaja áhnica, áhnca i pástyrja vísjašča na kresťí zrjášči, vopijáše: čádo mojé, čtó stránnoje úbo i nenadéžnoje sijé zrínije? Káko žízň vsích smértiju osuždájetsja zemným podóbňi? No voskresní tridnévno iz mértvych Slóve, jákože rékl jesí: da rádujuščisja slávľu ťá."),
   ),

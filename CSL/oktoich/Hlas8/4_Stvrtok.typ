@@ -91,7 +91,7 @@
     ("Bohoródičen","","Predstáteľnice vírnych Bohorodíteľnice, skorbjáščich rádoste, i pláčuščich velíkoje uťišénije, iz čréva tvojehó Ďívo vsesvjatáho, páče jestestvá róždšahosja neprestánno o nás so apóstoly svjatými molí, izbáviti nás v čás ispytánija, ľútaho osuždénija."),
   ),
   "S3": (
-    ("","Poveľínnoje","Svitíla javístesja svítlaja, Christóvy samovídcy, vsehdá vsjú zémľu prosviščájušče, i ťmú othoňájušče mnohobóžija, svítom blahočéstija učéňmi: ťímže mjá súšča vo ťmí strastéj, bez strácha choďášča, prosvitíte vášimi svjatými molítvami, Bohonósniji apóstoli."),
+    ("","Poveľínnoje tájno","Svitíla javístesja svítlaja, Christóvy samovídcy, vsehdá vsjú zémľu prosviščájušče, i ťmú othoňájušče mnohobóžija, svítom blahočéstija učéňmi: ťímže mjá súšča vo ťmí strastéj, bez strácha choďášča, prosvitíte vášimi svjatými molítvami, Bohonósniji apóstoli."),
     ("","","Mréžeju slovés božéstvennych, áki rýby živolovjášče slovésnyja, ťích privedóste, načátok Bóhu nášemu: i Christóvy rány vozľúbľše, v ních oblekóstesja, i podražátelije strástéj jehó javístesja. Ťímže sošédšesja po dólhu počitájem apóstoli slávniji, váše nýňi toržestvó, i sohlásno zovém: molítesja Christú Bóhu, prehrišénij ostavléniju darovátisja, čtúščym ľubóviju svjatúju pámjať vášu."),
     ("Bohoródičen","","Nepostižímaho Slóva Sýna Bóžija, neskazánno páče umá iz tebé róždšahosja Bohoródice, molí so apóstoly, umirénije čísto vselénňij podáti, i prehrišénij darováti nám préžde koncá proščénije, i cárstvija nebésnaho, krájnija rádi bláhosti, spodóbiti rabý tvojá."),
   ),

@@ -1,6 +1,6 @@
 #let V_So = (
   "HV": (
-    ("","Ne ktomú","Múčenicy ťmú bezbóžija prohnáša, vsím pokazávše čelovíkom bohorazúmija svít."),
+    ("","Ne ktomú vozbraňájemi","Múčenicy ťmú bezbóžija prohnáša, vsím pokazávše čelovíkom bohorazúmija svít."),
     ("","","Učéniji pravoslávnymi, božéstvennymi zarjámi osijáste Hospódňu cérkov, pástyrije vsemúdriji."),
     ("","","Bisóv sokrušíste síti, vodvorjájemi v pustýňach neprochódnych prísno, otcý prepodóbniji."),
     ("Múčeničen","","Spáse, ne postydí mené, jehdá priídeši sudíti míru vsemú, stúdnaja ďilá sotvóršaho."),

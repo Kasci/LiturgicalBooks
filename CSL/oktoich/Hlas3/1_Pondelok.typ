@@ -1,6 +1,6 @@
 #let V_Po = (
   "HV": (
-    ("", "Vélija múčenik tvojích", "Veľmí sohrešájušča mjá, i tebé ohorčevájušča blaháho Vladýku, i mílostiva jestestvóm, obraščájuščasja, jáko blúdnaho prijimí mja, i jedínaho ot najémnik tvojích sotvorí mja, nebésnyj Ótče."),
+    ("", "Vélija múčenik", "Veľmí sohrešájušča mjá, i tebé ohorčevájušča blaháho Vladýku, i mílostiva jestestvóm, obraščájuščasja, jáko blúdnaho prijimí mja, i jedínaho ot najémnik tvojích sotvorí mja, nebésnyj Ótče."),
     ("", "", "Ľínostiju žitijá míru preidóch, i k koncú užé okajánnyj priblížichsja, ne pomyšľáju ždúščaho mjá sudá, i ot Bóha otpadénija: no obratív mjá Spáse sích vsích ischití."),
     ("", "", "Hejénny, i zubnáho skréžeta izbávi Hóspodi, smirénnuju mojú dúšu, i vsjákaho inóho tomlénija víčnaho preblahíj: jáko da víroju ťá pojú mílostivaho Bóha i čelovikoľúbca jestestvóm."),
     ("", "", "Líki bezplótnych Hóspodi, sostávil jesí, bohátstvo javľája vsím tvojejá bláhosti: i privél jesí ot nebytijá vo jéže býti, páče umá slávu tvojú nýňi slávjaščich hlásy nemólčnymi."),

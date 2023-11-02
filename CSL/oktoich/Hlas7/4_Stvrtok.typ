@@ -1,6 +1,6 @@
 #let V_St = (
   "HV": (
-    ("","Ne ktomú","Bohorazúmija slávniji apóstoli rálom vozďílavše zémľu vsjú, vírnych mnóžestvo vozrastíste."),
+    ("","Ne ktomú vozbraňájemi","Bohorazúmija slávniji apóstoli rálom vozďílavše zémľu vsjú, vírnych mnóžestvo vozrastíste."),
     ("","","Strastéj mojích razrušíte zímu, i tišinú mi vozsijájte, čístaho prolítija, blažénniji apóstoli."),
     ("","","Jáko učenicý Slóva, ot nesmýslstva privedóste k rázumu Bóžiju jazýkov sobóry."),
     ("","","Jákože préžde izbávil jesí ótče, vojevódy umréti imúščyja, molítvami tvojími Nikólaje, tákožde i nýňi nás spasí."),
