@@ -64,6 +64,7 @@
   "6": (
     make("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
     make("Dúšy ích vo blahích vodvorjátsja."),
+    make("")
   ),
   "x": (
     make("K tebí vozvedóch óči mojí, živúščemu na nebesí. Sé jáko óči ráb v rukú hospódij svojích, jáko óči rabýni v rukú hospoží svojejá: táko óči náši ko Hóspodu Bóhu nášemu, dóndeže uščédrit ný."),
@@ -103,7 +104,7 @@
     } else {
       stichy = stichiry.at("x")
     }
-    let s = stichy.slice(-1*(verse.len()))
+    let s = stichy.slice(verse.len())
     let z = verse.zip(s)
     let tbl = {
       z.map(k => (

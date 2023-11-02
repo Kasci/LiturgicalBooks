@@ -14,10 +14,6 @@
     ("Múčeničen","","Ščitóm víry obólkšesja, i óbrazom krestnym sebé ukrípľše, k múkam múžeski vdášasja, i dijávoľu hordýňu i lésť nizložíša svjatíji tvojí Hóspodi: ťích moľbámi jáko vsesílen Bóh, mírovi mír nizposlí, i dušám nášym véliju mílosť."),
     ("Bohoródičen","","Utolí boľízni mnohovozdychájuščija duší mojejá, utolívšaja vsjáku slézu ot licá zemlí. Tý bo čelovíkom boľízni othoňáješi, i hríšnych skórbi razrušáješi: tebé bo vsí sťažáchom nadéždu i utverždénije, presvjatája Máti Ďívo."),
   ),
-  "T": (
-    ("","",""),
-    ("","",""),
-  ),
 )
 #let P_Ut = (
   "1": (
@@ -255,9 +251,4 @@
     ("Tróičen","","Nepostižímyj Bóže, vsesíľnaja Tróice i jedínice, molítvami Predtéči tvojehó spasí mja, izbavľájušči ťmý, i plámene predležáščaho mí."),
     ("Bohoródičen","","Vsehdá lukávymi Ďívo, ďijáňmi oskverňájem, ťá neskvérnuju Vladýki Máter moľú: skvérny mjá vsjákija očísti Vladýčice."),
   ),
-  "TKB": (
-    ("","",""),
-    ("","",""),
-    ("","",""),
-  )
 )
