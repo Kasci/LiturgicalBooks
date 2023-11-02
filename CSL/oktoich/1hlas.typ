@@ -1,4 +1,3 @@
-#import "/style.typ": *
 #import "/styleMenlive.typ": *
 #import "./texts.typ": *
 
@@ -20,4 +19,6 @@
         V_St, P_St, U_St, L_St, 
         V_Pi, P_Pi, U_Pi, L_Pi, 
         V_So, P_So, U_So, L_So,
-        h_st, s_st)
+        h_st, s_st, p_st, n_st,
+        typs, pripivy, 
+        sd_st, ch_st, b_st)

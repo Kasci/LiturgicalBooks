@@ -6,6 +6,11 @@
   txt
 }
 
+#let makeSec(txt) = {
+  txt.at(2) = text(10pt, secText(txt.at(2)))
+  txt
+}
+
 #let styleOne(k) = [
   #if k.at(1).len() > 0 [#secText[($#sym.PP:$ #k.at(1))]\ ]
   #if k.at(0).len() > 0 [#secText[#k.at(0):]] #k.at(2)
@@ -93,7 +98,7 @@
   }
 }
 
-#let hlasPovecerie(day) = {
+#let hlasPovecerie(day, p_st) = {
   for k in range(1,10) {
     if str(k) in day {
       let c = counter("kanon-vers")
@@ -108,7 +113,7 @@
         )
       }
       tbl.insert(0,(primText[$#sym.II$], irmos))
-      tbl.insert(1,(primText[$#sym.rho$], makeGray(make("Presvjatája Bohoródice spasí nás."))))
+      tbl.insert(1,(primText[$#sym.rho$], makeGray(p_st)))
       tbl.push((primText[S:], semilast))  
       tbl.push((primText[I:], last))  
       styleTable(tbl)
@@ -124,7 +129,7 @@
   }
 }
 
-#let hlasPolnocnica(day) = {
+#let hlasPolnocnica(day, n_st) = {
   for k in range(1,10) {
     if str(k) in day {
       let c = counter("kanon-vers")
@@ -139,7 +144,7 @@
         )
       }
       tbl.insert(0,(primText[$#sym.II$], irmos)) 
-      tbl.insert(1,(primText[$#sym.rho$], makeGray(make("Presvjatája Tróice Bóže náš, sláva tebí."))))   
+      tbl.insert(1,(primText[$#sym.rho$], makeGray(n_st)))   
       tbl.push((primText[S:], semilast))  
       tbl.push((primText[I:], last))  
       styleTable(tbl)
@@ -162,53 +167,11 @@
   }
 }
 
-#let pripivy = (
-  "0": (
-    ("Sláva Hóspodi svjatómu voskreséniju tvojemú."),
-    ("Sláva Hóspodi krestú tvojemú i voskreséniju."), //FIXME: chcek correct translation
-    ("Presvjatája Bohoródice, spasi nás.") //FIXME: chcek correct translation
-  ),
-  "6": () 
-)
-
-#let pripiv(day, kanon, stich) = {
+#let pripiv(pripivy, day, kanon, stich) = {
   pripivy.at(str(day)).at(int(kanon)-1)
 }
 
-// TODO: move to corresponding language package
-#let typs = (
-  "0": (
-    "Kanón voskrésnyj",
-    "Kanón krestovoskresnyj",
-    "Kanón presvjaťíj Bohoródici"
-  ),
-  "1": (
-    "Kanón umilíteľnyj",
-    "Kanón bezplótnym"
-  ),
-  "2": (
-    "Kanón pokajánen",
-    "Kanón svjatómu velíkomu proróku Joánnu predtéči"
-  ),
-  "3": (
-    "Kanón čestnómu i životvorjáščemu krestú",
-    "Kanón presvjaťíj Bohoródici"
-  ),
-  "4": (
-    "Kanón svjatým apóstolom",
-    "Kanón Nikoláju čudotvórcu"
-  ),
-  "5": (
-    "Kanón čéstnómu i životvorjáščemu krestú",
-    "Kanón presvjaťíj Bohoródici"
-  ),
-  "6": (
-    "Kanón svjatým múčenikom, i svjatítelem, i prepodóbnym i usópšym",
-    "Kanón usópšym"
-  )
-)
-
-#let kanonUtieren(kanon, dayIdx) = {
+#let kanonUtieren(kanon, dayIdx, typs, pripivy) = {
   let typ = typs.at(str(dayIdx))
   if "?" in kanon {
     typ = kanon.at("?")
@@ -257,11 +220,11 @@
           }
           // TODO: pridat pripivy
           if dayIdx == 0 {
-            let p = pripiv(dayIdx, i, 0)
+            let p = pripiv(pripivy, dayIdx, i, 0)
             tbl.insert(1,(primText[$#sym.rho$], makeGray(make(p))))   
           }
           if typ != none {
-            tbl.insert(0, ("", make(secText(typ.at(i - 1))))            )
+            tbl.insert(0, ("", makeSec(make(typ.at(i - 1)))))
           }
           styleTable(tbl)
         }
@@ -279,30 +242,7 @@
   }
 }
 
-#let chvalite = (
-  make("Sotvoríti v ních súd napísan, sláva sijá búdet vsím prepodóbnym jehó."),
-  make("Chvalíte Bóha vo svjatých jehó, chvalíte jehó v utverždéniji síly jehó."),
-  make("Chvalíte jehó na sílach jehó, * chvalíte jehó po mnóžestvu velíčestvija jehó."),
-  make("Chvalíte jehó v hlási trúbňim, * chvalíte jehó v psaltíri i húsľich."),
-  make("Chvalíte jehó v tympáňi i líci, * chvalíte jehó v strúnach i orháňi."),
-  make("Chvalíte jehó v kymváľich dobrohlásnych, chvalíte jehó v kymváľich vosklicánija, * vsjákoje dychánije da chvalít Hóspoda."),
-  make("Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá."),
-  make("Ispovímsja tebí Hóspodi, vsím sérdcem mojím, povím vsjá čudesá tvojá."),
-)
-
-#let stichiry = (
-  "x": (
-    make("Ispólnichomsja zaútra mílosti tvojejá Hóspodi, i vozrádovachomsja i vozveselíchomsja, vo vsjá dní náša vozveselíchomsja, za dní, v ňáže smiríl ný jesí, ľíta, v ňáže víďichom zlája: i prízri na rabý tvojá, i na ďilá tvojá, i nastávi sýny ích."),
-    make("I búdi svítlosť Hóspoda Bóha nášeho na nás, i ďilá rúk nášich isprávi na nás, i ďílo rúk nášich isprávi.")
-  ),
-  "6": (
-    make("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
-    make("Dúšy ích vo blahích vodvorjátsja."),
-    make("I pámjať ích v ród i ród.")
-  )
-)
-
-#let hlasUtieren(day, dayIdx) = {
+#let hlasUtieren(day, dayIdx, typs, pripivy, sd_st, ch_st) = {
   let c = counter("day")
 
   if "T" in day {
@@ -328,11 +268,12 @@
           )
         )
       }
+      // TODO: move
       if dayIdx == 0 {
         if i == 1 {
-          tbl.insert(1, ([],makeGray(make("Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá."))))
+          tbl.insert(1, ([],makeGray(sd_st.at(0))))
         } else if i == 2 {
-          tbl.insert(1, ([],makeGray(make("Ispovímsja tebí Hóspodi vsím sérdcem mojím, povím vsjá čudesá tvojá."))))
+          tbl.insert(1, ([],makeGray(sd_st.at(1))))
         }
       }
       tbl.push((primText[S:I:], last))    
@@ -380,7 +321,7 @@
     [==== Kanon]
 
     let kanon = day.at("K")
-    kanonUtieren(kanon, dayIdx)
+    kanonUtieren(kanon, dayIdx, typs, pripivy)
   }
 
   if "CH" in day {
@@ -389,7 +330,7 @@
     if dayIdx == 0 {
       /* NEDELA */
       let (..verse) = day.at("CH")
-      let b = chvalite.slice(-1*(verse.len()))
+      let b = ch_st.slice(-1*(verse.len()))
       let z = verse.zip(b)
       c.update(verse.len())
       tbl = {
@@ -452,26 +393,13 @@
   }
 }
 
-#let blazenstva = (
-  make("Blažéni níščiji Dúchom, jáko ťích jésť cárstvo nebésnoje."),
-  make("Blažéni pláčuščiji, jáko tíji uťíšatsja."),
-  make("Blažéni krótcyji, jáko tíji nasľíďat zémľu."),
-  make("Blaženi alčuščiji i žažduščiji pravdy, jako tiji nasyťatsja."),
-  make("Blaženi milostiviji, jako tiji pomilovani budut."),
-  make("Blažéni čístiji sérdcem, jáko tíji Bóha úzrjat."),
-  make("Blažéni mirotvórcy, jáko tíji Sýnove Bóžiji narekútsja."),
-  make("Blažéni izhnáni právdy rádi, jáko ťích jésť cárstvo nebésnoje."),
-  make("Blažéni jesté, jehdá ponósjat vám, i iždenút, i rekút vsják zól hlahól na vý lžúšče mené rádi."),
-  make("Rádujtesja i veselítesja, jáko mzdá váša mnóha na nebesích.")
-)
-
-#let hlasLiturgia(day) = {
+#let hlasLiturgia(day, b_st) = {
   if "B" in day {
     [==== Blažénna]
     let c = counter("day")
     let (..verse, semilast, last) = day.at("B")
     c.update(verse.len())
-    let b = blazenstva.slice(-1*(verse.len()))
+    let b = b_st.slice(-1*(verse.len()))
     let z = verse.zip(b)
     let tbl = {
       z.map(k => 
@@ -524,110 +452,112 @@
             st_v, st_p, st_u, st_l, 
             pi_v, pi_p, pi_u, pi_l, 
             so_v, so_p, so_u, so_l,
-            h_st, s_st) = [
+            h_st, s_st, p_st, n_st,
+            typs, pripivy,
+            sd_st, ch_st, b_st) = [
   #show: rest => columns(2, rest)
   
   == Nedeľa
-  === Malá večiereň\ (v sobotu večer)
-  #hlasVecieren(ne_m, -1, h_st, s_st)
-  #colbreak(weak: true)
-  === Večiereň\ (v sobotu večer)
-  #hlasVecieren(ne_v, 0, h_st, s_st)
-  #colbreak(weak: true)
+  // === Malá večiereň\ (v sobotu večer)
+  // #hlasVecieren(ne_m, -1, h_st, s_st)
+  // #colbreak(weak: true)
+  // === Večiereň\ (v sobotu večer)
+  // #hlasVecieren(ne_v, 0, h_st, s_st)
+  // #colbreak(weak: true)
   // === Povečerie\ (v sobotu v noci)
-  // #hlasPovecerie(ne_p)
+  // #hlasPovecerie(ne_p, p_st)
   // #colbreak(weak: true)
   // === Polnočnica
-  // #hlasPolnocnica(ne_n)
+  // #hlasPolnocnica(ne_n, n_st)
   // #colbreak(weak: true)
-  // === Utiereň
-  // #hlasUtieren(ne_u, 0)
-  // #colbreak(weak: true)
+  === Utiereň
+  #hlasUtieren(ne_u, 0, typs, pripivy, sd_st, ch_st)
+  #colbreak(weak: true)
   // === Liturgia
-  // #hlasLiturgia(ne_l)
+  // #hlasLiturgia(ne_l, b_st)
   // #colbreak(weak: true)
   
   // == Pondelok
   // === Večiereň\ (v nedeľu večer)
-  // #hlasVecieren(po_v, 1)
+  // #hlasVecieren(po_v, 1, h_st, s_st)
   // #colbreak(weak: true)
   // === Povečerie\ (v nedeľu v noci)
-  // #hlasPovecerie(po_p)
+  // #hlasPovecerie(po_p, p_st)
   // #colbreak(weak: true)
   // === Utiereň
   // #hlasUtieren(po_u, 1)
   // #colbreak(weak: true)
   // === Liturgia
-  // #hlasLiturgia(po_l)
+  // #hlasLiturgia(po_l, b_st)
   // #colbreak(weak: true)
   
   // == Utorok
   // === Večiereň\ (v pondelok večer)
-  // #hlasVecieren(ut_v, 2)
+  // #hlasVecieren(ut_v, 2, h_st, s_st)
   // #colbreak(weak: true)
   // === Povečerie\ (v pondelok v noci)
-  // #hlasPovecerie(ut_p)
+  // #hlasPovecerie(ut_p, p_st)
   // #colbreak(weak: true)
   // === Utiereň
   // #hlasUtieren(ut_u, 2)
   // #colbreak(weak: true)
   // === Liturgia
-  // #hlasLiturgia(ut_l)
+  // #hlasLiturgia(ut_l, b_st)
   // #colbreak(weak: true)
   
   // == Streda
   // === Večiereň\ (v utorok večer)
-  // #hlasVecieren(sr_v, 3)
+  // #hlasVecieren(sr_v, 3, h_st, s_st)
   // #colbreak(weak: true)
   // === Povečerie\ (v utorok v noci)
-  // #hlasPovecerie(sr_p)
+  // #hlasPovecerie(sr_p, p_st)
   // #colbreak(weak: true)
   // === Utiereň
   // #hlasUtieren(sr_u, 3)
   // #colbreak(weak: true)
   // === Liturgia
-  // #hlasLiturgia(sr_l)
+  // #hlasLiturgia(sr_l, b_st)
   // #colbreak(weak: true)
   
   // == Štvrtok
   // === Večiereň\ (v stredu večer)
-  // #hlasVecieren(st_v, 4)
+  // #hlasVecieren(st_v, 4, h_st, s_st)
   // #colbreak(weak: true)
   // === Povečerie\ (v stredu v noci)
-  // #hlasPovecerie(st_p)
+  // #hlasPovecerie(st_p, p_st)
   // #colbreak(weak: true)
   // === Utiereň
   // #hlasUtieren(st_u, 4)
   // #colbreak(weak: true)
   // === Liturgia
-  // #hlasLiturgia(st_l)
+  // #hlasLiturgia(st_l, b_st)
   // #colbreak(weak: true)
   
   // == Piatok
   // === Večiereň\ (vo štvrtok večer)
-  // #hlasVecieren(pi_v, 5)
+  // #hlasVecieren(pi_v, 5, h_st, s_st)
   // #colbreak(weak: true)
   // === Povečerie\ (v štvrtok v noci)
-  // #hlasPovecerie(pi_p)
+  // #hlasPovecerie(pi_p, p_st)
   // #colbreak(weak: true)
   // === Utiereň
   // #hlasUtieren(pi_u, 5)
   // #colbreak(weak: true)
   // === Liturgia
-  // #hlasLiturgia(pi_l)
+  // #hlasLiturgia(pi_l, b_st)
   // #colbreak(weak: true)
   
   // == Sobota
   // === Večiereň\ (v piatok večer)
-  // #hlasVecieren(so_v, 6)
+  // #hlasVecieren(so_v, 6, h_st, s_st)
   // #colbreak(weak: true)
   // === Povečerie\ (v piatok v noci)
-  // #hlasPovecerie(so_p)
+  // #hlasPovecerie(so_p, p_st)
   // #colbreak(weak: true)
   // === Utiereň
   // #hlasUtieren(so_u, 6)
   // #colbreak(weak: true)
   // === Liturgia
-  // #hlasLiturgia(so_l)
+  // #hlasLiturgia(so_l, b_st)
   // #colbreak(weak: true)
 ]
