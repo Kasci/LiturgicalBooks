@@ -172,6 +172,10 @@
 )
 
 #let U_Ne = (
+  "T": (
+    ("","","Ánheľskija síly na hróbi tvojém, i strehúščiji omertvíša: i stojáše Maríja vo hróbi, íščušči prečístaho ťíla tvojehó. Pľiníl jesí ád, ne iskusívsja ot nehó: srítil jesí Ďívu dárujaj živót. Voskrésýj iz mértvych, Hóspodi sláva tebí."),
+    ("Bohoródičen","","Bláhoslovénnuju narekíj tvojú Máter, prišél jesí na strásť vóľnym choťínijem, vozsijáv na kresťí, vzyskáti choťá Adáma, hlahóľa ánhelom: srádujtesja mňí, jáko obrítesja pohíbšaja dráchma, vsjá múdre ustróivyj Bóže náš, sláva tebí."),
+  ),
   "S1": (
     ("","","Hróbu otvérstu, ádu pláčuščusja, Maríja vopijáše ko skrývšymsja apóstolom: izydíte vinohráda ďílatelije, propovídite voskrésnija slóvo: voskrése Hospóď, podajá mírovi véliju mílosť."),
     ("","","Hóspodi, predstojáše hróbu tvojemú Maríja Mahdalína, i plákaše vopijúšči, vertohrádarja ťá mňášči, hlahólaše: hďí sokrýl jesí véčnyj živót? Hďí položíl jesí, íže na prestóľi cheruvímsťim? Strehúščiji bo sehó, ot strácha omertvíša. Ilí Hóspoda mojehó dadíte mí, ilí so mnóju vozopíjte: íže v mértvych býv, i mértvyja voskresív, sláva tebí."),
