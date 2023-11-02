@@ -1,5 +1,6 @@
 #import "/style.typ": *
 #import "/styleMenlive.typ": *
+#import "./texts.typ": *
 
 = Hlas 1
 
@@ -18,4 +19,5 @@
         V_Sr, P_Sr, U_Sr, L_Sr, 
         V_St, P_St, U_St, L_St, 
         V_Pi, P_Pi, U_Pi, L_Pi, 
-        V_So, P_So, U_So, L_So)
+        V_So, P_So, U_So, L_So,
+        h_st, s_st)

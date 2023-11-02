@@ -1,8 +1,5 @@
 #import "/style.typ": *
-
-#let make(txt) = {
-  ("", "", txt)
-}
+#import "/utilsMenlive.typ": *
 
 #let makeGray(txt) = {
   txt.at(2) = text(10pt, grayText(txt.at(2)))
@@ -37,42 +34,7 @@
   )
 }
 
-#let hospodi = (
-  make("Izvedí iz temnícy dúšu mojú, ispovídatisja ímeni tvojemú."),
-  make("Mené ždút právednicy, dóndeže vozdási mňi."),
-  make("Iz hlubiný vozvách k tebí Hóspodi, Hóspodi uslýši hlas moj."),
-  make("Da búdut úši tvojí vnémľušči hlásu molénija mojehó."),
-  make("Ašče bezzakónija nazriši Hóspodi, Hóspodi kto postojít, jáko u tebé očiščénije jesť."),
-  make("Imené rádi tvojehó poterpích ťa Hóspodi, poterpí dušá mojá vo slóvo tvojé, upová dušá mojá na Hóspoda."),
-  make("Ot stráži útrenija do nóšči, ot stráži útrénija da upovájet Isrájiľ na Hóspoda."),
-  make("Jáko u Hóspoda mílosť i mnóhoje u ného izbavlénije, i toj izbávit isrájiľa ot vsich bezzakónij jehó."),
-  make("Chvalíte Hóspoda vsi jazýcy, pochvalíte jehó vsi ľúdije."),
-  make("Jáko utverdísja mílosť jehó na nás, i ístina Hospódňa prebyvájet vo vík."),
-)
-
-#let stichiry = (
-  "-1": (
-    make("Pomjanú ímja tvojé vo vsjákom róďi i róďi."),
-    make("Slýši dščí i vížď, i prikloní úcho tvojé."),
-    make("Licú tvojemú pomóľatsja bohátiji ľúdstiji.")
-  ),
-  "0": (
-    make("Hospóď vocarísja, v ľipótu oblečésja."),
-    make("Íbo utverdí vselénnuju, jáže ne podvížitsja."),
-    make("Dómu tvojemú podobájet svjatýňa Hóspodi, v dolhotú dníj."),
-  ),
-  "6": (
-    make("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
-    make("Dúšy ích vo blahích vodvorjátsja."),
-    make("")
-  ),
-  "x": (
-    make("K tebí vozvedóch óči mojí, živúščemu na nebesí. Sé jáko óči ráb v rukú hospódij svojích, jáko óči rabýni v rukú hospoží svojejá: táko óči náši ko Hóspodu Bóhu nášemu, dóndeže uščédrit ný."),
-    make("Pomíluj nás Hóspodi, pomíluj nás, jáko po mnóhu ispólnichomsja uničižénija: naipáče napólnisja dušá náša ponošénija hobzújuščich i uničižénija hórdych."),
-  )
-)
-
-#let hlasVecieren(day, dayidx) = {
+#let hlasVecieren(day, dayidx, h_st, s_st) = {
   let c = counter("day")
   
   if "HV" in day {
@@ -80,7 +42,7 @@
 
     let (..verse, last) = day.at("HV")
     c.update(verse.len())
-    let h = hospodi.slice(-1*(verse.len()))
+    let h = h_st.slice(-1*(verse.len()))
     let z = verse.zip(h)
     let tbl = {
       z.map(k => (
@@ -99,13 +61,13 @@
     let (first, ..verse, last) = day.at("S")
     c.update(2)
     let stichy = ()
-    if (str(dayidx) in stichiry) {
-      stichy = stichiry.at(str(dayidx))
+    if (str(dayidx) in s_st) {
+      stichy = s_st.at(str(dayidx))
     } else {
-      stichy = stichiry.at("x")
+      stichy = s_st.at("x")
     }
-    let s = stichy.slice(verse.len())
-    let z = verse.zip(s)
+    // let s = stichy.slice(-1*(verse.len()))
+    let z = verse.zip(stichy)
     let tbl = {
       z.map(k => (
           primText[#c.display("i:"); #c.step()], k.at(0),
@@ -561,110 +523,111 @@
             sr_v, sr_p, sr_u, sr_l, 
             st_v, st_p, st_u, st_l, 
             pi_v, pi_p, pi_u, pi_l, 
-            so_v, so_p, so_u, so_l) = [
+            so_v, so_p, so_u, so_l,
+            h_st, s_st) = [
   #show: rest => columns(2, rest)
   
   == Nedeľa
   === Malá večiereň\ (v sobotu večer)
-  #hlasVecieren(ne_m, -1)
+  #hlasVecieren(ne_m, -1, h_st, s_st)
   #colbreak(weak: true)
   === Večiereň\ (v sobotu večer)
-  #hlasVecieren(ne_v, 0)
+  #hlasVecieren(ne_v, 0, h_st, s_st)
   #colbreak(weak: true)
-  === Povečerie\ (v sobotu v noci)
-  #hlasPovecerie(ne_p)
-  #colbreak(weak: true)
-  === Polnočnica
-  #hlasPolnocnica(ne_n)
-  #colbreak(weak: true)
-  === Utiereň
-  #hlasUtieren(ne_u, 0)
-  #colbreak(weak: true)
-  === Liturgia
-  #hlasLiturgia(ne_l)
-  #colbreak(weak: true)
+  // === Povečerie\ (v sobotu v noci)
+  // #hlasPovecerie(ne_p)
+  // #colbreak(weak: true)
+  // === Polnočnica
+  // #hlasPolnocnica(ne_n)
+  // #colbreak(weak: true)
+  // === Utiereň
+  // #hlasUtieren(ne_u, 0)
+  // #colbreak(weak: true)
+  // === Liturgia
+  // #hlasLiturgia(ne_l)
+  // #colbreak(weak: true)
   
-  == Pondelok
-  === Večiereň\ (v nedeľu večer)
-  #hlasVecieren(po_v, 1)
-  #colbreak(weak: true)
-  === Povečerie\ (v nedeľu v noci)
-  #hlasPovecerie(po_p)
-  #colbreak(weak: true)
-  === Utiereň
-  #hlasUtieren(po_u, 1)
-  #colbreak(weak: true)
-  === Liturgia
-  #hlasLiturgia(po_l)
-  #colbreak(weak: true)
+  // == Pondelok
+  // === Večiereň\ (v nedeľu večer)
+  // #hlasVecieren(po_v, 1)
+  // #colbreak(weak: true)
+  // === Povečerie\ (v nedeľu v noci)
+  // #hlasPovecerie(po_p)
+  // #colbreak(weak: true)
+  // === Utiereň
+  // #hlasUtieren(po_u, 1)
+  // #colbreak(weak: true)
+  // === Liturgia
+  // #hlasLiturgia(po_l)
+  // #colbreak(weak: true)
   
-  == Utorok
-  === Večiereň\ (v pondelok večer)
-  #hlasVecieren(ut_v, 2)
-  #colbreak(weak: true)
-  === Povečerie\ (v pondelok v noci)
-  #hlasPovecerie(ut_p)
-  #colbreak(weak: true)
-  === Utiereň
-  #hlasUtieren(ut_u, 2)
-  #colbreak(weak: true)
-  === Liturgia
-  #hlasLiturgia(ut_l)
-  #colbreak(weak: true)
+  // == Utorok
+  // === Večiereň\ (v pondelok večer)
+  // #hlasVecieren(ut_v, 2)
+  // #colbreak(weak: true)
+  // === Povečerie\ (v pondelok v noci)
+  // #hlasPovecerie(ut_p)
+  // #colbreak(weak: true)
+  // === Utiereň
+  // #hlasUtieren(ut_u, 2)
+  // #colbreak(weak: true)
+  // === Liturgia
+  // #hlasLiturgia(ut_l)
+  // #colbreak(weak: true)
   
-  == Streda
-  === Večiereň\ (v utorok večer)
-  #hlasVecieren(sr_v, 3)
-  #colbreak(weak: true)
-  === Povečerie\ (v utorok v noci)
-  #hlasPovecerie(sr_p)
-  #colbreak(weak: true)
-  === Utiereň
-  #hlasUtieren(sr_u, 3)
-  #colbreak(weak: true)
-  === Liturgia
-  #hlasLiturgia(sr_l)
-  #colbreak(weak: true)
+  // == Streda
+  // === Večiereň\ (v utorok večer)
+  // #hlasVecieren(sr_v, 3)
+  // #colbreak(weak: true)
+  // === Povečerie\ (v utorok v noci)
+  // #hlasPovecerie(sr_p)
+  // #colbreak(weak: true)
+  // === Utiereň
+  // #hlasUtieren(sr_u, 3)
+  // #colbreak(weak: true)
+  // === Liturgia
+  // #hlasLiturgia(sr_l)
+  // #colbreak(weak: true)
   
-  == Štvrtok
-  === Večiereň\ (v stredu večer)
-  #hlasVecieren(st_v, 4)
-  #colbreak(weak: true)
-  === Povečerie\ (v stredu v noci)
-  #hlasPovecerie(st_p)
-  #colbreak(weak: true)
-  === Utiereň
-  #hlasUtieren(st_u, 4)
-  #colbreak(weak: true)
-  === Liturgia
-  #hlasLiturgia(st_l)
-  #colbreak(weak: true)
+  // == Štvrtok
+  // === Večiereň\ (v stredu večer)
+  // #hlasVecieren(st_v, 4)
+  // #colbreak(weak: true)
+  // === Povečerie\ (v stredu v noci)
+  // #hlasPovecerie(st_p)
+  // #colbreak(weak: true)
+  // === Utiereň
+  // #hlasUtieren(st_u, 4)
+  // #colbreak(weak: true)
+  // === Liturgia
+  // #hlasLiturgia(st_l)
+  // #colbreak(weak: true)
   
-  == Piatok
-  === Večiereň\ (vo štvrtok večer)
-  #hlasVecieren(pi_v, 5)
-  #colbreak(weak: true)
-  === Povečerie\ (v štvrtok v noci)
-  #hlasPovecerie(pi_p)
-  #colbreak(weak: true)
-  === Utiereň
-  #hlasUtieren(pi_u, 5)
-  #colbreak(weak: true)
-  === Liturgia
-  #hlasLiturgia(pi_l)
-  #colbreak(weak: true)
+  // == Piatok
+  // === Večiereň\ (vo štvrtok večer)
+  // #hlasVecieren(pi_v, 5)
+  // #colbreak(weak: true)
+  // === Povečerie\ (v štvrtok v noci)
+  // #hlasPovecerie(pi_p)
+  // #colbreak(weak: true)
+  // === Utiereň
+  // #hlasUtieren(pi_u, 5)
+  // #colbreak(weak: true)
+  // === Liturgia
+  // #hlasLiturgia(pi_l)
+  // #colbreak(weak: true)
   
-  == Sobota
-  === Večiereň\ (v piatok večer)
-  #hlasVecieren(so_v, 6)
-  #colbreak(weak: true)
-  === Povečerie\ (v piatok v noci)
-  #hlasPovecerie(so_p)
-  #colbreak(weak: true)
-  === Utiereň
-  #hlasUtieren(so_u, 6)
-  #colbreak(weak: true)
-  === Liturgia
-  #hlasLiturgia(so_l)
-  #colbreak(weak: true)
+  // == Sobota
+  // === Večiereň\ (v piatok večer)
+  // #hlasVecieren(so_v, 6)
+  // #colbreak(weak: true)
+  // === Povečerie\ (v piatok v noci)
+  // #hlasPovecerie(so_p)
+  // #colbreak(weak: true)
+  // === Utiereň
+  // #hlasUtieren(so_u, 6)
+  // #colbreak(weak: true)
+  // === Liturgia
+  // #hlasLiturgia(so_l)
+  // #colbreak(weak: true)
 ]
