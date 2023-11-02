@@ -61,6 +61,10 @@
     make("Íbo utverdí vselénnuju, jáže ne podvížitsja."),
     make("Dómu tvojemú podobájet svjatýňa Hóspodi, v dolhotú dníj."),
   ),
+  "6": (
+    make("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
+    make("Dúšy ích vo blahích vodvorjátsja."),
+  ),
   "x": (
     make("K tebí vozvedóch óči mojí, živúščemu na nebesí. Sé jáko óči ráb v rukú hospódij svojích, jáko óči rabýni v rukú hospoží svojejá: táko óči náši ko Hóspodu Bóhu nášemu, dóndeže uščédrit ný."),
     make("Pomíluj nás Hóspodi, pomíluj nás, jáko po mnóhu ispólnichomsja uničižénija: naipáče napólnisja dušá náša ponošénija hobzújuščich i uničižénija hórdych."),
