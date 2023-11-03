@@ -35,6 +35,8 @@
     header-ascent: 75%,
     footer-descent: 75%
   )
+
+  set text(font: "Imx Glycea", weight: "semibold", lang: "gr")
   set text(font: "Monomakh Unicode", lang: "cu")
   
   // HEADINGS
@@ -65,5 +67,6 @@
 
 #show: project
 
-#include("/CU/oktoich/all.typ")
+// #include("/CU/oktoich/all.typ")
 // #include("/CSL/oktoich/all.typ")
+#include("/GR/oktoich/all.typ")

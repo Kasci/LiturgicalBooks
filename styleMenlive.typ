@@ -21,7 +21,10 @@
     let first = tbl.at(i).at(1).at(2)
     let second = tbl.at(i+1).at(1).at(2)
     if first == second {
-      tbl.at(i+1).at(1).at(2) = [#first.split(" ").slice(0,3).join(" ") ...]
+      let spl = first.split(" ")
+      if spl.len() > 2 {
+        tbl.at(i+1).at(1).at(2) = [#spl.slice(0,3).join(" ") ...]
+      }
     }
   }
   tbl = tbl.map(k => 
