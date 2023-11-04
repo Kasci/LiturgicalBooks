@@ -1,4 +1,4 @@
-#let V_Po = (
+#let V = (
   "HV": (
     ("","Ánheľskija síly","Slézy Spáse, pokajánija mí dážď sokrušénnoju mýsliju: jáko da omýju skvérnu duší mojejá, júže zľí okaľách, ďíjaj neprávednaja na vsják čás, imíja na sijé moľáščuju, tebé róždšuju, i ánheľskija líki, i tvojé čelovikoľúbije."),
     ("","","Hrjadí o dušé! i raskájsja o mnóhich hrisích, jáže soďíjala jesí v žitií, i mnóžestvu výšnich vóinstv molísja, so vozdychánijem že i slezámi: jáko da vrémja podástsja tebí pokajánija, da ne jáko neplódnaja smokóvnica otsléšisja vo óhň hejénskij vsestrástnaja."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Po = (
+#let P = (
   "1": (
     ("","","Jáko po súchu pišešéstvovav Izráiľ, po bézdňi stopámi, honíteľa faraóna víďa potopľájema, Bóhu pobídnuju písň pojím, vopijáše."),
     ("","","Mojehó umá óblak strastéj otžení čístaja, i vozsijáj mí svít, róždšaja prečístaja Sýna, sijánije ótčeje, jáko da vospojú ťa."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Po = (
+#let U = (
   "S1": (
     ("","","Pomyšľáju déň strášnyj, i pláčusja ďijánij mojích lukávych, káko otviščáju bezsmértnomu carjú? Kóim že derznovénijem vozzrjú na sudijú blúdnyj áz? Blahoutróbnyj Ótče, Sýne jedinoródnyj, i Dúše svjatýj, pomíluj mjá."),
     ("","","Vo udóli plačévňij, na mísťi iďíže položí, jehdá sjádeši mílostive, sotvoríti právednyj súd, ne obličí mojá sokrovénnaja, nižé posramí mené pred ánhely: no poščadí mja Bóže, i pomíluj mjá."),
@@ -241,7 +241,7 @@
   ),
 )
 
-#let L_Po = (
+#let L = (
   "B": (
     ("","","Pomjaní mja Bóže Spáse mój, jehdá priídeši vo cárstviji tvojém: i spasí mja jáko jedín čelovikoľúbec."),
     ("","","Prézri jáže v víďiniji i ne v víďiniji soďíjannaja mojá, Iisúse čelovikoľúbče, i spasájemych části spodóbi mjá."),

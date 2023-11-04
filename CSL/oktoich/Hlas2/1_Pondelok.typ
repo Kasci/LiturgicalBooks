@@ -1,4 +1,4 @@
-#let V_Po = (
+#let V = (
   "HV": (
     ("", "Jehdá ot dréva", "Imíjaj blahoutróbija istóčnik, istočájaj že bézdny mílostej, i potóki ščedrót, ótče preblahíj, i Sýne, Slóvo Ótčeje: i Dúše svjatýj, nesozdánnoje jestestvó, prijimí molénije i molítvu nášu, vsím v prehrišénijich súščym podajá proščénije, jáko Bóh ščédr i čelovikoľúbec."),
     ("", "", "Ímaši po jestestvú jáko Bóh, utróbu ščedrót, i mílosti i blahostýni: ťímže mólim ťá Christé Spáse náš, i pripádajušče zovém, prísno tí vopijúšče: dáruj rabóm tvojím prehrišénij mnóhich razrišénije i proščénije vsích, íchže sohrišíchom vsí, jáko Bóh ščédr i čelovikoľúbec."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Po = (
+#let P = (
   "1": (
     ("", "", "Vo hlubiňí postlá inohdá, faraonítskoje vsevójinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť, preproslávlennyj Hospóď, slávno bo proslávisja."),
     ("", "", "Voobrážsja iz tebé po nám, Sólnce nevečérneje, ťá slovésnoje nébo, i svitľíjšeje, jávstvenňi pokazá. Ťímže mjá izbávi strástnaho smráda: jáko da vospojú ľubóviju ťá jedínu Máter Ďívu."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Po = (
+#let U = (
   "S1": (
     ("", "", "Jáko vólny morskíja vostáša na mjá bezzakónija mojá, i jáko korábľ v pučíňi, áz jedín pohružájusja sohrišéňmi mnóhimi: no v tíchoje pristánišče pokajánija nastávi mjá Hóspodi, i spasí mja."),
     ("", "", "Áz jésm drévo neplódnoje, Hóspodi, pokajánija plodá ne tvorjá otňúd, i posičénija bojúsja, i ohňá ónaho ustrašájusja nehasímaho. Ťímže ťá moľú: préžde ónyja bidý obratí i spasí mja."),
@@ -241,7 +241,7 @@
 )
 
 
-#let L_Po = (
+#let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse vo cárstviji tvojém."),
     ("", "", "Spasí mja Hóspodi Bóže, i óbščnika sotvorí části ot duší vozľúbľšym ťá."),

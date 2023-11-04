@@ -1,4 +1,4 @@
-#let V_Po = (
+#let V = (
   "HV": (
     ("","Dnés bdít Bohoródica","Vozvedí tvojí óči, o dušé mojá! I na Bóžije vozzrí smotrénije i blahoutróbije, káko nebesá preklonív na zémľu sníde, da voznesét tebé ot okajánstva tvojích strastéj, i postávit ťá na kámeni víry. O dívstvo strášnaho čudesé! Sláva istoščániju tvojemú čelovikoľúbče."),
     ("","","Vížď tvojá prebezzakónnaja ďilá, o dušé mojá! i počudísja, káko ťá zemľá nósit? Káko ne razsídesja? Káko díviji zvírije ne sňidájut tebé? Káko že i sólnce nezachodímoje sijáti tebí ne prestá? Vostáni, pokájsja, i vozopíj ko Hóspodu: sohriších tí: sohriších, pomíluj mjá."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Po = (
+#let P = (
   "1": (
     ("","","Mánijem tvojím na zemnýj óbraz preložísja, préžde udoborazlivájemoje vodnóje jestestvó Hóspodi: ťímže nemókrenno pišešéstvovav Izráiľ, pojét tebí písň pobídnuju."),
     ("","","Čínove ánhel jáko voístinnu i vrisnotú Máter ťá Bóha vsích čtút prečístaja: no i nýňi ot brénnych ustén mojích prijimí písň molébnuju."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Po = (
+#let U = (
   "S1": (
     ("","","Imúšči dušé mojá, vračevstvó pokajánija, pristupí pripádajušči, i vozdychánijem zovúšči: vračú dúš že i ťilés, čelovikoľúbče, svobodí mja ot mnóhich mojích sohrišénij: sopričtí mja bludníci, i razbójniku, i mytarjú, i dáruj mí Bóže, bezzakónij mojích proščénije, i spasí mja."),
     ("","","Íže Petróvo otveržénije slezámi očístivyj, i mytaréva sohrišénija vozdychánijem prostívyj čelovikoľúbče Hóspodi, pomíluj mjá."),
@@ -241,7 +241,7 @@
   ),
 )
 
-#let L_Po = (
+#let L = (
   "B": (
     ("","","Krasén bé i dóbr v sňíď, íže mené umertvívyj plód: Christós jésť drévo živótnoje, ot nehóže jadýj ne umiráju, no vopijú s razbójnikom: pomjaní mjá Hóspodi, vo cárstviji tvojém."),
     ("","","Jáko vírnaja chananéja zovú v boľízni sérdca mojehó: pomíluj mjá Spáse, jáko bláh: íbo dúšu ímam bídstvujuščuju vsjákimi kozňmí vrážijimi, i oburevájemu prísno."),

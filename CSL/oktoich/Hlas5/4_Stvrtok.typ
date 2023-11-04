@@ -1,4 +1,4 @@
-#let V_St = (
+#let V = (
   "HV": (
     ("","Rádujsja póstnikom","Vsjú prošédše zémľu, vsíjaste božéstvennaja učénija, slóvo tóčiju jáko svíščnik i bohátstvo vsé, učenicý Hospódni nosjášče, ímže carí že i mučíteli posramíste, i ľubomudrecém i vitíjam ľútosť jáko paučínnaja razdráste pleténija, vsích k rázumu prizyvájušče ziždíteľa, i sújetnaja služénija bisóvskaja otémľušče. Ťímže moľú, bezslovésnych izbáviti mjá strastéj molítvami vášimi."),
     ("","","Matéža iskušénij, i ľútyja lží bezčéstnych jereséj, bisóvskaho zlosovítija, i čelovík hórkaho soobščénija i búri vseblažénniji, ohňá nesvitímaho, i víčnujuščaho čérvija, skréžeta zubnáho, i vsjákija inýja múki, k Bóhu moľbámi izbávite vsích nás, i sehó umolíte, vozderžánija rádi i trudóv, dobroďítelej vozdajánij polučíti, nasľídija že nebésnaho cárstvija, i véliju mílosť."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_St = (
+#let P = (
   "1": (
     ("","","Spasíteľu Bóhu, v móri ľúdi nemókrymi nohámi nastávľšemu i faraóna so vsevóinstvom potópľšemu, tomú jedínomu poím, jáko proslávisja."),
     ("","","Svitonósnaja skínije carjá Christá, ozarí mojú mýsľ omračénnuju léstiju borcá, i ťmóju osľiplénnuju prehrišénij mojích."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_St = (
+#let U = (
   "S1": (
     ("","","Jáko samovídcy i sluhí Slóva, premúdryja apóstoly pochválim, písňmi duchóvnymi i píňmi vsí zemníji: tíji bo Christá priľížno móľat o nás, pojúščich svjaščénnuju ích pámjať, i kláňajuščichsja moščém ích."),
     ("","","Apóstoly sohlásno voschválim, jáko samovídcy Slóva, i božéstvennyja propovídniki, i jazýkov duchóvnyja ulovíteli, jáko jávi privedóša nás k poznániju Christá, izbávľše ot prélesti ród čelovíčeskij, i cárstvija spodóbiša."),
@@ -240,7 +240,7 @@
   ),
 )
 
-#let L_St = (
+#let L = (
   "B": (
     ("","","Razbójnik na kresťí, Bóha ťá býti vírovav Christé ispovída ťá čísťi ot sérdca: pomjaní mja Hóspodi, vopijá, vo cárstviji tvojém."),
     ("","","Jákože óblacy svítliji zémľu proidóste božéstvenniji učenicý, vódu živótnuju okropľájušče, i serdcá istájavšaja prehrišéniji bohátno napojájete."),

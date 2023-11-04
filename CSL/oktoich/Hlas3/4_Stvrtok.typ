@@ -1,4 +1,4 @@
-#let V_St = (
+#let V = (
   "HV": (
     ("", "Vélija múčenik", "Molítvami čestných i božéstvennych apóstol tvojích, čelovikoľúbče ščédryj, jedíne mílostive, smirénije tvojé podážď rabóm tvojím, i spasí ot bíd vospivájuščich ťá, i víroju poklaňájuščichsja."),
     ("", "", "Jehdá na prestóľich obojunádesjatich sjádete so vsích Sudijéju, sudíti vsjákoj tvári: ne osuždéna mjá pokažíte, i ťmý i vsjákaho tomlénija izbávite blahodáteli mojí, božéstvenniji apóstoli."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_St = (
+#let P = (
   "1": (
     ("", "", "Vódy drévle mánijem božéstvennym vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš, preproslávlen jésť: tomú jedínomu pojím, jáko proslávisja."),
     ("", "", "Stenánije mí úbo podážď Bohoródice sokrušénnoje, i slézu dušévnuju, jáko da mojích mnóhich prehrišénij pláčusja, i sóvisti neispravlénija otrokovíce, i umoľú milosérdije tvojé."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_St = (
+#let U = (
   "S1": (
     ("", "", "Prijidíte vsí, apóstoly voschválim jáko kórmčyja: ídoľskuju bo prélesť uprazdníša, i k svítu žízni vozvedóša, i v Tróicu vírovati naučíša. Ťímže dnés pámjať ích čestnúju soveršájušče vírniji, slávim Christá Bóha nášeho."),
     ("", "", "Apóstol tvojích pámjať ujasníl jesí Hóspodi, jáko vsesílen, jáko ukripíl jesí ích, strastém tvojím podóbitisja, i pobidíša múžeski vrážiju sílu. Ťímže i prijáša iscilénij blahodáti: ťích molítvami čelovikoľúbče, mír podážď ľúdem tvojím."),
@@ -261,7 +261,7 @@
 )
 
 
-#let L_St = (
+#let L = (
   "B": (
     ("", "", "Otvérhša Christé, zápoviď tvojú, práotca Adáma iz rajá izhnál jesí: razbójnika že ščédre, ispovídaša ťá na kresťí, vóň vselíl jesí, zovúšča: pomjaní mja Spáse, vo cárstviji tvojém."),
     ("", "", "Íže tróstiju krestnoju iz hlubiný nevíďinija ľúdi izvédše apóstoli, i jéllinskuju prélesť othnáste ot zemlí, neléstniji spasítelije býste vírnym voístinnu. Ťímže blažími jesté."),

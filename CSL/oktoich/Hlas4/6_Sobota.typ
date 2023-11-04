@@ -1,4 +1,4 @@
-#let V_So = (
+#let V = (
   "HV": (
     ("", "Dál jesí známenije", "Christá čelovikoľúbca strástém porevnovávše strastotérpcy, ťilesá úbo na rány predáste, i hórkim múkam, ťmám že boľíznem, jáko predzrjášče prísno rajá božéstvennoje naslaždénije, píšču že neiždivájemuju i víčnujuščeje blahoslávije, jéže polučívše, molítesja o vospivájuščich vás."),
     ("", "", "Christá čelovikoľúbca strástém porevnovávše strastotérpcy, ťilesá úbo na rány predáste, i hórkim múkam, ťmám že boľíznem, jáko predzrjášče prísno rajá božéstvennoje naslaždénije, píšču že neiždivájemuju i víčnujuščeje blahoslávije, jéže polučívše, molítesja o vospivájuščich vás."),
@@ -17,7 +17,7 @@
   ),
 )
 
-#let P_So = (
+#let P = (
   "1": (
     ("", "", "Tristáty krípkija, roždéjsja ot Ďívy, bezstrástija vo hlubiňí, duší tričástnoje potopí, moľúsja, da tebí jáko v timpánňi vo umerščvléniji ťilesé, pobídnoje vospojú pínije."),
     ("", "", "Ot kála strastéj, ot pomyšlénij trevolnénija, i ot stríl lukávaho, i ot vsjákaho prilóha soprotívnaho spasí dúšu mojú okajánnuju, prečístaja Bohorodíteľnice, i ohňá víčnaho ischití mja."),
@@ -79,7 +79,7 @@
 	),
 )
 
-#let U_So = (
+#let U = (
   "S1": (
     ("", "", "Dnés ánheľskaja vójinstva v pámjať strastotérpec prijidóša, vírnych mýsli prosvitíti, i vselénnuju blahodátiju ujasníti: ot níchže Bóže, umolén byvája, dáruj nám véliju mílosť."),
     ("", "", "Krestóm vooružívšesja, strastotérpcy tvojí, Christé Bóže náš, pobidíša kózni načalozlóbnaho vrahá, vozsijáša jáko svitíla, čelovíki nastavľájušče, dajút iscilénija víroju prosjáščym. Ťích moľbámi spasí dúšy náša."),
@@ -264,7 +264,7 @@
 )
 
 
-#let L_So = (
+#let L = (
   "B": (
     ("", "", "Drévom Adám rajá býsť izselén: drévom že krestnym razbójnik v ráj vselísja. Óv úbo vkúš, zápoviď otvérže sotvóršaho: óv že sraspinájem, Bóha ispovída tajáščahosja, pomjaní mja vopijá, vo cárstviji tvojém."),
     ("", "", "Raspalájuščesja Christóvoju ľubóviju, svjatíji múčenicy, zločéstija óhň orošénijem pódvih uhasíste, i svitíľnicy mnohosvítliji cérkve javístesja, othoňájušče blahostiju ťmú nedúhov i skorbéj ot dúš nášich. Ťímže dólžno pochvaľájem vás."),

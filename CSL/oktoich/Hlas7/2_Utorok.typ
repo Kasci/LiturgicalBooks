@@ -1,4 +1,4 @@
-#let V_Ut = (
+#let V = (
   "HV": (
     ("","Dnés bdít Júda","Vladýko i Bóže vseščédryj, ímiže vísi suďbámi, dážď mí v sérdci tvój strách imíti, dážď mí hnušátisja ďijánij lukávaho, dážď mí ľubíti ťá ot vsejá duší mojejá, i tvoríti vóľu tvojú spasíteľnuju. tý bo jesí Bóh náš, rekíj: prosíte, i priímete."),
     ("","","Bých úbo bisóm smích, čelovíkom že uničižénije, právednym rydánije, i ánhelom pláč, skvérna vozdúchu, i zemlí i vodám: ťílo bo okaľách, dúšu i úm oskverních bezčíslennymi ďijáňmi, i vráh Bóžij bých. uvý mňí Hóspodi! Sohriších tí, sohriších, prostí mja."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Ut = (
+#let P = (
   "1": (
     ("","","Sokrušívšemu bráni mýšceju svojéju, i vsádniki tristáty pohruzívšemu, pojím jemú, jáko izbáviteľu nášemu Bóhu, jáko proslávisja."),
     ("","","Ťá vinóvnu nášeho spasénija, i božéstvennaho izbavlénija mólim prečístaja: molísja jéže spastísja nám."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Ut = (
+#let U = (
   "S1": (
     ("","","Imúšči, dušé mojá, vračevstvó pokajánija, pristupí pripádajušči i vozdychánijem vopijúšči: vračú dúš že i ťilés, svobodí mja čelovikoľúbče, ot mnóhich mojích sohrišénij, sopričtí mja bludníci i razbójniku, i mytarjú: i dáruj mí Bóže, bezzakónij mojích proščénije i spasí mja."),
     ("","","Íže Petróvo otveržénije slezámi očístiv, i mytaréva sohrišénija vozdychánijem prostív, čelovikoľúbče Hóspodi pomíluj mjá."),
@@ -244,7 +244,7 @@
   ),
 )
 
-#let L_Ut = (
+#let L = (
   "B": (
     ("","","Krasén bí i dóbr v sňíď, íže mené umertvívyj plód: Christós jésť drévo živótnoje, ot nehóže jadýj ne umiráju, no vopijú s razbójnikom: pomjaní mja Hóspodi, vo cárstviji tvojém."),
     ("","","Strúpy mojehó sérdca neiscíľnyja, Hóspodi, uvračúj, jáko jedín vráč dúš že i ťilés: i stupáti mí právo vsehdá pospíj vo spasíteľnyja putí."),

@@ -1,4 +1,4 @@
-#let V_Ut = (
+#let V = (
   "HV": (
     ("", "Krestoobrázno", "Júže vo mňí mnohoobráznyj zmíj, uvíďiv ľínosť k poléznym ďilóm, i manovénijem ko zlým i hóršym preobrazújetsja, pokazúja hrichá sládosť, svojé že hórkoje ďílanije, i soprotívnoje božéstvennym zápovidem. Ťímže i porivájet mjá nrávom, jáko dóbraja, zlája prijimáti lukávym, Christé."),
     ("", "", "Vsják púť bezzakónija i hrichóvnyj šéstvovav usérdno, ostáviv právyj do koncá, nýňi ko vratóm smértnym priblížichsja, uťisňájem zovú: životá nášeho puťú, Iisúse mój preblahíj, k široťí pokajánija ístinnaho obratív spasí, dážď mí ispravlénije: i préžde smérti, proščénija božéstvennaho spodóbi mjá."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Ut = (
+#let P = (
   "1": (
     ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
     ("", "", "V ľínosti žitijé skončáv, priblížichsja k koncú žitijá mojehó: no samá Prečístaja, poné v posľídneje vrémja, dážď mí umilénije, moľúsja, jáko da pláčusja hórko o bezmírnych mojích prehrišénijich."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Ut = (
+#let U = (
   "S1": (
     ("", "", "Prišéľstvujušči na zemlí dušé mojá, pokájsja, pérsť bo vo hróbi ne pojét, ni ot prehrišénij izbavľájet. Vozopíj Christú Bóhu: serdcevídče, sohriších tí, préžde dáže ne osúdiši mené, poščadí mjá Bóže i pomíluj mjá."),
     ("", "", "Dokóľi dušé mojá prebyváješi v sohrišénijich? Dokóľi prijémleši pokajánija otložénije? Prijimí vo umí súd hrjadúščij, vozopíj Christú Bóhu: serdcevídče, sohriších, bezhríšne Hóspodi, pomíluj mjá."),
@@ -260,7 +260,7 @@
 )
 
 
-#let L_Ut = (
+#let L = (
   "B": (
     ("", "", "Otvérhša Christé, zápoviď tvojú, práotca Adáma iz rajá izhnál jesí: razbójnika že ščédre, ispovídavša ťá na kresťí, vóň vselíl jesí, zovúšča: pomjaní mja Spáse vo cárstviji tvojém."),
     ("", "", "Žitéjskimi slasťmí oskvernénu priťažách dúšu, k ščedrótam tvojím prichoždú nenačájem vés, i priľížno zovú ti Christé, svíduščemu jedínomu tájnaja: očísti mjá tvojím milosérdijem Hóspodi."),

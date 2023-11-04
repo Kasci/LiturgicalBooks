@@ -1,4 +1,4 @@
-#let V_Po = (
+#let V = (
   "HV": (
     ("","Hóspodi, ášče i sudílišče","Hóspodi, prišédyj v mír hríšniki prizváti, i razbójniki, i mytarjá, i bludnícu, i blúdnaho prijémyj: páče vsích mené sohrišívšaho tebí, Christé mój, i nikákože ktomú kájuščasja, čelovikoľúbne prizoví."),
     ("","","Hóspodi, íže ot mytaréj pástyri cérkvi tvojéj postavléj, i íže tój préžde honíteľa, nýňi zastúpnika soďílav: i mené ťích molítvami tvojé ovčá pokaží, Spáse, i da ne v sňíď čuždému nepotrébnyj búdu."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Po = (
+#let P = (
   "1": (
     ("","","Kolesnicehoníteľa faraóňa pohruzí, čudotvorjáj inohdá moiséjskij žézl, krestoobrázno porazív i razďilív móre: Izráiľa že bihlecá, pišechódca spasé, písň Bóhovi vospivájušča."),
     ("","","Preslávnaja o tebí vozhlahólašasja, prečístaja, vírnych sláva jedína bývša. Ťímže búduščija slávy pričástnika mjá pokaží tvojími molítvami, slávjaščaho ťá, presvjatája Ďívo vsepítaja."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Po = (
+#let U = (
   "S1": (
     ("","","Ókom blahoutróbnym, Hóspodi, vížď mojé smirénije, jáko vmáľi žízň mojá skončavájetsja, i ot ďíl ňísť mňí spasénija. Sehó rádi moľúsja: ókom blahoutróbnym, Hóspodi, vížď mojé smirénije, i spasí mja."),
     ("","","Jáko sudijí súšču, popecýsja o dušé, i strášnaho dné čás pomyšľáj: súd bo bez mílosti jésť ne sotvóršym mílosti. Ťímže préžde koncá vozopíj: poščadí mja Spáse, jedín bo jesí bezhríšen."),
@@ -240,7 +240,7 @@
   ),
 )
 
-#let L_Po = (
+#let L = (
   "B": (
     ("","","Pomjaní nás Christé Spáse míra, jákože razbójnika pomjanúl jesí na drévi: i spodóbi vsích, jedíne ščédre, nebésnomu cárstviju tvojemú."),
     ("","","Iscilí Christé, strásti dúši mojejá, jedíne vračú dúš i ťilés: i umilénija strujámi mjá omýv, vsehó očísti jáko blahoutróben."),

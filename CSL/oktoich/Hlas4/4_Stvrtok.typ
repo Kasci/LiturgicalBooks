@@ -1,4 +1,4 @@
-#let V_St = (
+#let V = (
   "HV": (
     ("", "Jáko dóbľa", "Kripčájšim mudrovánijem vóinstvovavše slávniji, na lukávaho vrahá opolčístesja, vseorúžijem ohráždšesja duchóvnym dóblestvenňi: i vsjú kríposť bisóvskuju pohubívše, voschítivše dúšy čelovíčeskija jákože korýsti: sehó rádi vo víki vás počitájem, apóstoli."),
     ("", "", "Krestoobrázno rasprostérši mréžu víry, dvojenadesjática božéstvennych apóstol tvojích, vsjá jazýki ulovíla jésť k tvojemú poznániju Christé: i móre slánoje strastéj izsuší. Sehó rádi ťá moľú, iz hlubiný prehrišénij vozzoví mja, ťích vseblahoprijátnymi moľbámi."),
@@ -17,7 +17,7 @@
   ),
 )
 
-#let P_St = (
+#let P = (
   "1": (
     ("", "", "Mórja čermnúju pučínu nevlážnymi stopámi drévnij pišešéstvovav Izráiľ, krestoobráznyma Mojséovyma rukáma, Amalíkovu sílu v pustýni pobidíl jésť."),
     ("", "", "Voístinnu i vresnotú rodilá jesí Bóha i Hóspoda, i Bohoródica jedína voístinnu i vrisnotú nareklásja jesí čístaja. Ťímže ťá vírno vospivájem, i po dólhu slávim."),
@@ -79,7 +79,7 @@
 	),
 )
 
-#let U_St = (
+#let U = (
   "S1": (
     ("", "", "Apóstolov pervoprestóľnicy, i vselénnyja učítelije, Vladýku vsích molíte, mír vselénňij darováti, i dušám nášym véliju mílosť."),
     ("", "", "Svitíla v koncích učenikí tvojá Christé, javíl jesí, sijájuščyja dušám súščym vo ťmí, rázum tvój Vladýko: i lésť ídoľskuju ťích rádi omračív, učéňmi bláhočéstija prosvitíl jesí mír. Ťích moľbámi spasí dúšy náša."),
@@ -265,7 +265,7 @@
 )
 
 
-#let L_St = (
+#let L = (
   "B": (
     ("", "", "Drévom Adám rajá býsť izselén, drévom že krestnym razbójnik v ráj vselísja: óv úbo vkúš, zápoviď otvérže Sotvóršaho: óv že sraspinájem, Bóha ispovída tajáščahosja, pomjaní mja, vopijá, vo cárstviji tvojém."),
     ("", "", "Pástyrja i Áhnca slovésnaja súšče vospitánija, posreďí volkóv ot nehó jáko áhncy múdriji póslani býste, božéstvennym propovídanijem. Ťích pretvorjájušče svirípstvo na krótosť, víroju zovúšče neuklónnym pómyslom: pomjaní nás Spáse, vo cárstviji tvojém."),

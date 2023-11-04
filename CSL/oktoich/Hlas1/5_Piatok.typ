@@ -1,4 +1,4 @@
-#let V_Pi = (
+#let V = (
   "HV": (
     ("",	"Prechváľniji múčenicy",	"Na kresťí prečísťiji rúci tvojí prostérl jesí Christé, ot tebé daléče bývšyja prizyvája, i blíz tebé ustrojája. Ťímže moľúsja tí: pľinéna mjá bývša strasťmí soberí, i pokajánije mí dáruj, vsjáku skvérnu strastnúju očiščájuščeje."),
     ("",	"",	"Dláni prečístyja tvojá Christé, na drévi voznésl, i tvojá pérsty okrovavíl jesí, choťá izbáviti božéstvennych rúk tvojích ďílo, čelovikoľúbče Adáma, prestuplénijem deržíma v cárstvijich smértnych: jehóže vozdvíhl jesí vlástiju tvojéju vsesíľne."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Pi = (
+#let P = (
   "1": (
     ("", "", "Hórkija rabóty izbávľsja Izráiľ, neprochodímoje prójde jáko súšu, vrahá zrjá potopľájema, písň jáko blahoďíteľu pojét Bóhu, čudoďíjuščemu mýšceju vysókoju, jáko proslávisja."),
     ("", "", "Vo otčájaniji oderžím jésm, mnóžestvo pomyšľáju prehrišénij mojích, i sudijí otvít, Vladýčice Bohoródice: no tý mi búdi božéstvennaja chodátaica, premiňájušči jehó milosérdijem tvojím."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Pi = (
+#let U = (
   "S1": (
     ("", "", "Raspénšusja tí Christé, pohíbe mučíteľstvo, i poprána býsť síla vrážija: ni ánhel bo, ni čelovík, no tý sám Hóspodi spásl jesí nás, sláva tebí."),
     ("", "", "Krestá tvojehó drévu poklaňájemsja čelovikoľúbče, jáko na tóm prihvozdílsja jesí životé vsích: ráj otvérzl jesí Spáse, víroju prišédšemu k tebí razbójniku, i píšči spodóbil jesí ispovídujuščaho ťá: pomjaní mja Hóspodi. Prijimí jákože ónaho, i nás vopijúščich tebí: sohrišíchom vsí, milosérdijem tvojím ne prézri nás."),
@@ -241,7 +241,7 @@
   )
 )
 
-#let L_Pi = (
+#let L = (
   "B": (
     ("", "", "Sňídiju izvedé iz rajá vráh Adáma: krestóm že vvedé Christós vóň razbójnika, pomjaní mja, zovúšča, jehdá priídeši vo cárstviji tvojém."),
     ("", "", "Raspénsja bezhríšne, hrichí vsích vzjál jesí Christé, i probodén býl jesí v rébra, spasénija potóki istočíl jesí, vodý že i króve, nazidája sokrušénnyja tléju."),

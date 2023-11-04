@@ -1,4 +1,4 @@
-#let V_Ut = (
+#let V = (
   "HV": (
     ("", "Jehdá ot dréva", "Jedíne bezhríšne Christé, jedíne nezlóbivyj, jedíne istóčniče bláhosti, vížď mojé sťisnénije, vížď skórb mojú: i jázvy strúp mojích očísti vsjá i mílostiju tvojéju spasí rabá tvojehó: jáko da ľínosti óblaki daléče othnáv, slávľu ťá prebláháho Spása mojehó."),
     ("", "", "Prízri, o dušé mojá smirénnaja! Vížď tvojá ďilá, kája súť vseskvérnaja: vížď tvojú nahotú, ole i jedínstvo! Íbo ímaši razlučítisja ot Bóha i ánhelov, i k bezkonéčnomu vmetátisja mučéniju. Vosprjaní, vostáni, potščísja, vozopíj: sohriších Spáse, dážď mí proščénije, i spasí mja."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Ut = (
+#let P = (
   "1": (
     ("", "", "Vo hlubiňí postlá inohdá faraonítskoje vsevójinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť, preproslávlennyj Hospóď, slávno bo proslávisja."),
     ("", "", "Pochvalénija tí prisnocvitúščij vinéc, jehóže prozjabé Dúchom cérkov čístaja, prinósit písnenno tebí so archánhelom Havrijílom Bohonevístňij, rádujasja pojúšči, i ťá čéstno vinčájušči."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Ut = (
+#let U = (
   "S1": (
     ("", "", "Pomyšľájušči dušé mojá, strášnaho dné ispytánija, trepéšči vozdajánija víčnyja múki, i pokajánijem vozopíj slezjášči: Bóže sohriších, pomíluj mjá."),
     ("", "", "Ispytújaj mojú sóvisť osuždénnuju, bojúsja tvojehó strášnaho sudíšča Hóspodi, jáko ňísť mí ot ďíl spasénija: no jáko imíjaj bohátstvo blahoutróbija, uščédri mjá Christé Bóže i spasí mja."),
@@ -250,7 +250,7 @@
 )
 
 
-#let L_Ut = (
+#let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i vopijém tí: pomjaní nás Hóspodi vo cárstviji tvojém."),
     ("", "", "Razbójnika prevzydóch, i bludnícu strasťmí: uščédri mjá Spáse samoosuždénnaho."),

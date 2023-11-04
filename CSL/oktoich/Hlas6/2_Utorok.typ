@@ -1,4 +1,4 @@
-#let V_Ut = (
+#let V = (
   "HV": (
     ("","Otčájannaja žitijá rádi","Któ mené ne pláčetsja, prestupívšaho zápoviď výšňaho, nevozderžánija rádi? Vo ád vselíchsja, vmísto rajá, sňídi sládkija viďínijem, smérť ischodátajstvujuščija, i stránen jejá rádi Bóžija slávy i žízni javíchsja: no prijimí mja kájuščasja Hóspodi, jáko mílostiv i čelovikoľúbec, velíkija rádi tvojejá mílosti."),
     ("","","Vížď mojú skórb i boľízň, i prehrišénij bezmírnoje mnóžestvo, duší mojejá ozloblénije, i úmnoje preľščénije: razumíj hlás otčájannaho i osuždénnaho. i dážď mí Hóspodi, dúch sokrušén, i smirénno sérdce, i podážď istóčnik sléz. i mnóhich prehrišénij proščénije, velíkija rádi tvojejá mílosti."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Ut = (
+#let P = (
   "1": (
     ("","","Jáko po súchu pišešéstvovav Izráiľ, po bézdňi stopámi, honíteľa faraóna víďa potopľájema, Bóhu pobídnuju písň poím, vopijáše."),
     ("","","Preklonén mnóžestvom iskušénij, i ľútych ďijánij, výju dušévnuju i ťilésnuju prekloňáju tebí čístaja, i vopijú ti priľížno: tý mja isprávi."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Ut = (
+#let U = (
   "S1": (
     ("","","Pomyšľáju déň strášnyj, i pláčusja ďijánij mojích lukávych, káko otviščáju bezsmértnomu carjú? Kójim že derznovénijem vozzrjú na sudijú, blúdnyj áz? Bláhoutróbnyj Ótče, Sýne jedinoródnyj, i Dúše svjatýj, pomíluj mjá."),
     ("","","Vo judóli plačévňij, na mísťi, iďíže položí, jehdá sjádeši mílostive, sotvoríti právednyj súd, ne obličí mojá sokrovénnaja, nižé posramí mené pred ánhely: no poščadí mja Bóže, i pomíluj mjá."),
@@ -242,7 +242,7 @@
   ),
 )
 
-#let L_Ut = (
+#let L = (
   "B": (
     ("","","Pomjaní mja Bóže Spáse mój, jehdá priídeši vo cárstviji tvojém: i spasí mja, jáko jedín čelovikoľúbec."),
     ("","","Íže Petróvo prijémyj rydánije, prijimí i mojé, Christé, pokajánije: i dáruj mí sohrišénij proščénije."),

@@ -1,4 +1,4 @@
-#let V_Ut = (
+#let V = (
   "HV": (
     ("", "Zvánnyj svýše", "Chananéji porevnovávši, dušé, prikosnísja Christú sozadí, i vzyváj čásťi: pomíluj mjá, o Vladýko! Ďítišče ímam, bisnújuščujusja plóť bezčínnuju, otžení razžžénije ot nejá, moľúsja, i utolív bezčínnaja vzyhránija, mértvu stráchom tvojím soverší, molítvami prečísto začénšija i róždšija ťá Christé, i vsích svjatých, blahodáteľu mnohomílostive."),
     ("", "", "Ninevíťanom inohdá sohrišívšym Jónu poslál jesí Christé propovídati sím, íže pokájavšesja, járosť v blahosérdije preložíša, izbavľájemi ot hubíteľnaho hňíva. Poslí úbo, čelovikoľúbče, i mňí nedostójnomu deržávnuju tvojú pómošč, da obraščúsja ot bezčíslennych mojích sohrišénij, i na stezjú pokajánija nastávlen búdu, i pláču steňá hórci, mnóhich mojích prehrišénij izbávitisja mílostiju tvojéju."),
@@ -17,7 +17,7 @@
   ),
 )
 
-#let P_Ut = (
+#let P = (
   "1": (
     ("", "", "Mórja čermnúju pučínu nevlážnymi stopámi drévnij pišešéstvovav Izráiľ, krestoobráznyma Mojséjovyma rukáma, Amalíkovu sílu v pustýni pobidíl jésť."),
     ("", "", "Jáže jedína v napástech i skórbech zaščiščájuščaja, pod króv tvój prečístaja pribihájuščich tépľi, prijimí jáko preblahája, jáže ot sérdca nášeho molénija."),
@@ -79,7 +79,7 @@
 	),
 )
 
-#let U_Ut = (
+#let U = (
   "S1": (
     ("", "", "Smirénnuju mojú dúšu posití Hóspodi, vo hresích žitijé vsé iždívšuju: jákože bludnícu prijimí i mené, i spasí mja."),
     ("", "", "Preplávaja pučínu nastojáščaho žitijá, pomyšľáju bézdnu mnóhich mojích zól, i ne imíja kórmčija pomyšlénij, Petróv proviščaváju tí hlás: spasí mja Christé Bóže, spasí mja, jáko čelovikoľúbec."),
@@ -264,7 +264,7 @@
 )
 
 
-#let L_Ut = (
+#let L = (
   "B": (
     ("", "", "Drévom Adám rajá býsť izselén: drévom že krestnym razbójnik v ráj vselísja. Óv úbo vkúš, zápoviď otvérže sotvóršaho: óv že sraspinájem, Bóha ispovída tajáščahosja, pomjaní mja, vopijá, vo cárstviji tvojém."),
     ("", "", "Íže Petróv pláč, i bludnícy slézy prijémyj Slóve, i mytarjá tóčiju vozdochnúvša, uščédril jesí Christé, jáko blahoutróben: i mené pripádajušča i prosjášča prehrišénij proščénija, pomíluj Hóspodi preblahíj, i izbávi víčnyja múki."),

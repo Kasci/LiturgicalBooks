@@ -1,4 +1,4 @@
-#let V_Sr = (
+#let V = (
   "HV": (
     ("",	"Prechváľniji múčenicy",	"Na kresťí prihvoždájem, Christé Bóže, jáko čelovík, čelovíčeskoje jestestvó obožíl jesí, i načalozlóbnaho umertvíl jesí zmíja. Nás svobodíl jesí kľátvy jáže ot dréva, jáko blahoutróben býv kľátva: prišél jesí, jáko da vsím podási blahoslovénije, i véliju mílosť."),
     ("",	"",	"Vsjákija prevýšši čésti sýj Vladýko, obezčéstitisja blahovolíl jesí, ponósnuju preterpív ščédre na drévi smérť, jejáže rádi bezsmértije, obját ród čelovíčeskij, i žízň pérvuju vospriját, tebí uméršu plótiju vsesíľne."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Sr = (
+#let P = (
   "1": (
     ("", "", "Tvoja pobidíteľnaja desníca Bohoľípno v kríposti proslávisja: tá bo bezsmértne, jáko vsemohúščaja protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."),
     ("", "", "Íže vójinstvom nebésnym nedovídomyj, otrokovíce vseneporóčnaja, plóť priját ot plóti tvojejá, i obnoví istľívšuju prestuplénijem pérvym."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Sr = (
+#let U = (
   "S1": (
     ("", "", "Raspénšusja tí Christé, pohíbe mučíteľstvo, i poprána býsť síla vrážija: nižé bo ánhel, ni čelovík, no tý sám Hóspodi spásl jesí nás, sláva tebí."),
     ("", "", "Krestá tvojehó drévu poklaňájemsja čelovikoľúbče: jáko na ném prihvozdílsja jesí životé vsích, i ráj otvérzl jesí Spáse, víroju prišédšemu k tebí razbójniku, i píšči spodóbil jesí ispovídajuščaho ťá: pomjaní mja Hóspodi. Prijimí jákože ónaho i nás zovúščich: sohrišíchom vsí, milosérdijem tvojím ne prézri nás."),
@@ -240,7 +240,7 @@
   )
 )
 
-#let L_Sr = (
+#let L = (
   "B": (
     ("", "", "Sňídiju izvedé iz rajá vráh Adáma: krestóm že razbójnika vvedé Christós vóň, pomjaní mja zovúšča, jehdá priídeši vo cárstviji tvojém."),
     ("", "", "Ponósnuju preterpíl jesí strásť Christé: i ponošénije náše vsjákoje oťál jesí bláže, i výšňaho cárstvija pričástniki nás javíl jesí, poklaňájuščichsja tvojemú sošéstviju."),

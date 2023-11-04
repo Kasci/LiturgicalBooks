@@ -1,4 +1,4 @@
-#let V_So = (
+#let V = (
   "HV": (
     ("","","Múčenicy Hospódni vsjáko místo osvjaščájete, i vsják nedúh uvračújete: i nýňi molíte, izbávitisja ot sítej vrážijich dušám nášym, mólim vý."),
     ("","","Múčenicy tvojí Hóspodi, zabývše žitéjskaja, i nebréhše o mučénijich, búduščija rádi žízni, tojá nasľídnicy javíšasja: ťímže i so ánhely rádujutsja. Ťích molítvami, dáruj ľúdem tvojím véliju mílosť."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_So = (
+#let P = (
   "1": (
     ("","","Pojím Hóspodevi, provédšemu ľúdi svojá skvozí čermnóje móre, jáko jedín slávno proslávisja."),
     ("","","Umertví plóti mojejá mudrovánije, prečístaja Ďívo, jáže žízň róždšaja, i múki vsjákija izbávi mjá."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_So = (
+#let U = (
   "S1": (
     ("","","Svitíla úmnaja javístesja svjatíji múčenicy, mhlú bo prélesti uprazdníste víroju, i dušévnyja sviščý váša prosvitíste, i s Ženichóm so slávoju vnidóste v nebésnyj čertóh. i nýňi mólim vý, molítesja spastísja dušám nášym."),
     ("","Poveľínnoje tájno","Vozderžánijem strastéj ohnepáľnyja ispepelívše zráki i dvižénija, Christóvy múčenicy, prijáša blahodáť, nedúhi othoňáti nemoščstvújuščich, i živúšče i po koncí čudoďíjstvovati. Voístinnu čúdo preslávnoje, jáko kósti náhi istočájut iscilénija: sláva jedínomu Bóhu nášemu."),
@@ -248,7 +248,7 @@
   ),
 )
 
-#let L_So = (
+#let L = (
   "B": (
     ("","","Pomjaní nás Christé Spáse míra, jákože razbójnika pomjanúl jesí na drévi: i spodóbi vsích jedíne ščédre, nebésnaho cárstvija tvojehó."),
     ("","","Vsím boľíznem krípko priobščájuščesja, jázvami vášimi svjatými strastotérpcy, ujazvíste vsjá tmý bisóv, božéstvennoju blahodátiju ."),

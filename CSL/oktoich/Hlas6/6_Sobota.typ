@@ -1,4 +1,4 @@
-#let V_So = (
+#let V = (
   "HV": (
     ("","Vsjú otložívše","Christóvych strastéj po stopám choďá vsé múčeničeskoje soslóvije, krípko zájde k podvihóm mnóhim, i tohó pred nečestívymi mučíteli, i bezzakónnymi carí Bóha propovídaša, i mnóhi múki preterpíša, póčesti čájušče nebésnyja vosprijáti. íchže nýňi víďašče rádujutsja, i so vsími líki bezplótnych síl Hóspodevi predstoját."),
     ("","","Stádo Bohoizbránnoje, Christá pérvaho pástyrja podóbnicy býste pástyrije vsesvjaščénniji: sochraníste nevrédno do koncá, blahočéstija božéstvennaja sokróvišča, othnávše dívija vólki: tóže vo ohrádu nebésnuju dóbri vozvedóste. iďíže úbo nýňi vodvorjájemi, pominájte ľubóviju vás voschvaľájuščich, i Christú so derznovénijem molítesja o dušách nášich."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_So = (
+#let P = (
   "1": (
     ("","","Pomóščnik i pokrovíteľ býsť mňí vo spasénije, séj mój Bóh, i proslávľu jehó, Bóh otcá mojehó, i voznesú jehó: slávno bo proslávisja."),
     ("","","Ne otríni blahája, ne omerzí mené, ne prézri mené pod tvojé milosérdije čístaja, tépľi pritékšaho: no dážď mí jéže v tebí napitátisja blahodátiju ."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_So = (
+#let U = (
   "S1": (
     ("","","Svít právednym vsehdá tý Hóspodi: svjatíji bo o tebí prosvitívšesja, sijájut prísno jáko svitíla, svitíľnik nečestívych uhasívše: íchže molítvami Spáse náš, tý prosvití svitíľnik mój, i spasí mja."),
     ("","","Stradáľčeskij pódvih preterpívše svjatíji, i póčesti pobídnyja ot tebé prijáša, uprazdníša pomyšlénija bezzakónnych, i prijáša vincý netľínnyja. Ťími Bóže umolén byvája, dáruj nám véliju mílosť."),
@@ -244,7 +244,7 @@
   ),
 )
 
-#let L_So = (
+#let L = (
   "B": (
     ("","","Pomjaní mja Bóže Spáse mój, jehdá priídeši vo cárstviji tvojém: i spasí mja, jáko jedín čelovikoľúbec."),
     ("","","Ohňá i mečá, i zviréj dívijich ustremlénija svirípaho, strastotérpcy slávniji ne ubojávšesja, prisnosúščnaho životá spodóbistesja."),

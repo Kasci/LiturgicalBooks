@@ -1,4 +1,4 @@
-#let V_Po = (
+#let V = (
   "HV": (
     ("", "Vélija múčenik", "Veľmí sohrešájušča mjá, i tebé ohorčevájušča blaháho Vladýku, i mílostiva jestestvóm, obraščájuščasja, jáko blúdnaho prijimí mja, i jedínaho ot najémnik tvojích sotvorí mja, nebésnyj Ótče."),
     ("", "", "Ľínostiju žitijá míru preidóch, i k koncú užé okajánnyj priblížichsja, ne pomyšľáju ždúščaho mjá sudá, i ot Bóha otpadénija: no obratív mjá Spáse sích vsích ischití."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Po = (
+#let P = (
   "1": (
     ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš, preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
     ("", "", "Velikoimenítaja jedína, presvjatája Ďívo Maríje Cheruvím slávňijšaja Davídova dščí, i dobróta Jákovľa, Máti Bóha nášeho: vozvelíčisja ziló sláva tvojá, i mý vsí ťa víroju slávim."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Po = (
+#let U = (
   "S1": (
     ("", "", "Živúšči na zemlí, dušé mojá, pokájsja, pérsť bo vo hróbi ne pojét, ni ot prehrišénij izbavľájet. Vozopíj Christú Bóhu: serdcevídče, sohriších tí, préžde dáže ne osúdiši mjá, poščadí mja Bóže, i pomíluj mjá."),
     ("", "", "Dokóľi dušé mojá prebyváješi v sohrišénijich? Dokóľi prijémleši pokajániju otložénije? Prijimí vo umí súd hrjadúščij, vozopíj Christú Bóhu: serdcevédče, sohriších, bezhríšne Hóspodi, pomíluj mjá."),
@@ -260,7 +260,7 @@
 )
 
 
-#let L_Po = (
+#let L = (
   "B": (
     ("", "", "Otvérhša Christé zápoviď tvojú, práotca Adáma iz rajá izhnál jesí: razbójnika že ščédre ispovídavša ťá na kresťí, vóň vselíl jesí, zovúšča: pomjaní mja Spáse, v cárstviji tvojém."),
     ("", "", "Zól mojích mnóžestvo, po mnóžestvu mílosti tvojejá, Christé, prezrív spasí mja: i v déň súdnyj osuždénija izbávi mjá Spáse, i víčnaho mučénija, jáko da pisnoslóvľu tvojú blahostýňu."),

@@ -1,4 +1,4 @@
-#let M_Ne = (
+#let M = (
   "HV": (
     ("","","Prijidíte, vozrádujemsja Hóspodevi, sokrušívšemu smérti deržávu, i prosvitívšemu čelovíčeskij ród, so bezplótnymi zovúšče: soďíteľu i Spáse náš, sláva tebí."),
     ("","","Prijidíte, vozrádujemsja Hóspodevi, sokrušívšemu smérti deržávu, i prosvitívšemu čelovíčeskij ród, so bezplótnymi zovúšče: soďíteľu i Spáse náš, sláva tebí."),
@@ -15,7 +15,7 @@
   ),
 )
 
-#let V_Ne = (
+#let V = (
   "HV": (
     ("","","Prijidíte, vozrádujemsja Hóspodevi, sokrušívšemu smérti deržávu, i prosvitívšemu čelovíčeskij ród, so bezplótnymi zovúšče: soďíteľu i Spáse náš, sláva tebí."),
     ("","","Krest preterpíl jesí Spáse, i pohrebénije nás rádi, smértiju že jáko Bóh smérť umertvíl jesí. Ťímže poklaňájemsja tridnévnomu voskreséniju tvojemú: Hóspodi, sláva tebí."),
@@ -42,7 +42,7 @@
   ),
 )
 
-#let P_Ne = (
+#let P = (
   "1": (
     ("","","Sokrušívšemu bráni mýšceju svojéju, i vsádniki tristáty pohruzívšemu, pojím jemú, jáko izbáviteľu nášemu Bóhu: jáko proslávisja."),
     ("","","Jáko ukrašénije pínijem, i písň Bohopodóbnu blahodarénija tí dáry prinósim: jéže rádujsja nýňi čístaja, jáko ot pečáli rádosť nám podalá jesí."),
@@ -104,7 +104,7 @@
   ),
 )
 
-#let N_Ne = (
+#let N = (
   "1": (
     ("","","Mánijem tvojím na zemnýj óbraz preložísja, préžde udoborazlivájemoje vodnóje jestestvó Hóspodi: ťímže nemókrenno pišešéstvovav Izráiľ, pojét tebí písň pobídnuju ."),
     ("","","Otvérzi mí ustá úmnaja sérdca, i ustňí veščéstvennyja ko chvaľí tvojéj, trisvítloje jedíno Božestvó vsích, píti tebí písň svitoďíteľu, blahodárstvennuju."),
@@ -171,7 +171,7 @@
   ),
 )
 
-#let U_Ne = (
+#let U = (
   "T": (
     ("","","Razrušíl jesí krestóm tvojím smérť, otvérzl jesí razbójniku ráj: mironósicam pláč preložíl jesí, i apóstolom propovídati poveľíl jesí: jáko voskrésl jesí Christé Bóže, dárujaj mírovi véliju mílosť."),
     ("Bohoródičen","","Jáko nášeho voskresénija sokróvišče, na ťá naďíjuščyjasja vsepítaja, ot róva i hlubiný prehrišénij vozvedí: tý bo povínnyja hrichú spaslá jesí, róždši spasénije náše: jáže préžde roždestvá Ďíva, i v roždeství Ďíva, i po roždeství páki prebyváješi Ďíva."),
@@ -390,7 +390,7 @@
   ),
 )
 
-#let L_Ne = (
+#let L = (
   "B": (
     ("","","Krasén bí i dóbr v sňíď, íže mené umertvívyj plód: Christós jésť drévo živótnoje, ot nehóže jadýj ne umiráju, no vopijú s razbójnikom: pomjaní mja Hóspodi, vo cárstviji tvojém."),
     ("","","Na krest voznéssja ščédre, Adámovo rukopisánije drévňaho hrichá zahládil jesí, i spásl jesí ot prélesti vés ród čelovíčeskij. Ťímže vospivájem ťá blahoďíteľu Hóspodi."),

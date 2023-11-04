@@ -1,4 +1,4 @@
-#let V_Pi = (
+#let V = (
   "HV": (
     ("", "Postáviša", "Hóspodi bezstrásten sýj božéstvennym jestestvóm tvojím, strásť preterpíl jesí, po jestestvú čelovíčeskomu tvojemú, na kresťí úbo prihvoždájem, kopijém že iskopovájem v rébra, istočája mňí dví ricí ot ních táinstv neizrečénnych."),
     ("", "", "Vincém ot térnija ispleténnym uvjázlsja jesí poruhánno carjú vsích, zapreščénije Spáse, ternóvnaho hrichá isterzája: rukáma že tvojíma trósť prijém, v hórňij knízi napisál jesí vsích nás: v ťá vírovavšich."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Pi = (
+#let P = (
   "1": (
     ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš, preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
     ("", "", "Prisínnuju ťá hóru, júže províďi Dúchom Avvakúm prorók, moľú, prečístaja osiníti mjá strasťmí oznojénaho, i ot síni smértnyja ľútych bíd izbávitisja."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Pi = (
+#let U = (
   "S1": (
     ("", "", "Krest vodruzísja na zemlí, i kosnúsja nebesé, ne jáko drévu dosjáhšu vysotú, no tebí na ném, ispolňájuščemu vsjáčeskaja: sláva tebi."),
     ("", "", "Krest i smérť postradáti izvólivyj, posreďí tvárej sijá preterpíl jesí, jehdá blahoizvólil jesí Spáse, ťílo tvojé prihvozdíti, tohdá i sólnce lučý skrý: tohdá i razbójnik sijá zrjá, na kresťí ťa vospít, vopijá blahohovíjno: pomjaní mja Hóspodi: i vírovav, priját ráj."),
@@ -260,7 +260,7 @@
 )
 
 
-#let L_Pi = (
+#let L = (
   "B": (
     ("", "", "Otvérhša Christé zápoviď tvojú, práotca Adáma iz rajá izhnál jesí: razbójnika že ščédre, ispovídavša ťá na kresťí, vóň vselíl jesí, zovúšča: pomjaní mja Spáse vo cárstviji tvojém."),
     ("", "", "Zrjášči ťá na kresťí sólnca nezachodímaho, pomračí svít sólnce: kámenije raspadésja Vladýko, zemľá pokolebásja vsjá, zavísa že cerkóvnaja razdrásja posreďí, neprávedno stráždušča víďašči ťá Spáse, vsími nedomýslimaho."),

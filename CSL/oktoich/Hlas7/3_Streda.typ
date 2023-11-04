@@ -1,4 +1,4 @@
-#let V_Sr = (
+#let V = (
   "HV": (
     ("","Ne ktomú vozbraňájemi","Drévo izhná mja drévle iz rajá, nýňi že drévo k rajú vozvedé, tebí raspénšusja Christé."),
     ("","","Čúdo strášno, sozdániju káko sozdáteľ predstojá, osuždájem jésť, i raspinájem, na spasénije čelovíkov!"),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Sr = (
+#let P = (
   "1": (
     ("","","Mánijem tvojím na zemnýj óbraz preložísja, préžde udoborazlivájemoje vodnóje jestestvó Hóspodi: ťímže nemókrenno pišešéstvovav Izráiľ, pojét tebí písň pobídnuju ."),
     ("","","Ustávi búrju slastéj, i strastéj mojích, tišinóju božéstvennyja tvojejá moľbý preneporóčnaja: jáko da tíchim sérdcem tvojé slavoslóvľu neizhlahólannoje roždestvó."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Sr = (
+#let U = (
   "S1": (
     ("","","Cérkov vopijét tí Christé Bóže, v pévki, i kédri, i kiparísi poklaňájuščisja tebí: pobídy vírnym dáruj, Bohoródicy rádi, i pomíluj nás."),
     ("","","Íže mené rádi preterpívyj, jéže na kresťí prihvoždénije, prijimí mojé bódrennoje chvalénije Christé Bóže, i spasí mja."),
@@ -242,7 +242,7 @@
   ),
 )
 
-#let L_Sr = (
+#let L = (
   "B": (
     ("","","Krasén bí i dóbr v sňíď, íže mené umertvívyj plód: Christós jésť drévo živótnoje, ot nehóže jadýj ne umiráju, no vopijú s razbójnikom: pomjaní mja Hóspodi, vo cárstviji tvojém."),
     ("","","Rasprostérl jesí na kresťí dláni, prostértija rukí Adámovy k drévu sňídnomu, ispravľája popolznénije ščédre, rádi bláhosti mnóhija: ťímže ťá slávim blahoďíteľu Hóspodi."),

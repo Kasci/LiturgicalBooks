@@ -1,4 +1,4 @@
-#let V_So = (
+#let V = (
   "HV": (
     ("", "Vélija múčenik", "Stráždušče dóbliji múčenicy krípko, i rány, i vjazánija, i razlíčnyja múki preterpívše, k neboľíznennomu voístinnu i blažénnomu nasľídiju privedóšasja, po dostojániju boľíznej."),
     ("", "", "Íže slóvo blahočestívo i božéstvenno otrýhnuvše, Hospódni svjatítelije, i vsjá jeretíčeskaja soprotivoslóvija razrušíste, i vírnym vsím pervoďíteľnicy javístesja: sehó rádi počitájemi jesté."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_So = (
+#let P = (
   "1": (
     ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš, preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
     ("", "", "Spaséniju načáľnika i žiznodávca róždšaja páče smýsla vsehó, soúz razrišíla jesí osuždénija Jévy pramátere. Ťímže tvár vsjá blažít ťá, Bohorodíteľnice čístaja."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_So = (
+#let U = (
   "S1": (
     ("", "", "Blahodúšnoje terpínija vášeho pobidí kózni zlonačáľnaho vrahá strastotérpcy vsechváľniji: sehó rádi víčnaho spodóbistesja blažénstva. No molítesja Hóspodevi, Christoľubívych ľudéj spastí stádo, múčenicy súšče ístinniji."),
     ("", "", "Sijájete víroju presvítlaja svitíla svjatíji, nedúhujuščich vráčeve, strástotérpcy prechváľniji, mučítelej úbo rán ne ubojástesja, ídoľskoje zločéstije nizložíste, pobídu imúšče nepobidímuju, krest ístinnyj."),
@@ -262,7 +262,7 @@
 )
 
 
-#let L_So = (
+#let L = (
   "B": (
     ("", "", "Otvérhša Christé, zápoviď tvojú práotca Adáma, iz rajá izhnál jesí: razbójnika že ščédre, ispovídavša ťá na kresťí, vóň vselíl jesí, zovúšča: pomjaní mja Spáse, vo cárstviji tvojém."),
     ("", "", "Óhnennym ránam primišájuščesja strastotérpcy Christóvy, rósu nebésnuju obritóste, prochlaždájuščuju že i ukripľájuščuju vás terpíti plotskíja hórkija boľízni: ťímže oblehčevájete vsjáku boľízň prísno ot dúš nášich."),

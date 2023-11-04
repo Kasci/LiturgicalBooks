@@ -1,4 +1,4 @@
-#let V_Po = (
+#let V = (
   "HV": (
     ("", "Dál jesí známenije", "Sohriších k tebí čelovikoľúbče, ne po jestestvú jáko čelovík, da isprošú proščénije: no páče čelovíka, i výše jestestvá, i páče proščénija. No íže výše jestéstvennych ustáv, i páče postižénija mýsli, čelovík Spáse mój býv, i páče umá čelovikoľúbnoje imýj, pomíluj mjá k tebí obraščájuščahosja."),
     ("", "", "Položíl jesí pokajánije sohrišájuščym Christé, a ne právednym: óbraz úbo ímam razbójnika že i blúdnaho, Manassíji i bludnícy, honíteľa, mytarjá, i otmétnika, neudób otčajavájusja, tvojé bo čelovikoľúbnoje, i prebláhóe vídyj Spáse mój, obraščájusja že i slezjú, i blahonadéžden byváju jáko priímeši mjá."),
@@ -17,7 +17,7 @@
   ),
 )
 
-#let P_Po = (
+#let P = (
   "1": (
     ("", "", "Mórja čermnúju pučínu nevlážnymi stopámi drévnij pišešéstvovav Izráiľ, krestoobráznyma Mojséovyma rukáma, Amalíkovu sílu v pustýni pobidíl jésť."),
     ("", "", "Prijimí jéže ot duší molénije mojé prečístaja Vladýčice, jáže Bóha róždši plótiju: k tebí bo pribihóch k deržávňij pómošči, da ne pohrišú nadéždy mojejá."),
@@ -79,7 +79,7 @@
 	),
 )
 
-#let U_Po = (
+#let U = (
   "S1": (
     ("", "", "Smirénnuju mojú dúšu posití Hóspodi, vo hresích vsé žitijé iždívšuju: jákože bludnícu prijimí mené, i spasí mja."),
     ("", "", "Preplávaja pučínu nastojáščaho žitijá, pomyšľáju bézdnu mnóhich mojích zól, i ne imíjaj okormíteľa pomyšlénij, Petróv proviščaváju tí hlás: spasí mja Christé, spasí mja Bóže, jáko čelovikoľúbec."),
@@ -261,7 +261,7 @@
 )
 
 
-#let L_Po = (
+#let L = (
   "B": (
     ("", "", "Drévom Adám rajá býsť izselén, drévom že kréstnym razbójnik v ráj vselísja: óv úbo vkúš zápoviď otvérže sotvóršaho: óv že sraspinájem, Bóha ispovída tajáščahosja, pomjaní mja, vopijá, vo cárstviji tvojém."),
     ("", "", "Páče vsích čelovík na zemlí áz sohriších, i bojúsja támo nelicemírnaho sudíšča prebláhíj: na némže neosuždéna mjá sobľudí tohdá, i ot múki izbávi, podajá mi pokajánije, omyvájuščeje vsjákija skvérny, jáko čelovikoľúbec."),

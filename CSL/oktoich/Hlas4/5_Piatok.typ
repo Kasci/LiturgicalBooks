@@ -1,4 +1,4 @@
-#let V_Pi = (
+#let V = (
   "HV": (
     ("", "Dál jesí známenije", "Jehdá ťa raspinájema tvár vsjá víďi, izmiňášesja i trepetáše: zemľá že trjasúščisja vsjá kolebášesja, dolhoterpilíve Slóve, i zavísa cerkóvnaja stráchom razdirášesja, dosaždájemu tebí, i kámenije raspadášesja ot strácha, i sólnce lučý skrý, tvorcá svojehó vídušči ťá."),
     ("", "", "Káko bezzakónňijšij sobór derznú osudíti ťá sudijú bezsmértnaho, zakón dávšaho v pustýni drévle Moiséju bohovídcu? Káko žízň vsjáčeskich na drévi zrjášče uméršuju, nikákože ubojášasja, nižé vo umí pomyšľáchu, jáko tý jedín Hospóď i Vladýka tvári."),
@@ -17,7 +17,7 @@
   ),
 )
 
-#let P_Pi = (
+#let P = (
   "1": (
     ("", "", "Otvérzu ustá mojá, i napólňatsja Dúcha, i slóvo otrýhnu caríci Máteri, i javľúsja svítlo toržestvúja, i vospojú rádujasja tojá čudesá."),
     ("", "", "Tý jedína zastuplénije, pribížišče i chraníteľnica rabóv tvojích jesí, Bohorodíteľnice čístaja. Sehó rádi pripádaju tí i zovú: spasí mja okajánnaho, jáko mílostiva."),
@@ -79,7 +79,7 @@
 	),
 )
 
-#let U_Pi = (
+#let U = (
   "S1": (
     ("", "", "Iskupíl ný jesí ot kľátvy zakónnyja čéstnóju tvojéju króviju, na kresťí prihvozdívsja, i kopijém probóďsja, bezsmértije istočíl jesí čelovíkom: Spáse náš sláva tebé."),
     ("", "", "Na kresťí ťa prihvozdíša judéi Spáse, ímže ot jazýk nás prizvál jesí inohdá, Christé Bóže náš, prostérl jesí dláni na ném vóleju tvojéju: kopijém že v rébra tvojá voschoťíl jesí probodén býti, mnóžestvom ščedrót tvojích čelovikoľúbče."),
@@ -262,7 +262,7 @@
 )
 
 
-#let L_Pi = (
+#let L = (
   "B": (
     ("", "", "Drévom Adám rajá býsť izselén: drévom že kréstnym razbójnik v ráj vselísja. óv úbo vkúš, zápoviď otvérže sotvóršaho: óv že sraspinájem, Bóha ispovída tajáščahosja, pomjaní mja, vopijá, vo cárstviji tvojém."),
     ("", "", "Zrjášče ťá na kresťí rasprostérta, jedíne dolhoterpilíve, síly nebésnyja, nedoumíjuščesja s trépetom divľáchusja: zemľá že kolebášesja, i svitíl dobróta uhasáše neprávedno čelovikoľúbče, osuždájemu tebí, Adám osuždénnyj opravdášesja: slávľu blahoutróbije tvojé."),

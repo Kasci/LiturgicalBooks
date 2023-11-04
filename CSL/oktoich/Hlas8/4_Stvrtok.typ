@@ -1,4 +1,4 @@
-#let V_St = (
+#let V = (
   "HV": (
     ("","Hóspodi, ášče i na sudíšči","Hóspodi, tý Uťíšiteľa zarjámi apóstoly tvojá prosvitíl jesí, i svitíla položív ťích víri utverždénije, úmnym prosviščénijem rázuma tvojehó Vladýko: sehó rádi poklaňájemsja neizrečénnomu čelovikoľúbiju tvojemú."),
     ("","","Hóspodi, tý apóstol molítvami ohradíl jesí stádo tvojé sijé, ot vrahóv iskušénija nevrédno sochraňája: zané čéstnóju tó iskupíl jesí króviju ot rabóty čuždáho, jáko ščédr i čelovikoľúbec."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_St = (
+#let P = (
   "1": (
     ("","","Kolesnicehoníteľa faraóňa pohruzí, čudotvorjáj inohdá moiséjskij žézl, krestoobrázno porazív, i razďilív móre, Izráiľa že bihlecá, pišechódca spasé, písň Bóhovi vospivájušča."),
     ("","","Slóvo Bóžije rodilá jesí voploščénno, jéže préžde bezplótnoje, páče jestestvá, vseneporóčnaja Bohoródice Ďívo, Bohomúžno v míri požívšeje: ťímže ťá vsí slávim, súščeje po Bózi zastuplénije náše."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_St = (
+#let U = (
   "S1": (
     ("","","Jáko svitíla míra, i nastávniki nášeho spasénija, íže ot načála božéstvennyja vospojím učenikí Bóha nášeho, jáko svít súščym vo ťmí nám vozsijáša, i Sólnce slávy vsím skazáša. Ťímže i lésť ídoľskuju nizložíša, Tróicu propovídavše vo jedínom Božeství. Sehó rádi mólimsja vám apóstoli, Christá Bóha molíte, hrichóv ostavlénije darováti nám, i véliju mílosť."),
     ("","","Vo vsjá koncý izšédšeje premúdroje váše viščánije, jáko voístinnu míru prechváľniji Hospódni apóstoli, Bohorazúmije vsím jávi vozpropovída, i jazýčeskoje nevíďinije, vo uvíďinije prevedé. Otonúduže i ídoľskuju mhlú othnávše, svít rázuma súščym vo ťmí vozsijá. Sehó rádi mólimsja, molítesja Christú Bóhu, prehrišénij ostavlénije darováti, čtúščym ľubóviju svjatúju pámjať vášu."),
@@ -240,7 +240,7 @@
   ),
 )
 
-#let L_St = (
+#let L = (
   "B": (
     ("","","Pomjaní nás Christé Spáse míra, jákože razbójnika pomjanúl jesí na drévi: i spodóbi vsích jedíne ščédre, nebésnomu cárstviju tvojemú."),
     ("","","Trubý jávľšesja Christóvy apóstoli, súščyja vo hrobích zlovírija ležáščyja vozdvíhnuli jesté, i božéstvennyja žízni pričástniki soďílaste."),

@@ -1,4 +1,4 @@
-#let V_St = (
+#let V = (
   "HV": (
     ("","Ne ktomú vozbraňájemi","Bohorazúmija slávniji apóstoli rálom vozďílavše zémľu vsjú, vírnych mnóžestvo vozrastíste."),
     ("","","Strastéj mojích razrušíte zímu, i tišinú mi vozsijájte, čístaho prolítija, blažénniji apóstoli."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_St = (
+#let P = (
   "1": (
     ("","","Mánijem tvojím na zemnýj óbraz preložísja, préžde udoborazlivájemoje vodnóje jestestvó Hóspodi: ťímže nemókrenno pišešéstvovav Izráiľ, pojét tebí písň pobídnuju ."),
     ("","","Vodámi životóčnymi Ďívo, napój istájavšuju dúšu mojú znójem hrichóvnym, jáko da klás plodonósen vozraščú čístaja, božéstvennaho umilénija."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_St = (
+#let U = (
   "S1": (
     ("","","Ďílateli selú tvojemú javíl jesí apóstoly tvojá Slóve, posikájuščyja ídoly: ťímže ťá Vladýku vo jazýcich propovídavše, blahočéstno vozvelíčiša."),
     ("","","Zemnýja na zemlí slávy ne vozľubíste slávniji, Bóha nebésnaho čelovíkom propovídavše, tomú vsích privedóste."),
@@ -242,7 +242,7 @@
   ),
 )
 
-#let L_St = (
+#let L = (
   "B": (
     ("","","Krasén bí i dóbr v sňíď, íže mené umertvívyj plód: Christós jésť drévo živótnoje, ot nehóže jadýj ne umiráju, no vopijú s razbójnikom: pomjaní mjá Hóspodi, vo cárstviji tvojém."),
     ("","","Iz hlubiný zlovírija jazýk stadá privlekóste premúdriji k véri Bohokrásňij, i k mýslenňij trapézi obrók mnohocínnyj sích privedóste, slávniji apóstoli."),

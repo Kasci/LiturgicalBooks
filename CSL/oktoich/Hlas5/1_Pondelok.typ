@@ -1,4 +1,4 @@
-#let V_Po = (
+#let V = (
   "HV": (
     ("","Rádujsja póstnikom","Pláču i sítuju hórci, smotrjája strášnoje slóva vozdajánije, ot ďíl ne imýj otvíta i mála protívu viňí, okajánnyj. Ťímže moľúsja: préžde dáže ne postíhnet mjá koncá mojehó bezmístnoje, préžde požátija smértnaho, préžde sudá strášnaho, préžde choťášču mí osuždénije prijáti, iďíže óhň nehasímyj, i ťmá kromíšňaja, iďíže čérv, i skréžet, i sňidájet sohrešívšyja, sohrišénij mí dáruj izbavlénije Christé mój, i véliju mílosť."),
     ("","","Zakóny tvojá i pisánija prezrív, zápovidi tvojá otverhóch okajánnyj Bóže mój, soďíteľu mój, káko izbíhnu próčeje támošňaho Spáse, mučénija? Ťímže préžde koncá mojehó Spáse, proščénije mí dáruj, sléz túču, ístinnoje umilénije podajá, jáko Bóh preblahíj daléče ot mené othoňája polkí bisóvskija, íščuščich nizvestí mjá vo ádovu própasť. Ťímže moľúsja tí, da ne rúku tvojú otímeši ot mené vsemóščnuju."),
@@ -16,7 +16,7 @@
   )
 )
 
-#let P_Po = (
+#let P = (
   "1": (
     ("","","Koňá i vsádnika v móre čermnóje, sokrušájaj bráni mýšceju vysókoju Christós istrjasé: Izráiľa že spásé, pobídnuju písň pojúšča."),
     ("","","Čúdo v tebí soveršájetsja Ďívo, voístinnu užásno: jáko vo utróbi tvojéj nikákože vmistímaho imíla jesí, i neskazánno rodilá jesí, prisnoďívoju prebývši."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Po = (
+#let U = (
   "S1": (
     ("","","Sudijí siďášču, i ánhelom predstojáščym, trubí hlasjáščej, i plámeni horjášču, čtó sotvoríši dušé mojá, vedóma na súd: tohdá bo ľútaja tebí predstánut, i tájnaja tvojá obličátsja sohrišénija. Ťímže préžde koncá vozopíj sudijí: Bóže, očísti mjá, i spasí mja."),
     ("","","Vsí pobdím, i Christá usrjáščim so mnóžestvom jeléja, i sviščámi svítlymi, jáko da čertóha vnútr spodóbimsja: íže bo vňí dveréj obritájajsja, bezďíľno Bóhovi vozzovét: pomíluj mjá."),
@@ -240,7 +240,7 @@
   ),
 )
 
-#let L_Po = (
+#let L = (
   "B": (
     ("","","Razbójnik na kresťí Bóha ťá býti vírovav Christé, ispovída ťá čísťi ot sérdca, pomjaní mja Hóspodi, vopijá, vo cárstviji tvojém."),
     ("","","Dušetľínniji razbójnicy, na putí žitéjsťim srítše ujazvíša mjá: no k tvojemú blahoutróbiju nýňi pritekáju, iscilí Christé, i spasí mja, moľúsja."),

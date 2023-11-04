@@ -1,4 +1,4 @@
-#let V_Sr = (
+#let V = (
   "HV": (
     ("", "Vélija krestá tvojehó", "Tvár izminísja Slóve, raspjátijem tvojím, sólnce lučý sprjáta stráchom, i chráma zavísa razdrásja, i vsják vírnyj spasésja. Ťímže slávim tvojé bezmírnoje bohátstvo."),
     ("", "", "Íže plóť nášu za milosérdije vosprijím, Bóh že i Vladýka, na drévi prihvozdísja, i voznesé ny nizvérženyja, voznéssja, ťílom, jákože blahovolí, za blahoutróbije mílosti."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Sr = (
+#let P = (
   "1": (
     ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš, preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
     ("", "", "Jáko istóčnik milosérdija i mílosti, vídyj ťá Bóžiju Máter, pristúpľ moľúsja tvojéj bláhosti, dáti mí umilénije: jáko da sítuju i pláčusja prehrišénij mojích, vsečístaja Vladýčice."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Sr = (
+#let U = (
   "S1": (
     ("", "", "Krest vodruzísja na zemlí, i kosnúsja nebesé: ne jáko drévu dosjáhšu vysotú, no tebí na ném ispolňájuščemu vsjáčeskaja: Hóspodi sláva tebí."),
     ("", "", "Na kiparísi, i pévki, i kédri, voznéslsja jesí Áhnče Bóžij, da spáséši íže víroju poklaňájuščyjasja vóľnomu tvojemú raspjátiju, Christé Bóže, sláva tebí."),
@@ -258,7 +258,7 @@
 )
 
 
-#let L_Sr = (
+#let L = (
   "B": (
     ("", "", "Otvérhša Christé zápoviď tvojú práotca Adáma iz rajá izhnál jesí: razbójnika že ščédre, ispovídavša ťá na kresťí, vóň vselíl jesí zovúšča: pomjaní mja Spáse vo cárstviji tvojém."),
     ("", "", "Raspjálsja jesí mené rádi, i probodén jesí Iisúse mój v rébra, dvá istóčnika istočívyj mňí spasíteľnaja: ťímže spássja strástiju tvojéju Christé, vospiváju i slávľu blahoutróbije tvojé: pomjaní mja vopijúšča vo cárstviji tvojém."),

@@ -1,4 +1,4 @@
-#let V_So = (
+#let V = (
   "HV": (
     ("","Rádujsja póstnikom","Plámeň nečéstija ľútaho strastotérpcy uhasíša krovéj svojích tečéňmi, blahočéstija svítlosť v míri vsém vozžéhše múčenicy, bóhi že lžeimenítyja, i ťích zlovónija, i chrámy do koncá popalíša: svít vozsijáša súščym na zemlí čisťijšij, ímže i prosviščájemi, ťmý izbihájem bezbóžija, i prélesti ídoľskija ukloňájemsja, Christú poklaňájuščesja, podajúščemu mírovi véliju mílosť."),
     ("","","Slovesá jeretík zločestívych, i lovlénija udób razrušívše, orúžnicy Otcá beznačáľnaho, Sýna sobeznačáľnaho, i svjatáho Dúcha býste, v trijéch lícich jedínstvu Božestvá, blahočestnomúdrenňi vírnych naučájušče i utverždájušče pravoslávnuju própoviď. Ťímže i blažími jesté, pástyrije vsesvjaščénniji: jáko na pážitech živonósnych Christóvo stádo upasóste, za nehóže vsjá boľízni i napásti mnohoobráznyja preterpíste."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_So = (
+#let P = (
   "1": (
     ("","","Koňá i vsádnika v móre čermnóje, sokrušájaj bráni, mýšceju vysókoju, Christós istrjasé: Izráiľa že spásé, pobídnuju písň pojúšča."),
     ("","","Vsí ťa čelovíčestiji ródi chváľat, jáko drévle Ďívo, proróčeski proreklá jesí: i mené úbo prijimí pojúšča ťá Vladýčice, i prosvití, i vrazumí."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_So = (
+#let U = (
   "S1": (
     ("","","Sijájet dnés pámjať strástotérpec, ímať bo i ot nebés zarjú: lík ánheľskij toržestvújet, i ród čelovíčeskij sprázdnujet. Ťímže móľatsja Hóspodevi, pomílovatisja dušám nášym."),
     ("","","Čudesá svjatých tvojích múčenik sťínu nerazorímu nám darovál jesí, Christé Bóže: ťích molítvami vírnyja ľúdi tvojá utverdí, jáko jedín bláh i čelovikoľúbec."),
@@ -246,7 +246,7 @@
   ),
 )
 
-#let L_So = (
+#let L = (
   "B": (
     ("","","Razbójnik na kresťí Bóha ťá býti vírovav, Christé, ispovída ťá čísťi ot sérdca, pomjaní mja Hóspodi, vopijá, vo cárstviji tvojém."),
     ("","","Načalozlóbnaho vrahá, umérše múčenicy, pohubíste, i vzydóste k výšnim, vinčávšesja božéstvennymi pobídami, i carjú vsích Bóhu predstáste."),

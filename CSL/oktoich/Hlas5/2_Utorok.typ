@@ -1,4 +1,4 @@
-#let V_Ut = (
+#let V = (
   "HV": (
     ("","Rádujsja póstnikom","Uvý mňí prohňívavšemu ťá, mílostivaho Bóha mojehó i Hóspoda! Kolíždy obiščáchsja pokájatisja Christé, i lóž obritóchsja nesmýslennyj! Pérvuju úbo kreščénija okaľách odéždu, zavít že mój, íže k tebí, ostávich: i vtoróje sijé páki zaviščánije, jéže ispovídach tí pred ánhely i čelovíki, óbrazom plačévnym oďíjan: jehóže otložív próčeje, Spáse, do koncá ne ostávi mené pohíbnuti."),
     ("","","Kotóryj otvít dušé okajánnaja, obrjáščeši v déň súdnyj: ilí któ ťa osuždénija ohňá víčnaho, i próčich mučénij izbávit? Niktóže, ášče ne tý samá umílostiviši blahoutróbnaho, zlája tvojá ostávľši ďijánija, i blahouhódno sťažávši žitijé: pláčušči na vsják déň tvojích bezmírnych sohrišénij, jáže na vsják čás sohrišáješi ďílom, i slóvom, i pomyšlénijem, Christá moľášči, podáti tebí soveršénnoje sích proščénije."),
@@ -15,7 +15,7 @@
     ("Bohoródičen","","Utolí boľízni mnohovozdychájuščija duší mojejá, utolívšaja vsjáku slézu ot licá zemlí. Tý bo čelovíkom boľízni othoňáješi, i hríšnych skórbi razrušáješi: tebé bo vsí sťažáchom nadéždu i utverždénije, presvjatája Máti Ďívo."),
   ),
 )
-#let P_Ut = (
+#let P = (
   "1": (
     ("","","Koňá i vsádnika v móre čermnóje, sokrušájaj bráni mýšceju vysókoju, Christós istrjasé, Izráiľa že spasé pobídnuju písň pojúšča."),
     ("","","Dúch sokrušén podážď mí blahája, smirénije sérdcu, umú že čistotú, i žitijú ispravlénije, i prehrišénij ostavlénije, i sléz istóčniki, preneporóčnaja."),
@@ -76,7 +76,7 @@
     ("","","Očiščénije i ostavlénije prehrišénij isprosí nám, i vsích núždnych preminénije, i žitijá ispravlénije nýňi čísto i svitovídno: da proslavľájem Bohomáti mnóhuju tvojú bláhosť."),
   ),
 )
-#let U_Ut = (
+#let U = (
   "S1": (
     ("","","Sudijí siďášču, i ánhelom predstojáščym, trubí hlasjáščej i plámeni horjášču, čtó sotvoríši dušé mojá, vedóma na súd? Tohdá bo ľútaja tebí predstánut, i tájnaja tvojá obličátsja sohrišénija. Ťímže préžde koncá vozopíj Sudijí: Bóže, očísti mjá i spasí mja."),
     ("","","Vsí pobdím, i Christá usrjáščim so mnóžestvom jeléja, i sviščámi svítlymi, jáko da čertóha vnútr spodóbimsja: íže bo vňí dveréj postíhnuvyj, bezďíľno Bóhu vozzovét: pomíluj mjá."),
@@ -242,7 +242,7 @@
   ),
 )
 
-#let L_Ut = (
+#let L = (
   "B": (
     ("","","Razbójnik na kresťí Bóha ťá býti vírovav Christé, ispovída ťá čísťi ot sérdca: pomjaní mja Hóspodi, vopijá, vo cárstviji tvojém."),
     ("","","Jákože opravdál jesí Christé bludnícu, plákavšujusja ot vsejá duší: tákožde i mené Vladýko, otčájavšahosja ot vsjákaho ischití bláže mučénija, moľúsja."),

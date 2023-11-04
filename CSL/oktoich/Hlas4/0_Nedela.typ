@@ -1,4 +1,4 @@
-#let M_Ne = (
+#let M = (
   "HV": (
     ("", "", "Životvorjáščemu tvojemú krestú, neprestánno kláňajuščesja Christé Bóže, tridnévnoje voskresénije tvojé slávim: ťím vo obnovíl jesí istľívšeje čelovíčeskoje jestestvó Vsesíľne, i íže na nebesá voschód obnovíl jesí nám, jáko jedín bláh, i čelovikoľúbec."),
     ("", "", "Životvorjáščemu tvojemú krestú, neprestánno kláňajuščesja Christé Bóže, tridnévnoje voskresénije tvojé slávim: ťím vo obnovíl jesí istľívšeje čelovíčeskoje jestestvó Vsesíľne, i íže na nebesá voschód obnovíl jesí nám, jáko jedín bláh, i čelovikoľúbec."),
@@ -15,7 +15,7 @@
   )
 )
 
-#let V_Ne = (
+#let V = (
   "HV": (
     ("", "", "Životvorjáščemu tvojemú krestú, neprestánno kláňajuščesja Christé Bóže, tridnévnoje voskresénije tvojé slávim: ťím bo obnovíl jesí istľívšeje čelovíčeskoje jestestvó vsesíľne, i íže na nebesá voschód obnovíl jesí nám, jáko jedín bláh i čelovikoľúbec."),
     ("", "", "Dréva preslušánija zapreščénije razrišíl jesí Spáse, na drévi krestňim vóleju prihvozdívsja, i vo ád sošéd síľne, smértnyja úzy jáko Bóh rasterzál jesí. Ťímže kláňajemsja jéže iz mértvych tvojemú voskreséniju, rádostiju vopijúšče: vsesíľne Hóspodi, sláva tebí."),
@@ -43,7 +43,7 @@
   ),
 )
 
-#let P_Ne = (
+#let P = (
   "1": (
     ("", "", "Mórja čermnúju pučínu nevlážnymi stopámi drévnij pišešéstvovav Izráiľ, krestoobráznyma Mojséovyma rukáma, Amalíkovu sílu v pustýni pobidíl jésť."),
     ("", "", "Jáže jedína v napástech i skórbech zaščiščájuščaja, pod króv tvój prečístaja, pribihájuščich tépľi, prijimí jáko preblahája, jáže ot sérdca molénija."),
@@ -113,7 +113,7 @@
 	),
 )
 
-#let N_Ne = (
+#let N = (
   "1": (
     ("", "", "Mórja čermnúju pučínu, nevlážnymi stopámi, drévnij pišešéstvovav Izráiľ, krestoobráznyma Mojséovyma rukáma, Amalíkovu sílu v pustýni pobidíl jésť."),
     ("", "", "Tróicu Bohonačáľnuju da proslávim ipostásmi, jedínstvennoje že jestestvó trijéch, soprisnosúščnuju, soprestóľnuju, júže moľášče, hlahólem: spasí íže víroju tebé slávjaščich."),
@@ -189,7 +189,7 @@
 	),
 )
 
-#let U_Ne = (
+#let U = (
   "T": (
     ("", "", "Svítluju voskrésnija própoviď ot ánhela uvíďivša Hospódni učenícy, i práďidneje osuždénije otvérhša, apóstolom chváľaščjasja hlahólachu: isprovéržesja smérť, voskrése Christós Bóh, dárujaj mírovi véliju mílosť."),
     ("Bohoródičen", "", "Jéže ot víka utajénoje, i ánhelom nesvídomoje tájinstvo: tobóju Bohoródice súščym na zemlí javísja Bóh, v neslítnom sojedinéniji voploščájem, i krest vóleju nás rádi vosprijím, ímže voskresív pervozdánnaho, spasé ot smérti dúšy náša."),
@@ -442,7 +442,7 @@
   )
 )
 
-#let L_Ne = (
+#let L = (
   "B": (
     ("", "", "Drévom Adám rajá býsť izselén: drévom že kréstnym razbójnik v ráj vselísja. Óv úbo vkúš, zápoviď otvérže sotvóršaho: óv že sraspinájem, Bóha ispovída tajáščahosja, pomjaní mja, vopijá, vo cárstviji tvojém."),
     ("", "", "Voznesýjsja na krest, smértnuju razrušívyj sílu, i zahládivyj jáko Bóh jéže na ný rukopisánije Hóspodi, razbójniče pokajánije i nám podážď jedíne čelovikoľúbče, víroju služáščym, Christé Bóže náš, i vopijúščym tí: pomjaní i nás vo cárstviji tvojém."),

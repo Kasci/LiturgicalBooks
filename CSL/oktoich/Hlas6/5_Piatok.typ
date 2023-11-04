@@ -1,4 +1,4 @@
-#let V_Pi = (
+#let V = (
   "HV": (
     ("","Tridnévno","Dolhoterpilíve i čelovikoľúbče Bóže mój, mnohomílostive i ščédre, káko preterpíl jesí zakalánije i umerščvlénije na drévi, za ród čelovíčeskij? Slavoslóvim tvojé blahoutróbije."),
     ("","","Zaušénija preterpíl jesí, i raspjátije dolhoterpielíve, i uničižénija, choťá vsích izbáviti lestcá, jedíne živodávče, i vsjá terpíši preblahíj."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Pi = (
+#let P = (
   "1": (
     ("","","Jáko po súchu pišešéstvovav Izráiľ, po bézdňi stopámi, honíteľa faraóna víďa potopľájema, Bóhu pobídnuju písň poím, vopijáše."),
     ("","","Prijimí Ďívo, moľbú mojú iz úst nedostójnych, ot skvérnych ustén derznovénno prinosíti ustremívšahosja: i svít umilénija, čístaja, ozarí rabú tvojemú."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Pi = (
+#let U = (
   "S1": (
     ("","","Dnés proróčeskoje ispólnisja slóvo: sé bo poklaňájemsja na mísťi, iďíže stojásťi nózi tvojí Hóspodi, i drévo spasénija vkusívše, íže ot hrichá strastéj svoboždénije ulučíchom, molítvami Bohoródicy, jedíne čelovikoľúbče."),
     ("","","Tókmo vodruzísja drévo Christé, krestá tvojehó, osnovánija podvizášasja smérti Hóspodi: jehóže bo požré ľubóviju ád, otpustí trépetom. Pokazál jesí nám spasénije tvojé svjatýj, i slavoslóvim ťá, Sýne Bóžij, pomíluj nás."),
@@ -233,7 +233,7 @@
   ),
 )
 
-#let L_Pi = (
+#let L = (
   "B": (
     ("","","Pomjaní mja Bóže Spáse mój, jehdá priídeši vo cárstviji tvojém, i spasí mja, jáko jedín čelovikoľúbec."),
     ("","","Rasprostér dláni na drévi, objál jesí jazýki pojúščija tvojé blahoutróbije, Christé Bóže náš."),

@@ -1,4 +1,4 @@
-#let V_Sr = (
+#let V = (
   "HV": (
     ("","Rádujsja póstnikom","Vozdvížesja jákože áhnec na kresťí, i voznošénija ľstívaho nizvérhl jesí: zakláv že sja, króviju tvojéju vsjú osvjatíl jesí zémľu. I probodén kopijém, plámennomu mňí Christé, orúžiju pleščí dáti ábije poveľíl jesí, i rajá vmistíti vchód, i dréva mjá naslaždátisja živótnaho nebojáznenno. Ťímže spasén býv strástiju tvojéju, zovú rádujasja: sláva božéstvennomu krestú tvojemú, ímže kľátvy izbávichomsja drévnija, i blahoslovénije ot dréva objémlem, i véliju mílosť."),
     ("","","Ustáviti boľízni choťá čelovíkom i ponošénija, preblahíj Hóspodi Spáse mój, raspjátije terpíši ponósnoje, i žélči vkušáješi nezlóbive, nášu hóresť otémľa zlóbnuju, ujazvívsja Slóve, rebrá probodénijem, jázvy náša jáko Vladýka isciľáješi. Ťímže i vospivájem tvojé slávnoje choťínije, i poklaňájuščesja čtím kopijé, i húbu, i trósť, ímiže darovál jesí míru tvojemú mír i véliju mílosť."),
@@ -16,7 +16,7 @@
   )
 )
 
-#let P_Sr = (
+#let P = (
   "1": (
     ("","","Koňá i vsádnika v móre čermnóje, sokrušájaj bráni mýšceju vysókoju, Christós istrjasé: Izráiľa že spasé, pobídnuju písň pojúšča."),
     ("","","Tvojích ráb iz hlubiný sérdca molítvy vírno prinosímyja tí Bohoródice, prijémli: i sijá prinosjášči Sýnu tvojemú, podážď prehrišénij ostavlénije."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Sr = (
+#let U = (
   "S1": (
     ("","","Místo lóbnoje ráj býsť, tóčiju bo vodruzísja drévo krestnoje, ábije izrastí hrózd živótnyj, v náše vesélije, tebé Spáse: sláva tebí."),
     ("","","Raspénšahosja Spása i izbáviteľa nášeho vóleju, jákože vísť, i jákože bláhoizvóli, vospojím vírniji, i proslávim: jáko prihvozdí na kresťí hrichí čelovíkov: izbavľája ot prélesti ród čelovíčeskij, i cárstviju spodóbil jésť."),
@@ -241,7 +241,7 @@
   ),
 )
 
-#let L_Sr = (
+#let L = (
   "B": (
     ("","","Razbójnik na kresťí Bóha ťá býti vírovav, Christé, ispovída ťá čísťi ot sérdca, pomjaní mja Hóspodi, vopijá, vo cárstviji tvojém."),
     ("","","Probodén býv v rébra, potóki ostavlénija istočíl jesí Christé: prihvozdív že svojí na kresťí rúci, vés razorjája strástnyj čelovíkom rázum."),

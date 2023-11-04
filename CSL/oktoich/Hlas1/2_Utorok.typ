@@ -1,4 +1,4 @@
-#let V_Ut = (
+#let V = (
   "HV": (
     ("",	"Prechváľniji múčenicy",	"Vsé žitijé mojé srámno izžích, Hóspodi, so bludnícami okajánnyj, jákože blúdnyj umilénijem zovú: Ótče nebésnyj, sohriších, očísti i spasí mja, i ne otríni mené, samohó sebé ot tebé udalívšahosja, i bezplódnych rádi ďíl nýňi obniščávšaho."),
     ("",	"",	"Obniščáv bohát sýj Christé, čelovíki obohatíl jesí bezsmértijem i svítlostiju. Ťímže obniščávša mjá slasťmí žitéjskimi, dobroďítelmi obohatí, i s níščim Lázarem učiní mja, bohátaho mučénija izimája mjá i hejénny predležáščija mí."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Ut = (
+#let P = (
   "1": (
     ("", "", "Písň pobídnuju pojím vsí Bóhu, sotvóršemu dívnaja čudesá mýšceju vysókoju, i spásšemu Izráiľa, jáko proslávisja."),
     ("", "", "Svjaščénije prečístoje rádujsja Ďívo, ánhelov ukrašénije, i prijátelišče Dúcha, nevísto neporóčnaja otcá beznačálna, i Máti slóva Bóžija."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Ut = (
+#let U = (
   "S1": (
     ("", "", "V bezzakónijich začát jésm áz blúdnyj, ne smíju vziráti na vysotú nebésnuju. no naďíjasja na čelovikoľúbije tvojé zovú: Bóže, očísti mjá hríšnaho, i spasí mja."),
     ("", "", "Ášče právednik jedvá spasájetsja, áz že hríšnyj hďí javľúsja, ťahotý i vára dnevnáho ne ponésšij? No s naémniki jedinonadesjátaho časá sopričtí mja Bóže, i spasí mja."),
@@ -243,7 +243,7 @@
   )
 )
 
-#let L_Ut = (
+#let L = (
   "B": (
     ("", "", "Sňídiju izvedé iz rajá vráh Adáma: krestóm že vvedé Christós vóň razbójnika, pomjaní mja Hóspodi, vopijúšča, jehdá priídeši vo cárstviji tvojém."),
     ("", "", "Na vsják déň sohrišájušča i prestupájušča tvojá zápovidi, obratí mja Bóže, i ot mučénija ischití, jáko da tvojé neizrečénnoje milosérdije slávľu čelovikoľúbče."),

@@ -1,4 +1,4 @@
-#let M_Ne = (
+#let M = (
   "HV": (
     ("", "", "Večérnija náša molítvy, prijimí svjatýj Hóspodi, i podážď nám ostavlénije hrichóv, jáko jedín jesí javléj v míri voskresénije."),
     ("", "", "Večérnija náša molítvy, prijimí svjatýj Hóspodi, i podážď nám ostavlénije hrichóv, jáko jedín jesí javléj v míri voskresénije."),
@@ -15,7 +15,7 @@
   ),
 )
 
-#let V_Ne = (
+#let V = (
   "HV": (
     ("",	"",	"Večérnija náša molítvy prijimí svjatýj Hóspodi, i podážď nám ostavlénije hrichóv, jáko jedín jesí javléj v míri voskresénije."),
     ("",	"",	"Obydíte ľúdije Sijón, i obimíte jehó, i dadíte slávu v ném voskrésšemu iz mértvych: jáko tój jésť Bóh náš, izbavléj nás ot bezzakónij nášich."),
@@ -42,7 +42,7 @@
   ),
 )
 
-#let P_Ne = (
+#let P = (
   "1": (
     ("", "", "Hórkija rabóty izbávľsja Izráiľ, neprochodímoje prójde jáko súšu, vrahá zrjá potopľájema, písň jáko blahoďíteľu pojét Bóhu, čudoďíjuščemu mýšceju vysókoju, jáko proslávisja."),
     ("", "", "Užasóšasja stráchom vsecaríce ánheľskaja činonačálija, chváľašče ťá: pojét že bláhosti rádi vsják úm, jáko Máter ziždíteľa: pochvalý bo vsjákija prevozšlá jesí čín, Christá róždši."),
@@ -104,7 +104,7 @@
   ),
 )
 
-#let N_Ne = (
+#let N = (
   "1": (
     ("", "", "Tvojá pobedíteľnaja desníca Bohoľípno v kríposti proslávisja: tá bo bezsmértne, jáko vsemohúščaja, protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."),
     ("", "", "Jedíno trijipostásnoje načálo, Serafími nemólčno slávjat: beznačáľnoje, prisnosúščnoje, tvoríteľnoje vsích, nepostižímoje, jéže i vsják jazýk vírno počitájet písňmi."),
@@ -171,7 +171,7 @@
   ),
 )
 
-#let U_Ne = (
+#let U = (
   "T": (
     ("",	"",	"Kámeni zapečátanu ot judéj, i vóinom strehúščym prečístoje ťílo tvojé, voskrésl jesí tridnévnyj Spáse, dárujaj mírovi žízň. Sehó rádi síly nebésnyja vopijáchu tí, žiznodávče: sláva voskreséniju tvojemú Christé: sláva cárstviju tvojemú: sláva smotréniju tvojemú, jedíne čelovikoľúbče."),
     ("Bohoródičen",	"",	"Havrijílu viščávšu tebí, Ďívo, rádujsja, so stráchom voploščášesja vsích Vladýka, v tebí svjaťím kivóťi, jákože rečé právednyj Davíd: javílasja jesí šíršaja nebés, ponosívši ziždíteľa tvojehó. Sláva vséľšemusja v ťá: sláva prošédšemu iz tebé: sláva svobodívšemu nás roždestvóm tvojím."),
@@ -389,7 +389,7 @@
   ),
 )
 
-#let L_Ne = (
+#let L = (
   "B": (
     ("", "", "Sňídiju izvedé iz rajá vráh Adáma: krestóm že razbójnika vvedé Christós vóň, pomjaní mja, zovúšča, jehdá priídeši vo cárstviji tvojém."),
     ("", "", "Pokláňajusja strastém tvojím, slavoslóvľu i voskresénije so Adámom i razbójnikom, so hlásom svítlym vopijú ti: pomjaní mja Hóspodi, jehdá priídeši vo cárstviji tvojém."),

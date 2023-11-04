@@ -1,4 +1,4 @@
-#let M_Ne = (
+#let M = (
   "HV": (
     ("", "", "Tvojím krestóm Christé Spáse, smérti deržáva razrušísja, i dijávoľa prélesť uprazdnísja: ród že čelovíčeskij víroju spasájemyj, písň tebí vsehdá prinósit."),
     ("", "", "Tvojím krestóm Christé Spáse, smérti deržáva razrušísja, i dijávoľa prélesť uprazdnísja: ród že čelovíčeskij víroju spasájemyj, písň tebí vsehdá prinósit."),
@@ -15,7 +15,7 @@
   )
 )
 
-#let V_Ne = (
+#let V = (
   "HV": (
     ("", "", "Tvojím krestóm Christé Spáse, smérti deržáva razrušísja, i dijávoľa prélesť uprazdnísja: ród že čelovíčeskij víroju spasájemyj: písň tebí vsehdá prinósit."),
     ("", "", "Prosvitíšasja vsjáčeskaja voskresénijem tvojím Hóspodi, i ráj páki otvérzesja: vsjá že tvár voschvaľájušči ťá, písň tebí vsehdá prinósit."),
@@ -42,7 +42,7 @@
   ),
 )
 
-#let P_Ne = (
+#let P = (
   "1": (
     ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš, preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
     ("", "", "Jáko Máter Bóžiju ťá Dúchom božéstvennym, Otcá že blahovolénijem jávľšujusja, vírniji písňmi čístymi vinčájim, prečístaja Bohonevísto: i cilújem ťá píňmi so archánhelom, vo spasénije náše."),
@@ -104,7 +104,7 @@
   ),
 )
 
-#let N_Ne = (
+#let N = (
   "1": (
     ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
     ("", "", "Nepostižímoje jedíno Hóspodonačálije, i jedíno Tróičeskoje Bohonačálije, trisijánnaho svíta tvojehó mja spodóbi: jáko da vospojú ťá, pivájemoje neprestánno trisvjátými písňmi, ánheľskimi ustý."),
@@ -171,7 +171,7 @@
   ),
 )
 
-#let U_Ne = (
+#let U = (
   "T": (
     ("", "", "Da veseľátsja nebésnaja, da rádujutsja zemnája: jáko sotvorí deržávu mýšceju svojéju Hospóď, poprá smértiju smérť, pérvenec mértvych býsť, iz čréva ádova izbávi nás, i podadé mírovi véliju mílosť."),
     ("Bohoródičen", "", "Ťá chodátajstvovavšuju spasénije róda nášeho, vospivájem Bohoródice Ďívo: plótiju bo ot tebé vosprijátoju Sýn tvój, i Bóh náš, krestóm vospriím strásť, izbávi nás ot tlí jáko čelovikoľúbec."),
@@ -409,7 +409,7 @@
   )
 )
 
-#let L_Ne = (
+#let L = (
   "B": (
     ("", "", "Otvérhša Christé zápoviď tvojú, práotca Adáma iz rajá izhnál jesí: razbójnika že ščédre ispovídavša ťá na kresťí, vóň vselíl jesí, zovúšča: pomjaní mja Spáse, vo cárstviji tvojém."),
     ("", "", "Sohríššich nás smértnoju osudíl jesí kľátvoju, živodávče i Hóspodi, ťílom že tvojím bezhríšne Vladýko postradáv, smértnyja oživíl jesí zovúščyja: pomjaní i nás vo cárstviji tvojém."),

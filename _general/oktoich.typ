@@ -68,5 +68,5 @@
 #show: project
 
 // #include("/CU/oktoich/all.typ")
-// #include("/CSL/oktoich/all.typ")
-#include("/GR/oktoich/all.typ")
+#include("/CSL/oktoich/all.typ")
+// #include("/GR/oktoich/all.typ")

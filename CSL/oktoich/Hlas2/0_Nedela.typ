@@ -1,4 +1,4 @@
-#let M_Ne = (
+#let M = (
   "HV": (
     ("", "", "Préžde vík ot Otcá róždšemusja Bóžiju Slóvu, voplóščšemusja ot Ďívy Maríji, prijidíte poklonímsja: krest bo preterpív, pohrebéniju predadésja, jáko sám voschoťí: i voskrés iz mértvych, spasé mja zabluždájuščaho čelovíka."),
     ("", "", "Préžde vík ot Otcá róždšemusja Bóžiju Slóvu, voplóščšemusja ot Ďívy Maríji, prijidíte poklonímsja: krest bo preterpív, pohrebéniju predadésja, jáko sám voschoťí: i voskrés iz mértvych, spasé mja zabluždájuščaho čelovíka."),
@@ -15,7 +15,7 @@
   )
 )
 
-#let V_Ne = (
+#let V = (
   "HV": (
     ("", "", "Préžde vík ot Otcá róždšemusja Bóžiju Slóvu, voplóščšemusja ot Ďívy Maríji, prijidíte poklonímsja: krest bo preterpív, pohrebéniju predadésja, jáko sám voschoťí: i voskrés iz mértvych, spasé mja zabluždájuščaho čelovíka."),
     ("", "", "Christós Spás náš, jéže na ný rukopisánije prihvozdív na kresťí zahládi, i smértnuju deržávu uprazdní: poklaňájemsja jehó tridnévnomu voskreséniju."),
@@ -42,7 +42,7 @@
   ),
 )
 
-#let P_Ne = (
+#let P = (
   "1": (
     ("", "", "Vo hlubiňí postlá inohdá, faraonítskoje vsevójinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť: preproslávlennyj Hospóď slávno bo proslávisja."),
     ("", "", "Jáže vsím udób poslúšnaja v skórbi, i v pečáli pomohájuščaja, Bohoródice blahája, blahodáť podážď píti ťá derzájuščym, Vladýčice skorbjáščich rádoste."),
@@ -104,7 +104,7 @@
   ),
 )
 
-#let N_Ne = (
+#let N = (
   "1": (
     ("", "", "Vo hlubiňí postlá inohdá, faraonítskoje vsevójinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť, preproslávlennyj Hospóď, slávno bo proslávisja."),
     ("", "", "Trójičnoje i jedinonačáľnoje jestestvó božestvá, písnenno vospojím hlahóľušče: mílosti pučínu neizčerpájemuju, suščéstvennuju jáko imúšči, tebí kláňajuščichsja sobľudí i spasí, jáko čelovikoľúbec."),
@@ -172,7 +172,7 @@
   ),
 )
 
-#let U_Ne = (
+#let U = (
   "T": (
     ("", "", "Jehdá snizšél jesí k smérti, životé bezsmértnyj, tohdá ád umertvíl jesí blistánijem božestvá. Jehdá že i uméršyja ot preispódnich voskresíl jesí, vsjá síly nebésnyja vzyváchu: žiznodávče Christé Bóže náš, sláva tebí."),
     ("Bohoródičen", "", "Vsjá páče smýsla, vsjá preslávnaja tvojá Bohoródice, tájinstva, čistoťí zapečátannoj, i ďívstvu chranímu Máti poználasja jesí nelóžna, Bóha róždši ístinnaho: tohó molí spastísja dušám nášym."),  
@@ -377,7 +377,7 @@
   ),
 )
 
-#let L_Ne = (
+#let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse, vo cárstviji tvojém."),
     ("", "", "Krest tebí prinósim v proščénije prehrišénij: jehóže nás rádi prijál jesí čelovikoľúbče."),

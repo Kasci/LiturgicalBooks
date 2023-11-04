@@ -1,4 +1,4 @@
-#let M_Ne = (
+#let M = (
   "HV": (
     ("","","Pobídu imíja Christé júže na áda, na krest vozšél jesí: da vo ťmí smérti seďáščya voskresíši s sobóju, íže v mértvych svobóď: istočájaj živót ot svojehó svíta, vsesíľne Spáse, pomíluj nás."),
     ("","","Pobídu imíja Christé júže na áda, na krest vozšél jesí: da vo ťmí smérti seďáščya voskresíši s sobóju, íže v mértvych svobóď: istočájaj živót ot svojehó svíta, vsesíľne Spáse, pomíluj nás."),
@@ -15,7 +15,7 @@
   ),
 )
 
-#let V_Ne = (
+#let V = (
   "HV": (
     ("","","Pobídu imíja Christé, júže na áda, na krest vozšél jesí: da vo ťmí smérti seďáščyja voskrésíši s sobóju, íže v mértvych svobóď, istočájaj živót ot svojehó svíta, vsesíľne Spáse, pomíluj nás."),
     ("","","Dnés Christós smérť popráv, jákože rečé, voskrése, i rádovanije mírovi darová, da vsí vzyvájušče, písň táko rcém: istóčniče žízni, nepristúpnyj svíte, vsesíľne Spáse, pomíluj nás."),
@@ -42,7 +42,7 @@
   ),
 )
 
-#let P_Ne = (
+#let P = (
   "1": (
     ("","","Jáko po súchu pišešéstvovav Izrájiľ po bézdňi stopámi, honíteľa faraóna víďa potopľájema, Bóhu pobídnuju písň pojím vopijáše."),
     ("","","Neoskúdnu blahodáť imúšči jáko božéstvennuju, Máti beznevístnaja, k tebí pribihájuščich ne prézri, ot bíd i skorbéj prísno spasájušči."),
@@ -104,7 +104,7 @@
   ),
 )
 
-#let N_Ne = (
+#let N = (
   "1": (
     ("","","Jáko po súchu pišešéstvovav Izrájiľ po bézdňi stopámi, honíteľa faraóna víďa potopľájema, Bóhu pobídnuju písň pojím, vopijáše."),
     ("","","Trí ipostási pojém Bohonačáľnyja, jedínstvennaho jestestvá neizmínnyj zrák, blaháho čelovikoľúbca Bóha, prehrišénij očiščénije nám dárujušča."),
@@ -171,7 +171,7 @@
   ),
 )
 
-#let U_Ne = (
+#let U = (
   "T": (
     ("","","Ánheľskija síly na hróbi tvojém, i strehúščiji omertvíša: i stojáše Maríja vo hróbi, íščušči prečístaho ťíla tvojehó. Pľiníl jesí ád, ne iskusívsja ot nehó: srítil jesí Ďívu dárujaj živót. Voskrésýj iz mértvych, Hóspodi sláva tebí."),
     ("Bohoródičen","","Bláhoslovénnuju narekíj tvojú Máter, prišél jesí na strásť vóľnym choťínijem, vozsijáv na kresťí, vzyskáti choťá Adáma, hlahóľa ánhelom: srádujtesja mňí, jáko obrítesja pohíbšaja dráchma, vsjá múdre ustróivyj Bóže náš, sláva tebí."),
@@ -395,7 +395,7 @@
   ),
 )
 
-#let L_Ne = (
+#let L = (
   "B": (
     ("","","Pomjaní mja Bóže Spáse mój, jehdá priídeši vo cárstviji tvojém, i spasí mja jáko jedín čelovikoľúbec."),
     ("","","Drévom Adáma preľstívšahosja, drévom krestnym páki spásl jesí i razbójnika, vopijúšča: pomjaní mja Hóspodi vo cárstviji tvojém."),

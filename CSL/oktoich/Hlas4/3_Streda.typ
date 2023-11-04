@@ -1,4 +1,4 @@
-#let V_Sr = (
+#let V = (
   "HV": (
     ("", "Jáko dóbľa", "Na krest vozdvizájem, i kopijém probodájem, i pérsty okrovavľájem Vladýko, svoboždénije podpisál jesí nám preblahíj, i rukopisánije Adáma prarodíteľa rasterzáv, svobodíl jesí čelovíčeskoje suščestvó. Sehó rádi vospivájem ščédre, júže páče umá tvojú blahostýňu."),
     ("", "", "Vospivájem tvojá stradánija Vladýko Iisúse: krest, kopijé že i trósť, húbu i hvózdija, bijénija, bahrjanícu, i vinéc ot térnija, oplevánija že i poruhánija, jáže preterpíl jesí vóleju. Veličáju tvojé nezlóbive jedíne žiznodávče dolhoterpínije, i víroju slavoslóvľu ťá čelovikoľúbče."),
@@ -17,7 +17,7 @@
   ),
 )
 
-#let P_Sr = (
+#let P = (
   "1": (
     ("", "", "Otvérzu  ustá  mojá,  i  napólňatsja  Dúcha,  i  slóvo  otrýhnu  caríci  Máteri,  i  javľúsja  svítlo  toržestvúja,  i  vospojú  rádujasja  tojá  čudesá."),
     ("", "", "Neizmírnuju  Bóžiju  múdrosť  i  sílu  róždši  preneporóčnaja,  Christá  bez  símene  plótiju,  deržávu  kríposti,  i  božéstvennoje  velíčije  sťažála  jesí  roždestvóm  tvojím,  Bohorodíteľnice."),
@@ -79,7 +79,7 @@
 	),
 )
 
-#let U_Sr = (
+#let U = (
   "S1": (
     ("", "", "Iskupíl ný jesí ot kľátvy zakónnyja čestnóju tvojéju króviju, na kresťí prihvozdívsja, i kopijém probóďsja, bezsmértije istočíl jesí čelovíkom: Spáse náš sláva tebí."),
     ("", "", "Na kresťí ťa Spáse, prihvozdíša Judéji, ímže ot jazýk nás prizvál jesí Christé Bóže náš: prostérl jesí dláni na ném vóleju tvojéju, kopijém že v rébra tvojá prijál jesí probostísja mnóžestvom ščedrót tvojích, jedíne čelovikoľúbče."),
@@ -262,7 +262,7 @@
 )
 
 
-#let L_Sr = (
+#let L = (
   "B": (
     ("", "", "Drévom Adám rajá býsť izselén: drévom že krestnym razbójnik v ráj vselísja. Óv úbo vkúš, zápoviď otvérže sotvóršaho: óv že sraspinájem, Bóha ispovída tajáščahosja, pomjaní mja, vopijá, vo cárstviji tvojém."),
     ("", "", "Prihvozdílsja jesí na kresťí, mnóhija rádi Christé bláhosti, probodén býl jesí v rébra, dvá istóčnika istočívyj ostavlénija: zemľá že ne terpjášči zríti derznovénija trjasášesja, kámenije raspadášesja, uhasáše sólnce, kolebáchusja hóry i chólmi, stráchom deržávy tvojejá."),

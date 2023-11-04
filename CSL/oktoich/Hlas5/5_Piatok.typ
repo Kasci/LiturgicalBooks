@@ -1,4 +1,4 @@
-#let V_Pi = (
+#let V = (
   "HV": (
     ("","Prepodóbne ótče","Vsjá drevá dubrávnaja da vozrádujutsja, drévo víďašče vsečestnóje, strástiju Vladýčneju obrádovanno, blahodáť oblistavájuščeje jáko plámeň ohňá, istočájuščeje jákože vódy darovánija vsím, dúšy prosviščájuščeje i pomyšlénija, nedúhi očiščájuščeje i strásti othoňájuščeje nevídimyja, jazýki inopleménnyja pobeždájuščeje jávi, pobídy podajúščeje vsehdá vírnym, blahoslovénije i véliju mílosť."),
     ("","","Místu, iďíže stojásťi nózi Hospódni, víroju poklaňájuščesja, jákože prorók rečé: Christá slavoslóvim raspénšahosja i sraspénša prehrišénija náša: júže ot dréva razorívšaho kľátvu, i primirívša Otcú otstojáščyja otňúd pomyšléňmi. Ručnýja že jehó i nožnýja hvózdija, kopijé i trósť, húbu i vinéc oblobyzájušče, dosaždénija i naruhánija, i ína jelíka podját, čéstňi počitájem, ímiže spasóchomsja."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Pi = (
+#let P = (
   "1": (
     ("","","Koňá i vsádnika v móre čermnóje, sokrušájaj bráni, mýšceju vysókoju Christós istrjasé, Izráiľa že spasé, pobídnuju písň pojúšča."),
     ("","","Druhíj ráj znájem ťá mýslennyj bez sravnénija, Ďívo Bohonevísto, odoľivájuščij íže vo Jedémi rajú, Bohomáti: tý bo netľínije čelovíkom prozjablá jesí."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Pi = (
+#let U = (
   "S1": (
     ("","","Místo lóbnoje ráj býsť: tóčiju bo vodruzísja drévo krestnoje, ábije izrastí hrózd živótnyj, tebí Spáse v náše vesélije, sláva tebí."),
     ("","","Raspénšahosja Spása i izbáviteľa nášeho vóleju jáko vísť, i jákože blahoizvóli, vospojím vírniji, i proslávim: jáko prihvozdí na kresťí hrichí čelovíkov, izbavľája ot lésti ród čelovíčeskij, i cárstvija spodóbil jésť."),
@@ -241,7 +241,7 @@
   ),
 )
 
-#let L_Pi = (
+#let L = (
   "B": (
     ("","","Razbójnik na kresťí Bóha ťá býti vírovav, Christé, ispovída ťá čísťi ot sérdca: pomjaní mja Hóspodi, vopijá, vo cárstviji tvojém."),
     ("","","Umertvívsja na kresťí, sňídi rádi uméršaho Adáma: jehóže oživíl jesí žiznodávče ščédryj, i žíteľa páki bláže rajá pokazál jesí."),

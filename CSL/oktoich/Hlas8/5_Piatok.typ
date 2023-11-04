@@ -1,4 +1,4 @@
-#let V_Pi = (
+#let V = (
   "HV": (
     ("","O preslávnaho čudesé!","Živonósnyj sád, krest presvjatýj, na vysotú voznosím javľájetsja dnés: slavoslóvjat vsí koncý zemníji, ustrašájutsja démonskija polkí. o kakovýj dár zemným darovásja! Ímže Christé spasí dúšy náša, jáko jedín blahoutróben."),
     ("","","O preslávnaho čudesé! Jáko hrózd ispólnen životá, ponesýj výšňaho, ot zemlí vozdvizájem krest víditsja dnés: ímže vsí k Bóhu privlekóchomsja, i požérta býsť do koncá smérť. O drévo prečestnóje! ímže vosprijáchom vo Jedémi bezsmértnuju píšču, Christá slávjašče."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Pi = (
+#let P = (
   "1": (
     ("","","Poím Hóspodevi, provédšemu ľúdi svojá skvozé čermnóje móre, jáko jedín slávno proslávisja."),
     ("","","Mílostiva mňí Christá soďílaj, Ďívo preneporóčnaja, v déň prí strášnaho osuždénija izimájušči."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Pi = (
+#let U = (
   "S1": (
     ("","","Víďa razbójnik načáľnika žízni na kresťí vísjašča, hlahólaše: ášče ne bý Bóh býl voplóščsja, íže s námi raspnýjsja, ne by sólnce lučý svojá potajílo, nižé by zemľá trepéščušči trjaslásja. No vsjá terpjáj, pomjaní mja Hóspodi, vo cárstviji tvojém."),
     ("","","Posreďí dvojú razbójniku mírilo právednoje obrítesja krest tvój, óvomu úbo nizvodímu vo ád ťahotóju chulénija, druhómu že lehčáščusja ot prehrišénij k poznániju bohoslóvija: Christé Bóže, sláva tebí."),
@@ -243,7 +243,7 @@
   ),
 )
 
-#let L_Pi = (
+#let L = (
   "B": (
     ("","","Pomjaní nás Christé Spáse míra, jákože razbójnika pomjanúl jesí na drévi: i spodóbi vsích, jedíne ščédre, nebésnomu cárstviju tvojemú."),
     ("","","Rasprostérl jesí Christé dláni na drévi, i lukávaja načála i vlásti obličív, spásl jesí ot ťích vréda blahočéstno slavoslóvjaščyja ťá."),

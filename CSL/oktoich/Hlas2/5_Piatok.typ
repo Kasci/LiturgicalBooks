@@ -1,4 +1,4 @@
-#let V_Pi = (
+#let V = (
   "HV": (
     ("", "Jehdá ot dréva", "Spáse, na kresťí prihvozdívsja, sólnce víďiv pomračísja ot strácha tvojehó, i zavísa cerkóvnaja razdrásja: zemľá že potrjasésja, i kámenije tákožde trépetom raspadóšasja, zríti ne terpjášče ziždíteľa svojehó i Bóha, na drévi stráždušča neprávedno vóleju, i ot bezzakónnik dosaždájema."),
     ("", "", "Vés nizložén býsť na zémľu, vés ujazvívsja, i ležít padénijem čúdnym zmíj vselukávyj, voznesénu bývšu tí na drévo čelovikoľúbče: Adám že ot kľátvy razrišájetsja, i spasájem byvájet, íže préžde osuždényj. Ťímže i mý mólimsja: spasí nás ščédryj vsích, i cárstvija tvojehó spodóbi."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Pi = (
+#let P = (
   "1": (
     ("", "", "Vo hlubiňí postlá inohdá, faraonítskoje vsevóinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jésť, preproslávlennyj Hospóď, slávno bo proslávisja."),
     ("", "", "Jáko krásnuju, jáko predóbruju vsjú, jáko neporóčnuju v ženách, Bóh ťá izbrá, i vo utróbu tvojú vselísja neporóčnuju: jehóže molí vseneporóčnaja, poróka hrichóv izbáviti vsjá pojúščyja ťá."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Pi = (
+#let U = (
   "S1": (
     ("", "", "Spasénije soďílal jesí posreďí zemlí Christé Bóže, na kresťí prečísťiji rúci tvojí prostérl jesí, sobirája vsjá jazýki zovúščyja: Hóspodi sláva tebí."),
     ("", "", "Ímže óbrazom pľiníl jésť vráh Adáma drévom sňídnym: tákožde sám Hóspodi pľiníl jesí tý vrahá drévom krestnym, i strástiju tvojéju. Na sé bo priíde vtorýj Adám, vzyskáti zablúždšaho, i oživíti uméršaho: Bóže, sláva tebí."),
@@ -241,7 +241,7 @@
   )
 ) 
 
-#let L_Pi = (
+#let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Hóspodi vo cárstviji tvojém."),
     ("", "", "Iskoreníl jesí Vladýko, zlóbnyj térn, vinéc ternóv vóleju nosív, dolhoterpilíve."),

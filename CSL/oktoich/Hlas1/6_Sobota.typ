@@ -1,4 +1,4 @@
-#let V_So = (
+#let V = (
   "HV": (
     ("",	"Prechváľniji múčenicy",	"Múčenikov jedínstvennoje toržestvó, strujámi svoích krovéj mnóžestvo bisóv udavíša, i vsjákija ustáviša stúdnyja žértvy, ídoľskuju razrušíša prélesť, terpelívno postradávše i nýňi móľatsja Christú darováti dušám nášym mír, i véliju mílosť."),
     ("",	"",	"Pástyrije vsesvjaščénniji, múdrymi slovesý i učéniji vsích naučíša vo jedínstvi Božestvó Tróičeskoje sláviti, líc slijánija i razďilénija, Božéstvenňi ubihájušče. i nýňi móľatsja, darováti dušám nášym mír, i véliju mílosť."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_So = (
+#let P = (
   "1": (
     ("", "", "Písň pobídnuju pojím vsí Bóhu, sotvóršemu dívnaja čudesá mýšceju vysókoju, i spásšemu Izráiľa, jáko proslávisja."),
     ("", "", "Spásítelnoje jesí pristánišče i pokróv, prizyvájuščym ťá Bohoródice prečístaja. Ťímže i áz ot duší prizyváju ťá tépľi: Vladýčice spasí mja."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_So = (
+#let U = (
   "S1": (
     ("", "", "Stradánija pochvalóju, i vinéčnoju póčestiju, slávniji strastotérpcy oďíjavšesja tobóju Hóspodi, terpínijem úbo rán bezzakónnych pobidíša, i síloju božéstvennoju ot nebés pobídu prijáša: ťích molítvami i nás svobodí ot nevídimaho vrahá Spáse, i spasí nás."),
     ("", "", "Jáko dóbriji vóini jedinomúdrenno vírovavše, preščénija mučítelej ne ubojástesja svjatíji, prijidóste usérdno ko Christú vzémše čestnýj krest: i skončávše tečénije, s nebesé pobídu prijáste. Sláva ukrípľšemu vý: sláva vinčávšemu vý: sláva ďíjstvujuščemu vámi vsím iscilénija."),
@@ -247,7 +247,7 @@
   )
 )
 
-#let L_So = (
+#let L = (
   "B": (
     ("", "", "Sňídiju izvedé iz rajá vráh Adáma: krestóm že vvedé Christós vóň razbójnika, pomjaní mja Hóspodi, vopijúšča, jehdá priídeši vo cárstviji tvojém."),
     ("", "", "Stradálec mnóžestvo bezčíslennoje, svjatítelej, i premúdrych žén, i prorók preslávnych, móľat ťá Iisúse Bóže: podážď nám ostavlénije prehrišénij, i véliju mílosť."),

@@ -1,4 +1,4 @@
-#let V_St = (
+#let V = (
   "HV": (
     ("", "Jehdá ot dréva", "Vsjú napojíste zémľu, jákože ríki razďíľšesja duchóvnyja iz Jedéma, júže i poorávše vsíjaste spasíteľnoje propovídanije, i klás blahoplóden požáste múdriji, dúšy spasénnych, sích v mýslennych sokróviščach sokryvájušče učenicý Hospódni, jáko mnohocínnoje bohátstvo."),
     ("", "", "Ot ťmý strastéj i slastéj mnohostrástnoje mojé sérdce svobodíte, svitíľnicy súšče vostóka mýslennaho, i prosvitítelije presvítliji sólnca, vsím vozviščájušče razóršaho lésť nóšči zlovírija: jehóže umolíte i náša prosvitíti smýsly, jáko samovídcy sehó."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_St = (
+#let P = (
   "1": (
     ("", "", "Hrjadíte ľúdije, pojím písň Christú Bóhu, razďíľšemu móre, i nastávľšemu ľúdi, jáže izvedé iz rabóty jehípetskija, jáko proslávisja."),
     ("", "", "Íže blahočéstno ťá čístaja, súščuju Bohoródicu ispovídajuščaho dušéju i ustý, ot ľútych bíd, i nedúh i prehrišénij nýňi spasí prečístaja."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_St = (
+#let U = (
   "S1": (
     ("", "", "Íže umudrívyj lovcý páče rítorov, i poslávyj jákože propovídniki po vséj zemlí, neizhlahólannym čelovikoľúbijem tvojím Christé Bóže: ťích rádi utverdí cérkov tvojú, i vírnym nizposlí blahoslovénije tvojé, jedíne vo svjatých počivájaj."),
     ("", "", "Premúdrosti Bóžija súšče učenicý i samovídcy, premúdrych i rítorov jáko nemúdruju múdrosť ochudíša, prostotóju própovidi jazýki umudrívše božéstvenniji apóstoli, pravoslávno vospiváti soďíteľa jedínaho i Hóspoda."),
@@ -241,7 +241,7 @@
   )
 )
 
-#let L_St = (
+#let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse, vo cárstviji tvojém."),
     ("", "", "Mirskíja koncý prošédše apóstoli, ot ťmý prélesti i zločéstija čelovíki izbávili jesté premúdriji."),

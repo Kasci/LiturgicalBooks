@@ -1,4 +1,4 @@
-#let V_Ut = (
+#let V = (
   "HV": (
     ("","O preslávnaho čudesé!","Ni umilénija sťažách, nižé sléz istóčnika, ni téplaho ispovídanija, nižé pláča omyvájuščaho, ni serdéčnaho smirénija: ni mytarjú revníteľ bých, nižé bludníci, nižé blúdnomu ótroku. Káko úbo obrjášču mojích mnóhich hrichóv ostavlénije? No ímiže Christé vísi suďbámi, spasí mja."),
     ("","","Stránen vsjákija sotvoríchsja božéstvennyja zápovidi: o dobroďíteli že lúčšej vsjáko nebrehóch, i bezúmno požích v ľínosti vsé žitijé mojé, v bluďí vsjá ďilá mojá soďíjach, nepodóbnaja i bezzakónnaja. Ťíímže Christé, uščédri jáko blahoutróben, i túne mjá spasí."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Ut = (
+#let P = (
   "1": (
     ("","","Vódu prošéd jáko súšu, i jehípetskaho zlá izbižáv, Izráiľťanin vopijáše: izbáviteľu i Bóhu nášemu pojím."),
     ("","","Vód istóčnik molítvennyj, ťá Bohorodíteľnicu vídušče vsí, istočájušč vírnym strují dušám i ťílom: ťímže ťá neprestánno slávim."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Ut = (
+#let U = (
   "S1": (
     ("","","Okom blahoutróbnym Hóspodi, vížď mojé smirénije, jáko pomáľi žízň mojá skončavájetsja, i ot ďíl ňísť mňí spasénija. Sehó rádi moľúsja: ókom blahoutróbnym vížď mojé smirénije, i spasí mja."),
     ("","","Jáko sudijí prišédšu popecýsja o dušé! I strášnaho dné čás pomyšľáj: súd bo bez mílosti jésť ne soďílavšym mílosti. Ťímže préžde koncá vopíj: poščadí mja Spáse, jedín bo jesí bezhríšen."),
@@ -241,7 +241,7 @@
   ),
 )
 
-#let L_Ut = (
+#let L = (
   "B": (
     ("","","Pomjaní nás Christé Spáse míra, jákože razbójnika pomjanúl jesí na drévi: i spodóbi vsích, jedíne ščédre, nebésnomu cárstviju tvojemú."),
     ("","","Pučínu jáko imíja Christé milosérdija, izsuší mojích prehrišénij pučínu: i umilénija slezámi dúšu mojú okamenénnuju pretvorí."),

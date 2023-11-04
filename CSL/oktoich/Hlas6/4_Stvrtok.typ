@@ -1,4 +1,4 @@
-#let V_St = (
+#let V = (
   "HV": (
     ("","Tridnéven voskrésl jesí","Velíkim tájnam Bóžijim služítelije býste, bohoslóvcy i bohovídcy, učenicý: i blahodáť iscilénij prijáste, i vsím čelovíkom boľízni isciľájete."),
     ("","","Velíkoje pribížišče i pokróv dušám nášym, duchóv ľútych prohnánije, vý jesté bohovídcy apóstoli Hospódni: ťímže vás prísno počitájem."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_St = (
+#let P = (
   "1": (
     ("","","Pomóščnik i pokrovíteľ býsť mňí vo spasénije, séj mój Bóh, i proslávľu jehó, Bóh otcá mojehó, i voznesú jehó, slávno bo proslávisja."),
     ("","","Káko pristupľú k tebí čístaja, otčájan okajánnyj áz, vés strásten nečistotámi býv? No uščédrivši spasí okajánnuju mojú dúšu, Bohorodíteľnice prečístaja."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_St = (
+#let U = (
   "S1": (
     ("","","Jáko posreďí učenikóv tvojích, prišél jesí Spáse, mír tvój dajá ím: prijidí i k nám, i spasí nás."),
     ("","","Učenikóv tvojích lík vselénnuju prosvití: bývše bo inohdá lovcý rýb, nýňi že čelovíkov býša: ťích rádi Bóže, pomíluj nás."),
@@ -242,7 +242,7 @@
   ),
 )
 
-#let L_St = (
+#let L = (
   "B": (
     ("","","Pomjaní mja Bóže Spáse mój, jehdá priídeši vo cárstviji tvojém, i spasí mja, jáko jedín čelovikoľúbec."),
     ("","","Jáko lučý tájnyja, protékše v míri apóstoli slávniji, čelovíčeskij ród víroju prosvitíli jesté."),

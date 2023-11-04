@@ -1,4 +1,4 @@
-#let V_So = (
+#let V = (
   "HV": (
     ("", "Jehdá ot dréva", "Plóť predajúšče ránam i horčájšyja múki terpjášče, i núžnuju smérť múčenicy vsechváľniji, i mučítelej posramíste, i čésti ídoľskija voístinnu potrebíli jesté, Christá propovídajušče jedínaho Bóha i Vladýku: jemúže so ánheľskimi líki, vincenóscy slávniji, predstoité."),
     ("", "", "Plóť predajúšče ránam i horčájšyja múki terpjášče, i núžnuju smérť múčenicy vsechváľniji, i mučítelej posramíste, i čésti ídoľskija voístinnu potrebíli jesté, Christá propovídajušče jedínaho Bóha i Vladýku: jemúže so ánheľskimi líki, vincenóscy slávniji, predstoité."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_So = (
+#let P = (
   "1": (
     ("", "", "Hrjadíte ľúdije, pojím písň Christú Bóhu, razďíľšemu móre, i nastávľšemu ľúdi, jáže izvedé iz rabóty jehípetskija: jáko proslávisja."),
     ("", "", "Žízni istóčnik jesí, Ďívo Máti čístaja, načáľnika i Hóspoda róždši, žízň vsjáčeskich, orošájušči víroju slavoslóvjaščyja ťá."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_So = (
+#let U = (
   "S1": (
     ("", "", "Tebé oďivájuščaho nébo óblaki imúšče svjatíji oďijánije v míri, múki ot bezzakónnik preterpíša, i prélesť ídoľskuju uprazdníša. Ťích molítvami i nás svobodí Spáse ot nevídimaho vrahá, i spasí nás."),
     ("", "", "Apóstoli, múčenicy i prorócy, svjatítelije, prepodóbniji i právedniji, dóbri pódvih soveršívšiji, i víru sobľúdšiji, derznovénije imúšče ko Spásu, o nás tohó jáko bláha molíte, spastísja, mólimsja, dušám nášym."),
@@ -245,7 +245,7 @@
   )
 )
 
-#let L_So = (
+#let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Hóspodi vo cárstviji tvojém."),
     ("", "", "Christóvym strástém upodóbľšesja múčenicy, strásti čelovíčeskija razlíčnyja prísno isciľájete."),

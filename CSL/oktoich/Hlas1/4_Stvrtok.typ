@@ -1,4 +1,4 @@
-#let V_St = (
+#let V = (
   "HV": (
     ("",	"Prechváľniji múčenicy",	"Apóstoli slávniji, Christóvy učenicý Bohozvánniji, vselénnyja učítelije, obrítše Hóspoda Bóha, i čelovíkov chodátaja súšča, tomú Bohoľípno priľípístesja: i jáko Bóha tohó, i jáko čelovíka vsesoveršénna, v míre jávi propovídaste."),
     ("",	"",	"Apóstoli vsemúdriji, Christóvy učenicý Bohozvánniji, vselénnyja učítelije, vášimi molítvami, božéstvennym učénijem vnimáti ukripíte mjá, i stezéju ťísnoju pomohájte chodíti mí vsehdá, jáko da dospíju v prebyvánije rájskoje prostránňijšeje."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_St = (
+#let P = (
   "1": (
     ("", "", "Písň posľídňuju pojím vsí Bóhu, sotvóršemu dívnaja čudesá mýšceju vysókoju, i spásšemu Izráiľa, jáko proslávisja."),
     ("", "", "Kupiná ťa voobražáše Bohorodíteľnice: óhň bo nosíla jesí voístinnu nepostojánnyj, prebývši neopáľna. Ťímže ťá vírnymi hlásy pisnoslóvim prísno."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_St = (
+#let U = (
   "S1": (
     ("", "", "Premúdriji vselénnyja lovcý, ot Bóha prijémšiji mílostivnoje, molíte i nýňi o nás vopijúščich: Hóspodi, spasí hrád tvój, i ot oderžáščich zól svobodí apóstol rádi dúši náša."),
     ("", "", "Trubý Christóvy blahohlásnyja, v písnech da počtím vírniji premúdryja apóstoly, kóni, vozmutívšyja bezbóžija móre, i privlékšyja jáko iz hlubiný čelovíki, k božéstvennomu spasénija pristánišču, blahodátiju Dúcha."),
@@ -241,7 +241,7 @@
   )
 )
 
-#let L_St = (
+#let L = (
   "B": (
     ("", "", "Sňídiju izvedé iz rajá vráh Adáma: krestóm že vvedé Christós vóň razbójnika, pomjaní mja Hóspodi, vopijúšča, jehdá priídeši vo cárstviji tvojém."),
     ("", "", "Koncý prosvitívše božéstvennymi lučámi učénij vášich, omračénije ľútaho bezbóžija razoríli jesté, i k svítu nezachodímomu prišédše, prísno blažími jesté."),

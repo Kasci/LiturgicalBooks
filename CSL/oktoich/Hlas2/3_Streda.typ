@@ -1,4 +1,4 @@
-#let V_Sr = (
+#let V = (
   "HV": (
     ("", "Jehdá ot dréva", "Svitíti svitíla ne terpjášče omračíšasja, na kresťí zašédšu tebí Slóve: zemľá že podvizášesja, i kámenije razsidášesja, cerkóvnoje blahoľípije razdirášesja posreďí, hróby otverzáchusja, mértviji vostajáchu, ád izdajáše vsjá súščyja dólu, bísy pobiždáchusja, i són vsím vmiňášesja smérť."),
     ("", "", "Jehdá plodovítyj ťá Christé vinohrád, razbójnik blahonrávnyj víďiv, lúčšij býsť razbójnik blahoiskúsen, i ukrádajet proščénije drévnich sohrišénij, ziló blahojestéstvenňi málym hlásom: tomú revníteli býti potščímsja. Jéže pomjaní i nás čelovikoľúbče, vsí zovúšče."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Sr = (
+#let P = (
   "1": (
     ("", "", "Hrjadíte ľúdije, pojím písň Christú Bóhu, razďíľšemu móre, i nastávľšemu ľúdi, jáže izvedé iz rabóty jehípetskija, jáko proslávisja."),
     ("", "", "Slóvo mojehó priobrítenija otňúd ňísť k pisnoslóviju vsečístaja, jáko pokryvájet mjá hrichóv mojích ťmá: no o Bohorodíteľnice uťisňájema prijimí mja."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Sr = (
+#let U = (
   "S1": (
     ("", "", "Spasénije soďílal jesí posreďí zemlí Christé Bóže, na kresťí prečísťiji rúci tvoí prostérl jesí, sobirája vsjá jazýki, zovúščyja: Hóspodi, sláva tebi."),
     ("", "", "Ímže óbrazom pľiníl jésť vráh Adáma drévom sňídnym: tákože Hóspodi, sám pľiníl jesí tý vrahá drévom krestnym, i strástiju tvojéju: na sé bo prišél jesí vtorýj Adám, vzyskáti zablúždšaho, i oživíti uméršaho: Bóže sláva tebí."),
@@ -239,7 +239,7 @@
   )
 )
 
-#let L_Sr = (
+#let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse, vo cárstviji tvojém."),
     ("", "", "Na krest voznésšusja tí Spáse, sovoznésl jesí vsé čelovíčeskoje jestestvó, neprestánno pojúščeje ťá."),

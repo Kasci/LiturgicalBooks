@@ -1,4 +1,4 @@
-#let V_So = (
+#let V = (
   "HV": (
     ("","Ne ktomú vozbraňájemi","Múčenicy ťmú bezbóžija prohnáša, vsím pokazávše čelovíkom bohorazúmija svít."),
     ("","","Učéniji pravoslávnymi, božéstvennymi zarjámi osijáste Hospódňu cérkov, pástyrije vsemúdriji."),
@@ -17,7 +17,7 @@
   ),
 )
 
-#let P_So = (
+#let P = (
   "1": (
     ("","","Mánijem tvojím na zemnýj óbraz preložísja, préžde udoborazlivájemoje vodnóje jestestvó Hóspodi: ťímže nemókrenno pišešéstvovav Izráiľ, pojét tebí písň pobídnuju ."),
     ("","","Vladýčice Bohoródice, íže na ťá upovánije imúščyja, i k tebí pritekájuščyja, bíd že i skorbéj izbávi, i padénija, i víčnaho plámene, i múki."),
@@ -79,7 +79,7 @@
   ),
 )
 
-#let U_So = (
+#let U = (
   "S1": (
     ("","","Svjatíji, molítesja, ostavlénije dáti nám prehrišénij nášich, i čájemych ľútych izbávitisja nám, i hórkija smérti, mólimsja."),
     ("","","Svjatíji tvojí, Hóspodi, na zemlí podvíhšesja, vrahá popráša, i ídoľskuju lésť uprazdníša: ťímže i vincý ot tebé prijáša, čelovikoľúbca Vladýki, i mílostivaho Bóha, podajúščaho míru véliju mílosť."),
@@ -244,7 +244,7 @@
   ),
 )
 
-#let L_So = (
+#let L = (
   "B": (
     ("","","Krasén bí i dóbr v sňíď, íže mené umertvívyj plód: Christós jésť drévo živótnoje, ot nehóže jadýj ne umiráju, no vopijú s razbójnikom: pomjaní mja Hóspodi, vo cárstviji tvojém."),
     ("","","Skončávše dóbryj pódvih, i víru sobľúdše, vincý netľínnyja ot Bóha prijáli jesté: i slávy jehó spodóbistesja, múčenicy vsechváľniji, ánhelom sožítelije."),

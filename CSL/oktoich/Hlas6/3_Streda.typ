@@ -1,4 +1,4 @@
-#let V_Sr = (
+#let V = (
   "HV": (
     ("","Tridnévno voskrésl jesí","Raspénšusja tí dolhoterpilíve Hóspodi, pokolebál jesí zémľu vsjú, vírnych že utverdív serdcá. Ťímže ťá vospivájem, i ľubóviju poklaňájemsja nepostižímij síľi tvojéj."),
     ("","","V lanítu zaušén býl jesí Spáse, i opleván, jadovítaho zaušíl jesí vrahá zlóbu, otjémľa padénije, jéže podját Adám, ukráden býv viďínija rádi."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Sr = (
+#let P = (
   "1": (
     ("","","Jáko po súchu pišešéstvovav Izráiľ, po bézdňi stopámi, honíteľa faraóna víďa potopľájema, Bóhu pobídnuju písň poím, vopijáše."),
     ("","","Vsjáko mojehó rydáju žitijá skvérnaho, i mnóžestva bezmírnych mí zól: čtó že ispovím tí čístaja? Nedoumíju i užasájusja: no pomozí mi Vladýčice."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Sr = (
+#let U = (
   "S1": (
     ("","","Krest tvój Hóspodi, osvjatísja: ťím bo byvájut iscilénija nemoščstvújuščym hrichmí: sehó rádi tebí pripádajem, pomíluj nás."),
     ("","","Tókmo vodruzísja drévo, Christé, krestá tvojehó, osnovánija pokolebášasja smérti Hóspodi: jehóže bo požré ľubóviju ád, otpustí trepéščja, pokazál jesí nám spasénije tvojé svjatýj: i slavoslóvim ťá, Sýne Bóžij, pomíluj nás."),
@@ -241,7 +241,7 @@
   ),
 )
 
-#let L_Sr = (
+#let L = (
   "B": (
     ("","","Pomjaní mja Bóže spáse mój, jehdá priídeši vo cárstviji tvojém: i spasí mja jáko jedín čelovikoľúbec."),
     ("","","Vóleju voznéslsja jesí na drévi, vo hlubinú zól popólzšichsja prizvál jesí jedíne mnohomílostive."),

@@ -1,4 +1,4 @@
-#let V_Pi = (
+#let V = (
   "HV": (
     ("","Ne ktomú vozbraňájemi","Da čelovíka Bóha soďílaješi, čelovík býl jesí preblahíj Christé, i raspjálsja jesí: sláva síľi tvojéj."),
     ("","","Jehdá na krest ťá Iisúse, sónm jevréjskij osudí, zemľá trjasášesja, i sólnca svít skryvášesja."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Pi = (
+#let P = (
   "1": (
     ("","","Istrjásšemu Bóhu faraóna v móri čermňím, písň pobídnuju poím, jáko proslávisja."),
     ("","","Životá mojehó prozrjá nastávšij konéc, Vladýčice, vopijú: tý mi dážď očiščénije sohrišénij Bohonevísto."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Pi = (
+#let U = (
   "S1": (
     ("","","Cérkov vopijét tí, Christé Bóže, v pévki i kédri i kiparísi, poklaňájuščisja tebí: pobídy vírnym dáruj, Bohoródicy rádi, i pomíluj nás."),
     ("","","Íže mené rádi preterpívyj na kresťí prihvoždénije, prijimí i mojé bódrennoje chvalénije, Christé Bóže, jáko čelovikoľúbec."),
@@ -242,7 +242,7 @@
   ),
 )
 
-#let L_Pi = (
+#let L = (
   "B": (
     ("","","Krasén bí i dóbr v sňíď, íže mené umertvívyj plód, Christós jésť drévo živótnoje, ot nehóže jadýj ne umiráju, no vopijú s razbójnikom: pomjaní mja Hóspodi, vo cárstviji tvojém."),
     ("","","Isciľája Adámovu boľízň, júže podját vrážijim sovítom, voznéssja na drévo vsích carjú, i boľízni preterpíl jesí, rukáma i noháma prihvoždén: ťímže slávim tvojé, Slóve, dolhoterpínije."),

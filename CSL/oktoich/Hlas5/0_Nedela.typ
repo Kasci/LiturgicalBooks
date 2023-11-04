@@ -1,4 +1,4 @@
-#let M_Ne = (
+#let M = (
   "HV": (
     ("","","Čestným tvojím krestóm Christé, dijávola posramíl jesí, i voskresénijem tvojím žálo hrichóvnoje pritupíl jesí, i spásl jesí ny ot vrát smértnych: slávim ťá jedinoródne."),
     ("","","Čestným tvojím krestóm Christé, dijávola posramíl jesí, i voskresénijem tvojím žálo hrichóvnoje pritupíl jesí, i spásl jesí ny ot vrát smértnych: slávim ťá jedinoródne."),
@@ -14,7 +14,7 @@
     ("Dogmat","","Jáže o tebí proróčestvija, ispólnišasja Ďívo čístaja: óv úbo ot prorók dvér ťá prorečé, vo Jedémi na vostók zrjáščuju, júže niktóže prójde, tóčiju ziždíteľ tvój, i vsehó míra: óv že kupinú ohném žehómu, jáko v tebí obitá óhň Božestvá, i neopalíma prebýsť. Ín hóru svjatúju, ot nejáže otsičésja kámeň krajeuhóľnyj, kromí rúki čelovíčeskija, i porazí óbraz mýslennaho Navuchodonósora: voístinnu vélije i preslávnoje, jéže v tebí táinstvo jésť Bohomáti. Ťímže ťá slávim: tobóju bo býsť spasénije dušám nášym."),
   ),
 )
-#let V_Ne = (
+#let V = (
   "HV": (
     ("","","Čéstným tvojím krestóm Christé, dijávola posramíl jesí, i voskresénijem tvojím žálo hrichóvnoje pritupíl jesí, i spásl jesí ný ot vrát smértnych: slávim ťá jedinoródne."),
     ("","","Voskresénije dajáj ródu čelovíčeskomu, jáko ovčá na zakolénije vedésja: ustrašíšasja sehó kňázi ádstiji, i vzjášasja vratá plačévnaja. Vníde bo cár slávy Christós, hlahóľa súščym vo úzach, izydíte: i súščym vo ťmí, otkrýjtesja."),
@@ -40,7 +40,7 @@
     ("Bohoródičen","","Rádujsja dvére Hospódňa neprochodímaja: rádujsja sťinó i pokróve pritekájuščich k tebí. Rádujsja, neoburevájemoje pristánišče, i neiskusobráčnaja, róždšaja plótiju tvorcá tvojehó i Bóha: moľášči ne oskuďiváj o vospivájuščich, i kláňajuščichsja roždestvú tvojemú."),
   ),
 )
-#let P_Ne = (
+#let P = (
   "1": (
     ("","","Koňá i vsádnika v móre čermnóje, sokrušájaj bráni mýšceju vysókoju, Christós istrjasé: Izráiľa že spasé, pobídnuju písň pojúšča."),
     ("","","Písň tí po dostojániju prinosíti, Vladýčice, nedoumíjem vsí: sláva bo páče vsích tvojá. no obáče Bohonevísto, ne omerzí molénije prinosímoje so stráchom i ľubóviju tebí."),
@@ -101,7 +101,7 @@
     ("","","Iscilénijem bézdnu, i blahodátem pučínu, čístaja poznáchom ťá mý hríšniji. ťímže tí mólimsja: ot núždnych vsích izmí jedína prečístaja, pritekájuščich k pokróvu tvojemú."),
   ),
 )
-#let N_Ne = (
+#let N = (
   "1": (
     ("","","Koňá i vsádnika v móre čermnóe, sokrušájaj bráni, mýšceju vysókoju Christós istrjasé: Izráiľa že spasé, pobídnuju písň pojúšča."),
     ("","","Deržávu jedínstvennaho i trisólnečnaho zráka vospivájušče vopijém: úm náš ozarí Bóže vsesíľne, i k tvojéj Vladýko, vozvýsi slávi neizrečénňij."),
@@ -167,7 +167,7 @@
     ("Bohoródičen","","Jáko čístaja i neporóčnaja i Ďíva, rodilá jesí Sýna, izbavľájuščaho nás ot iskušénij, Bóha neizmínna: no i nýňi ostavlénije nám prehrišénij dáti sehó molí."),
   ),
 )
-#let U_Ne = (
+#let U = (
   "T": (
     ("","","Sobeznačáľnoje Slóvo Otcú i Dúchovi, ot Ďívy róždšejesja na spasénije náše, vospojím vírniji i poklonímsja: jáko blahovolí plótiju vzýti na krest, i smérť preterpíti, i voskresíti uméršyja slávnym voskresénijem svojím."),
     ("Bohoródičen","","Rádujsja dvére Hospódňa neprochodímaja: rádujsja sťinó i pokróve pritekájuščich k tebí. Rádujsja, neoburevájemoje pristánišče, i neiskusobráčnaja, róždšaja plótiju tvorcá tvojehó i Bóha: moľášči ne oskuďiváj o vospivájuščich, i kláňajuščichsja roždestvú tvojemú."),
@@ -391,7 +391,7 @@
   ),
 )
 
-#let L_Ne = (
+#let L = (
   "B": (
     ("","","Razbójnik na kresťí Bóha ťá býti vírovav, Christé, ispovída ťá čísťi ot sérdca, pomjaní mja Hóspodi, vopijá, vo cárstviji tvojém."),
     ("","","Íže na drévi krestňim žízň procvítšaho ródu nášemu, i izsušívša júže ot dréva kľátvu, jáko Spása i soďíteľa sohlásno vospojím."),

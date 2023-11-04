@@ -1,4 +1,4 @@
-#let V_Sr = (
+#let V = (
   "HV": (
     ("","Múčenicy Hospódni","Na kresťí Christé prihvóždsja, pronzájem v rúci i nózi, v rebró že svjatóje probodén býl jesí, istočája mí kápli božéstvennaho spasénija, preblahíj, króv že i vódu, jáko da omýješi mój hnój i skvérnu: sláva tvojéj vseščédre bláhosti."),
     ("","","Stradáti preterpíl jesí Vladýko, jáko da bezstrástije vsím podási, poklaňájuščymsja tvojím strástém, i vóľnomu zakoléniju, i kopijú, i hvozdém, i trósti, jáže dolhoterpilívno choťá preterpíl jesí: jáko da i mňí ischodátaiši Hóspodi, rádi strástéj tvojích bezstrástije."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Sr = (
+#let P = (
   "1": (
     ("","","Vódu prošéd jáko súšu, i jehípetskaho zlá izbižáv, Izráiľťanin vopijáše: izbáviteľu i Bóhu nášemu pojím."),
     ("","","Mnóhimi soderžím napásťmi, k tebí pribiháju spasénija iskíj, o Máti Slóva i Ďívo! Ot ťážkich i ľútych mjá spasí."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Sr = (
+#let U = (
   "S1": (
     ("","","Víďa razbójnik načáľnika žízni, na kresťí vísjašča, hlahólaše: ášče ne by Bóh býl voplóščsja, íže s námi raspnýjsja: ne bý sólnce lučý svojá potajílo, nižé by zemľá trepéščušči trjaslásja: no vsjá terpjáj, pomjaní mja Hóspodi, vo cárstviji tvojém."),
     ("","","Posreďí dvojú razbójniku, mírilo právednoje obrítesja krest tvój: óvomu úbo nizvodímu vo ád ťahotóju chulénija: druhómu že lehčáščusja ot prehrišénij k poznániju Bohoslóvija. Christé Bóže, sláva tebí."),
@@ -241,7 +241,7 @@
   ),
 )
 
-#let L_Sr = (
+#let L = (
   "B": (
     ("","","Pomjaní nás, Christé Spáse míra, jákože razbójnika pomjanúl jesí na drévi: i spodóbi vsích jedíne ščédre, nebésnomu cárstviju tvojemú."),
     ("","","Žezlóm Moiséj krest voobražája, razďiľáše hlubinú, ľúdi Izráiľteskija prevoďá: mý že tohó voobražájušče, mýslennyja vrahí pobiždájem."),

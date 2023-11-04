@@ -1,4 +1,4 @@
-#let M_Ne = (
+#let M = (
   "HV": (
     ("","","Večérňuju písň, i slovésnuju slúžbu, tebí Christé prinósim: jáko blahovolíl jesí pomílovati nás voskresénijem."),
     ("","","Večérňuju písň, i slovésnuju slúžbu, tebí Christé prinósim: jáko blahovolíl jesí pomílovati nás voskresénijem."),
@@ -15,7 +15,7 @@
   ),
 )
 
-#let V_Ne = (
+#let V = (
   "HV": (
     ("","","Večérňuju písň, i slovésnuju slúžbu, tebé Christé prinósim: jáko bláhovolíl jesí pomílovati nás voskresénijem."),
     ("","","Hóspodi, Hóspodi, ne otvérži nás ot tvojehó licá: no blahovolí pomílovati nás voskresénijem."),
@@ -42,7 +42,7 @@
   ),
 )
 
-#let P_Ne = (
+#let P = (
   "1": (
     ("","","Poím Hóspodevi, provédšemu ľúdi svojá skvozí čermnóje móre, jáko jedín slávno proslávisja."),
     ("","","Prijidíte tájno brátije, jáko ot načála svjaťíj Bohoródici, vnesém vírniji písň nóvu, dnés pochvaľájušče velíčija jejá."),
@@ -104,7 +104,7 @@
   ),
 )
 
-#let N_Ne = (
+#let N = (
   "1": (
     ("","","Kolesnicehoníteľa faraóňa pohruzí, čudotvorjáj inohdá moiséjskij žézl, krestoobrázno porazív, i razďilív móre: Izráiľa že bihlecá pišechódca spasé, písň Bóhovi vospivájušča."),
     ("","","Trisólnečnomu carjú, i stroíteľu, i promyslíteľu vsjáčeskich, i blahómu jedínomu, jestéstvenňi súščemu, i jedínstvennuju imúščemu Božestvá slávu, Bóhu jedinonačáľnomu pripádajem, písň trisvjatúju pojúšče."),
@@ -171,7 +171,7 @@
   ),
 )
 
-#let U_Ne = (
+#let U = (
   "T": (
     ("","","S vysotý snizšél jesí blahoutróbne, pohrebénije prijál jesí tridnévnoje, da nás svobodíši strastéj, životé i voskresénije náše, Hóspodi sláva tebí."),
     ("Bohoródičen","","Íže nás rádi roždéjsja ot Ďívy, i raspjátije preterpív blahíj, isprovérhij smértiju smérť, i voskresénije javléj jáko Bóh, ne prézri jáže sozdál jesí rukóju tvojéju: javí čelovikoľúbije tvojé mílostive, prijimí róždšuju ťá Bohoródicu moľáščujusja za ný: i spasí Spáse náš, ľúdi otčájannyja."),
@@ -389,7 +389,7 @@
   ),
 )
 
-#let L_Ne = (
+#let L = (
   "B": (
     ("","","Pomjaní nás, Christé Spáse míra, jákože razbójnika pomjanúl jesí na drévi: i spodóbi vsích jedíne ščédre, nebésnomu cárstviju tvojemú."),
     ("","","Slýši Adáme, i rádujsja so Jévoju: jáko obnažívyj préžde obojá, i prélestiju vzém vás pľínniki, krestóm Christóvym uprazdnísja."),

@@ -1,4 +1,4 @@
-#let V_Po = (
+#let V = (
   "HV": (
     ("",	"Prechváľniji múčenicy",	"Vsjá privél jesí tvojím slóvom i Dúchom, za bláhosť Hóspodi, táže sotvoríl jesí slovésnoje mjá živótno, da tvojé svjatóje slávľu vsesíľnoje ímja. áz že najpáče stúdnymi mojími ďíly vsehdá bezčéstvuju: no poščadí, moľúsja."),
     ("",	"",	"Poznáj tvojé, okajánnaja dušé, božéstvennoje blahoródije, i otéčestvo netľínnoje, i tščísja vsehdá blahoďijáňmi sijé dostiháti: ničtóže ot tľínnych da pľinít ťá, hórnija části jesí, ťílo že zemľá i tľíjetsja, da ne pobidít chúždšeje lúčšija."),
@@ -16,7 +16,7 @@
   ),
 )
 
-#let P_Po = (
+#let P = (
   "1": (
     ("", "", "Tvojá pobidíteľnaja desníca, Bohoľípno v kríposti proslávisja: tá bo bezsmértne, jáko vsemohúščaja, protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."),
     ("", "", "Neizhlahólanno začalá jesí Bóha, i páče jestestvá rodilá jesí Vladýčice prečístaja, zemnýja ot prehrišénij izmínšaho. Ťímže moľú ťa: mnóhich mjá prehrišénij izbávi."),
@@ -78,7 +78,7 @@
   ),
 )
 
-#let U_Po = (
+#let U = (
   "S1": (
     ("", "", "V bezzakónijich začát jésm áz blúdnyj, ne smíju vziráti na vysotú nebésnuju. no derzája na čelovikoľúbije tvojé zovú: Bóže, očísti mjá i spasí mja."),
     ("", "", "Ášče právednik jedvá spasájetsja, áz hďí javľúsja hríšnyj? Ťahotý i znója dnevnáho ne ponesóch: no s najémniki jedinonadesjátaho časá sopričtí mja Bóže, i spasí mja."),
@@ -241,7 +241,7 @@
   )
 )
 
-#let L_Po = (
+#let L = (
   "B": (
     ("", "", "Sňídiju izvedé iz rajá vráh Adáma: krestóm že vvedé Christós vóň razbójnika, pomjaní mja, Hóspodi, vopijúšča, jehdá priídeši vo cárstviji tvojém."),
     ("", "", "Umilénij istóčnik mí dáruj blahoutróbijem tvojím Christé Bóže, vsjákija mjá skvérny zól bezmírnych očiščájuščij, i cárstvija tvojehó blahoďíteľu pričástnika mjá sotvorí."),
