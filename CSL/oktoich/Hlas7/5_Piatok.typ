@@ -42,8 +42,8 @@
     ("","","Útreňuet dúch mój k tebí Bóže, zané svít jesí, i tvojá poveľínija býša iscilénija rabóm tvojím, čelovikoľúbče."),
     ("","","Upodóbichsja bezslovésnym skotóm preokajánnyj, strasťmí bezslovésnymi okajánňij mojéj plóti rabótaja: tý, Bohoródice, podážď mí vosprjanovénije."),
     ("","","Pomíluj mjá páče vsích čelovík sohrišívšaho, i k tvojemú pokróvu pribihájušča téplomu Bohoródice Ďívo, i mučénij ischití."),
-    ("","","Íže Bohoródicu ispovídajuščiji ťá Máti Ďívo, nepreidúščaho cárstvija i píšči, tobóju Bohomáti, ulučíti da spodóbjatsja."),
-    ("","","Blahoslovénnaja i preproslávlennaja Máti neiskusomúžnaja, umerščvlénuju hrichámi dúšu mojú, i strasťmí pohorblénuju neoderžánnymi, oživotvorí."),
+    ("","","Íže Bohoródicu ispoví-dajuščiji ťá Máti Ďívo, nepreidúščaho cárstvija i píšči, tobóju Bohomáti, ulučíti da spodóbjatsja."),
+    ("","","Blahoslovénnaja i prepros-lávlennaja Máti neisku-somúžnaja, umerščvlénuju hrichámi dúšu mojú, i strasťmí pohorblénuju neoderžánnymi, oživotvorí."),
   ),
   "6": (
     ("","","Jóna iz čréva ádova vopijáše: vozvedí ot tlí živót mój. mý že tebí vopijém: vsesíľne Spáse, pomíluj nás."),

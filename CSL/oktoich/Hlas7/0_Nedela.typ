@@ -158,7 +158,7 @@
   "8": (
     ("","","Neopáľnaja ohňú v Sináji pričáščšajasja kupiná, Bóha javí medlenojazýčnomu i huhnívomu Moiséovi, i ótroki révnosť Bóžija trí nepreborímyja vo ohní pivcý pokazá: vsjá ďilá Hospódňa Hóspoda pójte, i prevoznosíte vo vsjá víki."),
     ("","","Sólnca lučámi trisijánnaho ozarítisja svitoďíteľnymi spodóbi, serdcám pivcév tvojích: i nýňi zríti dobrótu tvojú Tróice, jedínice, jáko móščno dáruj vsehdá, vsém víroju podóbnoju, tvojé velíčije pesnoslóvjaščym vo vsjá víki."),
-    ("","","Deržíši vsjáčeskaja, Tróičnoje i jedínstvennoje Hóspodonačálije beznačáľnoje, i upravľáješi nébo i zémľu. Ťímže mjá ľubóviju tvojéju privlačíma prísno, sochraní píti tebí: vsjá ďilá Hospódňa Hóspoda pójte, i prevoznosíte vo vsjá víki."),
+    ("","","Deržíši vsjáčeskaja, Tróičnoje i jedínstve-nnoje Hóspodonačálije beznačáľnoje, i upravľáješi nébo i zémľu. Ťímže mjá ľubóviju tvojéju privlačíma prísno, sochraní píti tebí: vsjá ďilá Hospódňa Hóspoda pójte, i prevoznosíte vo vsjá víki."),
     ("","","Chrám mjá tvojejá trisvítnyja sotvorí zarí, blahoďíteľu čelovikoľúbče: i pričástija i priobščénija nepristúpna vrahóm nevídimym, i plotskím strastém Vladýko, pokaží, jedinonačáľnyj Bóže mój i Hóspodi slávy, pisnoslóviti ťá vo vsjá víki."),
     ("Bohoródičen","","Svít Bohonačáľnyj ot čréva tvojehó vozsijávyj, Bohomáti prečístaja, vés mír trisólnečnym svítom ozarí, i zémľu jákože druhóje nébo pokazá, pojúšču: vsjá ďilá Hospódňa Hóspoda pójte, i prevoznosíte vo vsjá víki."),
   ),
@@ -237,7 +237,7 @@
         ("","","V načáľi nebesá vsesíľnym Slóvom tvojím utverždéj Hóspodi Spáse, i vseďíteľnym i Bóžijim Dúchom vsjú sílu ích, na nedvížimim mjá kámeni ispovídanija tvojehó utverdí."),
         ("","","Tý vozšéd na drévo, o nás boľíznuješi vóleju blahoutróbne Spáse, i terpíši jázvu, primirénija chodátajstvennu, i spasénija vírnym: jéjuže tvojemú mílostive, vsí primiríchomsja Rodíteľu."),
         ("","","Tý mja očístiv ot jázvy, dušéju ujázvlennaho zmíjevym uhryzénijem Christé, i pokazál jesí svít, vo ťmí drévle mňí sležášču i vo tľíniji: krestóm bo vo ád sošéd, mené sovoskresíl jesí."),
-        ("Bohoródičen","","Neiskusomúžnyja tvojejá Mátere moľbámi mír mírovi podážď, Spáse, i neskazánnyja tvojejá slávy slavoslóvjaščyja ťá spodóbi."),
+        ("Bohoródičen","","Neiskuso-múžnyja tvojejá Mátere moľbámi mír mírovi podážď, Spáse, i neskazánnyja tvojejá slávy slavoslóvjaščyja ťá spodóbi."),
       ),
       "2": (
         ("","","Nebesá utverdívyj slóvom, i zemnóje osnovánije ukripívyj na vodách mnóhich, utverdí mój úm, vo vóľu tvojú čelovikoľúbče."),
@@ -269,7 +269,7 @@
         ("","","Ótča ňídra ne ostávľ, i sošéd na zémľu Christé Bóže, tájnu uslýšach smotrénija tvojehó, i proslávich ťá jedíne čelovikoľúbče."),
         ("","","Izbránnaja vsjá i dóbraja, jávľšisja Bóhu préžde sozdánija svítlostiju vsepítaja, svetolítijem tvojím pojúščyja ťá prosvití."),
         ("","","Bóha čelovíkom rodilá jesí čístaja, voploščénna ot čístych krovéj tvojích, izbavľájušča sohrišénij mnóhich, ľubóviju slávjaščyja i počitájuščyja ťá Máti Ďívo."),
-        ("","","Svjaščennoďíjstvujet jestestvó slovésnoje, vozsijávšemu iz tebé vsepítaja, táinstvu neizrečénnomu roždestvá tvojehó naučívšejesja nýňi, preblažénnaja."),
+        ("","","Svjaščennoďíjstvujet jestes-tvó slovésnoje, vozsijávšemu iz tebé vsepítaja, táinstvu neizrečénnomu roždestvá tvojehó naučívšejesja nýňi, preblažénnaja."),
       ),
     ),
     "P5": (

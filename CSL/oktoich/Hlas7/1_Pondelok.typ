@@ -161,7 +161,7 @@
         ("","","Svjaščénňijšimi i mnohoviščánnymi ustý pojút Serafími prebeznačáľnoje i prebožéstvennoje načálo, neveščéstvennymi svitolítiji prosviščájemi."),
         ("","","Svjaščénnymi i mnohosvítlymi kríly pokryvájutsja Cheruvími, k božéstvennomu sijániju ne smíjušče zríti, múdrosti prebožéstvennyja priviďínija."),
         ("","","Razúmno božéstvennaho i vsebohátnaho, prestóli slávniji, krasňíjšaho naslaždájuščesja blistánija, zríteli neizrečénnych premírno javľájutsja."),
-        ("Bohoródičen","","Úm prebožéstvennyj, čelovíčeskomu prečístaja, primišájetsja v prečísťim i vsesvjaťím tvojém črévi, sojedinívsja neslijánno i neizmínno po ipostási."),
+        ("Bohoródičen","","Úm prebožést-vennyj, čelovíčeskomu prečístaja, primišájetsja v prečísťim i vsesvjaťím tvojém črévi, sojedinívsja neslijánno i neizmínno po ipostási."),
       ),
     ),
     "P6": (
@@ -175,8 +175,8 @@
       ),
       "2": (
         ("","","Jóna iz čréva ádova vopijáše: vozvedí ot tlí živót mój. Mý že tebí vopijém: vsesíľne Spáse, pomíluj nás."),
-        ("","","Júnošeski svitlosťmí Hóspodonačálija oblistájemi, i neizrečénnuju slávu tohó vospivájušče, Hospóďstvija prísno javľájutsja."),
-        ("","","Júnošeski svitlosťmí Hóspodonačálija oblistájemi, i neizrečénnuju slávu tohó vospivájušče, Hospóďstvija prísno javľájutsja."),
+        ("","","Júnošeski svitlosťmí Hóspo-donačálija oblistájemi, i neizrečénnuju slávu tohó vospivájušče, Hospóďstvija prísno javľájutsja."),
+        ("","","Júnošeski svitlosťmí Hóspo-donačálija oblistájemi, i neizrečénnuju slávu tohó vospivájušče, Hospóďstvija prísno javľájutsja."),
         ("","","Ľubézno síľňi premohúščuju sílu, vzirájušče božéstvennyja síly, v kríposti prebyvájut jávi vozmohájemi."),
         ("Bohoródičen","","Ot cárska koľína proizšédši Ďívo, rodilá jesí páče jestestvá Slóvo vsích carjá, i Ďíva voístinnu soveršílasja jesí."),
       ),

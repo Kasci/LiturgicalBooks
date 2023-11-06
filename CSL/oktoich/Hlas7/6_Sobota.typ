@@ -231,7 +231,7 @@
   ),
   "CH": (
     ("","","Pámjať svjatých tvojích strastotérpec prázdnujušče, tebé pojém, Christé, vopijúšče: Hóspodi, sláva tebí."),
-    ("","","Posreďí sudíšča zakonoprestúpnych, rádujuščesja, vopijáchu, Christé, strastotérpcy: Hóspodi, sláva tebí."),
+    ("","","Posreďí sudíšča zakono-prestúpnych, rádujuščesja, vopijáchu, Christé, strastotérpcy: Hóspodi, sláva tebí."),
     ("","","Jedíno dýšušče, i ko jedínomu vzirájušče strastotérpcy múčenicy, jedín púť životá obrítše, jéže za Christá smérť, revnújušče drúh drúha končíňi. Ole čudesé, jáko sokróvišča múki predvoschiščáchu! Drúh ko drúhu hlahólachu, jáko ášče ne nýňi úmrem, úmrem že vsjáko, i bytijú dólžnaja poslúžim, sotvorím núždu ľubočéstijem, óbščeje svojé izvólivše, smértiju živót kúpim: molítvami ích, Bóže, pomíluj nás."),
     ("Mértven","","Vo straňí právednych tvojích mílostive, víroju k tebí prestávlennyja ot vrémennych, učiní čelovikoľúbče."),
     ("Bohoródičen","","Molí Ďívo, so apóstoly i múčeniki, obristí na suďí prestávľšymsja véliju mílosť."),
