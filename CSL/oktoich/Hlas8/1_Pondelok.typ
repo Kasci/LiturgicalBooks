@@ -93,7 +93,7 @@
   "S3": (
     ("","Poveľínnoje tájno","Dokóľi, dušé mojá, živéši v neraďíniji? Dokóľi vo unýniji skončaváješi? Ot sná unýnija vostáni okajánnaja, vo úm prijémši ďijánija tvojá: vozstení, i právednaho sudijí vostrepeščí izrečénija, čtó otviščáti ímaši v čás ón? Ilí káko ožidájuščaho ťá izbávišisja opalénija, neisprávlena prebyvájušči? Vozopíj préžde koncá k sudijí: prehrišénij dážď mí, Spáse, ostavlénije, tý bo jedín jesí dolhoterpilív."),
     ("","","Mytarévo stenánije, i bludnícy rydánije dušé, préžde koncá vosprijimí, víduščemu tájnaja ďilá tvojá, ne prestáj rydánijem ispovídajuščisja i pláčem, postóm i bďínijem, i molítvoju vopijúšči: sohriších, očísti mjá Spáse, molítvami ánhel tvojích, jáko ščédr, i spasí mja."),
-    ("Bohoródičen","","Bohorádovannaja, čístaja blahoslovénnaja, za milosérdije ščedrót iz tebé róždšahosja, s výšnimi sílami i archánhely, i so vsími bezplótnymi, o nás molí neprestánno, dáti nám préžde koncá proščénije i očiščénije hrichóv, i žitijá ispravlénije: jáko da obrjáščem mílosť."),
+    ("Bohoródičen","","Bohorádo-vannaja, čístaja blaho-slovénnaja, za milosérdije ščedrót iz tebé róždšahosja, s výšnimi sílami i archánhely, i so vsími bezplótnymi, o nás molí neprestánno, dáti nám préžde koncá proščénije i očiščénije hrichóv, i žitijá ispravlénije: jáko da obrjáščem mílosť."),
   ),
   "K": (
     "P1": (

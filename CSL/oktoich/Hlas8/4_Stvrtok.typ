@@ -161,7 +161,7 @@
         ("","","Ukrepí nás molítvami tvojími Bohoblažénne Nikólaje, sobľudáti poveľínija Christá, jedínaho Bóha nášeho."),
         ("","","V Mírich požív Nikólaje, blahouchánija božéstvennaho nás ispólni, blahočéstno vospivájuščich ťá."),
         ("","","Uščédri nás molítvami tvojími svjatíteľu, Bóha vseščédraho umoľája Nikólaje, da izbávimsja bíd i skorbéj."),
-        ("Bohoródičen","","Vód životóčnych ispólnena súšči otrokovíce, vsích nás napój, blahočestnomúdrenňi pojúščyja ťá."),
+        ("Bohoródičen","","Vód životóčnych ispólnena súšči otrokovíce, vsích nás na-pój, blahočestnomúdrenňi pojúščyja ťá."),
       ),
     ),
     "P6": (
@@ -192,7 +192,7 @@
       ),
       "2": (
         ("","","Ótrocy jevréjstiji v peščí popráša plámeň derznovénno, i na rósu óhň preložíša, vopijúšče: blahoslovén jesí Hóspodi Bóže vo víki."),
-        ("","","Istočíl jesí strují učénij, jereséj izsušája potóki, i vírnych dúšy napojájuščij bohátno, svjaščennoďíjstvenniče Nikólaje: sehó rádi ťá počitájem."),
+        ("","","Istočíl jesí strují učénij, jereséj izsušája potóki, i vírnych dúšy napojájuščij bohátno, svjaščennoďíjstve-nniče Nikólaje: sehó rádi ťá počitájem."),
         ("","","ukripílsja jesí síloju Tróičeskoju vozmohájem, kumíry léstnyja pohubíti, ťímže vírno moľúsja tí ótče: umá mojehó ídoly strástnyja otžení."),
         ("","","Mírjanov prepodóbne pervoprestóľnik býv, po smérti istočáješi božéstvennoje míro, zlosmrádnyja náša othoňája nedúhi, Nikólaje vseblažénne, vírno k tebí pristupájuščym."),
         ("Bohoródičen","","Ukrotíla jesí tečénije smértnoje, bezsmértnaho Bóha róždšaja: jehóže molí čístaja, strásti umertvíti smirénnaho mojehó ťilesé, i žízni mjá spodóbiti."),
@@ -205,7 +205,7 @@
         ("","","Koléblemuju strasťmí dúšu mojú ukripíte, cérkve nerazorímaja osnovánija súšče, i stolpí nepokolebímiji, vírnych predhrádija, lovcý súščich vo hlubiňí pohíbeli, blahoutíšnaja pristánišča vírno pojúščich: ďíti blahoslovíte, svjaščénnicy vospójte, ľúdije prevoznosíte jehó vo víki."),
         ("","","Íže vo hróbi témnaho otčájanija, i v preispódnich padénija slastéj ležáščaho mjá, vášimi molítvami vozvestí, umilosérditesja učenicý Spásovy, íže učíteleva blahoutróbija obohatítisja jávi spodóbistesja, apóstoli bohovídcy vo vsjá víki."),
         ("","","Íže vo hróbi témnaho otčájanija, i v preispódnich padénija slastéj ležáščaho mjá, vášimi molítvami vozvestí, umilosérditesja učenicý Spásovy, íže učíteleva blahoutróbija obohatítisja jávi spodóbistesja, apóstoli bohovídcy vo vsjá víki."),
-        ("Bohoródičen","","Jáko svetlá v krasotách dobroďíteli javílasja jesí vsečístaja, dobrotvoríteľnoje vseďíteľevo blahoľípije vo utróbu vmistíla jesí: jehóže priľížno molí, hrichámi strastéj soderžímuju, i dobróty drévnija íščuščuju čístaja, ziló blahoľípnejše dúšu mojú prosvitíti vo vsjá víki."),
+        ("Bohoródičen","","Jáko svetlá v krasotách dobroďíteli javílasja jesí vsečístaja, dobro-tvoríteľnoje vseďíteľevo blahoľípije vo utróbu vmistíla jesí: jehóže priľížno molí, hrichámi strastéj soderžímuju, i dobróty drévnija íščuščuju čístaja, ziló blahoľípnejše dúšu mojú prosvitíti vo vsjá víki."),
       ),
       "2": (
         ("","","Bohohlahóliviji ótrocy v peščí, so ohném plámeň popirájušče, pojáchu: blahoslovíte ďilá Hospódňa Hóspoda."),

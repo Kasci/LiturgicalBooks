@@ -35,7 +35,7 @@
     ("","","Uslýšach Hóspodi, smotrénija tvojehó tájinstvo: razuméch ďilá tvojá, i proslávich tvojé Božestvó."),
     ("","","Strastéj mojích smuščénije, kórmčiju róždšaja Hóspoda, i búrju utiší mojích prehrišénij, Bohonevístnaja."),
     ("","","Milosérdija tvojehó bézdnu prizyvájušču podážď mí, jáže blahosérdaho róždšaja, i Spása vsích pojúščich ťá."),
-    ("","","Naslaždájuščesja prečístaja, tvojích darovánij, blahodárstvennoje vospivájem pínije, vídušče ťá Bohomáter."),
+    ("","","Naslaždájuščesja prečístaja, tvojích darovánij, blaho-dárstvennoje vospivájem pínije, vídušče ťá Bohomáter."),
     ("","","Na odrí boľízni mojejá, i némošči nizležášču mí, jáko blahoľubíva pomozí Bohoródice, jedína prisnoďívo."),
   ),
   "5": (

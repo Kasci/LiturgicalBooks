@@ -10,6 +10,6 @@
 // #pagebreak()
 // #include("6hlas.typ")
 // #pagebreak()
-#include("7hlas.typ")
+// #include("7hlas.typ")
 // #pagebreak()
-// #include("8hlas.typ")
+#include("8hlas.typ")
