@@ -56,7 +56,7 @@
     ("","","Za milosérdije ščedrót Christé, sošél jesí na zémľu, i ot Ďívy voplóščsja, vsjá osvjatíl jesí, jáže ot zemlí, i k nebesí vsích prizvál jesí. Ťímže upovájušče na ťá, nikohdáže pohriším, no izbavľájemsja tobóju nastojánij: tý bo jesí Spás náš, sozdáteľu Bóže náš."),
   ),
   "7": (
-    ("","","Sohrišíchom, bezzakónnovachom, neprávdovachom pred tobóju: nižé sobľudóchom, nižé sotvoríchom, jákože zapovídal jesí nám: no ne predážď nás do koncá, otcév Bóže."),
+    ("","","Sohrišíchom, bezzakónno-vachom, neprávdovachom pred tobóju: nižé sobľudóchom, nižé sotvoríchom, jákože zapovídal jesí nám: no ne predážď nás do koncá, otcév Bóže."),
     ("","","Jehdá dušá okajánnaja mojá ot ťilesé sterpíti chóščet razlučénije, i ne búdet izbavľájaj jú, ilí uťišájaj jú: tohdá Vladýčice predstáni, i izbávi mjá bisóv ozloblénija."),
     ("","","Pripádaju tí, i prinošú sléz téplyja kápli: vím tvojé čelovikoľúbnoje, vím dolhoterpínije i nezlóbije. Tý mja nýňi pomíluj čístaja, prostí i spasí mja."),
     ("","","Pomíluj Ďívo, strástnuju i okajánnuju mojú dúšu, vížď strastéj smuščénije, vížď i razhorínije plóti nepostojánnoje: i pómošč dážď mí spasíteľnuju, i izbavlénije."),

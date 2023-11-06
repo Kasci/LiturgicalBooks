@@ -88,7 +88,7 @@
     ("","","Dnés proróčeskoje ispólnisja slóvo: sé bo poklaňájemsja na mísťi, iďíže stojásťi nózi tvojí, Hóspodi: i dréva spasénija vkusívše, ot hrichóvnych strastéj svobódu ulučíchom, molítvami Bohoródicy, jedíne čelovikoľúbče."),
     ("","","Hóspodi, osudíša ťá Judéji na smérť, žízň vsích: íže čermnóje móre žezlóm prošédšiji, ko krestú ťa prihvozdíša: i ot kámene méd ssávšiji, žélč tebí prinesóša. No vóleju preterpíl jesí, da nás svobodíši ot rabóty vrážija: Christé Bóže náš, sláva tebí."),
     ("","","Stradáľčeskaja soprotivlénija na sudíšči, mučíteľskija rány na múčenicich, i stojáchu lícy bezplótnych, póčesti deržášče pobídy, udivíša mučíteli i carí, premúdriji, nizložíša prestúpnika ispovídanijem Christóvym: ukripívyj ích Hóspodi, sláva tebí."),
-    ("Krestobohoródičen","","Predstojášči u krestá neiskusobráčnaja Máti, íže iz tebé róždšemusja bez símene, vopijáše: orúžije sérdce mojé prójde, o Sýne, ne terpjášči vísima na drévi ťá zríti, jehóže trepéščut vsjáčeskaja, jáko sozdáteľa i Bóha: dolhoterpilíve Hóspodi, sláva tebí."),
+    ("Krestobohoródičen","","Pred-stojášči u krestá neiskusobráčnaja Máti, íže iz tebé róždšemusja bez símene, vopijáše: orúžije sérdce mojé prójde, o Sýne, ne terpjášči vísima na drévi ťá zríti, jehóže trepéščut vsjáčeskaja, jáko sozdáteľa i Bóha: dolhoterpilíve Hóspodi, sláva tebí."),
   ),
   "S3": (
     ("","Vsjú otložívše","Na kresťí ťa vóleju nás rádi prihvoždéna Christé, tvár víďivši, kolebášesja stráchom, sólnce vés pomračí svít, kámenije raspadésja, i cérkvi božéstvennaja zavísa razdrásja, na obličénije ľútych i bezzakónnych jevréj."),
@@ -221,7 +221,7 @@
         ("","","Vremenóm i ľítom sýj Hospóď, posreďí zemlí v polúdne na drévo voznéslsja jesí, raspinájem jedíne dolhoterpilíve, i posreďí rajá preterpívšaho popolznovénije, plód tletvórnyj ispravľája."),
         ("","","Krest vodružášesja, i mučíteľ v duší smértnuju jázvu prijimáše, i svjázanniji ot tlí otrišájemi byváchu: rázum že vo vsjá čelovíki vsaždášesja, vráh upražňášesja, i rádosti vsjá ispolňáchusja."),
         ("Múčeničen","","Zemľá sovokupísja, Hospódni múčenicy, s nebesý otnéľiže Christós požrésja, raspinájem: i váše mnóžestvo privlečé, mnóžestvo zíľnych múk preterpívšyja, i mnóžestvu božéstvennych slúh sooblistávšyja."),
-        ("Múčeničen","","Svítom neveščéstvennym oblistájemi, položénijem bózi býste Hospódni múčenicy, v pervoródnych selénijich vodvorjájemi, i víčnyja slávy ispolňájemi: ťímže po dólhu vírniji vás počitájem."),
+        ("Múčeničen","","Svítom neveščést-vennym oblistájemi, položénijem bózi býste Hospódni múčenicy, v pervoródnych selénijich vodvorjájemi, i víčnyja slávy ispolňájemi: ťímže po dólhu vírniji vás počitájem."),
         ("Bohoródičen","","Strášno roždestvó preterpích Vladýko, vnehdá stránno tebé rodích dolhoterpilíve, jehóže tvár raspinájema na drévi vóleju, zrjášči ustrašísja, drévle neporóčnaja plákaše vopijúšči Máterski, júže veličájem."),
       ),
       "2": (
@@ -246,7 +246,7 @@
     ("","","Pomjaní mja Bóže spáse mój, jehdá priídeši vo cárstviji tvojém: i spasí mja jáko jedín čelovikoľúbec."),
     ("","","Vóleju voznéslsja jesí na drévi, vo hlubinú zól popólzšichsja prizvál jesí jedíne mnohomílostive."),
     ("","","Zemľá potrjasésja, i sólnce uhasé, víďašče ťá na drévi Sólnca právednaho, vóleju stráždušča."),
-    ("Múčeničen","","Strástém Spásovym strastotérpcy priobščájuščesja, i božéstvennyja svítlosti sopričaščájetesja, pričástijem obožájemi."),
+    ("Múčeničen","","Strástém Spásovym strastotérpcy priobščájuščesja, i božés-tvennyja svítlosti sopriča-ščájetesja, pričástijem obožájemi."),
     ("","","Voznesí mja iz hlubiný hrichóvnyja Christé mój, íže ot Tróicy jedínyj vóleju preterpívyj raspjátije."),
     ("","","Predstojášči u krestá Ďívo Máti, i zrjášči Sýna vóleju stráždušča, tohó veličáše."),
   ),
