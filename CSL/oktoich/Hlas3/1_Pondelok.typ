@@ -122,9 +122,9 @@
         ("", "", "Utverdí mené Hóspodi, jedíne mnohomílostive, i prostrí mi rúku jáko Petróvi, i spasí mja."),
         ("", "", "Jákože Petrá pohružájema spásl jesí čelovikoľúbče: táko i mené iz hlubiný prehrišénij mojích vozvedí."),
         ("", "", "Umertví mja ľstívyj strasťmí ubív: tý že mjá žiznodáteľu pokajánija óbrazy oživí."),
-        ("Múčeničen", "", "Ohném veščéstvennym múčenicy neprávedno opaľájemi, neveščéstvenňi neveščéstvennaho vospalístesja želánijem."),
+        ("Múčeničen", "", "Ohném veščéstvennym múčenicy neprávedno opaľájemi, neveščéstvenňi neveščé-stvennaho vospalístesja želánijem."),
         ("Múčeničen", "", "Múčenicy rasterzájemi, rasterzánija i lovlénija pohubíša ľstívaho, i vincév spodóbišasja."),
-        ("Bohoródičen", "", "Maríje Hospodoimenítaja, mnóhimi obladájema mjá strasťmí dušetľínnymi, svobodí molítvami tvojími."),
+        ("Bohoródičen", "", "Maríje Hospo-doimenítaja, mnóhimi obladájema mjá strasťmí dušetľínnymi, svobodí molítvami tvojími."),
         
       ),
       "2": (
@@ -179,7 +179,7 @@
         ("", "", "Íže v koncý vikóv došédšyja čelovikoľúbče, i trevolnéňmi napástej pohíbnuti bídstvujuščyja, vopijúščyja ne prézri: spasí Spáse, jákože spásl jesí ot zvírja proróka."),
         ("", "", "Prevoznéssja mýsliju, jákože drévnij fariséj prehrišénijem nizpadóchsja ľúťi, i zrjá mja ľstívyj, veselítsja, Christé: ímže smirívyj sehó krestóm, smirívšasja nýňi uščédri mjá."),
         ("", "", "Hrichoľubív v žitijí býv, jákože ín niktóže Vladýko, iždích tvojé dolhoterpínije okajánnyj, i ješčé jésm nečúvstven, no obratí mja tvojím blahoutróbijem."),
-        ("Múčeničen", "", "Járostnym proizvolénijem, zakonoprestúpnicy Bohomúdrennych osuždájušče, ohném i sožžénijem i probodéňmi, zláta svitľíjše jáko voístinnu pokazáša, i Christú snasľídniki."),
+        ("Múčeničen", "", "Járostnym pro-izvolénijem, zakonoprestú-pnicy Bohomúdrennych osuždájušče, ohném i sožžénijem i probodéňmi, zláta svitľíjše jáko voístinnu pokazáša, i Christú snasľídniki."),
         ("Múčeničen", "", "Sudíšče ispólneno borénij, i pódvihov prevelíkich, i páče jestestvá rány prešédše, pobidíste kňázja ťmý, i ot Bóha prijáste stradáľcy vincý."),
         ("Bohoródičen", "", "Kovčéh zavíta, svjatúju voístinnu trapézu, očistílišče náše, cérkov Bóžiju oduševlénnuju, vsezlatýj svíščnik, ístinnuju Máter ziždíteľa vospivájem."),
         

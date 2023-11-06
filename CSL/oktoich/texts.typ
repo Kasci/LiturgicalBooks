@@ -134,7 +134,7 @@
   "P": "Povečérije",
   "N": "Polúnóščnica",
   "U": "Utréňa",
-  "L": "Litúrhija / Izobrazíteľnaja",
+  "L": "Litúrhija \n(Izobrazíteľnaja)",
   "So_V": "v subbótu véčera",
   "So_N": "v subbótu nóšči",
   "Ne_V": "v neďíľu véčera",
