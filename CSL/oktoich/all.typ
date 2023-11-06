@@ -1,4 +1,4 @@
-// #include("1hlas.typ")
+#include("1hlas.typ")
 // #pagebreak()
 // #include("2hlas.typ")
 // #pagebreak()
@@ -12,4 +12,4 @@
 // #pagebreak()
 // #include("7hlas.typ")
 // #pagebreak()
-#include("8hlas.typ")
+// #include("8hlas.typ")

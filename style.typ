@@ -1,18 +1,29 @@
 #let fSize = 25pt
 
-#let red = rgb("b32d00")
-#let lred = rgb("c96c4c")
-
-#let blue = rgb("002db3")
-#let lblue = rgb("4c6cc9")
-
-#let green = rgb("2db300")
-#let lgreen = rgb("6cc94c")
-
 #let gray = rgb("666666")
 
-#let primary = red
-#let secondary = lred
+#let red = rgb("8c1919")
+#let lred = rgb("a21d1d")
+
+#let blue = rgb("19538c")
+#let lblue = rgb("216db7")
+
+#let green = rgb("198c53")
+#let lgreen = rgb("21b76d")
+
+#let gold = rgb("a0740a")
+#let lgold = rgb("d0980c")
+
+#let purple = rgb("663399")
+#let lpurple = rgb("8c53c6")
+
+#let R = (red, lred)
+#let B = (blue, lblue)
+#let G = (green, lgreen)
+#let D = (gold, lgold)
+#let P = (purple, lpurple)
+
+#let (primary, secondary) = R
 
 #let primText(txt) = {
   text(primary)[#txt]
@@ -59,7 +70,7 @@
 }
 
 #let superheader(txt) = {
-  underline(stroke: (thickness: 3pt, paint: red))[
+  underline(stroke: (thickness: 3pt, paint: primary))[
     #align(center)[#text(20pt)[
       #primText[#upper[#txt]]
     ]]
