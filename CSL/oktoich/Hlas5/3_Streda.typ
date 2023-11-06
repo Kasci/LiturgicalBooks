@@ -99,7 +99,7 @@
     "P1": (
       "1": (
         ("","","Koňá i vsádnika v móre čermnóje, sokrušájaj bráni mýšceju vysókoju, Christós istrjasé: Izráiľa že spasé, pobídnuju písň pojúšča."),
-        ("","","Íže nepostižénijem razumivájemaho voploščénna, i míru jávľšasja plótiju, na drévi vozdvíže drévle voschoťívšaho, jevréjskij sobór zakonoprestúpnyj."),
+        ("","","Íže nepostižénijem razumi-vájemaho voploščénna, i míru jávľšasja plótiju, na drévi vozdvíže drévle voschoťívšaho, jevréjskij sobór zakonoprestúpnyj."),
         ("","","Jehdá plodonósna vinohráda tebé Christé, na drévo krestnoje jevréi vozbisívšesja vozdvihóša: tohdá vinó iskápal jesí vesélija Slóve, vsjáko pijánstvo zlých otjémľuščeje."),
         ("Múčeničen","","Zakónom ne podpádajet pochváľnym múčenicy, váše terpínije: páče bo jestestvá vsjákaho čelovíčeskaho boľízni preterpíste, i ko upokojéniju neboľíznennomu vselístesja veseľáščesja."),
         ("Múčeničen","","Vólny múk preplývše okormlénijem slóva, vsechváľniji Christóvy stradáľcy, vo pristánišča dostihóste nebésnaja, božéstvennyja tišiný nýňi naslaždájuščesja."),
