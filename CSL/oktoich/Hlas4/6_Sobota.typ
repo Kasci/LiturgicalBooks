@@ -203,7 +203,7 @@
         ("", "", "Terpínije že i poždánije, i króvi vsích múčenik, izbavlénije prijém, blahočéstno usópšyja u tebé upokój, jáko mílostiv i blahopreminíteľ."),
         ("", "", "Pričetávyj k pervoródnym, i právednym tvojím Spáse, dúšy ráb tvojích k tebí prestávlenyja, spodóbi neprestánno tebé naslaždátisja, vsími vladúščaho."),
         ("", "", "S vesélijem i so derznovénijem i svítlostiju Slóve Bóžij izbáviteľu, blahovolí jáko Bóh na óblacich srísti ťá, íchže tý prijál jesí nýňi jáko mílostiv."),
-        ("", "", "Blahoslovénnaja Bohorodíteľnice Ďívo Máti, rádujsja: tebé bo rádi býsť voístinnu smérti potrebénije, živót že nerazorímyj uméršym darovásja."),
+        ("", "", "Blahoslovénnaja Bohorodí-teľnice Ďívo Máti, rádujsja: tebé bo rádi býsť voístinnu smérti potrebénije, živót že nerazorímyj uméršym darovásja."),
         
       ),
     ),
