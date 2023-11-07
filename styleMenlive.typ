@@ -177,6 +177,7 @@
 #let kanonUtieren(kanon, dayIdx, typs, pripivy, t) = {
   let typ = typs.at(str(dayIdx))
   if "?" in kanon {
+    // TODO: check and translate all cannons
     typ = kanon.at("?")
   }
   for k in range(1,10) {
@@ -261,6 +262,7 @@
   for i in range(1,4) {
     let s = "S"+str(i)
     if s in day {
+      // TODO: fix
       [===== Po #(i)-om stichoslovii]
     
       c.update(1)
@@ -337,7 +339,7 @@
       c.update(verse.len())
       tbl = {
         z.map(k => (
-              primText[#c.display("i:"); #c.update(c => c - 1)], k.at(0),
+              primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
               [], makeGray(k.at(1))
           )
         )
@@ -351,7 +353,7 @@
       c.update(verse.len())
       tbl = {
         z.map(k => (
-              primText[#c.display("i:"); #c.update(c => c - 1)], k.at(0),
+              primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
               [], makeGray(k.at(1))
           )
         )
@@ -407,9 +409,9 @@
     let tbl = {
       z.map(k => 
         if k.at(1).at(2) == "" {(
-          primText[#c.display("i:"); #c.update(c => c - 1)], k.at(0)
+          primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0)
         )} else {(
-          primText[#c.display("i:"); #c.update(c => c - 1)], k.at(0), 
+          primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0), 
           [], makeGray(k.at(1))
         )}
       )
@@ -436,14 +438,14 @@
     #set par(first-line-indent: 1em)
       #prokimen.at(2)
       
-      #primText[Stich:] #vers.at(2)
+      #primText[#t("STICH"):] #vers.at(2)
     ]
     [===== #t("ALLILUJA")]
     [
     #set par(first-line-indent: 1em)
       #aleluja.at(2)
       
-      #primText[Stich:] #versA.at(2)
+      #primText[#t("STICH"):] #versA.at(2)
     ]
   }
 }
