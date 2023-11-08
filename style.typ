@@ -1,5 +1,6 @@
 #let fSize = 25pt
 
+#let black = rgb("1f1f1f")
 #let gray = rgb("666666")
 
 #let red = rgb("8c1919")

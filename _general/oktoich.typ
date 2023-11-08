@@ -36,8 +36,6 @@
     footer-descent: 75%
   )
 
-  set text(font: "Imx Glycea", weight: "semibold", lang: "gr", fill: rgb("1f1f1f"))
-  set text(font: "Monomakh Unicode", lang: "ru", fill: rgb("1f1f1f"))
   
   // HEADINGS
   show heading.where(level: 1): it => [ 
@@ -67,6 +65,9 @@
 
 #show: project
 
-#include("/CU/oktoich/all.typ")
-// #include("/CSL/oktoich/all.typ")
+// #set text(font: "Monomakh Unicode", lang: "ru", fill: black)
+// #include("/CU/oktoich/all.typ")
+#set text(font: "Monomakh Unicode", lang: "cs", fill: black)
+#include("/CSL/oktoich/all.typ")
+// #set text(font: "Imx Glycea", weight: "semibold", lang: "gr", fill: black)
 // #include("/GR/oktoich/all.typ")
