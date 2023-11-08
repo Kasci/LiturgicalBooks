@@ -56,7 +56,7 @@
     ("","","Ot sérdca stenánije, i ot utróby prinošáju tí, preneporóčnaja, tvojehó prosjá blahoprebýtnaho zastuplénija: pomíluj vsestrástnuju mojú dúšu: umilosérdi mnohomílostivaho Bóha, izbáviti mjá sudá i jézera óhnennaho, jedína blahoslovénnaja."),
   ),
   "7": (
-    ("","","Sohrišíchom, bezzakónno-vachom, neprávdovachom pred tobóju: nižé sobľudóchom, nižé sotvoríchom, jákože zapovídal jesí nám: no ne predážď nás do koncá, otcév Bóže."),
+    ("","","Sohrišíchom, bezzakónnovachom, neprávdovachom pred tobóju: nižé sobľudóchom, nižé sotvoríchom, jákože zapovídal jesí nám: no ne predážď nás do koncá, otcév Bóže."),
     ("","","Jáko mílostivu, jáko blahoľubívu Ďívu Máter, vsjú ťa jáko čístuju svídyj, pribiháju áz okajánnyj: no ne otvratí mené vseneporóčnaja, posrámlena ot tebé."),
     ("","","Vozníkni, o strástnaja dušé, i vostáni okajánnaja: bíj iz hlubiný v pérsi, i ispustí sléz istóčniki, da ťá pomílujet okajánnuju milosérdija Máti Christá i Bóha."),
     ("","","Chrám Bóžij býv, ot kreščénija božéstvennaho drévle, vés oskverníchsja okajánnyj, i nizležú užásno padénijem ľúťi: no tý mja vozstávi preneporóčnaja, otčájannych nadéžda."),
@@ -86,7 +86,7 @@
   ),
   "S2": (
     ("","","Učenicý tvojí, Spáse, v koncý zemlí posylájemi, jazýki blahočéstno jáko rýby ulovívše, privedóša tvojéj bláhosti. Ťích rádi úbo vopijém tí Christé: ľúdem tvojím podážď véliju mílosť."),
-    ("","","Dvojenadesjática apóstol, Hóspodi, dvojenadesjato-lúčnaja jáko sólnce javísja zemlí: ťích bo rádi uvjadíl jesí prélesti izrastíteľa: ťích rádi ozarjáješi dúšy tvojích rabóv: i nás ích rádi spásáj, jáko blahoutróben."),
+    ("","","Dvojenadesjática apóstol, Hóspodi, dvojenadesjatolúčnaja jáko sólnce javísja zemlí: ťích bo rádi uvjadíl jesí prélesti izrastíteľa: ťích rádi ozarjáješi dúšy tvojích rabóv: i nás ích rádi spásáj, jáko blahoutróben."),
     ("Múčeničen","","Hóspodi, svjatých tvojích pámať dnés javísja, jáko ráj, íže vo Jedémi: v néj bo rádujetsja vsjá tvár, i podajéši nám ťích molítvami mír i véliju mílosť."),
     ("Bohoródičen","","Vsesvjatája Bohoródice, vo vrémja životá mojehó ne ostávi mené: čelovíčeskomu predstáteľstvu ne vvíri mjá: no samá zastupí, i pomíluj mjá."),
   ),
@@ -247,7 +247,7 @@
     ("","","Pomjaní mja Bóže Spáse mój, jehdá priídeši vo cárstviji tvojém, i spasí mja, jáko jedín čelovikoľúbec."),
     ("","","Jáko lučý tájnyja, protékše v míri apóstoli slávniji, čelovíčeskij ród víroju prosvitíli jesté."),
     ("","","Jáko óblacy okropíli jesté vódu v míri, božéstvennaho rázuma, prosviščénniji Hospódni apóstoli."),
-    ("","","Mučénija ohňú približáju-ščesja, božéstvennuju rósu prochlaždájuščuju vás, ot Bóha vosprijáste múčenicy."),
+    ("","","Mučénija ohňú približájuščesja, božéstvennuju rósu prochlaždájuščuju vás, ot Bóha vosprijáste múčenicy."),
     ("","","Svjaťíj i čestňíj Tróici, vírniji poklaňájuščesja, sohlásno vozopijím: apóstol moľbámi spasí vsích nás."),
     ("","","Róždšaja Slóvo páče slovesé Bohoródice, Otcú sobeznačáľnaho, tohó molí spastísja dušám nášym."),
   ),

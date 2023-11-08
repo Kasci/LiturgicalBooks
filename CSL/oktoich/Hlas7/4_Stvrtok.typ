@@ -176,15 +176,15 @@
       "2": (
         ("","","Razoríl jesí smérti neprávednyj súd, i spásl jesí mílostiju tvojéju ótče Nikólaje, choťáščyja umréti, jáko téplyj pomóščnik prizyvájuščym ťá."),
         ("","","Nedúhi dúš nášich utiší: i ustá otverzájuščajasja vsúje na ľúbjaščich ťá, svjaščénňijšij pástyrju, zahradí."),
-        ("","","Pážiť hórkuju zločéstija Árijeva potrebíl jesí Nikó-laje, rastvorénijem slovés tvojích svjaščennotaínniče, pravoslávnym utverždénije tý býl jesí."),
+        ("","","Pážiť hórkuju zločéstija Árijeva potrebíl jesí Nikólaje, rastvorénijem slovés tvojích svjaščennotaínniče, pravoslávnym utverždénije tý býl jesí."),
         ("","","Uvračúj vseneporóčnaja, neiscíľno boľáščuju, okajánnuju dúšu mojú žitéjskimi prélesťmi, i mnóhich hrichóv obstojániji."),
         ("Bohoródičen","","Péšč ótrocy ohnepáľnu drévle rosotočášču pokazáša, jedínaho Bóha vospivájušče, i hlahóľušče: prevoznosímyj otcév Bóh, i preproslávlen."),
       ),
     ),
     "P7": (
       "1": (
-        ("","","Péšč drévle hórkaho bezbóžija, rosóju božé-stvennaho propovídanija uhasíste slávniji apóstoli, zovúšče: prevoznosímyj otcév Bóh i preproslávlen."),
-        ("","","Péšč drévle hórkaho bezbóžija, rosóju božé-stvennaho propovídanija uhasíste slávniji apóstoli, zovúšče: prevoznosímyj otcév Bóh i preproslávlen."),
+        ("","","Péšč drévle hórkaho bezbóžija, rosóju božéstvennaho propovídanija uhasíste slávniji apóstoli, zovúšče: prevoznosímyj otcév Bóh i preproslávlen."),
+        ("","","Péšč drévle hórkaho bezbóžija, rosóju božéstvennaho propovídanija uhasíste slávniji apóstoli, zovúšče: prevoznosímyj otcév Bóh i preproslávlen."),
         ("","","Ľútaho mjá Christé, hrichá, i vo áďi mučénija, i v hejénňi boľíznej ischití: i spasí mja, moľúsja, moľbámi Slóve, apóstol tvojích."),
         ("","","Slóva mréžeju iz hlubiný nevíďinija čelovíki ulovívše, i potopľájema mjá bezmírnymi prehrišéniji, i oburevájema, učenicý Christóvy spasíte."),
         ("","","So ánhely, s múčeniki i apóstoly, vseneporóčnaja, tvojehó Sýna molí i Hóspoda, spastísja rabóm tvojím ot napástej vsjáčeskich i skorbéj."),

@@ -88,20 +88,20 @@
     ("", "", "Zaušívyjsja za ród čelovíčeskij, i ne prohňívavyjsja, svobodí iz istľínija živót náš Hóspodi, i spasí nás."),
     ("", "Krasoťí ďívstva", "Neisčétňij vlásti tvojéj, i vóľnomu raspjátiju, ánheľskaja vójinstva divľáchusja zrjášče: káko nevídimyj plótiju uraňášesja, choťá izbáviti ot istľínija čelovíčestvo? Ťímže jáko žiznodávcu vopijém tí: sláva Christé blahoutróbiju tvojemú."),
     ("Múčeničen", "", "Vooružívšesja vo vseorúžije Christóvo, i obólkšesja vo orúžije víry, opolčénija vrážija stradáľčeski nizložíste: usérdno bo nadéždeju žízni, preterpíste vsjá mučíteľskaja drévle preščénija že i rány. Ťímže i vincý prijáste, múčenicy Christóvy terpilivodúšniji."),
-    ("Krestobohoródičen", "Podóben", "Neisku-sobráčnaja čístaja i Máti tvojá Christé, víďašči ťá mértva vísjašča na kresťí, máterski pláčušči hlahólaše: čtó tebí vozdadé jevréjskij bezzakónnyj sobór i neblahodárnyj, íže mnóhich i velíkich tvojích, Sýne mój, daróv nasladívyjsja? Pojú tvojé božéstvennoje snizchoždénije."),
+    ("Krestobohoródičen", "Podóben", "Neiskusobráčnaja čístaja i Máti tvojá Christé, víďašči ťá mértva vísjašča na kresťí, máterski pláčušči hlahólaše: čtó tebí vozdadé jevréjskij bezzakónnyj sobór i neblahodárnyj, íže mnóhich i velíkich tvojích, Sýne mój, daróv nasladívyjsja? Pojú tvojé božéstvennoje snizchoždénije."),
     
   ),
   "S3": (
     ("", "Krasoťí ďívstva", "Raspjátije i smérť prijém, živót bezsmértnyj istočíl jesí nám Christé Spáse, i ot tlí mír svobodíl jesí. Ťímže tvojá slávim žiznodávče čelovikoľúbče strásti spasíteľnyja, ímiže vsí spasájemsja, čestnáho krestá tvojehó mír i nepobidímoje orúžije imúšče."),
     ("", "", "Krest preterpíl jesí bezčéstno Vladýko, íže prevýše vsejá tvári, jáko da počtíši mjá préžde ľúťi obezčéstvovana: kopijém že v rébra tvojá probodén býl jesí dolhoterpilíve, choťá izbáviti iz istľínija mjá sozdánije tvojé. Pojú tvojé mnóhoje blahoutróbije i bláhosť, čelovikoľúbče."),
-    ("Krestobohoródičen", "Podóben", "Vozdví-žena ťá jáko víďi na drévi Vladýko, neiskusobráčnaja i preneporóčnaja, čístaja Ďíva že i Máti tvojá, uvý mňí vzyváše, o Sýne mój sladčájšij! Káko ťá bezzakónňijšij sobór na drévi osudí, vsích tvorcá i Vladýku: pojú tvojú krájňuju bláhosť."),
+    ("Krestobohoródičen", "Podóben", "Vozdvížena ťá jáko víďi na drévi Vladýko, neiskusobráčnaja i preneporóčnaja, čístaja Ďíva že i Máti tvojá, uvý mňí vzyváše, o Sýne mój sladčájšij! Káko ťá bezzakónňijšij sobór na drévi osudí, vsích tvorcá i Vladýku: pojú tvojú krájňuju bláhosť."),
     
   ),
   "K": (
     "P1": (
       "1": (
         ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš, preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
-        ("", "", "Mnohoboľíznennyja strásti ustávil jesí Slóve, strasťmí čestnýja plóti tvojejá, i čelovíki spásl jesí, íchže ujazví drévle soprotivobórec, blahočéstno poklaňájuščichsja nedo-mýslennomu smotréniju tvojemú."),
+        ("", "", "Mnohoboľíznennyja strásti ustávil jesí Slóve, strasťmí čestnýja plóti tvojejá, i čelovíki spásl jesí, íchže ujazví drévle soprotivobórec, blahočéstno poklaňájuščichsja nedomýslennomu smotréniju tvojemú."),
         ("", "", "Íže svjazávyj v rají léstiju čelovíka, zápovidi prestuplénijem, úzami svjázan jésť nerišímymi Hóspodi, ímiže voploščájem vóleju svjázan býl jesí, razrišája prehrišénija náša čelovikoľúbče."),
         ("Múčeničen", "", "Bídstvujuščuju potoplénijem zrjášče strastotérpcy tvár, démonov prélesťmi, vírnym javíšasja pristánišča blahotíšnaja, vsjú hórdaho sílu strujámi króvnymi pohruzívše velikoimenítiji."),
         ("Múčeničen", "", "Lík múčeničeskij, likostojánijem hórnim svítlo sočetájem, blistáňmi vsehdá ozarjájetsja nesozdánnaho Božestvá, i súščyja na zemlí ozarjájet, tohó čudesá víroju slávjaščyja."),

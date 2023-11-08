@@ -2,8 +2,8 @@
   "HV": (
     ("", "Jáko dóbľa", "Kripčájšim mudrovánijem vóinstvovavše slávniji, na lukávaho vrahá opolčístesja, vseorúžijem ohráždšesja duchóvnym dóblestvenňi: i vsjú kríposť bisóvskuju pohubívše, voschítivše dúšy čelovíčeskija jákože korýsti: sehó rádi vo víki vás počitájem, apóstoli."),
     ("", "", "Krestoobrázno rasprostérši mréžu víry, dvojenadesjática božéstvennych apóstol tvojích, vsjá jazýki ulovíla jésť k tvojemú poznániju Christé: i móre slánoje strastéj izsuší. Sehó rádi ťá moľú, iz hlubiný prehrišénij vozzoví mja, ťích vseblahoprijátnymi moľbámi."),
-    ("", "", "Dvojenadesjática Boho-izbránnaja, apóstoľskaja i vsečéstnája, da voschválitsja dnés božéstvennymi písňmi: Pétr, i Pável, Jákov: Luká, Joánn že i Matféj, i Thomá: Márk, Símon, i Filípp: i preslávnyj nýňi Andréj s Matfíjem, i božéstvennym i premúdrym Vartholoméjem, i s próčimi sedmídesjaťmi."),
-    ("", "", "Mírom božéstvennym ťá pomáza božéstvennaja blahodáť duchóvnaja, Mírjanom pervoprestóľna, i mírom oblahouchávša, do-broďítelmi svjaščénňijšimi míra koncý, sladkodýšuščimi tvojími molítvami, zlosmrádnyja prohoňájušča strásti vsehdá. Sehó rádi ťá vírno slávim, i pámjať tvojú vsesvjatúju soveršájem Nikólaje."),
+    ("", "", "Dvojenadesjática Bohoizbránnaja, apóstoľskaja i vsečéstnája, da voschválitsja dnés božéstvennymi písňmi: Pétr, i Pável, Jákov: Luká, Joánn že i Matféj, i Thomá: Márk, Símon, i Filípp: i preslávnyj nýňi Andréj s Matfíjem, i božéstvennym i premúdrym Vartholoméjem, i s próčimi sedmídesjaťmi."),
+    ("", "", "Mírom božéstvennym ťá pomáza božéstvennaja blahodáť duchóvnaja, Mírjanom pervoprestóľna, i mírom oblahouchávša, dobroďítelmi svjaščénňijšimi míra koncý, sladkodýšuščimi tvojími molítvami, zlosmrádnyja prohoňájušča strásti vsehdá. Sehó rádi ťá vírno slávim, i pámjať tvojú vsesvjatúju soveršájem Nikólaje."),
     ("", "", "Jáko osijáteľa ťá nezachodímaho, i jáko svitíľnika vsemírna, na tvérdi vozsijávša cerkóvňij Nikólaje, i mír prosvitívša, i bíd ľútych mhlú othoňájušča, i otjémľušča pečálej zímu, i tišinú soďílavšaho hlubókuju, po dólhu ublážájem."),
     ("", "", "I sýj i javľájajsja v sónijich Nikólaje, íže neprávedno imúščyja umréti spásl jesí, jáko sostradáteľ, jáko blahoľubívyj, jáko izbáviteľ tepľíjšij, jáko predstáteľ ístinnyj vírnych, i prosjáščich tvojehó zastuplénija, svjaščénňijšij ótče, ánhelom sohraždaníne, prepodóbnym i prorókom ravnostojáteľu."),
     ("Bohoródičen", "", "Jáže Bóha nevmistímaho, vo črévi tvojém vmistívšaja, čelovikoľúbna čelovíka bývša: i náše smišénije iz tebé priímša i obožívša jávi, ne prézri mené vsečístaja, nýňi skorbjášča: no uščédri skóro, i razlíčnyja vraždý že i vréda lukávaho svobodí."),
@@ -216,7 +216,7 @@
     ),
     "P8": (
       "1": (
-        ("", "", "Rúci rasprostér Danijíl, ľvóv zijánija v róvi zatčé: óhnennuju že sílu uhasíša, dobroďíteliju prepojásav-šesja, blahočéstija račíteli ótrocy, vzyvájušče: blahoslovíte vsjá ďilá Hospódňa Hóspoda."),
+        ("", "", "Rúci rasprostér Danijíl, ľvóv zijánija v róvi zatčé: óhnennuju že sílu uhasíša, dobroďíteliju prepojásavšesja, blahočéstija račíteli ótrocy, vzyvájušče: blahoslovíte vsjá ďilá Hospódňa Hóspoda."),
         ("", "", "Ustá ohnedochnovénnaja Christóva, íže bezdvérnaja ustá zahradívše, i spasíteľnoje propovídanije povsjúdu razsíjavše, ot úst vólka mýslennaho izbáviste vopijúščyja: vsjá ďilá Hóspoda pójte, i prevoznosíte jehó vo vsjá víki."),
         ("", "", "Ustá ohnedochnovénnaja Christóva, íže bezdvérnaja ustá zahradívše, i spasíteľnoje propovídanije povsjúdu razsíjavše, ot úst vólka mýslennaho izbáviste vopijúščyja: vsjá ďilá Hóspoda pójte, i prevoznosíte jehó vo vsjá víki."),
         ("", "", "Vostrubíte ókrest mojejá umerščvlénnyja duší blahohlásniji trubý Christóvy, apóstoli slávniji, i ot hróba otčájanija i unýnija ľútaho sijú vozdvíhnite, vo jéže píti: vsjá ďilá Hóspoda pójte, i prevoznosíte jehó vo vsjá víki."),

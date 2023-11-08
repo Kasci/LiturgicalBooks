@@ -116,7 +116,7 @@
         ("", "", "Svjaščénniji oďíjavšesja právednoju blahodátiju , i vesélije krásnoje prepodóbnych sobór sťažávše, neveščéstvennym služítelem upodóbišasja."),
         ("", "", "Christóvy prorócy, božéstvenniji múčenicy, svjaščénnych žén soslóvije, íže postradávše múžeski, i v posťí proslávistesja: íchže molítvami mílosti tvojá Spáse vsím dáruj."),
         ("", "", "Íže ot zemlí Christé, čelovíka rukóju tvojéju sozdáv vóleju, i jáže ot nás vsjá víroju prestávľšyjasja rabý tvojá nebésnych bláh spodóbi."),
-        ("Bohoródičen", "", "Bohorodíteľnice neiskuso-bráčnaja, prošénija vsích prinesí soďíteľu nášemu Bóhu, róždšemusja ot utróby tvojejá: jáko da obrjáščem soveršénnoje ľútych izbavlénije."),
+        ("Bohoródičen", "", "Bohorodíteľnice neiskusobráčnaja, prošénija vsích prinesí soďíteľu nášemu Bóhu, róždšemusja ot utróby tvojejá: jáko da obrjáščem soveršénnoje ľútych izbavlénije."),
       ),
       "2": (
         ("", "", "Jedíne vídyj čelovíčeskaho suščestvá némošč, i mílostivno v né voobrážsja, prepojáši mjá s vysotý síloju, jéže vopíti tebí svjatýj: oduševlénnyj chráme neizrečénnyja slávy tvojejá čelovikoľúbče."),
@@ -148,7 +148,7 @@
         ("", "", "Svítlyj nám vozsijáj svít prisnosúščnyj, útreňujuščym o suďbách zápovidej tvojích, Vladýko čelovikoľúbče Christé Bóže náš."),
         ("", "", "Vooružívšesja blahočéstijem, ne ujázvleni javístesja múčenicy, borcá strilámi, i pobidonóscy blahodátiju bývše, vincý polučíste."),
         ("", "", "Pomáza mástiju božéstvennoju Hospóď svjaščénniki svojá, upásšyja v prepodóbiji vírnych mnóžestva, i nastávľšyja ko ohráďi nebésňij."),
-        ("", "", "Svjáščennomúčenicy svjaš-čénňijšiji, prepodóbniji vsí, íže Dúcha ustávy sobľúdše, i cárstviju pričástnicy bývše, božéstvenno proslavľájetesja."),
+        ("", "", "Svjáščennomúčenicy svjaščénňijšiji, prepodóbniji vsí, íže Dúcha ustávy sobľúdše, i cárstviju pričástnicy bývše, božéstvenno proslavľájetesja."),
         ("", "", "Íchže nýňi prestávil jesí poveľínijem tvojím Vladýko Hóspodi, spodóbi cárstvija tvojehó so svjatými, vsjá prezirája ím drévňaja sohrišénija."),
         ("Bohoródičen", "", "Íže postóm i stradánijem slávu obrítše nebésnuju žený, prečístaja, tebé predstáteľnicu imúšče, zmíjevu deržávu razrušíša."),
       ),

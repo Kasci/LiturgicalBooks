@@ -38,7 +38,7 @@
   ),
   "T": (
     ("","","Ánheľskija síly na hróbi tvojém, i strehúščiji omertvíša: i stojáše Maríja vo hróbi, íščušči prečístaho ťíla tvojehó. Pľiníl jesí ád, ne iskusívsja ot nehó: srítil jesí Ďívu dárujaj živót. Voskrésýj iz mértvych, Hóspodi sláva tebí."),
-    ("Bohoródičen","","Bláhoslové-nnuju narekíj tvojú Máter, prišél jesí na strásť vóľnym choťínijem, vozsijáv na kresťí, vzyskáti choťá Adáma, hlahóľa ánhelom: srádujtesja mňí, jáko obrítesja pohíbšaja dráchma, vsjá múdre ustróivyj Bóže náš, sláva tebí."),
+    ("Bohoródičen","","Bláhoslovénnuju narekíj tvojú Máter, prišél jesí na strásť vóľnym choťínijem, vozsijáv na kresťí, vzyskáti choťá Adáma, hlahóľa ánhelom: srádujtesja mňí, jáko obrítesja pohíbšaja dráchma, vsjá múdre ustróivyj Bóže náš, sláva tebí."),
   ),
 )
 
@@ -132,7 +132,7 @@
   ),
   "5": (
     ("","","Bóžijim svítom tvojím bláže, útreňujuščich tí dúšy ľubóviju ozarí, moľúsja: ťá víďiti Slóve Bóžij, ístinnaho Bóha, ot mráka hrichóvnaho vzyvájušča."),
-    ("","","Pomyšľájušče jestestvó bohonačáľnoje, promyslí-teľnoje i spasíteľnoje vsích súščeje Vladýko, trisvítloje že jedíno, k tebí útreňujem, proščénija prosjášče hrichopadénij."),
+    ("","","Pomyšľájušče jestestvó bohonačáľnoje, promyslíteľnoje i spasíteľnoje vsích súščeje Vladýko, trisvítloje že jedíno, k tebí útreňujem, proščénija prosjášče hrichopadénij."),
     ("","","Ótče beznačáľnyj Bóže, i soprisnosúščnyj Sýne, i Dúše svjatýj, utverdí jedinonačáľnaja Tróice tvojá pivcý, i ot vsjákija napásti izbávi i skórbi."),
     ("","","Upravľájaj sijáňmi bohoďíteľnymi, i k blahouhoždéniju tvojehó trijipostásnaho božestvá, sólnce slávy, nastavľája mjá prísno, i božéstvennaho cárstvija sotvorí pričástnika."),
     ("Bohoródičen","","Íže vsjá nosjáj i sobľudájaj vsesíľnoju tvojéju rukóju Slóve Bóžij neizmínne, sochraní i sobľudí ťa slávjaščyja, molítvami róždšyja ťá Bohomátere."),
@@ -174,7 +174,7 @@
 #let U = (
   "T": (
     ("","","Ánheľskija síly na hróbi tvojém, i strehúščiji omertvíša: i stojáše Maríja vo hróbi, íščušči prečístaho ťíla tvojehó. Pľiníl jesí ád, ne iskusívsja ot nehó: srítil jesí Ďívu dárujaj živót. Voskrésýj iz mértvych, Hóspodi sláva tebí."),
-    ("Bohoródičen","","Bláhoslové-nnuju narekíj tvojú Máter, prišél jesí na strásť vóľnym choťínijem, vozsijáv na kresťí, vzyskáti choťá Adáma, hlahóľa ánhelom: srádujtesja mňí, jáko obrítesja pohíbšaja dráchma, vsjá múdre ustróivyj Bóže náš, sláva tebí."),
+    ("Bohoródičen","","Bláhoslovénnuju narekíj tvojú Máter, prišél jesí na strásť vóľnym choťínijem, vozsijáv na kresťí, vzyskáti choťá Adáma, hlahóľa ánhelom: srádujtesja mňí, jáko obrítesja pohíbšaja dráchma, vsjá múdre ustróivyj Bóže náš, sláva tebí."),
   ),
   "S1": (
     ("","","Hróbu otvérstu, ádu pláčuščusja, Maríja vopijáše ko skrývšymsja apóstolom: izydíte vinohráda ďílatelije, propovídite voskrésnija slóvo: voskrése Hospóď, podajá mírovi véliju mílosť."),
@@ -265,7 +265,7 @@
         ("","","Na kresťí tvojé božéstvennoje istoščánije províďa Avvakúm, užássja vopijáše: Tý síľnych presíkl jesí deržávu Bláže, priobščájasja súščym vo áďi, jáko vsesílen."),
         ("","","Čéstnýj krest tvój počitájem, i hvózdi Christé, i svjatóe kopijé s tróstiju, vinéc íže ot térnij, ímiže ot ádova istľínija izbávichomsja."),
         ("","","Hrób Spáse ťá podját vóleju mértva o nás jávľšahosja, no nikákože vozmóže Slóve, uderžáti: jáko Bóh bo voskrésl jesí, spasája ród náš."),
-        ("Krestobohoródičen","","Bohoro-díteľnice prisnoďívo, Spása Christá čelovíkom róždšaja, ot bíd i múk izbávi nás, pribihájuščich víroju k božéstvennomu pokróvu tvojemú."),
+        ("Krestobohoródičen","","Bohorodíteľnice prisnoďívo, Spása Christá čelovíkom róždšaja, ot bíd i múk izbávi nás, pribihájuščich víroju k božéstvennomu pokróvu tvojemú."),
       ),
       "3": (
         ("","","Christós mojá síla, Bóh i Hospóď, čéstnája cérkov Bohoľípno pojét vzyvájušči, ot smýsla čísta o Hóspoďi prázdnujušči."),
@@ -409,7 +409,7 @@
   "TKB": (
     ("","","Ánheľskija síly na hróbi tvojém, i strehúščiji omertvíša: i stojáše Maríja vo hróbi, íščušči prečístaho ťíla tvojehó. Pľiníl jesí ád, ne iskusívsja ot nehó: srítil jesí Ďívu dárujaj živót. Voskrésýj iz mértvych, Hóspodi sláva tebí."),
     ("","","Živonačáľnoju dlániju, uméršyja ot mráčnych udólij, žiznodávec voskresív vsích Christós Bóh, voskresénije podadé čelovíčeskomu ródu: jésť bo vsích Spasíteľ, voskresénije i živót, i Bóh vsích."),
-    ("Bohoródičen","","Bláhoslové-nnuju narekíj tvojú Máter, prišél jesí na strásť vóľnym choťínijem, vozsijáv na kresťí, vzyskáti choťá Adáma, hlahóľa ánhelom: srádujtesja mňí, jáko obrítesja pohíbšaja dráchma, vsjá múdre ustróivyj Bóže náš, sláva tebí."),
+    ("Bohoródičen","","Bláhoslovénnuju narekíj tvojú Máter, prišél jesí na strásť vóľnym choťínijem, vozsijáv na kresťí, vzyskáti choťá Adáma, hlahóľa ánhelom: srádujtesja mňí, jáko obrítesja pohíbšaja dráchma, vsjá múdre ustróivyj Bóže náš, sláva tebí."),
   ),
   "P": (
     ("","","Spasí Hóspodi, ľúdi tvojá, i blahosloví dostojánije tvojé."),

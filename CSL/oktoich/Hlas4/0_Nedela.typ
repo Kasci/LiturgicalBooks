@@ -107,7 +107,7 @@
     ("", "", "Jéva úbo nedúhom preslušánija kľátvu vselíla jésť: tý že Ďívo Bohoródice, prozjabénijem črevonošénija mírovi blahoslovénije procvilá jesí, ťím ťá vsí veličájem."),
     ("", "", "Orúžije úbo na ný obostrív, soviščavájet ľstívyj arávľanin bezzakónnyj: tý ž Ďívo Bohoródice, síloju krestá i molítv tvojích, vooružáješi na nehó rabý tvojá. Ťímže propovídajem slávu tvojú."),
     ("", "", "Kríposť tebí na vrahí dadésja Vladýčice, i izbavlénije mí ot bíd: čtó že áz tebí prinesú, ne dovím. Obáče, jéže ímam, blahodarénije prinošú ti: prijimí sijé nýňi, i spasí mja."),
-    ("", "", "O Máti vsjáčeskich tvorcá vsesvítlaja, pečálnych uťícha, potopľá-jemych predstáteľnica, i prenemohájuščichsja zastúpnica, do životá mojehó tý mja sochraní."),
+    ("", "", "O Máti vsjáčeskich tvorcá vsesvítlaja, pečálnych uťícha, potopľájemych predstáteľnica, i prenemohájuščichsja zastúpnica, do životá mojehó tý mja sochraní."),
     ("", "", "Uťisňájema mjá hrichí mnóhimi, i bidámi, ne prézri mené vsepítaja nýňi, tebí chvalénija žértvu prinošú, priľížno vzyvája tí: svjatája Bohoródice, pomozí mi, ťá bo slávja písň skončaváju."),
 
 	),
@@ -274,7 +274,7 @@
       ),
       "3": (
         ("", "", "S vysotý snizšél jesí vóleju na zémľu, prevýše vsjákaho načála, i smirénnoje voznésl jesí iz áda preispódňaho jestestvó čelovíčeskoje: ňísť bo svját páče tebé, čelovikoľúbče."),
-        ("", "", "Očiščájetsja čelovíkov suščestvó, tobóju prisovokúpľšejesja nester-pímomu božéstvennomu ohňú: jáko sokrovénnyj, prečístaja Ďívo, v tebí chľíb ispékšejesja, íže i tebé nevreždénnu sochránšemu."),
+        ("", "", "Očiščájetsja čelovíkov suščestvó, tobóju prisovokúpľšejesja nesterpímomu božéstvennomu ohňú: jáko sokrovénnyj, prečístaja Ďívo, v tebí chľíb ispékšejesja, íže i tebé nevreždénnu sochránšemu."),
         ("", "", "Kája sijá jáže voístinnu blíz Bóha? Jáko prevozšédši vsjá ánheľskija číny, jedína dobrótoju ďívstva, jáko Máti sijájušči vsederžíteľa."),
       )
     ),
@@ -283,7 +283,7 @@
         ("", "", "Vozneséna ťá víďivši cérkov na kresťí, sólnce právednoje, stá v číňi svojém, dostójno vzyvájušči: sláva síľi tvojéj Hóspodi."),
         ("", "", "Vozšél jesí, strásti mojá isciľája, na krest strástiju prečístyja plóti tvojejá, v ňúže vóleju obléklsja jesí. Ťímže tí vzyvájem: sláva síľi tvojéj Hóspodi."),
         ("", "", "Bezhríšnaho smérť vkusívši, životvorjáščaho ťíla tvojehó, dostójno Vladýko umertvísja: mý že vopijém tí, sláva síľi tvojéj Hóspodi."),
-        ("Bohoródičen", "", "Neiskuso-bráčno rodilá jesí Ďívo, i po roždeství javílasja jesí ďívstvujušči páki: ťímže nemólčnymi hlásy, jéže rádujsja tebí Vladýčice, víroju nesumňínnoju vzyvájem."),
+        ("Bohoródičen", "", "Neiskusobráčno rodilá jesí Ďívo, i po roždeství javílasja jesí ďívstvujušči páki: ťímže nemólčnymi hlásy, jéže rádujsja tebí Vladýčice, víroju nesumňínnoju vzyvájem."),
         
       ),
       "2": (
@@ -378,7 +378,7 @@
     ),
     "P8": (
       "1": (
-        ("", "", "Rúci rasprostér Danijíl, ľvóv zijánija v róvi zatčé: óhnennuju že sílu uhasíša, dobroďíteliju prepojásav-šesja, blahočéstija račíteli ótrocy, vzyvájušče: blahoslovíte vsjá ďilá Hospódňa Hóspoda."),
+        ("", "", "Rúci rasprostér Danijíl, ľvóv zijánija v róvi zatčé: óhnennuju že sílu uhasíša, dobroďíteliju prepojásavšesja, blahočéstija račíteli ótrocy, vzyvájušče: blahoslovíte vsjá ďilá Hospódňa Hóspoda."),
         ("", "", "Rúci rasprostér na kresťí, jazýki vsjá sobrál jesí, i jedínu javíl jesí Vladýko cérkov vospivájuščuju ťá, zemnúju i nebésnuju, sohlásno pojúščym: blahoslovíte vsjá ďilá Hospódňa Hóspoda, pójte i prevoznosíte jehó vo víki."),
         ("", "", "Biloobrázen javísja ženám, nepristúpnym svítom voskresénija blistájajsja ánhel, čtó živáho vo hróbi, vopijá, íščete jáko mértva? Voístinnu vostá Christós, jemúže vopijém: vsjá ďilá pójte Hóspoda, i prevoznosíte vo vsjá víki."),
         ("Bohoródičen", "", "Tý jedína vo vsích róďich Ďívo prečístaja, Máti javílasja jesí Bóžija: tý Božestvá bylá jesí žilíšče vseneporóčnaja, ne opáľšisja ohném nepristúpnaho svíta. Ťímže vsí ťa blahoslovím, Maríje Bohonevísto."),

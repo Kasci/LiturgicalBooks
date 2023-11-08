@@ -141,8 +141,8 @@
       ),
       "2": (
         ("", "", "Hóru ťá blahodátiju Bóžijeju priosinénnuju, prozorlívyma Avvakúm usmotrív očíma, iz tebé izýti Izráilevu provozhlašáše svjatómu, vo spasénije náše i obnovlénije."),
-        ("", "", "Prestóli pérvoje ispolňájušče udobrénije, i Cheruvími i Serafími, božéstvennymi zarjámi, nesrédstvenno svíťatsja, Bohoďíteľnaja svjaščenno-načálija prijémľušče, nýňi pojút: sláva síľi tvojéj Hóspodi."),
-        ("", "", "Prestóli pérvoje ispolňájušče udobrénije, i Cheruvími i Serafími, božéstvennymi zarjámi, nesrédstvenno svíťatsja, Bohoďíteľnaja svjaščenno-načálija prijémľušče, nýňi pojút: sláva síľi tvojéj Hóspodi."),
+        ("", "", "Prestóli pérvoje ispolňájušče udobrénije, i Cheruvími i Serafími, božéstvennymi zarjámi, nesrédstvenno svíťatsja, Bohoďíteľnaja svjaščennonačálija prijémľušče, nýňi pojút: sláva síľi tvojéj Hóspodi."),
+        ("", "", "Prestóli pérvoje ispolňájušče udobrénije, i Cheruvími i Serafími, božéstvennymi zarjámi, nesrédstvenno svíťatsja, Bohoďíteľnaja svjaščennonačálija prijémľušče, nýňi pojút: sláva síľi tvojéj Hóspodi."),
         ("", "", "Pojút tričíslennuju jedínicu Božestvá Tróičeskimi svjaščénniji neprestánnymi hlásy, javľájušče Serafími prečístoje Bohoslóvija tájinstvo, i pravoslávňij véri naučájušče."),
         ("Bohoródičen", "", "Íže vsjákija tvári prevýšši razumivájem, páče umá živonačáľnym zdánijem, voístinnu na zemlí soveršája čudesá, ďívstvennymi svítlosťmi, vo tvojé čístoje črévo vselísja prečístaja."),
       ),
@@ -188,7 +188,7 @@
         ("", "", "Premnóžestvom bludá, Hóspodi, dúšu oskverních ľúťi. Prevoschoďáščuju úbo Christé imýj blahostýňu, prijimí jáko blúdnaho, i pojúšča mjá uščédri: prepítyj otcév Bóh, i preproslávlen."),
         ("Múčeničen", "", "Zakónom Christóvym blahomóščno ukripľájemi, bezzakónnych sovíty pohubíša, nepobidímiji múčenicy, zakónno že skončávšesja, vospiváchu: prepítyj otcév Bóh blahoslovén jesí."),
         ("Múčeničen", "", "Bohozárniji Hospódni múčenicy, raspalájemi svítom Tróičeskim, jávi mučénija ťmú, i prélesti mhlú razrušíste, pojúšče: prepítyj otcév Bóh, i preproslávlen."),
-        ("Bohoródičen", "", "Zakóni jestestvá v tebí obnovľájutsja: zakonodávca bo Christá kromí zakón plotskích raždáješi, vseneporóčnaja, vsím izbavlénije zakonopolahá-jušča pojúščym: prepítyj otcév Bóh i preproslávlen."),
+        ("Bohoródičen", "", "Zakóni jestestvá v tebí obnovľájutsja: zakonodávca bo Christá kromí zakón plotskích raždáješi, vseneporóčnaja, vsím izbavlénije zakonopolahájušča pojúščym: prepítyj otcév Bóh i preproslávlen."),
       ),
       "2": (
         ("", "", "Tebé úmnuju Bohoródice, péšč razsmotrjájem vírniji: jákože bo ótroki spasé trí prevoznosímyj, mír obnoví, vo črévi tvojém vsecíl, chváľnyj otcév Bóh, i preproslávlen."),

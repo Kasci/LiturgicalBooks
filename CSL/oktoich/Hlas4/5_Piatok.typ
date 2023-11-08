@@ -95,7 +95,7 @@
   "S3": (
     ("", "", "Krest i smérť za ný, bláže, za bezmérnuju mílosť vóleju preterpíl jesí, i súd nepráveden: jáko da osuždénija i drévnija kľátvy vsích svobodíši, léstiju v tľínije vpádšich. Ťímže i poklaňájemsja, Slóve, tvojemú raspjátiju."),
     ("", "", "Na drévi povíšena usmotrívšeje ťá sólnce, sólnca právdy Christá, svít pomračí. Tvár že kolebášesja, i mértviji jáko ot sná skóro iz hrobóv vostáša, Slóve, božéstvennuju pisnoslóvjašče deržávu slávy tvojejá."),
-    ("Krestobohoródičen", "", "Nepo-róčnaja Máti tvojá, Christé, jáko uzrí na kresťí ťa vozvyšájema, rydájušči máterski, takovája hlahólaše: čtó nóvoje i stránnoje sijé čúdo, Sýne mój? Káko ťá bezzakónnyj sónm ko krestú prihvoždájet vsích žízň, svíte mój sladčájšij?"),
+    ("Krestobohoródičen", "", "Neporóčnaja Máti tvojá, Christé, jáko uzrí na kresťí ťa vozvyšájema, rydájušči máterski, takovája hlahólaše: čtó nóvoje i stránnoje sijé čúdo, Sýne mój? Káko ťá bezzakónnyj sónm ko krestú prihvoždájet vsích žízň, svíte mój sladčájšij?"),
     
   ),
   "K": (

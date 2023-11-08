@@ -12,7 +12,7 @@
     ("",	"",	"Krest vozdruzísja na lóbňim, i procveté nám bezsmértije ot istóčnika prisnotekúščaho, rebrá Spásova."),
     ("",	"",	"Nerazrušéna sťiná nám jésť čéstnýj krest Spásov, na nehó bo naďíjuščesja spasájemsja vsí."),
     ("Múčeničen",	"",	"Molítvami Hóspodi vsích svjatých, i Bohoródicy, tvój mír dážď nám, i pomíluj nás jáko jedín ščédr."),
-    ("Krestobohoródičen",	"",	"Zakolé-nije tvojé neprávednoje Christé, Ďíva zrjášči, pláčušči vopijáše tí: čádo sladčájšeje, káko bez právdy stráždeši? I káko na drévi vísiši, íže vsjú zémľu povísivyj na vodách? Ne ostávi mené jedínu, blahoďíteľu mnohomílostive, Máter i rabú tvojú, moľúsja.")
+    ("Krestobohoródičen",	"",	"Zakolénije tvojé neprávednoje Christé, Ďíva zrjášči, pláčušči vopijáše tí: čádo sladčájšeje, káko bez právdy stráždeši? I káko na drévi vísiši, íže vsjú zémľu povísivyj na vodách? Ne ostávi mené jedínu, blahoďíteľu mnohomílostive, Máter i rabú tvojú, moľúsja.")
   ),
 )
 
@@ -82,7 +82,7 @@
   "S1": (
     ("", "", "Raspénšusja tí Christé, pohíbe mučíteľstvo, i poprána býsť síla vrážija: ni ánhel bo, ni čelovík, no tý sám Hóspodi spásl jesí nás, sláva tebí."),
     ("", "", "Krestá tvojehó drévu poklaňájemsja čelovikoľúbče, jáko na tóm prihvozdílsja jesí životé vsích: ráj otvérzl jesí Spáse, víroju prišédšemu k tebí razbójniku, i píšči spodóbil jesí ispovídujuščaho ťá: pomjaní mja Hóspodi. Prijimí jákože ónaho, i nás vopijúščich tebí: sohrišíchom vsí, milosérdijem tvojím ne prézri nás."),
-    ("Krestobohoródičen", "", "Neskvér-naja áhnica, áhnca i pástyrja povíšena na drévi mértva zrjášči, pláčušči viščáše, máterski vosklicájušči: káko preterpľú tvojé, jéže páče slóva Sýne mój snítije, i vóľnyja strásti, Bóže preblahíj?"),
+    ("Krestobohoródičen", "", "Neskvérnaja áhnica, áhnca i pástyrja povíšena na drévi mértva zrjášči, pláčušči viščáše, máterski vosklicájušči: káko preterpľú tvojé, jéže páče slóva Sýne mój snítije, i vóľnyja strásti, Bóže preblahíj?"),
   ),
   "S2": (
     ("", "", "Orúžije krestnoje vo braňích javísja inohdá blahočestívomu carjú Konstantínu, nepobidímaja pobída na vrahí, víry rádi, sehó trepéščut soprotívnyja síly, sijé býsť vírnym spasénije, i Pávlu pochvalá."),

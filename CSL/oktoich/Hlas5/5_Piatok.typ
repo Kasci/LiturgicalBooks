@@ -6,7 +6,7 @@
     ("","Prepodóbne ótče","Jehdá hrózd nenasaždén súšč, jáko lozá otrastíla jesí, uzrívši na drévi povíšena, probodéna že kopijém v božéstvennyja rébra: čtó sijé, hlahólaše, Sýne i Bóže mój? Káko íže nedúhi vsjá i strásti isciľájaj, strásti terpíši, bezstrásten sýj po jestestvú božéstvennomu? Čtó ti bezblahodátniji ľúdije blahodáteľu, sijá vozdáša vmísto blahoďijánij? vopijáše prečístaja: no tohó strasťmí, strastéj mjá svobodíti molí neprestánno, jáko da slávľu ťá."),
     ("","","Pláčem vsí, i rúci rasprostrém, i bijém v pérsi, tépľi slezjášče i preklóňše koľína, licém bijúšče v zémľu priľížno, i vozdychánija vozpústim k vysoťí, íže bezmístnymi ďíly prohňívavšiji Bóha, zápovidej jehó otveržénijem, izbáviti zovúšče v búduščem suďí vsjákaho mučénija, íže tebé opečálivšyja, i obraščájuščyjasja, moľbámi Mátere tvojejá: za níchže krest preterpíl jesí voplóščsja, i tvojehó cárstvija pričástniki sotvorí."),
     ("","","Komú upodóbilasja jesí dušé, uspevájušči v hóršich vsehdá, i prilahájušči bezúmno tvojím jázvam strúpy mnóžajšyja, jáko vseťilésňij býti jázvi: ne pomyšľájušči, jáko sudijá približájetsja, jemúže predstáneši vosprijáti po ďijánijem, viný i tomlénija? No obráščšisja pripadí k Ďívi zovúšči: Vladýčice Vladýčice, ne prézri mjá prohňívavšaho Bóha blahomílostivaho, iz tebé na spasénije čelovíkov róždšahosja, i raspénšahosja plótiju."),
-    ("Krestobohoródičen","Rádujsja póstnikom","Izbavlé-nije nás rádi, i cínu velíkuju, prečístuju króv tvojú izvólil jesí dáti bezhríšne Christé mój, vsím choťáj spasénije polučíti. ťímže ťá zrjášči prihvoždéna Máti tvojá, rydájušči vlasý terzáše svojá, hlahóľušči: čádo, áhnče vseneporóčnyj, mír choťá izbáviti čestnóju tvojéju króviju, ot óčiju mojéju káko zašél jesí Spáse, nezachodímoje sólnce, vsím podajáj prosviščénije, i mír, i véliju mílosť."),
+    ("Krestobohoródičen","Rádujsja póstnikom","Izbavlénije nás rádi, i cínu velíkuju, prečístuju króv tvojú izvólil jesí dáti bezhríšne Christé mój, vsím choťáj spasénije polučíti. ťímže ťá zrjášči prihvoždéna Máti tvojá, rydájušči vlasý terzáše svojá, hlahóľušči: čádo, áhnče vseneporóčnyj, mír choťá izbáviti čestnóju tvojéju króviju, ot óčiju mojéju káko zašél jesí Spáse, nezachodímoje sólnce, vsím podajáj prosviščénije, i mír, i véliju mílosť."),
   ),
   "S": (
     ("","","Hóspodi, pri Moiséji inohdá proróci, tóčiju óbraz krestá tvojehó javľájem, pobiždáše vrahí tvojá. Nýňi že sámyj krest tvój imúšče, pómošči prósim: ukripí cérkov tvojú, mnóhija rádi mílosti, čelovikoľúbče."),
@@ -88,22 +88,22 @@
     ("","","Raspjátije preterpív tvojéju vóleju, i ot tlí čelovíki svobodíl jesí Spáse! Vospivájem vírniji, i poklaňájemsja tí, jáko prosvitíl jesí nás síloju krestnoju, i vsí proslavľájem ťá čelovikoľúbče ščédryj, jáko žiznodávca i Hóspoda."),
     ("","","Vóleju ščédre krest preterpíl jesí, i drévňuju kľátvu jáže rádi sňídi, jáko vsesíľnyj Bóh tý potrebíl jesí. Ťímže božéstvennyja i čestnýja strásti tvojá Vladýko Christé, pojém i poklaňájemsja slavoslóvjašče neprestánno, jéže páče slóva smotrénije tvojé."),
     ("","","Sijájet dnés pámjať strástotérpec ímať bo i ot nebés zarjú: lík ánheľskij toržestvújet, i čelovíčeskij ród sprázdnujet. Ťímže móľatsja Hóspodevi, pomílovatisja dušám nášym."),
-    ("Krestobohoródičen","","Krestóm Sýna tvojehó Bohoblaho-dátnaja, ídoľskaja prélesť vsjá uprazdnísja, i démonskaja kríposť poprásja. Sehó rádi vírniji po dólhu ťá prísno pojém, i blahoslovím, i Bohoródicu voístinnu ispovídajušče ťá veličájem."),
+    ("Krestobohoródičen","","Krestóm Sýna tvojehó Bohoblahodátnaja, ídoľskaja prélesť vsjá uprazdnísja, i démonskaja kríposť poprásja. Sehó rádi vírniji po dólhu ťá prísno pojém, i blahoslovím, i Bohoródicu voístinnu ispovídajušče ťá veličájem."),
   ),
   "S3": (
     ("","Sobeznačáľnoje Slóvo","Na kresťí ťa prihvoždéna, i usnúvša, ánheľstiji čínove víďivše, užasóšasja, Iisúse vsích carjú: i pobiždéni byváchu ábije bisóvstviji polcý, i sokrušíšasja vereí ádovy: i smértnoje mučíteľstvo nizložísja, i súščiji vo hrobích mértviji voskresóša."),
     ("","","Ot dréva hóresť Adám obját, k tľíniju popólzsja závistiju zmiínoju: tebí že prihvoždénu bývšu Iisúse, životá nasladísja, i dréva rádi krestnaho páki vseľájem byvájet na nebesích. I uprazdnísja zmíj, i tľá požérta býsť: i vsí slávu tí prinósim."),
-    ("Krestobohoródičen","","Vozne-séna na drévo jáko víďi, róždšaja ťá Spáse, boľíznej kromí, rydáše s pláčem, i vzyváše: uvý mňí sladčájšij Sýne, ujazvľájusja dušéju, na kresťí zrjášči ťá prihvoždéna posreďí dvojú zloďíju, sudóm zloďíjstvennym."),
+    ("Krestobohoródičen","","Vozneséna na drévo jáko víďi, róždšaja ťá Spáse, boľíznej kromí, rydáše s pláčem, i vzyváše: uvý mňí sladčájšij Sýne, ujazvľájusja dušéju, na kresťí zrjášči ťá prihvoždéna posreďí dvojú zloďíju, sudóm zloďíjstvennym."),
   ),
   "K": (
     "P1": (
       "1": (
         ("","","Spasíteľu Bóhu, v móri ľúdi nemókrymi nohámi nastávľšemu, i faraóna so vsevójinstvom potópľšemu, tomú jedínomu poím, jáko proslávisja."),
-        ("","","Strastoubíjstvennuju Chris-té, choťínijem tvojím preterpíl jesí strásť, i ubíl jesí v raí drévle nás ubívšaho: ťímže tvojú slávim blahostýňu."),
+        ("","","Strastoubíjstvennuju Christé, choťínijem tvojím preterpíl jesí strásť, i ubíl jesí v raí drévle nás ubívšaho: ťímže tvojú slávim blahostýňu."),
         ("","","Vozdvíhlsja jesí na krest, i nizpadésja vráh: i pádšiji vozdvihóchomsja, i rájstiji žíteli Christé, býchom, deržávu slávjašče cárstvija tvojehó."),
         ("Múčeničen","","Ščitóm kréstnym vooružívšesja dóbri, k boréniju vsjákomu bisóvskomu opolčístesja premúdriji velikomúčenicy: i tohó pobidívše, slávu polučíste."),
         ("Múčeničen","","Jáko áhncy čestníji, nás rádi stradáľcy áhncu požrénomu prinesóstesja, nečístyja žértvy jávi ustávľše: ťímže ublažájem vás vsechváľniji."),
-        ("Bohoródičen","","Nóvo otročá nám vétchaho déňmi, čístaja Ďívo rodilá jesí, obetšávšeje jestestvó čelovíčeskoje obnovľájušča, vseneporóčnaja, božéstve-nnoju strástiju svojéju."),
+        ("Bohoródičen","","Nóvo otročá nám vétchaho déňmi, čístaja Ďívo rodilá jesí, obetšávšeje jestestvó čelovíčeskoje obnovľájušča, vseneporóčnaja, božéstvennoju strástiju svojéju."),
       ),
       "2": (
         ("","","Spasíteľu Bóhu, v móri ľúdi nemókrymi nohámi nastávľšemu, i faraóna so vsevójinstvom potópľšemu, tomú jedínomu poím, jáko proslávisja."),

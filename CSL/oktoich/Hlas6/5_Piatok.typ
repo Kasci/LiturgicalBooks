@@ -12,7 +12,7 @@
     ("","","Krest tvój Hóspodi, žízň i zastuplénije ľúdem tvojím jésť: i náň naďíjuščesja, tebé raspénšahosja plótiju Bóha nášeho pojém: pomíluj nás."),
     ("","","Krest tvój Hóspodi, ráj otvérze ródu čelovíčeskomu: i ot istľínija izbávľšesja, tebé raspénšahosja plótiju Bóha nášeho pojém: pomíluj nás."),
     ("Múčeničen","","Múčenicy tvojí Hóspodi, ne otverhóšasja tebé, ni otstupíša ot zápovidej tvojích: ťích molítvami pomíluj nás."),
-    ("Krestobohoródičen","Tridnévno","Predsto-jášči u dréva inohdá vo vrémja raspjátija, Ďíva s ďívstvennym učenikóm, i pláčušči vopijáše: uvý mňí, káko stráždeši, vsích Christé sýj bezstrástije?"),
+    ("Krestobohoródičen","Tridnévno","Predstojášči u dréva inohdá vo vrémja raspjátija, Ďíva s ďívstvennym učenikóm, i pláčušči vopijáše: uvý mňí, káko stráždeši, vsích Christé sýj bezstrástije?"),
   ),
 )
 
@@ -87,13 +87,13 @@
   "S2": (
     ("","","Krest tvój Hóspodi, osvjatísja: ťím bo byvájut iscilénija boľáščym vo hrisích. Sehó rádi tebí pripádajem, pomíluj nás."),
     ("","","Hóspodi, osudíša ťá Judéje na smérť, žízň vsích, íže čermnóje móre žezlóm prošédšiji, ko krestú ťa prihvozdíša: i ot kámene méd ssávšiji, žélč tebí prinesóša: no vóleju preterpíl jesí, da nás svobodíši ot rabóty vrážija. Hóspodi, sláva tebí."),
-    ("Krestobohoródičen","Upovánije míra","Pred-stojášči u krestá Ďíva i Máti, bez strásti iz nejá páče umá voplóščšahosja, vzyváše slezotočášči Máterski: ne terpľú ťa mértva vísjašča víďiti, dychánije podajúšča živúščym na zemlí, o Sýne i Bóže mój!"),
+    ("Krestobohoródičen","Upovánije míra","Predstojášči u krestá Ďíva i Máti, bez strásti iz nejá páče umá voplóščšahosja, vzyváše slezotočášči Máterski: ne terpľú ťa mértva vísjašča víďiti, dychánije podajúšča živúščym na zemlí, o Sýne i Bóže mój!"),
   ),
   "S3": (
     ("","Upovánije míra","Kreste, démonov honíteľu, vračú nedúhujuščich, kríposte i chraníteľu vírnych, pochvaló pravoslávnych voístinnu, utverždénije cérkve Christóvy, búdi nám zabrálo i sťiná i chraníteľ, drévo blahoslovénnoje."),
     ("","","Na drévi krestňim milosérdija rádi i mílosti voznéslsja jesí i v rebró probodén býv kopijém, rasterzál jesí hrichóvnoje ľútoje rukopisánije, jáko vsesíľnyj Bóh: ťímže tvojé neizrečénnoje poím, Slóve, blahočéstno smotrénije."),
     ("Múčeničen","","Svít právednym výnu, svjatíji bo tobóju prosvitívšesja, sijájut prísno jáko svitíla, svíščnik nečestívych uhasívše. Íchže molítvami Spáse náš, tý prosviščáješi svitíľnik mój Hóspodi, i spasí mja."),
-    ("Krestobohoródičen","","Vse-svjatája Bohoródice, vo vrémja životá mojehó ne ostávi mené, čelovíčeskomu predstáteľstvu ne vvíri mjá, no samá zastupí, i pomíluj mjá."),
+    ("Krestobohoródičen","","Vsesvjatája Bohoródice, vo vrémja životá mojehó ne ostávi mené, čelovíčeskomu predstáteľstvu ne vvíri mjá, no samá zastupí, i pomíluj mjá."),
   ),
   "K": (
     "P1": (
@@ -133,7 +133,7 @@
         ("","","Na kresťí tvojé božéstvennoje istoščánije províďa Avvakúm, užássja vopijáše: tý síľnych presíkl jesí deržávu bláže, priobščájasja súščym vo áďi, jáko vsesílen."),
         ("","","Prostértije rukí Hóspodi, neuderžánnoje, ko drévnemu vkušéniju otjémľaj, mértv na drévi požrén býl jesí, spastí voschoťívyj: iz rébr iskápaeši svjázannym ostavlénije."),
         ("","","Stradáti preterpíl jesí preblahíj, jáko da razrišíši nás ot strastéj bezslovésija: žélč vkusíl jesí Vladýko, istočájaj mňí božéstvennuju sládosť, umertvílsja jesí, živót mňí podavája."),
-        ("Múčeničen","","Óhň božéstvennyja ľubvé v duší slovésňij nosjášče, plámeň prebezzakónnujuščich uha-síša: i prosvitíteľnyja sviščý Christóvy strastotérpcy javíšasja."),
+        ("Múčeničen","","Óhň božéstvennyja ľubvé v duší slovésňij nosjášče, plámeň prebezzakónnujuščich uhasíša: i prosvitíteľnyja sviščý Christóvy strastotérpcy javíšasja."),
         ("Múčeničen","","Božéstvenniji drúzi vsecarjá, plotskíja sebé otlučívše drúžby, ustremíšasja ko vsjákomu mučéniju krípko, i pobidívše, slávoju vinčášasja."),
         ("Bohoródičen","","Kromí strásti rodích ťá, i káko vížu ťá nýňi strásti pričaščájuščasja? Káko terpíši sijé, vzyváše Ďíva? Sýne beznačáľne, slávľu tvojé dolhoterpínije."),
       ),
@@ -141,7 +141,7 @@
         ("","","Na kresťí tvojé božéstvennoje istoščánije províďa Avvakúm, užássja vopijáše: tý síľnych presíkl jesí deržávu bláže, priobščájasja súščym vo áďi, jáko vsesílen."),
         ("","","Izbránnaja že i prečístaja ot vsích rodóv jávľšisja jedína, jáže dobroďítelmi vozsijávšaja neskvérnaja čéstnája, íže ťá pisnoslóvjaščyja svítlostiju tvojéju prosvití."),
         ("","","Bóha plótiju Ďívo rodilá jesí, iz čístych tvojích, čístaja, krovéj Máti, Spása izbavľájuščaho vsjá ot ľútych, pojúščyja ťá, otrokovíce Bohoblahodátnaja."),
-        ("","","Svjaščennoďíjstvujet božé-stvennomu roždestvú tvojemú Bohoródice čístaja, neveščéstvennych jestestvó, i čelovíkov sobránije ľubóviju ťá pojét: tvojím sijánijem nás ozarí."),
+        ("","","Svjaščennoďíjstvujet božéstvennomu roždestvú tvojemú Bohoródice čístaja, neveščéstvennych jestestvó, i čelovíkov sobránije ľubóviju ťá pojét: tvojím sijánijem nás ozarí."),
       ),
     ),
     "P5": (
@@ -229,7 +229,7 @@
     ("","","O kresťí upovánije ímam, i o ném chvaľásja vopijú: čelovikoľúbče Hóspodi, hordýňu nizloží ne ispovídajuščich tebé Bóha i čelovíka."),
     ("","","Íže krestóm ohraždájemi, vrahú protivľájemsja, ne bojáščesja tohó kovárstva, ni lovíteľstva: jáko bo hórdyj uprazdnísja, i poprán býsť na drévi síloju raspjátaho Christá."),
     ("Múčeničen","","Hóspodi, v pámjať svjatých tvojích vsjá tvár prázdnujet: nebesá rádujutsja so ánhely, i zemľá veselítsja s čelovíki. Ťích molítvami pomíluj nás."),
-    ("Krestobohoródičen","","Prihvoz-díchsja úbo jáko čelovík na drévi, i umertvíchsja, i vo hróbi položén bých, jáko smértnyj: no jáko Bóh vo slávi, Máti čístaja Ďívo, páki vostajú tridnéven."),
+    ("Krestobohoródičen","","Prihvozdíchsja úbo jáko čelovík na drévi, i umertvíchsja, i vo hróbi položén bých, jáko smértnyj: no jáko Bóh vo slávi, Máti čístaja Ďívo, páki vostajú tridnéven."),
   ),
 )
 

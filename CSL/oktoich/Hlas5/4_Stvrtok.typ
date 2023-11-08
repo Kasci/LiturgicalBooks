@@ -103,7 +103,7 @@
         ("","","Sijánijem pervodátnaho svitodánija, plótiju besídovati čelovíkom spodóbivšahosja, obohatívšesja slávniji, duší mojejá razrušíte vsják mrák, božéstvenniji apóstoli."),
         ("","","Naprjáh božéstvennyj lúk, jákože stríly vás vo vés mír poslá apóstoli, stríly sokrušájuščyja zlokóznennaho vsjá, i isciľájuščyja vírnych jázvy."),
         ("","","Imúšče premúdrosť sámuju učíteľa, umudríste apóstoli vsjá koncý. Ťímže mjá umudríte, vrážije vsjáko zloďíjstvo othoňáti."),
-        ("Bohoródičen","","Jedína blahoslovénnaja, Bohorá-dovannaja, blahoslovéňmi čelovíčeskij ród obrádovavši, Christá molí s božéstvennymi, prečístaja, apóstoly, pomílovatisja nám."),
+        ("Bohoródičen","","Jedína blahoslovénnaja, Bohorádovannaja, blahoslovéňmi čelovíčeskij ród obrádovavši, Christá molí s božéstvennymi, prečístaja, apóstoly, pomílovatisja nám."),
       ),
       "2": (
         ("","","Koňá i vsádnika v móre čermnóje, sokrušájaj bráni mýšceju vysókoju, Christós istrjasé: Izráiľa že spasé, pobídnuju písň pojúšča."),
@@ -248,7 +248,7 @@
     ("Múčeničen","","Razžžénija ľútych mučénij, premúdriji preterpívše usérdnoju dušéju, popalíste ídoľskuju lésť, i k božéstvennomu uťišéniju preidóste svjatíji."),
     ("","","Da dráchmu vo hlubiňí prehrišénija pohrebénuju Christé, vzém ko Otcú prineséši, apóstoly propovídniki sotvoríl jesí božéstvennym Dúchom."),
     ("Tróičen","","Prebožéstvennaja Tróice, Ótče prebeznačáľne, sobeznačáľne Sýne, i Dúše svjatýj: jedíno Božestvó, vsích propovídnik molítvami cérkov tvojú sochraní."),
-    ("Bohoródičen","","Apóstolov udo-brénije Bohoobrádovannaja súšči, omračéna mjá slasťmí žitéjskimi, pokajánija prosvití, zarjámi, jáko da veličáju ťá."),
+    ("Bohoródičen","","Apóstolov udobrénije Bohoobrádovannaja súšči, omračéna mjá slasťmí žitéjskimi, pokajánija prosvití, zarjámi, jáko da veličáju ťá."),
   ),
 )
 

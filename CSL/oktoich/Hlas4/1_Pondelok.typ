@@ -5,7 +5,7 @@
     ("", "", "Dážď mí umilénije, i zlých otčuždénije, i soveršénnoje ispravlénije, v strastéch ťilésnych nýňi pohružénomu, i udalénomu ot tebé Bóže vsích carjú, i nikákože nadéždu imúšča, spasí mja blúdnaho, mnóhija rádi bláhosti, Iisúse vsesíľne, spáse dúš nášich."),
     ("", "Jáko dóbľa", "Božéstvennyja svítlosti prijátnaja žilíšča, i prijátelišča vsečestnája, utverdíl jesí ánheľskaja vóinstva bezsmértne: i božéstvennym sostavlénijem, zríteli i služíteli tvojejá slávy sijá položív, v kríposti skončaváti tvojé slóvo, i choťínije ispolňáti vseďíteľnoje i presvjatóje."),
     ("", "", "Bláhosti pučínu javíti voschoťív, bláh sýj beznačáľne, pérvije sozdál jesí vsesíľnym tvojím manovénijem, i božéstvennym poveľínijem, ánheľskija líki, i sílam číny: voístinnu bo podobáše blahómu izlijátisja, i pochodíti, da i mnózim býti darovánijem Vladýko."),
-    ("", "", "Serafími šestokrilátiji, Cheruvími mnohoočítiji s prevysókimi Prestóly, tebé obstoját, vseďíteľnaho tvojehó sijánija neposrédstvenňi priobščá-juščesja, Hospóďstvija, Načála, Vlásti, Archánheli, Ánheli i Síly božéstvennyja: tvojú slávu vsederžíteľu chváľašče, o nás móľatsja tebí."),
+    ("", "", "Serafími šestokrilátiji, Cheruvími mnohoočítiji s prevysókimi Prestóly, tebé obstoját, vseďíteľnaho tvojehó sijánija neposrédstvenňi priobščájuščesja, Hospóďstvija, Načála, Vlásti, Archánheli, Ánheli i Síly božéstvennyja: tvojú slávu vsederžíteľu chváľašče, o nás móľatsja tebí."),
     ("Bohoródičen", "", "Prevozšédši číny ánheľskija vseneporóčnaja, so ánhely vsehdá molí ánhely Vladýčestvujuščaho, i vséju tváriju, darováti nám prehrišénij ostavlénije, i izbávitisja strastéj, i dostójny sotvoríti nás tohdá pivcý slávy jehó, i nasľídniki netľínnyja píšči."),
   ),
   "S": (

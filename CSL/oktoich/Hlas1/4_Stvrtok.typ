@@ -124,7 +124,7 @@
       ),
       "2": (
         ("", "", "Da utverdítsja sérdce mojé v vóli tvojéj Christé Bóže, íže nad vodámi nébo utverždéj vtoróje, i osnovávyj na vodách zémľu vsesíľne."),
-        ("", "", "Pervosvjaščénnikov udobré-nije, blahouchánije božéstvennaho Dúcha, mirovónnymi tvojími molítvami zlosmrádnyja strásti otžení sérdca mojehó, Nikólaje múdre, ľubóviju moľúsja."),
+        ("", "", "Pervosvjaščénnikov udobrénije, blahouchánije božéstvennaho Dúcha, mirovónnymi tvojími molítvami zlosmrádnyja strásti otžení sérdca mojehó, Nikólaje múdre, ľubóviju moľúsja."),
         ("", "", "V ľínosti skončaváju mojú žízň okajánnyj, i bojúsja strášnaho tvojehó sudíšča Christé: na némže ne posramí mené, Nikolája chodátajstvy svjaščénnymi umolén byvája."),
         ("", "", "Preispeščrén božéstvennoju blahodátiju , svjatíteľu Nikólaje ótče, ot razlíčnych iskušénij i bíd spasí, pribihájuščyja v króv tvój prísno vseblažénne."),
         ("Bohoródičen", "", "Izbávi mjá ot vsích napástej, i ot mnóhich soblázn zmíjevych, i ot víčnaho ohňá i ťmý, vseneporóčnaja, jáže svít róždšaja nám nevečérnij."),
@@ -161,7 +161,7 @@
         ("", "", "Vo dvorích Hospódnich nasaždén svjatíteľu ótče Nikólaje, i jáko plodovítaja máslina, blahodátiju umaščáješi nýňi vsích líca, jeléjem trudóv tvojích."),
         ("", "", "Moľbú nýňi sotvorí ótče Nikólaje, o rabích tvojích: jáko da ostavlénije sohrišénij prijímem, i ot oderžáščija skórbi izbávimsja, i vsjákija ťisnotý."),
         ("", "", "Tebé mólim Nikólaje, blaháho chodátaja ko Hóspodu: ne ostávi nás svjáte bez zastuplénija. no obýčnoju tvojéju molítvoju spasáj."),
-        ("Bohoródičen", "", "Svitovídnyj Christóv chráme, otrokovíce Boho-blahodátnaja, molítvami tvojími, Otcú, i Sýnu, i Dúchu, i nás chrámy sotvorí, prepodóbnaja soďivájuščich."),
+        ("Bohoródičen", "", "Svitovídnyj Christóv chráme, otrokovíce Bohoblahodátnaja, molítvami tvojími, Otcú, i Sýnu, i Dúchu, i nás chrámy sotvorí, prepodóbnaja soďivájuščich."),
       ),
     ),
     "P6": (

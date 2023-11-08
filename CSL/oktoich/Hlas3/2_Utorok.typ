@@ -112,7 +112,7 @@
         ("", "", "Vódy drévle, mánijem božéstvennym, vo jedíno sónmišče sovokupívyj, i razďilívyj móre Izráiľteskim ľúdem, séj Bóh náš, preproslávlen jésť: tomú jedínomu poím, jáko proslávisja."),
         ("", "", "Neplódnyja utróby božéstvennoje prozjabénije, plodý mi dobroďítelej prozjabáti, Bóhu molísja, hrichá mojehó razrešája neplódije, i othoňája mrák ot umá mojehó, Hospódeň predtéče."),
         ("", "", "sólnca slávy vélij, jákože predtekúščaja zvezdá, víroju na zemlí javílsja jesí, zémľu vsjú prosvíščšaho: tohó úbo molí, omračívšujusja dúšu mojú zlými pomyšléňmi prosvitíti Predtéče."),
-        ("", "", "Íže živót súščym vo áďi, Dúchom božéstvennym pri-bližájuščsja, predvozvistíl jesí Proróče, mojú umerščvlénnuju dúšu oživí tvojími moľbámi: i jáko ot hróba prehrišénij vozstávi, moľúsja, slávnyj Predtéče."),
+        ("", "", "Íže živót súščym vo áďi, Dúchom božéstvennym približájuščsja, predvozvistíl jesí Proróče, mojú umerščvlénnuju dúšu oživí tvojími moľbámi: i jáko ot hróba prehrišénij vozstávi, moľúsja, slávnyj Predtéče."),
         ("Bohoródičen", "", "So archánhely i ánhely Ďívo, i so svjatými vsími, iz tebé Hóspoda jávľšahosja nám molí, mólimsja, ístinnuju Bohoródicu ispovídajuščym ťá ot bíd izbávitisja."),
         
       ),
@@ -142,8 +142,8 @@
         ("", "", "Íže istočívyj iz kámene drévle ľúdem nepokorívym Christé, i prerikájuščym, vódu žáždy iscilénija, ot nevlážnyja duší mojejá Bóže, umilénija kápľu izmyvájuščuju mjá istočí."),
         ("", "", "Vračú boľáščich, sérdca mojehó strásti iscilí blahoutróbnym tvojím manovénijem, pokajánija semú Spáse prilahája plástyr, jáko bláh, božéstvennaho býlija, jáko da víroju slavoslóvľu ťá."),
         ("Múčeničen", "", "Mílostivno strastonóscy, jáže k ťílu drúžby, rasprjáhše pomyšlénije, múčiti vás choťáščym predáste sámi sebé. Ťímže blížniji ziždíteľu býste drúzi."),
-        ("Múčeničen", "", "Mnohoboľízne-nnyja strúpy ot mnohovídnych múk podjáste stradáľcy Christóvy, i blahodáť prijáste ot duchóvnych daróv, strastéj nášich prohoňájušče mnohoľítnyja boľízni."),
-        ("Bohoródičen", "", "Mnohoimení-taja Otrokovíce rádujsja, iz nejáže Bóh Slóvo rodísja, ot bezslovésnych nás razrišája, i bezmístnych ďijánij: rádujsja óblače svítlyj, razhoňájuščij óblaki nášeho unýnija."),
+        ("Múčeničen", "", "Mnohoboľíznennyja strúpy ot mnohovídnych múk podjáste stradáľcy Christóvy, i blahodáť prijáste ot duchóvnych daróv, strastéj nášich prohoňájušče mnohoľítnyja boľízni."),
+        ("Bohoródičen", "", "Mnohoimenítaja Otrokovíce rádujsja, iz nejáže Bóh Slóvo rodísja, ot bezslovésnych nás razrišája, i bezmístnych ďijánij: rádujsja óblače svítlyj, razhoňájuščij óblaki nášeho unýnija."),
         
       ),
       "2": (

@@ -116,7 +116,7 @@
     ("", "", "Jedíne vídyj čelovíčeskaho suščestvá némošč, i mílostivno v né voobrážsja, prepojáši mjá s vysotý síloju, jéže vopíti tebí svjatýj: oduševlénnyj chráme neizrečénnyja slávy tvojejá, čelovikoľúbče."),
     ("", "", "Tý drévle jávi Avraámu jáko javílsja jesí trijipostásnyj, jedínstven že jestestvóm Božestvá, Bohoslóvija ístinňijšeje obrázno javíl jesí: i vírno pojém ťá, jedinonačáľnaho Bóha, i trisólnečnaho."),
     ("", "", "Iz tebé rodívyjsja Bohoľípno netľínno Ótče, vozsijá svít ot svíta, Sýn nepremínen, i Dúch božéstvennyj, svít izýde: jedínaho Božestvá svítlosti trijipostásňij poklaňájemsja vírno, i slávim."),
-    ("", "", "Jedínica Tróica prejestést-venne, neizrečénno páče smýsla, úmnymi suščestvý slávitsja, trisvjátými hlásy nemólčnuju vopijúščimi chvalú: ímiže sohlásno pojétsja i námi trijipostásnyj Hospóď."),
+    ("", "", "Jedínica Tróica prejestéstvenne, neizrečénno páče smýsla, úmnymi suščestvý slávitsja, trisvjátými hlásy nemólčnuju vopijúščimi chvalú: ímiže sohlásno pojétsja i námi trijipostásnyj Hospóď."),
     ("Bohoródičen", "", "Iz tebé vrémenňi bez símene proizýde vyššeľítnyj, upodóbivyjsja nám nevídimyj, i jedínomu jestestvú i Hospóďstvu Ótču naučív, i Synóvňu, i Dúchovu, Bohoródice: ťímže ťá slávim."),
   ),
   "S1": (
@@ -132,7 +132,7 @@
   ),
   "5": (
     ("", "", "Prosvitívyj sijánijem prišéstvija tvojehó Christé, i osvitívyj krestóm tvojím míra koncý, serdcá prosvití svítom tvojehó Bohorazúmija, pravoslávno pojúščich ťá."),
-    ("", "", "Jáže pérvoj ánheľskoj neposrédstvenňi útvari, nepristúpnymi tvojejá dobróty lučámi osijavájemoj býti blahovolívši, tvojími svítlosťmi prosvití, Tróice jedinonačáľ-stvenňijšaja, pravoslávno tebé pojúščich."),
+    ("", "", "Jáže pérvoj ánheľskoj neposrédstvenňi útvari, nepristúpnymi tvojejá dobróty lučámi osijavájemoj býti blahovolívši, tvojími svítlosťmi prosvití, Tróice jedinonačáľstvenňijšaja, pravoslávno tebé pojúščich."),
     ("", "", "Nýňi jestestvó, jedínstvennoje Bohonačálija trisólnečnoje, vospivájet ťá. Jéže osuščestvovála jesí za bláhosť, prehrišénij izbavlénije i napástej isprošájušči, i bíd i skorbéj."),
     ("", "", "Otcá, i Sýna, i Dúcha svjatáho, jedíno jestestvó i Božestvó víroju slávim, ďílíteľnoje, nerazďíľnoje, jedínaho Bóha nevídimyja i vídimyja že tvári."),
     ("Bohoródičen", "", "Rečénija vsjá proróčeskaja prednapisáša, prečístaja, tvojé roždestvó, neizrečénnoje i neudób skazújemoje, jéže mý poznáchom, tajnovodíteľnoje jedínstvennaho i trisóľnečnaho Božestvá."),

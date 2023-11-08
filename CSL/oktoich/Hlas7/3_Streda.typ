@@ -6,7 +6,7 @@
     ("","Dnés bdít Júda","Víďašči prostérta na drévi áhnca, neskvérnaja áhnica i Ďíva, posreďí dvojú razbójniku, uvý mňí, vopijáše, sladčájšeje mojé čádo! Čtó stránnoje sijé, i preslávnoje táinstvo? Káko ťá bezzakónnyj sobór na krest vozdvíže, i žélčiju napojí, mánny nasýtivšaho čelovíki?"),
     ("","","Jehdá ťa na kresťí prihvoždéna Ďíva i Máti tvojá uzrí Christé mój, sudóm zakonoprestúpnym, ot iudéj na mísťi lóbňim: uvý mňí, vopijáše, Sýne mój ľubézňijšij! Čtó stránnoje viďínije sijé? Káko ťá ko krestú prihvoždájut ďíti nerazúmnyja jevréjskija, vsích Hóspoda?"),
     ("","","Jedínu ťá vsesvjatája Vladýčice, po roždeství poznáchom vsí Ďívu jávľšujusja, i jehóže bez símene róždši, na drévi víďašči rúci svoí vóleju prihvozdívšaho, prečístaja pláčušči vzyváše: vóleju dolhoterpilíve, umiráješi, izbavľája vsích ot smérti pojúščich ťá."),
-    ("Krestobohoródičen","","Vladý-čice vsesvjatája Ďívo, róždšaja Hóspoda, za milosérdije na kresťí prihvozdívšahosja, i žízni strují istočívšaho míru, tohó umolí spastísja dušám nášym. Tebé bo jedínu ímamy vírniji pribížišče, sťínu i zastuplénije: ťímže i pritekájem k pokróvu tvojemú."),
+    ("Krestobohoródičen","","Vladýčice vsesvjatája Ďívo, róždšaja Hóspoda, za milosérdije na kresťí prihvozdívšahosja, i žízni strují istočívšaho míru, tohó umolí spastísja dušám nášym. Tebé bo jedínu ímamy vírniji pribížišče, sťínu i zastuplénije: ťímže i pritekájem k pokróvu tvojemú."),
   ),
   "S": (
     ("","","Ne ktomú vozbraňájemi jesmý dréva živótnaho, upovánije imúšče krest tvój, Hóspodi sláva tebí."),
@@ -82,12 +82,12 @@
   "S1": (
     ("","","Cérkov vopijét tí Christé Bóže, v pévki, i kédri, i kiparísi poklaňájuščisja tebí: pobídy vírnym dáruj, Bohoródicy rádi, i pomíluj nás."),
     ("","","Íže mené rádi preterpívyj, jéže na kresťí prihvoždénije, prijimí mojé bódrennoje chvalénije Christé Bóže, i spasí mja."),
-    ("Krestobohoródičen","","Raspén-šahosja nás rádi Christá Bóha, i nizložívšaho smérti deržávu, neprestánno molí Bohoródice Ďívo, da spasét dúšy náša."),
+    ("Krestobohoródičen","","Raspénšahosja nás rádi Christá Bóha, i nizložívšaho smérti deržávu, neprestánno molí Bohoródice Ďívo, da spasét dúšy náša."),
   ),
   "S2": (
     ("","","Ohňá svitľíjšeje, i plámene ďíjstvenňijšeje drévo pokazál jesí Christé, krestá tvojehó, popaľájuščeje hrichí čelovíkov, i prosviščájuščeje serdcá pojúščich vóľnoje tvojé raspjátije: Christé Bóže, sláva tebí."),
     ("","","Obladájaj bezplótnymi sílami, i svídyj duší mojejá ľínostnoje, krestóm tvojím spasí mja Christé Bóže, jáko čelovikoľúbec."),
-    ("Múčeničen","","Rádujtesja právedniji, da veseľátsja nebésnaja: na zemlí bo múčenicy podvizávšesja, vrahá popráša: da ihrájet cérkov pobidíteľnaja, prázdnujušči podviho-polóžniku jedínomu, i pobidotvórcu Christú Bóhu, podajúščemu mírovi véliju mílosť."),
+    ("Múčeničen","","Rádujtesja právedniji, da veseľátsja nebésnaja: na zemlí bo múčenicy podvizávšesja, vrahá popráša: da ihrájet cérkov pobidíteľnaja, prázdnujušči podvihopolóžniku jedínomu, i pobidotvórcu Christú Bóhu, podajúščemu mírovi véliju mílosť."),
     ("Krestobohoródičen","","Jehdá zrjášči ťá Hóspodi Ďíva, raspinájema, pláčušči vopijáše tí: vospiváju tvojé neizrečénnoje, o Sýne mój, dolhoterpínije, i jéže k čelovíkom krájneje i božéstvennoje sošéstvije."),
   ),
   "S3": (
@@ -135,7 +135,7 @@
         ("","","Ótča ňídra ne ostávľ, i sošéd na zémľu Christé Bóže, tájnu uslýšach smotrénija tvojehó, i proslávich ťá jedíne čelovikoľúbče."),
         ("","","Na zemlí čelovík jávľsja, nebésnyja čelovíki soveršíl jesí, voznesén býv na drévo Vladýko, vsjá sovoznésl jesí vospivájuščyja tvojá stradánija."),
         ("","","Za smértnych umiráješi Životé, za neprávednyja Iisúse mój právednyj, strásť terpíši ponósnuju: pojém dolhoterpilíve, bezmírnoje blahoutróbije tvojé."),
-        ("Múčeničen","","Zviréj ustremlénija, vrínija óhnennaja, rúk že i nóh otsičénija, istorhánija udóv, i vsjáčeskuju inúju múku preterpíste múčenicy, chodátajstvujuščuju bo-žéstvennoje naslaždénije."),
+        ("Múčeničen","","Zviréj ustremlénija, vrínija óhnennaja, rúk že i nóh otsičénija, istorhánija udóv, i vsjáčeskuju inúju múku preterpíste múčenicy, chodátajstvujuščuju božéstvennoje naslaždénije."),
         ("Múčeničen","","Ot ťilésnych konéc stradáľcy, ko Christú vsích Bóhu zovúšče, uslýšani býste, i na kámeň voznesóstesja božéstvennaho nýňi soveršénija."),
         ("Bohoródičen","","Moľbú o nás k voploščénnomu iz tebé Bohoródice, sotvorí, jáko da obrjáščem pómošč vo vrémja napásti, íže tohó strásti slávjaščiji."),
       ),

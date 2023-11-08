@@ -26,7 +26,7 @@
   ),
   "3": (
     ("","","Vodruzívyj na ničesómže zémľu poveľínijem tvojím, i povísivyj neoderžímo ťahoťíjuščuju, na nedvížimim, Christé, kámeni zápovidej tvojích, cérkov tvojú utverdí, jedíne, bláže i čelovikoľúbče."),
-    ("","","Preidóša sínem zakonotvo-rímaja: zakonodávca bo Christá rodilá jesí prečístaja, blahodáť očiščénija i prosviščénija nám vzakónivšaho, i ot kľátvy izjémšaho Ďívo vseneporóčnaja."),
+    ("","","Preidóša sínem zakonotvorímaja: zakonodávca bo Christá rodilá jesí prečístaja, blahodáť očiščénija i prosviščénija nám vzakónivšaho, i ot kľátvy izjémšaho Ďívo vseneporóčnaja."),
     ("","","Rodísja ot tebé čístaja, Bóh voploščájem, i plótiju víďin býsť, íže préžde nevídimyj. sehó úbo molí priľížno otrokovíce, ot vídimych i nevídimych vráh mjá izbáviti, svítlo ťá slávjaščaho."),
     ("","","Strastéj mjá ľúta oburevájet voľná, lukávych duchóv hlubiná oderžít mjá, hrichóvnaja búrja smuščájet mí sérdce: Bohorodíteľnice, tý mja utverdí, svítlo ťá pojúščaho."),
     ("","","Božéstvennaho Havrijíla činonačáľnika imúšče, blahohovéjno jéže rádujsja, víroju privódim sohlásno, neiskusobráčňij Máteri Bohoródici vírno: jéjuže bíd že i skorbéj, i nedúh izbavľájemsja."),
@@ -174,10 +174,10 @@
       ),
       "2": (
         ("","","Neístovstvujuščejesja búreju dušetľínnoju, Vladýko Christé, strastéj móre ukrotí, i ot tlí vozvedí mja, jáko blahoutróben."),
-        ("","","Svjáščennoukrašájemi án-heľstiji sobóri izbránniji, svitodáteľnymi sijániji prosviščájetesja, Bohoďíteľnym ozarénijem jávi soveršájemi."),
-        ("","","Svjáščennoukrašájemi án-heľstiji sobóri izbránniji, svitodáteľnymi sijániji prosviščájetesja, Bohoďíteľnym ozarénijem jávi soveršájemi."),
+        ("","","Svjáščennoukrašájemi ánheľstiji sobóri izbránniji, svitodáteľnymi sijániji prosviščájetesja, Bohoďíteľnym ozarénijem jávi soveršájemi."),
+        ("","","Svjáščennoukrašájemi ánheľstiji sobóri izbránniji, svitodáteľnymi sijániji prosviščájetesja, Bohoďíteľnym ozarénijem jávi soveršájemi."),
         ("","","Trisvítlymi zarjámi bohátno preukrašájemi ánheli i archánheli, Bohozráčno okajánnuju mojú dúšu prosvitíte vášimi molítvami."),
-        ("Bohoródičen","","Začalá jesí prečístaja vsích ziždíteľa i Bóha, jehóže s trépetom zrját rádujuščesja, vsebláho-hovíjno predstojášče ánheli."),
+        ("Bohoródičen","","Začalá jesí prečístaja vsích ziždíteľa i Bóha, jehóže s trépetom zrját rádujuščesja, vsebláhohovíjno predstojášče ánheli."),
       )
     ),
     "P7": (

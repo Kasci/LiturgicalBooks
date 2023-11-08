@@ -85,7 +85,7 @@
     ("Bohoródičen","","Íže nás rádi roždéjsja ot Ďívy, i raspjátije preterpív blahíj, isprovérhij smértiju smérť, i voskresénije javléj jáko Bóh, ne prézri jáže sozdál jesí rukóju tvojéju: javí čelovikoľúbije tvojé mílostive, prijimí róždšuju ťá Bohoródicu moľáščujusja za ný, i spasí Spáse náš ľúdi otčájannyja."),
   ),
   "S2": (
-    ("","","Prorócy, múčenicy Christóvy, i svjatítelije, íže pódvih dóbryj blahočestnomúdrenno za-kónno skončávše, i prijímše vincý neuvjadájemyja ot Bóha, neprestánno molíte o nás jehó bláhosť: jáko da dárujet nám prehrišénij proščénije, jáko Bóh blahouvítliv."),
+    ("","","Prorócy, múčenicy Christóvy, i svjatítelije, íže pódvih dóbryj blahočestnomúdrenno zakónno skončávše, i prijímše vincý neuvjadájemyja ot Bóha, neprestánno molíte o nás jehó bláhosť: jáko da dárujet nám prehrišénij proščénije, jáko Bóh blahouvítliv."),
     ("Mértven","","Prestávľšyjasja blahočéstno ot vrémennych, v selénijich izbránnych s právednymi sopričtí Vladýko, ťích upokojevája na mísťi prázdnujuščich, i v sládosti nekončájemij rájsťij, jáko bláh, vóľnaja prehrišénija i nevóľnaja ích, za krájňuju bláhosť prostívyj čelovikoľúbče."),
     ("Mértven","","Hlubinóju múdrosti čelovikoľúbno vsjá strójaj, i poléznoje vsím podavájaj, jedíne soďíteľu, upokój Hóspodi, dúšy ráb tvojích: na ťá bo upovánije vozložíša, tvorcá i ziždíteľa i Bóha nášeho."),
     ("Bohoródičen","","Tebé i sťínu, i pristánišče ímamy, i molítvennicu blahoprijátnu k Bóhu, jehóže rodilá jesí, Bohoródice beznevístnaja, vírnych spasénije."),
@@ -112,7 +112,7 @@
       "1": (
         ("","","Utverždéj v načáľi nebesá, i zémľu osnovávyj na vodách mnóhich, utverdí mja k píniju slavoslóvija tvojehó Hóspodi."),
         ("","","Mérzkija žértvy stradáľcy kripčájšeju mýsliju ottrjásše, žértva čisťíjša Slóvu požéršemusja býša."),
-        ("","","Obnovľájušče slovesý svjášče-nnoďíteľnymi obetšávšaja vsjákimi strasťmí, obnovívšaho mír božéstvenniji učenicý javístesja."),
+        ("","","Obnovľájušče slovesý svjáščennoďíteľnymi obetšávšaja vsjákimi strasťmí, obnovívšaho mír božéstvenniji učenicý javístesja."),
         ("","","Jáže prorókom préžde javlénno, dánnaja blahodáť vsesvjatáho Dúcha, póstniki v posľídňaja božéstvennych darovánij ispólni."),
         ("","","Likóm svjatých sočetáj Bóže, vírno ot žitijá prešédšyja, i rajá žíteli sotvorí, za neizrečénnuju mílosť."),
         ("Bohoródičen","","Íže nikákože vmiščájemyj Iisús i Hospóď, neťisnovmístno v tvojé vselísja osvjaščénnoje črévo prečístaja Ďívo vsepítaja."),
@@ -121,7 +121,7 @@
         ("","","Nebésnaho krúha verchotvórče Hóspodi, i cérkve ziždíteľu, tý mené utverdí v ľubví tvojéj, želánij kráju, vírnych utverždénije, jedíne čelovikoľúbče."),
         ("","","Očístivšesja drévňaho prarodíteľnaho padénija, kreščénijem i páki poroždénijem, strujámi že krovéj svojích okropívšesja Christú blažénniji, scárstvujete."),
         ("","","Íže mértv vóleju polóžsja vo hróbi, i živúščyja vo hrobích vzyvájaj Spáse, blahovolí, jáže ot nás prijál jesí, v selénijich právednych tvojích sím vodvorjátisja."),
-        ("","","Blahoutróbijem božéstve-nnyja tvojejá Vladýko, i sojestéstvenňi razumi-vájemyja bláhosti, umolén byvája, hrichóv razrišénije podáv rabóm tvojím Spáse, upokój."),
+        ("","","Blahoutróbijem božéstvennyja tvojejá Vladýko, i sojestéstvenňi razumivájemyja bláhosti, umolén byvája, hrichóv razrišénije podáv rabóm tvojím Spáse, upokój."),
         ("","","Voplóščsja iz čréva tvojehó, i býv čelovík, íže izrjádňi sýj jedín čelovikoľúbec, spasájet čelovíka ot vrát smértnych, Bohomáti prečístaja jedína vsepítaja."),
       ),
     ),
@@ -132,7 +132,7 @@
         ("","","Prepodóbnyja tvojá Hóspodi, i svjatíteli svítlo proslávil jesí: ťích božéstvennymi moľbámi, pričástnika mjá slávy tvojejá sotvorí."),
         ("","","Jéže božéstvennaho Dúcha vdochnovénije, proróki prosvitívšeje, ženám kríposť darová, vrahóv pohubľáti šatánija."),
         ("","","Slikovstvováti spodóbi so vsími svjatými, jáže prestávil jesí preblahíj rabý tvojá, v selénijich svjatých tvojích, umolén byvájaj."),
-        ("","","Zakóna božéstvennaho podáteľa, jestestvá zakóna výše rodilá jesí, vozsozi-dájušča vseneporóčnaja, čelovíčeskoje jestestvó popólzšejesja."),
+        ("","","Zakóna božéstvennaho podáteľa, jestestvá zakóna výše rodilá jesí, vozsozidájušča vseneporóčnaja, čelovíčeskoje jestestvó popólzšejesja."),
       ),
       "2": (
         ("","","Tý mojá kríposť Hóspodi, tý mojá i síla, tý mój Bóh, tý mojé rádovanije, ne ostávľ ňídra Ótča, i nášu niščetú positív. Ťím s prorókom Avvakúmom zovú ti: síľi tvojéj sláva čelovikoľúbče."),

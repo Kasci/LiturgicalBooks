@@ -82,7 +82,7 @@
   "S1": (
     ("", "", "Prijidíte vsí, apóstoly voschválim jáko kórmčyja: ídoľskuju bo prélesť uprazdníša, i k svítu žízni vozvedóša, i v Tróicu vírovati naučíša. Ťímže dnés pámjať ích čestnúju soveršájušče vírniji, slávim Christá Bóha nášeho."),
     ("", "", "Apóstol tvojích pámjať ujasníl jesí Hóspodi, jáko vsesílen, jáko ukripíl jesí ích, strastém tvojím podóbitisja, i pobidíša múžeski vrážiju sílu. Ťímže i prijáša iscilénij blahodáti: ťích molítvami čelovikoľúbče, mír podážď ľúdem tvojím."),
-    ("Bohoródičen", "", "Nepostižímaho i neopísannaho, jedinosúš-čnaho beznačáľnomu Otcú, vo črévo tvojé tájno vmistíla jesí Bohoródice. Jedíno i nesmísno ot Tróicy Božestvó razumíchom, roždestvó tvojé v míri slávjašče. Ťímže i blahodárno vopijém tí: rádujsja obrádovannaja."),
+    ("Bohoródičen", "", "Nepostižímaho i neopísannaho, jedinosúščnaho beznačáľnomu Otcú, vo črévo tvojé tájno vmistíla jesí Bohoródice. Jedíno i nesmísno ot Tróicy Božestvó razumíchom, roždestvó tvojé v míri slávjašče. Ťímže i blahodárno vopijém tí: rádujsja obrádovannaja."),
   ),
   "S2": (
     ("", "", "Vsjú napoíša zémľu strujámi apóstoli, Bóžija Slóva, i vozrasté klás víry, i koncý vselénnyja napólni: plévely bo vsjá posikóša. Ťímže vsích Christú Bóhu privedóša, kreščájušče ťích v Tróicu nesozdánnuju."),
@@ -94,7 +94,7 @@
   "S3": (
     ("", "", "Apóstoly tvojá Christé, v koncý zemnýja poslál jesí, jáko milosérd, jáko izoščrényja síľňi stríly, zakalájuščja vsjákoje nečéstije i zlosújetstvije, i nasaždájuščja spasítelnaja učénija: ťích moľbámi ščédre, mír podážď dušám nášym."),
     ("", "", "Tebé propovídnika ístiny, i presvítlaho svitílnika míru, chváľašče vospivájem Nikólaje, i vopijém víroju moľáščesja: jákože nepovínnyja ot smérti ischítil jesí: táko svjáte, i nás ot bíd i skorbéj i vsjákaho izbávi ľútaho ozloblénija."),
-    ("Bohoródičen", "", "Umertvív-šujusja dúšu mojú sohrišéňmi mnóhimi, vseneporóčnaja Vladýčice: oživí, jáko derznovénije máterneje k Sýnu tvojemú imúšči: tý bo jedína rodilá jesí páče umá i smýsla Slóvo sobeznačálnoje Otcú i Dúchu, živót i netľínije míru dárujušča prísno, i véliju mílosť."),
+    ("Bohoródičen", "", "Umertvívšujusja dúšu mojú sohrišéňmi mnóhimi, vseneporóčnaja Vladýčice: oživí, jáko derznovénije máterneje k Sýnu tvojemú imúšči: tý bo jedína rodilá jesí páče umá i smýsla Slóvo sobeznačálnoje Otcú i Dúchu, živót i netľínije míru dárujušča prísno, i véliju mílosť."),
     
   ),
   "K": (
@@ -268,6 +268,6 @@
     ("", "", "Jáko lučí tájnyja, i svitíla právednaho sólnca bývše, slávniji apóstoli, zločéstija ťmú othnáli jesté, i k svítu Bohorazúmija nastáviste vsjá ľúdi: ťímže vý počitájem."),
     ("", "", "Múk razžžénija preterpíste, svýše stradáľcy blahodáti rósu prijáli jesté: i čelovíčeskija strásti, jáko Christóvy uhódnicy, prísno blahočéstno múdriji isciľájete. Ťímže vírno vás svjatíji počitájem."),
     ("", "", "Tróicy svjaščénniji propovídnicy, Pétre, i Pávle, Márko, i Lukó, Matféje, Símone, Jákove, Andréje, Joánne, Thomó, Vartholomée i Filíppe múdre, priľížno vsehdá sijú molíte, izbávitisja nám ot vsjákaho obstojánija."),
-    ("", "", "Apóstolov dobróto, i svjatých strastotérpec rádovanije, Bohoblaho-dátňijšaja Vladýčice, o nás molí vsích Spása i Bóha: jáko da prehrišénij priímem ostavlénije, i božéstvennyja žízni vsí pričástnicy búdem."),
+    ("", "", "Apóstolov dobróto, i svjatých strastotérpec rádovanije, Bohoblahodátňijšaja Vladýčice, o nás molí vsích Spása i Bóha: jáko da prehrišénij priímem ostavlénije, i božéstvennyja žízni vsí pričástnicy búdem."),
   )
 )

@@ -150,16 +150,16 @@
   ),
   "7": (
     ("","","Bóžija snizchoždénija óhň ustyďísja vo Vavilóňi inohdá, sehó rádi ótrocy v peščí rádovannoju nohóju, jáko vo cvítnici likújušče pojáchu: blahoslovén jesí Bóže otéc nášich."),
-    ("","","Premúdrostiju neizhlahóla-nnoju tvojéju, i pučínoju blahostýni, túne tvojehó rabá pomílovanna pokaží mja: i nýňi, jákože drévle, izbávi ozloblénija, Tróice jedínice Bóže, hrichóv i strastéj."),
-    ("","","Premúdrostiju neizhlahóla-nnoju tvojéju, i pučínoju blahostýni, túne tvojehó rabá pomílovanna pokaží mja: i nýňi, jákože drévle, izbávi ozloblénija, Tróice jedínice Bóže, hrichóv i strastéj."),
+    ("","","Premúdrostiju neizhlahólannoju tvojéju, i pučínoju blahostýni, túne tvojehó rabá pomílovanna pokaží mja: i nýňi, jákože drévle, izbávi ozloblénija, Tróice jedínice Bóže, hrichóv i strastéj."),
+    ("","","Premúdrostiju neizhlahólannoju tvojéju, i pučínoju blahostýni, túne tvojehó rabá pomílovanna pokaží mja: i nýňi, jákože drévle, izbávi ozloblénija, Tróice jedínice Bóže, hrichóv i strastéj."),
     ("","","Úm neroždénnyj Otéc, i Slóvo róždšejesja ot nehó, i Dúch božéstvennyj, nepostížne ischóden sýj, Bóže jedinonačáľne, trisólnečne, pojú tebí: blahoslovén Bóh otéc nášich."),
     ("Bohoródičen","","Umerščvlén bých prečístaja, hrichóvnym jádom napojén, i pritekáju k tebí víroju, róždšej načáľnika životá: tvojími molítvami rabá tvojehó oživí, i iskušénij i strastéj izbávi, jedína čístaja."),
   ),
   "8": (
     ("","","Sedmeríceju péšč chaldéjskij mučíteľ Bohočestívym neístovno razžžé, síloju že lúčšeju spasény sijá víďiv, tvorcú i izbáviteľu vopijáše: ótrocy blahoslovíte, svjaščénnicy vospójte, ľúdije prevoznosíte vo vsjá víki."),
     ("","","Svít sýj nezachodím, trisijánen i trisólnečnyj i jedinonačálen, samoderžáven, prosťíjšij, Bóh nepostižímyj, i samoderžáven Hospóď, nýňi témnoje i omračénnoje mojé sérdce ozarí: i pokaží svitozárno i svitonósno píti ťá, i sláviti vo vsjá víki."),
-    ("","","Svjaščénňijšimi krilý, Serafími božéstvenňijšiji, líca i nóhi blahohovíjno pokryvájut, slávy ne terpjášče nepostižímyja dobróty tvojejá, blahonačáľnaja, Bohonačáľnaja, jedinonačá-ľnaja Tróice presvjatája: obáče i mý vospiváti ťá derzájem, i sláviti vírno vo víki."),
-    ("","","Hóspodonačálije beznačáľ-noje, vsesíľnuju i prebláhu, soveršennonačáľnu, blahoďíj-stvennu, neopreďíľnu, vinú nevinóvnu, tvoríteľnu, prisnosúščnu, promyslíteľnu i spasíteľnuju vsím jedinícu po suščestvú, i Tróicu lícy, slávľu ťá Bóže mój, vírno vo víki."),
+    ("","","Svjaščénňijšimi krilý, Serafími božéstvenňijšiji, líca i nóhi blahohovíjno pokryvájut, slávy ne terpjášče nepostižímyja dobróty tvojejá, blahonačáľnaja, Bohonačáľnaja, jedinonačáľnaja Tróice presvjatája: obáče i mý vospiváti ťá derzájem, i sláviti vírno vo víki."),
+    ("","","Hóspodonačálije beznačáľnoje, vsesíľnuju i prebláhu, soveršennonačáľnu, blahoďíjstvennu, neopreďíľnu, vinú nevinóvnu, tvoríteľnu, prisnosúščnu, promyslíteľnu i spasíteľnuju vsím jedinícu po suščestvú, i Tróicu lícy, slávľu ťá Bóže mój, vírno vo víki."),
     ("Bohoródičen","","Na zemlí vozsijá nevečérneje sólnce, roždestvóm jéže iz tebé ďívstvennym, prečístaja Vladýčice, i čelovíki izbávi ot ídoľskaho pomračénnaho mráka. Ťímže i nýňi mjá páče tohó Bohonačálija ozarí lučámi, i sobľudí tvojehó rabá."),
   ),
   "9": (
@@ -179,7 +179,7 @@
   "S1": (
     ("","","Voskrésl jesí iz mértvych životé vsích, i ánhel svítel ženám vopijáše: prestánite ot sléz, apóstolom blahovestíte, vozopíjte pojúščja: jáko voskrése Christós Hospóď, blahovolívyj spastí jáko Bóh ród čelovíčeskij."),
     ("","","Voskresýj iz hróba jáko voístinnu, prepodóbnym poveľíl jesí ženám propovídati vostánije apóstolom, jákože písano jésť: i skóryj Pétr predstá hróbu, i svít zrjá vo hróbi, užasášesja. Ťímže i uvíďiv plaščanícy, kromí božéstvennaho ťíla v ném ležáščyja, so stráchom vozopí: sláva tebí Christé Bóže, jáko spasáješi vsjá Spasé náš: Ótčeje bo jesí sijánije."),
-    ("Bohoródičen","","Nebésnuju dvér, i kivót, vsesvjatúju hóru, svitozárnyj óblak vospojím, nebésnuju ľístvicu, slovésnyj ráj, Jévino izbavlénije, vselénnyja vsejá velíkoje sokróvišče, jáko spasénije v néj soďílasja mírovi, i ostavlénije drévnich sohrišénij. sehó rádi vopijém tí: molí Sýna tvojehó i Bóha, prehrišénij ostavlénije darováti, blahočéstno po-klaňájuščymsja presvjatómu roždéstvú tvojemú."),
+    ("Bohoródičen","","Nebésnuju dvér, i kivót, vsesvjatúju hóru, svitozárnyj óblak vospojím, nebésnuju ľístvicu, slovésnyj ráj, Jévino izbavlénije, vselénnyja vsejá velíkoje sokróvišče, jáko spasénije v néj soďílasja mírovi, i ostavlénije drévnich sohrišénij. sehó rádi vopijém tí: molí Sýna tvojehó i Bóha, prehrišénij ostavlénije darováti, blahočéstno poklaňájuščymsja presvjatómu roždéstvú tvojemú."),
   ),
   "S2": (
     ("","","Čelovícy Spáse, hrób tvój zapečátaša: ánhel kámeň ot dveréj otvalí: žený víďiša vostávša ot mértvych, i týja blahovistíša učenikóm tvojím v Sijóňi, jáko voskrésl jesí životé vsích, i razrišíšasja úzy smértnyja: Hóspodi sláva tebí."),
@@ -196,10 +196,10 @@
     ("","","Svjátým Dúchom, jéže žíti vsjáčeskim: svít ot svíta, Bóh velík: so Otcém pojém jemú, i s Slóvom."),
   ),
   "A2": (
-    ("","","Sérdce mojé stráchom tvojím da pokrýjetsja smire-nomúdrstvujuščeje: da ne voznésšejesja otpadét ot tebé vseščédre."),
+    ("","","Sérdce mojé stráchom tvojím da pokrýjetsja smirenomúdrstvujuščeje: da ne voznésšejesja otpadét ot tebé vseščédre."),
     ("","","Na Hóspoda imívyj nadéždu, ne ustrašítsja tohdá, jehdá ohném vsjá sudíti ímať, i múkoju."),
-    ("","","Svjatým Dúchom, vsják któ božéstvennyj vídit, i predhlahólet, čudoďíjstvujet výšňaja, v trijéch jedínaho Bóha pojá: ášče bo i trisijájet, jedinona-čáľstvujet božestvó."),
-    ("","","Svjatým Dúchom, vsják któ božéstvennyj vídit, i predhlahólet, čudoďíjstvujet výšňaja, v trijéch jedínaho Bóha pojá: ášče bo i trisijájet, jedinona-čáľstvujet božestvó."),
+    ("","","Svjatým Dúchom, vsják któ božéstvennyj vídit, i predhlahólet, čudoďíjstvujet výšňaja, v trijéch jedínaho Bóha pojá: ášče bo i trisijájet, jedinonačáľstvujet božestvó."),
+    ("","","Svjatým Dúchom, vsják któ božéstvennyj vídit, i predhlahólet, čudoďíjstvujet výšňaja, v trijéch jedínaho Bóha pojá: ášče bo i trisijájet, jedinonačáľstvujet božestvó."),
   ),
   "A3": (
     ("","","Vozzvách tebí Hóspodi, vonmí, prikloní mi úcho tvojé vopijúšču, i očísti, préžde dáže ne vózmeši mené otsjúdu."),

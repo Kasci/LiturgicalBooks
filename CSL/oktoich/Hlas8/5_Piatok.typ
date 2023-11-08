@@ -93,7 +93,7 @@
   "S3": (
     ("","Poveľínnoje tájno","Tvojím krestóm Christé Spáse i smértiju, mučíteľstvo vrážije nizložísja, i smérť umertvísja, i mértvyja jáže imíjaše ád ot víka v sebí svjázannyja, vnezápu otpustí pľínniki vsjá, vospivájuščyja deržávu tvojú, i strášnoje tvojé bláže, i božéstvennoje schoždénije, ímže vsích spásl jesí."),
     ("","","Obožénija lóžnaho upovánija rodonačálnik tľínija, jáže ot nehó vsím vinóven javísja. Tý že krestóm tvojím žízň istočáješi jáko prebláhíj: vóleju bo prihvoždén býl jesí, da ot pérvaho razrišíši osuždénija. Ťímže vospivájem tvojú Christé vóľnuju strásť."),
-    ("Krestobohoródičen","","Ne-skvérnaja áhnica, áhnca i pástyrja vísjašča na kresťí zrjášči, vopijáše: čádo mojé, čtó stránnoje úbo i nenadéžnoje sijé zrínije? Káko žízň vsích smértiju osuždájetsja zemným podóbňi? No voskresní tridnévno iz mértvych Slóve, jákože rékl jesí: da rádujuščisja slávľu ťá."),
+    ("Krestobohoródičen","","Neskvérnaja áhnica, áhnca i pástyrja vísjašča na kresťí zrjášči, vopijáše: čádo mojé, čtó stránnoje úbo i nenadéžnoje sijé zrínije? Káko žízň vsích smértiju osuždájetsja zemným podóbňi? No voskresní tridnévno iz mértvych Slóve, jákože rékl jesí: da rádujuščisja slávľu ťá."),
   ),
   "K": (
     "P1": (

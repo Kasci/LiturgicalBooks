@@ -12,7 +12,7 @@
     ("",	"",	"Krest vodruzísja na lóbňim, i procvité nám bezsmértije, ot istóčnika prisnotekúščaho rebrá Spásova."),
     ("",	"",	"Nerazrušéna sťiná nám jésť čéstnýj krest Spásov: na nehó bo naďíjuščesja, spasájemsja vsí."),
     ("Múčeničen",	"",	"O dóbryja kúpli vášeja svjatíji! jáko króvi dáste, i nebésnyja nasľídovaste, i privrémenno iskusívšesja, víčno veselitésja: voístinnu dobrá váša kúpľa, tľínnaja bo ostávľše, netľínnaja vosprijáste, i so ánhely likovstvújušče, pojéte neprestánno Tróicu jedinosúščnuju."),
-    ("Krestobohoródičen",	"Nebésnych činóv",	"Vozdví-žena jáko víďi na kresťí Áhnca, neporóčnaja Ďíva pláčušči vopijáše: sládkoje mojé čádo, čtó nóvoje i preslávnoje viďínije? Káko soderžáj vsjáčeskaja hórstiju, na drévi prihvoždáješisja plótiju?")
+    ("Krestobohoródičen",	"Nebésnych činóv",	"Vozdvížena jáko víďi na kresťí Áhnca, neporóčnaja Ďíva pláčušči vopijáše: sládkoje mojé čádo, čtó nóvoje i preslávnoje viďínije? Káko soderžáj vsjáčeskaja hórstiju, na drévi prihvoždáješisja plótiju?")
   ),
 )
 

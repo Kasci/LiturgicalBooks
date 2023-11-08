@@ -127,7 +127,7 @@
         ("","","Solncelúčnymi mólnijami vsjú prosviščáješi tvár: sólnca bo úmnaho zvizdá svítlaja javílsja jesí Predtéče. Jehóže molí priľížno strastéj ťmú othnáti ot vseboľíznennych serdéc nášich."),
         ("","","Zakóna i blahodáti posreďí stojá božéstvennyj Proróče, objavľáješi vsím jávi, óvomu úbo prestátije, óvij že prosijánije byvájuščeje čísto: obnovlénije soveršénno obetšávšym hrichí."),
         ("","","Bisóvskaho našéstvija, ot soblázn žitéjskich, i ot vsjákija skórbi nás izbávi, vopijém, Christóv Krestíteľu, moľá preblaháho, i v déň súdnyj mučénij svobodí."),
-        ("Bohoródičen","","Blahoslové-nnaja jáže Bóha neskázanno róždši, s božéstvennym jehó Krestítelem, molí čístaja neprestánno Vladýčice, o nás, v napásti vpádajuščich žitéjskija, i soderžímych hrichí."),
+        ("Bohoródičen","","Blahoslovénnaja jáže Bóha neskázanno róždši, s božéstvennym jehó Krestítelem, molí čístaja neprestánno Vladýčice, o nás, v napásti vpádajuščich žitéjskija, i soderžímych hrichí."),
       ),
     ),
     "P4": (
@@ -202,10 +202,10 @@
     "P8": (
       "1": (
         ("","","Ánhelmi nemólčno v výšnich slávimaho Bóha, nebesá nebés, zemľá i hóry i chólmi, i hlubiná, i vés ród čelovíčeskij, písňmi tohó jáko sozdáteľa i izbáviteľa blahoslovíte ."),
-        ("","","Preizobíľno nasladívsja vreďáščich slastéj, umo-vrédno nesmýslennyj áz, preidóch vsjákaho hríšnika: imíjaj blahoutróbija premnóžestvo, podážď mí očiščénije prehrišénij."),
+        ("","","Preizobíľno nasladívsja vreďáščich slastéj, umovrédno nesmýslennyj áz, preidóch vsjákaho hríšnika: imíjaj blahoutróbija premnóžestvo, podážď mí očiščénije prehrišénij."),
         ("","","Nýňi pri dvérech ženích, sviščú ukrasí dušé, jeléjem napojájušči sijú milosérdija, i vsjákimi dóbrymi ďíly: préžde dáže ne zatvorítsja dvér, potščísja so Christóm vníti k rádosti neizrečénňij."),
         ("Múčeničen","","Ne bojáščesja múk, dóbliji vopijáchu stradáľcy: sé blahoprijátno vrémja, stánem vsí tvérdym umóm: sťážim málymi boľízňmi žízň neboľíznennuju, i sládosť nestaríjuščujusja."),
-        ("Múčeničen","","Vodámi božést-vennymi strastotérpcy spá-ovy navodňájemi prísno, napojájete vsjú zémľu podražánijem pódvihov vášich: i plodonósnu sijú dobroďíteľmi soďílovajete o Chrisťí vo víki."),
+        ("Múčeničen","","Vodámi božéstvennymi strastotérpcy spáovy navodňájemi prísno, napojájete vsjú zémľu podražánijem pódvihov vášich: i plodonósnu sijú dobroďíteľmi soďílovajete o Chrisťí vo víki."),
         ("Bohoródičen","","Bohoródice, izvístnoje predstáteľstvo, i nadéžda christiján, v déň strášnyj predstáni mí prehrišívšemu mnóho: i izbávi hejénny strášnyja, ovcám mjá desným sočetavájušči."),
       ),
       "2": (
@@ -232,7 +232,7 @@
         ("","","Krasňíjšuju hórlicu, i slávija ťá cérkov poznavájet, velíkij predtéče: pokajánija bo provozhlasíl jesí písň dušám zapusťívšym, i zlými oľadeňívšim. ťímže víroju ťá ublážájem."),
         ("","","Tý putí vedúščyja ko spasíteľnym vchódom vsím pokazál jesí, slávnyj Predtéče: ímiže chodíti mjá ukripí, vsími žitijá bezpútiji bluďáščaho, prélestiju že zlóbu soďílavšaho."),
         ("","","Strášnyj pri dvérech déň priblížisja, i osuždénija ďilá imýj, rydáju: Hóspodi, Hóspodi, jedíne mílostive, molítvami tvojehó predtéči, i vsích svjatých, neosuždénna tohdá pokaží mja."),
-        ("Bohoródičen","","Svít róždšaja božéstvennyj Bohoblaho-dátnaja, omračénnuju prestupléňmi dúšu mojú prosvití, moľúsja, i ťmý víčnyja svobódna mjá pokaží: jáko da veličáju ťá i slávľu prisnoblážénnuju."),
+        ("Bohoródičen","","Svít róždšaja božéstvennyj Bohoblahodátnaja, omračénnuju prestupléňmi dúšu mojú prosvití, moľúsja, i ťmý víčnyja svobódna mjá pokaží: jáko da veličáju ťá i slávľu prisnoblážénnuju."),
       ),
     ),
   ),

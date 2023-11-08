@@ -38,7 +38,7 @@
   ),
   "T": (
     ("", "", "Da veseľátsja nebésnaja, da rádujutsja zemnája: jáko sotvorí deržávu mýšceju svojéju Hospóď, poprá smértiju smérť, pérvenec mértvych býsť, iz čréva ádova izbávi nás, i podadé mírovi véliju mílosť."),
-    ("Bohoródičen", "", "Ťá chodátaj-stvovavšuju spasénije róda nášeho, vospivájem Bohoródice Ďívo: plótiju bo ot tebé vosprijátoju Sýn tvój, i Bóh náš, krestóm vospriím strásť, izbávi nás ot tlí jáko čelovikoľúbec."),
+    ("Bohoródičen", "", "Ťá chodátajstvovavšuju spasénije róda nášeho, vospivájem Bohoródice Ďívo: plótiju bo ot tebé vosprijátoju Sýn tvój, i Bóh náš, krestóm vospriím strásť, izbávi nás ot tlí jáko čelovikoľúbec."),
   ),
 )
 
@@ -174,7 +174,7 @@
 #let U = (
   "T": (
     ("", "", "Da veseľátsja nebésnaja, da rádujutsja zemnája: jáko sotvorí deržávu mýšceju svojéju Hospóď, poprá smértiju smérť, pérvenec mértvych býsť, iz čréva ádova izbávi nás, i podadé mírovi véliju mílosť."),
-    ("Bohoródičen", "", "Ťá chodátaj-stvovavšuju spasénije róda nášeho, vospivájem Bohoródice Ďívo: plótiju bo ot tebé vosprijátoju Sýn tvój, i Bóh náš, krestóm vospriím strásť, izbávi nás ot tlí jáko čelovikoľúbec."),
+    ("Bohoródičen", "", "Ťá chodátajstvovavšuju spasénije róda nášeho, vospivájem Bohoródice Ďívo: plótiju bo ot tebé vosprijátoju Sýn tvój, i Bóh náš, krestóm vospriím strásť, izbávi nás ot tlí jáko čelovikoľúbec."),
   ),
   "S1": (
     ("", "", "Christós ot mértvych vostá, načátok usópšich: pervoroždén tvári, i soďíteľ vsích bývšich, istľívšeje jestestvó róda nášeho v sebí samóm obnoví. Ne ktomú smérte obladáješi: íbo vsích Vladýka deržávu tvojú razruší."),
@@ -342,7 +342,7 @@
         ("", "", "Hórdyj mučíteľ, no ďitéj býsť ihrálišče: jákože bo pérsť poprávše sedmeríčnyj plámeň, pojáchu: blahoslovén jesí Hóspodi, Bóže otéc nášich."),
         ("", "", "Ne prósta sólnce na kresťí vísjašča čelovíka, no Bóha voploščénna zrjá pomračájetsja. Jemúže i pojém: blahoslovén jesí Hóspodi, Bóže otéc nášich."),
         ("", "", "Krípkaho božestvóm prijém ád strašlívyj, netľínija podáteľa, dúšy právednych vopijúščyja izblevá: blahoslovén jesí Hóspodi, Bóže otéc nášich."),
-        ("Bohoródičen", "", "Sokró-višče mnohocínnoje blahoslovénija javílasja jesí prečístaja, čístym sérdcem tebé ispovédajuščym Bohorodíteľnicu: Nébo iz tebé voplotísja Bóh otéc nášich."),
+        ("Bohoródičen", "", "Sokróvišče mnohocínnoje blahoslovénija javílasja jesí prečístaja, čístym sérdcem tebé ispovédajuščym Bohorodíteľnicu: Nébo iz tebé voplotísja Bóh otéc nášich."),
         
       ),
       "3": (
@@ -423,7 +423,7 @@
   "TKB": (
     ("", "", "Da veseľátsja nebésnaja, da rádujutsja zemnája: jáko sotvorí deržávu mýšceju svojéju Hospóď, poprá smértiju smérť, pérvenec mértvych býsť, iz čréva ádova izbávi nás, i podadé mírovi véliju mílosť."),
     ("", "Ďíva dnés", "Voskrésl jesí dnés iz hróba ščédre, i nás vozvél jesí ot vrát smértnych: dnés Adám likújet, i rádujetsja Jéva, vkúpi že i prorócy s patrijárchi vospivájut neprestánno božéstvennuju deržávu vlásti tvojejá."),
-    ("Bohoródičen", "", "Ťá chodátaj-stvovavšuju spasénije róda nášeho, vospivájem Bohoródice Ďívo: plótiju bo ot tebé vosprijátoju Sýn tvój, i Bóh náš, krestóm vospriím strásť, izbávi nás ot tlí jáko čelovikoľúbec."),
+    ("Bohoródičen", "", "Ťá chodátajstvovavšuju spasénije róda nášeho, vospivájem Bohoródice Ďívo: plótiju bo ot tebé vosprijátoju Sýn tvój, i Bóh náš, krestóm vospriím strásť, izbávi nás ot tlí jáko čelovikoľúbec."),
   ),
   "P": (
     ("", "", "Pójte Bóhu nášemu, pójte, pójte cárévi nášemu, pójte."),

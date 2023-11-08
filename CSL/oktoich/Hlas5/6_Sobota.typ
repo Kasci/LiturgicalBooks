@@ -1,7 +1,7 @@
 #let V = (
   "HV": (
     ("","Rádujsja póstnikom","Plámeň nečéstija ľútaho strastotérpcy uhasíša krovéj svojích tečéňmi, blahočéstija svítlosť v míri vsém vozžéhše múčenicy, bóhi že lžeimenítyja, i ťích zlovónija, i chrámy do koncá popalíša: svít vozsijáša súščym na zemlí čisťijšij, ímže i prosviščájemi, ťmý izbihájem bezbóžija, i prélesti ídoľskija ukloňájemsja, Christú poklaňájuščesja, podajúščemu mírovi véliju mílosť."),
-    ("","","Slovesá jeretík zločestívych, i lovlénija udób razrušívše, orúžnicy Otcá beznačáľnaho, Sýna sobeznačáľnaho, i svjatáho Dúcha býste, v trijéch lícich jedínstvu Božestvá, blahočestnomúdrenňi vír-nych naučájušče i utver-ždájušče pravoslávnuju própoviď. Ťímže i blažími jesté, pástyrije vsesvjaščénniji: jáko na pážitech živonósnych Christóvo stádo upasóste, za nehóže vsjá boľízni i napásti mnohoobráznyja preterpíste."),
+    ("","","Slovesá jeretík zločestívych, i lovlénija udób razrušívše, orúžnicy Otcá beznačáľnaho, Sýna sobeznačáľnaho, i svjatáho Dúcha býste, v trijéch lícich jedínstvu Božestvá, blahočestnomúdrenňi vírnych naučájušče i utverždájušče pravoslávnuju própoviď. Ťímže i blažími jesté, pástyrije vsesvjaščénniji: jáko na pážitech živonósnych Christóvo stádo upasóste, za nehóže vsjá boľízni i napásti mnohoobráznyja preterpíste."),
     ("","","Strásti plotskíja udób do koncá poprá, podvíhšejesja prepodóbnych soslóvije, vlastelína umá ďijánijem dobroďítelej prijémše: ímže bisóvskija vsjá kózni pobidíša dóblestvenňi, i ánhelom sobesídnicy javíšasja, jáko bezplótniji požívše. Ímže i nýňi srádujutsja v výšnich obítelech, svítlo živúšče, i Christú predstoját, ot nehó prosjášče dušám nášym darováti véliju mílosť."),
     ("","","Ščitóm víry obólkšesja, i známenijem krestnym sebé ukrípľše, k múkam múžeski vdášasja, i dijávoľu hordýňu i lésť uprazdníša svjatíji tvojí, Hóspodi, ťích molítvami jáko vsesíľnyj Bóh, míru mír nizposlí, i dušám nášym véliju mílosť."),
     ("","","Ščitóm víry obólkšesja, i známenijem krestnym sebé ukrípľše, k múkam múžeski vdášasja, i dijávoľu hordýňu i lésť uprazdníša svjatíji tvojí, Hóspodi, ťích molítvami jáko vsesíľnyj Bóh, míru mír nizposlí, i dušám nášym véliju mílosť."),
@@ -113,14 +113,14 @@
         ("","","Dvížimoje sérdce mojé Hóspodi, volnámi žitéjskimi, utverdí, v pristánišče tíchoje nastavľája jáko Bóh."),
         ("","","Pálicami bijémo ne poščaďíste ťílo, i mečí sikómo vsechváľniji orúžnicy, ukripľájemi nadéždeju múčenicy víčnych krasót."),
         ("","","Svjatíteľstva odéždu prosvitíste, vídy dobroďítelnymi upásše Christóvo stádo na pážitech živótnych."),
-        ("","","Plóť umerščvľájušče vozder-žánijem prepodóbniji, žízni božéstvenňij pričastíšasja: ťích Christé svjaščénnymi molítvami ot bíd izbávi nás."),
+        ("","","Plóť umerščvľájušče vozderžánijem prepodóbniji, žízni božéstvenňij pričastíšasja: ťích Christé svjaščénnymi molítvami ot bíd izbávi nás."),
         ("","","Usópšym támošnij pokój čelovikoľúbče podážď, jáže soďíjaša na zemlí, dólhi otpuščája jáko bláh."),
         ("","","Blahoslovénnuju v ženách ťá jáko víďi, soslóvije žénskoje postradá, i tvojemú Sýnu, Ďívo Máti, privedésja."),
       ),
       "2": (
         ("","","Utverdí ný Bóže Spáse, tvojéju síloju, i vozdvíhni róh tvojejá cérkve, pravovírno chváľaščich ťá."),
         ("","","Múžeski podvíhšesja stradáľcy, mučíteľskim stremlénijem protívu stáša, i móľatsja o usópšich Christú."),
-        ("","","Zakóny tvojími vospitávšich-sja, prestávľšichsja preblahíj, v svítlych tvojích selénijich prijém, upokój."),
+        ("","","Zakóny tvojími vospitávšichsja, prestávľšichsja preblahíj, v svítlych tvojích selénijich prijém, upokój."),
         ("","","Mílostivyj jedíne Bóže, jáže izbrál jesí, spodóbi svjatých svítlostej, prezirája ťích sohrišénija."),
         ("","","Pojém tvojé roždestvó čístaja, ímže pérvaho osuždénija i kľátvy izbávichomsja, i ot smérti svobodíchomsja."),
       ),
@@ -180,7 +180,7 @@
       "1": (
         ("","","Ohňá hasílišče otrokóv molítva, orošájuščaja péšč, propovídnica čudesé, ne opaľájušči, nižé sožihájušči pisnoslóvcy Bóha otéc nášich."),
         ("","","Vý razžizájemi ľútych mučénij ohném, ľublénije tepľíjšeje múčenicy slávniji pokazáste ko Hóspodu, prochlaždájušče vás pómyslom blahočestívym."),
-        ("","","Premúdrostiju Dúcha ukrasívšesja premúdriji, i svítlo požíste, svjaščenno-ďíjstvujušče blahodáti Jevánhelia, i jáko Bóžija služíteli pochvaľájem vás."),
+        ("","","Premúdrostiju Dúcha ukrasívšesja premúdriji, i svítlo požíste, svjaščennoďíjstvujušče blahodáti Jevánhelia, i jáko Bóžija služíteli pochvaľájem vás."),
         ("","","Vý umertvívše plóť boľízňmi mnóhimi, žízni spodóbistesja búduščija prepodóbniji, moľáščesja sijú polučíti nám umerščvlénym strastéj priložéňmi."),
         ("","","Blažénnyj lík Bóžijich prorók, i žén sobór, podvíhšyjasja postóm, i stradánijem nizložívšyja vrahá, da pochváľatsja vírno."),
         ("","","Mértvym priobščívsja vsích žízň Slóve, nýňi ostávľšich žitijá mjatéž, ko pristánišču tvojemú božéstvennomu uprávi, sohrišénija ích prezirája bláže."),
@@ -198,7 +198,7 @@
       "1": (
         ("","","Ánhelov sónm, čelovíkov sobór, carjá i ziždíteľa vsích, svjaščénnicy pójte, blahoslovíte levíti, ľúdije prevoznosíte vo vsjá víki."),
         ("","","Preplývše mučénij pučínu okormlénijem slóva, stradáľcy krovéj tečénijem pohruzíste vsjá polkí ľstívaho, i živeté vo víki."),
-        ("","","Premúdriji bývše svja-ščennoďílatelije, svjaščénno na voďí pravoslávija vám vvírennoje stádo prepitáste: voístinnu sládosti krásnych potókov naslaždájetesja vo víki."),
+        ("","","Premúdriji bývše svjaščennoďílatelije, svjaščénno na voďí pravoslávija vám vvírennoje stádo prepitáste: voístinnu sládosti krásnych potókov naslaždájetesja vo víki."),
         ("","","Svitíla prepodóbniji vírnym javístesja, jáko soveršívše ďilá svíta, i k božéstvenňij svítlosti prestávistesja: ťmý nás svobodíti molítesja Vladýci."),
         ("","","Veselísja soslóvije žénskoje, póčestej ispolnénije vsjákich prijémšeje ránami, i lík rádujsja proróčeskij, i právednych, uhodívšich Christú vo víki."),
         ("Bohoródičen","","Orúžije obraščájuščejesja nýňi, dážď Vladýko nevozbránno proití, prestávlenym ot žitijá rabóm tvojím: vnútr rajá ťích vseľája, jáko jedín mílostiv."),
@@ -215,7 +215,7 @@
     "P9": (
       "1": (
         ("","","Jáko sotvorí tebí velíčija sílnyj, Ďívu jávľ ťá čístu po roždeství, jáko róždšuju bez símene svojehó tvorcá: ťím ťá Bohoródicu veličájem."),
-        ("","","Svjáščennoďíjstvenniji pás-tyrije prorók svjatých lík, právednych neizčétnoje mnóžestvo: múčenikov sobór, svjaščénnymi písňmi da ublažájutsja: moľáščesja spastísja dušám nášym."),
+        ("","","Svjáščennoďíjstvenniji pástyrije prorók svjatých lík, právednych neizčétnoje mnóžestvo: múčenikov sobór, svjaščénnymi písňmi da ublažájutsja: moľáščesja spastísja dušám nášym."),
         ("","","Jáko čúdnyj póstničestvovav prepodóbnych sobór premúdrenno, čudés pokazáňmi mnóhimi nýňi udivísja: ťích moľbámi dívnyj Hóspodi, udiví na vsích mílosti tvojá."),
         ("","","So svjaščennomúčeniki skončávšimi tečénije dóbri, žén bezčíslennoje mnóžestvo postradávšeje i postívšejesja, ľubóviju da ublažájetsja vírno, so ánheľskimi líki prebyvájuščeje."),
         ("","","Svjatých vsích mnóžestvo mólit ťá Slóve: upokój mnóžestva jáže vo víri ot zemlí prestávlenyja, za mnóžestvo mílosti, jáže soďíjanaja ími v žitií, prezirája sohrišénija."),

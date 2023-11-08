@@ -183,7 +183,7 @@
     ),
     "P7": (
       "1": (
-        ("","","Sohrišíchom, bezzakónno-vachom, neprávdovachom pred tobóju, nižé sobľudóchom, nižé sotvoríchom, jákože zapovídal jesí nám: no ne predážď nás do koncá, otcév Bóže."),
+        ("","","Sohrišíchom, bezzakónnovachom, neprávdovachom pred tobóju, nižé sobľudóchom, nižé sotvoríchom, jákože zapovídal jesí nám: no ne predážď nás do koncá, otcév Bóže."),
         ("","","Vziráju na mílosť tvojú bezmírnuju, bezmírno sohrišívyj, vím tvojé milosérdije, vím dolhoterpínije i nezlóbije: pokajánija mí dáruj plodý, ščédryj Christé, i spasí mja."),
         ("","","Uvračúj, ščédre, sérdca mojehó neiscíľnyja strásti, dáruj otsičénije dolhóv mojích, ťážkoje brémja oblehčí: da vo umiléniji ťá slávľu prísno otcév Bóha."),
         ("Múčeničen","","Vjážemi, ssicájemi, i sňidájemi ohném veščéstvennym, ľvóm predajémi na sňíď, i proťazájemi na kolesích, ne otverhóšasja tebé živáho Bóha nášeho, božéstvenniji i svjaščénniji stradáľcy."),

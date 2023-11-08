@@ -141,7 +141,7 @@
         ("", "", "Rúci i óči oskverních Hóspodi, soďíjav jáže neľípo jésť tvoríti, i v hňív podvihóch ščedróty tvojá, iždív tvojé dolhoterpínije: prizrív uščédri mjá bláže."),
         ("Múčeničen", "", "Kóľ díven Bóh náš vo svjatých jésť, poslúšavšich jehó, i nizlahájuščich istukánnyja pohíbeli, i nasľídovavšich rajá prostránstvo, ot nehóže drévle izhnán býsť Adám."),
         ("Múčeničen", "", "Strujámi krovéj blažénniji ustáviste króv, prinosímuju inohdá démonom, vsím pohíbeľnuju, na páhubu prinosjáščym čelovíkom. Sehó rádi ublažájemi jesté prísno."),
-        ("Bohoródičen", "", "Naučívsja Dúchom proróčeskij preslávnyj lík, jéže páče umá tvojéj tájňi Bohoródice, različnoobrázno sijú pred-načertájet svjaščénnymi obrazý, íchže konéc zrím svítlo."),
+        ("Bohoródičen", "", "Naučívsja Dúchom proróčeskij preslávnyj lík, jéže páče umá tvojéj tájňi Bohoródice, različnoobrázno sijú prednačertájet svjaščénnymi obrazý, íchže konéc zrím svítlo."),
       ),
       "2": (
         ("", "", "Prišél jesí ot Ďívy, ne chodátaj, ni ánhel, no sám Hóspodi voplóščsja, i spásl jesí vsehó mja čelovíka. Ťím zovú ti: sláva síľi tvojéj Hóspodi."),

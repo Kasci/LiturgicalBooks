@@ -180,7 +180,7 @@
   "S2": (
     ("","","Hóspodi, po tridnévňim tvojém voskreséniji, i apóstolov poklonéniji, Pétr vopijáše tí: žený derznovénije prijáša, áz že ubojáchsja. Razbójnik bohoslóvjaše, áz že otverhóchsja. Úbo prizovéši li mjá próčeje učeniká býti? Ilí páki pokážeši mjá lovcá hlubínnaho? No kájuščasja prijimí mja Bóže, i spasí mja."),
     ("","","Hóspodi, posreďí osuždénnych prihvozdíša ťá bezzakónniji, i kopijém rebró tvojé probodóša, o Mílostive! Pohrebénije že prijál jesí, razrušívyj ádova vratá, i voskrésl jesí tridnévno. Pritekóša žený víďiti ťá, i vozvistíša apóstolom vostánije: prevoznosímyj Spáse, jehóže pojút ánheli, blahoslovénnyj Hóspodi, sláva tebí."),
-    ("Bohoródičen","","Neiskusobráč-naja nevísto Bohorodíteľnice, jáže Jévinu pečáľ radostotvorívšaja, vospivájem vírniji i poklaňájemsja tebí, jáko vozvelá jesí nás ot drévnija kľátvy: i nýňi molí neprestánno, vsepítaja, presvjatája, vo jéže spastísja nám."),
+    ("Bohoródičen","","Neiskusobráčnaja nevísto Bohorodíteľnice, jáže Jévinu pečáľ radostotvorívšaja, vospivájem vírniji i poklaňájemsja tebí, jáko vozvelá jesí nás ot drévnija kľátvy: i nýňi molí neprestánno, vsepítaja, presvjatája, vo jéže spastísja nám."),
   ),
   "Y": (
     ("", "", "Ánheľskim zrákom úm smuščájuščja, i božéstvennym vostánijem dušéju prosviščájemy, mironósicy apóstolom blahovistvováchu: vozvistíte vo jazýcich voskresénije, Hóspodu soďíjstvujušču čudesý, podajúščemu nám véliju mílosť."),

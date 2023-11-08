@@ -82,7 +82,7 @@
   "S1": (
     ("", "", "Krest vodruzísja na zemlí, i kosnúsja nebesé, ne jáko drévu dosjáhšu vysotú, no tebí na ném, ispolňájuščemu vsjáčeskaja: sláva tebi."),
     ("", "", "Krest i smérť postradáti izvólivyj, posreďí tvárej sijá preterpíl jesí, jehdá blahoizvólil jesí Spáse, ťílo tvojé prihvozdíti, tohdá i sólnce lučý skrý: tohdá i razbójnik sijá zrjá, na kresťí ťa vospít, vopijá blahohovíjno: pomjaní mja Hóspodi: i vírovav, priját ráj."),
-    ("Krestobohoródičen", "", "Ne-skvérnaja áhnica Slóva, netľínnaja Ďíva Máti, na kresťí zrjášči povíšena iz nejá bez boľízni prozjábšaho, máterski podóbno rydájušči, vopijáše: uvý mňí čádo mojé, káko stráždeši vóleju, choťá izbáviti ot strastéj bezčéstija čelovíka?"),
+    ("Krestobohoródičen", "", "Neskvérnaja áhnica Slóva, netľínnaja Ďíva Máti, na kresťí zrjášči povíšena iz nejá bez boľízni prozjábšaho, máterski podóbno rydájušči, vopijáše: uvý mňí čádo mojé, káko stráždeši vóleju, choťá izbáviti ot strastéj bezčéstija čelovíka?"),
   ),
   "S2": (
     ("", "", "Na kiparísi, i pévki, i kédri, voznéslsja jesí Áhnče Bóžij: da spaséši íže víroju poklaňájuščyjasja vóľnomu tvojemú raspjátiju. Christé Bóže, sláva tebí."),
