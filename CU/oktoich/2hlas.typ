@@ -1,5 +1,5 @@
 #import "/styleMenlive.typ": *
-#import "./texts.typ": *
+#import "/CU/texts.typ": *
 
 = #translation.at("HLAS") 2
 
