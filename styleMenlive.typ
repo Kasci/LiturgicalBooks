@@ -16,6 +16,10 @@
   #if k.at(0).len() > 0 [#secText[#k.at(0):]] #k.at(2)
 ]
 
+#let tblNote(t, txt) = {
+  (primText[$#sym.ast.circle$], makeSec(make(t(txt))))
+}
+
 #let styleTable(tbl) = {
   for i in range(tbl.len() - 1) {
     let first = tbl.at(i).at(1).at(2)
@@ -44,20 +48,34 @@
 
 #let hlasVecieren(day, dayidx, h_st, s_st, t) = {
   let c = counter("day")
+
+  let n = 10
+  if dayidx == -1 {
+    n = 4
+  } else if dayidx != 0 {
+    n = 6
+  } 
   
   if "HV" in day {
     [==== #t("HOSPODI_VOZVACH")]
 
     let (..verse, last) = day.at("HV")
-    c.update(verse.len())
-    let h = h_st.slice(-1*(verse.len()))
+    c.update(n)
+    let h = h_st.slice(-1*n)
     let z = verse.zip(h)
+    if dayidx != -1 {
+      z = z.slice(0,n - 3)
+    }
     let tbl = {
       z.map(k => (
             primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
             [], makeGray(k.at(1))
         )
       )
+    }
+    if dayidx != -1 {
+      tbl.push(tblNote(t, "HV_MINEA"))
+      tbl.push(tblNote(t, "HV_NOTE"))
     }
     tbl.push((primText[S:I:], last))
     styleTable(tbl)
@@ -175,11 +193,12 @@
 }
 
 #let kanonUtieren(kanon, dayIdx, typs, pripivy, t) = {
-  let typ = typs.at(str(dayIdx))
-  if "?" in kanon {
-    // TODO: check and translate all cannons
-    typ = kanon.at("?")
-  }
+  // FIXME: think about and fix headers
+  // let typ = typs.at(str(dayIdx))
+  // if "?" in kanon {
+  //   // TODO: check and translate all cannons
+  //   typ = kanon.at("?")
+  // }
   for k in range(1,10) {
     let kk = "P"+str(k)
     if kk in kanon {
@@ -227,9 +246,9 @@
             let p = pripiv(pripivy, dayIdx, i, 0)
             tbl.insert(1,(primText[$#sym.rho$], makeGray(make(p))))   
           }
-          if typ != none {
-            tbl.insert(0, ("", makeSec(make(typ.at(i - 1)))))
-          }
+          // if typ != none {
+          //   tbl.insert(0, ("", makeSec(make(typ.at(i - 1)))))
+          // }
           styleTable(tbl)
         }
       }
@@ -253,7 +272,8 @@
     [==== #t("TROPAR")]
     let (tropar, bohorodicen) = day.at("T")
     let tbl = ()
-    tbl.push((primText[$#sym.TT$], tropar))    
+    tbl.push((primText[$#sym.TT$], tropar))   
+    tbl.push(tblNote(t, "T_NOTE")) 
     tbl.push((primText[$#sym.BB$], bohorodicen))  
     styleTable(tbl)
   }
@@ -464,18 +484,18 @@
   #show: rest => columns(2, rest)
   
   == #t("Ne")
-  === #t("M")\ (#t("So_V"))
-  #hlasVecieren(ne_m, -1, h_st, s_st, t)
-  #colbreak(weak: true)
+  // === #t("M")\ (#t("So_V"))
+  // #hlasVecieren(ne_m, -1, h_st, s_st, t)
+  // #colbreak(weak: true)
   === #t("V")\ (#t("So_V"))
   #hlasVecieren(ne_v, 0, h_st, s_st, t)
   #colbreak(weak: true)
-  === #t("P")\ (#t("So_N"))
-  #hlasPovecerie(ne_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("N")
-  #hlasPolnocnica(ne_n, n_st, t)
-  #colbreak(weak: true)
+  // === #t("P")\ (#t("So_N"))
+  // #hlasPovecerie(ne_p, p_st, t)
+  // #colbreak(weak: true)
+  // === #t("N")
+  // #hlasPolnocnica(ne_n, n_st, t)
+  // #colbreak(weak: true)
   === #t("U")
   #hlasUtieren(ne_u, 0, typs, pripivy, sd_st, ch_st, su_st, t)
   #colbreak(weak: true)
@@ -486,84 +506,84 @@
   == #t("Po")
   === #t("V")\ (#t("Ne_V"))
   #hlasVecieren(po_v, 1, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")\ (#t("Ne_N"))
-  #hlasPovecerie(po_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(po_u, 1, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #hlasLiturgia(po_l, b_st, t)
-  #colbreak(weak: true)
+  // #colbreak(weak: true)
+  // === #t("P")\ (#t("Ne_N"))
+  // #hlasPovecerie(po_p, p_st, t)
+  // #colbreak(weak: true)
+  // === #t("U")
+  // #hlasUtieren(po_u, 1, typs, pripivy, sd_st, ch_st, su_st, t)
+  // #colbreak(weak: true)
+  // === #t("L")
+  // #hlasLiturgia(po_l, b_st, t)
+  // #colbreak(weak: true)
   
-  == #t("Ut")
-  === #t("V")\ (#t("Po_V"))
-  #hlasVecieren(ut_v, 2, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")\ (#t("Po_N"))
-  #hlasPovecerie(ut_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(ut_u, 2, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #hlasLiturgia(ut_l, b_st, t)
-  #colbreak(weak: true)
+  // == #t("Ut")
+  // === #t("V")\ (#t("Po_V"))
+  // #hlasVecieren(ut_v, 2, h_st, s_st, t)
+  // #colbreak(weak: true)
+  // === #t("P")\ (#t("Po_N"))
+  // #hlasPovecerie(ut_p, p_st, t)
+  // #colbreak(weak: true)
+  // === #t("U")
+  // #hlasUtieren(ut_u, 2, typs, pripivy, sd_st, ch_st, su_st, t)
+  // #colbreak(weak: true)
+  // === #t("L")
+  // #hlasLiturgia(ut_l, b_st, t)
+  // #colbreak(weak: true)
   
-  == #t("Sr")
-  === #t("V")\ (#t("Ut_V"))
-  #hlasVecieren(sr_v, 3, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")\ (#t("Ut_N"))
-  #hlasPovecerie(sr_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(sr_u, 3, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #hlasLiturgia(sr_l, b_st, t)
-  #colbreak(weak: true)
+  // == #t("Sr")
+  // === #t("V")\ (#t("Ut_V"))
+  // #hlasVecieren(sr_v, 3, h_st, s_st, t)
+  // #colbreak(weak: true)
+  // === #t("P")\ (#t("Ut_N"))
+  // #hlasPovecerie(sr_p, p_st, t)
+  // #colbreak(weak: true)
+  // === #t("U")
+  // #hlasUtieren(sr_u, 3, typs, pripivy, sd_st, ch_st, su_st, t)
+  // #colbreak(weak: true)
+  // === #t("L")
+  // #hlasLiturgia(sr_l, b_st, t)
+  // #colbreak(weak: true)
   
-  == #t("St")
-  === #t("V")\ (#t("Sr_V"))
-  #hlasVecieren(st_v, 4, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")\ (#t("Sr_N"))
-  #hlasPovecerie(st_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(st_u, 4, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #hlasLiturgia(st_l, b_st, t)
-  #colbreak(weak: true)
+  // == #t("St")
+  // === #t("V")\ (#t("Sr_V"))
+  // #hlasVecieren(st_v, 4, h_st, s_st, t)
+  // #colbreak(weak: true)
+  // === #t("P")\ (#t("Sr_N"))
+  // #hlasPovecerie(st_p, p_st, t)
+  // #colbreak(weak: true)
+  // === #t("U")
+  // #hlasUtieren(st_u, 4, typs, pripivy, sd_st, ch_st, su_st, t)
+  // #colbreak(weak: true)
+  // === #t("L")
+  // #hlasLiturgia(st_l, b_st, t)
+  // #colbreak(weak: true)
   
-  == #t("Pi")
-  === #t("V")\ (#t("St_V"))
-  #hlasVecieren(pi_v, 5, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")\ (#t("St_N"))
-  #hlasPovecerie(pi_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(pi_u, 5, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #hlasLiturgia(pi_l, b_st, t)
-  #colbreak(weak: true)
+  // == #t("Pi")
+  // === #t("V")\ (#t("St_V"))
+  // #hlasVecieren(pi_v, 5, h_st, s_st, t)
+  // #colbreak(weak: true)
+  // === #t("P")\ (#t("St_N"))
+  // #hlasPovecerie(pi_p, p_st, t)
+  // #colbreak(weak: true)
+  // === #t("U")
+  // #hlasUtieren(pi_u, 5, typs, pripivy, sd_st, ch_st, su_st, t)
+  // #colbreak(weak: true)
+  // === #t("L")
+  // #hlasLiturgia(pi_l, b_st, t)
+  // #colbreak(weak: true)
   
-  == #t("So")
-  === #t("V")\ (#t("Pi_V"))
-  #hlasVecieren(so_v, 6, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")\ (#t("Pi_N"))
-  #hlasPovecerie(so_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(so_u, 6, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #hlasLiturgia(so_l, b_st, t)
-  #colbreak(weak: true)
+  // == #t("So")
+  // === #t("V")\ (#t("Pi_V"))
+  // #hlasVecieren(so_v, 6, h_st, s_st, t)
+  // #colbreak(weak: true)
+  // === #t("P")\ (#t("Pi_N"))
+  // #hlasPovecerie(so_p, p_st, t)
+  // #colbreak(weak: true)
+  // === #t("U")
+  // #hlasUtieren(so_u, 6, typs, pripivy, sd_st, ch_st, su_st, t)
+  // #colbreak(weak: true)
+  // === #t("L")
+  // #hlasLiturgia(so_l, b_st, t)
+  // #colbreak(weak: true)
 ]

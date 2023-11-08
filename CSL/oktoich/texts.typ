@@ -58,7 +58,7 @@
   ),
   "4": (
     "Kanón svjatým apóstolom",
-    "Kanón Nikoláju čudotvórcu"
+    "Kanón vo svjatých otcú nášemu Nikoláju čudotvórcu"
   ),
   "5": (
     "Kanón čéstnómu i životvorjáščemu krestú",
@@ -169,4 +169,8 @@
   "CHVALITE": "Stichíry na chvalítech",
   "BLAZENNA": "Blažénna",
   "TROPAR_KONDAK": "Tropár i Kondák",
+  
+  "HV_MINEA": "Taže stichiry Svjataho 3 iz Minei ili iz Obščiny.",
+  "HV_NOTE": "Sláva: Svjatomu ili Prazdniku, I nýňi: Bohorodičen, ašče nebudet Sláva: I nýňi: Bohorodičen",
+  "T_NOTE": "Sláva: Svjatomu; I nýňi: Bohorodičen voskresen"
 )
