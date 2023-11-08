@@ -1,42 +1,42 @@
 #import "/utilsMenlive.typ": *
 
 #let h_st = (
-  make("Izvedí iz temnícy dúšu mojú, ispovídatisja ímeni tvojemú."),
-  make("Mené ždút právednicy, dóndeže vozdási mňi."),
-  make("Iz hlubiný vozvách k tebí Hóspodi, Hóspodi uslýši hlas moj."),
-  make("Da búdut úši tvojí vnémľušči hlásu molénija mojehó."),
-  make("Ašče bezzakónija nazriši Hóspodi, Hóspodi kto postojít, jáko u tebé očiščénije jesť."),
-  make("Imené rádi tvojehó poterpích ťa Hóspodi, poterpí dušá mojá vo slóvo tvojé, upová dušá mojá na Hóspoda."),
-  make("Ot stráži útrenija do nóšči, ot stráži útrénija da upovájet Isrájiľ na Hóspoda."),
-  make("Jáko u Hóspoda mílosť i mnóhoje u ného izbavlénije, i toj izbávit isrájiľa ot vsich bezzakónij jehó."),
-  make("Chvalíte Hóspoda vsi jazýcy, pochvalíte jehó vsi ľúdije."),
-  make("Jáko utverdísja mílosť jehó na nás, i ístina Hospódňa prebyvájet vo vík."),
+  "Izvedí iz temnícy dúšu mojú, ispovídatisja ímeni tvojemú.",
+  "Mené ždút právednicy, dóndeže vozdási mňi.",
+  "Iz hlubiný vozvách k tebí Hóspodi, Hóspodi uslýši hlas moj.",
+  "Da búdut úši tvojí vnémľušči hlásu molénija mojehó.",
+  "Ašče bezzakónija nazriši Hóspodi, Hóspodi kto postojít, jáko u tebé očiščénije jesť.",
+  "Imené rádi tvojehó poterpích ťa Hóspodi, poterpí dušá mojá vo slóvo tvojé, upová dušá mojá na Hóspoda.",
+  "Ot stráži útrenija do nóšči, ot stráži útrénija da upovájet Isrájiľ na Hóspoda.",
+  "Jáko u Hóspoda mílosť i mnóhoje u ného izbavlénije, i toj izbávit isrájiľa ot vsich bezzakónij jehó.",
+  "Chvalíte Hóspoda vsi jazýcy, pochvalíte jehó vsi ľúdije.",
+  "Jáko utverdísja mílosť jehó na nás, i ístina Hospódňa prebyvájet vo vík.",
 )
 
 #let s_st = (
   "-1": (
-    make("Pomjanú ímja tvojé vo vsjákom róďi i róďi."),
-    make("Slýši dščí i vížď, i prikloní úcho tvojé."),
-    make("Licú tvojemú pomóľatsja bohátiji ľúdstiji.")
+    make3("Pomjanú ímja tvojé vo vsjákom róďi i róďi."),
+    make3("Slýši dščí i vížď, i prikloní úcho tvojé."),
+    make3("Licú tvojemú pomóľatsja bohátiji ľúdstiji.")
   ),
   "0": (
-    make("Hospóď vocarísja, v ľipótu oblečésja."),
-    make("Íbo utverdí vselénnuju, jáže ne podvížitsja."),
-    make("Dómu tvojemú podobájet svjatýňa Hóspodi, v dolhotú dníj."),
+    make3("Hospóď vocarísja, v ľipótu oblečésja."),
+    make3("Íbo utverdí vselénnuju, jáže ne podvížitsja."),
+    make3("Dómu tvojemú podobájet svjatýňa Hóspodi, v dolhotú dníj."),
   ),
   "6": (
-    make("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
-    make("Dúšy ích vo blahích vodvorjátsja."),
-    make("")
+    make3("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
+    make3("Dúšy ích vo blahích vodvorjátsja."),
+    make3("")
   ),
   "x": (
-    make("K tebí vozvedóch óči mojí, živúščemu na nebesí. Sé jáko óči ráb v rukú hospódij svojích, jáko óči rabýni v rukú hospoží svojejá: táko óči náši ko Hóspodu Bóhu nášemu, dóndeže uščédrit ný."),
-    make("Pomíluj nás Hóspodi, pomíluj nás, jáko po mnóhu ispólnichomsja uničižénija: naipáče napólnisja dušá náša ponošénija hobzújuščich i uničižénija hórdych."),
+    make3("K tebí vozvedóch óči mojí, živúščemu na nebesí. Sé jáko óči ráb v rukú hospódij svojích, jáko óči rabýni v rukú hospoží svojejá: táko óči náši ko Hóspodu Bóhu nášemu, dóndeže uščédrit ný."),
+    make3("Pomíluj nás Hóspodi, pomíluj nás, jáko po mnóhu ispólnichomsja uničižénija: naipáče napólnisja dušá náša ponošénija hobzújuščich i uničižénija hórdych."),
   )
 )
 
-#let p_st = make("Presvjatája Bohoródice spasí nás.")
-#let n_st = make("Presvjatája Tróice Bóže náš, sláva tebí.")
+#let p_st = make3("Presvjatája Bohoródice spasí nás.")
+#let n_st = make3("Presvjatája Tróice Bóže náš, sláva tebí.")
 
 #let typs = (
   "0": (
@@ -80,47 +80,50 @@
 )
 
 #let sd_st = (
-  make("Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá."),
-  make("Ispovímsja tebí Hóspodi vsím sérdcem mojím, povím vsjá čudesá tvojá.")
+  make3("Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá."),
+  make3("Ispovímsja tebí Hóspodi vsím sérdcem mojím, povím vsjá čudesá tvojá.")
 )
 
 #let ch_st = (
-  make("Sotvoríti v ních súd napísan, sláva sijá búdet vsím prepodóbnym jehó."),
-  make("Chvalíte Bóha vo svjatých jehó, chvalíte jehó v utverždéniji síly jehó."),
-  make("Chvalíte jehó na sílach jehó, * chvalíte jehó po mnóžestvu velíčestvija jehó."),
-  make("Chvalíte jehó v hlási trúbňim, * chvalíte jehó v psaltíri i húsľich."),
-  make("Chvalíte jehó v tympáňi i líci, * chvalíte jehó v strúnach i orháňi."),
-  make("Chvalíte jehó v kymváľich dobrohlásnych, chvalíte jehó v kymváľich vosklicánija, * vsjákoje dychánije da chvalít Hóspoda."),
-  make("Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá."),
-  make("Ispovímsja tebí Hóspodi, vsím sérdcem mojím, povím vsjá čudesá tvojá."),
+  make3("Sotvoríti v ních súd napísan, sláva sijá búdet vsím prepodóbnym jehó."),
+  make3("Chvalíte Bóha vo svjatých jehó, chvalíte jehó v utverždéniji síly jehó."),
+  make3("Chvalíte jehó na sílach jehó, * chvalíte jehó po mnóžestvu velíčestvija jehó."),
+  make3("Chvalíte jehó v hlási trúbňim, * chvalíte jehó v psaltíri i húsľich."),
+  make3("Chvalíte jehó v tympáňi i líci, * chvalíte jehó v strúnach i orháňi."),
+  make3("Chvalíte jehó v kymváľich dobrohlásnych, chvalíte jehó v kymváľich vosklicánija, * vsjákoje dychánije da chvalít Hóspoda."),
+  make3("Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá."),
+  make3("Ispovímsja tebí Hóspodi, vsím sérdcem mojím, povím vsjá čudesá tvojá."),
 )
 
 #let su_st = (
   "x": (
-    make("Ispólnichomsja zaútra mílosti tvojejá Hóspodi, i vozrádovachomsja i vozveselíchomsja, vo vsjá dní náša vozveselíchomsja, za dní, v ňáže smiríl ný jesí, ľíta, v ňáže víďichom zlája: i prízri na rabý tvojá, i na ďilá tvojá, i nastávi sýny ích."),
-    make("I búdi svítlosť Hóspoda Bóha nášeho na nás, i ďilá rúk nášich isprávi na nás, i ďílo rúk nášich isprávi.")
+    make3("Ispólnichomsja zaútra mílosti tvojejá Hóspodi, i vozrádovachomsja i vozveselíchomsja, vo vsjá dní náša vozveselíchomsja, za dní, v ňáže smiríl ný jesí, ľíta, v ňáže víďichom zlája: i prízri na rabý tvojá, i na ďilá tvojá, i nastávi sýny ích."),
+    make3("I búdi svítlosť Hóspoda Bóha nášeho na nás, i ďilá rúk nášich isprávi na nás, i ďílo rúk nášich isprávi.")
   ),
   "6": (
-    make("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
-    make("Dúšy ích vo blahích vodvorjátsja."),
-    make("I pámjať ích v ród i ród.")
+    make3("Blažéni, jáže izbrál i prijál jesí Hóspodi."),
+    make3("Dúšy ích vo blahích vodvorjátsja."),
+    make3("I pámjať ích v ród i ród.")
   )
 )
 
 #let b_st = (
-  make("Blažéni níščiji Dúchom, jáko ťích jésť cárstvo nebésnoje."),
-  make("Blažéni pláčuščiji, jáko tíji uťíšatsja."),
-  make("Blažéni krótcyji, jáko tíji nasľíďat zémľu."),
-  make("Blaženi alčuščiji i žažduščiji pravdy, jako tiji nasyťatsja."),
-  make("Blaženi milostiviji, jako tiji pomilovani budut."),
-  make("Blažéni čístiji sérdcem, jáko tíji Bóha úzrjat."),
-  make("Blažéni mirotvórcy, jáko tíji Sýnove Bóžiji narekútsja."),
-  make("Blažéni izhnáni právdy rádi, jáko ťích jésť cárstvo nebésnoje."),
-  make("Blažéni jesté, jehdá ponósjat vám, i iždenút, i rekút vsják zól hlahól na vý lžúšče mené rádi."),
-  make("Rádujtesja i veselítesja, jáko mzdá váša mnóha na nebesích.")
+  make3("Blažéni níščiji Dúchom, jáko ťích jésť cárstvo nebésnoje."),
+  make3("Blažéni pláčuščiji, jáko tíji uťíšatsja."),
+  make3("Blažéni krótcyji, jáko tíji nasľíďat zémľu."),
+  make3("Blaženi alčuščiji i žažduščiji pravdy, jako tiji nasyťatsja."),
+  make3("Blaženi milostiviji, jako tiji pomilovani budut."),
+  make3("Blažéni čístiji sérdcem, jáko tíji Bóha úzrjat."),
+  make3("Blažéni mirotvórcy, jáko tíji Sýnove Bóžiji narekútsja."),
+  make3("Blažéni izhnáni právdy rádi, jáko ťích jésť cárstvo nebésnoje."),
+  make3("Blažéni jesté, jehdá ponósjat vám, i iždenút, i rekút vsják zól hlahól na vý lžúšče mené rádi."),
+  make3("Rádujtesja i veselítesja, jáko mzdá váša mnóha na nebesích.")
 )
 
 #let translation = (
+  "MINEA_OBS": "Minea obščaja",
+  "M_BOHORODICKA": "Presvjatij Bohorodicy",
+
   "HLAS": "Hlas",
   "Ne": "Neďiľa",
   "Po": "Poneďiľňik",

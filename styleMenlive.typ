@@ -1,51 +1,6 @@
 #import "/style.typ": *
 #import "/utilsMenlive.typ": *
 
-#let makeGray(txt) = {
-  txt.at(2) = text(10pt, grayText(txt.at(2)))
-  txt
-}
-
-#let makeSec(txt) = {
-  txt.at(2) = text(10pt, secText(txt.at(2)))
-  txt
-}
-
-#let styleOne(k) = [
-  #if k.at(1).len() > 0 [#secText[($#sym.PP:$ #k.at(1))]\ ]
-  #if k.at(0).len() > 0 [#secText[#k.at(0):]] #k.at(2)
-]
-
-#let tblNote(t, txt) = {
-  (primText[$#sym.ast.circle$], makeSec(make(t(txt))))
-}
-
-#let styleTable(tbl) = {
-  for i in range(tbl.len() - 1) {
-    let first = tbl.at(i).at(1).at(2)
-    let second = tbl.at(i+1).at(1).at(2)
-    if first == second {
-      let spl = first.split(" ")
-      if spl.len() > 2 {
-        tbl.at(i+1).at(1).at(2) = [#spl.slice(0,3).join(" ") ...]
-      }
-    }
-  }
-  tbl = tbl.map(k => 
-    if k.len() == 2 {
-      (k.at(0), styleOne(k.at(1)))
-    } else {
-      (k.at(2), styleOne(k.at(3)), k.at(0), styleOne(k.at(1)))
-    }
-  ) 
-  table(
-    columns: (10pt, auto),
-    stroke: none,
-    align: (x, y) => (right, left).at(x),
-    ..tbl.flatten()
-  )
-}
-
 #let hlasVecieren(day, dayidx, h_st, s_st, t) = {
   let c = counter("day")
 
@@ -61,15 +16,15 @@
 
     let (..verse, last) = day.at("HV")
     c.update(n)
-    let h = h_st.slice(-1*n)
+    let h = h_st.map(it => make3(it)).slice(-1*n)
     let z = verse.zip(h)
     if dayidx != -1 {
       z = z.slice(0,n - 3)
     }
     let tbl = {
       z.map(k => (
+            [], makeGray(k.at(1)),
             primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
-            [], makeGray(k.at(1))
         )
       )
     }
@@ -78,7 +33,7 @@
       tbl.push(tblNote(t, "HV_NOTE"))
     }
     tbl.push((primText[S:I:], last))
-    styleTable(tbl)
+    styleTable3(tbl)
   }
 
   if "S" in day {
@@ -96,15 +51,15 @@
     let z = verse.zip(stichy)
     let tbl = {
       z.map(k => (
+          [], makeGray(k.at(1)),
           primText[#c.display("i:"); #c.step()], k.at(0),
-            [], makeGray(k.at(1))
         )
       )
     }
     c.update(1)
     tbl.insert(0, (primText[#c.display("i:"); #c.step()], first))
     tbl.push((primText[S:I:], last))
-    styleTable(tbl)
+    styleTable3(tbl)
   }
 
   if "T" in day {
@@ -114,7 +69,7 @@
       (primText[$#sym.TT$], tropar),
       (primText[$#sym.BB$], last)
     )
-    styleTable(tbl)
+    styleTable3(tbl)
     
   }
 }
@@ -129,7 +84,7 @@
       let (irmos, ..verse, semilast, last) = day.at(str(k))
       let tbl = {
         verse.map(k => (
-          primText[#c.display("i:"); #c.step()], k
+            primText[#c.display("i:"); #c.step()], k
           )
         )
       }
@@ -137,7 +92,7 @@
       tbl.insert(1,(primText[$#sym.rho$], makeGray(p_st)))
       tbl.push((primText[S:], semilast))  
       tbl.push((primText[I:], last))  
-      styleTable(tbl)
+      styleTable3(tbl)
       
       if k == 6 {
         [===== #t("SIDALEN")]
@@ -160,7 +115,7 @@
       let (irmos, ..verse, semilast, last) = day.at(str(k))
       let tbl = {
         verse.map(k => (
-          primText[#c.display("i:"); #c.step()], k
+            primText[#c.display("i:"); #c.step()], k
           )
         )
       }
@@ -168,21 +123,21 @@
       tbl.insert(1,(primText[$#sym.rho$], makeGray(n_st)))   
       tbl.push((primText[S:], semilast))  
       tbl.push((primText[I:], last))  
-      styleTable(tbl)
+      styleTable3(tbl)
       
       if k == 3 {
         [===== #t("SIDALEN")]
         let sdl = ()
         sdl.push((primText[$#sym.SS$], day.at("S1").at(0)))
         sdl.push((primText[S:I:], day.at("S1").at(1)))
-        styleTable(sdl)
+        styleTable3(sdl)
       }
       if k == 6 {
         [===== #t("SIDALEN")]
         let sdl = ()
         sdl.push((primText[$#sym.SS$], day.at("S2").at(0)))
         sdl.push((primText[S:I:], day.at("S2").at(1)))
-        styleTable(sdl)
+        styleTable3(sdl)
       }
     }
   }
@@ -214,7 +169,7 @@
             let (irmos, ..verse, semilast, last) = y
             tbl = {
               verse.map(k => (
-                primText[#c.display("i:"); #c.step()], k
+                  primText[#c.display("i:"); #c.step()], k
                 )
               )
             }
@@ -225,7 +180,7 @@
             let (irmos, ..verse) = y
             tbl = {
               verse.map(k => (
-                primText[#c.display("i:"); #c.step()], k
+                  primText[#c.display("i:"); #c.step()], k
                 )
               )
             }
@@ -234,7 +189,7 @@
             let (irmos, ..verse, last) = y
             tbl = {
               verse.map(k => (
-                primText[#c.display("i:"); #c.step()], k
+                  primText[#c.display("i:"); #c.step()], k
                 )
               )
             }
@@ -244,12 +199,12 @@
           // TODO: pridat pripivy
           if dayIdx == 0 {
             let p = pripiv(pripivy, dayIdx, i, 0)
-            tbl.insert(1,(primText[$#sym.rho$], makeGray(make(p))))   
+            tbl.insert(1,(primText[$#sym.rho$], makeGray(make3(p))))   
           }
           // if typ != none {
-          //   tbl.insert(0, ("", makeSec(make(typ.at(i - 1)))))
+          //   tbl.insert(0, ("", makeSec(make3(typ.at(i - 1)))))
           // }
-          styleTable(tbl)
+          styleTable3(tbl)
         }
       }
       
@@ -259,7 +214,7 @@
         let tbl = ()
         tbl.push((primText[$#sym.KK$], kon))    
         tbl.push((primText[$#sym.II #sym.KK$], ikos))  
-        styleTable(tbl)
+        styleTable3(tbl)
       }
     }
   }
@@ -275,7 +230,7 @@
     tbl.push((primText[$#sym.TT$], tropar))   
     tbl.push(tblNote(t, "T_NOTE")) 
     tbl.push((primText[$#sym.BB$], bohorodicen))  
-    styleTable(tbl)
+    styleTable3(tbl)
   }
   
   [==== #t("SIDALENY")]
@@ -289,7 +244,7 @@
       let (..verse, last) = day.at(s)
       let tbl = {
         verse.map(k => (
-              primText[#c.display("i:"); #c.step()], k
+            primText[#c.display("i:"); #c.step()], k
           )
         )
       }
@@ -301,7 +256,7 @@
         }
       }
       tbl.push((primText[S:I:], last))    
-      styleTable(tbl)
+      styleTable3(tbl)
     }
   }
 
@@ -320,13 +275,13 @@
       let (..verse, semilast, last) = day.at(a)
       let tbl = {
         verse.map(k => (
-              primText[#c.display("i:"); #c.step()], k
+            primText[#c.display("i:"); #c.step()], k
           )
         )
       }
       tbl.push((primText[S:], semilast)) 
       tbl.push((primText[I:], last))
-      styleTable(tbl)
+      styleTable3(tbl)
     }
   }
 
@@ -359,12 +314,12 @@
       c.update(verse.len())
       tbl = {
         z.map(k => (
-              primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
-              [], makeGray(k.at(1))
+            [], makeGray(k.at(1)),
+            primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
           )
         )
       }
-      styleTable(tbl)
+      styleTable3(tbl)
     } else {
       /* TYZDEN */
       let (..verse, last) = day.at("CH")
@@ -373,13 +328,13 @@
       c.update(verse.len())
       tbl = {
         z.map(k => (
-              primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
-              [], makeGray(k.at(1))
+            [], makeGray(k.at(1)),
+            primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
           )
         )
       }
       tbl.push((primText[S:I:], last))
-      styleTable(tbl)
+      styleTable3(tbl)
     }
   }
 
@@ -397,14 +352,14 @@
     let z = verse.zip(stichy)
     let tbl = {
       z.map(k => (
-            primText[#c.display("i:"); #c.step()], k.at(0),
-            [], makeGray(k.at(1))
+          [], makeGray(k.at(1)),
+          primText[#c.display("i:"); #c.step()], k.at(0),
         )
       )
     }
     tbl.insert(0, (primText[#c.display("i:"); #c.step()], first))
     tbl.push((primText[S:I:], last))
-    styleTable(tbl)
+    styleTable3(tbl)
   }
 
   // FIXME: remove
@@ -414,7 +369,7 @@
     let tbl = ()
     tbl.push((primText[$#sym.TT$], tropar))    
     // tbl.push((primText[$#sym.BB$], bohorodicen))  
-    styleTable(tbl)
+    styleTable3(tbl)
   }
 }
 
@@ -431,14 +386,14 @@
         if k.at(1).at(2) == "" {(
           primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0)
         )} else {(
+          [], makeGray(k.at(1)),
           primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0), 
-          [], makeGray(k.at(1))
         )}
       )
     }
     tbl.push((primText[S:], semilast))
     tbl.push((primText[I:], last))
-    styleTable(tbl)
+    styleTable3(tbl)
   }
 
   if "TKB" in day {
@@ -448,7 +403,7 @@
     tbl.push((primText[$#sym.TT$], t))
     tbl.push((primText[$#sym.KK$], k))
     tbl.push((primText[$#sym.BB$], b))
-    styleTable(tbl)    
+    styleTable3(tbl)    
   }
   
   if "P" in day {
