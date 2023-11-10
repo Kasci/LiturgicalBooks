@@ -50,6 +50,10 @@
   text(black)[#txt]
 }
 
+#let small(txt) = {
+  text(10pt)[#txt]
+}
+
 #let padNum(num) = {
   if num < 10 {"00"+str(num)}
   else if num < 100 {"0"+str(num)}

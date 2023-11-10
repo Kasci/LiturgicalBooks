@@ -30,7 +30,7 @@
       let body1 = h1.last().body
       let body2 = h2.last().body
       let body3 = h3.last().body
-      text(8pt, body1 + " - " + body2 + h(1fr) + body3)
+      text(8pt, body2 + h(1fr) + body3)
     }), 
     header-ascent: 75%,
     footer-descent: 75%
@@ -58,6 +58,7 @@
   ]
 
   show "(N.):": secText
+  show "и҆́мⷬ҇къ": secText
 
   // Main body.
   set par(justify: true)
@@ -67,7 +68,7 @@
 
 #show: project
 
-// #set text(font: "Monomakh Unicode", lang: "ru", fill: black)
-// #include("/CU/minea/0_vseob/00_all.typ")
-#set text(font: "Monomakh Unicode", lang: "cs", fill: black)
-#include("/CSL/minea/0_vseob/00_all.typ")
+#set text(font: "Monomakh Unicode", lang: "ru", fill: black)
+#include("/CU/minea/0_vseob/00_all.typ")
+// #set text(font: "Monomakh Unicode", lang: "cs", fill: black)
+// #include("/CSL/minea/0_vseob/00_all.typ")

@@ -123,6 +123,8 @@
 #let translation = (
   "MINEA_OBS": "Minea obščaja",
   "M_BOHORODICKA": "Presvjatij Bohorodicy",
+  "M_PROROK_JEDEN": "Proroku jedinomu",
+  "M_APOSTOL_JEDEN": "Apostolu jedínomu",
 
   "HLAS": "Hlas",
   "Ne": "Neďiľa",
@@ -175,5 +177,6 @@
   
   "HV_MINEA": "Taže stichiry Svjataho 3 iz Minei ili iz Obščiny.",
   "HV_NOTE": "Sláva: Svjatomu ili Prazdniku, I nýňi: Bohorodičen, ašče nebudet Sláva: I nýňi: Bohorodičen",
+  "HV_N_NOTE": "Bohorodičen po Ústavu",
   "T_NOTE": "Sláva: Svjatomu; I nýňi: Bohorodičen voskresen"
 )

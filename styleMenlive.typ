@@ -289,10 +289,10 @@
     [==== #t("PROKIMEN")]
     let (prokimen, versv) = day.at("P")
     [
-    #set par(first-line-indent: 1em)
+      #set par(first-line-indent: 1em)
       #prokimen.at(2)
       
-      #primText[Stich:] #versv.at(2)
+      #primText[#t("STICH"):] #versv.at(2)
     ]
   }
 
@@ -309,7 +309,7 @@
     if dayIdx == 0 {
       /* NEDELA */
       let (..verse) = day.at("CH")
-      let b = ch_st.slice(-1*(verse.len()))
+      let b = ch_st.map(x=>make3(x)).slice(-1*(verse.len()))
       let z = verse.zip(b)
       c.update(verse.len())
       tbl = {
@@ -323,7 +323,7 @@
     } else {
       /* TYZDEN */
       let (..verse, last) = day.at("CH")
-      let b = ch_st.slice(-1*(verse.len()+2),-2)
+      let b = ch_st.map(x=>make3(x)).slice(-1*(verse.len()+2),-2)
       let z = verse.zip(b)
       c.update(verse.len())
       tbl = {
