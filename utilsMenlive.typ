@@ -10,26 +10,26 @@
 
 #let makeGray(txt) = {
   txt.at(2) = text(10pt, grayText(txt.at(2)))
-  txt
+  return txt
 }
 
 #let makeSec(txt) = {
   txt.at(2) = text(10pt, secText(txt.at(2)))
-  txt
+  return txt
 }
 
 #let makeGray4(txt) = {
   txt.at(3) = text(10pt, grayText(txt.at(3)))
-  txt
+  return txt
 }
 
 #let makeSec4(txt) = {
   txt.at(3) = text(10pt, secText(txt.at(3)))
-  txt
+  return txt
 }
 
 #let tblNote(t, txt) = {
-  (primText[$#sym.ast.circle$], makeSec(make3(t(txt))))
+  (primText[$#sym.ast.circle$], make3(secText(t(txt))))
 }
 
 #let styleOne(k) = [
@@ -71,11 +71,15 @@
       two = second.at(1)
     }
     // three - 2 - text
-    let spl = second.at(2).split(" ")
-    if first.at(2) == second.at(2) and spl.len() > 2 {
-        three = [#spl.slice(0,3).join(" ") ...]
+    if type(second.at(2)) == "content" {
+      three = second.at(2)
     } else {
-      four = second.at(2)
+      let spl = second.at(2).split(" ")
+      if first.at(2) == second.at(2) and spl.len() > 2 {
+        three = [#spl.slice(0,3).join(" ") ...]
+      } else {
+        three = second.at(2)
+      }
     }
     if tbl.at(i+1).len() > 2 {
       ntbl.push((tbl.at(i+1).at(0), tbl.at(i+1).at(1), tbl.at(i+1).at(2), (one, two, three)))
@@ -89,9 +93,9 @@
     align: (x, y) => (right, left).at(x),
     ..(ntbl.map(k => 
       if k.len() == 2 {
-        (k.at(0), styleOne3(k.at(1)))
+        (k.at(0), styleOne(k.at(1)))
       } else {
-        (k.at(0), styleOne3(k.at(1)), k.at(2), styleOne3(k.at(3)))
+        (k.at(0), styleOne(k.at(1)), k.at(2), styleOne(k.at(3)))
       }
     )).flatten()
   )
@@ -122,11 +126,15 @@
       three = second.at(2)
     }
     // four - 3 - text
-    let spl = second.at(3).split(" ")
-    if first.at(3) == second.at(3) and spl.len() > 2 {
-        four = [#spl.slice(0,3).join(" ") ...]
+    if type(second.at(3)) == "content" {
+      three = second.at(3)
     } else {
-      four = second.at(3)
+      let spl = second.at(3).split(" ")
+      if first.at(3) == second.at(3) and spl.len() > 2 {
+          four = [#spl.slice(0,3).join(" ") ...]
+      } else {
+        four = second.at(3)
+      }
     }
     if tbl.at(i+1).len() > 2 {
       ntbl.push((tbl.at(i+1).at(0), tbl.at(i+1).at(1), tbl.at(i+1).at(2), (one, two, three, four)))

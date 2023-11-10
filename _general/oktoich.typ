@@ -65,9 +65,9 @@
 
 #show: project
 
-// #set text(font: "Monomakh Unicode", lang: "ru", fill: black)
-// #include("/CU/oktoich/all.typ")
-#set text(font: "Monomakh Unicode", lang: "cs", fill: black)
-#include("/CSL/oktoich/all.typ")
+#set text(font: "Monomakh Unicode", lang: "ru", fill: black)
+#include("/CU/oktoich/all.typ")
+// #set text(font: "Monomakh Unicode", lang: "cs", fill: black)
+// #include("/CSL/oktoich/all.typ")
 // #set text(font: "Imx Glycea", weight: "semibold", lang: "gr", fill: black)
 // #include("/GR/oktoich/all.typ")

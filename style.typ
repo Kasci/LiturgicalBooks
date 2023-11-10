@@ -27,31 +27,31 @@
 #let (primary, secondary) = R
 
 #let primText(txt) = {
-  text(primary)[#txt]
+  return text(primary, txt)
 }
 #let secText(txt) = {
-  text(secondary)[#txt]
+  return text(secondary, txt)
 }
 #let grayText(txt) = {
-  text(gray)[#txt]
+  text(gray, txt)
 }
 
 #let redText(txt) = {
-  text(red)[#txt]
+  text(red, txt)
 }
 #let blueText(txt) = {
-  text(blue)[#txt]
+  text(blue, txt)
 }
 #let greenText(txt) = {
-  text(green)[#txt]
+  text(green, txt)
 }
 
 #let relax(txt) = {
-  text(black)[#txt]
+  text(black, txt)
 }
 
 #let small(txt) = {
-  text(10pt)[#txt]
+  text(10pt, txt)
 }
 
 #let padNum(num) = {
