@@ -113,7 +113,7 @@
     ("Bohoródičen","","Neiskusobráčno Christá rodilá jesí, jéže po nám, nás rádi vosprijémša jestestvó prečístaja, i neprelóžna po obojú prebývša. Jehóže molí neprestánno, hrichóv mí darováti i iskušénij izbavlénije."),
   ),
   "3": (
-    ("","","Utverždéj v načáľi nebesá rázumom, i zémľu na vodách osnovávyj, na kámeni mjá Christé zápovidej tvojích{cérkve} utverdí, jáko ňísť svját páče tebé, jedíne čelovikoľúbče."),
+    ("","","Utverždéj v načáľi nebesá rázumom, i zémľu na vodách osnovávyj, na kámeni mjá Christé zápovidej tvojích (cérkve) utverdí, jáko ňísť svját páče tebé, jedíne čelovikoľúbče."),
     ("","","Tebé nepristúpnaho Bóha i carjá slávy na prestóľi Isáia víďi vysóci, i cheruvímy i serafímy slávjaščyja neprestánnymi písňmi, jedínstvennaho trijipostásnaho."),
     ("","","Jedínaho ot Otcá jáko ot umá roždénaho Slóva, i Dúcha proischoďášča neizhlahólanno, po kojemúždo pomyšléniji, i knížnymi učéniji postíhše, jedínaho Bóha trisólnečnaho počitájem."),
     ("","","Íže sýj neroždénnyj Otéc, i svojehó suščestvá sijánije rodív netľínno Sýna, svít ot svíta: ischódňi predlahájet sráslennyj svít Dúcha, vseďíteľna, i jedinočéstna."),

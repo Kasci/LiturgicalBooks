@@ -336,7 +336,7 @@
         ("","","Rosodáteľnu úbo péšč soďíla ánhel prepodóbnym otrokóm, chaldéji že opaľájuščeje veľínije Bóžije, mučíteľa uviščá vopíti: blahoslovén jesí Bóže otéc nášich."),
         ("","","Júnoš trijéch péšč ne opalí, roždestvó proobrazújuščich tvojé: božéstvennyj bo óhň tebé ne opalív, vselísja v ťá, i vsjá naučí vopíti: blahoslovén jesí Bóže otéc nášich."),
         ("","","Blážát koncý ťa vsečístaja Máti, jákože proreklá jesí, prosviščájemi svitolúčnymi sijáňmi tvojími, i blahodátiju pojúšče, vopijút: blahoslovén jesí Bóže otéc nášich."),
-        ("","","Páhubnyja úbo zúby v mjá vonzé zmíj lukávňijšij: no sám {sijá} tvój Bohomáti, sokruší Sýn, kríposť že mňí dadé vopíti: blahoslovén jesí Bóže otéc nášich."),
+        ("","","Páhubnyja úbo zúby v mjá vonzé zmíj lukávňijšij: no sám tvój Bohomáti, sokruší Sýn, kríposť že mňí dadé vopíti: blahoslovén jesí Bóže otéc nášich."),
         ("","","Očistílišče jestestvá tý jesí jedína Bohoblažénnaja, na rámu bo cheruvímsku siďáščaho Bóha bo objátijich nosjášči vopijéši: blahoslovén jesí Bóže otéc nášich."),
       ),
     ),
