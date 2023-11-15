@@ -27,15 +27,16 @@
         selector(heading.where(level:3)).before(loc),
         loc,
       )
-      let body1 = h1.last().body
-      let body2 = h2.last().body
-      let body3 = h3.last().body
-      text(8pt, body1 + " - " + body2 + h(1fr) + body3)
+      if h1.len() != 0 and h2.len() != 0 and h3.len() != 0 {
+        let body1 = h1.last().body
+        let body2 = h2.last().body
+        let body3 = h3.last().body
+        text(8pt, body1 + " - " + body2 + h(1fr) + body3)
+      }
     }), 
     header-ascent: 75%,
     footer-descent: 75%
   )
-
   
   // HEADINGS
   show heading.where(level: 1): it => [ 
@@ -62,6 +63,7 @@
   
   body
 }
+
 
 #show: project
 
