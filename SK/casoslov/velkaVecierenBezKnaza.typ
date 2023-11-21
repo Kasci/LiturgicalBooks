@@ -4,11 +4,6 @@
 
 = Veľká večiereň bez kňaza
 
-#align(horizon + center)[#primText[
-  #text(40pt)[Veľká \
-  večiereň]
-]]
-
 #show: rest => columns(2, rest)
 
 #nacaloBezKnaza

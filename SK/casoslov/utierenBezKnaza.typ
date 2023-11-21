@@ -4,11 +4,6 @@
 
 = Každodenná utiereň bez kňaza
 
-#align(horizon + center)[#primText[
-  #text(40pt)[Každodenná \
-  utiereň]
-]]
-
 #show: rest => columns(2, rest)
 
 #lettrine("Pane Ježišu Kriste, Bože náš, pre modlitby našich svätých otcov zmiluj sa nad nami.")

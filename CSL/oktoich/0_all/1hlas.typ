@@ -1,15 +1,15 @@
 #import "/styleMenlive.typ": *
-#import "/CU/texts.typ": *
+#import "/CSL/texts.typ": *
 
-= #translation.at("HLAS") 6
+= #translation.at("HLAS") 1
 
-#import "Hlas6/0_Nedela.typ" as Ne: *
-#import "Hlas6/1_Pondelok.typ" as Po: *
-#import "Hlas6/2_Utorok.typ" as Ut: *
-#import "Hlas6/3_Streda.typ" as Sr: *
-#import "Hlas6/4_Stvrtok.typ" as St: *
-#import "Hlas6/5_Piatok.typ" as Pi: *
-#import "Hlas6/6_Sobota.typ" as So: *
+#import "../Hlas1/0_Nedela.typ" as Ne: *
+#import "../Hlas1/1_Pondelok.typ" as Po: *
+#import "../Hlas1/2_Utorok.typ" as Ut: *
+#import "../Hlas1/3_Streda.typ" as Sr: *
+#import "../Hlas1/4_Stvrtok.typ" as St: *
+#import "../Hlas1/5_Piatok.typ" as Pi: *
+#import "../Hlas1/6_Sobota.typ" as So: *
 
 
 #hlas_all(Ne.M, Ne.V, Ne.P, Ne.N, Ne.U, Ne.L, 

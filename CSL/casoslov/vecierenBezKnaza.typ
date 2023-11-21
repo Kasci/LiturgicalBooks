@@ -4,11 +4,6 @@
 
 = Vsednévna večerňa mirskym činom
 
-#align(horizon + center)[#primText[
-  #text(40pt)[Vsednévna \
-  večerňa]
-]]
-
 #show: rest => columns(2, rest)
 
 #nacaloBezKnaza

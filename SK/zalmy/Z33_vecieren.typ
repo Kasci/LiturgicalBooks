@@ -2,7 +2,7 @@
 
 #set par(first-line-indent: 1em)
 
-#subheader[Žalm 33]
+=== Žalm 33
 
 #note[Žalm berieme v prípade, že je predpísaná lítia.]
 

@@ -1,13 +1,9 @@
 #import "../../style.typ": *
 #import "/SK/texts.typ": *
+#import "/SK/textsTmp.typ": *
 #import "../styleCasoslov.typ": *
 
-= Každodenná večiereň bez kňaza
-
-#align(horizon + center)[#primText[
-  #text(40pt)[Každodenná \
-  večiereň]
-]]
+= Každodenná večiereň 
 
 #show: rest => columns(2, rest)
 
@@ -25,7 +21,7 @@
 
 #ektenia(3)
 
-#header[Pane ja volám]
+== Pane ja volám
 
 Pane, ja volám k tebe, \* vyslyš ma: Vyslyš ma, Pane. \* Pane, ja volám k tebe, \* vypočuj hlas môj. \* Keď volám k tebe. \* Vyslyš ma, Pane.
 
@@ -46,38 +42,38 @@ Moja modlitba nech sa vznáša k tebe ako kadidlo \* a pozdvihnutie mojich rúk 
   "Lebo veľké je jeho milosrdenstvo voči nám * a pravda Pánova trvá na veky."
 ))
 
-#header[Svetlo tiché]
+== Svetlo tiché
 
 #lettrine("Svetlo tiché svätej slávy * nesmrteľného, Otca nebeského, * svätého, blaženého, * Ježišu Kriste, * keď sme prišli k západu slnka * a videli žiaru večernú, * ospevujeme Otca i Syna, i Svätého Ducha, Boha. * Je dôstojné preľúbeznými hlasmi oslavovať teba, Synu Boží, * ktorý dávaš život celému svetu, * preto ťa celý vesmír velebí.")
 
-#header[Prokimen]
+== Prokimen
 
 #prokimenyVecierne
 
-#header[Čítania]
+== Čítania
 
 #note[Berieme čítania ak sú:]
 
-#header[Večerný chválospev]
+== Večerný chválospev
 
 #lettrine("Ráč nás, Pane, v tento večer * zachrániť od hriechu. – Velebíme ťa, Pane, Bože otcov našich. * Chválime a oslavujeme tvoje meno na veky. Amen. * Preukáž nám, Pane, svoje milosrdenstvo, * lebo dúfame v teba. * Blahoslavený si, Pane, * nauč nás svoje pravdy. * Blahoslavený si, Vládca, * daj nám porozumieť svojim pravdám. * Blahoslavený si, Svätý, * osvieť nás svojimi pravdami. * Pane, tvoje milosrdenstvo je večné, * nepohŕdaj dielom svojich rúk. * Tebe patrí chvála, * tebe patrí pieseň, * tebe, Otcu i Synu, i Svätému Duchu, * patrí sláva teraz i vždycky, i na veky vekov. Amen.")
 
 #ektenia(12)
 
-#header[Veršové slohy]
+== Veršové slohy
 
 #slohy((
   "Oči dvíham k tebe, čo na nebesiach prebývaš. * Ako oči sluhov hľadia na ruky svojich pánov, ako oči služobníc hľadia na ruky svojej panej, * tak hľadia naše oči na Pána, nášho Boha, * kým sa nezmiluje nad nami.",
   "Zmiluj sa, Pane, nad nami, zmiluj sa nad nami, * lebo už máme dosť pohŕdania; * lebo naša duša má už dosť výsmechu boháčov * a pohŕdania pyšných."
 ))
 
-#header[Simeonova modlitba]
+== Simeonova modlitba
 
 #lettrine("Teraz prepustíš, Pane, svojho služobníka podľa svojho slova v pokoji, lebo moje oči uvideli tvoju spásu, ktorú si pripravil pred tvárou všetkých národov. Svetlo na osvietenie pohanov a slávu Izraela, tvojho ľudu.")
 
 #trojsvatePoOtcenas
 
-#header[Tropáre]
+== Tropáre
 
 #note[Berieme tropáre zakončené Bohorodičníkom:]
 

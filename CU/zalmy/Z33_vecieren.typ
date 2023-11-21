@@ -2,7 +2,7 @@
 
 #set par(first-line-indent: 1em)
 
-#subheader[Psalm 33]
+=== Psalm 33
 
 #note[Žalm berieme v prípade, že je predpísaná lítia.]
 

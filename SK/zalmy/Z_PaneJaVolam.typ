@@ -2,7 +2,7 @@
 
 #set par(first-line-indent: 1em)
 
-#subheader[Žalm 140]
+=== Žalm 140
 #note[(... Pokračovanie)]
 
 Bože, stráž nad mojimi rečami \* a dozeraj na moje slová.
@@ -23,7 +23,7 @@ Ochráň ma pred osídlom, čo mi nastrojili, \* pred nástrahami zlých ľudí.
 
 Nech bezbožní popadajú do vlastných sietí, \* zatiaľ čo ja prejdem bezpečne pomimo.
 
-#subheader[Žalm 141]
+=== Žalm 141
 
 Zo všetkých síl volám k Bohu o pomoc, \* hlasite prosím Boha o zľutovanie.  
 

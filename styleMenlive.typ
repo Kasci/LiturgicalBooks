@@ -12,7 +12,7 @@
   } 
   
   if "HV" in day {
-    [==== #t("HOSPODI_VOZVACH")]
+    [==== #t("HOSPODI_VOZVACH") <X>]
 
     let (..verse, last) = day.at("HV")
     c.update(n)
@@ -37,7 +37,7 @@
   }
 
   if "S" in day {
-    [==== #t("STICHOVNI")]
+    [==== #t("STICHOVNI") <X>]
 
     let (first, ..verse, last) = day.at("S")
     c.update(2)
@@ -63,7 +63,7 @@
   }
 
   if "T" in day {
-    [==== #t("TROPAR")]
+    [==== #t("TROPAR") <X>]
     let (tropar, last) = day.at("T")
     let tbl = (
       (primText[$#sym.TT$], tropar),
@@ -79,7 +79,7 @@
     if str(k) in day {
       let c = counter("kanon-vers")
       c.update(1)
-      [===== #t("PIESEN") #k]
+      [===== #t("PIESEN") #k <X>]
 
       let (irmos, ..verse, semilast, last) = day.at(str(k))
       let tbl = {
@@ -95,7 +95,7 @@
       styleTable3(tbl)
       
       if k == 6 {
-        [===== #t("SIDALEN")]
+        [===== #t("SIDALEN") <X>]
         [
           #set par(first-line-indent: 1em)
           #styleOne(day.at("S").at(0))
@@ -110,7 +110,7 @@
     if str(k) in day {
       let c = counter("kanon-vers")
       c.update(1)
-      [===== #t("PIESEN") #k]
+      [===== #t("PIESEN") #k <X>]
 
       let (irmos, ..verse, semilast, last) = day.at(str(k))
       let tbl = {
@@ -126,14 +126,14 @@
       styleTable3(tbl)
       
       if k == 3 {
-        [===== #t("SIDALEN")]
+        [===== #t("SIDALEN") <X>]
         let sdl = ()
         sdl.push((primText[$#sym.SS$], day.at("S1").at(0)))
         sdl.push((primText[S:I:], day.at("S1").at(1)))
         styleTable3(sdl)
       }
       if k == 6 {
-        [===== #t("SIDALEN")]
+        [===== #t("SIDALEN") <X>]
         let sdl = ()
         sdl.push((primText[$#sym.SS$], day.at("S2").at(0)))
         sdl.push((primText[S:I:], day.at("S2").at(1)))
@@ -157,7 +157,7 @@
   for k in range(1,10) {
     let kk = "P"+str(k)
     if kk in kanon {
-      [===== #t("PIESEN") #k]
+      [===== #t("PIESEN") #k <X>]
       let piesen = kanon.at(kk)
       for i in range(1, 4) {
         if str(i) in piesen {
@@ -209,7 +209,7 @@
       }
       
       if k == 6 and "K" in kanon {
-        [===== #t("KONDAK_IKOS")]
+        [===== #t("KONDAK_IKOS") <X>]
         let (kon, ikos) = kanon.at("K")
         let tbl = ()
         tbl.push((primText[$#sym.KK$], kon))    
@@ -224,7 +224,7 @@
   let c = counter("day")
 
   if "T" in day {
-    [==== #t("TROPAR")]
+    [==== #t("TROPAR") <X>]
     let (tropar, bohorodicen) = day.at("T")
     let tbl = ()
     tbl.push((primText[$#sym.TT$], tropar))   
@@ -233,12 +233,12 @@
     styleTable3(tbl)
   }
   
-  [==== #t("SIDALENY")]
+  [==== #t("SIDALENY") <X>]
   for i in range(1,4) {
     let s = "S"+str(i)
     if s in day {
       // TODO: fix
-      [===== #t("SIDALEN_PO") #i]
+      [===== #t("SIDALEN_PO") #i <X>]
     
       c.update(1)
       let (..verse, last) = day.at(s)
@@ -261,32 +261,34 @@
   }
 
   if "Y" in day {
-    [==== #t("YPAKOJ")]
+    [==== #t("YPAKOJ") <X>]
     let k = day.at("Y").at(0)
     styleOne(k)
   }
 
-  if "A1" in day [==== #t("STEPENNY")]
-  for i in range(1,5) {
-    let a = "A"+str(i)
-    if a in day {
-      [===== #t("ANTIFON") #i]
-      c.update(1)
-      let (..verse, semilast, last) = day.at(a)
-      let tbl = {
-        verse.map(k => (
-            primText[#c.display("i:"); #c.step()], k
+  if "A1" in day {
+    [==== #t("STEPENNY") <X>]
+    for i in range(1,5) {
+      let a = "A"+str(i)
+      if a in day {
+        [===== #t("ANTIFON") #i <X>]
+        c.update(1)
+        let (..verse, semilast, last) = day.at(a)
+        let tbl = {
+          verse.map(k => (
+              primText[#c.display("i:"); #c.step()], k
+            )
           )
-        )
+        }
+        tbl.push((primText[S:], semilast)) 
+        tbl.push((primText[I:], last))
+        styleTable3(tbl)
       }
-      tbl.push((primText[S:], semilast)) 
-      tbl.push((primText[I:], last))
-      styleTable3(tbl)
     }
   }
 
   if "P" in day {
-    [==== #t("PROKIMEN")]
+    [==== #t("PROKIMEN") <X>]
     let (prokimen, versv) = day.at("P")
     [
       #set par(first-line-indent: 1em)
@@ -297,14 +299,14 @@
   }
 
   if "K" in day { 
-    [==== #t("KANON")]
+    [==== #t("KANON") <X>]
 
     let kanon = day.at("K")
     kanonUtieren(kanon, dayIdx, typs, pripivy, t)
   }
 
   if "CH" in day {
-    [==== #t("CHVALITE")]
+    [==== #t("CHVALITE") <X>]
     let tbl = {}
     if dayIdx == 0 {
       /* NEDELA */
@@ -339,7 +341,7 @@
   }
 
   if "ST" in day {
-    [==== #t("STICHOVNI")]
+    [==== #t("STICHOVNI") <X>]
     let (first, ..verse, last) = day.at("ST")
     let s = ()
     if str(dayIdx) in su_st {
@@ -361,21 +363,11 @@
     tbl.push((primText[S:I:], last))
     styleTable3(tbl)
   }
-
-  // FIXME: remove
-  if "T2" in day {
-    [==== #t("TROPAR")]
-    let tropar = day.at("T2").at(0)
-    let tbl = ()
-    tbl.push((primText[$#sym.TT$], tropar))    
-    // tbl.push((primText[$#sym.BB$], bohorodicen))  
-    styleTable3(tbl)
-  }
 }
 
 #let hlasLiturgia(day, b_st, t) = {
   if "B" in day {
-    [==== #t("BLAZENNA")]
+    [==== #t("BLAZENNA") <X>]
     let c = counter("day")
     let (..verse, semilast, last) = day.at("B")
     c.update(verse.len())
@@ -397,7 +389,7 @@
   }
 
   if "TKB" in day {
-    [==== #t("TROPAR_KONDAK")]
+    [==== #t("TROPAR_KONDAK") <X>]
     let (t,k,b) = day.at("TKB")
     let tbl = ()
     tbl.push((primText[$#sym.TT$], t))
@@ -408,14 +400,14 @@
   
   if "P" in day {
     let (prokimen, vers, aleluja, versA) = day.at("P")
-    [==== #t("PROKIMEN")]
+    [==== #t("PROKIMEN") <X>]
     [
     #set par(first-line-indent: 1em)
       #prokimen.at(2)
       
       #primText[#t("STICH"):] #vers.at(2)
     ]
-    [===== #t("ALLILUJA")]
+    [===== #t("ALLILUJA") <X>]
     [
     #set par(first-line-indent: 1em)
       #aleluja.at(2)
@@ -424,8 +416,6 @@
     ]
   }
 }
-
-#show <b>: "\ "
 
 #let hlas_all(ne_m, ne_v, ne_p, ne_n, ne_u, ne_l, 
             po_v, po_p, po_u, po_l,
@@ -449,120 +439,120 @@
   #header[(#t("So_V"))]
   #hlasVecieren(ne_v, 0, h_st, s_st, t)
   #colbreak(weak: true)
-  // === #t("P")
-  // #header[(#t("So_N"))]
-  // #hlasPovecerie(ne_p, p_st, t)
-  // #colbreak(weak: true)
-  // === #t("N")
-  // #hlasPolnocnica(ne_n, n_st, t)
-  // #colbreak(weak: true)
-  // === #t("U")
-  // #hlasUtieren(ne_u, 0, typs, pripivy, sd_st, ch_st, su_st, t)
-  // #colbreak(weak: true)
-  // === #t("L")
-  // #header[(#t("I"))]
-  // #hlasLiturgia(ne_l, b_st, t)
-  // #colbreak(weak: true)
+  === #t("P")
+  #header[(#t("So_N"))]
+  #hlasPovecerie(ne_p, p_st, t)
+  #colbreak(weak: true)
+  === #t("N")
+  #hlasPolnocnica(ne_n, n_st, t)
+  #colbreak(weak: true)
+  === #t("U")
+  #hlasUtieren(ne_u, 0, typs, pripivy, sd_st, ch_st, su_st, t)
+  #colbreak(weak: true)
+  === #t("L")
+  #header[(#t("I"))]
+  #hlasLiturgia(ne_l, b_st, t)
+  #colbreak(weak: true)
   
-  // == #t("Po")
-  // === #t("V")
-  // #header[(#t("Ne_V"))]
-  // #hlasVecieren(po_v, 1, h_st, s_st, t)
-  // #colbreak(weak: true)
-  // === #t("P")
-  // #header[(#t("Ne_N"))]
-  // #hlasPovecerie(po_p, p_st, t)
-  // #colbreak(weak: true)
-  // === #t("U")
-  // #hlasUtieren(po_u, 1, typs, pripivy, sd_st, ch_st, su_st, t)
-  // #colbreak(weak: true)
-  // === #t("L")
-  // #header[(#t("I"))]
-  // #hlasLiturgia(po_l, b_st, t)
-  // #colbreak(weak: true)
+  == #t("Po")
+  === #t("V")
+  #header[(#t("Ne_V"))]
+  #hlasVecieren(po_v, 1, h_st, s_st, t)
+  #colbreak(weak: true)
+  === #t("P")
+  #header[(#t("Ne_N"))]
+  #hlasPovecerie(po_p, p_st, t)
+  #colbreak(weak: true)
+  === #t("U")
+  #hlasUtieren(po_u, 1, typs, pripivy, sd_st, ch_st, su_st, t)
+  #colbreak(weak: true)
+  === #t("L")
+  #header[(#t("I"))]
+  #hlasLiturgia(po_l, b_st, t)
+  #colbreak(weak: true)
   
-  // == #t("Ut")
-  // === #t("V")
-  // #header[(#t("Po_V"))]
-  // #hlasVecieren(ut_v, 2, h_st, s_st, t)
-  // #colbreak(weak: true)
-  // === #t("P")
-  // #header[(#t("Po_N"))]
-  // #hlasPovecerie(ut_p, p_st, t)
-  // #colbreak(weak: true)
-  // === #t("U")
-  // #hlasUtieren(ut_u, 2, typs, pripivy, sd_st, ch_st, su_st, t)
-  // #colbreak(weak: true)
-  // === #t("L")
-  // #header[(#t("I"))]
-  // #hlasLiturgia(ut_l, b_st, t)
-  // #colbreak(weak: true)
+  == #t("Ut")
+  === #t("V")
+  #header[(#t("Po_V"))]
+  #hlasVecieren(ut_v, 2, h_st, s_st, t)
+  #colbreak(weak: true)
+  === #t("P")
+  #header[(#t("Po_N"))]
+  #hlasPovecerie(ut_p, p_st, t)
+  #colbreak(weak: true)
+  === #t("U")
+  #hlasUtieren(ut_u, 2, typs, pripivy, sd_st, ch_st, su_st, t)
+  #colbreak(weak: true)
+  === #t("L")
+  #header[(#t("I"))]
+  #hlasLiturgia(ut_l, b_st, t)
+  #colbreak(weak: true)
   
-  // == #t("Sr")
-  // === #t("V")
-  // #header[(#t("Ut_V"))]
-  // #hlasVecieren(sr_v, 3, h_st, s_st, t)
-  // #colbreak(weak: true)
-  // === #t("P")
-  // #header[(#t("Ut_N"))]
-  // #hlasPovecerie(sr_p, p_st, t)
-  // #colbreak(weak: true)
-  // === #t("U")
-  // #hlasUtieren(sr_u, 3, typs, pripivy, sd_st, ch_st, su_st, t)
-  // #colbreak(weak: true)
-  // === #t("L")
-  // #header[(#t("I"))]
-  // #hlasLiturgia(sr_l, b_st, t)
-  // #colbreak(weak: true)
+  == #t("Sr")
+  === #t("V")
+  #header[(#t("Ut_V"))]
+  #hlasVecieren(sr_v, 3, h_st, s_st, t)
+  #colbreak(weak: true)
+  === #t("P")
+  #header[(#t("Ut_N"))]
+  #hlasPovecerie(sr_p, p_st, t)
+  #colbreak(weak: true)
+  === #t("U")
+  #hlasUtieren(sr_u, 3, typs, pripivy, sd_st, ch_st, su_st, t)
+  #colbreak(weak: true)
+  === #t("L")
+  #header[(#t("I"))]
+  #hlasLiturgia(sr_l, b_st, t)
+  #colbreak(weak: true)
   
-  // == #t("St")
-  // === #t("V")
-  // #header[(#t("Sr_V"))]
-  // #hlasVecieren(st_v, 4, h_st, s_st, t)
-  // #colbreak(weak: true)
-  // === #t("P")
-  // #header[(#t("Sr_N"))]
-  // #hlasPovecerie(st_p, p_st, t)
-  // #colbreak(weak: true)
-  // === #t("U")
-  // #hlasUtieren(st_u, 4, typs, pripivy, sd_st, ch_st, su_st, t)
-  // #colbreak(weak: true)
-  // === #t("L")
-  // #header[(#t("I"))]
-  // #hlasLiturgia(st_l, b_st, t)
-  // #colbreak(weak: true)
+  == #t("St")
+  === #t("V")
+  #header[(#t("Sr_V"))]
+  #hlasVecieren(st_v, 4, h_st, s_st, t)
+  #colbreak(weak: true)
+  === #t("P")
+  #header[(#t("Sr_N"))]
+  #hlasPovecerie(st_p, p_st, t)
+  #colbreak(weak: true)
+  === #t("U")
+  #hlasUtieren(st_u, 4, typs, pripivy, sd_st, ch_st, su_st, t)
+  #colbreak(weak: true)
+  === #t("L")
+  #header[(#t("I"))]
+  #hlasLiturgia(st_l, b_st, t)
+  #colbreak(weak: true)
   
-  // == #t("Pi")
-  // === #t("V")
-  // #header[(#t("St_V"))]
-  // #hlasVecieren(pi_v, 5, h_st, s_st, t)
-  // #colbreak(weak: true)
-  // === #t("P")
-  // #header[(#t("St_N"))]
-  // #hlasPovecerie(pi_p, p_st, t)
-  // #colbreak(weak: true)
-  // === #t("U")
-  // #hlasUtieren(pi_u, 5, typs, pripivy, sd_st, ch_st, su_st, t)
-  // #colbreak(weak: true)
-  // === #t("L")
-  // #header[(#t("I"))]
-  // #hlasLiturgia(pi_l, b_st, t)
-  // #colbreak(weak: true)
+  == #t("Pi")
+  === #t("V")
+  #header[(#t("St_V"))]
+  #hlasVecieren(pi_v, 5, h_st, s_st, t)
+  #colbreak(weak: true)
+  === #t("P")
+  #header[(#t("St_N"))]
+  #hlasPovecerie(pi_p, p_st, t)
+  #colbreak(weak: true)
+  === #t("U")
+  #hlasUtieren(pi_u, 5, typs, pripivy, sd_st, ch_st, su_st, t)
+  #colbreak(weak: true)
+  === #t("L")
+  #header[(#t("I"))]
+  #hlasLiturgia(pi_l, b_st, t)
+  #colbreak(weak: true)
   
-  // == #t("So")
-  // === #t("V")
-  // #header[(#t("Pi_V"))]
-  // #hlasVecieren(so_v, 6, h_st, s_st, t)
-  // #colbreak(weak: true)
-  // === #t("P")
-  // #header[(#t("Pi_N"))]
-  // #hlasPovecerie(so_p, p_st, t)
-  // #colbreak(weak: true)
-  // === #t("U")
-  // #hlasUtieren(so_u, 6, typs, pripivy, sd_st, ch_st, su_st, t)
-  // #colbreak(weak: true)
-  // === #t("L")
-  // #header[(#t("I"))]
-  // #hlasLiturgia(so_l, b_st, t)
-  // #colbreak(weak: true)
+  == #t("So")
+  === #t("V")
+  #header[(#t("Pi_V"))]
+  #hlasVecieren(so_v, 6, h_st, s_st, t)
+  #colbreak(weak: true)
+  === #t("P")
+  #header[(#t("Pi_N"))]
+  #hlasPovecerie(so_p, p_st, t)
+  #colbreak(weak: true)
+  === #t("U")
+  #hlasUtieren(so_u, 6, typs, pripivy, sd_st, ch_st, su_st, t)
+  #colbreak(weak: true)
+  === #t("L")
+  #header[(#t("I"))]
+  #hlasLiturgia(so_l, b_st, t)
+  #colbreak(weak: true)
 ]

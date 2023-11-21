@@ -4,11 +4,6 @@
 
 = Velikaja večerňa mirskim činom
 
-#align(horizon + center)[#primText[
-  #text(40pt)[Velikaja \
-  večerňa]
-]]
-
 #show: rest => columns(2, rest)
 
 #nacaloBezKnaza

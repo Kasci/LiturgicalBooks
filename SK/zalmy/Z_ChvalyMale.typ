@@ -2,7 +2,7 @@
 
 #set par(first-line-indent: 1em)
 
-#subheader[Žalm 148]
+=== Žalm 148
 #note[(... Pokračovanie)]
 
 Chváľte Pána z nebies, \* chváľte ho na výsostiach.
@@ -33,7 +33,7 @@ Jeho veleba prevyšuje zem i nebesia \* a svojmu ľudu dáva veľkú moc.
 
 Je chválou všetkým svojim svätým, \* synom Izraela, ľudu, ktorý je mu blízky.
 
-#subheader[Žalm 149]
+=== Žalm 149
 
 Spievajte Pánovi pieseň novú; \* jeho chvála nech znie v zhromaždení svätých. 
 

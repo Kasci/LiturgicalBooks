@@ -22,7 +22,7 @@
 
 #lettrine("Pane, zmiluj sa.") #note[(3x)]
 
-#header[Tropáre]
+== Tropáre
 
 #note[Berieme tropár, prípadne tropáre podľa predpisu]
 
@@ -36,7 +36,7 @@
 
 #trojsvatePoOtcenas
 
-#header[Kondák]
+== Kondák
 
 #note[Berieme kondák podľa predpisu]
 
