@@ -7,6 +7,8 @@
 ]
 
 #let ektenia(num) = [
+  ==== Ekténia <X>
+
   #lettrine("Pane, zmiluj sa.") #primText[(#(num)x)]
 
   #si
@@ -54,37 +56,37 @@
 
 #let prokimenyVecierne = [
   
-  #subheader[Pondelok - Nedeľa večer, 8. hlas]
+  === Pondelok - Nedeľa večer,\ 8. hlas <X>
   
   #lettrine("Hľa, teraz oslavujte Pána, všetci služobníci Pánovi.")
   
   #vers[Ktorí ste v dome Pánovom a na nádvoriach domu nášho Boha.]
   
-  #subheader[Utorok - Pondelok večer, 4. hlas]
+  === Utorok - Pondelok večer,\ 4. hlas <X>
   
   #lettrine("Pán ma vyslyší, * keď budem volať k nemu.")
   
   #vers[Bože, spravodlivosť moja, vypočuj ma, keď volám o pomoc.]
   
-  #subheader[Streda - Utorok večer, 1. hlas]
+  === Streda - Utorok večer,\ 1. hlas <X>
   
   #lettrine("Tvoja milosť, Pane, bude ma sprevádzať * po všetky dni môjho života.")
   
   #vers[Pán je môj pastier, nič mi nechýba. Pasie ma na zelených pasienkach.]
   
-  #subheader[Štvrtok - Streda večer, 5. hlas]
+  === Štvrtok - Streda večer,\ 5. hlas <X>
   
   #lettrine("Bože, spas ma svojím menom * a vo svojej moci súď ma.")
   
   #vers[Bože, vypočuj moju modlitbu a vypočuj slová mojich úst.]
   
-  #subheader[Piatok - Štvrtok večer, 6. hlas]
+  === Piatok - Štvrtok večer,\ 6. hlas <X>
   
   #lettrine("Pomoc mi príde od Pána, * ktorý stvoril nebo i zem.")
   
   #vers[Svoj zrak upieram na vrchy. Príde mi odtiaľ pomoc?]
   
-  #subheader[Sobota - Piatok večer, 7. hlas]
+  === Sobota - Piatok večer,\ 7. hlas <X>
   
   #lettrine("Bože, ty si môj ochranca, * a tvoja milosť ma sprevádza.")
   
@@ -149,7 +151,7 @@
 ]
 
 #let svitileny = [
-  #subheader[Pondelok]
+  === Pondelok <X>
   
   #lettrine("Archanjeli a anjeli, kniežatstvá a panstvá, * sily a tróny, aj mnohookí cherubíni a serafíni, * prihovárajte sa za nás, * aby sme boli zachránení pred večným zatratením.")
 
@@ -161,7 +163,7 @@
   
   #lettrine("Najčistejšia, ty si moja zástankyňa, * istá ochrana, aj záchrana celého sveta.* K tebe prichádzam a volám: * \"Zachráň ma pred nerozumnými skutkami, * aby som nebol odsúdený na večné zatratenie. * Pann, pomôž mi, lebo do teba vkladám svoju nádej.\"")
 
-  #subheader[Utorok]
+  === Utorok <X>
 
   #lettrine("Slávny prorok a predchodca milosti, Ján Krstiteľ, * všetkým si hlásal spasiteľné pokánie. * Poukázal si na Baránka, ktorý sníma hriechy sveta. * Aj teraz sa u neho prihováraj za nás, - aby sa nad nami zmiloval.")
 
@@ -173,7 +175,7 @@
 
   #lettrine("Panna Mária, hovorili o tebe všetci proroci. * Dávid ťa nazval svätou horou, * kadidlom aj svietnikom, - mostom i rukou, ktorá nosila večnú Mannu. * Bohorodička, my ťa chceme výdy dôstojne oslavovať.")
 
-  #subheader[Streda]
+  === Streda <X>
 
   #lettrine("Ospevujeme svätý kríž, * nepremožiteľnú zbraň aj záruku viery. * Klaniame sa mu s dôverou, * lebo on je naša istota, chvála všetkých kresťanov, * ochrana pravoverných, sláva mučeníkov. * Vždy ho chceme dôstojne uctievať.")
 
@@ -185,7 +187,7 @@
 
   #lettrine("Najčistejšia Bohorodička, ty si stála pod krížom * a videla si na ňom svojho Syna pribitého a bez dychu. * Ako jeho Matka si veĺmi trpela * a so slzami v očiach si volala: \"Aký je to veľký zázrak1 * Stvoriteľ sveta zomiera pribitý na drevo kríža.\"")
 
-  #subheader[Štvrtok]
+  === Štvrtok <X>
 
   #lettrine("Veriaci, dôstojne oslavujme Pánových učeníkov * Petra a Pavla, * Andreja, Jakuba, Bartolomeja, Mateja, * Jakuba, Filipa, Tomáša, Šimona, * Lukáša, Jána a Marka.")
 
@@ -201,7 +203,7 @@
 
   #lettrine("Nepoškvrnená Panna, spolu s múdrymi apoštolmi * i s množstvom mučeníkov a so svätým Mikulášom, * prihovárajte sa u Krista, * aby nás ochránil pred každým nedostatkom. * Svoju nádej sme vložili do teba, Bohorodička.")
 
-  #subheader[Piatok]
+  === Piatok <X>
 
   #lettrine("Raduj sa, svätý kríž! * Nepremožiteľná opora sveta, * útočisko trpiacich a ochrana všetkých, ktorí sú v úzskostiach. * Záštita pravoverných, víťaz nad klamným učením. * Ozdoba apoštolov a záchrana veriacich.")
 
@@ -213,7 +215,7 @@
 
   #lettrine("Keď ťa, Pane, Najčistejšia Bohorodička * uzrela pribitého na dreve kríža, * so slzami v očiach zvolala: * \"Akože by nebolo zašlo Slnko, pôvodca svetla? * Nechal si sa pribiť na kríž a svoj bok prebodnúť kopijou?! * Syn môj a Boh môj! * Toto všetko si urobil z lásky k ľuďom, len aby si ich zachránil.\"")
 
-  #subheader[Sobota]
+  === Sobota <X>
 
   #lettrine("Slávni proroci, blažení apoštoli, spravodliví patriarchovia * i zástupy vyznávačov a spravodlivých žien, * aj vy svätí mučeníci! * Všetci spolu s Bohorodičkou proste Pána, * aby sa zmiloval nad nami.")
 

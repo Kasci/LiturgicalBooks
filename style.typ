@@ -77,13 +77,13 @@
 #let superheader(txt) = {
   underline(stroke: (thickness: 3pt, paint: primary))[
     #align(center)[#text(20pt)[
-      #primText[#upper[#txt]]
+      #primText[#upper[#text(hyphenate:false)[#txt]]]
     ]]
   ]
 }
 #let header(txt) = {
   align(center)[#text(15pt)[
-    #primText[#txt]
+    #primText[#text(hyphenate:false)[#txt]]
   ]]
 }
 #let subheader(txt) = {

@@ -95,7 +95,7 @@
 ]
 
 #let prepustenieMaleBezKnaza = [\
-  #header[Prepustenie]
+  == Prepustenie <X>
 
   #lettrine("Sláva: I teraz: Pane, zmiluj sa (3x). Požehnaj.")
 
@@ -105,7 +105,7 @@
 ]
 
 #let prepustenie = [\
-  #header[Prepustenie]
+  == Prepustenie <X>
 
   #note[Kňaz: ] #lettrine("Premúdrosť!")
 

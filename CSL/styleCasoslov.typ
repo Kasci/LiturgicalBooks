@@ -7,6 +7,8 @@
 ]
 
 #let ektenia(num) = [
+  ==== Ekténia <X>
+  
   #lettrine("Hóspodi, pomíluj.") #primText[(#(num)x)]
 
   #si
@@ -34,37 +36,37 @@
 
 #let prokimenyVecierne = [
   
-  #subheader[Pondelok - Nedeľa večer, 8. hlas]
+  === Pondelok - Nedeľa večer, 8. hlas <X>
   
   #lettrine("Sé nýňi blahoslovíte Hóspoda vsí rabý Hóspodni.")
   
   #vers[Stojáščiji v chrámi Hóspodni, vo dvórich Bóhu nášeho.]
   
-  #subheader[Utorok - Pondelok večer, 4. hlas]
+  === Utorok - Pondelok večer, 4. hlas <X>
   
   #lettrine("Hóspoď uslýšit mjá, vnehdá vozzváti mí k nemú:")
   
   #vers[Vnehdá prizváti mí, uslýša mjá Bóh právdy mojejá.]
   
-  #subheader[Streda - Utorok večer, 1. hlas]
+  === Streda - Utorok večer, 1. hlas <X>
   
   #lettrine("Mílosť tvojá, Hóspodi, poženét mjá, vo svjá dní životá mojehó.")
   
   #vers[Hóspoď pasét mjá, i ničtóže mjá lišít, na mísťi zláčňi támo vselí mjá.]
   
-  #subheader[Štvrtok - Streda večer, 5. hlas]
+  === Štvrtok - Streda večer, 5. hlas <X>
   
   #lettrine("Bóže, vo ímja tvojé spasí mjá, i síľi tvojéj sudí mí.")
   
   #vers[Bóže uslýši molítvu mojú, vnuší hlahóly úst mojích.]
   
-  #subheader[Piatok - Štvrtok večer, 6. hlas]
+  === Piatok - Štvrtok večer, 6. hlas <X>
   
   #lettrine("Pómošč mojá ot Hóspoda, sotvóršaho nébo i zémľu.")
   
   #vers[Vozvedóch óči mojí v hóry, otňúduže prijídet pómošč mojá.]
   
-  #subheader[Sobota - Piatok večer, 7. hlas]
+  === Sobota - Piatok večer, 7. hlas <X>
   
   #lettrine("Bóže zástupnik mój jesí tý, i mílosť tvojá predvarít mjá.")
   

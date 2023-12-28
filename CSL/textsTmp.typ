@@ -75,7 +75,7 @@
 ]
 
 #let prepustenieBezKnaza = [\
-  #header[Otpust]
+  == Otpust <X>
 
   #lettrine("Čestňíjšuju Cheruvím i slávňijšuju béz sravnénija Serafím, béz istľínija Bóha Slóva róždšuju, súščuju Bóhoródicu ťa veličájem.")
 
@@ -87,7 +87,7 @@
 ]
 
 #let prepustenie = [\
-  #header[Otpust]
+  == Otpust <X>
 
   #note[Jeréj: ] #lettrine("Premúdrosť!")
 

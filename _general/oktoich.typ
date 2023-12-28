@@ -41,7 +41,7 @@
   // HEADINGS
   show heading.where(level: 1): it => [ 
     #align(horizon + center)[#primText[
-      #text(40pt)[#it]
+      #text(hyphenate:false, 40pt)[#it]
     ]]
   ]
   

@@ -75,7 +75,7 @@
 ]
 
 #let prepustenieBezKnaza = [\
-  #header[Otpust]
+  == Otpust <X>
 
   #lettrine("Чⷭ҇тнѣ́йшꙋю херꙋві̑мъ:", color: blue)
 
@@ -87,7 +87,7 @@
 ]
 
 #let prepustenie = [\
-  #header[Otpust]
+  == Otpust <X>
 
   #note[Jeréj: ] #lettrine("Premúdrosť!")
 

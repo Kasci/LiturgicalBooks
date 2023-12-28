@@ -2,7 +2,7 @@
 #import "/SK/texts.typ": *
 #import "../styleCasoslov.typ": *
 
-= Veľká večiereň bez kňaza
+= Veľká večiereň <X>
 
 #show: rest => columns(2, rest)
 
@@ -18,18 +18,25 @@
 
 #note[Nasleduje predpísaná katizma alebo Blažený človek:]
 
-#lettrine("Blažený človek, aleluja, čo nekráča podľa rady bezbožných, aleluja.
-Nad cestou spravodlivých bedlí Pán, ale cesta bezbožných vedie do záhuby, aleluja.
-V bázni slúžte Pánovi, a s chvením sa mu klaňajte, aleluja.
-Šťastní sú všetci, čo sa spoliehajú na neho. Čo sa spoliehajú na neho aleuja.
-Povstaň Pane, zachráň ma Bože môj, aleluja.*
-Pane, jak mnoho je tých čo ma sužujú, aleluja.*
-Pane, ty si naša spása. Na tvoj ľud nech zostúpi tvoje požehnanie, aleluja.
-Sláva: I teraz: Aleluja.")
+#lettrine("Blažený človek, aleluja, čo nekráča podľa rady bezbožných, aleluja.")
+
+#lettrine("Nad cestou spravodlivých bedlí Pán, ale cesta bezbožných vedie do záhuby, aleluja.")
+
+#lettrine("V bázni slúžte Pánovi, a s chvením sa mu klaňajte, aleluja.")
+
+#lettrine("Šťastní sú všetci, čo sa spoliehajú na neho. Čo sa spoliehajú na neho, aleluja.")
+
+#lettrine("Povstaň Pane, zachráň ma Bože môj, aleluja.")
+
+#lettrine("Pane, jak mnoho je tých čo ma sužujú, aleluja.")
+
+#lettrine("Pane, ty si naša spása. Na tvoj ľud nech zostúpi tvoje požehnanie, aleluja.")
+
+#lettrine("Sláva: I teraz: Aleluja.")
 
 #ektenia(3)
 
-#header[Pane ja volám]
+== Pane ja volám <X>
 
 Pane, ja volám k tebe, \* vyslyš ma: Vyslyš ma, Pane. \* Pane, ja volám k tebe, \* vypočuj hlas môj. \* Keď volám k tebe. \* Vyslyš ma, Pane.
 
@@ -50,11 +57,11 @@ Moja modlitba nech sa vznáša k tebe ako kadidlo \* a pozdvihnutie mojich rúk 
   "Lebo veľké je jeho milosrdenstvo voči nám * a pravda Pánova trvá na veky."
 ))
 
-#header[Svetlo tiché]
+== Svetlo tiché <X>
 
 #lettrine("Svetlo tiché svätej slávy * nesmrteľného, Otca nebeského, * svätého, blaženého, * Ježišu Kriste, * keď sme prišli k západu slnka * a videli žiaru večernú, * ospevujeme Otca i Syna, i Svätého Ducha, Boha. * Je dôstojné preľúbeznými hlasmi oslavovať teba, Synu Boží, * ktorý dávaš život celému svetu, * preto ťa celý vesmír velebí.")
 
-#header[Prokimen]
+== Prokimen <X>
 
 #note[Nedeľa - Sobota večer, 6. hlas]
 
@@ -68,25 +75,25 @@ Moja modlitba nech sa vznáša k tebe ako kadidlo \* a pozdvihnutie mojich rúk 
 
 #note[Alebo berieme predpísaný prokimen sviatku.]
 
-#header[Čítania]
+== Čítania <X>
 
 #note[Berieme čítania ak sú:]
 
 #ektenia(40)
 
-#header[Večerný chválospev]
+== Večerný chválospev <X>
 
 #lettrine("Ráč nás, Pane, v tento večer * zachrániť od hriechu. – Velebíme ťa, Pane, Bože otcov našich. * Chválime a oslavujeme tvoje meno na veky. Amen. * Preukáž nám, Pane, svoje milosrdenstvo, * lebo dúfame v teba. * Blahoslavený si, Pane, * nauč nás svoje pravdy. * Blahoslavený si, Vládca, * daj nám porozumieť svojim pravdám. * Blahoslavený si, Svätý, * osvieť nás svojimi pravdami. * Pane, tvoje milosrdenstvo je večné, * nepohŕdaj dielom svojich rúk. * Tebe patrí chvála, * tebe patrí pieseň, * tebe, Otcu i Synu, i Svätému Duchu, * patrí sláva teraz i vždycky, i na veky vekov. Amen.")
 
 #ektenia(12)
 
-#header[Lítia]
+== Lítia <X>
 
 #note[Ak je predpísaná lítia, modlíme sa lítijné slohy]
 
 #ektenia(120)
 
-#header[Veršové slohy]
+== Veršové slohy <X>
 
 #slohy((
   "Pán kraľuje, velebou sa zaodel.",
@@ -94,13 +101,13 @@ Moja modlitba nech sa vznáša k tebe ako kadidlo \* a pozdvihnutie mojich rúk 
   "Tvojmu domu, Pane, patrí posvätná úcta po všetky časy."
 ))
 
-#header[Simeonova modlitba]
+== Simeonova modlitba <X>
 
 #lettrine("Teraz prepustíš, Pane, svojho služobníka podľa svojho slova v pokoji, lebo moje oči uvideli tvoju spásu, ktorú si pripravil pred tvárou všetkých národov. Svetlo na osvietenie pohanov a slávu Izraela, tvojho ľudu.")
 
 #trojsvatePoOtcenas
 
-#header[Tropáre]
+== Tropáre <X>
 
 #note[Berieme tropáre zakončené Bohorodičníkom:]
 

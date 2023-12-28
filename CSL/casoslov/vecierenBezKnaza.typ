@@ -2,7 +2,7 @@
 #import "/CSL/texts.typ": *
 #import "../styleCasoslov.typ": *
 
-= Vsednévna večerňa mirskym činom
+= Vsednévna večerňa <X>
 
 #show: rest => columns(2, rest)
 

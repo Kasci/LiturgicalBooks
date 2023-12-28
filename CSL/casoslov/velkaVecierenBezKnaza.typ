@@ -2,7 +2,7 @@
 #import "/CSL/texts.typ": *
 #import "../styleCasoslov.typ": *
 
-= Velikaja večerňa mirskim činom
+= Velikaja večerňa <X>
 
 #show: rest => columns(2, rest)
 
@@ -18,14 +18,21 @@
 
 #note[Nasleduje predpísaná katizma alebo Blažen muž:]
 
-#lettrine("Blažený človek, aleluja, čo nekráča podľa rady bezbožných, aleluja.
-Nad cestou spravodlivých bedlí Pán, ale cesta bezbožných vedie do záhuby, aleluja.
-V bázni slúžte Pánovi, a s chvením sa mu klaňajte, aleluja.
-Šťastní sú všetci, čo sa spoliehajú na neho. Čo sa spoliehajú na neho aleuja.
-Povstaň Pane, zachráň ma Bože môj, aleluja.*
-Pane, jak mnoho je tých čo ma sužujú, aleluja.*
-Pane, ty si naša spása. Na tvoj ľud nech zostúpi tvoje požehnanie, aleluja.
-Sláva: I teraz: Aleluja.")
+#lettrine("Blažén múž, alliluja, íže ne íde na sovít nečestívych, alliluja.")
+
+#lettrine("Jáko vísť Hospóď púť právednych, i púť nečestívych pohíbnet, alliluja.")
+
+#lettrine("Rabótajte Hóspodevi so stráchom i rádujtesja jemú so trépetom, alliluja.")
+
+#lettrine("Blažéni vsi nacfíjuščiisja naň, vsi nadijuščiisja naň, alliluja.")
+
+#lettrine("Voskresní, Hóspodi, spasí mja Bože moj, alliluja.*")
+
+#lettrine("Hóspodi, čtósja umnóžiša stužájuščii mi, alliluja.*")
+
+#lettrine("Hóspodne jesť spaséníje i na lúdech tvoích blahoslovénije tvoje, alliluja.")
+
+#lettrine("Sláva: I nýňi: Alliluja.")
 
 #ektenia(3)
 

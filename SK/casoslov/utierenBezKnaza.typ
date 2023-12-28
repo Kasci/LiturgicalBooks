@@ -2,7 +2,7 @@
 #import "/SK/texts.typ": *
 #import "../styleCasoslov.typ": *
 
-= Každodenná utiereň bez kňaza
+= Každodenná utiereň <X>
 
 #show: rest => columns(2, rest)
 
@@ -14,7 +14,7 @@
 
 #lettrine("Pane, otvor moje pery, a moje ústa budú ohlasovať tvoju slávu.") #note[(2x)]
 
-#header[Šesťžalmie]
+== Šesťžalmie <X>
 
 #zalm(3)
 #zalm(37)
@@ -36,7 +36,7 @@
 
 #ektenia(12)
 
-#header[Boh je Pán]
+== Boh je Pán <X>
 
 #verseSoZvolanim("Boh je Pán a zjavil sa nám, * požehnaný, ktorý prichádza v mene Pánovom.",
 (
@@ -46,11 +46,11 @@
   "Kameň, čo stavitelia zavrhli, sa stal kameňom uholným. * To sa stalo na pokyn Pána; vec v našich očiach obdivuhodná."
 ))
 
-#header[Tropár]
+== Tropár <X>
 
 #note[Berieme tropáre podľa predpisu]
 
-#header[Katizma]
+== Katizma <X>
 
 #note[Berieme katizmu podľa predpisu.]
 
@@ -58,7 +58,7 @@
 
 #zalm(50)
 
-#header[Kánon]
+== Kánon <X>
 
 #note[Berieme kánon podľa predpisu]
 
@@ -76,11 +76,11 @@
 
 #lettrine("Dôstojné je velebiť teba, Bohorodička, vždy blažená a nepoškvrnená Matka nášho Boha. Čestnejšia si ako cherubíni a neporovnateľne slávnejšia ako serafíni, bez porušenia si porodila Boha Slovo, opravdivá Bohorodička, velebíme ťa.")
 
-#header[Svitilen]
+== Svitilen <X>
 
 #svitileny
 
-#header[Chvály]
+== Chvály <X>
 
 #include "../zalmy/Z_ChvalyMale.typ"
 
@@ -95,13 +95,13 @@
 
 #ektenia(3)
 
-#header[Slávoslovie]
+== Slávoslovie <X>
 
 #slavoslovieMale
 
 #ektenia(12)
 
-#header[Veršové slohy]
+== Veršové slohy <X>
 
 #note[Berieme veršové slohy s veršami podľa predpisu.]
 
@@ -110,7 +110,7 @@ Za rána zvestovať tvoju dobrotu a tvoju vernosť celé noc.
 
 #trojsvatePoOtcenas
 
-#header[Tropáre]
+== Tropáre <X>
 
 #note[Berieme predpísané tropáre]
 

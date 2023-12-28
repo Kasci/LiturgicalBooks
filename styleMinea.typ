@@ -21,7 +21,21 @@
             tbl.push((primText[I:], makeSec4(make4(t("HV_N_NOTE")))))
         }
         if "HV_SN" in day {
-            tbl.push((primText[S:I:], day.at("HV_SN").at(0)))
+            let sn = day.at("HV_SN")
+            tbl.push((primText[S:I:], sn.at(0)))
+            if (sn.len() > 1) {
+                tbl.push((primText[S:I:], sn.at(1)))
+            }
+        }
+        if "HV_SN2" in day {
+            tbl.push(([!!], make4("А҆́ще и҆́мать самогла́сенъ"))) // FIXME: move to t
+            // TODO: ^^ rework to be more visible
+            let sn = day.at("HV_SN2")
+            tbl.push((primText[S:], sn.at(0)))
+            tbl.push((primText[I:], sn.at(1)))
+            if (sn.len() > 1) {
+                tbl.push((primText[I:], sn.at(2)))
+            }
         }
         styleTable4(tbl)
     }
@@ -40,7 +54,12 @@
         }
         c.update(1)
         tbl.insert(0, (primText[#c.display("i:"); #c.step()], first))
-        tbl.push((primText[S:I:], day.at("S_SN").at(0)))
+        if "S_SN" in day {
+            tbl.push((primText[S:I:], day.at("S_SN").at(0)))
+        } else {
+            tbl.push((primText[S:], day.at("S_S").at(0)))
+            tbl.push((primText[I:], day.at("S_N").at(0)))
+        }
         styleTable4(tbl)
     }
     if "T" in day {
@@ -81,9 +100,14 @@
         }
         if k == 3 and "S" in kanon {
             [===== #t("SIDALEN")]
-            let (sidalen, last) = kanon.at("S")
+            let (sidalen, ..semilast, last) = kanon.at("S")
             let tbl = ()
-            tbl.push((primText[$#sym.SS$], sidalen))    
+            tbl.push((primText[$#sym.SS$], sidalen))
+            if (semilast.len() > 0) {
+                for s in semilast {
+                    tbl.push((primText[S:I:], s))
+                }
+            }
             tbl.push((primText[S:I:], last))  
             styleTable4(tbl)
         }        
@@ -192,7 +216,6 @@
     if "CH" in day {
         [==== #t("CHVALITE")]
         let verse = day.at("CH")
-        let last = day.at("CH_SN").at(0)
         let b = ch_st.map(x=>make4(x)).slice(-1*(verse.len()+2),-2)
         let z = verse.zip(b)
         c.update(verse.len())
@@ -202,7 +225,15 @@
                 primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0),
             ))
         }
-        tbl.push((primText[S:I:], last))
+        if "CH_SN" in day {
+            let last = day.at("CH_SN").at(0)
+            tbl.push((primText[S:I:], last))
+        } else {
+            let semilast = day.at("CH_S").at(0)
+            let last = day.at("CH_N").at(0)
+            tbl.push((primText[S:], semilast))
+            tbl.push((primText[I:], last))
+        }
         styleTable4(tbl)
     }
 }
