@@ -238,9 +238,58 @@
     }
 }
 
+#let mineaLiturgia(day, b_st, t) = {
+  if "B" in day {
+    [==== #t("BLAZENNA") <X>]
+    let c = counter("day")
+    let (..verse/*, semilast, last*/) = day.at("B")
+    c.update(verse.len())
+    let b = b_st.map(x=>make4(x)).slice(-1*(verse.len()))
+    let z = verse.zip(b)
+    let tbl = {
+        z.map(k => (
+            [], makeGray4(k.at(1)),
+            primText[#c.display("1:"); #c.update(c => c - 1)], k.at(0), 
+        ))
+    }
+    // tbl.push((primText[S:], semilast))
+    // tbl.push((primText[I:], last))
+    styleTable4(tbl)
+  }
+
+//   if "TKB" in day {
+//     [==== #t("TROPAR_KONDAK") <X>]
+//     let (t,k,b) = day.at("TKB")
+//     let tbl = ()
+//     tbl.push((primText[$#sym.TT$], t))
+//     tbl.push((primText[$#sym.KK$], k))
+//     tbl.push((primText[$#sym.BB$], b))
+//     styleTable3(tbl)    
+//   }
+  
+//   if "P" in day {
+//     let (prokimen, vers, aleluja, versA) = day.at("P")
+//     [==== #t("PROKIMEN") <X>]
+//     [
+//     #set par(first-line-indent: 1em)
+//       #prokimen.at(2)
+      
+//       #primText[#t("STICH"):] #vers.at(2)
+//     ]
+//     [===== #t("ALLILUJA") <X>]
+//     [
+//     #set par(first-line-indent: 1em)
+//       #aleluja.at(2)
+      
+//       #primText[#t("STICH"):] #versA.at(2)
+//     ]
+//   }
+}
+
 #let minea(name, 
             v, h_st,
             u, ch_st,
+            l, b_st,
             t) = [
     == #t(name)
 
@@ -251,5 +300,10 @@
     #if u != none [
         === #t("U")
         #mineaUtieren(u, ch_st, t)
+    ]
+
+    #if l != none [
+        === #t("L")
+        #mineaLiturgia(l, b_st, t)
     ]
 ]

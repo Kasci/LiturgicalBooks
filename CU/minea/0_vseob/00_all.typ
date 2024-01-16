@@ -1,24 +1,25 @@
 #import "/styleMinea.typ": *
 #import "/CU/texts.typ": *
 
+#let _minea(name, mX) = {
+        minea(name, 
+                mX.V, h_st, 
+                mX.U, ch_st,
+                mX.L, b_st,
+                id => translation.at(id))
+        colbreak(weak: true)
+}
+
 = #translation.at("MINEA_OBS")
 
-#import "./01_Bohorodicka.typ" as m01: *
-#import "./04_ProrokJeden.typ" as m04: *
-#import "./06_ApostolJeden.typ" as m06: *
+#import "./01_Pan.typ" as m01: *
+#import "./02_Bohorodicka.typ" as m02: *
+#import "./03_Kriz.typ" as m03: *
+#import "./05_ProrokJeden.typ" as m05: *
+#import "./07_ApostolJeden.typ" as m07: *
 
-// #minea("M_BOHORODICKA", 
-//         m01.V, h_st, 
-//         m01.U, ch_st,
-//         id => translation.at(id))
-// #colbreak(weak: true)
-#minea("M_PROROK_JEDEN",
-        m04.V, h_st,
-        m04.U, ch_st,
-        id => translation.at(id))
-// #colbreak(weak: true)
-// #minea("M_APOSTOL_JEDEN",
-//         m06.V, h_st,
-//         none, ch_st,
-//         id => translation.at(id))
-// #colbreak(weak: true)
+// #_minea("M_PAN", m01)
+// #_minea("M_BOHORODICKA", m02)
+#_minea("M_KRIZ", m03)
+// #_minea("M_PROROK_JEDEN", m05)
+// #_minea("M_APOSTOL_JEDEN", m07)
