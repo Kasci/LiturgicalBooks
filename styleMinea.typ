@@ -18,7 +18,12 @@
         }
         if "HV_S" in day {
             tbl.push((primText[S:], day.at("HV_S").at(0)))
-            tbl.push((primText[I:], makeSec4(make4(t("HV_N_NOTE")))))
+            if "HV_N" in day {
+                tbl.push((primText[I:], day.at("HV_N").at(0)))
+            } else {
+                tbl.push((primText[>I:], make4("!!! "+t("HV_N_NOTE"))))
+                // TODO: encapsulate to makeSec4, but fix error
+            }
         }
         if "HV_SN" in day {
             let sn = day.at("HV_SN")
@@ -236,6 +241,7 @@
         }
         styleTable4(tbl)
     }
+    // TODO: Stichiry stichovni
 }
 
 #let mineaLiturgia(day, b_st, t) = {

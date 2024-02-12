@@ -22,4 +22,5 @@
         h_st, s_st, p_st, n_st,
         typs, pripivy,
         sd_st, ch_st, su_st, b_st,
-        id => translation.at(id))
+        id => translation.at(id),
+        (true, true, true, true, true, true))

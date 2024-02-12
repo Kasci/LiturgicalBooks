@@ -14,15 +14,15 @@
 )
 
 #let s_st = (
-  "-1": (
-    "Pomjanú ímja tvojé vo vsjákom róďi i róďi.",
-    "Slýši dščí i vížď, i prikloní úcho tvojé.",
-    "Licú tvojemú pomóľatsja bohátiji ľúdstiji.",
+  "100": (
+    "Μνησθήσομαι τοῦ ὀνόματός σου ἐν πάσῃ γενεᾷ καὶ γενεᾷ.",
+    "Ἄκουσον, θύγατερ, καὶ ἴδε, καὶ κλῖνον τὸ οὖς σου, καὶ ἐπιλάθου τοῦ λαοῦ σου καὶ τοῦ οἴκου τοῦ Πατρός σου.",
+    "Τὸ πρόσωπόν σου λιτανεύσουσιν οἱ πλούσιοι τοῦ λαοῦ."
   ),
   "0": (
-    "Hospóď vocarísja, v ľipótu oblečésja.",
-    "Íbo utverdí vselénnuju, jáže ne podvížitsja.",
-    "Dómu tvojemú podobájet svjatýňa Hóspodi, v dolhotú dníj.",
+    "Ὁ Κύριος ἐβασίλευσεν, εὐπρέπειαν ἐνεδύσατο.",
+    "Ἐνεδύσατο ὁ Κύριος δύναμιν καὶ περιεζώσατο.",
+    "Καὶ γὰρ ἐστερέωσεν τὴν οἰκουμένην, ἥτις οὐ σαλευθήσεται.",
   ),
   "6": (
     "Blažéni, jáže izbrál i prijál jesí Hóspodi.",
@@ -40,13 +40,13 @@
 
 #let typs = (
   "0": (
-    "Kanón voskrésnyj",
-    "Kanón krestovoskresnyj",
-    "Kanón presvjaťíj Bohoródici"
+    "Κανὼν Ἀναστάσιμος",
+    "Κανὼν Σταυροαναστάσιμος",
+    "Κανὼν τῆς Θεοτόκου"
   ),
   "1": (
-    "Kanón umilíteľnyj",
-    "Kanón bezplótnym"
+    "Κανὼν Κατανυκτικὸς ποίημα Ἰωσήφ",
+    "Κανὼν τῶν Ἀσωμάτων"
   ),
   "2": (
     "Kanón pokajánen",
@@ -54,15 +54,15 @@
   ),
   "3": (
     "Kanón čestnómu i životvorjáščemu krestú",
-    "Kanón presvjaťíj Bohoródici"
+    "Κανὼν τῆς Θεοτόκου"
   ),
   "4": (
-    "Kanón svjatým apóstolom",
-    "Kanón vo svjatých otcú nášemu Nikoláju čudotvórcu"
+    "Κανὼν τῶν ἁγίων Ἀποστόλων",
+    "Κανὼν τοῦ Ἁγίου Νικολάου"
   ),
   "5": (
     "Kanón čéstnómu i životvorjáščemu krestú",
-    "Kanón presvjaťíj Bohoródici"
+    "Κανὼν τῆς Θεοτόκου"
   ),
   "6": (
     "Kanón svjatým múčenikom, i svjatítelem, i prepodóbnym i usópšym",
@@ -73,8 +73,8 @@
 #let pripivy = (
   "0": (
     ("Sláva Hóspodi svjatómu voskreséniju tvojemú."),
-    ("Sláva Hóspodi krestú tvojemú i voskreséniju."), // FIXME: chcek correct translation
-    ("Presvjatája Bohoródice, spasi nás.") // FIXME: chcek correct translation
+    ("Sláva Hóspodi krestú tvojemú i voskreséniju."), //FIXME: chcek correct translation
+    ("Presvjatája Bohoródice, spasi nás.") //FIXME: chcek correct translation
   ),
   "6": () 
 )
@@ -121,27 +121,21 @@
 )
 
 #let translation = (
-  "MINEA_OBS": "Minea obščaja",
-  "M_BOHORODICKA": "Presvjatij Bohorodicy",
-  "M_PROROK_JEDEN": "Proroku jedinomu",
-  "M_APOSTOL_JEDEN": "Apostolu jedínomu",
-
-  "HLAS": "Hlas",
-  "Ne": "Neďiľa",
-  "Po": "Poneďiľňik",
-  "Ut": "Vtórnik",
-  "Sr": "Sréda",
-  "St": "Četvertók",
-  "Pi": "Pjatók",
-  "So": "Subbóta",
-  "M": "Mala večérňa",
-  "V": "Večérňa",
-  "P": "Povečérije",
-  "N": "Polúnóščnica",
-  "U": "Utréňa",
-  "L": "Litúrhija",
-  "I": "Izobrazíteľnaja",
-  "So_V": "v subbótu véčera",
+  "HLAS": "Ἦχος",
+  "Ne": "Κυριακή",
+  "Po": "Δευτέρα",
+  "Ut": "Τρίτη",
+  "Sr": "Τετάρτη",
+  "St": "Πέμπτη",
+  "Pi": "Παρασκευή",
+  "So": "Σάββατον",
+  "M": "Μικρός Εσπερινός",
+  "V": "Εσπερινός",
+  "P": "Απόδειπνο",
+  "N": "Μεσονύκτιον",
+  "U": "Όρθρος",
+  "L": "Λειτουργία / Τυπικά",
+  "So_V": "τῳ σαββατῳ εσπερασ",
   "So_N": "v subbótu nóšči",
   "Ne_V": "v neďíľu véčera",
   "Ne_N": "v neďíľu nóšči",
@@ -155,27 +149,29 @@
   "St_N": "v četvertók nóšči",
   "Pi_V": "v pjatók véčera",
   "Pi_N": "v pjatók nóšči",
-  "HOSPODI_VOZVACH": "Hóspodi vozzvách",
-  "STICHOVNI": "Stichíry na stichovňi",
-  "TROPAR": "Tropár",
-  "PIESEN": "Písň",
-  "SIDALEN": "Sidálen",
-  "SIDALENY": "Sidálny",
+  "HOSPODI_VOZVACH": "Στιχηρὰ Ἀναστάσιμα",
+  "STICHOVNI": "Ἀπόστιχα",
+  "TROPAR": "Ἀπολυτίκιον",
+  "PIESEN": "ᾨδὴ",
+  "SIDALEN": "Κάθισμα",
+  "SIDALENY": "Καθίσματα Ἀναστάσιμα",
   "SIDALEN_PO": "Po stichoslóviji",
-  "YPAKOJ": "Ipakoí",
-  "STEPENNY": "Stepénny",
-  "ANTIFON": "Antifón",
-  "PROKIMEN": "Prokímen",
-  "STICH": "Stích",
+  "YPAKOJ": "Ἡ Ὑπακοὴ",
+  "STEPENNY": "Οἱ Ἀναβαθμοὶ",
+  "ANTIFON": "Ἀντίφωνον",
+  "PROKIMEN": "Προκείμενον",
+  "STICH": "Στίχ",
   "ALLILUJA": "Allilúia",
-  "KANON": "Kanón",
-  "KONDAK_IKOS": "Kondák i Ikos",
+  "KANON": "Κανὼν",
+  "KONDAK_IKOS": "Κοντάκιον Ὁ Οἶκος",
   "CHVALITE": "Stichíry na chvalítech",
   "BLAZENNA": "Blažénna",
   "TROPAR_KONDAK": "Tropár i Kondák",
+  "50_STICHIRA": "Стїхи́ра по н҃-мъ ѱалмѣ̀",
+  "SVITILEN": "Свѣти́ленъ",
   
-  "HV_MINEA": "Taže stichiry Svjataho 3 iz Minei ili iz Obščiny.",
-  "HV_NOTE": "Sláva: Svjatomu ili Prazdniku, I nýňi: Bohorodičen, ašče nebudet Sláva: I nýňi: Bohorodičen",
-  "HV_N_NOTE": "Bohorodičen po Ústavu",
-  "T_NOTE": "Sláva: Svjatomu; I nýňi: Bohorodičen voskresen"
+  "HV_MINEA": "Та́же стїхи̑ры 3 и҆з̾ мине́и и҆лѝ и҆з̾ мине́и ѻ҆́бщей.",
+  "HV_NOTE": "Сла́ва: и҆з̾ мине́и, И҆ ны́нѣ: бг҃оро́диченъ, а҆́ще не бꙋ́детъ Сла́ва: И҆ ны́нѣ: бг҃оро́диченъ",
+  "HV_N_NOTE": "Бг҃оро́диченъ во ᲂу҆ста́вѣ",
+  "T_NOTE": "Сла́ва: мине́и; И҆ ны́нѣ: бг҃оро́диченъ воскрⷭ҇ный"
 )

@@ -1,7 +1,7 @@
 #import "/styleMenlive.typ": *
-#import "./texts.typ": *
+#import "/GR/texts.typ": *
 
-= Hlas 1
+= #translation.at("HLAS") 1
 
 #import "Hlas1/0_Nedela.typ": *
 #import "Hlas1/1_Pondelok.typ": *
@@ -11,7 +11,7 @@
 #import "Hlas1/5_Piatok.typ": *
 #import "Hlas1/6_Sobota.typ": *
 
-
+// TODO: N - Ypakoj?
 #hlas_all(M_Ne, V_Ne, P_Ne, N_Ne, U_Ne, L_Ne, 
         V_Po, P_Po, U_Po, L_Po, 
         V_Ut, P_Ut, U_Ut, L_Ut, 
@@ -21,4 +21,6 @@
         V_So, P_So, U_So, L_So,
         h_st, s_st, p_st, n_st,
         typs, pripivy, 
-        sd_st, ch_st, su_st, b_st)
+        sd_st, ch_st, su_st, b_st,
+        id => translation.at(id),
+        (true, true, false, true, true, false))

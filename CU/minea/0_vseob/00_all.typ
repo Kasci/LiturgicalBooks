@@ -12,14 +12,22 @@
 
 = #translation.at("MINEA_OBS")
 
-#import "./01_Pan.typ" as m01: *
-#import "./02_Bohorodicka.typ" as m02: *
-#import "./03_Kriz.typ" as m03: *
-#import "./05_ProrokJeden.typ" as m05: *
-#import "./07_ApostolJeden.typ" as m07: *
+#import "./01_Pan.typ" as MPan: *
+#import "./02_Bohorodicka.typ" as MBohorodicka: *
+#import "./03_Kriz.typ" as MKriz: *
+#import "./04_Anjeli.typ" as MAnjeli: *
+#import "./05_Predchodca.typ" as MPredchodca: *
+#import "./06_SvatiOtcovia.typ" as MSvatiOtcovia: *
+#import "./07_ProrokJeden.typ" as MProrok: *
+#import "./08_ApostolJeden.typ" as MApostol: *
+#import "./09_ApostolViac.typ" as MApostolViac: *
 
-// #_minea("M_PAN", m01)
-// #_minea("M_BOHORODICKA", m02)
-#_minea("M_KRIZ", m03)
-// #_minea("M_PROROK_JEDEN", m05)
-// #_minea("M_APOSTOL_JEDEN", m07)
+// #_minea("M_PAN", MPan)
+// #_minea("M_BOHORODICKA", MBohorodicka)
+// #_minea("M_KRIZ", MKriz)
+// #_minea("M_ANJELI", MAnjeli)
+// #_minea("M_PREDCHODCA", MPredchodca)
+#_minea("M_SVATI_OTCOVIA", MSvatiOtcovia)
+// #_minea("M_PROROK_JEDEN", MProrok)
+// #_minea("M_APOSTOL_JEDEN", MApostol)
+// #_minea("M_APOSTOL_VIAC", MApostolViac)

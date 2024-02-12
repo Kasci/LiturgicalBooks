@@ -5,7 +5,7 @@
   let c = counter("day")
 
   let n = 10
-  if dayidx == -1 {
+  if dayidx == 100 {
     n = 4
   } else if dayidx != 0 {
     n = 6
@@ -18,7 +18,7 @@
     c.update(n)
     let h = h_st.map(it => make3(it)).slice(-1*n)
     let z = verse.zip(h)
-    if dayidx != -1 {
+    if dayidx != 100 {
       z = z.slice(0,n - 3)
     }
     let tbl = {
@@ -28,7 +28,7 @@
         )
       )
     }
-    if dayidx != -1 {
+    if dayidx != 100 {
       tbl.push(tblNote(t, "HV_MINEA"))
       tbl.push(tblNote(t, "HV_NOTE"))
     }
@@ -266,6 +266,7 @@
     styleOne(k)
   }
 
+  // CU & GR difference
   if "A1" in day {
     [==== #t("STEPENNY") <X>]
     for i in range(1,5) {
@@ -273,15 +274,17 @@
       if a in day {
         [===== #t("ANTIFON") #i <X>]
         c.update(1)
-        let (..verse, semilast, last) = day.at(a)
+        // let (..verse, semilast, last) = day.at(a)
+        let (..verse, last) = day.at(a)
         let tbl = {
           verse.map(k => (
               primText[#c.display("i:"); #c.step()], k
             )
           )
         }
-        tbl.push((primText[S:], semilast)) 
-        tbl.push((primText[I:], last))
+        // tbl.push((primText[S:], semilast)) 
+        // tbl.push((primText[I:], last))
+        tbl.push((primText[S:I:], last))
         styleTable3(tbl)
       }
     }
@@ -427,132 +430,192 @@
             h_st, s_st, p_st, n_st,
             typs, pripivy,
             sd_st, ch_st, su_st, b_st,
-            t) = [
+            t, use) = [
   #show: rest => columns(2, rest)
   
   == #t("Ne")
-  === #t("M")
-  #header[(#t("So_V"))]
-  #hlasVecieren(ne_m, -1, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("V")
-  #header[(#t("So_V"))]
-  #hlasVecieren(ne_v, 0, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")
-  #header[(#t("So_N"))]
-  #hlasPovecerie(ne_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("N")
-  #hlasPolnocnica(ne_n, n_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(ne_u, 0, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #header[(#t("I"))]
-  #hlasLiturgia(ne_l, b_st, t)
-  #colbreak(weak: true)
-  
+  #if (use.at(0)) [
+    === #t("M")
+    #header[(#t("So_V"))]
+    #hlasVecieren(ne_m, 100, h_st, s_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(1) [
+    === #t("V")
+    #header[(#t("So_V"))]
+    #hlasVecieren(ne_v, 0, h_st, s_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(2) [
+    === #t("P")
+    #header[(#t("So_N"))]
+    #hlasPovecerie(ne_p, p_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(3) [
+    === #t("N")
+    #hlasPolnocnica(ne_n, n_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(4) [
+    === #t("U")
+    #hlasUtieren(ne_u, 0, typs, pripivy, sd_st, ch_st, su_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(5) [
+    === #t("L")
+    #header[(#t("I"))]
+    #hlasLiturgia(ne_l, b_st, t)
+    #colbreak(weak: true)
+  ]
+
   == #t("Po")
-  === #t("V")
-  #header[(#t("Ne_V"))]
-  #hlasVecieren(po_v, 1, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")
-  #header[(#t("Ne_N"))]
-  #hlasPovecerie(po_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(po_u, 1, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #header[(#t("I"))]
-  #hlasLiturgia(po_l, b_st, t)
-  #colbreak(weak: true)
+  #if use.at(1) [
+    === #t("V")
+    #header[(#t("Ne_V"))]
+    #hlasVecieren(po_v, 1, h_st, s_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(2) [
+    === #t("P")
+    #header[(#t("Ne_N"))]
+    #hlasPovecerie(po_p, p_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(4) [
+    === #t("U")
+    #hlasUtieren(po_u, 1, typs, pripivy, sd_st, ch_st, su_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(5) [
+    === #t("L")
+    #header[(#t("I"))]
+    #hlasLiturgia(po_l, b_st, t)
+    #colbreak(weak: true)
+  ]
   
   == #t("Ut")
-  === #t("V")
-  #header[(#t("Po_V"))]
-  #hlasVecieren(ut_v, 2, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")
-  #header[(#t("Po_N"))]
-  #hlasPovecerie(ut_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(ut_u, 2, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #header[(#t("I"))]
-  #hlasLiturgia(ut_l, b_st, t)
-  #colbreak(weak: true)
+  #if use.at(1) [
+    === #t("V")
+    #header[(#t("Po_V"))]
+    #hlasVecieren(ut_v, 2, h_st, s_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(2) [
+    === #t("P")
+    #header[(#t("Po_N"))]
+    #hlasPovecerie(ut_p, p_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(4) [
+    === #t("U")
+    #hlasUtieren(ut_u, 2, typs, pripivy, sd_st, ch_st, su_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(5) [
+    === #t("L")
+    #header[(#t("I"))]
+    #hlasLiturgia(ut_l, b_st, t)
+    #colbreak(weak: true)
+  ]
   
   == #t("Sr")
-  === #t("V")
-  #header[(#t("Ut_V"))]
-  #hlasVecieren(sr_v, 3, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")
-  #header[(#t("Ut_N"))]
-  #hlasPovecerie(sr_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(sr_u, 3, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #header[(#t("I"))]
-  #hlasLiturgia(sr_l, b_st, t)
-  #colbreak(weak: true)
+  #if use.at(1) [
+    === #t("V")
+    #header[(#t("Ut_V"))]
+    #hlasVecieren(sr_v, 3, h_st, s_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(2) [
+    === #t("P")
+    #header[(#t("Ut_N"))]
+    #hlasPovecerie(sr_p, p_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(4) [
+    === #t("U")
+    #hlasUtieren(sr_u, 3, typs, pripivy, sd_st, ch_st, su_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(5) [
+    === #t("L")
+    #header[(#t("I"))]
+    #hlasLiturgia(sr_l, b_st, t)
+    #colbreak(weak: true)
+  ]
   
   == #t("St")
-  === #t("V")
-  #header[(#t("Sr_V"))]
-  #hlasVecieren(st_v, 4, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")
-  #header[(#t("Sr_N"))]
-  #hlasPovecerie(st_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(st_u, 4, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #header[(#t("I"))]
-  #hlasLiturgia(st_l, b_st, t)
-  #colbreak(weak: true)
+  #if use.at(1) [
+    === #t("V")
+    #header[(#t("Sr_V"))]
+    #hlasVecieren(st_v, 4, h_st, s_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(2) [
+    === #t("P")
+    #header[(#t("Sr_N"))]
+    #hlasPovecerie(st_p, p_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(4) [
+    === #t("U")
+    #hlasUtieren(st_u, 4, typs, pripivy, sd_st, ch_st, su_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(5) [
+    === #t("L")
+    #header[(#t("I"))]
+    #hlasLiturgia(st_l, b_st, t)
+    #colbreak(weak: true)
+  ]
   
   == #t("Pi")
-  === #t("V")
-  #header[(#t("St_V"))]
-  #hlasVecieren(pi_v, 5, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")
-  #header[(#t("St_N"))]
-  #hlasPovecerie(pi_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(pi_u, 5, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #header[(#t("I"))]
-  #hlasLiturgia(pi_l, b_st, t)
-  #colbreak(weak: true)
+  #if use.at(1) [
+    === #t("V")
+    #header[(#t("St_V"))]
+    #hlasVecieren(pi_v, 5, h_st, s_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(2) [
+    === #t("P")
+    #header[(#t("St_N"))]
+    #hlasPovecerie(pi_p, p_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(4) [
+    === #t("U")
+    #hlasUtieren(pi_u, 5, typs, pripivy, sd_st, ch_st, su_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(5) [
+    === #t("L")
+    #header[(#t("I"))]
+    #hlasLiturgia(pi_l, b_st, t)
+    #colbreak(weak: true)
+  ]
   
   == #t("So")
-  === #t("V")
-  #header[(#t("Pi_V"))]
-  #hlasVecieren(so_v, 6, h_st, s_st, t)
-  #colbreak(weak: true)
-  === #t("P")
-  #header[(#t("Pi_N"))]
-  #hlasPovecerie(so_p, p_st, t)
-  #colbreak(weak: true)
-  === #t("U")
-  #hlasUtieren(so_u, 6, typs, pripivy, sd_st, ch_st, su_st, t)
-  #colbreak(weak: true)
-  === #t("L")
-  #header[(#t("I"))]
-  #hlasLiturgia(so_l, b_st, t)
-  #colbreak(weak: true)
+  #if use.at(1) [
+    === #t("V")
+    #header[(#t("Pi_V"))]
+    #hlasVecieren(so_v, 6, h_st, s_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(2) [
+    === #t("P")
+    #header[(#t("Pi_N"))]
+    #hlasPovecerie(so_p, p_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(4) [
+    === #t("U")
+    #hlasUtieren(so_u, 6, typs, pripivy, sd_st, ch_st, su_st, t)
+    #colbreak(weak: true)
+  ]
+  #if use.at(5) [
+    === #t("L")
+    #header[(#t("I"))]
+    #hlasLiturgia(so_l, b_st, t)
+    #colbreak(weak: true)
+  ]
 ]
