@@ -1,16 +1,16 @@
 #import "/utilsMenlive.typ": *
 
 #let h_st = (
-  "Izvedí iz temnícy dúšu mojú, ispovídatisja ímeni tvojemú.",
-  "Mené ždút právednicy, dóndeže vozdási mňi.",
-  "Iz hlubiný vozvách k tebí Hóspodi, Hóspodi uslýši hlas moj.",
-  "Da búdut úši tvojí vnémľušči hlásu molénija mojehó.",
-  "Ašče bezzakónija nazriši Hóspodi, Hóspodi kto postojít, jáko u tebé očiščénije jesť.",
-  "Imené rádi tvojehó poterpích ťa Hóspodi, poterpí dušá mojá vo slóvo tvojé, upová dušá mojá na Hóspoda.",
-  "Ot stráži útrenija do nóšči, ot stráži útrénija da upovájet Isrájiľ na Hóspoda.",
-  "Jáko u Hóspoda mílosť i mnóhoje u ného izbavlénije, i toj izbávit isrájiľa ot vsich bezzakónij jehó.",
-  "Chvalíte Hóspoda vsi jazýcy, pochvalíte jehó vsi ľúdije.",
-  "Jáko utverdísja mílosť jehó na nás, i ístina Hospódňa prebyvájet vo vík.",
+  "Ἐξάγαγε ἐκ φυλακῆς τὴν ψυχήν μου, τοῦ ἐξομολογήσασθαι τῷ ὀνόματί σου.",
+  "Ἐμὲ ὑπομενοῦσι δίκαιοι, ἕως οὐ ἀνταποδῷς μοι.",
+  "Ἐκ βαθέων ἐκέκραξά σοι, Κύριε, Κύριε εἰσάκουσον τῆς φωνῆς μου.",
+  "Γενηθήτω τὰ ὦτά σου προσέχοντα εἰς τὴν φωνὴν τῆς δεήσεώς μου.",
+  "Ἐὰν ἀνομίας παρατηρήσῃς, Κύριε, Κύριε τίς ὑποστήσεται; ὅτι παρὰ σοὶ ὁ ἱλασμός ἐστιν.",
+  "Ἕνεκεν τοῦ ὀνόματός σου ὑπέμεινά σε, Κύριε, ὑπέμεινεν ἡ ψυχή μου εἰς τὸν λόγον σου, ἤλπισεν ἡ ψυχή μου ἐπὶ τὸν Κύριον.",
+  "Ἀπὸ φυλακῆς πρωΐας μέχρι νυκτός, ἀπὸ φυλακῆς πρωΐας ἐλπισάτω Ἰσραὴλ ἐπὶ τὸν Κύριον.",
+  "Ὅτι παρὰ τῷ Κυρίῳ τὸ ἔλεος, καὶ πολλὴ παρ' αὐτῷ, λύτρωσις καὶ αὐτὸς λυτρώσεται τὸν Ἰσραὴλ ἐκ πασῶν τῶν ἀνομιῶν αὐτοῦ.",
+  "Αἰνεῖτε τὸν Κύριον πάντα τὰ ἔθνη, ἐπαινέσατε αὐτόν, πάντες οἱ λαοί.",
+  "Ὅτι ἐκραταιώθη τὸ ἔλεος αὐτοῦ ἐφ' ἡμᾶς, καὶ ἡ ἀλήθεια τοῦ Κυρίου μένει εἰς τὸν αἰῶνα.",
 )
 
 #let s_st = (
@@ -20,9 +20,9 @@
     "Τὸ πρόσωπόν σου λιτανεύσουσιν οἱ πλούσιοι τοῦ λαοῦ."
   ),
   "0": (
-    "Ὁ Κύριος ἐβασίλευσεν, εὐπρέπειαν ἐνεδύσατο.",
-    "Ἐνεδύσατο ὁ Κύριος δύναμιν καὶ περιεζώσατο.",
+    "Ὁ Κύριος ἐβασίλευσεν, εὐπρέπειαν ἐνεδύσατο. Ἐνεδύσατο ὁ Κύριος δύναμιν καὶ περιεζώσατο.",
     "Καὶ γὰρ ἐστερέωσεν τὴν οἰκουμένην, ἥτις οὐ σαλευθήσεται.",
+    "Τῷ οἴκῳ σου πρέπει ἁγίασμα Κύριε εἰς μακρότητα ἡμερῶν.",
   ),
   "6": (
     "Blažéni, jáže izbrál i prijál jesí Hóspodi.",
@@ -30,8 +30,8 @@
     "",
   ),
   "x": (
-    "K tebí vozvedóch óči mojí, živúščemu na nebesí. Sé jáko óči ráb v rukú hospódij svojích, jáko óči rabýni v rukú hospoží svojejá: táko óči náši ko Hóspodu Bóhu nášemu, dóndeže uščédrit ný.",
-    "Pomíluj nás Hóspodi, pomíluj nás, jáko po mnóhu ispólnichomsja uničižénija: naipáče napólnisja dušá náša ponošénija hobzújuščich i uničižénija hórdych.",
+    "Πρὸς σὲ ᾖρα τοὺς ὀφθαλμούς μου, τὸν κατοικοῦντα ἐν τῷ οὐρανῷ. Ἰδού, ὡς ὀφθαλμοὶ δούλων εἰς χεῖρας τῶν κυρίων αὐτῶν, ὡς ὀφθαλμοὶ παιδίσκης εἰς χεῖρας τῆς κυρίας αὐτῆς, οὕτως οἱ ὀφθαλμοὶ ἡμῶν πρὸς Κύριον τὸν Θεὸν ἡμῶν, ἕως οὗ οἰκτειρῆσαι ἡμᾶς.",
+    "Ἐλέησον ἡμᾶς, Κύριε, ἐλέησον ἡμᾶς, ὅτι ἐπὶ πολὺ ἐπλήσθημεν ἐξουδενώσεως, ἐπὶ πλεῖον ἐπλήσθη ἡ ψυχὴ ἡμῶν, τὸ ὄνειδος τοῖς εὐθηνοῦσι, καὶ ἡ ἐξουδένωσις τοῖς ὑπερηφάνοις.",
   )
 )
 
@@ -85,20 +85,20 @@
 )
 
 #let ch_st = (
-  "Sotvoríti v ních súd napísan, sláva sijá búdet vsím prepodóbnym jehó.",
-  "Chvalíte Bóha vo svjatých jehó, chvalíte jehó v utverždéniji síly jehó.",
-  "Chvalíte jehó na sílach jehó, * chvalíte jehó po mnóžestvu velíčestvija jehó.",
-  "Chvalíte jehó v hlási trúbňim, * chvalíte jehó v psaltíri i húsľich.",
-  "Chvalíte jehó v tympáňi i líci, * chvalíte jehó v strúnach i orháňi.",
-  "Chvalíte jehó v kymváľich dobrohlásnych, chvalíte jehó v kymváľich vosklicánija, * vsjákoje dychánije da chvalít Hóspoda.",
-  "Voskresní Hóspodi Bóže mój, da voznesétsja ruká tvojá, ne zabúdi ubóhich tvojích do koncá.",
-  "Ispovímsja tebí Hóspodi, vsím sérdcem mojím, povím vsjá čudesá tvojá.",
+  "Τοῦ ποιῆσαι ἐν αὐτοῖς κρῖμα ἔγγραπτον. Δόξα αὕτη ἔσται πᾶσι τοῖς ὁσίοις αὐτοῦ.",
+  "Αἰνεῖτε τὸν Θεὸν ἐν τοῖς Ἁγίοις αὐτοῦ, αἰνεῖτε αὐτὸν ἐν στερεώματι τῆς δυνάμεως αὐτοῦ.",
+  "Αἰνεῖτε αὐτὸν ἐπὶ ταῖς δυναστείαις αὐτοῦ, αἰνεῖτε αὐτὸν κατὰ τὸ πλῆθος τῆς μεγαλωσύνης αὐτοῦ.",
+  "Αἰνεῖτε αὐτὸν ἐν ἤχῳ, σάλπιγγος, αἰνεῖτε αὐτὸν ἐν ψαλτηρίῳ καὶ κιθάρᾳ.",
+  "Αἰνεῖτε αὐτὸν ἐν τυμπάνῳ καὶ χορῷ, αἰνεῖτε αὐτὸν ἐν χορδαῖς καὶ ὀργάνῳ,",
+  "Αἰνεῖτε αὐτὸν ἐν κυμβάλοις εὐήχοις, αἰνεῖτε αὐτὸν ἐν κυμβάλοις ἀλαλαγμοῦ. Πᾶσα πνοὴ αἰνεσάτω τὸν Κύριον.",
+  "Ἀνάστηθι, Κύριε, ὁ Θεός μου, ὑψωθήτω ἡ χείρ σου, μὴ ἐπιλάθῃ τῶν πενήτων σου εἰς τέλος.",
+  "Ἐξομολογήσομαί σοι, Κύριε, ἐν ὅλῃ καρδίᾳ μου, διηγήσομαι πάντα τὰ θαυμάσιά σου.",
 )
 
 #let su_st = (
   "x": (
-    "Ispólnichomsja zaútra mílosti tvojejá Hóspodi, i vozrádovachomsja i vozveselíchomsja, vo vsjá dní náša vozveselíchomsja, za dní, v ňáže smiríl ný jesí, ľíta, v ňáže víďichom zlája: i prízri na rabý tvojá, i na ďilá tvojá, i nastávi sýny ích.",
-    "I búdi svítlosť Hóspoda Bóha nášeho na nás, i ďilá rúk nášich isprávi na nás, i ďílo rúk nášich isprávi.",
+    "Ἐνεπλήσθημεν τὸ πρωῒ τοῦ ἐλέους σου, Κύριε, καὶ ἠγαλλιασάμεθα καὶ ηὐφράνθημεν ἐν πάσαις ταῖς ἡμέραις ἡμῶν. Εὐφρανθείημεν, ἀνθ΄ὧν ἡμερῶν ἐταπείνωσας ἡμᾶς, ἐτῶν, ὧν εἴδομεν κακά, καὶ ἴδε ἐπὶ τοὺς δούλους σου καὶ ἐπὶ τὰ ἔργα σου, καὶ ὁδήγησον τοὺς υἱοὺς αὐτῶν.",
+    "Καὶ ἔστω ἡ λαμπρότης Κυρίου τοῦ Θεοῦ ἡμῶν ἐφ' ἡμᾶς, καὶ τὰ ἔργα τῶν χειρῶν ἡμῶν κατεύθυνον ἐφ' ἡμᾶς, καὶ τὸ ἔργον τῶν χειρῶν ἡμῶν κατεύθυνον.",
   ),
   "6": (
     "Blažéni, jáže izbrál i prijál jesí Hóspodi.",
@@ -112,12 +112,12 @@
   "Blažéni pláčuščiji, jáko tíji uťíšatsja.",
   "Blažéni krótcyji, jáko tíji nasľíďat zémľu.",
   "Blaženi alčuščiji i žažduščiji pravdy, jako tiji nasyťatsja.",
-  "Blaženi milostiviji, jako tiji pomilovani budut.",
-  "Blažéni čístiji sérdcem, jáko tíji Bóha úzrjat.",
-  "Blažéni mirotvórcy, jáko tíji Sýnove Bóžiji narekútsja.",
-  "Blažéni izhnáni právdy rádi, jáko ťích jésť cárstvo nebésnoje.",
-  "Blažéni jesté, jehdá ponósjat vám, i iždenút, i rekút vsják zól hlahól na vý lžúšče mené rádi.",
-  "Rádujtesja i veselítesja, jáko mzdá váša mnóha na nebesích.",
+  "Μακάριοι οἱ ἐλεήμονες, ὅτι αὐτοὶ ἐλεηθήσονται.",
+  "Μακάριοι οἱ καθαροὶ τῇ καρδίᾳ ὅτι αὐτοὶ τὸν Θεὸν ὄψονται.",
+  "Μακάριοι οἱ εἰρηνοποιοί, ὅτι αὐτοὶ υἱοὶ Θεοῦ κληθήσονται.",
+  "Μακάριοι οἱ δεδιωγμένοι ἕνεκεν δικαιοσύνης, ὅτι αὐτῶν ἐστιν ἡ βασιλεία τῶν οὐρανῶν.",
+  "Μακάριοί ἐστε ὅταν ὀνειδίσωσιν ὑμᾶς, καὶ διώξωσι, καὶ εἴπωσι πᾶν πονηρὸν ῥῆμα καθ΄ὑμῶν ψευδόμενοι ἕνεκεν ἐμοῦ.",
+  "Χαίρετε καὶ ἀγαλλιᾶσθε, ὅτι ὁ μισθὸς ὑμῶν πολὺς ἐν τοῖς οὐρανοῖς.",
 )
 
 #let translation = (
@@ -134,7 +134,8 @@
   "P": "Απόδειπνο",
   "N": "Μεσονύκτιον",
   "U": "Όρθρος",
-  "L": "Λειτουργία / Τυπικά",
+  "L": "Λειτουργία",
+  "I": "Τυπικά",
   "So_V": "τῳ σαββατῳ εσπερασ",
   "So_N": "v subbótu nóšči",
   "Ne_V": "v neďíľu véčera",
@@ -155,7 +156,7 @@
   "PIESEN": "ᾨδὴ",
   "SIDALEN": "Κάθισμα",
   "SIDALENY": "Καθίσματα Ἀναστάσιμα",
-  "SIDALEN_PO": "Po stichoslóviji",
+  "SIDALEN_PO": "Μετὰ τὴν Στιχολογίαν",
   "YPAKOJ": "Ἡ Ὑπακοὴ",
   "STEPENNY": "Οἱ Ἀναβαθμοὶ",
   "ANTIFON": "Ἀντίφωνον",
@@ -164,9 +165,9 @@
   "ALLILUJA": "Allilúia",
   "KANON": "Κανὼν",
   "KONDAK_IKOS": "Κοντάκιον Ὁ Οἶκος",
-  "CHVALITE": "Stichíry na chvalítech",
-  "BLAZENNA": "Blažénna",
-  "TROPAR_KONDAK": "Tropár i Kondák",
+  "CHVALITE": "Στιχηρὰ Ἀναστάσιμα",
+  "BLAZENNA": "Οἱ Μακαρισμοὶ",
+  "TROPAR_KONDAK": "Ἀπολυτίκιον, Κοντάκιον",
   "50_STICHIRA": "Стїхи́ра по н҃-мъ ѱалмѣ̀",
   "SVITILEN": "Свѣти́ленъ",
   

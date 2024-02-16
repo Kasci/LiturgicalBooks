@@ -173,7 +173,9 @@
                 )
               )
             }
-            tbl.insert(0,(primText[$#sym.II _#i$], irmos)) 
+            if (irmos.at(2).len() > 0) {
+              tbl.insert(0,(primText[$#sym.II _#i$], irmos)) 
+            }
             tbl.push((primText[S:], semilast)) 
             tbl.push((primText[I:], last)) 
           } else if dayIdx in (0,3,5) {
@@ -184,7 +186,9 @@
                 )
               )
             }
-            tbl.insert(0,(primText[$#sym.II _#i$], irmos)) 
+            if (irmos.at(2).len() > 0) {
+              tbl.insert(0,(primText[$#sym.II _#i$], irmos)) 
+            }
           } else {
             let (irmos, ..verse, last) = y
             tbl = {
@@ -193,7 +197,9 @@
                 )
               )
             }
-            tbl.insert(0,(primText[$#sym.II _#i$], irmos)) 
+            if (irmos.at(2).len() > 0) {
+              tbl.insert(0,(primText[$#sym.II _#i$], irmos)) 
+            }
             tbl.push((primText[S:I:], last)) 
           }
           // TODO: pridat pripivy

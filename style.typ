@@ -24,7 +24,7 @@
 #let D = (gold, lgold)
 #let P = (purple, lpurple)
 
-#let (primary, secondary) = R
+#let (primary, secondary) = B
 
 #let primText(txt) = {
   return text(primary, txt)
