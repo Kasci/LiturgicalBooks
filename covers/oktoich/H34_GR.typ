@@ -7,7 +7,7 @@
     #text(60pt)[ΟΚΤΩΗΧΟΣ]\ \ \ \ \ \ 
 ]]
 #align(center)[#secText[
-    #text(50pt)[Ήχος α'‑β']\
+    #text(50pt)[Ήχος γ'‑δ']\
 ]]\
 #align(center)[#text(20pt)[#primText[Editio Graeca]]]\ 
 #align(center)[#text(20pt)[Jozef Kaščák\ Prešov\ 2024]]

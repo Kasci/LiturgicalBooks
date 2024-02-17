@@ -1,7 +1,7 @@
 #import "/styleMenlive.typ": *
 #import "/GR/texts.typ": *
 
-= #translation.at("HLAS") 1
+= #translation.at("HLAS") α' (1)
 
 #import "../Hlas1/0_Nedela.typ": *
 #import "../Hlas1/1_Pondelok.typ": *
