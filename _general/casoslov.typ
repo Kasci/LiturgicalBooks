@@ -19,18 +19,8 @@
         selector(heading.where(level:1)).before(loc),
         loc,
       )
-      // let h2 = query(
-      //   selector(heading.where(level:2)).before(loc),
-      //   loc,
-      // )
-      // let h3 = query(
-      //   selector(heading.where(level:3)).before(loc),
-      //   loc,
-      // )
-      if h1.len() != 0 {// and h2.len() != 0 and h3.len() != 0 {
+      if h1.len() != 0 {
         let body1 = h1.last().body
-        // let body2 = h2.last().body
-        // let body3 = h3.last().body
         text(8pt, body1)
       }
     }), 
@@ -68,5 +58,5 @@
 #show: project
 
 #include("casoslov/vecierne.typ")
-// #include("/SK/casoslov/utierenBezKnaza.typ")
-// #include("casoslov/casy.typ")
+#include("casoslov/utierne.typ")
+#include("casoslov/casy.typ")

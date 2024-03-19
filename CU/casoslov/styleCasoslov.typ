@@ -1,6 +1,6 @@
 #import "/style.typ": *
-#import "texts.typ": *
-#import "textsTmp.typ": *
+#import "../texts.typ": *
+#import "../textsTmp.typ": *
 
 #let si = [
   #lettrine("Сла́ва:") #lettrine("И҆ ны́нѣ:")

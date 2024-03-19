@@ -1,9 +1,8 @@
-#import "../../style.typ": *
+#import "../../../style.typ": *
 #import "/SK/texts.typ": *
-#import "/SK/textsTmp.typ": *
 #import "../styleCasoslov.typ": *
 
-= Každodenná večiereň  <X>
+= Veľká večiereň <X>
 
 #show: rest => columns(2, rest)
 
@@ -17,7 +16,25 @@
 
 #ektenia(12)
 
-#note[Nasleduje predpísaná katizma:]
+== Katizma <X>
+
+#note[Nasleduje predpísaná katizma alebo Blažený človek:]
+
+#lettrine("Blažený človek, aleluja, čo nekráča podľa rady bezbožných, aleluja.")
+
+#lettrine("Nad cestou spravodlivých bedlí Pán, ale cesta bezbožných vedie do záhuby, aleluja.")
+
+#lettrine("V bázni slúžte Pánovi, a s chvením sa mu klaňajte, aleluja.")
+
+#lettrine("Šťastní sú všetci, čo sa spoliehajú na neho. Čo sa spoliehajú na neho, aleluja.")
+
+#lettrine("Povstaň Pane, zachráň ma Bože môj, aleluja.")
+
+#lettrine("Pane, jak mnoho je tých čo ma sužujú, aleluja.")
+
+#lettrine("Pane, ty si naša spása. Na tvoj ľud nech zostúpi tvoje požehnanie, aleluja.")
+
+#lettrine("Sláva: I teraz: Aleluja.")
 
 #ektenia(3)
 
@@ -27,7 +44,7 @@ Pane, ja volám k tebe, \* vyslyš ma: Vyslyš ma, Pane. \* Pane, ja volám k te
 
 Moja modlitba nech sa vznáša k tebe ako kadidlo \* a pozdvihnutie mojich rúk \* ako obeť večerná. \* Vyslyš ma, Pane.
 
-#include "../zalmy/Z_PaneJaVolam.typ"
+#include "../../zalmy/Z_PaneJaVolam.typ"
 
 #verse((
   "Vyveď ma zo žalára, * aby som tvoje meno mohol velebiť.",
@@ -48,11 +65,23 @@ Moja modlitba nech sa vznáša k tebe ako kadidlo \* a pozdvihnutie mojich rúk 
 
 == Prokimen <X>
 
-#prokimenyVecierne
+#note[Nedeľa - Sobota večer, 6. hlas]
+
+#lettrine("Pán kraľuje, * zaodel sa velebou.")
+
+#vers[Zaodel sa Pán, \* udatnosťou sa prepásal.]
+
+#vers[Tak upevnil zemekruh, \* že sa nezachveje.]
+
+#vers[Tvojmu domu, Pane, patrí posvätná úcta \* po všetky časy.]
+
+#note[Alebo berieme predpísaný prokimen sviatku.]
 
 == Čítania <X>
 
 #note[Berieme čítania ak sú:]
+
+#ektenia(40)
 
 == Večerný chválospev <X>
 
@@ -60,11 +89,18 @@ Moja modlitba nech sa vznáša k tebe ako kadidlo \* a pozdvihnutie mojich rúk 
 
 #ektenia(12)
 
+== Lítia <X>
+
+#note[Ak je predpísaná lítia, modlíme sa lítijné slohy]
+
+#ektenia(120)
+
 == Veršové slohy <X>
 
 #slohy((
-  "Oči dvíham k tebe, čo na nebesiach prebývaš. * Ako oči sluhov hľadia na ruky svojich pánov, ako oči služobníc hľadia na ruky svojej panej, * tak hľadia naše oči na Pána, nášho Boha, * kým sa nezmiluje nad nami.",
-  "Zmiluj sa, Pane, nad nami, zmiluj sa nad nami, * lebo už máme dosť pohŕdania; * lebo naša duša má už dosť výsmechu boháčov * a pohŕdania pyšných."
+  "Pán kraľuje, velebou sa zaodel.",
+  "Tak upevnil zemekruh, že sa nezachveje.",
+  "Tvojmu domu, Pane, patrí posvätná úcta po všetky časy."
 ))
 
 == Simeonova modlitba <X>
@@ -77,6 +113,6 @@ Moja modlitba nech sa vznáša k tebe ako kadidlo \* a pozdvihnutie mojich rúk 
 
 #note[Berieme tropáre zakončené Bohorodičníkom:]
 
-#ektenia(40)
+#include "../../zalmy/Z33_vecieren.typ"
 
 #prepustenieBezKnaza

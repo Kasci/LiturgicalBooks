@@ -82,8 +82,22 @@
   #lettrine("Poďte, pokloňme sa a padnime pred samým Pánom, Ježišom Kristom, Kráľom a Bohom naším.")
 ]
 
+#let prepustenieSDostojneBezKnaza = [\
+  == Prepustenie <X>
+
+  #lettrine("Dôstojné je velebiť teba, Bohorodička, * vždy blažená a nepoškvrnená, Matka nášho Boha.")
+
+  #lettrine("Čestnejšia si ako cherubíni a neporov­na­teľne slávnejšia ako serafíni, bez porušenia si poro­dila Boha Slovo, opravdivá Bohorodička, velebíme ťa.")
+
+  #lettrine("Sláva: I teraz: Pane, zmiluj sa (3x). Požehnaj.")
+
+  #lettrine("Pane Ježišu Kriste, Bože náš, pre modlitby našich svätých otcov zmiluj sa nad nami.")
+  
+  #lettrine("Amen.")
+]
+
 #let prepustenieBezKnaza = [\
-  #header[Prepustenie]
+  == Prepustenie <X>
 
   #lettrine("Čestnejšia si ako cherubíni a neporov­na­teľne slávnejšia ako serafíni, bez porušenia si poro­dila Boha Slovo, opravdivá Bohorodička, velebíme ťa.")
 
@@ -210,6 +224,63 @@
   Tebe patrí chvála, tebe patrí pieseň. 
   
   Tebe, Otcu i Synu, i Svätému Duchu, patrí sláva teraz i vždycky, i na veky vekov. Amen.
+]
+
+
+#let slavoslovieVelke = [
+  #set par(first-line-indent: 1em)
+
+  Sláva Bohu na nebi a mier na zemi. V ľuďoch dobrá vôľa. 
+
+  Chválime ťa, velebíme ťa. Klaniame sa ti, oslavujeme ťa. 
+  
+  Dobrorečíme ti pre nesmiernu tvoju slávu, 
+  
+  Pane a Kráľu nebeský, Bože, Otče, všemohúci Vládca, 
+  
+  Pane náš a jednorodený Synu, Ježišu Kriste i Svätý Duchu, Pane Bože. 
+  
+  Baránok Boží, Syn Otca, ty, čo snímaš hriechy sveta, zmiluj sa nad nami. 
+  
+  Ty, čo snímaš hriechy sveta, prijmi naše modlitby. 
+  
+  Ty, čo sedíš po pravici Otcovej, zmiluj sa nad nami. 
+  
+  Len ty sám si svätý, ty jediný si Pán, Ježiš Kristus v sláve Boha Otca. Amen. 
+  
+  Každý deň ťa budeme velebiť a tvoje meno chváliť navždy a naveky. 
+  
+  Pane, bol si naše útočisko z pokolenia na pokolenie. 
+  
+  Riekol som: Pane, zmiluj sa nado mnou a uzdrav moju dušu, lebo som sa prehrešil proti tebe. 
+  
+  Pane, k tebe sa utiekam. Nauč ma plniť tvoju vôľu, lebo ty si môj Boh. 
+  
+  Veď u teba je zdroj života a v tvojom svetle uzrieme svetlo. 
+  
+  Svoju milosť daj tým, čo ťa poznajú.
+  
+  Ráč nás, Pane, v tento deň zachrániť od hriechu. 
+  
+  Velebíme ťa, Pane, Bože otcov našich. Chválime a oslavujeme tvoje meno na veky. Amen. 
+  
+  Preukáž nám, Pane, svoje milosrdenstvo, lebo dúfame v teba. 
+  
+  Blahoslavený si, Pane, nauč nás svoje pravdy. 
+  
+  Blahoslavený si, Vládca, daj nám porozumieť svojim pravdám. 
+  
+  Blahoslavený si, Svätý, osvieť nás svojimi pravdami. 
+  
+  Pane, bol si naše útočisko z pokolenia na pokolenie. 
+  
+  Riekol som: Pane, zmiluj sa nado mnou a uzdrav moju dušu, lebo som sa prehrešil proti tebe. 
+  
+  Pane, k tebe sa utiekam. Nauč ma plniť tvoju vôľu, lebo ty si môj Boh.
+  
+  Veď u teba je zdroj života a v tvojom svetle uzrieme svetlo. 
+  
+  Svoju milosť daj tým, čo ťa poznajú.
 ]
 
 #let vKazdomCase = [

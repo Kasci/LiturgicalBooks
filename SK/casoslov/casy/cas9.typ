@@ -1,12 +1,8 @@
 #import "/style.typ": *
 #import "/SK/texts.typ": *
-#import "../../styleCasoslov.typ": *
+#import "../styleCasoslov.typ": *
 
 = Deviaty čas
-
-#align(horizon + center)[#primText[
-  #text(40pt)[Deviaty čas]
-]]
 
 #show: rest => columns(2, rest)
 

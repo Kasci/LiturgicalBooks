@@ -1,10 +1,12 @@
-#import "../../style.typ": *
+#import "../../../style.typ": *
 #import "/SK/texts.typ": *
 #import "../styleCasoslov.typ": *
 
 = Každodenná utiereň <X>
 
 #show: rest => columns(2, rest)
+
+TODO: zaciatok
 
 #lettrine("Pane Ježišu Kriste, Bože náš, pre modlitby našich svätých otcov zmiluj sa nad nami.")
 
@@ -50,9 +52,9 @@
 
 #note[Berieme tropáre podľa predpisu]
 
-== Katizma <X>
+== Katizmy a sedaleny <X>
 
-#note[Berieme katizmu podľa predpisu.]
+#note[Berieme katizmy podľa predpisu.]
 
 #note[Medzi katizmami berieme sedaleny.]
 
@@ -82,7 +84,7 @@
 
 == Chvály <X>
 
-#include "../zalmy/Z_ChvalyMale.typ"
+#include "../../zalmy/Z_ChvalyMale.typ"
 
 #verse((
   "Aby ich súdili podľa písaného práva. * Všetkým jeho svätým to bude na slávu.",

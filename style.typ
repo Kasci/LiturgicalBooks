@@ -24,7 +24,7 @@
 #let D = (gold, lgold)
 #let P = (purple, lpurple)
 
-#let (primary, secondary) = B
+#let (primary, secondary) = R
 
 #let primText(txt) = {
   return text(primary, txt)
@@ -115,6 +115,9 @@
 }
 #let note(txt) = {
   primText[#txt]
+}
+#let centerNote(txt) = {
+  align(center, primText[#txt])
 }
 #let vozhlas(txt) = {
   header[Возглаше́нїе:  ]

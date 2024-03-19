@@ -1,12 +1,8 @@
 #import "/style.typ": *
 #import "/SK/texts.typ": *
-#import "../../styleCasoslov.typ": *
+#import "../styleCasoslov.typ": *
 
 = Prvý čas
-
-#align(horizon + center)[#primText[
-  #text(40pt)[Prvý čas]
-]]
 
 #show: rest => columns(2, rest)
 

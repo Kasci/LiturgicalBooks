@@ -1,6 +1,6 @@
 #import "/style.typ": *
-#import "texts.typ": *
-#import "textsTmp.typ": *
+#import "../texts.typ": *
+#import "../textsTmp.typ": *
 
 #let si = [
   #lettrine("Sláva:") #lettrine("I teraz:")
@@ -119,35 +119,53 @@
   )
 ]
 
-#let verseSoZvolanim(zvolanie, verse, prve: true) = [  
-  #if prve [
-    #zvolanie
+#let verseSoZvolanim(zvolanie, verse, prve: true, add_note: true, slava: "", iteraz: "", slava_iteraz: "") = {
+  if prve {
+    lettrine(zvolanie)
   
-    #note[Opakuje sa po každom verši]
-  ]
+    if add_note {
+      note[Opakuje sa po každom verši]
+    }
+  }
   
-  #let c = counter("bjp")
-  #c.update(1)
+  let c = counter("bjp")
+  c.update(1)
 
-  #let tbl = {
+  let tbl = {
     verse.map(k => (
           primText[#c.display("i:"); #c.step()]
         ,[#k]
       )
     )
   }
-  #if not prve {
+  if not prve {
     tbl.insert(1, [])
     tbl.insert(2, pad(left:-20pt)[#zvolanie])
     tbl.insert(3, [])
     tbl.insert(4, pad(left:-20pt)[#note[Opakuje sa po každom verši]])
   }
-  #table(
+  if slava_iteraz != "" {
+    tbl.push(secText([$#sym.SS #sym.II$:]))
+    tbl.push(slava_iteraz)
+  }
+  if slava != "" {
+    tbl.push(secText([$#sym.SS$:]))
+    tbl.push(slava)
+  }
+  if iteraz != "" {
+    tbl.push(secText([$sym.II$:]))
+    tbl.push(iteraz)
+  }
+  table(
     columns: (15pt, auto),
     stroke: none,
     align: (x, y) => (right, left).at(x),
     ..tbl.flatten()
   )
+}
+
+#let postne_svitileny = [
+  
 ]
 
 #let svitileny = [
@@ -226,4 +244,26 @@
   #si
 
   #lettrine("Bohorodička, šťastie apoštolov, potešenie zarmútených, * zástankyňa kresťanov, Panna a Matka Pána, * zastaň sa nás a zachráň nás pred večným utrpením.")
+]
+
+#let efrem = [
+  == Modlitba svätého Efréma Sýrskeho
+
+  #lettrine("Pane a Vládca môjho života, odním odo mňa ducha znechutenosti, nedbalosti, mocibažnosti a prázdnych rečí.") #secText("(veľká poklona)")
+
+  #lettrine("Daruj mne, svojmu služobníkovi, ducha miernosti, poníženosti, trpezlivosti a lásky.")  #secText("(veľká poklona)")
+
+  #lettrine("Áno, Pane a Kráľu, daj, aby som videl vlastné prehrešenia a neposudzoval svojho brata, lebo ty si požehnaný na veky vekov. Amen.") #secText("(veľká poklona)")
+
+  #note("Potom nasleduje dvanásť malých poklôn, pričom pri každej poklone hovoríme:")
+
+  #lettrine("Bože, buď milostivý mne hriešnemu.") #secText("(malá poklona)")
+
+  #lettrine("Bože, očisť moje hriechy a zmiluj sa nado mnou.") #secText("(malá poklona)")
+
+  #lettrine("Mnoho ráz som zhrešil, Pane, odpusť mi.") #secText("(malá poklona)")
+
+  #note("A znovu celú modlitbu svätého Efréma s jednou veľkou poklonou na jej konci:")
+
+  #lettrine("Pane a Vládca môjho života, odním odo mňa ducha znechutenosti, nedbalosti, mocibažnosti a prázdnych rečí. Daruj mne, svojmu služobníkovi, ducha miernosti, poníženosti, trpezlivosti a lásky. Áno, Pane a Kráľu, daj, aby som videl vlastné prehrešenia a neposudzoval svojho brata, lebo ty si požehnaný na veky vekov. Amen.") #secText("(veľká poklona)")
 ]
