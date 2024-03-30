@@ -34,6 +34,8 @@
   )
 }
 
+#let kanonIdx = ("1","2","3","4","5","6","7","8","9")
+
 // *************
 // METHODS INFO
 // *************
@@ -44,24 +46,44 @@
 
 #let print(func, txt) = func(txt)
 
+#let fixObj(obj) = {
+  let ret = ()
+  let l = obj.len()
+  let i = 1
+  let a = obj.at(0)
+  ret.push(a)
+  while i < l {
+    a = obj.at(i - 1)
+    let b = obj.at(i)
+    if a.TEXT == b.TEXT {
+      let bSplit = b.TEXT.split(" ")
+      b.TEXT = bSplit.slice(0,3).join(" ") + "..."
+    }
+    ret.push(b)
+    i = i + 1
+  }
+  // panic(ret)
+  return ret
+}
+
 // *************
 // PROJECT INFO
 // *************
 
 #let header1 = it => {
-  align(center, text(40pt, underline(stroke: (thickness: 6pt, cap: "round"), pText(it))))
+  align(center, text(40pt, underline(stroke: (thickness: 6pt, cap: "round"), upper(pText(it)))))
 }
 #let header2 = it => {
-  align(center, text(20pt, underline(stroke: (thickness: 3pt, cap: "round"), pText(it))))
+  align(center, text(20pt, underline(stroke: (thickness: 3pt, cap: "round"), upper(pText(it)))))
 }
 #let header3 = it => {
-  align(center, text(15pt, underline(stroke: (thickness: 2pt, cap: "round", dash: "loosely-dotted"), sText(it))))
+  align(center, text(15pt, underline(stroke: (thickness: 2pt, cap: "round"), sText(it))))
 }
 #let header4 = it => align(center, text(15pt, sText(it)))
 #let header5 = it => align(center, text(15pt, underline(it)))
 #let header6 = it => align(center, text(15pt, it))
 
-#let project(body) = {
+#let oktoich(body) = {
   
   set page(
     paper:"a5", 
@@ -102,15 +124,7 @@
 
   set text(font: "Monomakh Unicode", lang: "ru", fill: black)
 
-  // Main body.
   set par(justify: true)
-  
-  body
-}
-
-#let generate(content) = {
-
-  show: project
 
   show outline.entry.where(level: 1): it => {
     v(12pt, weak: true)
@@ -120,10 +134,9 @@
     text(13pt, strong(it))
   }
 
-  outline(title: "Ꙍ҆главле́нїе", depth: 3, indent: 2em)
-  pagebreak()
-
-  content
+  // outline(title: "Ꙍ҆главле́нїе", depth: 3, indent: 2em)
+  
+  body
 }
 
 // *************
@@ -139,6 +152,7 @@
 #let generateTable(tbl) = [
   #table(
     columns: (20pt, auto),
+    column-gutter: 0pt, 
     stroke: none,
     align: (x, y) => (right, left).at(x),
     ..tbl
@@ -146,74 +160,126 @@
 ]
 
 #let jObj(obj) = [
-  #if obj.TITLE.len() > 0 [#sText(obj.TITLE): ]
-  #if obj.PRIPIV.len() > 0 {sText([(#sym.PP: #obj.PRIPIV) ])} #obj.TEXT
+  #if "TITLE" in obj and obj.TITLE.len() > 0 [#sText(obj.TITLE + ":") ]
+  #if "HLAS" in obj and obj.HLAS != none [#sText(super($sym.HH$)+str(obj.HLAS)) ]
+  #if "PRIPIV" in obj and obj.PRIPIV.len() > 0 {sText([(#sym.PP: #obj.PRIPIV) ])} #obj.TEXT
 ]
 
-#let Generate_HV(obj) = [
-  ==== #translation.at("HOSPODI_VOZVACH")
+#let Generate_HV(obj, skip: 0) = {
+  if not "HV" in obj {return}
+  [==== #translation.at("HOSPODI_VOZVACH")]
 
-  #let L = obj.HV.len()
-  #let verses = stichiry_HospodyVozvach.slice(-1 * L)
+  let HV = fixObj(obj.HV)
+  if skip > 0 {
+    HV = HV.slice(0, -1 * skip)
+  }
+  let L = HV.len()
+  let verses = stichiry_HospodyVozvach.slice(-1 * L)
 
-  #let c = counter("V")
-  #c.update(L)
-  #let versesToPrint = verses.map(it => (
-    [#sText(c.display("1:")); #c.update(i => i - 1)],[
+  let c = counter("V")
+  c.update(L + skip)
+
+  let versesToPrint = verses.map(it => (
+    [#sText(c.display("1:")); #c.update(i => i - 1)],
+    [#gText(it)]
+  ))
+  versesToPrint.push(([], [#gText(translation.at("SI"))]))
+
+  let stichirasToPrint = HV.map(it => (
+    [],[#jObj(it)]
+  ))
+  stichirasToPrint.push(([\*], [#jObj(obj.HV_B)]))
+
+  let tbl = versesToPrint.zip(stichirasToPrint).flatten()
+
+  generateTable(tbl)
+}
+
+#let Generate_SS(obj, id) = {
+  if not "S" in obj {return}
+  [==== #translation.at("STICHOVNI")]
+
+  let SS = fixObj(obj.S)
+  let verses = stichiry_Stichovni.at(str(id))
+
+  let versesToPrint = verses.map(it => ([],[
     #gText(it)
   ]))
+  versesToPrint.push(([],[#gText(translation.at("SI"))]))
+  versesToPrint.push(([], [])) 
 
-  #let stichirasToPrint = obj.HV.map(it => (
-    table.cell(colspan: 2, align: left)[#jObj(it)]
+  let c = counter("V")
+  c.update(1)
+  let stichirasToPrint = SS.map(it => (
+    [#sText(c.display("1:")); #c.step()], [#jObj(it)]
   ))
+  stichirasToPrint.push(([\*], [#jObj(obj.S_B)]))
 
-  // Stichiry Hospodi vozvach
-  #let tbl = versesToPrint.zip(stichirasToPrint).flatten()
+  let tbl = stichirasToPrint.zip(versesToPrint).flatten()
+  tbl.pop()
+  tbl.pop()
 
-  #tbl.push([#sText(translation.at("SI"))])
-  #tbl.push([#jObj(obj.HV_B)])
+  generateTable(tbl)
+}
 
-  #generateTable(tbl)
-]
-
-#let Generate_SS(obj, id) = [
-  ==== #translation.at("STICHOVNI")
-
-  #let sid = str(id)
-  #let verses = stichiry_Stichovni.at(sid)
-
-  #let versesToPrint = verses.map(it => (table.cell(colspan: 2, align: left)[
-    #gText(it)
+#let generate_T(obj) = {
+  if not "HV" in obj {return}
+  [==== #translation.at("TROPAR")]
+  
+  let T = fixObj(obj.T)
+  let tbl = T.map(it => ([],[
+    #jObj(it)
   ]))
-  #versesToPrint.push(("","")) // Push to show last stich
+  tbl.push(([], [#gText(translation.at("SI"))]))
+  tbl.push(([], [#jObj(obj.T_B)]))
 
-  #let c = counter("V")
-  #c.update(1)
-  #let stichirasToPrint = obj.S.map(it => (
-    [#sText(c.display("1:")); #c.step()],
-    [#jObj(it)]
-  ))
+  generateTable(tbl.flatten())
+}
 
-  // Stichiry Hospodi vozvach
-  #let tbl = stichirasToPrint.zip(versesToPrint).flatten()
-  #tbl.remove(-1) 
-  #tbl.remove(-1) // Remove last to artificialy inserted
+#let Generate_K(obj) = {
+  [==== #translation.at("KANON")]
+  for p in kanonIdx {
+    if not p in obj {continue}
 
-  #tbl.push([#sText(translation.at("SI"))])
-  #tbl.push([#jObj(obj.S_B)])
+    [===== #translation.at("PIESEN") #p]
+    let kanon = obj.at(p)
+    let irmos = jObj(kanon.at(0))
 
-  #generateTable(tbl)
-]
+    let c = counter("K")
+    c.update(1)
+    let tbl = kanon.slice(1).map(it => {
+      return ({
+          sText(context(c.display("i")));
+          c.step()
+        },
+        jObj(it))
+    })
+    tbl.insert(0, ([],irmos))
+    generateTable(tbl.flatten())
 
-#let Generate_M(obj) = [
-  #Generate_HV(obj)
-  #Generate_SS(obj, "M")
-]
+    if p == "6" {
+      let sedalen = obj.at("S")
+      [===== #translation.at("SIDALEN")]
 
-#let Generate_V(obj) = [
-  #Generate_HV(obj)
-  #Generate_SS(obj, 0)
-]
+      generateTable(sedalen.map(it => ([], jObj(it))).flatten())
+    }
+  }
+}
+
+#let Generate_M(obj) = {
+  Generate_HV(obj)
+  Generate_SS(obj, "M")
+}
+
+#let Generate_V(obj) = {
+  Generate_HV(obj, skip: 3)
+  Generate_SS(obj, 0)
+  generate_T(obj)
+}
+
+#let Generate_P(obj) = {
+  Generate_K(obj)
+}
 
 #let Generate_0(day) = [
   == #translation.at("Ne")
@@ -226,5 +292,8 @@
   #header3([(#translation.at("So_V"))])
   #let V = day.V
   #Generate_V(V)
-  
+  === #translation.at("P")
+  #header3([(#translation.at("So_N"))])
+  #let P = day.P
+  #Generate_P(P)
 ]
