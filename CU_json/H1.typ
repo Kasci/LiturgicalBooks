@@ -1,6 +1,6 @@
 #import "all.typ": *
 
-#show: oktoich
+#show: book
 
 #let jj = json("oktoich/Hlas1/0_Nedela.json")
 #let obj = jj.M

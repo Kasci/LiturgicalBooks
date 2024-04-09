@@ -26,7 +26,7 @@
 #let D = (gold, lgold)
 #let P = (purple, lpurple)
 
-#let (primary, secondary) = R
+#let (primary, secondary, contrast, contrast_secondary) = R+B
 
 #let bg = {
   rect(width: 95%, height: 95%, inset: 10pt, radius: 5pt, stroke: (paint: primary, thickness: 2pt),
@@ -42,6 +42,7 @@
 
 #let pText(txt) = text(primary, txt)
 #let sText(txt) = text(secondary, txt)
+#let cText(txt) = text(contrast_secondary, txt)
 #let gText(txt) = text(gray, txt)
 
 #let print(func, txt) = func(txt)
@@ -83,7 +84,7 @@
 #let header5 = it => align(center, text(15pt, underline(it)))
 #let header6 = it => align(center, text(15pt, it))
 
-#let oktoich(body) = {
+#let book(body) = {
   
   set page(
     paper:"a5", 
@@ -236,7 +237,7 @@
   generateTable(tbl.flatten())
 }
 
-#let Generate_K(obj) = {
+#let Generate_PK(obj) = {
   [==== #translation.at("KANON")]
   for p in kanonIdx {
     if not p in obj {continue}
@@ -247,7 +248,7 @@
 
     let c = counter("K")
     c.update(1)
-    let tbl = kanon.slice(1).map(it => {
+    let tbl = kanon.slice(1,-2).map(it => {
       return ({
           sText(context(c.display("i")));
           c.step()
@@ -255,13 +256,60 @@
         jObj(it))
     })
     tbl.insert(0, ([],irmos))
+    tbl.insert(1, (sText($#sym.rho$), gText(pripiv_P)))
+    tbl.push(table.cell(colspan: 2, align: left, gText(translation.at("S"))))
+    tbl.push(([], jObj(kanon.at(-2))))
+    tbl.push(table.cell(colspan: 2, align: left, gText(translation.at("IN"))))
+    tbl.push(([], jObj(kanon.at(-1))))
+    
     generateTable(tbl.flatten())
 
     if p == "6" {
       let sedalen = obj.at("S")
       [===== #translation.at("SIDALEN")]
 
-      generateTable(sedalen.map(it => ([], jObj(it))).flatten())
+      generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
+    }
+  }
+}
+
+#let Generate_NK(obj) = {
+  [==== #translation.at("KANON")]
+  for p in kanonIdx {
+    if not p in obj {continue}
+
+    [===== #translation.at("PIESEN") #p]
+    let kanon = obj.at(p)
+    let irmos = jObj(kanon.at(0))
+
+    let c = counter("K")
+    c.update(1)
+    let tbl = kanon.slice(1,-2).map(it => {
+      return ({
+          sText(context(c.display("i")));
+          c.step()
+        },
+        jObj(it))
+    })
+    tbl.insert(0, ([],irmos))
+    tbl.insert(1, (sText($#sym.rho$), gText(pripiv_N)))
+    tbl.push(table.cell(colspan: 2, align: left, gText(translation.at("S"))))
+    tbl.push(([], jObj(kanon.at(-2))))
+    tbl.push(table.cell(colspan: 2, align: left, gText(translation.at("IN"))))
+    tbl.push(([], jObj(kanon.at(-1))))
+    generateTable(tbl.flatten())
+
+    if p == "3" {
+      let sedalen = obj.at("S1")
+      [===== #translation.at("SIDALEN")]
+
+      generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
+    }
+    if p == "6" {
+      let sedalen = obj.at("S2")
+      [===== #translation.at("SIDALEN")]
+
+      generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
     }
   }
 }
@@ -278,7 +326,11 @@
 }
 
 #let Generate_P(obj) = {
-  Generate_K(obj)
+  Generate_PK(obj)
+}
+
+#let Generate_N(obj) = {
+  Generate_NK(obj)
 }
 
 #let Generate_0(day) = [
@@ -296,4 +348,7 @@
   #header3([(#translation.at("So_N"))])
   #let P = day.P
   #Generate_P(P)
+  === #translation.at("N")
+  #let N = day.N
+  #Generate_N(N)
 ]
