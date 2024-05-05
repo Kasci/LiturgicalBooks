@@ -1,0 +1,193 @@
+{
+    "K": {
+        "H": 1,
+        "PRIPIV": "Christós voskrése iz mértvych.",
+        "1": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Voskresénija deň, * prosvitímsja, ľúdije. * Páscha, Hospódňa Páscha: * ot smérti bo k žízni, * i ot zemlí k nebesí, * Christós Boh nas privedé, * pobídnuju pojúščija."
+            },
+            {
+                "TEXT": "Očístim čúvstvija, i úzrim nepristúpnym svítom Voskresénija, Christá blistájuščasja, * i rádujtesja, rekúšča, * jásno da uslýšim, * pobídnuju pojúšče."
+            },
+            {
+                "TEXT": "Nebesá úbo dostójno da veseľátsja, * zemľá že da rádujetsja, * da prázdnujet že mir, * vídimyj že ves i nevídimyj: * Christós bo vostá, * vesélije víčnoje."
+            }
+        ],
+        "1_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Voskresénija deň, * prosvitímsja, ľúdije. * Páscha, Hospódňa Páscha: * ot smérti bo k žízni, * i ot zemlí k nebesí, * Christós Boh nas privedé, * pobídnuju pojúščija."
+        },
+        "3": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Prijidíte, pívo pijém nóvoje, * ne ot kámene neplódna čudoďíjemoje, * no netľínija istóčnik * iz hróba odoždívša Christá, * v Némže utverždáemsja."
+            },
+            {
+                "TEXT": "Nýňi vsja ispólnišasja svíta, * nébo že i zemľá, i preispódňaja: * da prázdnujet úbo vsja tvar * vostánije Christóvo, * v némže utverždájetsja."
+            },
+            {
+                "TEXT": "Včerá spohrebóchsja Tebí Christé, * sovostajú dnes * voskrésšu Tebí, * sraspináchsja Tebí včerá, * Sam mja sproslávi Spáse vo Cárstviji Tvojém."
+            }
+        ],
+        "3_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Prijidíte, pívo pijém nóvoje, * ne ot kámene neplódna čudoďíjemoje, * no netľínija istóčnik * iz hróba odoždívša Christá, * v Némže utverždáemsja."
+        },
+        "Y": {
+            "TITLE": "Ipakoj",
+            "HLAS": 4,
+            "TEXT": "Predvarívšyja útro jáže o Maríji, * i obrítšyja kámeň otvalén ot hróba, * slýšachu ot Anhela: vo svíťi prisnosúščňim Súščaho, * s mértvymi čto íščete, jáko čelovíka? * Vídite hróbnyja pelený, tecýte i míru propovídite, * jáko vostá Hospóď, umertvívyj smerť, * jáko jesť Syn Bóha, spasájuščaho rod čelovíčeskij."
+        },
+        "4": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Na Božéstvenňij stráži * bohohlahólivyj Avvakúm * da stánet s námi, * i pokážet svitonósna Anhela, * jásno hlahóľušča: * dnes spasénije míru, * jáko voskrése Christós, * jáko vsesílen."
+            },
+            {
+                "TEXT": "Múžeskij úbo pol, * jáko razvérzyj ďívstvennuju utróbu, * javísja Christós: * jáko čelovík že, * Ahnec narečésja: * neporóčen že, * jáko nevkúsen skvérny, * náša Páscha, * i jáko Boh ístinen * soveršén rečésja."
+            },
+            {
+                "TEXT": "Jako jedinoľítnyj áhnec, * blahoslovénnyj nam vinéc Christós, * vóleju za vsich zaklán bysť, * Páscha čistíteľnaja, * i páki iz hróba krásnoje * právdy nam vozsijá Sólnce."
+            },
+            {
+                "TEXT": "Bohootéc úbo Davíd * pred sínnym kovčéhom skakáše ihrája, * ľúdije že Bóžiji svjatíji, * obrazóv sbytijé zrjášče, * veselímsja Božéstvenňi, * jáko voskrése Christós, * jáko Vsesílen."
+            }
+        ],
+        "4_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Na Božéstvenňij stráži * bohohlahólivyj Avvakúm * da stánet s námi, * i pokážet svitonósna Anhela, * jásno hlahóľušča: * dnes spasénije míru, * jáko voskrése Christós, * jáko vsesílen."
+        },
+        "5": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Utreňujem útrenňuju hlubokú, * i vmísto míra písň prinesém Vladýci, * i Christá úzrim právdy Sólnce, * vsim žizň vozsijájušča."
+            },
+            {
+                "TEXT": "Bezmírnoje Tvojé blahoutróbije, * ádovymi úzami soderžímiji zrjášče, * k svítu iďáchu Christé, * vesélymi nohámi, * Páschu chváľašče víčnuju."
+            },
+            {
+                "TEXT": "Pristúpim sviščenósniji, * ischoďášču Christú iz hróba, jáko ženichú, * i sprázdnujem ľuboprázdnstvennymi čínmi * Páschu Bóžiju spasíteľnuju."
+            }
+        ],
+        "5_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Utreňujem útrenňuju hlubokú, * i vmísto míra písň prinesém Vladýci, * i Christá úzrim právdy Sólnce, * vsim žizň vozsijájušča."
+        },
+        "6": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Snizšél jesí v preispódňaja zemlí, * i sokrušíl jesí verejí víčnyja, * soderžáščyja svjázannyja, Christé, * i tridnéven, * jáko ot kíta Jóna, * voskrésl jesí ot hróba."
+            },
+            {
+                "TEXT": "Sochranív cíla známenija Christé, * voskrésl jesí ot hróba, * kľučí Ďívy ne vredívyj v roždeství Tvojém, * i otvérzl jesí nam rájskija dvéri."
+            },
+            {
+                "TEXT": "Spáse moj, * živóje že i nežértvennoje zakolénije, * jáko Boh Sam Sebé * vóleju privél Otcú, * sovoskresíl jesí vseródnaho Adáma, * voskrés ot hróba."
+            }
+        ],
+        "6_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Snizšél jesí v preispódňaja zemlí, * i sokrušíl jesí verejí víčnyja, * soderžáščyja svjázannyja, Christé, * i tridnéven, * jáko ot kíta Jóna, * voskrésl jesí ot hróba."
+        }, 
+        "K": {
+            "TITLE": "Kondák",
+            "HLAS": 8,
+            "TEXT": "Ašče i vo hrob snizšél jesí, Bezsmértne, * no ádovu razrušíl jesí sílu, * i voskrésl jesí, jáko pobediteľ, Christé Bóže, * ženám mironósicam viščávyj: rádujtesja, * i Tvoím apóstolom mir dárujaj, * pádšim podajáj voskresénije."
+        },
+        "I": {
+            "TITLE": "Ikos",
+            "TEXT": " Ježe préžde sólnca Sólnce zašédšeje inohdá vo hrob, * predvaríša ko útru, íščuščyja jáko dne mironósicy ďívy, * i druhá ko druzíj vopijáchu: * o druhíni! Prijidíte, voňámi pomážem ťílo živonósnoje i pohrebénoje, * ploť voskresívšaho pádšaho Adáma, ležáščuju vo hróbi. * Idem, potščímsja jákože volsví, i poklonímsja, * i prinesém míra jáko dáry, ne v pelenách, no v plaščaníci obvítomu, * i pláčim, i vozopiím: o Vladýko, vostáni, * pádšym podajáj voskresénije."
+        },
+        "ST": {
+            "HLAS": 6,
+            "TEXT": "Voskrés Iisús ot hróba, * jákože prorečé, * dadé nam živót víčnyj * i véliju mílosť."
+        },
+        "7": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Otroki ot péšči izbávivyj, * byv Čelovík, * stráždet jáko smérten, * i strástiju smértnoje, * v netľínija oblačít blahoľípije, * Jedín blahoslovén * otcév Boh, i preproslávlen."
+            },
+            {
+                "TEXT": "Žený s míry bohomúdryja v sľid Tebé tečáchu: * Jehóže, jáko mértva, so slezámi iskáchu, * pokloníšasja rádujuščyjasja Živómu Bóhu, * i Páschu tájnuju * Tvojím, Christé, učenikóm blahovistíša."
+            },
+            {
+                "TEXT": "Smérti prázdnujem umerščvlénije, * ádovo razrušénije, * inóho žitijá víčnaho načálo, * i ihrájušče pojém Vinóvnaho, * Jedínaho blahoslovénnaho * otcév Bóha, i preproslávlennaho."
+            },
+            {
+                "TEXT": "Jako voístinnu svjaščénnaja, * i vseprázdnstvennaja sijá spasíteľnaja nošč, * i svitozárnaja, * svitonósnaho dne, * vostánija súšči provozvístnica: * v néjže bezľítnyj Svit iz hróba plótski vsim vozsijá."
+            }
+        ],
+        "7_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Otroki ot péšči izbávivyj, * byv Čelovík, * stráždet jáko smérten, * i strástiju smértnoje, * v netľínija oblačít blahoľípije, * Jedín blahoslovén * otcév Boh, i preproslávlen."
+        },
+        "8": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Sej narečénnyj i svjatýj deň, * Jedín subbót * Car i Hospóď, * prázdnikov prázdnik * i toržestvó jesť toržéstv, * vóňže blahoslovím Christá vo víki."
+            },
+            {
+                "TEXT": "Prijidíte, nóvaho vinohráda roždénija, * Božéstvennaho vesélija, * v naróčitom dni Voskresénija, * Cárstvija Christóva priobščímsja, * pojúšče Jehó * jáko Bóha vo víki."
+            },
+            {
+                "TEXT": "Vozvedí ókrest óči tvojí, Sijóne, i vižď: * se bo prijidóša k tebí, * jáko bohosvítlaja svitíla, * ot západa, i sívera, i mórja, * i vostóka čáda tvojá, * v tebí blahoslovjáščaja Christá vo víki."
+            },
+            {
+                "TITLE": "Troičen",
+                "TEXT": "Otče Vsederžíteľu, i Slóve, i Dúše, * tremí sojediňájemoje vo Ipostásich Jestestvó, * Presúščestvenne i Prebožéstvenne, * v Ťa krestíchomsja, * i Ťa blahoslovím vo vsja víki."
+            }
+        ],
+        "8_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Sej narečénnyj i svjatýj deň, * Jedín subbót * Car i Hospóď, * prázdnikov prázdnik * i toržestvó jesť toržéstv, * vóňže blahoslovím Christá vo víki."
+        },
+        "9": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Svitísja, svitísja, * nóvyj Jerusalíme: * sláva bo Hospódňa * na tebí vozsijá. * Likúj nýňi i veselísja, Sióne. * Ty že, Čístaja, krasújsja, Bohoródice, * o vostániji Roždestvá Tvojehó."
+            },
+            {
+                "TEXT": "O Božéstvennaho, o ľubéznaho, * o sladčájšaho Tvojehó hlása! * S námi bo nelóžno * obiščálsja jesí býti, * do skončánija víka Christé: * Jehóže, vírniji, * utverždénije nadéždi imúšče, rádujemsja."
+            },
+            {
+                "TEXT": "O Páscha vélija i svjaščénňijšaja, Christé! * O múdroste, i Slóve Bóžij, i sílo! * Podaváj nam ísťije Tebé pričaščátisja, * v nevečérňim dni Cárstvija Tvojehó."
+            }
+        ],
+        "9_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Svitísja, svitísja, * nóvyj Jerusalíme: * sláva bo Hospódňa * na tebí vozsijá. * Likúj nýňi i veselísja, Sióne. * Ty že, Čístaja, krasújsja, Bohoródice, * o vostániji Roždestvá Tvojehó."
+        }
+    },
+    "SV": {
+        "TEXT": "Plótiju usnúv, * jáko mertv, * Carjú i Hóspodi, * tridnéven voskrésl jesí, * Adáma vozdvíh ot tli, * i uprazdnív smerť: * Páscha netľínija, * míra spasénije."
+    },
+    "CH_S": [
+        "Da voskrésnet Boh, * i rastočátsja vrazí Jehó * i da bižát ot licá Jehó * nenavíďaščiji Jehó.",
+        "Jako isčezáet dym, * da isčéznut. * jáko tájet vósk ot licá ohňá.",
+        "Táko da pohíbnut hríšnicy ot Licá Bóžija, * a právednicy da vozveseľátsja.",
+        "Sej deň, jehóže sotvori Hospóď, * vozrádujemsja * i vozveselímsja v oň."
+    ],
+    "CH": [
+        {
+            "HLAS": 5,
+            "TEXT": "Páscha * svjaščénnaja nam dnes pokazásja; * Páscha nóva svjatája; * Páscha tájinstvennaja; * Páscha vsečestnája. * Páscha Christós Izbáviteľ; * Páscha neporóčnaja; * Páscha velíkaja; * Páscha vírnych. * Páscha dvéri rájskija nam otverzájuščaja. * Páscha vsich osvjaščájuščaja vírnych."
+        },
+        {
+            "HLAS": 5,
+            "TEXT": "Prijidíte * ot viďínija žený blahovístnicy, * i Siónu rcýte: * prijimí * ot nas rádosti blahovíščenija, Voskresénija Christóva: * krasújsja, likúj * i rádujsja, Jerusalíme, * Carjá Christá uzrív iz hróba, * jáko ženichá proischoďášča."
+        },
+        {
+            "HLAS": 5,
+            "TEXT": "Mironósicy žený, * útru hlubokú, * predstávša hróbu Živodávca, * obritóša Anhela * na kámeni siďášča, * i toj proviščáv im, * síce hlahólaše: * čto íščete Živáho s mértvymi; * čto pláčete Netľínnaho vo tli? * Šédše, propovídite učenikóm Jehó."
+        },
+        {
+            "HLAS": 5,
+            "TEXT": "Páscha krásnaja, * Páscha, Hospódňa Páscha! * Páscha vsečestnája * nam vozsijá. *Páscha, rádostiju druh drúha obímem. * O Páscha! * Izbavlénije skórbi, * íbo iz hróba dnes, * jáko ot čertóha vozsijáv Christós, * žený rádosti ispólni, hlahóľa: * propovídite apóstolom."
+        },
+        {
+            "HLAS": 5,
+            "TEXT": "Voskresénija deň, * i prosvitímsja toržestvóm, * i druh drúha obímem. * Rcem brátije, * i nenavíďaščym nas, * prostím vsja voskresénijem, * i táko vozopijím: * Christós voskrése iz mértvych, * smértiju smerť popráv, * i súščym vo hrobích živót darováv."
+        }
+    ]
+}

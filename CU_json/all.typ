@@ -81,8 +81,8 @@
   align(center, text(15pt, underline(stroke: (thickness: 2pt, cap: "round"), sText(it))))
 }
 #let header4 = it => align(center, text(15pt, sText(it)))
-#let header5 = it => align(center, text(15pt, underline(it)))
-#let header6 = it => align(center, text(15pt, it))
+#let header5 = it => align(center, text(13pt, underline(it)))
+#let header6 = it => align(center, text(13pt, it))
 
 #let book(body) = {
   
@@ -160,195 +160,205 @@
   )
 ]
 
+#let jObj4(title, hlas, pripiv, txt) = [
+  #if title.len() > 0 [#sText(title + ":") ]
+  #if hlas != none [#sText(super($sym.HH$)+str(hlas)) ]
+  #if pripiv.len() > 0 {sText([(#sym.PP: #pripiv) ])} #txt
+]
+
+
 #let jObj(obj) = [
   #if "TITLE" in obj and obj.TITLE.len() > 0 [#sText(obj.TITLE + ":") ]
   #if "HLAS" in obj and obj.HLAS != none [#sText(super($sym.HH$)+str(obj.HLAS)) ]
   #if "PRIPIV" in obj and obj.PRIPIV.len() > 0 {sText([(#sym.PP: #obj.PRIPIV) ])} #obj.TEXT
 ]
 
-#let Generate_HV(obj, skip: 0) = {
-  if not "HV" in obj {return}
-  [==== #translation.at("HOSPODI_VOZVACH")]
+#let col2(txt) = table.cell(colspan: 2, align: left, txt)
 
-  let HV = fixObj(obj.HV)
-  if skip > 0 {
-    HV = HV.slice(0, -1 * skip)
-  }
-  let L = HV.len()
-  let verses = stichiry_HospodyVozvach.slice(-1 * L)
+// #let Generate_HV(obj, skip: 0) = {
+//   if not "HV" in obj {return}
+//   [==== #translation.at("HOSPODI_VOZVACH")]
 
-  let c = counter("V")
-  c.update(L + skip)
+//   let HV = fixObj(obj.HV)
+//   if skip > 0 {
+//     HV = HV.slice(0, -1 * skip)
+//   }
+//   let L = HV.len()
+//   let verses = stichiry_HospodyVozvach.slice(-1 * L)
 
-  let versesToPrint = verses.map(it => (
-    [#sText(c.display("1:")); #c.update(i => i - 1)],
-    [#gText(it)]
-  ))
-  versesToPrint.push(([], [#gText(translation.at("SI"))]))
+//   let c = counter("V")
+//   c.update(L + skip)
 
-  let stichirasToPrint = HV.map(it => (
-    [],[#jObj(it)]
-  ))
-  stichirasToPrint.push(([\*], [#jObj(obj.HV_B)]))
+//   let versesToPrint = verses.map(it => (
+//     [#sText(c.display("1:")); #c.update(i => i - 1)],
+//     [#gText(it)]
+//   ))
+//   versesToPrint.push(col2(gText(translation.at("SI"))))
 
-  let tbl = versesToPrint.zip(stichirasToPrint).flatten()
+//   let stichirasToPrint = HV.map(it => (
+//     [],[#jObj(it)]
+//   ))
+//   stichirasToPrint.push(([\*], [#jObj(obj.HV_B)]))
 
-  generateTable(tbl)
-}
+//   let tbl = versesToPrint.zip(stichirasToPrint).flatten()
 
-#let Generate_SS(obj, id) = {
-  if not "S" in obj {return}
-  [==== #translation.at("STICHOVNI")]
+//   generateTable(tbl)
+// }
 
-  let SS = fixObj(obj.S)
-  let verses = stichiry_Stichovni.at(str(id))
+// #let Generate_SS(obj, id) = {
+//   if not "S" in obj {return}
+//   [==== #translation.at("STICHOVNI")]
 
-  let versesToPrint = verses.map(it => ([],[
-    #gText(it)
-  ]))
-  versesToPrint.push(([],[#gText(translation.at("SI"))]))
-  versesToPrint.push(([], [])) 
+//   let SS = fixObj(obj.S)
+//   let verses = stichiry_Stichovni.at(str(id))
 
-  let c = counter("V")
-  c.update(1)
-  let stichirasToPrint = SS.map(it => (
-    [#sText(c.display("1:")); #c.step()], [#jObj(it)]
-  ))
-  stichirasToPrint.push(([\*], [#jObj(obj.S_B)]))
+//   let versesToPrint = verses.map(it => ([],[
+//     #gText(it)
+//   ]))
+//   versesToPrint.push(([],[#gText(translation.at("SI"))]))
+//   versesToPrint.push(([], [])) 
 
-  let tbl = stichirasToPrint.zip(versesToPrint).flatten()
-  tbl.pop()
-  tbl.pop()
+//   let c = counter("V")
+//   c.update(1)
+//   let stichirasToPrint = SS.map(it => (
+//     [#sText(c.display("1:")); #c.step()], [#jObj(it)]
+//   ))
+//   stichirasToPrint.push(([\*], [#jObj(obj.S_B)]))
 
-  generateTable(tbl)
-}
+//   let tbl = stichirasToPrint.zip(versesToPrint).flatten()
+//   tbl.pop()
+//   tbl.pop()
 
-#let generate_T(obj) = {
-  if not "HV" in obj {return}
-  [==== #translation.at("TROPAR")]
+//   generateTable(tbl)
+// }
+
+// #let Generate_T(obj) = {
+//   if not "HV" in obj {return}
+//   [==== #translation.at("TROPAR")]
   
-  let T = fixObj(obj.T)
-  let tbl = T.map(it => ([],[
-    #jObj(it)
-  ]))
-  tbl.push(([], [#gText(translation.at("SI"))]))
-  tbl.push(([], [#jObj(obj.T_B)]))
+//   let T = fixObj(obj.T)
+//   let tbl = T.map(it => ([],[
+//     #jObj(it)
+//   ]))
+//   tbl.push(([], [#gText(translation.at("SI"))]))
+//   tbl.push(([], [#jObj(obj.T_B)]))
 
-  generateTable(tbl.flatten())
-}
+//   generateTable(tbl.flatten())
+// }
 
-#let Generate_PK(obj) = {
-  [==== #translation.at("KANON")]
-  for p in kanonIdx {
-    if not p in obj {continue}
+// #let Generate_PK(obj) = {
+//   [==== #translation.at("KANON")]
+//   for p in kanonIdx {
+//     if not p in obj {continue}
 
-    [===== #translation.at("PIESEN") #p]
-    let kanon = obj.at(p)
-    let irmos = jObj(kanon.at(0))
+//     [===== #translation.at("PIESEN") #p]
+//     let kanon = obj.at(p)
+//     let irmos = jObj(kanon.at(0))
 
-    let c = counter("K")
-    c.update(1)
-    let tbl = kanon.slice(1,-2).map(it => {
-      return ({
-          sText(context(c.display("i")));
-          c.step()
-        },
-        jObj(it))
-    })
-    tbl.insert(0, ([],irmos))
-    tbl.insert(1, (sText($#sym.rho$), gText(pripiv_P)))
-    tbl.push(table.cell(colspan: 2, align: left, gText(translation.at("S"))))
-    tbl.push(([], jObj(kanon.at(-2))))
-    tbl.push(table.cell(colspan: 2, align: left, gText(translation.at("IN"))))
-    tbl.push(([], jObj(kanon.at(-1))))
+//     let c = counter("K")
+//     c.update(1)
+//     let tbl = kanon.slice(1,-2).map(it => {
+//       return ({
+//           sText(context(c.display("i")));
+//           c.step()
+//         },
+//         jObj(it))
+//     })
+//     tbl.insert(0, ([],irmos))
+//     tbl.insert(1, (sText($#sym.rho$), gText(pripiv_P)))
+//     tbl.push(col2(gText(translation.at("S"))))
+//     tbl.push(([], jObj(kanon.at(-2))))
+//     tbl.push(col2(gText(translation.at("IN"))))
+//     tbl.push(([], jObj(kanon.at(-1))))
     
-    generateTable(tbl.flatten())
+//     generateTable(tbl.flatten())
 
-    if p == "6" {
-      let sedalen = obj.at("S")
-      [===== #translation.at("SIDALEN")]
+//     if p == "6" {
+//       let sedalen = obj.at("S")
+//       [===== #translation.at("SIDALEN")]
 
-      generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
-    }
-  }
-}
+//       generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
+//     }
+//   }
+// }
 
-#let Generate_NK(obj) = {
-  [==== #translation.at("KANON")]
-  for p in kanonIdx {
-    if not p in obj {continue}
+// #let Generate_NK(obj) = {
+//   [==== #translation.at("KANON")]
+//   for p in kanonIdx {
+//     if not p in obj {continue}
 
-    [===== #translation.at("PIESEN") #p]
-    let kanon = obj.at(p)
-    let irmos = jObj(kanon.at(0))
+//     [===== #translation.at("PIESEN") #p]
+//     let kanon = obj.at(p)
+//     let irmos = jObj(kanon.at(0))
 
-    let c = counter("K")
-    c.update(1)
-    let tbl = kanon.slice(1,-2).map(it => {
-      return ({
-          sText(context(c.display("i")));
-          c.step()
-        },
-        jObj(it))
-    })
-    tbl.insert(0, ([],irmos))
-    tbl.insert(1, (sText($#sym.rho$), gText(pripiv_N)))
-    tbl.push(table.cell(colspan: 2, align: left, gText(translation.at("S"))))
-    tbl.push(([], jObj(kanon.at(-2))))
-    tbl.push(table.cell(colspan: 2, align: left, gText(translation.at("IN"))))
-    tbl.push(([], jObj(kanon.at(-1))))
-    generateTable(tbl.flatten())
+//     let c = counter("K")
+//     c.update(1)
+//     let tbl = kanon.slice(1,-2).map(it => {
+//       return ({
+//           sText(context(c.display("i")));
+//           c.step()
+//         },
+//         jObj(it))
+//     })
+//     tbl.insert(0, ([],irmos))
+//     tbl.insert(1, (sText($#sym.rho$), gText(pripiv_N)))
+//     tbl.push(col2(gText(translation.at("S"))))
+//     tbl.push(([], jObj(kanon.at(-2))))
+//     tbl.push(col2(gText(translation.at("IN"))))
+//     tbl.push(([], jObj(kanon.at(-1))))
+//     generateTable(tbl.flatten())
 
-    if p == "3" {
-      let sedalen = obj.at("S1")
-      [===== #translation.at("SIDALEN")]
+//     if p == "3" {
+//       let sedalen = obj.at("S1")
+//       [===== #translation.at("SIDALEN")]
 
-      generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
-    }
-    if p == "6" {
-      let sedalen = obj.at("S2")
-      [===== #translation.at("SIDALEN")]
+//       generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
+//     }
+//     if p == "6" {
+//       let sedalen = obj.at("S2")
+//       [===== #translation.at("SIDALEN")]
 
-      generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
-    }
-  }
-}
+//       generateTable(sedalen.map(it => ([\*], jObj(it))).flatten())
+//     }
+//   }
+// }
 
-#let Generate_M(obj) = {
-  Generate_HV(obj)
-  Generate_SS(obj, "M")
-}
+// #let Generate_M(obj) = {
+//   Generate_HV(obj)
+//   Generate_SS(obj, "M")
+// }
 
-#let Generate_V(obj) = {
-  Generate_HV(obj, skip: 3)
-  Generate_SS(obj, 0)
-  generate_T(obj)
-}
+// #let Generate_V(obj) = {
+//   Generate_HV(obj, skip: 3)
+//   Generate_SS(obj, 0)
+//   generate_T(obj)
+// }
 
-#let Generate_P(obj) = {
-  Generate_PK(obj)
-}
+// #let Generate_P(obj) = {
+//   Generate_PK(obj)
+// }
 
-#let Generate_N(obj) = {
-  Generate_NK(obj)
-}
+// #let Generate_N(obj) = {
+//   Generate_NK(obj)
+// }
 
-#let Generate_0(day) = [
-  == #translation.at("Ne")
+// #let Generate_0(day) = [
+//   == #translation.at("Ne")
 
-  === #translation.at("M")
-  #header3([(#translation.at("So_V"))])
-  #let M = day.M
-  #Generate_M(M)
-  === #translation.at("V")
-  #header3([(#translation.at("So_V"))])
-  #let V = day.V
-  #Generate_V(V)
-  === #translation.at("P")
-  #header3([(#translation.at("So_N"))])
-  #let P = day.P
-  #Generate_P(P)
-  === #translation.at("N")
-  #let N = day.N
-  #Generate_N(N)
-]
+//   === #translation.at("M")
+//   #header3([(#translation.at("So_V"))])
+//   #let M = day.M
+//   #Generate_M(M)
+//   === #translation.at("V")
+//   #header3([(#translation.at("So_V"))])
+//   #let V = day.V
+//   #Generate_V(V)
+//   #colbreak()
+//   === #translation.at("P")
+//   #header3([(#translation.at("So_N"))])
+//   #let P = day.P
+//   #Generate_P(P)
+//   === #translation.at("N")
+//   #let N = day.N
+//   #Generate_N(N)
+// ]

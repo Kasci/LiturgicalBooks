@@ -8,6 +8,5 @@
   #text(20pt, black)[си́рѣчь]\ \ 
   #text(30pt)[Ѻ҆СМОГЛА́СНИКЪ]\ \
   #text(50pt)[гла́сы з҃-и҃]\
-]]\
-#align(center)[#text(20pt)[#redText[Editio Moscoviae]]]\ 
-#align(center)[#text(20pt)[Jozef Kaščák\ Prešov\ 2023]]
+]]\ \ \
+#align(center)[#text(20pt)[Jozef Kaščák\ Prešov\ 2024]]

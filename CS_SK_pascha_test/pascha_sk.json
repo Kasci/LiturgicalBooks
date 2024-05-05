@@ -1,0 +1,193 @@
+{
+    "K": {
+        "H": 1,
+        "PRIPIV": "Kristus slávne vstal z mŕtvych.",
+        "1": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Je vzkriesenia deň, * šťastím, ľudia, plesajme. * Slávnosť Pánova, Pascha. * Veď od smrti k životu * a zo zeme do nebies * priviedol nás Boh náš, Kristus. * Spievajme víťaznú pieseň."
+            },
+            {
+                "TEXT": "Posväťme si zmysly! * Uzrieme žiariaceho Krista * v neprístupnom svetle vzkriesenia * a jasne počujeme jeho pozdrav: „Pokoj vám!“ * Radosťou nám zaplesajú srdcia."
+            },
+            {
+                "TEXT": "Nech sa nebesia dôstojne veselia, * nech sa raduje zem, * nech spieva celý vesmír viditeľný i neviditeľný, * lebo žije Kristus, * radosť všetkých vekov."
+            }
+        ],
+        "1_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Je vzkriesenia deň, * šťastím, ľudia, plesajme. * Slávnosť Pánova, Pascha. * Veď od smrti k životu * a zo zeme do nebies * priviedol nás Boh náš, Kristus. * Spievajme víťaznú pieseň."
+        },
+        "3": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Príďte a pite z nového prameňa, * ktorý nevyviera zázračne z kameňa. * Je to zdroj nesmrteľnosti, * hrob, ten, čo nám daroval Krista, * našu záchranu a silu."
+            },
+            {
+                "TEXT": "Dnes je všetko plné svetla, * nebo, zem i priepasť podsvetia. * Nech oslavuje všetko tvorstvo * vzkriesenie Kristovo. * Ono je našou spásou."
+            },
+            {
+                "TEXT": "Včera som bol pochovaný s tebou, Kriste, * dnes s tebou vstávam z mŕtvych. * Včera som s tebou pnel na kríži. Preto osláv ma, Spasiteľ, * vo svojom kráľovstve."
+            }
+        ],
+        "3_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Príďte a pite z nového prameňa, * ktorý nevyviera zázračne z kameňa. * Je to zdroj nesmrteľnosti, * hrob, ten, čo nám daroval Krista, * našu záchranu a silu."
+        },
+        "Y": {
+            "TITLE": "Ipakoj",
+            "HLAS": 4,
+            "TEXT": "Keď Márie prišli včas ráno * a kameň z hrobu našli odvalený, * anjel im vyčítal: * „Prečo hľadáte Boha, odetého večným svetlom, * medzi mŕtvymi ako človeka? * Pozrite si v hrobe plachty! * Choďte a zvestujte svetu, * že Pán vstal a smrť premohol, * lebo je Syn Boží, * ten, čo spasil ľudské pokolenie.“"
+        },
+        "4": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Bohom osvietený prorok Habakuk, * stoj s nami na stráži * pri hrobe Kristovom * a ukáž nám svetlom odetého anjela, * prinášajúceho radostnú zvesť, * že svetu prišla spása, * lebo z hrobu vstal Kristus, * všemohúci Boh."
+            },
+            {
+                "TEXT": "Ako prvorodený * zrodil sa Kristus z Márie Panny. * Ako človek zjavil sa medzi nami. * Baránkom ho nazývali. * Nepoškvrneným, lebo hriech sa ho nedotkol. * Náš Spasiteľ, * náš opravdivý Boh, * mal meno Dokonalý."
+            },
+            {
+                "TEXT": "Ako jednoročný baránok * za všetkých nás bol zabitý Kristus,* naša odmena, naša sláva, * žertva dokonalá. * Ale z hrobu zažiaril nám * ako jasné slnko pravdy."
+            },
+            {
+                "TEXT": "Praotec Boží Dávid * radostne tancoval pred archou zmluvy. * Aj my, svätý ľud Boží, * keď vidíme splnenie predpovede, * vrúcne sa radujme, že vstal z mŕtvych Kristus, * všemohúci Boh."
+            }
+        ],
+        "4_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Bohom osvietený prorok Habakuk, * stoj s nami na stráži * pri hrobe Kristovom * a ukáž nám svetlom odetého anjela, * prinášajúceho radostnú zvesť, * že svetu prišla spása, * lebo z hrobu vstal Kristus, * všemohúci Boh."
+        },
+        "5": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Bdejmeže od včasného rána. * A miesto myrhy pejme pieseň Vládcovi, * a uzrieme Krista, slnko pravdy. * On daroval život všetkým."
+            },
+            {
+                "TEXT": "Tvoju bezmedznú dobrotu * zakúsili na sebe väzni predpeklia. * Teraz krokom radostným * na svetlo vystupujú * a teba, Kriste, večná Pascha, oslavujú."
+            },
+            {
+                "TEXT": "Príďme k hrobu so sviecami * v ústrety Kristovi, Ženíchovi, * a spolu s anjelskými zbormi oslávme * spásonosného Baránka Božieho."
+            }
+        ],
+        "5_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Bdejmeže od včasného rána. * A miesto myrhy pejme pieseň Vládcovi, * a uzrieme Krista, slnko pravdy. * On daroval život všetkým."
+        },
+        "6": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Zostúpil si do hlbín zeme. * Rozbil si večné veraje, * čo držali zviazaných väzňov, Kriste. * A po troch dňoch ako Jonáš z veľryby * slávne si vstal z hrobu."
+            },
+            {
+                "TEXT": "Zachoval si panenstvo Panny * pri svojom narodení, Kriste. * Podobne pri vzkriesení * ostali nedotknuté pečate hrobu. * A otvoril si nám bránu do raja."
+            },
+            {
+                "TEXT": "Pane môj, živá a nezničiteľná žertva, * ako Boh sám seba daroval Otcovi, * svojím zmŕtvychvstaním vzkriesil si Adama, * nášho praotca."
+            }
+        ],
+        "6_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Zostúpil si do hlbín zeme. * Rozbil si večné veraje, * čo držali zviazaných väzňov, Kriste. * A po troch dňoch ako Jonáš z veľryby * slávne si vstal z hrobu."
+        }, 
+        "K": {
+            "TITLE": "Kondák",
+            "HLAS": 8,
+            "TEXT": "Až do hrobu si zostúpil, Nesmrteľný, * a zničil si vládu pekla. * Vstal si ako víťaz, Kriste Bože. * Pozdravil si ženy: „Pokoj vám!“ * Apoštolom si mier daroval * a mŕtvym vzkriesenie."
+        },
+        "I": {
+            "TITLE": "Ikos",
+            "TEXT": "Ešte pred východom slnka Slnko ženy v hrobe hľadali. * Vzájomne sa posmeľovali: * „Poďme, priateľky, vonnými masťami pomažme životodarné telo, * čo odpočíva v hrobe a vzkriesilo padlého Adama. * Ponáhľajme sa ako mudrci k jasličkám, * aby sme sa mu poklonili. * Miesto darov prinesme myrhu * nie plienkami, ale pohrebnými rubášmi zavinutému * a s plačom volajme: * Vstaň, Vládca, a vráť zosnulým život!“"
+        },
+        "ST": {
+            "HLAS": 6,
+            "TEXT": "Ježiš Kristus z mŕtvych vstal, * ako predpovedal, * daroval nám život večný * i veľké milosrdenstvo."
+        },
+        "7": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Ten, čo v peci zachránil mládencov, * stal sa človekom. * Trpel ako smrteľník. * A pre zásluhy svojich strastí * smrteľných odieva nádherou neporušiteľnosti * jediný požehnaný, * Boh našich otcov oslávený."
+            },
+            {
+                "TEXT": "Ženy s voňavkami, plné lásky, * išli k tvojmu hrobu, * so slzami hľadali ťa mŕtveho, * ale s radosťou sa ti klaňali vzkriesenému * a tajomstvo Paschy * tvojim učeníkom zvestovali."
+            },
+            {
+                "TEXT": "Víťazstvo nad smrťou oslavujeme, * i zrušenie predpeklia. * Nový, večný život sa začína,* radostne ospevujme dobrodinca, * jediného požehnaného, * Boha našich otcov osláveného."
+            },
+            {
+                "TEXT": "Naozaj večne bude žehnaná a ospevovaná * táto noc našej spásy * ako jasná zora krásneho dňa, * svedok Kristovho vzkriesenia, * lebo v nej je večné Svetlo, * z hrobu všetkým zažiarilo."
+            }
+        ],
+        "7_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Ten, čo v peci zachránil mládencov, * stal sa človekom. * Trpel ako smrteľník. * A pre zásluhy svojich strastí * smrteľných odieva nádherou neporušiteľnosti * jediný požehnaný, * Boh našich otcov oslávený."
+        },
+        "8": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "To je ten zvestovaný svätý deň, * prvý v týždni, * Pán a Kráľ roku, * sviatok nad všetky sviatky, * slávnosť nad slávnosti. * V ňom velebíme Krista na veky."
+            },
+            {
+                "TEXT": "Poďte, deti novej vinice, * vo výročný deň vzkriesenia,* zúčastnime sa na oslave Krista * v jeho božskom kráľovstve. * Ospevujme ho ako Boha naveky."
+            },
+            {
+                "TEXT": "Obzri sa, Sion, a hľaď. * Zhromaždila sa k tebe * ako lúče Božej žiary, * od západu, od severu i od mora, * i z východu všetka rodina tvoja, * aby v tebe velebila Krista naveky."
+            },
+            {
+                "TITLE": "Troičen",
+                "TEXT": "Všemohúci Otče, Slovo i Duchu, * jediný Bože v troch osobách, * večný a nemeniteľný, * v tvojom mene sme pokrstení. * Teba velebíme na veky."
+            }
+        ],
+        "8_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "To je ten zvestovaný svätý deň, * prvý v týždni, * Pán a Kráľ roku, * sviatok nad všetky sviatky, * slávnosť nad slávnosti. * V ňom velebíme Krista na veky."
+        },
+        "9": [
+            {
+                "TITLE": "Irmos",
+                "TEXT": "Osvieť sa, osvieť sa, nový Jeruzalem. * Hľa, sláva Pánova ťa ožiarila. * Raduj sa a plesaj teraz, Sion. * A ty, prečistá Bohorodička, * teš sa zo vzkriesenia svojho Syna."
+            },
+            {
+                "TEXT": "Aký božský a ľúbezný, * aký sladký je tvoj hlas. * Prisľúbil si, že s nami iste ostaneš * do konca vekov, Kriste. * A my, tvoji verní, jasáme, * lebo si posilnil našu nádej."
+            },
+            {
+                "TEXT": "Ó, Pascha preveľká a najsvätejšia, Kriste, * ó, múdrosť a Božie Slovo i sila, * daruj nám skutočne ťa prijímať * v bezvečerný deň tvojho kráľovstva."
+            }
+        ],
+        "9_K": {
+            "TITLE": "Katavásia",
+            "TEXT": "Osvieť sa, osvieť sa, nový Jeruzalem. * Hľa, sláva Pánova ťa ožiarila. * Raduj sa a plesaj teraz, Sion. * A ty, prečistá Bohorodička, * teš sa zo vzkriesenia svojho Syna."
+        }
+    },
+    "SV": {
+        "TEXT": "Telom si usnul * sťa mŕtvy, * Kráľu a Pane náš. * Na tretí deň si vstal z mŕtvych. * Adama si vzkriesil z hrobu * a smrť si zničil. * Obeť nesmrteľná * a spasenie sveta."
+    },
+    "CH_S": [
+        "Boh vstáva a jeho nepriatelia sa tratia, * spred jeho tváre utekajú tí, čo ho nenávidia.",
+        "Ako sa rozplýva dym, tak ich rozháňa, * ako sa vosk roztápa ohňom.",
+        "Tak spred Božej tváre miznú hriešnici, * ale spravodliví sa môžu tešiť a jasať.",
+        "Toto je deň, ktorý učinil Pán. * Plesajme a radujme sa z neho."
+    ],
+    "CH": [
+        {
+            "HLAS": 5,
+            "TEXT": "Pascha požehnaná sa nám dnes zjavila, * Pascha nová a svätá, * obeť tajuplná, * obeť prevznešená, * slávny Kristus Vykupiteľ, * žertva nepoškvrnená, * obeta nesmierna, * dar veriacim, * Baránok, ten, čo nám otvoril brány raja, * Ježiš, * čo posväcuje všetkých verných."
+        },
+        {
+            "HLAS": 5,
+            "TEXT": "Príďte, ženy, čo ste Krista videli, * a povedzte Sionu: * „Prijmi od nás zvesť radostnú * o Kristovom vzkriesení. * Vyzdob sa a plesaj, * a raduj sa, Jeruzalem. * Veď si videl Krista Kráľa * ako Ženícha vystúpiť z hrobu.“"
+        },
+        {
+            "HLAS": 5,
+            "TEXT": "Včas ráno prišli sväté ženy * k hrobu darcu života. * Našli na kameni sedieť anjela * a on ich takto oslovil: * „Prečo hľadáte živého medzi mŕtvymi? * Prečo oplakávate nesmrteľného? * Choďte, * oznámte vzkriesenie učeníkom.“"
+        },
+        {
+            "HLAS": 5,
+            "TEXT": "Slávnosť prekrásna, * slávnosť Pánova, * Pascha. * Svitol nám svätý deň Vzkriesenia. * Druh druha radostne pozdravme! * Ó, deň blažený, * ty si nás zbavil smútku, * lebo z hrobu svojho dnes * ako zo svadobnej komnaty vyšiel Kristus. * Ženy šťastím naplnil * a prikázal: „Oznámte to apoštolom!“"
+        },
+        {
+            "HLAS": 5,
+            "TEXT": "Je vzkriesenia deň! * Všetci radostne jasajme, * druh druha objímajme, * bratmi sa nazývajme. * Pre vzkriesenie odpusťme nepriateľom * a takto zaspievajme: * Kristus slávne vstal z mŕtvych, * smrťou smrť premohol a tým, čo sú v hroboch, * život daroval."
+        }
+    ]
+}
