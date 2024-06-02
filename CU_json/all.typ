@@ -137,6 +137,8 @@
   }
 
   // outline(title: "Ꙍ҆главле́нїе", depth: 3, indent: 2em)
+
+  show "и҆́мⷬ҇къ": sText
   
   body
 }

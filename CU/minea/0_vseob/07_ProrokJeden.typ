@@ -156,4 +156,4 @@
     )
 )
 
-#let L = none
+#let L = ()

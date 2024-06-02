@@ -1,27 +1,6 @@
 import io
 import json
 
-def jObj(obj):
-    if "TYPE" in obj:
-       return f'"{obj["TEXT"]}"'
-    return f'jObj4("{obj["TITLE"] if "TITLE" in obj else ""}",{obj["HLAS"] if "HLAS" in obj and obj["HLAS"] != None else "none"}, "{obj["PODOBEN"] if "PODOBEN" in obj else ""}", "{obj["TEXT"] if "TEXT" in obj else ""}")'
-
-def shorten(obj):
-    lTs = obj.split(" ")
-    return " ".join(lTs[:3]) + " ..."
-
-def fixObjects(lst):
-    ret = []
-    for l in lst:
-        if len(ret) == 0:
-            ret.append(l)
-            continue
-        c = ret[-1]
-        if c["TEXT"] == l["TEXT"]:
-            l["TEXT"] = shorten(l["TEXT"])
-        ret.append(l)
-    return ret
-
 stichiry_HospodyVozvach = [
   "И҆зведѝ и҆з̾ темни́цы дꙋ́шꙋ мою̀, и҆сповѣ́датисѧ и҆́мени твоемꙋ̀.",
   "Менѐ ждꙋ́тъ пра́вєдницы, до́ндеже возда́си мнѣ̀.",
@@ -167,6 +146,9 @@ class Table:
     self.addLine(f'{left},')
     self.addLine(f'{right},')
 
+  def addDot(self, right):
+    self.add(f'sText($#sym.dot$)', right)
+
   def generate(self, f: io.FileIO):
     if len(self.lines) == 0:
        return
@@ -176,25 +158,98 @@ class Table:
       [f'  ))\n']
     )
 
+###############################
+#
+# ███████ ██████   ██████  ██       ██████   ██████ ███    ██ ███████ 
+# ██      ██   ██ ██    ██ ██      ██    ██ ██      ████   ██ ██      
+# ███████ ██████  ██    ██ ██      ██    ██ ██      ██ ██  ██ █████   
+#      ██ ██      ██    ██ ██      ██    ██ ██      ██  ██ ██ ██      
+# ███████ ██       ██████  ███████  ██████   ██████ ██   ████ ███████ 
+# 
+###############################
+
+
+def jObj(obj):
+    if "TYPE" in obj:
+       return f'"{obj["TEXT"]}"'
+    return f'jObj4("{obj["TITLE"] if "TITLE" in obj else ""}",{obj["HLAS"] if "HLAS" in obj and obj["HLAS"] != None else "none"}, "{obj["PODOBEN"] if "PODOBEN" in obj else ""}", "{obj["TEXT"] if "TEXT" in obj else ""}")'
+
+def shorten(obj):
+    lTs = obj.split(" ")
+    return " ".join(lTs[:3]) + " ..."
+
+def fixObjects(lst):
+    last = None
+    ret = []
+    for l in lst:
+        if len(ret) == 0:
+            last = l
+            ret.append(l)
+            continue
+        if last["TEXT"] == l["TEXT"]:
+            k = dict()
+            k["TEXT"] = shorten(l["TEXT"])
+            if "TITLE" in l:
+              k["TITLE"] = l["TITLE"]
+            ret.append(k)
+        else:
+          ret.append(l)
+    return ret
+
 def isNotPrayer(prefix, prayer):
   return prefix not in prayer and prefix+"_S" not in prayer and prefix+"_N" not in prayer and prefix+"_B" not in prayer
 
 def isPrayer(prefix, prayer):
   return prefix in prayer or prefix+"_S" in prayer or prefix+"_N" in prayer or prefix+"_B" in prayer
 
+
+
+
+
+
 def addSNB(table: Table, prefix, prayer):
+  # last from the prayer
+  previous = None
+  if prefix in prayer:
+    obj = prayer[prefix]
+    if isinstance(obj, dict):
+      previous = obj["TEXT"]
+    elif isinstance(obj, list) and len(obj) > 0:
+      previous = obj[-1]["TEXT"]
+
+  # get Slava and compare to the last one
   if prefix+"_S" in prayer:
     table.addComment(f'S:')
     table.add2Col(f'gText(translation.at("S"))')
-    table.add(f'""', jObj(prayer[prefix+"_S"]))
+    print(prefix, previous, prayer[prefix+"_S"])
+    if previous == prayer[prefix+"_S"]["TEXT"]:
+      table.add(f'""', f'"{shorten(previous)}"')
+    else:
+      table.add(f'""', jObj(prayer[prefix+"_S"]))
+
+  # get I Nyni and compare to last one
   if prefix+"_N" in prayer:
     table.addComment(f'I:')
     table.add2Col(f'gText(translation.at("IN"))')
-    table.add(f'""', jObj(prayer[prefix+"_N"]))
+    # get Slava and if same as I Nyni shorten too
+    if prefix+"_S" in prayer and prayer[prefix+"_S"]["TEXT"] == prayer[prefix+"_N"]["TEXT"]:
+      previous = prayer[prefix+"_S"]["TEXT"]
+    if previous == prayer[prefix+"_N"]["TEXT"]:
+      table.add(f'""', f'"{shorten(previous)}"')
+    else:
+      table.add(f'""', jObj(prayer[prefix+"_N"]))
+  
+  # get Slava I Nyni and compare to last one
   if prefix+"_B" in prayer:
     table.addComment(f'S:I:')
     table.add2Col(f'gText(translation.at("SI"))')
-    table.add(f'""', jObj(prayer[prefix+"_B"]))
+    if previous == prayer[prefix+"_B"]["TEXT"]:
+      table.add(f'""', f'"{shorten(previous)}"')
+    else:
+      table.add(f'""', jObj(prayer[prefix+"_B"]))
+
+
+
 
 def addPrayerNote(f: io.FileIO, prefix, prayer, before = True):
   table = Table()
@@ -207,6 +262,61 @@ def addNote(table:Table, prefix, prayer, before = True):
     for i,p in enumerate(prayer[val]):
       table.addComment(f'Note {i+1}: {"before" if before else "after"} {prefix}')
       table.addNote(f'[{p}]')
+
+
+
+
+
+def generateProkimen(f: io.FileIO, prayer):
+  LETTER = "P"
+  if isNotPrayer(LETTER, prayer):
+    return
+  
+  f.write(f'  ==== #translation.at("PROKIMEN")\n')
+  
+  table = Table()
+  addNote(table, LETTER, prayer, True)
+
+  table.addComment(f'Prokimen')
+  table.addDot(jObj(prayer[LETTER]))
+  for i,x in enumerate(prayer["P_ST"]):
+    table.addComment(f'Stich {i}')
+    table.add(f'sText([#translation.at("ST")#super("{i+1}")])', jObj(x))
+  
+  addNote(table, LETTER, prayer, False)
+  table.generate(f)
+
+def generateT(f: io.FileIO, prayer):
+  LETTER = "T"
+  if isNotPrayer(LETTER, prayer):
+    return
+  
+  f.write('  ==== #translation.at("TROPAR")\n')
+  
+  table = Table()
+  if LETTER in prayer:
+      addNote(table, LETTER, prayer, True)
+      T = fixObjects(prayer[LETTER])
+            
+      for i,x in enumerate(T):
+         table.addComment(f'Tropar {i+1}')
+         table.addDot(jObj(x))
+         
+      addNote(table, LETTER, prayer, False)
+
+  addSNB(table, LETTER, prayer)
+  
+  table.generate(f)
+
+###############################
+#
+# ██    ██ ███████  ██████ ██ ███████ ██████  ███████ ███    ██ 
+# ██    ██ ██      ██      ██ ██      ██   ██ ██      ████   ██ 
+# ██    ██ █████   ██      ██ █████   ██████  █████   ██ ██  ██ 
+#  ██  ██  ██      ██      ██ ██      ██   ██ ██      ██  ██ ██ 
+#   ████   ███████  ██████ ██ ███████ ██   ██ ███████ ██   ████ 
+#
+###############################
 
 def generateV_HV(f: io.FileIO, prayer, skip = 0, note = False, offset = 0):
   LETTER = "HV"
@@ -238,24 +348,22 @@ def generateV_HV(f: io.FileIO, prayer, skip = 0, note = False, offset = 0):
 
   table.generate(f)
 
-def generateV_P(f: io.FileIO, prayer):
-  LETTER = "P"
-  if isNotPrayer(LETTER, prayer):
-    return
+def generateV_PAR(f: io.FileIO, prayer):
+  LETTER = "PAR"
+  if LETTER not in prayer:
+      return
   
-  f.write(f'  ==== #translation.at("PROKIMEN")\n')
-  
+  f.write('  ==== #translation.at("PARAMIE")\n')
   table = Table()
-  addNote(table, LETTER, prayer, True)
-
-  table.addComment(f'Prokimen')
-  table.add(f'sText($#sym.dot$)', jObj(prayer[LETTER]))
-  for i,x in enumerate(prayer["P_ST"]):
-    table.addComment(f'Stich {i}')
-    table.add(f'sText([#translation.at("ST")#super("{i+1}")])', jObj(x))
-  
-  addNote(table, LETTER, prayer, False)
+  for i,p in enumerate(prayer[LETTER]):
+    table.addComment(f'Paramia {i+1}')
+    table.add(f'""', f'sText("{p["TITLE"]}")')
+    table.add2Col(f'"{p["TEXT"]}"')
   table.generate(f)
+  
+
+def generateV_P(f: io.FileIO, prayer):
+  generateProkimen(f, prayer)
 
 def generateV_L(f: io.FileIO, prayer):
   LETTER = "L"
@@ -289,6 +397,8 @@ def generateV_S(f: io.FileIO, prayer, stichiry):
       
     SS = fixObjects(prayer[LETTER])
     length_SS = len(SS)
+    if LETTER+"_ST" in prayer:
+       stichiry = prayer[LETTER+"_ST"]
     stichiras = stichiry[-length_SS:]
     
     addNote(table, LETTER, prayer, True)
@@ -307,27 +417,36 @@ def generateV_S(f: io.FileIO, prayer, stichiry):
 
   table.generate(f)
 
-def generateT(f: io.FileIO, prayer):
-  LETTER = "T"
-  if isNotPrayer(LETTER, prayer):
-    return
-  
-  f.write('  ==== #translation.at("TROPAR")\n')
-  
-  table = Table()
-  if LETTER in prayer:
-      addNote(table, LETTER, prayer, True)
-      T = fixObjects(prayer[LETTER])
-            
-      for i,x in enumerate(T):
-         table.addComment(f'Tropar {i+1}')
-         table.add(f'sText($#sym.dot$)', jObj(x))
-         
-      addNote(table, LETTER, prayer, False)
+###############################
+# 
+# ██████   ██████  ██    ██ ███████  ██████ ███████ ██████  ██ ███████ 
+# ██   ██ ██    ██ ██    ██ ██      ██      ██      ██   ██ ██ ██      
+# ██████  ██    ██ ██    ██ █████   ██      █████   ██████  ██ █████   
+# ██      ██    ██  ██  ██  ██      ██      ██      ██   ██ ██ ██      
+# ██       ██████    ████   ███████  ██████ ███████ ██   ██ ██ ███████ 
+# 
+###############################
 
-  addSNB(table, LETTER, prayer)
-  
-  table.generate(f)
+###############################
+# 
+# ██████   ██████  ██      ███    ██  ██████   ██████ ███    ██ ██  ██████  █████  
+# ██   ██ ██    ██ ██      ████   ██ ██    ██ ██      ████   ██ ██ ██      ██   ██ 
+# ██████  ██    ██ ██      ██ ██  ██ ██    ██ ██      ██ ██  ██ ██ ██      ███████ 
+# ██      ██    ██ ██      ██  ██ ██ ██    ██ ██      ██  ██ ██ ██ ██      ██   ██ 
+# ██       ██████  ███████ ██   ████  ██████   ██████ ██   ████ ██  ██████ ██   ██ 
+# 
+###############################
+
+###############################
+#
+# ██    ██ ████████ ██ ███████ ██████  ███████ ███    ██ 
+# ██    ██    ██    ██ ██      ██   ██ ██      ████   ██ 
+# ██    ██    ██    ██ █████   ██████  █████   ██ ██  ██ 
+# ██    ██    ██    ██ ██      ██   ██ ██      ██  ██ ██ 
+#  ██████     ██    ██ ███████ ██   ██ ███████ ██   ████
+#
+###############################
+
 
 def generateU_S(f: io.FileIO, prayer):
   LETTER = "S"
@@ -340,7 +459,7 @@ def generateU_S(f: io.FileIO, prayer):
       LETTER_IN = f'{LETTER}{ix}'
       if LETTER_IN in prayer:
           f.write(f'  ===== #translation.at("SIDALEN_PO") {ix}\n')
-          S = prayer[LETTER_IN]
+          S = fixObjects(prayer[LETTER_IN])
           table = Table()
           addNote(table, LETTER_IN, prayer, True)
           for i,x in enumerate(S[:-1]):
@@ -352,6 +471,47 @@ def generateU_S(f: io.FileIO, prayer):
           table.generate(f)
           addNote(table, LETTER_IN, prayer, False)
 
+def generateU_P(f: io.FileIO, prayer):
+  generateProkimen(f, prayer)
+
+def generateU_50(f: io.FileIO, prayer):
+  LETTER = "50"
+  if isNotPrayer(LETTER, prayer):
+    return
+  
+  f.write('  ==== #translation.at("50_STICHIRA")\n')
+  table = Table()
+  if LETTER in prayer:
+    for i,s in enumerate(prayer[LETTER]):
+      table.addComment(f'Stichira po 50. zalme {i+1}')
+      table.addDot(jObj(s))
+    addSNB(table, LETTER, prayer)
+  table.generate(f)
+
+
+def generateKanon(f: io.FileIO, pisn, kan, kanon_header, pripiv, kidx):
+  if kanon_header != None:
+    f.write(f'  ====== {kanon_header[kidx]}\n')
+  P = fixObjects(pisn)
+  if kidx > 0:
+      P[0]["TEXT"] = shorten(P[0]["TEXT"])
+  table = Table()
+  table.addComment(f'Kanon {kan}')
+  table.add(f'sText(super("{kan}"))', jObj(P[0]))
+  if pripiv != None and len(pripiv):
+    table.add(f'sText(translation.at("PR"))', f'gText("{pripiv[kidx]}")')
+  skipped = 0
+  for i,x in enumerate(P[1:]):
+    if "TYPE" in x:
+      skipped += 1
+      if x["TYPE"] == "NOTE":
+        table.addNote(jObj(x))
+      elif x["TYPE"] == "TODO":
+          table.addTodo(jObj(x))
+    else:
+      table.add(f'sText("{i+1-skipped}:")', jObj(x))
+  table.generate(f)
+
 def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
   LETTER = "K"
   if isNotPrayer(LETTER, prayer):
@@ -360,7 +520,7 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
   f.write('  ==== #translation.at("KANON")\n')
   KK = prayer[LETTER]
   if "H" in KK:
-     f.write(f'#align(center, sText([(#translation.at("HLAS") {KK["H"]})]))\n')
+     f.write(f'  #align(center, sText([(#translation.at("HLAS") {KK["H"]})]))\n')
   if kanon_header == None and "HEAD" in KK:
      kanon_header = KK["HEAD"]
   for sidx, song in enumerate(["1","2","3","4","5","6","7","8","9"]):
@@ -373,29 +533,14 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
     addNote(table, P_LETTER, prayer, True)
     table.generate(f)
     S = KK[P_LETTER]
-    for kidx, kan in enumerate(["1","2","3"]):
-        if kan in S:
-            if kanon_header != None:
-              f.write(f'  ====== {kanon_header[kidx]}\n')
-            P = fixObjects(S[kan])
-            if kidx > 0:
-                P[0]["TEXT"] = shorten(P[0]["TEXT"])
-            table = Table()
-            table.addComment(f'Kanon {kan}')
-            table.add(f'sText(super("{kan}"))', jObj(P[0]))
-            if pripiv != None and len(pripiv):
-              table.add(f'sText(translation.at("PR"))', f'gText("{pripiv[kidx]}")')
-            skipped = 0
-            for i,x in enumerate(P[1:]):
-              if "TYPE" in x:
-                skipped += 1
-                if x["TYPE"] == "NOTE":
-                  table.addNote(jObj(x))
-                elif x["TYPE"] == "TODO":
-                    table.addTodo(jObj(x))
-              else:
-                table.add(f'sText("{i+1-skipped}:")', jObj(x))
-            table.generate(f)
+    if isinstance(S, list):
+       generateKanon(f, S, "1", kanon_header, pripiv, 0)
+    elif isinstance(S, dict):
+      for kidx, kan in enumerate(["1","2","3"]):
+          if kan in S:
+              generateKanon(f, S[kan], kan, kanon_header, pripiv, kidx)
+    else:
+       raise Exception("Unkown kind of Kanon " + type(S))
     table = Table()
     if P_LETTER+"_A" in KK:
       A = KK[P_LETTER+"_A"]
@@ -410,20 +555,31 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
     if song == "3" and isPrayer("S", KK):
       f.write(f'  ===== #translation.at("SIDALEN")\n')
       table = Table()
-      table.addComment(f'Sidalen')
-      table.add(f'sText($#sym.dot$)', jObj(KK["S"]))
+      if isinstance(KK["S"], list):
+        for k in KK["S"]:
+          table.addComment(f'Sidalen')
+          table.addDot(jObj(k))
+      else:
+        table.addComment(f'Sidalen')
+        table.addDot(jObj(KK["S"]))
       addSNB(table, "S", KK)
       table.generate(f)
     if song == "6" and "K" in KK:
       f.write(f'  ===== #translation.at("KONDAK")\n')
       table = Table()
-      table.addComment(f'Kondak')
-      table.add(f'sText($#sym.dot$)', jObj(KK["K"][0]))
+      addNote(table, "K", KK, before=True)
+      for k in KK["K"]:
+        table.addComment(f'Kondak')
+        table.addDot(jObj(k))
+      addNote(table, "K", KK, before=False)
       table.generate(f)
       f.write(f'  ===== #translation.at("IKOS")\n')
       table = Table()
-      table.addComment(f'Ikos')
-      table.add(f'sText($#sym.dot$)', jObj(KK["K"][1]))
+      addNote(table, "I", KK, before=True)
+      for i in KK["I"]:
+        table.addComment(f'Ikos')
+        table.addDot(jObj(i))
+      addNote(table, "I", KK, before=False)
       table.generate(f)
 
 def generateU_CH(f: io.FileIO, prayer, day = None):
@@ -460,6 +616,36 @@ def generateU_CH(f: io.FileIO, prayer, day = None):
   
   table.generate(f)
 
+def generateU_SV(f: io.FileIO, prayer):
+  LETTER = "SV"
+  if isNotPrayer(LETTER, prayer):
+    return
+  
+  table = Table()
+  if LETTER in prayer:
+    addNote(table, LETTER, prayer, True)
+    SV = fixObjects(prayer[LETTER])
+    f.write('  ==== #translation.at("SVITILEN")\n')
+    for i,s in enumerate(SV):
+      table.addDot(jObj(s))
+    table.generate(f)
+    addNote(table, LETTER, prayer, False)
+
+  addSNB(table, LETTER, prayer)
+
+
+
+###############################
+#
+# ██      ██ ████████ ██    ██ ██████   ██████  ██  █████  
+# ██      ██    ██    ██    ██ ██   ██ ██       ██ ██   ██ 
+# ██      ██    ██    ██    ██ ██████  ██   ███ ██ ███████ 
+# ██      ██    ██    ██    ██ ██   ██ ██    ██ ██ ██   ██ 
+# ███████ ██    ██     ██████  ██   ██  ██████  ██ ██   ██ 
+#
+###############################
+
+
 def generateL_B(f: io.FileIO, prayer):
   LETTER = "B"
   if isNotPrayer(LETTER, prayer):
@@ -490,14 +676,14 @@ def generateL_P(f: io.FileIO, prayer):
   f.write('  ==== #translation.at("PROKIMEN")\n')
   table = Table()
   table.addComment(f'Prokimen')
-  table.add(f'sText($#sym.dot$)', jObj(P[0]))
+  table.addDot(jObj(P[0]))
   table.add(f'sText(translation.at("VV"))', jObj(P[1]))
   table.generate(f)
 
   f.write('  ===== #translation.at("ALLILUJA")\n')
   table = Table()
   table.addComment(f'Alliluja')
-  table.add(f'sText($#sym.dot$)', jObj(P[2]))
+  table.addDot(jObj(P[2]))
   table.add(f'sText(translation.at("VV"))', jObj(P[3]))
   table.generate(f)
 
@@ -512,6 +698,6 @@ def generateL_PR(f: io.FileIO, prayer):
   addNote(table, LETTER, prayer, True)
   for p in PR:
     table.addComment(f'Pricasten')
-    table.add(f'sText($#sym.dot$)', jObj(p))
+    table.addDot(jObj(p))
   addNote(table, LETTER, prayer, False)
   table.generate(f)
