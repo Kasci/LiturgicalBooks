@@ -76,7 +76,7 @@
   align(center, text(40pt, underline(stroke: (thickness: 6pt, cap: "round"), upper(pText(it)))))
 }
 #let header2 = it => {
-  align(center, text(20pt, underline(stroke: (thickness: 3pt, cap: "round"), upper(pText(it)))))
+  align(center, text(20pt, underline(stroke: (thickness: 3pt, cap: "round"), pText(it))))
 }
 #let header3 = it => {
   align(center, text(15pt, underline(stroke: (thickness: 2pt, cap: "round"), pText(it))))

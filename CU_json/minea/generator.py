@@ -8,8 +8,9 @@ import sys
 sys.path.append(os.path.abspath(".."))
 from common import *
 
-def generate(f: io.FileIO, json, index):
-    f.write(f'  == #translation.at(\"{Dn[index]}\")\n')
+def generate(f: io.FileIO, json, index, dn):
+    if dn is not None:
+        f.write(f'  == #translation.at(\"{dn}\")\n')
 
     #########################################################
     # Generuj malu vecieren
@@ -30,7 +31,10 @@ def generate(f: io.FileIO, json, index):
         generateV_HV(f, PRAYER)
 
         ## Generuj Stichiry
-        generateV_S(f, PRAYER, PRAYER["S_ST"])
+        generateV_S(f, PRAYER, stichiry_Stichovni["M"])
+
+        ## Generuj Tropar
+        generateT(f, PRAYER)
 
         addPrayerNote(f, LETTER, PRAYER, False)
 
@@ -129,13 +133,20 @@ def generate(f: io.FileIO, json, index):
 
         addPrayerNote(f, LETTER, PRAYER, True)
 
+        generateL_A(f, PRAYER)
+
         # Generate Blazenstva
         generateL_B(f, PRAYER)
         
-        # TODO: Generate TKB
+        # Generate TKB
+        generateT(f, PRAYER)
+        generateK(f, PRAYER)
 
         # Generate Prokimen & Alleluja
         generateL_P(f, PRAYER)
+        
+        # Generate Irmos
+        generateL_IR(f, PRAYER)
 
         #Generate Pricasten
         generateL_PR(f, PRAYER)
@@ -149,8 +160,8 @@ T = ["0_vseobecna"]
 D = [
 # "01_Pan",
 # "02_Bohorodicka",
-"03_Kriz",
-# "04_Anjeli",
+# "03_Kriz",
+"04_Anjeli",
 # "05_Predchodca",
 # "06_SvatiOtcovia",
 # "07_ProrokJeden",
@@ -160,8 +171,8 @@ D = [
 Dn = [
 # "M_PAN",
 # "M_BOHORODICKA",
-"M_KRIZ",
-# "M_ANJELI",
+# "M_KRIZ",
+"M_ANJELI",
 # "M_PREDCHODCA",
 # "M_SVATI_OTCOVIA",
 # "M_PROROK_JEDEN",
@@ -179,10 +190,10 @@ for t in T:
                 "#columns(2, gutter: 2pt, [\n\n"])
             with io.open(f"0_source/{t}/{d}.json", "r", encoding="utf-8") as inp:
                 j = json.load(inp)
-                generate(f,j,i)
+                generate(f,j,i,Dn[i])
         
             f.write("])\n")
-    with io.open(f"1_generated/0_all/{t}.typ", "w", encoding="utf-8") as f:
+    with io.open(f"1_generated/00_all/{t}.typ", "w", encoding="utf-8") as f:
         f.writelines([
             '#import "../../../all.typ": *\n',
             "\n",
@@ -193,3 +204,96 @@ for t in T:
                 continue
             f.write(f'#include "../{t}/{d}.typ"\n')
             f.write(f'#pagebreak()\n')
+
+# 🕀🕁🕂🕃🕄
+Ds = {
+    "01_september": [
+        ("08", "M_NAR_BOHORODICKY"),
+        ("14", "M_VOZDV_KRIZA"),
+        ("26", "M_JAN_BOHOSLOV"),
+    ],
+    # "02_oktober": [
+        # ("01", "M_POKROV"),
+        # ("26", "M_DEMETER"),
+    # ],
+    # "03_november": [
+        # ("08", "M_MICHAL"),
+        # ("12", "M_JOZAFAT"),
+        # ("13", "M_ZLATOUSTY"),
+        # ("21", "M_VOVEDENIE"),
+    # ],
+    # "04_december": [
+        # ("05", "M_SAVA"),
+        # ("08", "M_POCATIE_BOHORODICKY"),
+        # ("24", "M_NAR_PREDP"),
+        # ("25", "M_NARODENIE"),
+        # ("26", "M_ZHROM_BOHORODICKA"),
+    # ],
+    # "05_januar": [
+        # ("01", "M_OBREZANIE"),
+        # ("06", "M_BOHOZJAVENIE"),
+        # ("17", "M_ANTON"),
+        # ("20", "M_EUTMIOS"),
+        # ("30", "M_TRAJA_SVATITELIA"),
+    # ],
+    # "06_februar": [
+        # ("02", "M_OBETOVANIE"),
+    # ],
+    # "07_marec": [
+        # ("25", "M_ZVESTOVANIE"),
+    # ],
+    # "08_april": [
+        # ("23", "M_JURAJ"),
+    # ],
+    # "09_maj": [
+        # ("08", "M_JAN_EVANJELISTA"),
+        # ("11", "M_VASIL_HOPKO"),
+    # ],
+    # "10_jun": [
+        # ("24", "M_NAR_JAN_KRSTITEL"),
+        # ("29", "M_PETER_PAVOL")
+    # ],
+    # "11_jul": [
+        # ("05", "M_CYRIL_METOD"),
+        # ("15", "M_VLADIMIR"),
+        # ("17", "M_PAVOL_GOJDIC"),
+        # ("20", "M_ELIAS"),
+    # ],
+    # "12_august": [
+        # ("06", "M_PREMENENIE"),
+        # ("15", "M_ZOSNUTIE"),
+    # ]
+}
+
+with io.open(f'1_generated/00_all/1_minea.typ', "w", encoding="utf-8") as all:
+    for t in Ds:    
+        D = Ds[t]
+        i = 0
+        for d,dn in D:
+            if not os.path.exists(f"0_source/{t}/{d}.json"):
+                continue
+            with io.open(f"1_generated/{t}/{d}.typ", "w", encoding="utf-8") as f:
+                f.writelines([
+                    '#import "../../../all.typ": *\n',
+                    f'  == ({d}.) #translation.at(\"{dn}\")\n',
+                    "#columns(2, gutter: 2pt, [\n\n"])
+                with io.open(f"0_source/{t}/{d}.json", "r", encoding="utf-8") as inp:
+                    j = json.load(inp)
+                    generate(f,j,i,None)
+            
+                f.write("])\n")
+            i += 1
+        all.write(f'#include "{t}.typ"\n')
+        with io.open(f"1_generated/00_all/{t}.typ", "w", encoding="utf-8") as f:
+            f.writelines([
+                '#import "../../../all.typ": *\n',
+                "\n",
+                "#show: book\n\n",
+                f'= #translation.at("M_{t}")\n\n'])
+            i = 0
+            for d, dn in D:
+                if not os.path.exists(f"1_generated/{t}/{d}.typ"):
+                    continue
+                f.write(f'#include "../{t}/{d}.typ"\n')
+                f.write(f'#pagebreak()\n')
+                i += 1
