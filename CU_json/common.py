@@ -513,11 +513,10 @@ def generateU_50(f: io.FileIO, prayer):
   f.write('  ==== #translation.at("50_STICHIRA")\n')
   table = Table()
   if LETTER in prayer:
+    addSNB(table, LETTER, prayer)
     for i,s in enumerate(prayer[LETTER]):
       table.addComment(f'Stichira po 50. zalme {i+1}')
       table.addDot(jObj(s))
-    # FIXME: Neviem ci SNB nema byt tu pred stichirou .. 
-    addSNB(table, LETTER, prayer)
   table.generate(f)
 
 
@@ -563,6 +562,7 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
     P_LETTER = f'P{song}'
     if P_LETTER not in KK:
         continue
+    
     ## Generuj piesen kanonu
     f.write(f'  ===== #translation.at("PIESEN") {song}\n')
     table = Table()
@@ -577,17 +577,32 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
               generateKanon(f, S[kan], kan, kanon_header, pripiv, kidx)
     else:
        raise Exception("Unkown kind of Kanon " + type(S))
-    table = Table()
+    
+    # Generate ???
     if P_LETTER+"_A" in KK:
+      table = Table()
       A = KK[P_LETTER+"_A"]
       AS = KK[P_LETTER+"_A_ST"]
       for i,a in enumerate(A):
          table.add2Col(f'gText({jObj(AS[i])})')
          table.add('""', jObj(a))
+      table.generate(f)
+
+    # Generate katavasia     
     if P_LETTER+"_K" in KK:
-      table.add(f'sText([#sym.KK#super("{song}")])', jObj(KK[P_LETTER+"_K"]))
-    addNote(table, P_LETTER, prayer, False)
-    table.generate(f)
+      table = Table()
+      KAT = KK[P_LETTER+"_K"]
+      if isinstance(KAT, dict):
+        KAT = [KAT]
+      for i,k in enumerate(KAT):  
+        if i == 0:
+          table.add(f'sText([#sym.KK#super("{song}")])', jObj(k))
+        else:
+          table.addDot(jObj(k))
+      addNote(table, P_LETTER+"_K", prayer, False)
+      table.generate(f)
+
+    # Generate ypakoj in kanon
     if song == "3" and isPrayer("Y", KK):
       f.write(f'  ===== #translation.at("YPAKOJ")\n')
       table = Table()
@@ -602,6 +617,8 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
       addSNB(table, "Y", KK)
       addNote(table, "Y", KK, before=False)
       table.generate(f)
+    
+    # Generate Sidalen in kanon
     if song == "3" and isPrayer("S", KK):
       f.write(f'  ===== #translation.at("SIDALEN")\n')
       table = Table()
@@ -616,6 +633,8 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
       addSNB(table, "S", KK)
       addNote(table, "S", KK, before=False)
       table.generate(f)
+
+    # Generate kondak and ikos
     if song == "6" and "K" in KK:
       f.write(f'  ===== #translation.at("KONDAK")\n')
       table = Table()
@@ -654,6 +673,7 @@ def generateU_CH(f: io.FileIO, prayer, day = None):
     # If there are defined stichs, we use those, and skip regular ones
     if "CH_ST" in prayer:
        stichiras = prayer["CH_ST"]
+       print(len(stichiras), CH)
     for i,x in enumerate(CH):
         table.addComment(f'CH Stich na {length_CH - i}')
         if len(stichiras) >= length_CH - i:
@@ -683,6 +703,27 @@ def generateU_SV(f: io.FileIO, prayer):
     addNote(table, LETTER, prayer, False)
 
   addSNB(table, LETTER, prayer)
+  table.generate(f)
+
+def generateU_ST(f: io.FileIO, prayer):
+  LETTER = "ST"
+  if isNotPrayer(LETTER, prayer):
+    return
+  
+  f.write('  ==== #translation.at("STICHOVNI")\n')
+  table = Table()
+  if LETTER in prayer:
+      
+    LS = fixObjects(prayer[LETTER])
+
+    addNote(table, LETTER, prayer, True)
+    for i,x in enumerate(LS):
+      table.addComment(f'ST Stich na {i+1}')
+      table.add(f'sText("{i+1}:")', jObj(x))
+    addNote(table, LETTER, prayer, False)
+
+  addSNB(table, LETTER, prayer)
+  
   table.generate(f)
 
 

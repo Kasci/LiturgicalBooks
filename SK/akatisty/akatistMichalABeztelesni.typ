@@ -259,7 +259,7 @@
     "zvolanie": none,
     "ikos": none,
     "prosby": none,
-    "velkost": 7.5pt,
+    "velkost": 8pt,
     "modlitba": "Prichádzam k vám ako k zástancom a ochrancom môjho života, ja biedny s prosbou: pomôžte mi s vaším príhovorom bohumilo prežiť deň, aby som bol ďaleko od zlých skutkov a myšlienok. Otvorte mi sluch, aby som načúval užitočným Božím dielam a slovám; kiež sa mi otvorí duchovný zrak, lebo ma zahalila temnota hriechov. Modlite sa za mňa, lebo hreším v každom čase a ťažko hnevám a zarmucujem Božiu dobrotu. Ty však, Pane, Pane môj, zhliadni na mňa a zmiluj sa nado mnou. Vyveď moju dušu z väzenia hriechu skôr, než z tohto sveta odídem a prídem pred tvoj strašný súd. Prijmi tvojich svätých anjelov, ktorí sa za mňa prihovárajú, no najmä tvoju prečistú Matku a osloboď ma od toho strašného a hrozného súdu. Veď ty si Boží Baránok, ktorý sníma hriechy celého sveta, ukrižovaný pre našu spásu. Všimni si moju modlitbu a mojej duši i telu pošli strážneho anjela, aby ma viedol a tak aby som vďaka nemu unikol všetkým viditeľným i neviditeľným nepriateľom a mohol dosiahnuť milosrdenstvo so všetkými, ktorí od vekov viedli bohumilý život. Lebo ty si náš Boh, k tebe prichádzam a v teba skladám nádej, že hoci som zhrešil viac, než ostatní ľudia, neodstúpil som od teba ani som nevystrel ruky k cudziemu bohu. Teba prosím, Pane Ježišu Kriste, teba zvelebujem a tebe sa klaniam, v Trojici jedinému Bohu Otcu i Synu i Svätému Duchu, teraz i vždycky i na veky vekov."
   )
 );

@@ -1,5 +1,5 @@
-#import "style.typ": *
-#import "SK/textsTmp.typ": *
+#import "/style.typ": *
+#import "./textsTmp.typ": *
 
 #let kondak(index, txt, zvolanie, velkost: none) = [
   #align(center)[#primText[#index. KONDÁK]]
@@ -55,16 +55,16 @@
   }
   let one = content.at(0)
   pagebreak()
-  kondak(13, last.kondak, last.zvolanie)
+  kondak(13, last.kondak, last.zvolanie, velkost: 10pt)
   note[Tento kondák sa spieva tri razy, ľud vždy odpovedá Aleluja.]
   ikos(13, one.ikos, one.prosby)
   pagebreak()
-  kondak(1, one.kondak, one.zvolanie)
+  kondak(1, one.kondak, one.zvolanie, velkost: 10pt)
   if last.modlitba != none [
-    #text(if "velkost" in last {last.velkost} else {8pt})[
-      #note[Kňaz: ]#lettrine(last.modlitba)
+    #text(if "velkost" in last {last.velkost} else {9pt})[
+      #note[Sv: ]#lettrine(last.modlitba)
   
-      #note[Ľud: ]#lettrine("Amen")
+      #note[L: ]#lettrine("Amiň.")
     ]
   ]
   prepustenie

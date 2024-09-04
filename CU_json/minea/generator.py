@@ -112,6 +112,9 @@ def generate(f: io.FileIO, json, index, dn):
         
         # Generuj stichovni na chvalitech
         generateU_CH(f, PRAYER)
+
+        # Generuj stichiry
+        generateU_ST(f, PRAYER)
             
         addPrayerNote(f, LETTER, PRAYER, False)
         f.write("  #colbreak()\n")
@@ -161,7 +164,7 @@ D = [
 # "01_Pan",
 # "02_Bohorodicka",
 # "03_Kriz",
-"04_Anjeli",
+# "04_Anjeli", #--
 # "05_Predchodca",
 # "06_SvatiOtcovia",
 # "07_ProrokJeden",
@@ -172,7 +175,7 @@ Dn = [
 # "M_PAN",
 # "M_BOHORODICKA",
 # "M_KRIZ",
-"M_ANJELI",
+# "M_ANJELI",
 # "M_PREDCHODCA",
 # "M_SVATI_OTCOVIA",
 # "M_PROROK_JEDEN",
@@ -208,8 +211,8 @@ for t in T:
 # 🕀🕁🕂🕃🕄
 Ds = {
     "01_september": [
-        ("08", "M_NAR_BOHORODICKY"),
-        ("14", "M_VOZDV_KRIZA"),
+        # ("08", "M_NAR_BOHORODICKY"),
+        # ("14", "M_VOZDV_KRIZA"),
         ("26", "M_JAN_BOHOSLOV"),
     ],
     # "02_oktober": [

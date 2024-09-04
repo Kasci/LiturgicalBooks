@@ -32,6 +32,8 @@
 #show: project
 
 #include "/SK/akatisty/akatistJezisKristus.typ"
+#pagebreak()
 #include "/SK/akatisty/akatistBohorodicka.typ"
 #include "/SK/akatisty/akatistMikulas.typ"
 #include "/SK/akatisty/akatistMichalABeztelesni.typ"
+#include "/RT/akatisty/akatistGojdic.typ"

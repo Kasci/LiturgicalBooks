@@ -3,7 +3,7 @@
 // #include "_general/sluzebnik.typ"
 // #include "_general/oktoich.typ"
 // #include "_general/minea.typ"
-// #include "_general/akatistnik.typ"
+#include "_general/akatistnik.typ"
 // #include "_general/casoslov.typ"
 // #include "_general/molebenik.typ"
 
@@ -21,7 +21,7 @@
 // #include "CU_json/oktoich/2_fixed/0_all/Hlas8.typ"
 // #include "CU_json/postna_triod/1_generated/0_all/Tyzden1.typ"
 // #include "CU_json/minea/1_generated/0_all/0_vseobecna.typ"
-#include "CU_json/minea/1_generated/00_all/1_minea.typ"
+// #include "CU_json/minea/1_generated/00_all/1_minea.typ"
 // #include "X_typik/typik.typ"
 // #include "CU_json/H1.typ"
 // #include "CU_json/Pascha.typ"
