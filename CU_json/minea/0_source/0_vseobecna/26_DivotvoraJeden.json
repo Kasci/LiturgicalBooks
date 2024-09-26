@@ -1,0 +1,31 @@
+{
+    "V": {
+        "HV": [
+            {"HLAS": 0, "PODOBEN": "", "TEXT": ""},
+            {"TEXT": ""},
+            {"TEXT": ""}
+        ],
+        "HV_S": {"TEXT": ""},
+        "HV_N": {"TITLE": "", "TEXT": ""},
+        "HV_B": {"TITLE": "", "TEXT": ""},
+        "HV_OTHER": true,
+        "PAR": [],
+        "S": [
+            {"HLAS": 0, "PODOBEN": "", "TEXT":""},
+            {"TEXT":""},
+            {"TEXT":""}
+        ],
+        "S_ST": [
+            {"TEXT":""},
+            {"TEXT":""}
+        ],
+        "S_S": {"TEXT": ""},
+        "S_N": {"TITLE": "", "TEXT": ""},
+        "S_B": {"TITLE": "", "TEXT": ""},
+        "S_OTHER": true,
+        "T": [
+            {"HLAS": 0, "TEXT": ""}
+        ],
+        "T_B": {"TEXT": ""}
+    }
+}
