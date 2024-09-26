@@ -76,7 +76,7 @@ def generate(f: io.FileIO, json, index, dn):
         addPrayerNote(f, LETTER, PRAYER, False)
 
         f.write("  #colbreak()\n")
-
+    return
     #########################################################
     # Generuj utieren
     #########################################################
@@ -161,60 +161,77 @@ def generate(f: io.FileIO, json, index, dn):
 
 T = ["0_vseobecna"]
 D = [
-# "01_Pan",
-# "02_Bohorodicka",
-# "03_Kriz",
-# "04_Anjeli", #--
-# "05_Predchodca",
-# "06_SvatiOtcovia",
-# "07_ProrokJeden",
-# "08_ApostolJeden",
-# "09_ApostolViac"
+    "01_Pan",
+    "02_Bohorodicka",
+    "03_Kriz",
+    "04_Anjeli", 
+    "05_Predchodca", #-- only vespers
+    "06_SvatiOtcovia",
+    "07_ProrokJeden",
+    "08_ApostolJeden",
+    "09_ApostolViac",
+    "10_SvatitelJeden",
+    "11_SvatitelViac",
+    "12_PrepodobnyJeden",
+    "13_PrepodobnyViac",
+    "14_MucenikJeden",
+    "15_MucenikViac",
+    "16_HieromucenikJeden",
+    "17_HieromucenikViac",
 ]
 Dn = [
-# "M_PAN",
-# "M_BOHORODICKA",
-# "M_KRIZ",
-# "M_ANJELI",
-# "M_PREDCHODCA",
-# "M_SVATI_OTCOVIA",
-# "M_PROROK_JEDEN",
-# "M_APOSTOL_JEDEN",
-# "M_APOSTOL_VIAC",
+    "M_PAN",
+    "M_BOHORODICKA",
+    "M_KRIZ",
+    "M_ANJELI",
+    "M_PREDCHODCA",
+    "M_SVATI_OTCOVIA",
+    "M_PROROK_JEDEN",
+    "M_APOSTOL_JEDEN",
+    "M_APOSTOL_VIAC",
+    "M_SVATITEL_JEDEN",
+    "M_SVATITEL_VIAC",
+    "M_PREPODOBNY_JEDEN",
+    "M_PREPODOBNY_VIAC",
+    "M_MUCENIK_JEDEN",
+    "M_MUCENIK_VIAC",
+    "M_HIEROMUCENIK_JEDEN",
+    "M_HIEROMUCENIK_VIAC",
 ]
 
-for t in T:
-    for i,d in enumerate(D):
-        if not os.path.exists(f"0_source/{t}/{d}.json"):
-            continue
-        with io.open(f"1_generated/{t}/{d}.typ", "w", encoding="utf-8") as f:
-            f.writelines([
-                '#import "../../../all.typ": *\n',
-                "#columns(2, gutter: 2pt, [\n\n"])
-            with io.open(f"0_source/{t}/{d}.json", "r", encoding="utf-8") as inp:
-                j = json.load(inp)
-                generate(f,j,i,Dn[i])
-        
-            f.write("])\n")
-    with io.open(f"1_generated/00_all/{t}.typ", "w", encoding="utf-8") as f:
+for i,d in enumerate(D):
+    if not os.path.exists(f"0_source/0_vseobecna/{d}.json"):
+        continue
+    with io.open(f"1_generated/0_vseobecna/{d}.typ", "w", encoding="utf-8") as f:
         f.writelines([
             '#import "../../../all.typ": *\n',
-            "\n",
-            "#show: book\n\n",
-            f'= #translation.at("MINEA_OBS")\n\n'])
-        for i,d in enumerate(D):
-            if not os.path.exists(f"1_generated/{t}/{d}.typ"):
-                continue
-            f.write(f'#include "../{t}/{d}.typ"\n')
-            f.write(f'#pagebreak()\n')
+            "#columns(2, gutter: 2pt, [\n\n"])
+        with io.open(f"0_source/0_vseobecna/{d}.json", "r", encoding="utf-8") as inp:
+            j = json.load(inp)
+            generate(f,j,i,Dn[i])
+    
+        f.write("])\n")
+with io.open(f"1_generated/00_all/0_vseobecna.typ", "w", encoding="utf-8") as f:
+    f.writelines([
+        '#import "../../../all.typ": *\n',
+        "\n",
+        "#show: book\n\n",
+        f'= #translation.at("MINEA_OBS")\n\n'])
+    for i,d in enumerate(D):
+        if i+1 not in [16,17]: # ITERATOR
+            continue
+        if not os.path.exists(f"1_generated/0_vseobecna/{d}.typ"):
+            continue
+        f.write(f'#include "../0_vseobecna/{d}.typ"\n')
+        f.write(f'#pagebreak()\n')
 
 # 🕀🕁🕂🕃🕄
 Ds = {
-    "01_september": [
+    # "01_september": [
         # ("08", "M_NAR_BOHORODICKY"),
         # ("14", "M_VOZDV_KRIZA"),
-        ("26", "M_JAN_BOHOSLOV"),
-    ],
+        # ("26", "M_JAN_BOHOSLOV"),
+    # ],
     # "02_oktober": [
         # ("01", "M_POKROV"),
         # ("26", "M_DEMETER"),
