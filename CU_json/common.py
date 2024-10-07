@@ -226,6 +226,8 @@ def addSNB(table: Table, prefix, prayer):
     table.addComment(f'S:')
     table.add2Col(f'gText(translation.at("S"))')
     # print(prefix, previous, prayer[prefix+"_S"])
+    if isinstance(prayer[prefix+"_S"], list):
+      print(f'ERROR: {prefix}_S is list not object!')
     if previous == prayer[prefix+"_S"]["TEXT"]:
       table.add(f'""', f'"{shorten(previous)}"')
     else:
@@ -236,6 +238,8 @@ def addSNB(table: Table, prefix, prayer):
     table.addComment(f'I:')
     table.add2Col(f'gText(translation.at("IN"))')
     # get Slava and if same as I Nyni shorten too
+    if isinstance(prayer[prefix+"_N"], list):
+      print(f'ERROR: {prefix}_N is list not object!')
     if prefix+"_S" in prayer and prayer[prefix+"_S"]["TEXT"] == prayer[prefix+"_N"]["TEXT"]:
       previous = prayer[prefix+"_S"]["TEXT"]
     if previous == prayer[prefix+"_N"]["TEXT"]:
@@ -247,6 +251,8 @@ def addSNB(table: Table, prefix, prayer):
   if prefix+"_B" in prayer:
     table.addComment(f'S:I:')
     table.add2Col(f'gText(translation.at("SI"))')
+    if isinstance(prayer[prefix+"_B"], list):
+      print(f'ERROR: {prefix}_B is list not object!')
     if previous == prayer[prefix+"_B"]["TEXT"]:
       table.add(f'""', f'"{shorten(previous)}"')
     else:
@@ -283,9 +289,10 @@ def generateProkimen(f: io.FileIO, prayer):
 
   table.addComment(f'Prokimen')
   table.addDot(jObj(prayer[LETTER]))
-  for i,x in enumerate(prayer["P_ST"]):
-    table.addComment(f'Stich {i}')
-    table.add(f'sText([#translation.at("ST")#super("{i+1}")])', jObj(x))
+  if "P_ST" in prayer:
+    for i,x in enumerate(prayer["P_ST"]):
+      table.addComment(f'Stich {i}')
+      table.add(f'sText([#translation.at("ST")#super("{i+1}")])', jObj(x))
   
   addNote(table, LETTER, prayer, False)
   table.generate(f)

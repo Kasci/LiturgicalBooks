@@ -178,15 +178,15 @@ D = [
     "15_MucenikViac",
     "16_HieromucenikJeden",
     "17_HieromucenikViac",
-    "18_PrepodobnyMucenikJeden.json",
-    "19_PrepodobnyMucenikViac.json",
-    "20_MucenicaJedna.json",
-    "21_MucenicaViac.json",
-    "22_PrepodobnaZenaJedna.json",
-    "23_PrepodobnaZenaViac.json",
-    "24_PrepodobnaMucenicaJedna.json",
-    "25_SpovednikJeden.json",
-    "26_DivotvorcaJeden.json"
+    "18_PrepodobnyMucenikJeden",
+    "19_PrepodobnyMucenikViac",
+    "20_MucenicaJedna",
+    "21_MucenicaViac",
+    "22_PrepodobnaZenaJedna",
+    "23_PrepodobnaZenaViac",
+    "24_PrepodobnaMucenicaJedna",
+    "25_SpovednikJeden",
+    "26_DivotvorcaJeden"
 ]
 Dn = [
     "M_PAN",
@@ -236,7 +236,7 @@ with io.open(f"1_generated/00_all/0_vseobecna.typ", "w", encoding="utf-8") as f:
         "#show: book\n\n",
         f'= #translation.at("MINEA_OBS")\n\n'])
     for i,d in enumerate(D):
-        if i+1 not in [18,19]: # ITERATOR
+        if i+1 not in range(20,28): # ITERATOR
             continue
         if not os.path.exists(f"1_generated/0_vseobecna/{d}.typ"):
             continue
