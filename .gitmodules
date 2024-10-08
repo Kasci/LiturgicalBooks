@@ -1,0 +1,3 @@
+[submodule "LiturgicalSource"]
+	path = LiturgicalSource
+	url = git@github.com:Kasci/LiturgicalSource.git
