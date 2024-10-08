@@ -305,7 +305,7 @@ for h in H:
                 '#import "../../../all.typ": *\n',
                 "#columns(2, gutter: 2pt, [\n\n"])
         
-            with io.open(f"0_source/Hlas{h}/{d}.json", "r", encoding="utf-8") as inp:
+            with io.open(f"../../LiturgicalSource/CU/oktich/Hlas{h}/{d}.json", "r", encoding="utf-8") as inp:
                 j = json.load(inp)
                 generate(f,j,i)
         

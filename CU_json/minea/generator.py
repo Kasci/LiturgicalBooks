@@ -218,13 +218,13 @@ Dn = [
 ]
 
 for i,d in enumerate(D):
-    if not os.path.exists(f"0_source/0_vseobecna/{d}.json"):
+    if not os.path.exists(f"../../LiturgicalSource/CU/minea/0_vseobecna/{d}.json"):
         continue
     with io.open(f"1_generated/0_vseobecna/{d}.typ", "w", encoding="utf-8") as f:
         f.writelines([
             '#import "../../../all.typ": *\n',
             "#columns(2, gutter: 2pt, [\n\n"])
-        with io.open(f"0_source/0_vseobecna/{d}.json", "r", encoding="utf-8") as inp:
+        with io.open(f"../../LiturgicalSource/CU/minea/0_vseobecna/{d}.json", "r", encoding="utf-8") as inp:
             j = json.load(inp)
             generate(f,j,i,Dn[i])
     
@@ -236,8 +236,8 @@ with io.open(f"1_generated/00_all/0_vseobecna.typ", "w", encoding="utf-8") as f:
         "#show: book\n\n",
         f'= #translation.at("MINEA_OBS")\n\n'])
     for i,d in enumerate(D):
-        if i+1 not in range(20,28): # ITERATOR
-            continue
+        # if i+1 not in range(20,28): # ITERATOR
+        #     continue
         if not os.path.exists(f"1_generated/0_vseobecna/{d}.typ"):
             continue
         f.write(f'#include "../0_vseobecna/{d}.typ"\n')
@@ -308,14 +308,14 @@ with io.open(f'1_generated/00_all/1_minea.typ', "w", encoding="utf-8") as all:
         D = Ds[t]
         i = 0
         for d,dn in D:
-            if not os.path.exists(f"0_source/{t}/{d}.json"):
+            if not os.path.exists(f"../../LiturgicalSource/CU/minea/{t}/{d}.json"):
                 continue
             with io.open(f"1_generated/{t}/{d}.typ", "w", encoding="utf-8") as f:
                 f.writelines([
                     '#import "../../../all.typ": *\n',
                     f'  == ({d}.) #translation.at(\"{dn}\")\n',
                     "#columns(2, gutter: 2pt, [\n\n"])
-                with io.open(f"0_source/{t}/{d}.json", "r", encoding="utf-8") as inp:
+                with io.open(f"../../LiturgicalSource/CU/minea/{t}/{d}.json", "r", encoding="utf-8") as inp:
                     j = json.load(inp)
                     generate(f,j,i,None)
             
