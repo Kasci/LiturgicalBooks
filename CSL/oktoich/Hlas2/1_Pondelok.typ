@@ -240,7 +240,6 @@
   )
 )
 
-
 #let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i mólimsja: pomjaní nás Spáse vo cárstviji tvojém."),

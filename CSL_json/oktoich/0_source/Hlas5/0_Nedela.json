@@ -1,0 +1,41 @@
+{
+  "M": {
+    "HV": [
+      {"TEXT":"Čestným tvojím krestóm Christé, dijávola posramíl jesí, i voskresénijem tvojím žálo hrichóvnoje pritupíl jesí, i spásl jesí ny ot vrát smértnych: slávim ťá jedinoródne."},
+      {"TEXT":"Čestným tvojím krestóm Christé, dijávola posramíl jesí, i voskresénijem tvojím žálo hrichóvnoje pritupíl jesí, i spásl jesí ny ot vrát smértnych: slávim ťá jedinoródne."},
+      {"TEXT":"Voskresénije dajáj ródu čelovíčeskomu: jáko ovčá na zakolénije vedésja: ustrašíšasja sehó kňázi ádstiji, i vzjášasja vratá plačévnaja. Vníde bo cár slávy Christós, hlahóľa súščym vo úzach, izydíte: i súščym vo ťmí, otkrýjtesja."},
+      {"TEXT":"Vélije čúdo, nevídimych soďíteľ, za čelovikoľúbije plótiju postradáv, voskrése bezsmértnyj. Prijidíte otéčestvija jazýk, tomú poklonímsja: blahoutróbijem bo jehó ot prélesti izbávľšesja, v trijéch ipostásich jedínaho Bóha píti navykóchom."}
+    ],
+    "HV_B": {"TITLE":"Dogmat", "TEXT":"Bohoľípnuju i čéstnúju otrokovícu počtím, prečestnúju cheruvímov: soďíteľ bo vsích vočelovíčitisja voschoťívyj, v túju vselísja neizrečénno. O stránnych veščéj, i preslávnych táinstv! Któ ne udivítsja o sém vnušívyj, jáko Bóh čelovík byvájet, i preložénije v ném ne bí? I ďívstva vratá prójde, i umalénije v ném ne ostávisja, jákože prorók hlahólet: čelovík sijá ne prójdet kohdá, tókmo jedín Hospóď Bóh Izráilev, imíjaj véliju mílosť."},
+    "S": [
+      {"TEXT":"Tebé voploščénnaho Spása Christá, i nebés ne razlučívšasja, vo hlásich pínij veličájem: jáko krest i smérť prijál jesí za ród náš, jáko čelovikoľúbec Hospóď, isprovérhij ádova vratá, tridnévno voskrésl jesí, spasája dúšy náša."},
+      {"PODOBEN":"Rádujsja póstnikom", "TEXT":"Rúci prostiráju k tebí, i skvérňiji ustňí otverzáju k moléniju, i prekloňáju serdéčnoje koľíno, i úmno nohám tvojím prečístym nýňi prikasájusja, čístaja: i pripádaju k tebí: boľízni mojá iscilí, ľítnyja mojá mnóhija i neiscíľnyja bláhostiju tvojéju iscilí strúpy. Izbávi ot vídimych vrahóv i nevídimych: oblehčí otrokovíce, ťahotú ľínosti mojejá, jáko da ťá pojú i slávľu, jéjuže obríte mír véliju mílosť."},
+      {"TEXT":"Rádujsja Sýna Bóžija neskazánno začénšaja vseneporóčnaja, i sehó róždšaja, plóť po nám voístinnu ot krovéj tvojích priímšaho, dúšu úmnuju že i samovlástnuju imúščaho: neoskúdno bo vo Adáma oblékšahosja, mílosti rádi i bláhosti neizrečénnyja. Otonúduže vo dvojú jestestvú nám vozviščájetsja, obojích pokazújaj v sebí ďíjstvo Christós: jehóže molí dušám nášym dáti véliju mílosť."},
+      {"TEXT":"Rádujsja dobróto Jákovľa, júže izbrá Bóh, júže vozľubí, dvére spasájemych, plamenonósnaja kleščé, kľátvy razrišénije, vseblahoslovénnaja: črévo Bohovmistímoje, pádšich vozvedénije: svjaťíjšaja cheruvímov, i tvárej preimúščaja: neudobozrímoje viďínije, slýšanije novíjšeje, neizrečénnoje hlahólanije, kolesníce Slóva: óblače, iz nehóže vozsijá sólnce, i mené ozarjája, i súščym vo ťmí podajá véliju mílosť."}
+    ],
+    "S_B": {"TITLE":"Dogmat", "TEXT":"Jáže o tebí proróčestvija, ispólnišasja Ďívo čístaja: óv úbo ot prorók dvér ťá prorečé, vo Jedémi na vostók zrjáščuju, júže niktóže prójde, tóčiju ziždíteľ tvój, i vsehó míra: óv že kupinú ohném žehómu, jáko v tebí obitá óhň Božestvá, i neopalíma prebýsť. Ín hóru svjatúju, ot nejáže otsičésja kámeň krajeuhóľnyj, kromí rúki čelovíčeskija, i porazí óbraz mýslennaho Navuchodonósora: voístinnu vélije i preslávnoje, jéže v tebí táinstvo jésť Bohomáti. Ťímže ťá slávim: tobóju bo býsť spasénije dušám nášym."}
+  },
+  "L": {
+    "B": [
+      {"TEXT":"Razbójnik na kresťí Bóha ťá býti vírovav, Christé, ispovída ťá čísťi ot sérdca, pomjaní mja Hóspodi, vopijá, vo cárstviji tvojém."},
+      {"TEXT":"Íže na drévi krestňim žízň procvítšaho ródu nášemu, i izsušívša júže ot dréva kľátvu, jáko Spása i soďíteľa sohlásno vospojím."},
+      {"TEXT":"Smértiju tvojéju Christé, smértnuju razrušíl jesí sílu, i sovozdvíhl jesí íže ot víka uméršyja, ťá pojúščyja ístinnaho Bóha i Spása nášeho."},
+      {"TEXT":"Na hrób tvój Christé, prišédša žený čestnýja, iskáchu ťá žiznodávče miropomázati, i javísja ím ánhel vopijá: voskrése Hospóď."},
+      {"TEXT":"Raspénšu ti sja Christé, posreďí dvojú osuždénnoju razbójniku, jedín úbo chúľa ťá, osuždén býsť právedňi: druhíj že ispovídaja ťá, v ráj vselísja."},
+      {"TITLE":"Tróičen", "TEXT":"Ko apóstolov líku prišédša žený čestnýja, vozopíša: Christós voskrése, jáko Vladýci i soďíteľu tomú poklonímsja."},
+      {"TITLE":"Bohoródičen", "TEXT":"Tróice nerazďíľnaja, jedínice vseďíteľnaja i vsesíľnaja, Ótče, Sýne i svjatýj Dúše, tebé pojém ístinnaho Bóha i Spása nášeho."},
+      {"TEXT":"Rádujsja oduševlénnyj chráme Bóžij i vratá neprochodímaja: rádujsja neopalímyj i ohneobráznyj prestóle: rádujsja Máti Jemmanúila, Christá Bóha nášeho."}
+    ],
+    "TKB": [
+      {"TEXT":"Sobeznačáľnoje Slóvo Otcú i Dúchovi, ot Ďívy róždšejesja na spasénije náše, vospojím vírniji i poklonímsja: jáko blahovolí plótiju vzýti na krest, i smérť preterpíti, i voskresíti uméršyja slávnym voskresénijem svojím."},
+      {"TITLE":"Kondák", "PODOBEN":"Sobeznačáľnoje Slóvo", "TEXT":"Ko ádu Spáse mój sošél jesí, i vratá sokrušívyj jáko vsesílen, uméršich jáko sozdáteľ sovoskresíl jesí, i smérti žálo sokrušíl jesí, i Adám ot kľátvy izbávlen býsť, čelovikoľúbče. Ťímže vsí zovém: spasí nás Hóspodi."},
+      {"TITLE":"Bohoródičen", "TEXT":"Rádujsja dvére Hospódňa neprochodímaja: rádujsja sťinó i pokróve pritekájuščich k tebí. Rádujsja, neoburevájemoje pristánišče, i neiskusobráčnaja, róždšaja plótiju tvorcá tvojehó i Bóha: moľášči ne oskuďiváj o vospivájuščich, i kláňajuščichsja roždestvú tvojemú."}
+    ],
+    "P": [
+      {"TEXT":"Tý Hóspodi sochraníši ný, i sobľudéši ný ot róda sehó i vo vík."},
+      {"TEXT":"Spasí mja Hóspodi, jáko oskuďí prepodóbnyj."},
+      {"TEXT":"Mílosti tvojá Hóspodi vo vík vospojú, v ród i ród vozviščú ístinu tvojú ustý mojími."},
+      {"TEXT":"Zané rékl jesí: v vík mílosť sozíždetsja, na nebesích uhotóvitsja ístina tvojá."}
+    ]
+  }
+}

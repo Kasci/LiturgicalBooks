@@ -245,7 +245,6 @@
   )
 )
 
-
 #let L = (
   "B": (
     ("", "", "Hlás tí prinósim razbójnič, i vopijém tí: pomjaní nás Hóspodi vo cárstviji tvojém."),

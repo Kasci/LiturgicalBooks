@@ -13,7 +13,6 @@
     ("", "", "Któ oburevájem, i pritekája ko pristánišču semú ne spasétsja? Ilí któ nedúhuja, i pripádaja ko vračevstvú semú, ne uvračújetsja, soďíteľu vsjáčeskich, i vračú nedúžnych? Hóspodi, préžde dáže do koncá ne pohíbnu, spasí mja."),
     ("", "", "Íže svjatých múčenik prijémyj terpínije, i ot nás prijimí pínije čelovikoľúbče: i dáruj nám ťích molítvami véliju mílosť."),
     ("Bohoródičen", "", "Izbávi nás ot núžd nášich, Máti Christá Bóha, róždšaja vsích tvorcá, da vsí vopijém tí: rádujsja jedíno predstáteľstvo dúš nášich."),
-    
   ),
 )
 
@@ -90,13 +89,11 @@
     ("", "", "Skóro sovnídem v nevístnik Christóv, da vsí uslýšim blažénnyj hlás Christá Bóha nášeho: prijidíte ľúbjaščiji nebésnuju slávu, sopričástnicy bývše múdrym ďívam, prosvitívše sviščý náša víroju."),
     ("", "", "Krestóm vooružéni strástonóscy tvoí Christé Bóže náš, pobidíša koznovánija načalozlóbnaho vrahá, i vozsijáša jáko svitíla zemných nastavľájušče, i podajút iscilénija víroju prosjáščym: ťích molítvami spasí dúšy náša."),
     ("Bohoródičen", "", "Slóvo Ótčeje Christá Bóha nášeho, iz tebé voplotívšahosja, poznáchom Bohoródice Ďívo, jedína čístaja, jedína blahoslovénnaja: ťím neprestánno ťá vospivájušče veličájem."),
-    
   ),
   "S3": (
     ("", "", "Dušé, pokájsja préžde ischóda tvojehó, súd neumýtnyj sohrišájuščym jésť i nepostojánen, vozopíj ko Hóspodu umilénijem sérdca: sohriších v rázumi i nevíďiniji ščédre, molítvami Krestíteľa tvojehó, uščédri i spasí mja."),
     ("", "", "Hórlica pustynnoľúbnaja, svjáščénnyj Krestíteľ, propovídavyj pokajánije, i pokazávyj Christá bývša čelovíka, vsím sohrišájuščym býsť predstáteľ, i vsím oburevájemym pomóščnik byvája prísnyj: tohó molítvami Christé, spasí mír tvój."),
     ("Bohoródičen", "", "Obnovíla jesí čístaja, božéstvennym roždestvóm tvojím, istľívšeje vo strastéch zemnoródnych mértvennoje suščestvó, i vozdvíhla jesí vsjá ot smérti k životú netľínija: ťímže ťá po dólhu blažím vsí Ďívo preproslávlennaja, jákože proreklá jesí."),
-    
   ),
   "K": (
     "P1": (
@@ -107,7 +104,6 @@
         ("Múčeničen", "", "Ščitóm blahočéstija pokryvájemi svjatíji, deržášče jáko méč krestnoje orúžije, k boréniju vrahá slávniji izydóste, i tohó nizložíste."),
         ("Múčeničen", "", "Krovopíjic ľvóv, i mečá sikúščaho, i varénija konóbnaho, strohánija nohtéj, terzánija že i boľíznennaho mučénija, múčenicy božéstvenniji ne ubojášasja."),
         ("Bohoródičen", "", "Kovčéh božéstvennym Dúchom pozlaščénnyj, prečístaja, pokazásja: ne skrižáli nosjášč zakóna, no Christá Hóspoda, jehóže zakón i prorócy drévle predvozvistíša."),
-        
       ),
       "2": (
         ("", "", "Tristáty krípkija, roždéjsja ot Ďívy, bezstrástija vo hlubiňí, duší tričástnoje potopí, moľúsja: da tebí jáko v timpáňi, vo umerščvléniji ťilesé, pobídnoje vospojú pínije."),
@@ -115,7 +111,6 @@
         ("", "", "Razrišívyj inohdá blažénne, v roždéniji neplódstvija úzy, ťímže ťá moľú, bezplódstvijem zapusťívšuju dúšu mojú strastéj, pokaží molítvami tvojími plodíteľnu, dobroďítelej blahočádije prinosjáščuju."),
         ("", "", "Uhotóval jesí putí Izbáviteľu, predchoďáj v síľi Ilijiňí, prisnoslávne Krestíteľu: k nemúže mojejá duší dvižénije isprávi, soblázny vsjákija, i plámeň strastéj izimája molítvami tvojími."),
         ("Bohoródičen", "", "Óblače svítlyj, duší mojejá óblaki témnyja i ľútyja tvojími svítlymi chodátajstvy razorí: jáko da vížu zarjú iz tebé vozsijávšaho, i svítom svít prijimú nezachodímyj."),
-        
       ),
     ),
     "P3": (
@@ -126,7 +121,6 @@
         ("Múčeničen", "", "Othnán javísja Velijár božéstvennymi pódvihi strastotérpec, i ot ních popirájem zrítsja mértv i neďíjstven, íže drévle chvaľájsja."),
         ("Múčeničen", "", "Múčeničeski tečénije soveršívše svjatých soslóvije, i ťmý mýslennych múrinov, božéstvennoju síloju jáko voístinnu posičé, i slávu polučí."),
         ("Bohoródičen", "", "Práotcem razríšila jesí pečáľ, rádosť nám róždši žiznodávca, i izbáviteľa presvjatája Bohoródice: jehóže priľížno molí, spastí dúšy náša."),
-        
       ),
       "2": (
         ("", "", "Lúk síľnych iznemóže, i nemoščstvújuščiji prepojásašasja síloju: sehó rádi utverdísja v Hóspoďi sérdce mojé."),
@@ -134,7 +128,6 @@
         ("", "", "Slóva voplóščšahosja Predtéča velíkij pokazálsja jesí. Sehó rádi moľúsja tí: bezslovésnych mjá strastéj izbávi, nastavľája mjá k bezstrástiju."),
         ("", "", "Ješčé žíteľstvuja v ťilesí, žitijé bezplótnych pokazál jesí Predtéče: jemúže upodóbitisja molítvami tvojími Bohonóse, i nás ukripí, mólimsja."),
         ("Bohoródičen", "", "Mír tobóju pomílovasja, íže prestuplénijem nepotrében býsť, Máti Ďívo: sehó rádi v pínijich pésnennych po dólhu ťá ublážájet."),
-        
       ),
     ),
     "P4": (
@@ -145,7 +138,6 @@
         ("Múčeničen", "", "Očístivše voístinnu hnój vés hrichá terpínija božéstvennoju síloju dóbliji múčenicy, spasénije vsím podáša."),
         ("Múčeničen", "", "Vaľájemi po zemlí jákože kámenije strastotérpcy, prélesti tvérdyja do koncá nizverhóša, i k výšnemu hrádu dospíša: ťích molítvami Hóspodi spasí nás."),
         ("Bohoródičen", "", "Spasénije ťá na vsjákoje vrémja i místo prizyváju: ne prézri mené vseneporóčnaja, jáže Bóha róždšaja, Izbáviteľa vkúpi i Spása mojehó."),
-        
       ),
       "2": (
         ("", "", "Ľubvé rádi ščédre, tvojehó óbraza, na kresťí tvojém stál jesí i rastájašasja jazýcy: tý bo jesí čelovikoľúbče, kríposť mojá i chvalénije."),
@@ -153,7 +145,6 @@
         ("", "", "Sokrušénna mjá ľstívaho sokrušéňmi, vétchomu i nóvomu jáko sýj chodátaj, vsehó obnoví molítvami tvojími Predtéče."),
         ("", "", "Íže v pustýňu vselívyjsja neporóčnym žitijém, opusťívšij vsjákimi prestupléňmi úm mój, božéstvennymi molítvami tvojími obnoví Predtéče."),
         ("Bohoródičen", "", "Očiščénije nám i izbavlénije poznásja tvój Sýn Ďívo: jehóže molí spastí dúšy vo umiléniji ťá blažáščich."),
-        
       ),
     ),
     "P5": (
@@ -164,7 +155,6 @@
         ("Múčeničen", "", "Kápľami krovéj uhasíste mnohobóžija prélesti péšč, Bohoblažénniji, i túčami iscilénij plámeň utišíste strastéj vsehdá, Spásovy stradáľcy."),
         ("Múčeničen", "", "Stojášče pred sudíščem, i nohťmí strúžemi, i vo hlavý usekájemi múčenicy, i mnóžestvu primešájuščesja ľútych múk, nepreklónni prebýste manovénijem božéstvennym."),
         ("Bohoródičen", "", "Vozsijáj mí Vladýčice, zarjú mílosti tvojejá, íže vo mráci prehrišénij mojích súšču Ďívo: i k svítu pokajánija nastávi mjá prečístaja, da víroju ťá pojú."),
-        
       ),
       "2": (
         ("", "", "Prosviščénije tvojé Hóspodi, nizposlí nám, i ot mhlý prehrišénij razriší ný bláže, tvój mír dárujaj."),
@@ -172,7 +162,6 @@
         ("", "", "Ot tvojejá vseblažénne, svjatýja desnícy kreščájetsja Otcá božéstvennaja Desníca, spasájuščaja nás ot rukí ľstívaho, svjaščénnymi chodátajstvy tvojími."),
         ("", "", "Pribížišče ťá Predtéče, i pokróv deržáven, i velíkuju sťínu vés mír ímať: izbávi nás tvojími molítvami ot vsjákija ťisnotý."),
         ("Bohoródičen", "", "Dobrótu ťá Jákovľu vozľubí Bóh, Ďívo otrokovíce, ukrašájušč vsjá tobóju, omračívšyjasja prestuplénijem pérvije."),
-        
       ),
     ),
     "P6": (
@@ -183,7 +172,6 @@
         ("Múčeničen", "", "Civníca javístesja, voístinnu vozhlašájuščaja pínije spasíteľnoje prísno, i naslaždájuščaja vírnych serdcá, i pijánstvo prélesti do koncá ohoňájuščaja, stradáľcy presvítliji."),
         ("Múčeničen", "", "Prevozšédše preďíly čelovíčeskija múčenicy Christóvy k ziždíteľu vozniknovénijem božéstvennym, mučénija boľízni preterpíste rádujuščesja, jáko v ťilesích čuždích."),
         ("Bohoródičen", "", "Vsesvjatája Ďívo, predstáteľnice i pokróve vsích vírnych, predstáni i izbávi mjá preščénija búduščaho, i strášnaho sudíšča v čás súdnyj, da víroju prísno pojú ťá."),
-        
       ),
       "2": (
         ("", "", "Prijidóch vo hlubiný morskíja, i potopíla mjá jésť búrja mnóhich hrichóv: no jáko Bóh iz hlubiný vozvedí živót mój mnohomílostive."),
@@ -191,7 +179,6 @@
         ("", "", "Propovídnik pokazálsja jesí pokajánija, v némže sobľudí Predtéče mojé sérdce, oskvernénnoje vrédnymi hrichí, i vozniknovénija ne imúščeje."),
         ("", "", "Vozhlasíl jesí blažénne, dušám v pustýňach neprochodímych, Slóva prišéstvije choťáščeje býti: ťímže hlásy nemólčnymi vsjákaja cérkov blážít ťá."),
         ("Bohoródičen", "", "Zakóna izjasníšasja óbrazy, tvojím strášnym roždestvóm Bohonevísto: íchže sbytijé mý nýňi zrjášče Vladýčice, po dostojániju ťá čtím."),
-        
       ),
     ),
     "P7": (
@@ -202,7 +189,6 @@
         ("Múčeničen", "", "Búri ľúťij mnohobóžija obderžáščej vselénnuju, korábľ sotvórše blahočéstija strastotérpcy: okormlénijem že Christóvym, ko pristánišču žízni doplývše vopijéte: blahoslovén Bóh otéc nášich."),
         ("Múčeničen", "", "Prosviščéni bývše jávi, jákože zláto v horníľi, múkami iskušájemi stradáľcy, i pokazávšesja zapečátanija čestnája strástéj Christóvych, v sokróviščach nebésnych, vo utverždéniji mnózi sokrovéni býša nýňi."),
         ("Bohoródičen", "", "Spása i Bóha, i Izbáviteľa i Vladýku, plótiju róždši prečístaja Vladýčice, tomú prísno prečístaja, molísja, jáko da razrišénije ľútych i mnóhich hrichóv ostavlénije priímše, slavoslóvim tohó jáže páče umá ščedróty."),
-        
       ),
       "2": (
         ("", "", "Avraámstiji inohdá v Vavilóňi ótrocy, péščnyj plámeň popráša, písňmi vzyvájušče: otéc nášich Bóže blahoslovén jesí."),
@@ -210,7 +196,6 @@
         ("", "", "Neplódnaja javíchsja smokóvnica, i posičénija bojúsja: utverdí mja chodátajstvom tvojím, Predtéče Spásov, i plodovíta sotvorí, jáko da ublažáju ťá."),
         ("", "", "Izbáviteľu vsích vsesíľne, posreďí plámene blahočéstvovavšyja, snizšéd orosíl jesí, i naučíl jesí píti: vsjá ďilá blahoslovíte , pójte Hóspoda."),
         ("Bohoródičen", "", "Nachoždénija lukávaho i části, Ďívo, i rabóty bisóvskija sochraní rabý tvojá, íže dušéju ťá i jazýkom prísno slávjaščyja."),
-        
       ),
     ),
     "P8": (
@@ -221,7 +206,6 @@
         ("Múčeničen", "", "Rasprostraníšasja blahodátiju, uťisňájemi v múkach mnóhich strastonóscy, i sťisníša vrahú putí própastej ispólneny, i nýňi nastavľájut nás k putém Bóžijim vo víri i ľubví."),
         ("Múčeničen", "", "Bidú priját ľstívyj, vpád vo hlubinú, múčenicy, terpínija i stradánija vášeho, i ležít ot vsích nasmivájem bezúmnyj: vý že pobídnymi vincý ukrašájetesja."),
         ("Bohoródičen", "", "Črévo tvojé vseneporóčnaja, stóh čestnáho humná javísja, míru nosjá pšenícu životá, pitájušču vsjáčeskaja. Ťímže ťá jáko vinóvnu vsích dóbrych, vírniji po dostojániju ublažájem."),
-        
       ),
       "2": (
         ("", "", "Izbáviteľu vsích vsesíľne, posreďí plámene blahočéstvovavšyja, snizšéd orosíl jesí, i naučíl jesí píti: vsjá ďilá blahoslovíte , pójte Hóspoda."),
@@ -230,7 +214,6 @@
         ("", "", "Íže vzémľuščaho míru prehrišénija, v ričných vodách krestíl jesí, zól mojích bézdnu izsuší strujámi molítv tvojích, blažénne Joánne Predtéče."),
         ("", "", "Víďiv Dúcha svjatáho, slýšal jesí hlás Rodítelev, sviďíteľstvujušč Predtéče, tobóju neizrečénno kreščájemomu Iisúsu: jehóže molí spastí nás."),
         ("Bohoródičen", "", "Jáko istóčnik nášeho obnovlénija, sokrušénnaho mjá priražéňmi zmíjevymi, vsehó obnoví: jáko da víroju i ľubóviju ťá ublážáju, Bohoródice Ďívo vseneporóčnaja."),
-        
       ),
     ),
     "P9": (
@@ -241,7 +224,6 @@
         ("Múčeničen", "", "Vesélym sérdcem i rádostnoju dušéju múčenicy vo výšnich živút, jázvy Christóvy jákože krasotú blahoľípija prísno imúšče: i nám míra isprošájut, i ľútych izbavlénije, i prehrišénij razrišénije."),
         ("Múčeničen", "", "Osvjatísja vsjáko místo, imúščeje božéstvenniji stradáľcy móšči váša, jákože druhíj kovčéh, íže vo Izráiľi izbavľájušč ľútych: rádujutsja nebésnaja, s čestnými ánhely, dúšy váša blažénniji sťažávša."),
         ("Bohoródičen", "", "Blahoľubívaja otrokovíce, blahoľubívaho Bóha róždšaja, vopijú ti: ubláží okajánnuju mojú dúšu, ozlóblennuju ľúťi strasťmí i prilóhmi lukávych bisóv, da víroju ťá pojú nadéždu vsích."),
-        
       ),
       "2": (
         ("", "", "Jéva úbo nedúhom preslušánija kľátvu vselíla jésť, tý že Ďívo Bohoródice, prozjabénijem črevonošénija mírovi blahoslovénije procvilá jesí: ťím ťá vsí veličájem."),
@@ -250,7 +232,6 @@
         ("", "", "Vzyhrávsja v ložesnách máternich, vozvistíl jesí ot Ďívy vozsijávšaho: tohó molí, plotskája mojá dvizánija umertvíti, umerščvľájuščaja mjá, i ispólniti rádosti sérdce mojé, jáko da pojú ťa božéstvennyj Predtéče."),
         ("", "", "Súd nemílostiv dušé, mílosti ne tvorjáščym, zrí i vnimáj: jeléj prijimí, sviščú tvojú prosviščájuščij, i sobľudí neuhašénnu. Približájetsja ženích, bódrstvuj, da neuhašájemo ímaši proizvolénije."),
         ("Bohoródičen", "", "blahoľubívaho róždši Bóha, blahoľubívaja Bohoródice, tohó molí, vsjákija mjá izbáviti zlóby, i k tomú da sotvorít sérdce račíteľno, plotskóje sladostrástije voznenavíditi: da v písnech veličáju ťá."),
-        
       ),
     ),
   ),
@@ -259,11 +240,8 @@
     ("", "", "Ovčá jésm slovésnaho tvojehó stáda, i k tebí pribiháju pástyrju dóbromu, vzyščí mené zablúždšaho, Bóže, i pomíluj mjá."),
     ("Múčeničen", "", "Ánhelom sopričástnicy býste svjatíji múčenicy, na sudíšči Christá múžeski propovídavše: vsjá bo jáže v míri ostáviste krásnaja, jáko ne súšča, víru že jáko nadéždu tvérdu uderžáste. Ťímže i lésť othnávše, istočájete vírnym iscilénij darovánija, neprestánno moľáščesja, spastísja dušám nášym."),
     ("Bohoródičen", "", "Ot vsích bíd rabý tvojá sochraňáj, blahoslovénnaja Bohoródice: da ťá slávim, nadéždu dúš nášich."),
-    
   )
 )
-
-
 #let L = (
   "B": (
     ("", "", "Drévom Adám rajá býsť izselén: drévom že krestnym razbójnik v ráj vselísja. Óv úbo vkúš, zápoviď otvérže sotvóršaho: óv že sraspinájem, Bóha ispovída tajáščahosja, pomjaní mja, vopijá, vo cárstviji tvojém."),
