@@ -651,6 +651,7 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
         table.addDot(jObj(k))
       addNote(table, "K", KK, before=False)
       table.generate(f)
+    if song == "6" and "I" in KK:
       f.write(f'  ===== #translation.at("IKOS")\n')
       table = Table()
       addNote(table, "I", KK, before=True)

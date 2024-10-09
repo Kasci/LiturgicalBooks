@@ -25,14 +25,26 @@ To generate pdf use command
 typst _general/NAME.typ
 ```
 
+To update sources use command
+````
+git submodule update --remote
+````
+
 ## Plans and TODO
 
-- Move source files to JSON
-    - Rework generator to understand JSON
-    - Add type checking (based on JSON structure)
+- Find a way how to use second and third glory/now and how to render it properly
+- Finalize general minea - add matins and liturgy/typica
+- Add also lower feasts into minea
+- Add lenten and flowely triodion
 - Add different sources - Lviv, etc.
 
 ## Changelog
+
+### v. 0.5 
+
+- CU, CSL and GR text are moved to separate repository, to allow it's independent reuse
+- Vespers for general minea are added
+- Started to add minea for great feasts
 
 ### v. 0.4
 

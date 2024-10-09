@@ -254,19 +254,20 @@ Ds = {
         # ("01", "M_POKROV"),
         # ("26", "M_DEMETER"),
     # ],
-    # "03_november": [
-        # ("08", "M_MICHAL"),
+    "03_november": [
+        ("08", "M_MICHAL"),
         # ("12", "M_JOZAFAT"),
-        # ("13", "M_ZLATOUSTY"),
-        # ("21", "M_VOVEDENIE"),
-    # ],
-    # "04_december": [
-        # ("05", "M_SAVA"),
-        # ("08", "M_POCATIE_BOHORODICKY"),
+        ("13", "M_ZLATOUSTY"),
+        ("21", "M_VOVEDENIE"),
+    ],
+    "04_december": [
+        ("05", "M_SAVA"),
+        ("06", "M_MIKULAS"),
+        ("08", "M_POCATIE_BOHORODICKY"),
         # ("24", "M_NAR_PREDP"),
-        # ("25", "M_NARODENIE"),
+        ("25", "M_NARODENIE"),
         # ("26", "M_ZHROM_BOHORODICKA"),
-    # ],
+    ],
     # "05_januar": [
         # ("01", "M_OBREZANIE"),
         # ("06", "M_BOHOZJAVENIE"),
