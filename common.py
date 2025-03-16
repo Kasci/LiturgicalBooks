@@ -1,119 +1,4 @@
 import io
-import json
-
-stichiry_HospodyVozvach = [
-  "И҆зведѝ и҆з̾ темни́цы дꙋ́шꙋ мою̀, и҆сповѣ́датисѧ и҆́мени твоемꙋ̀.",
-  "Менѐ ждꙋ́тъ пра́вєдницы, до́ндеже возда́си мнѣ̀.",
-  "И҆з̾ глꙋбины̀ воззва́хъ къ тебѣ̀ гдⷭ҇и, гдⷭ҇и, ᲂу҆слы́ши гла́съ мо́й.",
-  "Да бꙋ́дꙋтъ ᲂу҆́ши твоѝ, вне́млющѣ гла́сꙋ моле́нїѧ моегѡ̀.",
-  "А҆́ще беззакѡ́нїѧ на́зриши гдⷭ҇и, гдⷭ҇и, кто̀ постои́тъ; ꙗ҆́кѡ ᲂу҆ тебѐ ѡ҆чище́нїе є҆́сть.",
-  "И҆́мене ра́ди твоегѡ̀ потерпѣ́хъ тѧ̀ гдⷭ҇и, потерпѣ̀ дꙋша̀ моѧ̀ въ сло́во твоѐ, ᲂу҆пова̀ дꙋша̀ моѧ̀ на гдⷭ҇а.",
-  "Ѿ стра́жи ᲂу҆́треннїѧ до но́щи, ѿ стра́жи ᲂу҆́треннїѧ, да ᲂу҆пова́етъ і҆и҃ль на гдⷭ҇а.",
-  "Ꙗ҆́кѡ ᲂу҆ гдⷭ҇а млⷭ҇ть, и҆ мно́гое ᲂу҆ негѡ̀ и҆збавле́нїе, и҆ то́й и҆зба́витъ і҆и҃лѧ ѿ всѣ́хъ беззако́нїй є҆гѡ̀.",
-  "Хвали́те гдⷭ҇а всѝ ꙗ҆зы́цы, похвали́те є҆го̀ всѝ лю́дїе.",
-  "Ꙗ҆́кѡ ᲂу҆тверди́сѧ млⷭ҇ть є҆гѡ̀ на на́съ, и҆ и҆́стина гдⷭ҇нѧ пребыва́етъ во вѣ́къ."
-  ]
-
-stichiry_Stichovni = {
-  "M": (
-    {"TEXT": "Помѧнꙋ̀ и҆́мѧ твоѐ во всѧ́комъ ро́дѣ и҆ ро́дѣ."},
-    {"TEXT": "Слы́ши дщѝ и҆ ви́ждь, и҆ приклонѝ ᲂу҆́хо твоѐ."},
-    {"TEXT": "Лицꙋ̀ твоемꙋ̀ помо́лѧтсѧ бога́тїи лю́дстїи."},
-  ),
-  "0": (
-    {"TEXT": "Гдⷭ҇ь воцари́сѧ, въ лѣ́потꙋ ѡ҆блече́сѧ."},
-    {"TEXT": "И҆́бо ᲂу҆твердѝ вселе́ннꙋю, ꙗ҆́же не подви́житсѧ."},
-    {"TEXT": "До́мꙋ твоемꙋ̀ подоба́етъ ст҃ы́нѧ гдⷭ҇и, въ долготꙋ̀ дні́й."},
-  ),
-  "6": (
-    {"TEXT": "Бл҃же́ни, ꙗ҆̀же и҆збра́лъ и҆ прїѧ́лъ є҆сѝ гдⷭ҇и."},
-    {"TEXT": "Дꙋ́шы и҆́хъ во бл҃ги́хъ водворѧ́тсѧ."},
-    {"TEXT": ""},
-  ),
-  "x": (
-    {"TEXT": "Къ тебѣ̀ возведо́хъ ѻ҆́чи моѝ, живꙋ́щемꙋ на нб҃сѝ. сѐ ꙗ҆́кѡ ѻ҆́чи ра̑бъ въ рꙋкꙋ̀ госпо́дїй свои́хъ, ꙗ҆́кѡ ѻ҆́чи рабы́ни въ рꙋкꙋ̀ госпожѝ своеѧ̀: та́кѡ ѻ҆́чи на́ши ко гдⷭ҇ꙋ бг҃ꙋ на́шемꙋ, до́ндеже ᲂу҆ще́дритъ ны̀."},
-    {"TEXT": "Поми́лꙋй на́съ, гдⷭ҇и, поми́лꙋй на́съ, ꙗ҆́кѡ по мно́гꙋ и҆спо́лнихомсѧ ᲂу҆ничиже́нїѧ: наипа́че напо́лнисѧ дꙋша̀ на́ша поноше́нїѧ гобзꙋ́ющихъ, и҆ ᲂу҆ничиже́нїѧ го́рдыхъ."},
-  )
-}
-
-stichiry_Chvalite = [
-  "Сотвори́ти въ ни́хъ сꙋ́дъ напи́санъ: сла́ва сїѧ̀ бꙋ́детъ всѣ̑мъ прпⷣбнымъ є҆гѡ̀.",
-  "Хвали́те бг҃а во ст҃ы́хъ є҆гѡ̀, хвали́те є҆го̀ во ᲂу҆тверже́нїи си́лы є҆гѡ̀.",
-  "Хвали́те є҆го̀ на си́лахъ є҆гѡ̀, хвали́те є҆го̀ по мно́жествꙋ вели́чествїѧ є҆гѡ̀.",
-  "Хвали́те є҆го̀ во гла́сѣ трꙋ́бнѣмъ: хвали́те є҆го̀ во ѱалти́ри и҆ гꙋ́слехъ.",
-  "Хвали́те є҆го̀ въ тѷмпа́нѣ и҆ ли́цѣ, хвали́те є҆го̀ во стрꙋ́нахъ и҆ ѻ҆рга́нѣ.",
-  "Хвали́те є҆го̀ въ кѷмва́лѣхъ доброгла́сныхъ, хвали́те є҆го̀ въ кѷмва́лѣхъ восклица́нїѧ: всѧ́кое дыха́нїе да хва́литъ гдⷭ҇а.",
-  "Воскрⷭ҇нѝ гдⷭ҇и бж҃е мо́й, да вознесе́тсѧ рꙋка̀ твоѧ̀, не забꙋ́ди ᲂу҆бо́гихъ твои́хъ до конца̀.",
-  "И҆сповѣ́мсѧ тебѣ̀ гдⷭ҇и всѣ́мъ се́рдцемъ мои́мъ, повѣ́мъ всѧ̑ чꙋдеса̀ твоѧ̑.",
-]
-
-stichiry_Stichovni_Utrena = {
-  "x": (
-    "И҆спо́лнихомсѧ заꙋ́тра млⷭ҇ти твоеѧ̀ гдⷭ҇и, и҆ возра́довахомсѧ и҆ возвесели́хомсѧ, во всѧ̑ дни̑ на́шѧ возвесели́хомсѧ, за дни̑, въ нѧ́же смири́лъ ны̀ є҆сѝ, лѣ̑та, въ нѧ́же ви́дѣхомъ ѕла̑ѧ: и҆ при́зри на рабы̑ твоѧ̑, и҆ на дѣла̀ твоѧ̑, и҆ наста́ви сы́ны и҆́хъ.",
-    "И҆ бꙋ́ди свѣ́тлость гдⷭ҇а бг҃а на́шегѡ на на́съ, и҆ дѣла̀ рꙋ́къ на́шихъ и҆спра́ви на на́съ, и҆ дѣ́ло рꙋ́къ на́шихъ и҆спра́ви.",
-  ),
-  "6": (
-    "Бл҃же́ни, ꙗ҆̀же и҆збра́лъ и҆ прїѧ́лъ є҆сѝ гдⷭ҇и.",
-    "Дꙋ́шы и҆́хъ во бл҃ги́хъ водворѧ́тсѧ.",
-    "И҆ па́мѧть и҆́хъ въ ро́дъ и҆ ро́дъ.",
-  )
-}
-
-stichiry_Blazenny = (
-  "Бл҃же́ни ни́щїи дх҃омъ, ꙗ҆́кѡ тѣ́хъ є҆́сть црⷭ҇тво нбⷭ҇ное.",
-  "Бл҃же́ни пла́чꙋщїи, ꙗ҆́кѡ ті́и ᲂу҆тѣ́шатсѧ.",
-  "Бл҃же́ни кро́тцыи, ꙗ҆́кѡ ті́и наслѣ́дѧтъ зе́млю.",
-  "Бл҃же́ни а҆́лчꙋщїи и҆ жа́ждꙋщїи пра́вды, ꙗ҆́кѡ ті́и насы́тѧтсѧ.",
-  "Бл҃же́ни млⷭ҇тивїи, ꙗ҆́кѡ ті́и поми́ловани бꙋ́дꙋтъ.",
-  "Бл҃же́ни чи́стїи се́рдцемъ, ꙗ҆́кѡ ті́и бг҃а ᲂу҆́зрѧтъ.",
-  "Бл҃же́ни миротво́рцы, ꙗ҆́кѡ ті́и сн҃ове бж҃їи нарекꙋ́тсѧ.",
-  "Бл҃же́ни и҆згна́ни пра́вды ра́ди, ꙗ҆́кѡ тѣ́хъ є҆́сть црⷭ҇тво нбⷭ҇ное.",
-  "Бл҃же́ни є҆стѐ, є҆гда̀ поно́сѧтъ ва́мъ, и҆ и҆жденꙋ́тъ, и҆ рекꙋ́тъ всѧ́къ ѕо́лъ глаго́лъ на вы̀ лжꙋ́ще менѐ ра́ди.",
-  "Ра́дꙋйтесѧ и҆ весели́тесѧ, ꙗ҆́кѡ мзда̀ ва́ша мно́га на нб҃сѣ́хъ.",
-)
-
-pripivy = {
-  "0": (
-    ("Сла́ва гдⷭ҇и ст҃о́мꙋ воскрⷭ҇нїю твоемꙋ̀."),
-    ("Сла́ва гдⷭ҇и крⷭ҇тꙋ̀ твоемꙋ̀ и҆ воскрⷭ҇нїю."),
-    ("Прест҃а́ѧ Бцⷣе, сп҃сѝ на́съ.")
-  )
-}
-
-pripiv_P = "Прест҃а́ѧ бцⷣе сп҃сѝ на́съ."
-pripiv_N = "Прест҃а́ѧ трⷪ҇це бж҃е на́шъ, сла́ва тебѣ̀."
-
-kanony = {
-  "0": (
-    "Канѡ́нъ воскрⷭ҇нъ",
-    "Канѡ́нъ крⷭ҇товоскре́сенъ",
-    "Канѡ́нъ прест҃ѣ́й бцⷣѣ,"
-  ),
-  "1": (
-    "Канѡ́нъ ᲂу҆мили́тельный",
-    "Канѡ́нъ безплѡ́тнымъ"
-  ),
-  "2": (
-    "Канѡ́нъ покаѧ́ненъ",
-    "Канѡ́нъ ст҃о́мꙋ вели́комꙋ прⷪ҇ро́кꙋ і҆ѡа́ннꙋ предте́чи"
-  ),
-  "3": (
-    "Канѡ́нъ чⷭ҇тно́мꙋ и҆ животворѧ́щемꙋ крⷭ҇тꙋ̀",
-    "Канѡ́нъ прест҃ѣ́й бцⷣѣ,"
-  ),
-  "4": (
-    "Канѡ́нъ ст҃ы́мъ а҆пⷭ҇лѡмъ",
-    "Канѡ́нъ нїкола́ю чꙋдотво́рцꙋ"
-  ),
-  "5": (
-    "Канѡ́нъ чⷭ҇тно́мꙋ и҆ животворѧ́щемꙋ крⷭ҇тꙋ̀",
-    "Канѡ́нъ прест҃ѣ́й бцⷣѣ,"
-  ),
-  "6": (
-    "Канѡ́нъ ст҃ы̑мъ мч҃нкѡмъ, и҆ ст҃и́телємъ, и҆ прпⷣбнымъ и҆ ᲂу҆со́пшымъ",
-    "Канѡ́нъ ᲂу҆со́пшымъ"
-  )
-}
 
 class Table:
 
@@ -258,7 +143,32 @@ def addSNB(table: Table, prefix, prayer):
     else:
       table.add(f'""', jObj(prayer[prefix+"_B"]))
 
-
+def generateKanon(f: io.FileIO, pisn, kan, kanon_header, pripiv, kidx):
+  if kanon_header != None:
+    f.write(f'  ====== {kanon_header[kidx]}\n')
+  P = fixObjects(pisn)
+  # if kidx > 0:
+  #     P[0]["TEXT"] = shorten(P[0]["TEXT"])
+  table = Table()
+  table.addComment(f'Kanon {kan}')
+  table.add(f'sText(super("{kan}"))', jObj(P[0]))
+  if pripiv != None and len(pripiv):
+    table.add(f'sText(translation.at("PR"))', f'gText("{pripiv[kidx]["TEXT"]}")')
+  skipped = 0
+  for i,x in enumerate(P[1:]):
+    if "TYPE" in x:
+      skipped += 1
+      if x["TYPE"] == "NOTE":
+        table.addNote(jObj(x))
+      elif x["TYPE"] == "TODO":
+        table.addTodo(jObj(x))
+      elif x["TYPE"] == "PRIPIV":
+        table.add(f'sText(translation.at("PR"))', f'gText("{x["TEXT"]}")')
+      elif x["TYPE"] == "STICH":
+        table.add(f'sText(translation.at("ST"))', f'gText("{x["TEXT"]}")')
+    else:
+      table.add(f'sText("{i+1-skipped}:")', jObj(x))
+  table.generate(f)
 
 
 def addPrayerNote(f: io.FileIO, prefix, prayer, before = True):
@@ -351,7 +261,7 @@ def generateK(f: io.FileIO, prayer):
 #
 ###############################
 
-def generateV_HV(f: io.FileIO, prayer, skip = 0, note = False, offset = 0):
+def generateV_HV(f: io.FileIO, prayer, stichiry_HospodyVozvach, skip = 0, note = False, offset = 0):
   LETTER = "HV"
   if LETTER not in prayer:
       return
@@ -393,7 +303,30 @@ def generateV_PAR(f: io.FileIO, prayer):
     table.add(f'""', f'sText("{p["TITLE"]}")')
     table.add2Col(f'"{p["TEXT"]}"')
   table.generate(f)
+
+def generateV_PAR_LENT(f: io.FileIO, prayer):
+  LETTER = "PAR"
+  if LETTER not in prayer or "P" not in prayer or "P2" not in prayer:
+      return
   
+  f.write('  ==== #translation.at("PARAMIE")\n')
+  table = Table()
+  addNote(table, LETTER, prayer, True)
+  for i,p in enumerate(prayer[LETTER]):
+    table.addComment(f'Prokimen')
+    L = "P"+("" if i == 0 else str(i+1))
+
+    table.addDot(jObj(prayer[L]))
+    if L+"_ST" in prayer:
+        for i,x in enumerate(prayer[L+"_ST"]):
+          table.addComment(f'Stich {i}')
+          table.add(f'sText([#translation.at("ST")#super("{i+1}")])', jObj(x))
+
+    table.addComment(f'Paramia {i+1}')
+    table.add(f'""', f'sText("{p["TITLE"]}")')
+    table.add2Col(f'"{p["TEXT"]}"')
+  addNote(table, LETTER, prayer, True)
+  table.generate(f)
 
 def generateV_P(f: io.FileIO, prayer):
   generateProkimen(f, prayer)
@@ -459,6 +392,53 @@ def generateV_S(f: io.FileIO, prayer, stichiry):
 # ██       ██████    ████   ███████  ██████ ███████ ██   ██ ██ ███████ 
 # 
 ###############################
+def generateP_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
+  LETTER = "K"
+  if isNotPrayer(LETTER, prayer):
+    return
+  
+  f.write('  ==== #translation.at("KANON")\n')
+  KK = prayer[LETTER]
+  if "H" in KK:
+    if isinstance(KK["H"], int):
+      f.write(f'  #align(center, sText([(#translation.at("HLAS") {KK["H"]})]))\n')
+    else:
+      hs = ", ".join([f'{x}#super[{i+1}]' for i,x in enumerate(KK["H"])])
+      f.write(f'  #align(center, sText([(#translation.at("HLAS") {hs})]))\n')
+  if kanon_header == None and "HEAD" in KK:
+    kanon_header = KK["HEAD"]
+  if pripiv == None and "PR" in KK:
+    pripiv = KK["PR"]
+  for sidx, song in enumerate(["1","2","3","4","5","6","7","8","9"]):
+    P_LETTER = f'P{song}'
+    if P_LETTER not in KK:
+        continue
+    
+    ## Generuj piesen kanonu
+    f.write(f'  ===== #translation.at("PIESEN") {song}\n')
+    table = Table()
+    addNote(table, P_LETTER, prayer, True)
+    table.generate(f)
+    S = KK[P_LETTER]
+    if isinstance(S, list):
+      generateKanon(f, S, "1", kanon_header, pripiv, 0)
+    elif isinstance(S, dict):
+      for kidx, kan in enumerate(["1","2","3"]):
+          if kan in S:
+            generateKanon(f, S[kan], kan, kanon_header, pripiv, kidx)
+      generateKatavasia(f, S["K"], song)
+    else:
+       raise Exception("Unkown kind of Kanon " + type(S))
+    
+    if song == "6" and "K" in KK:
+      f.write(f'  ===== #translation.at("KONDAK")\n')
+      table = Table()
+      addNote(table, "K", KK, before=True)
+      table.addComment(f'Kondak')
+      table.addDot(jObj(KK["K"]))
+      addNote(table, "K", KK, before=False)
+      table.generate(f)
+    
 
 ###############################
 # 
@@ -526,28 +506,16 @@ def generateU_50(f: io.FileIO, prayer):
       table.addDot(jObj(s))
   table.generate(f)
 
-
-def generateKanon(f: io.FileIO, pisn, kan, kanon_header, pripiv, kidx):
-  if kanon_header != None:
-    f.write(f'  ====== {kanon_header[kidx]}\n')
-  P = fixObjects(pisn)
-  # if kidx > 0:
-  #     P[0]["TEXT"] = shorten(P[0]["TEXT"])
+def generateKatavasia(f: io.FileIO, prayer, song):
   table = Table()
-  table.addComment(f'Kanon {kan}')
-  table.add(f'sText(super("{kan}"))', jObj(P[0]))
-  if pripiv != None and len(pripiv):
-    table.add(f'sText(translation.at("PR"))', f'gText("{pripiv[kidx]}")')
-  skipped = 0
-  for i,x in enumerate(P[1:]):
-    if "TYPE" in x:
-      skipped += 1
-      if x["TYPE"] == "NOTE":
-        table.addNote(jObj(x))
-      elif x["TYPE"] == "TODO":
-          table.addTodo(jObj(x))
+  KAT = prayer
+  if isinstance(KAT, dict):
+    KAT = [KAT]
+  for i,k in enumerate(KAT):  
+    if i == 0:
+      table.add(f'sText([#sym.KK#super("{song}")])', jObj(k))
     else:
-      table.add(f'sText("{i+1-skipped}:")', jObj(x))
+      table.addDot(jObj(k))
   table.generate(f)
 
 def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
@@ -582,6 +550,7 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
       for kidx, kan in enumerate(["1","2","3"]):
           if kan in S:
               generateKanon(f, S[kan], kan, kanon_header, pripiv, kidx)
+      generateKatavasia(f, S["K"], song)
     else:
        raise Exception("Unkown kind of Kanon " + type(S))
     
@@ -597,17 +566,7 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
 
     # Generate katavasia     
     if P_LETTER+"_K" in KK:
-      table = Table()
-      KAT = KK[P_LETTER+"_K"]
-      if isinstance(KAT, dict):
-        KAT = [KAT]
-      for i,k in enumerate(KAT):  
-        if i == 0:
-          table.add(f'sText([#sym.KK#super("{song}")])', jObj(k))
-        else:
-          table.addDot(jObj(k))
-      addNote(table, P_LETTER+"_K", prayer, False)
-      table.generate(f)
+      generateKatavasia(f, KK[P_LETTER+"_K"], song)
 
     # Generate ypakoj in kanon
     if song == "3" and isPrayer("Y", KK):
@@ -661,7 +620,7 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
       addNote(table, "I", KK, before=False)
       table.generate(f)
 
-def generateU_CH(f: io.FileIO, prayer, day = None):
+def generateU_CH(f: io.FileIO, prayer, stichiry_Chvalite, day = None):
   LETTER = "CH"
   if isNotPrayer(LETTER, prayer):
     return
@@ -788,7 +747,7 @@ def generateL_A(f: io.FileIO, prayer):
   table.addDot(jObj(prayer["VCH"]))
   table.generate(f)
 
-def generateL_B(f: io.FileIO, prayer):
+def generateL_B(f: io.FileIO, prayer, stichiry_Blazenny):
   LETTER = "B"
   if isNotPrayer(LETTER, prayer):
      return
@@ -857,4 +816,43 @@ def generateL_PR(f: io.FileIO, prayer):
     table.addComment(f'Pricasten')
     table.addDot(jObj(p))
   addNote(table, LETTER, prayer, False)
+  table.generate(f)
+
+
+
+###############################
+#
+# ████████  
+# ██       
+# ████████
+# ██    ██ 
+# ████████ 
+#
+###############################
+
+def generate6_P(f: io.FileIO, prayer, number=""):
+  LETTER = "P"+number
+  if isNotPrayer(LETTER, prayer):
+    return
+  P = prayer[LETTER]
+  
+  f.write('  ==== #translation.at("PROKIMEN")\n')
+  table = Table()
+  table.addComment(f'Prokimen')
+  table.addDot(jObj(P))
+  for p in prayer[LETTER+"_ST"]:
+    table.add(f'sText(translation.at("ST"))', jObj(p))
+  table.generate(f)
+
+def generate6_PAR(f: io.FileIO, prayer):
+  LETTER = "PAR"
+  if LETTER not in prayer:
+      return
+  
+  f.write('  ==== #translation.at("PARAMIE")\n')
+  table = Table()
+  for i,p in enumerate(prayer[LETTER]):
+    table.addComment(f'Paramia {i+1}')
+    table.add(f'""', f'sText("{p["TITLE"]}")')
+    table.add2Col(f'"{p["TEXT"]}"')
   table.generate(f)

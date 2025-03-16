@@ -1,10 +1,10 @@
-#set text(font: "Imx Glycea", weight: "semibold", lang: "gr", fill: black)
+#set text(font: "Arimo", weight: "semibold", lang: "gr", fill: black)
 #set page(header: "", footer: "")
 #import "/style.typ": *
 
 #align(center)[#text(80pt)[#primText[☦]]]
 #align(center)[#primText[
-    #text(60pt)[ΟΚΤΩΗΧΟΣ]\ \ \ \
+    #text(60pt)[ΟΚΤΩΗΧΟΣ]\ \ \
 ]]
 #align(center)[#secText[
     #text(50pt)[Ήχος\ πλ. α'‑ πλ. β']\

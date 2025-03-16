@@ -1,4 +1,4 @@
-#import "../../../all.typ": *
+#import "../../../../all.typ": *
 
 #show: book
 

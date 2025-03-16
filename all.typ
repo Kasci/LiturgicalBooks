@@ -64,7 +64,6 @@
     ret.push(b)
     i = i + 1
   }
-  // panic(ret)
   return ret
 }
 
@@ -87,33 +86,29 @@
 
 #let book(body) = {
   
+  let bgfunc = if (true) {bg} else {none}
+
   set page(
     paper:"a5", 
     numbering: "1", 
     number-align: top+right,  
     margin: (x: 25pt, y: 35pt), 
-    background: bg,
-    footer: locate(loc => {
+    background: bgfunc,
+    footer: context {
+      let loc = here();
       let h1 = query(
-        selector(heading.where(level:1)).before(loc),
-        loc,
+        selector(heading.where(level:1)).before(loc)
       )
       let h2 = query(
-        selector(heading.where(level:2)).before(loc),
-        loc,
+        selector(heading.where(level:2)).before(loc)
       )
-      let h3 = query(
-        selector(heading.where(level:3)).before(loc),
-        loc,
-      )
-      if h1.len() != 0 and h2.len() != 0 and h3.len() != 0 {
+      if h1.len() != 0 and h2.len() != 0 {
         let body1 = h1.last().body
         let body2 = h2.last().body
-        let body3 = h3.last().body
-        text(8pt, body1 + " - " + body2 + h(1fr) + body3)
+        text(8pt, body1 + " - " + body2)
       }
-    }), 
-    header-ascent: 75%,
+    }, 
+    header-ascent: 65%,
     footer-descent: 75%
   )
 
@@ -124,9 +119,10 @@
   show heading.where(level:5): header5
   show heading.where(level:6): header6
 
-  set text(font: "Monomakh Unicode", lang: "ru", fill: black)
+  set text(font: "Monomakh Unicode", lang: "ru", fill: black, size: 13pt, hyphenate: auto)
+  // set text(font: "Arimo", lang: "gr", fill: black, weight: "bold", hyphenate: true)
 
-  set par(justify: true)
+  set par(justify: true, linebreaks: "optimized")
 
   show outline.entry.where(level: 1): it => {
     v(12pt, weak: true)
@@ -147,8 +143,8 @@
 // TEXTS INFO
 // *************
 
-#import "texts.typ": *
-
+#import "CU/texts.typ": *
+// #import "GR/texts.typ": *
 // *************
 // OKTOICH INFO
 // *************

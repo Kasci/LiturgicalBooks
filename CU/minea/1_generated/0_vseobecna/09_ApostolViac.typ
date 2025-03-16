@@ -1,4 +1,4 @@
-#import "../../../all.typ": *
+#import "../../../../all.typ": *
 #columns(2, gutter: 2pt, [
 
   == #translation.at("M_APOSTOL_VIAC")
@@ -72,5 +72,4 @@
     sText($#sym.dot$),
     jObj4("",3, "", "А҆пⷭ҇ли ст҃і́и, моли́те млⷭ҇тиваго бг҃а, да прегрѣше́нїй ѡ҆ставле́нїе пода́стъ дꙋша́мъ на́шымъ."),
   ))
-  #colbreak()
 ])

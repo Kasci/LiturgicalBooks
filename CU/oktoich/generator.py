@@ -6,7 +6,9 @@ import os
 import sys
 
 sys.path.append(os.path.abspath(".."))
+sys.path.append(os.path.abspath("../.."))
 from common import *
+from common_CU import *
 
 def generate(file: io.FileIO, json, index):
     f.write(f'  == #translation.at(\"{Dn[index]}\")\n')
@@ -26,7 +28,7 @@ def generate(file: io.FileIO, json, index):
         PRAYER = json["M"]
         
         ## Generuj Hospodi Vozvach
-        generateV_HV(f, PRAYER)
+        generateV_HV(f, PRAYER,stichiry_HospodyVozvach)
 
         ## Generuj Stichiry
         generateV_S(f, PRAYER, stichiry_Stichovni["M"])
@@ -48,7 +50,7 @@ def generate(file: io.FileIO, json, index):
         PRAYER = json["V"]  
 
         ## Generuj Hospodi Vozvach
-        generateV_HV(f, PRAYER, skip = 3, note = True)
+        generateV_HV(f, PRAYER, stichiry_HospodyVozvach, skip = 3, note = True)
 
         ## Generuj Stichiry
         generateV_S(f, PRAYER, stichiry_Stichovni[str(index) if str(index) in stichiry_Stichovni else "x"])
@@ -302,7 +304,7 @@ for h in H:
     for i,d in enumerate(D):
         with io.open(f"1_generated/Hlas{h}/{d}.typ", "w", encoding="utf-8") as f:
             f.writelines([
-                '#import "../../../all.typ": *\n',
+                '#import "../../../../all.typ": *\n',
                 "#columns(2, gutter: 2pt, [\n\n"])
         
             with io.open(f"../../LiturgicalSource/CU/oktoich/Hlas{h}/{d}.json", "r", encoding="utf-8") as inp:
@@ -312,7 +314,7 @@ for h in H:
             f.write("])\n")
     with io.open(f"1_generated/0_all/Hlas{h}.typ", "w", encoding="utf-8") as f:
         f.writelines([
-            '#import "../../../all.typ": *\n',
+            '#import "../../../../all.typ": *\n',
             "\n",
             "#show: book\n\n",
             f"= #translation.at(\"HLAS\") {h}\n\n"])

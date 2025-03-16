@@ -6,7 +6,9 @@ import os
 import sys
 
 sys.path.append(os.path.abspath(".."))
+sys.path.append(os.path.abspath("../.."))
 from common import *
+from common_CU import *
 
 def generate(f: io.FileIO, json, index, dn):
     if dn is not None:
@@ -28,7 +30,7 @@ def generate(f: io.FileIO, json, index, dn):
         addPrayerNote(f, LETTER, PRAYER, True)
 
         ## Generuj Hospodi Vozvach
-        generateV_HV(f, PRAYER)
+        generateV_HV(f, PRAYER, stichiry_HospodyVozvach)
 
         ## Generuj Stichiry
         generateV_S(f, PRAYER, stichiry_Stichovni["M"])
@@ -56,7 +58,7 @@ def generate(f: io.FileIO, json, index, dn):
         addPrayerNote(f, LETTER, PRAYER, True)
 
         ## Generuj Hospodi Vozvach
-        generateV_HV(f, PRAYER)
+        generateV_HV(f, PRAYER, stichiry_HospodyVozvach)
 
         ## Generuj Citania
 #        generateV_PAR(f, PRAYER)
@@ -75,7 +77,7 @@ def generate(f: io.FileIO, json, index, dn):
         
         addPrayerNote(f, LETTER, PRAYER, False)
 
-        f.write("  #colbreak()\n")
+        # f.write("  #colbreak()\n")
     return
     #########################################################
     # Generuj utieren
@@ -222,7 +224,7 @@ for i,d in enumerate(D):
         continue
     with io.open(f"1_generated/0_vseobecna/{d}.typ", "w", encoding="utf-8") as f:
         f.writelines([
-            '#import "../../../all.typ": *\n',
+            '#import "../../../../all.typ": *\n',
             "#columns(2, gutter: 2pt, [\n\n"])
         with io.open(f"../../LiturgicalSource/CU/minea/0_vseobecna/{d}.json", "r", encoding="utf-8") as inp:
             j = json.load(inp)
@@ -231,7 +233,7 @@ for i,d in enumerate(D):
         f.write("])\n")
 with io.open(f"1_generated/00_all/0_vseobecna.typ", "w", encoding="utf-8") as f:
     f.writelines([
-        '#import "../../../all.typ": *\n',
+        '#import "../../../../all.typ": *\n',
         "\n",
         "#show: book\n\n",
         f'= #translation.at("MINEA_OBS")\n\n'])
@@ -246,61 +248,61 @@ with io.open(f"1_generated/00_all/0_vseobecna.typ", "w", encoding="utf-8") as f:
 # 🕀🕁🕂🕃🕄
 Ds = {
     # "01_september": [
-        # ("08", "M_NAR_BOHORODICKY"),
-        # ("14", "M_VOZDV_KRIZA"),
-        # ("26", "M_JAN_BOHOSLOV"),
+    #     ("08", "M_NAR_BOHORODICKY"),
+    #     ("14", "M_VOZDV_KRIZA"),
+    #     ("26", "M_JAN_BOHOSLOV"),
     # ],
     # "02_oktober": [
-        # ("01", "M_POKROV"),
-        # ("26", "M_DEMETER"),
+    #     ("01", "M_POKROV"),
+    #     ("26", "M_DEMETER"),
     # ],
-    "03_november": [
-        ("08", "M_MICHAL"),
-        # ("12", "M_JOZAFAT"),
-        ("13", "M_ZLATOUSTY"),
-        ("21", "M_VOVEDENIE"),
-    ],
-    "04_december": [
-        ("05", "M_SAVA"),
-        ("06", "M_MIKULAS"),
-        ("08", "M_POCATIE_BOHORODICKY"),
-        # ("24", "M_NAR_PREDP"),
-        ("25", "M_NARODENIE"),
-        # ("26", "M_ZHROM_BOHORODICKA"),
-    ],
+    # "03_november": [
+    #     ("08", "M_MICHAL"),
+    #     # ("12", "M_JOZAFAT"),
+    #     ("13", "M_ZLATOUSTY"),
+    #     ("21", "M_VOVEDENIE"),
+    # ],
+    # "04_december": [
+    #     ("05", "M_SAVA"),
+    #     ("06", "M_MIKULAS"),
+    #     ("08", "M_POCATIE_BOHORODICKY"),
+    #     # ("24", "M_NAR_PREDP"),
+    #     ("25", "M_NARODENIE"),
+    #     # ("26", "M_ZHROM_BOHORODICKA"),
+    # ],
     # "05_januar": [
-        # ("01", "M_OBREZANIE"),
-        # ("06", "M_BOHOZJAVENIE"),
-        # ("17", "M_ANTON"),
-        # ("20", "M_EUTMIOS"),
-        # ("30", "M_TRAJA_SVATITELIA"),
+    #     ("01", "M_OBREZANIE"),
+    #     ("06", "M_BOHOZJAVENIE"),
+    #     ("17", "M_ANTON"),
+    #     ("20", "M_EUTMIOS"),
+    #     ("30", "M_TRAJA_SVATITELIA"),
     # ],
     # "06_februar": [
-        # ("02", "M_OBETOVANIE"),
+    #     ("02", "M_OBETOVANIE"),
     # ],
     # "07_marec": [
-        # ("25", "M_ZVESTOVANIE"),
+    #     ("25", "M_ZVESTOVANIE"),
     # ],
     # "08_april": [
-        # ("23", "M_JURAJ"),
+    #     ("23", "M_JURAJ"),
     # ],
     # "09_maj": [
-        # ("08", "M_JAN_EVANJELISTA"),
-        # ("11", "M_VASIL_HOPKO"),
+    #     ("08", "M_JAN_EVANJELISTA"),
+    #     ("11", "M_VASIL_HOPKO"),
     # ],
     # "10_jun": [
-        # ("24", "M_NAR_JAN_KRSTITEL"),
-        # ("29", "M_PETER_PAVOL")
+    #     ("24", "M_NAR_JAN_KRSTITEL"),
+    #     ("29", "M_PETER_PAVOL")
     # ],
     # "11_jul": [
-        # ("05", "M_CYRIL_METOD"),
-        # ("15", "M_VLADIMIR"),
-        # ("17", "M_PAVOL_GOJDIC"),
-        # ("20", "M_ELIAS"),
+    #     ("05", "M_CYRIL_METOD"),
+    #     ("15", "M_VLADIMIR"),
+    #     ("17", "M_PAVOL_GOJDIC"),
+    #     ("20", "M_ELIAS"),
     # ],
     # "12_august": [
-        # ("06", "M_PREMENENIE"),
-        # ("15", "M_ZOSNUTIE"),
+    #     ("06", "M_PREMENENIE"),
+    #     ("15", "M_ZOSNUTIE"),
     # ]
 }
 
@@ -313,7 +315,7 @@ with io.open(f'1_generated/00_all/1_minea.typ', "w", encoding="utf-8") as all:
                 continue
             with io.open(f"1_generated/{t}/{d}.typ", "w", encoding="utf-8") as f:
                 f.writelines([
-                    '#import "../../../all.typ": *\n',
+                    '#import "../../../../all.typ": *\n',
                     f'  == ({d}.) #translation.at(\"{dn}\")\n',
                     "#columns(2, gutter: 2pt, [\n\n"])
                 with io.open(f"../../LiturgicalSource/CU/minea/{t}/{d}.json", "r", encoding="utf-8") as inp:
@@ -325,7 +327,7 @@ with io.open(f'1_generated/00_all/1_minea.typ', "w", encoding="utf-8") as all:
         all.write(f'#include "{t}.typ"\n')
         with io.open(f"1_generated/00_all/{t}.typ", "w", encoding="utf-8") as f:
             f.writelines([
-                '#import "../../../all.typ": *\n',
+                '#import "../../../../all.typ": *\n',
                 "\n",
                 "#show: book\n\n",
                 f'= #translation.at("M_{t}")\n\n'])

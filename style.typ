@@ -1,30 +1,6 @@
 #let fSize = 25pt
 
-#let black = rgb("1f1f1f")
-#let gray = rgb("666666")
-
-#let red = rgb("8c1919")
-#let lred = rgb("a21d1d")
-
-#let blue = rgb("19538c")
-#let lblue = rgb("216db7")
-
-#let green = rgb("198c53")
-#let lgreen = rgb("21b76d")
-
-#let gold = rgb("a0740a")
-#let lgold = rgb("d0980c")
-
-#let purple = rgb("663399")
-#let lpurple = rgb("8c53c6")
-
-#let R = (red, lred)
-#let B = (blue, lblue)
-#let G = (green, lgreen)
-#let D = (gold, lgold)
-#let P = (purple, lpurple)
-
-#let (primary, secondary) = R
+#import "/all.typ": *
 
 #let primText(txt) = {
   return text(primary, txt)

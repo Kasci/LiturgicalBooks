@@ -1,4 +1,4 @@
-#set text(font: "Imx Glycea", weight: "semibold", lang: "gr", fill: black)
+#set text(font: "Arimo", weight: "semibold", lang: "gr", fill: black)
 #set page(header: "", footer: "")
 #import "/style.typ": *
 

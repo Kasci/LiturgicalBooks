@@ -1,4 +1,4 @@
-#import "../../../all.typ": *
+#import "../../../../all.typ": *
 #columns(2, gutter: 2pt, [
 
   == #translation.at("M_PAN")
@@ -97,5 +97,4 @@
     sText($#sym.dot$),
     jObj4("",2, "", "Пречтⷭ҇омꙋ твоемꙋ̀ ѡ҆́бразꙋ:"),
   ))
-  #colbreak()
 ])

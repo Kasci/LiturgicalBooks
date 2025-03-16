@@ -1,75 +1,42 @@
-#import "/style.typ": *
+#import "/all.typ": *
 
-#let bg = {
-  rect(width: 95%, height: 95%, inset: 10pt, radius: 5pt, stroke: (paint: primary, thickness: 2pt),
-    rect(width: 100%, height: 100%, outset: 0pt,  radius: 5pt, stroke: (paint: primary, thickness: 2pt))
-  )
-}
+#show: book
 
-#let project(body) = {
-  
-  set page(
-    paper:"a5", 
-    numbering: "1", 
-    number-align: top+right,  
-    margin: (x: 35pt, y: 40pt), 
-    background: bg,
-    footer: locate(loc => {
-      let h1 = query(
-        selector(heading.where(level:1)).before(loc),
-        loc,
-      )
-      let h2 = query(
-        selector(heading.where(level:2)).before(loc),
-        loc,
-      )
-      let h3 = query(
-        selector(heading.where(level:3)).before(loc),
-        loc,
-      )
-      if h1.len() != 0 and h2.len() != 0 and h3.len() != 0 {
-        let body1 = h1.last().body
-        let body2 = h2.last().body
-        let body3 = h3.last().body
-        text(8pt, body1 + " - " + body2 + h(1fr) + body3)
-      }
-    }), 
-    header-ascent: 75%,
-    footer-descent: 75%
-  )
-  
-  // HEADINGS
-  show heading.where(level: 1): it => [ 
-    #align(horizon + center)[#primText[
-      #text(hyphenate:false, 40pt)[#it]
-    ]]
-  ]
-  
-  show heading.where(level: 2): it => [ 
-    #superheader(it)
-  ]
-  show heading.where(level: 3): it => [ 
-    #header(it)
-  ]
-  show heading.where(level: 4): it => [ 
-    #subheader(it)
-  ]
-  show heading.where(level: 5): it => [ 
-    #subsubheader(it)
-  ]
-
-  // Main body.
-  set par(justify: true)
-  
-  body
-}
-
-
-#show: project
-
-// #set text(font: "Monomakh Unicode", lang: "ru", fill: black)
-// #include("/CU/oktoich/all.typ")
 // #set text(font: "Monomakh Unicode", lang: "cs", fill: black)
-// #include("/CSL/oktoich/all.typ")
-#set text(font: "Imx Glycea", weight: "semibold", lang: "gr", fill: black)
-#include("/GR/oktoich/all.typ")
+
+// #include("/CU/oktoich/all.typ")
+// #include("/covers/oktoich/H12.typ")
+// #include("/covers/oktoich/H34.typ")
+// #include("/covers/oktoich/H56.typ")
+// #include("/covers/oktoich/H78.typ")
+
+// #outline(title: "Ꙍ҆главле́нїе", depth: 3, indent: 2em)
+// #pagebreak()
+
+// #include("/CU/oktoich/1_generated/0_all/Hlas1.typ")
+// #include("/CU/oktoich/1_generated/0_all/Hlas2.typ")
+// #include("/CU/oktoich/1_generated/0_all/Hlas3.typ")
+// #include("/CU/oktoich/1_generated/0_all/Hlas4.typ")
+// #include("/CU/oktoich/1_generated/0_all/Hlas5.typ")
+// #include("/CU/oktoich/1_generated/0_all/Hlas6.typ")
+// #include("/CU/oktoich/1_generated/0_all/Hlas7.typ")
+// #include("/CU/oktoich/1_generated/0_all/Hlas8.typ")
+
+
+
+// #include("/covers/oktoich/H12_GR.typ")
+// #include("/covers/oktoich/H14_GR.typ")
+// #include("/covers/oktoich/H34_GR.typ")
+// #include("/covers/oktoich/H56_GR.typ")
+// #include("/covers/oktoich/H78_GR.typ")
+// #include("/covers/oktoich/H58_GR.typ")
+// #outline(title: "Πίνακας Περιεχομένων", depth: 3, indent: 2em)
+// #pagebreak()
+// #include("/GR/oktoich/1_generated/0_all/Hlas1.typ")
+// #include("/GR/oktoich/1_generated/0_all/Hlas2.typ")
+// #include("/GR/oktoich/1_generated/0_all/Hlas3.typ")
+// #include("/GR/oktoich/1_generated/0_all/Hlas4.typ")
+// #include("/GR/oktoich/1_generated/0_all/Hlas5.typ")
+// #include("/GR/oktoich/1_generated/0_all/Hlas6.typ")
+// #include("/GR/oktoich/1_generated/0_all/Hlas7.typ")
+// #include("/GR/oktoich/1_generated/0_all/Hlas8.typ")
