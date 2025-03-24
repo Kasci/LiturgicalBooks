@@ -4,6 +4,7 @@ import io
 import json
 import sys
 import threading
+from pathlib import Path
 
 
 def key(s1, s2):
@@ -80,17 +81,44 @@ for h in H:
         with io.open(f"{PATH}/CU/oktoich/Hlas{h}/{d}.json", "r", encoding="utf-8") as inp:
             j = json.load(inp)
             texts = texts | getTexts(f'{h}_{i}', j)
-                
-for h in H:
+
+
+def run(h,texts):
     for i,d in enumerate(D):
-        with io.open(f"out/{h}_{d}_res.txt", "w") as oup:
+        f = f"out/{h}_{i}_res.txt"
+        old = {}
+        if Path(f).is_file():
+            with io.open(f, "r") as ii:
+                lines = [l.split(" ") for l in ii.readlines()]
+                for l in lines:
+                    if l[0] == "!!!":
+                        old[key(l[1],l[2])] = int(l[5])
+                    else:
+                        old[key(l[0],l[2])] = int(l[4]) 
+        with io.open(f, "w") as oup:
             N = len(texts)
             for i in range(N):
                 k1 = list(texts.keys())[i]
-                # print(k1)
+                if not k1.startswith(str(h)):
+                    continue
+                print(f'h{h}, {k1}')
                 for j in range(i+1, N):
                     k2 = list(texts.keys())[j]
-                    l = lev_out(texts[k1], texts[k2], cache)
+                    if key(k1,k2) in old:
+                        l = old[key(k1,k2)]
+                        cache[key(texts[k1], texts[k2])] = l
+                    else:
+                        l = lev_out(texts[k1], texts[k2], cache)
                     if l > 0 and l < 50:
                         print(k1, k2, l)
+                    # print(f'{h} {"!!! " if l > 0 and l < 50 else ""}{k1} > {k2} = {l}')
                     oup.write(f'{"!!! " if l > 0 and l < 50 else ""}{k1} > {k2} = {l}\n')
+
+threads = []  
+for h in H:
+    thread = threading.Thread(target=run, args=(h, texts))
+    thread.start()
+    threads.append(thread)
+
+for thread in threads:
+    thread.join()
