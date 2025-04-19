@@ -1,4 +1,4 @@
-#import "/CU_json/all.typ": *
+#import "../all.typ": *
 
 #show: book
 

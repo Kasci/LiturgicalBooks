@@ -119,7 +119,8 @@
   show heading.where(level:5): header5
   show heading.where(level:6): header6
 
-  set text(font: "Monomakh Unicode", lang: "ru", fill: black, size: 13pt, hyphenate: auto)
+  set text(font: "Monomakh Unicode", lang: "cs", fill: black, size: 13pt, hyphenate: auto)
+  // set text(font: "Monomakh Unicode", lang: "ru", fill: black, size: 13pt, hyphenate: auto)
   // set text(font: "Arimo", lang: "gr", fill: black, weight: "bold", hyphenate: true)
 
   set par(justify: true, linebreaks: "optimized")
@@ -135,6 +136,9 @@
   // outline(title: "Ꙍ҆главле́нїе", depth: 3, indent: 2em)
 
   show "и҆́мⷬ҇къ": sText
+  show "(ímja rek)": sText
+  show "(povie meno)": sText
+
   
   body
 }
@@ -143,7 +147,8 @@
 // TEXTS INFO
 // *************
 
-#import "CU/texts.typ": *
+#import "CSL/texts.typ": *
+// #import "CU/texts.typ": *
 // #import "GR/texts.typ": *
 // *************
 // OKTOICH INFO
@@ -155,6 +160,26 @@
     column-gutter: 0pt, 
     stroke: none,
     align: (x, y) => (right, left).at(x),
+    ..tbl
+  )
+]
+
+#let generateDouble(tbl) = [
+  #table(
+    columns: (auto, 20pt, auto),
+    column-gutter: 0pt, 
+    stroke: none,
+    align: (x, y) => (left, center, left).at(x),
+    ..tbl
+  )
+]
+
+#let generateSingle(tbl) = [
+  #table(
+    columns: (20pt, auto),
+    column-gutter: 0pt, 
+    stroke: none,
+    align: (x, y) => (center, left).at(x),
     ..tbl
   )
 ]

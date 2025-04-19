@@ -75,6 +75,8 @@ dictionary = {
     #"": "",
     #"": "",
 
+    "Ъ": "",
+
     "ы́": "ý",
     "и́": "í",
     "е́": "é",    
@@ -120,7 +122,13 @@ dictionary = {
     "Ц": "C",
     "Ш": "Š",
     "Ч": "Č",
+    "Щ": "Šč",
     "Ѕ": "Z",
+    "Ф": "F",
+    "Ꙋ": "U",
+    "Ѧ": "Ja",
+    "Й": "J",
+    "Ѣ": "I",
     "а": "a",
     "б": "b",
     "в": "v",
@@ -161,6 +169,7 @@ dictionary = {
     "ѡ": "o",
     "ѣ": "i",
     "ѧ": "ja",
+    "я": "ja",
     "ѯ": "ž",
     "Ѱ": "Ps",
     "ѱ": "ps",
@@ -192,6 +201,7 @@ dictionary = {
     "ⷣ": "-d*",
     "ⷪ": "-o*",
     "ⷭ": "-s*",
+    "ⷢ": "-h*",
     "꙾": "*",
 }
 
@@ -218,13 +228,19 @@ words = {
     
     "č-s**t": "čest",
     "Č-s**t": "Čest",
+    "Čt-s**": "Čest",
     "č-s**": "čís",
     "Č-s**": "Čís",
+
+    "Íi*s": "Íisus",
+    "Ii*s": "Iisus",
+    "Ïi*s": "Iisus",
 
     "chr-s**": "Chris",
     "Chr-s**": "Chris",
     "kr-s**": "kres",
     "Kr-s**": "Kres",
+    "kr*š": "kreš",
     "árcháhh*": "Archánhe",
     "archáhh*": "Archánhe",
     "Archáhh*": "Archánhe",
@@ -234,12 +250,15 @@ words = {
     "Áhh*": "Anhe",
     "st*": "svjat",
     "St*": "Svjat",
+    "hp-s**": "Hospo",
+    "Hp-s**": "Hospo",
     "hd-s**": "Hospod",
     "Hd-s**": "Hospod",
     "str-s**": "strás",
     "Str-s**": "Strás",
     "cr*": "car",
     "Cr*": "Car",
+    "Cr-s**": "Cars",
     "bh*": "Boh",
     "Bh*": "Boh",
     "nb-s**": "nebés",
@@ -250,28 +269,36 @@ words = {
     "Pr-s**": "Pres",
     "tr-o**": "Trój",
     "Tr-o**": "Trój",
-    "mt*": "mate",
-    "Mt*": "Mate",
+    "pr-d*": "pred",
+    "Pr-d*": "Pred",
+    "pr-o**": "pro",
+    "Pr-o**": "Pro",
+    "mt*": "mat",
+    "Mt*": "Mat",
     "mr*": "Mar",
     "Mr*": "Mar",
     "bl*": "blá",
     "Bl*": "Blá",
     "dch*": "Dúch",
     "Dch*": "Dúch",
+    "dš*": "duš",
+    "Dš*": "Duš",
+    "ds*": "Dus",
+    "Ds*": "Dus",
     "ml-s**": "mílos",
     "Ml-s**": "Mílos",
     "sšč*": "svjašč",
     "Sšč*": "Svjašč",
     "bc-d*": "Bohoródic",
     "Bc-d*": "Bohoródic",
+    "vl-d*c": "Vladíci",
+    "Vl-d*c": "Vladíci",
     "vl-d*č": "Vladíči",
     "Vl-d*č": "Vladíči",
     "vl-d*k": "Vladýk",
     "Vl-d*k": "Vladýk",
     "prp-d*": "prepodó",
     "Prp-d*": "Prepodó",
-    "dš*": "duš",
-    "Dš*": "Duš",
     
     "Ap-s**": "Aposto",
     "Áp-s**": "Aposto",
@@ -288,6 +315,9 @@ words = {
     "uč*n": "učeni",
     "úč*n": "učeni",
     "Uč*n": "Učeni",
+    "Úč*n": "Učeni",
+    "úč*t": "účit",
+    "Úč*t": "Účit",
     "ml*t": "molit",
     "Ml*t": "Molit",
     "mč*n": "mučeni",
@@ -298,6 +328,11 @@ words = {
     "Sl*": "Sól",
 
     " dv*": " Ďiv",
+    " dv*-s**": " Ďivs",
+    " dv-s**": " Ďivs",
+    "Dv*": " Ďiv",
+    "Dv*-s**": " Ďivs",
+    "Dv-s**": " Ďivs",
     "dv*": "ďiv",
     " bž*": " Bož",
     "bž*": "bož",
@@ -307,26 +342,33 @@ words = {
     " sp*": " Spa",
     "sp*": "spa",
     "Sp*": "Spa",
+    "čl*": "čelo",
+    "Čl*": "čelo",
     
+    "jén-h**": "jevanhé",
+    "m-d*r": "múdr",
     "ml-d*": "mladé",
     "íi*": "Izrái",
     "nb*": "nebe",
-    "čl*": "čelo",
     "cr*": "cer",
     "rž-s**": "roždes",
     "cr-s**": "cárs",
-    "Dv*": "Daví",
     "pr-o**": "pro",
     "bž-s**t": "Božest",
     "Nb*": "Neb",
     "Voskr*": "Voskré",
+    "Íer-s**l": "Jerúsaľ",
+    "Rž-s**": "Roždes",
 
     # small to CAPS
     " sijón": " Sijón",
     " jemmanúil": " Jemmanúil",
+    " jémmanúil": " Jémmanúil",
     " adám": " Adám",
+    " ádám": " Ádám",
     " slóv": " Slóv",
     " hedeón": " Hedéon",
+    " marí": " Marí",
 
     # fix
     "Ďivd": "David",
@@ -380,3 +422,12 @@ for h in range(1,9):
             s = re.sub('{\s*"(TITLE|TEXT|PODOBEN|HLAS)', '{"\g<1>', s)
             s = re.sub('"\s*}(,?)', '"}\g<1>', s)
             o.writelines(s)
+
+def translateFile(inf, ouf):
+    with io.open(inf, "r", encoding="utf-8") as f:  
+        IN = f.readlines()
+        with io.open(ouf, "w", encoding="utf-8") as o:
+            o.writelines([transform(translate(i)) for i in IN])
+
+translateFile("../CU/common_CU.py", "../CSL/common_CSL.py")
+translateFile("../CU/texts.typ", "../CSL/texts.typ")

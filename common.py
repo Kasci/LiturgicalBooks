@@ -550,7 +550,8 @@ def generateU_K(f: io.FileIO, prayer, kanon_header = None, pripiv = None):
       for kidx, kan in enumerate(["1","2","3"]):
           if kan in S:
               generateKanon(f, S[kan], kan, kanon_header, pripiv, kidx)
-      generateKatavasia(f, S["K"], song)
+      if "K" in S:
+        generateKatavasia(f, S["K"], song)
     else:
        raise Exception("Unkown kind of Kanon " + type(S))
     
