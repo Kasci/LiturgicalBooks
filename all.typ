@@ -165,6 +165,7 @@
 ]
 
 #let generateDouble(tbl) = [
+  #set par(first-line-indent: 10pt)
   #table(
     columns: (auto, 20pt, auto),
     column-gutter: 0pt, 

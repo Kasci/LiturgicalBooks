@@ -17,26 +17,19 @@ class DTable:
         else:
             self.lines.append(f'"{line}",')
 
-    def add(self, left, mid, right):
-        self.addLine(mid)
-        self.addLine(left)
-        self.addLine("")
-        self.addLine(right)
+    def add(self, left, mid, right, note = None):
+        self.addLine(f'#table.cell(pad(left:10pt, par(hanging-indent: -10pt,"{left + ("" if note is None else (" "+note))}")))', )
+        self.addLine(f'#table.cell(align(center+top,sText("{mid}")))',)
+        self.addLine(f'#table.cell(pad(left:10pt, par(hanging-indent: -10pt,"{right + ("" if note is None else (" "+note))}")))')
 
     def addK(self, left, right, note = None):
-        self.add(
-            f'#table.cell("{left + ("" if note is None else (" "+note))}")', 
-            f'#table.cell(sText("K"))',
-            f'#table.cell(cText("{right + ("" if note is None else (" "+note))}"))')
-
+        self.add(left, "K", right)
+            
     def addL(self, left, right, note = None):
-        self.add(
-            left + ("" if note is None else (" "+note)), 
-            "", 
-            right + ("" if note is None else (" "+note)))
+        self.add(left, "", right)
 
     def addSingle(self, line):
-        self.lines.append(f'table.cell([{line}], colspan: 2),')
+        self.lines.append(f'table.cell([{line}], colspan: 3),')
 
     def addNote(self, note):
         self.addSingle(f'#sText[$#sym.ast.circle$] #sText("{note}")')
@@ -51,7 +44,7 @@ class DTable:
             [f'{"="*level} {header}\n\n' for (header, level) in self.headers]
         )
         file.writelines(
-            [f'#generateSingle((\n']+
+            [f'#generateDouble((\n']+
             [f'{" "*4}{line}\n' for line in self.lines]+
             [f'))\n']
         )
@@ -91,7 +84,7 @@ def generateUvod(out):
     table.addHeader("Nedeľa Paschy",1)
     table.addHeader("Utiereň",2)
     table.add(
-        "TODO", "",
+        "Vzkriesenie tvoje Kriste, Spasiteľu, * ospevujú anjeli na nebesiach. * Aj nám tu na zemi dožič * s čistým srdcom ťa chváliť a velebiť.", "",
         "Voskresénije Tvojé, Christé Spáse, * Anheli pojút na nebesích, * i nas na zemlí spodóbi čístym sérdcem * Tebé píti i sláviti.")
     table.addK(
         "Sláva svätej, jednopodstatnej, životodarnej a nedeliteľnej Trojici v každom čase, teraz i vždycky, i na veky vekov.", 

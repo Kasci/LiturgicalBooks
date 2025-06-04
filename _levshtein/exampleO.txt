@@ -1,0 +1,157 @@
+Most common: 'Aho' with count 3 in ['Aho', 'Aho', 'Aho']
+Replacing 3 'Aho' with 'Aho'
+Replacing 3 'Aho' with 'Aho'
+Replacing 3 'Aho' with 'Aho'
+A, Aho
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj ja, som, Peter
+------------------
+Most common: 'hoj' with count 3 in ['hoj', 'hoj', 'hoj']
+Replacing 3 'hoj' with 'hoj'
+Replacing 3 'hoj' with 'hoj'
+Replacing 3 'hoj' with 'hoj'
+Ah, hoj
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj ja, som, Peter
+------------------
+Most common: 'oj,' with count 2 in ['oj,', 'oj,', 'oj ']
+Replacing 3 'oj,' with 'oj,'
+Replacing 3 'oj,' with 'oj,'
+Replacing 2 'oj' with 'oj,'
+Aho, oj,
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja, som, Peter
+------------------
+Most common: 'j, ' with count 3 in ['j, ', 'j, ', 'j, ']
+Replacing 3 'j, ' with 'j, '
+Replacing 3 'j, ' with 'j, '
+Replacing 3 'j, ' with 'j, '
+Ahoj, j, 
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja, som, Peter
+------------------
+Most common: ', j' with count 3 in [', j', ', j', ', j']
+Replacing 3 ', j' with ', j'
+Replacing 3 ', j' with ', j'
+Replacing 3 ', j' with ', j'
+Ahoj,, , j
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja, som, Peter
+------------------
+Most common: ' ja' with count 3 in [' ja', ' ja', ' ja']
+Replacing 3 ' ja' with ' ja'
+Replacing 3 ' ja' with ' ja'
+Replacing 3 ' ja' with ' ja'
+Ahoj, ,  ja
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja, som, Peter
+------------------
+Most common: 'ja ' with count 2 in ['ja ', 'ja ', 'ja,']
+Replacing 3 'ja ' with 'ja '
+Replacing 3 'ja ' with 'ja '
+Replacing 4 'ja, ' with 'ja '
+Ahoj, j, ja 
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som, Peter
+------------------
+Most common: 'a s' with count 3 in ['a s', 'a s', 'a s']
+Replacing 3 'a s' with 'a s'
+Replacing 3 'a s' with 'a s'
+Replacing 3 'a s' with 'a s'
+Ahoj, ja, a s
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som, Peter
+------------------
+Most common: ' so' with count 3 in [' so', ' so', ' so']
+Replacing 3 ' so' with ' so'
+Replacing 3 ' so' with ' so'
+Replacing 3 ' so' with ' so'
+Ahoj, ja ,  so
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som, Peter
+------------------
+Most common: 'som' with count 3 in ['som', 'som', 'som']
+Replacing 3 'som' with 'som'
+Replacing 3 'som' with 'som'
+Replacing 3 'som' with 'som'
+Ahoj, ja s, som
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som, Peter
+------------------
+Most common: 'om ' with count 2 in ['om ', 'om ', 'om,']
+Replacing 3 'om ' with 'om '
+Replacing 3 'om ' with 'om '
+Replacing 4 'om, ' with 'om '
+Ahoj, ja so, om 
+>>> Ahoj, ja som Sveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som Peter
+------------------
+Most common: 'm P' with count 2 in ['m S', 'm P', 'm P']
+Replacing 2 'm ' with 'm P'
+Replacing 3 'm P' with 'm P'
+Replacing 3 'm P' with 'm P'
+Ahoj, ja som, m P
+>>> Ahoj, ja som PSveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som Peter
+------------------
+Most common: ' Pe' with count 2 in [' PS', ' Pe', ' Pe']
+Replacing 2 ' P' with ' Pe'
+Replacing 3 ' Pe' with ' Pe'
+Replacing 3 ' Pe' with ' Pe'
+Ahoj, ja som ,  Pe
+>>> Ahoj, ja som PeSveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som Peter
+------------------
+Most common: 'Pet' with count 2 in ['PeS', 'Pet', 'Pet']
+Replacing 2 'Pe' with 'Pet'
+Replacing 3 'Pet' with 'Pet'
+Replacing 3 'Pet' with 'Pet'
+Ahoj, ja som P, Pet
+>>> Ahoj, ja som PetSveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som Peter
+------------------
+Most common: 'ete' with count 2 in ['etS', 'ete', 'ete']
+Replacing 2 'et' with 'ete'
+Replacing 3 'ete' with 'ete'
+Replacing 3 'ete' with 'ete'
+Ahoj, ja som Pe, ete
+>>> Ahoj, ja som PeteSveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som Peter
+------------------
+Most common: 'ter' with count 2 in ['teS', 'ter', 'ter']
+Replacing 2 'te' with 'ter'
+Ahoj, ja som Pet, ter
+>>> Ahoj, ja som PeterSveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som Peter
+------------------
+Most common: 'er' with count 2 in ['erS', 'er', 'er']
+Replacing 2 'er' with 'er'
+Ahoj, ja som Pete, er
+>>> Ahoj, ja som PeterSveter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som Peter
+------------------
+Most common: 'r' with count 2 in ['rSv', 'r', 'r']
+Replacing 3 'rSv' with 'r'
+Ahoj, ja som Peter, r
+>>> Ahoj, ja som Petereter
+>>> Ahoj, ja som Peter
+>>> Ahoj, ja som Peter
+------------------
+Most common: '' with count 2 in ['ete', '', '']
