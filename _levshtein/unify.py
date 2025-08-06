@@ -3,6 +3,32 @@
 from collections import Counter
 import io
 
+
+def key(s1, s2):
+    return f'{s1}|{s2}'
+
+def lev_iter(s1, s2):    
+    table = [[0 if n1>0 and n2>0 else n1 if n2==0 else n2 if n1 == 0 else 0 for n1 in range(len(s2)+1)] for n2 in range(len(s1)+1)]
+    for n1 in range(1, len(s1)+1):
+        for n2 in range(1, len(s2)+1):
+            if s1[n1-1]==s2[n2-1]:
+                table[n1][n2] = table[n1-1][n2-1]
+            else:
+                table[n1][n2] = 1 + min(
+                    table[n1-1][n2],
+                    table[n1][n2-1],
+                    table[n1-1][n2-1]
+                )
+    return table[len(s1)][len(s2)]
+
+def lev_out(s1, s2, cache):
+    k = key(s1, s2)
+    if k in cache:
+        return cache[k]
+    r = lev_iter(s1, s2)
+    cache[k] = r
+    return r
+
 def unify_strings2(strings):
     strs = [s.strip().split(" ") for s in strings if s.strip()]
     output = []
@@ -11,7 +37,7 @@ def unify_strings2(strings):
         tmps = [s[idx] if idx < len(s) else "" for s in strs]
         c = Counter(tmps)
         mc = c.most_common(1)[0]
-        print(f"Most common: '{mc[0]}' with count {mc[1]} in {tmps}")
+        # print(f"Most common: '{mc[0]}' with count {mc[1]} in {tmps}")
         output.append(mc[0])
         idx += 1
         if idx >= len(strs[0]):
@@ -121,3 +147,65 @@ def getFiles():
             f.write("--------\n")
             for s in g:
                 f.write(getText(s) + "\n")
+
+def unify1():
+    unif = []
+    for i in range(199):
+        with io.open(f"tmp/group_{i}.txt", "r", encoding="utf-8") as f:
+            lines = f.readlines()
+            if len(lines) < 5:
+                continue
+            strings = [l.strip() for l in lines[len(lines)//2+1:] if l.strip()]
+            unified = unify_strings2(strings)
+            unif.append({
+                "unified": unified,
+                "strings": strings,#[s for s in strings if lev_out(s, unified, {}) < 10],
+            })
+            # print(sum([lev_out(s, unified, {}) for s in strings])/len(strings))
+
+    print(unif[0])
+    for i in range(1,9):
+        for d in DAYS:
+            path = files.format(i, d)
+            with io.open(path, "r", encoding="utf-8") as f:
+                j_file = "".join(f.readlines())
+                for u in unif:
+                    for s in u["strings"]:
+                        if s in j_file:
+                            # print(f"Replacing '{s}' with '{u['unified']}' in {files.format(i, d)}")
+                            j_file = j_file.replace(s, u["unified"])
+                with io.open(path, "w", encoding="utf-8") as wf:
+                    wf.write(j_file)
+
+import random
+def unify2():
+    unif = []
+    for i in range(199, 482):
+        with io.open(f"tmp/group_{i}.txt", "r", encoding="utf-8") as f:
+            lines = f.readlines()
+            if len(lines) > 5:
+                continue
+            strings = [l.strip() for l in lines[len(lines)//2+1:] if l.strip()]
+            if lev_out(strings[0], strings[1], {}) > 30:
+                continue
+            unified = strings[random.randint(0, len(strings)-1)]
+            unif.append({
+                "unified": unified,
+                "strings": strings,
+            })
+    # print(unif[0])
+    for i in range(1,9):
+        for d in DAYS:
+            path = files.format(i, d)
+            with io.open(path, "r", encoding="utf-8") as f:
+                j_file = "".join(f.readlines())
+                for u in unif:
+                    for s in u["strings"]:
+                        if s in j_file:
+                            # print(f"Replacing '{s}' with '{u['unified']}' in {files.format(i, d)}")
+                            j_file = j_file.replace(s, u["unified"])
+                with io.open(path, "w", encoding="utf-8") as wf:
+                    wf.write(j_file)
+
+# unify1()
+unify2()

@@ -19,7 +19,6 @@ def lev_iter(s1, s2):
                 )
     return table[len(s1)][len(s2)]
 
-# sys.setrecursionlimit(2000)
 def lev(s1, s2, cache):
     k = key(s1,s2)
     if k in cache:
@@ -47,9 +46,6 @@ def lev_out(s1, s2, cache):
     k = key(s1, s2)
     if k in cache:
         return cache[k]
-    
-    # cc = {}
-    # r = lev(s1, s2, cc)
     r = lev_iter(s1, s2)
     cache[k] = r
     return r
@@ -68,13 +64,16 @@ def unify_strings2(strings):
             break   
     return " ".join(output)
 
-with io.open("example.txt", "r", encoding="utf-8") as f:
-    lines = [l.strip() for l in f.readlines() if l.strip()]
-    uni = unify_strings2(lines)
-    cache = {}
-    sum = 0
-    for l in lines:
-        lev = lev_out(l, uni, cache)
-        sum += lev
-    print(f"Sum of Levenshtein distances: {sum}")
-    print(f"Average Levenshtein distance: {sum / len(lines)}")
+def test():
+    with io.open("example.txt", "r", encoding="utf-8") as f:
+        lines = [l.strip() for l in f.readlines() if l.strip()]
+        uni = unify_strings2(lines)
+        print(f"Unified string: {uni}")
+        cache = {}
+        sum = 0
+        for l in lines:
+            lev = lev_out(l, uni, cache)
+            sum += lev
+        print(f"Sum of Levenshtein distances: {sum}")
+        print(f"Average Levenshtein distance: {sum / len(lines)}")
+
