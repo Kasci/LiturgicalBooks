@@ -250,7 +250,7 @@
     // I:
     col2(gText(translation.at("IN"))),
     "",
-    jObj4("",none, "", "Vozmí ot mené prehrišénij brémja, mati Ďivo, jaže jédína vzémľuščaho míra vsehó vés hrích, róždšaja neskázanno áhnca Božija í Slóva."),
+    jObj4("",none, "", "Vozmí ot mené prehrišénij brémja, Mati Ďivo, jaže jédína vzémľuščaho míra vsehó vés hrích, róždšaja neskázanno áhnca Božija í Slóva."),
   ))
   ===== #translation.at("PIESEN") 9
   #generateTable((
@@ -372,7 +372,7 @@
     sText("4:"),
     jObj4("",none, "", "Úsópšym támošnij pokój čelovikoľúbče podážď, jáže soďíjaša na zemlí, dólhi otpuščája jáko bláh."),
     sText("5:"),
-    jObj4("",none, "", "Bláhoslovénnuju v ženách ťá jáko víďi, soslóvije žénskoje postradá, í tvojemú Sýnu, Ďivo mati, privedésja."),
+    jObj4("",none, "", "Bláhoslovénnuju v ženách ťá jáko víďi, soslóvije žénskoje postradá, í tvojemú Sýnu, Ďivo Mati, privedésja."),
   ))
   ====== Kanón úsópšym
   #generateTable((
@@ -548,7 +548,7 @@
     sText(super("2")),
     jObj4("Írmós",none, "", "Jáko vratá vvoďáščaja k Božéstvennomu vchódu, jáko dobrovoschódnuju ľístvicu Božiju, jáko spasájuščymsja nezablúdnuju nastávnicu, óbrádovannuju vospojím Ďivu Maríju."),
     sText("1:"),
-    jObj4("",none, "", "Iz Ótcá préžde vík roždénnaho Sýna í Boha, í v posľídňaja ľíta voploščénnaho ot Ďivy matre, svjaščénnicy pójte, ľúdije prevoznosíte vo vsjá víki."),
+    jObj4("",none, "", "Iz Ótcá préžde vík roždénnaho Sýna í Boha, í v posľídňaja ľíta voploščénnaho ot Ďivy Matre, svjaščénnicy pójte, ľúdije prevoznosíte vo vsjá víki."),
     sText("2:"),
     jObj4("",none, "", "Íže svjatých mučenik pódvihi prijémyj, í ťích rádi úpokojájaj v víri tvojéj úsópšyja, tebé Spase pojém, í prevoznósim vo vsjá víki."),
     sText("3:"),
@@ -556,7 +556,7 @@
     sText("4:"),
     jObj4("",none, "", "S líki svjatých, íchže prestávil jésí, účiní, í ávraámu, v ňídrich s lázarem pričtí tebé Spase pojúščich, í prevoznosjáščich vo vsjá víki."),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Úkrášena dobrótoju čistotý, Ďivo mati, dobrotvórnaho bláhoľípija žilíšče bývši: ťímže ťá pojém, í prevoznósim čestuju vo vsjá víki."),
+    jObj4("Bohoródičen",none, "", "Úkrášena dobrótoju čistotý, Ďivo Mati, dobrotvórnaho bláhoľípija žilíšče bývši: ťímže ťá pojém, í prevoznósim čestuju vo vsjá víki."),
   ))
   ===== #translation.at("PIESEN") 9
   ====== Kanón svjatým mučenikom, í svjatítelem, í prepodóbnym í úsópšym
@@ -581,7 +581,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Tjá páče úmá í slovesé matr Božiju, v ľíto bezľítnaho neizrečénno róždšuju, vírniji jédinomúdrenno veličájem."),
+    jObj4("Írmós",none, "", "Tjá páče úmá í slovesé Matr Božiju, v ľíto bezľítnaho neizrečénno róždšuju, vírniji jédinomúdrenno veličájem."),
     sText("1:"),
     jObj4("",none, "", "Stradánij svjaščénnych mučenicy, vozdajánija prijémše, darováti ťá nýňi móľat, víroju prestávlenym Spase, óslablénije."),
     sText("2:"),
@@ -652,7 +652,7 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("Bohoródičen",none, "", "Zakónom hrichóvnym nás poraboščénnych svobodíla jésí Vladíčice, v ložesnách zakonodávca í cerjá Christá začénši jédína Ďivo mati, ímže ópravdájemsja túne, í bláhodátiju: jéhóže nýňi molí, dúšy víduščich ťá Bohomatr, napisáti v knízi živótňij, jáko da chodátajstvom tvojím spásšesja vseneporóčnaja, Sýna tvojehó ľubéznoje ízbavlénije polúčim, tomú poklaňájuščesja, podajúščemu mírovi véliju mílosť."),
+    jObj4("Bohoródičen",none, "", "Zakónom hrichóvnym nás poraboščénnych svobodíla jésí Vladíčice, v ložesnách zakonodávca í cerjá Christá začénši jédína Ďivo Mati, ímže ópravdájemsja túne, í bláhodátiju: jéhóže nýňi molí, dúšy víduščich ťá BohoMatr, napisáti v knízi živótňij, jáko da chodátajstvom tvojím spásšesja vseneporóčnaja, Sýna tvojehó ľubéznoje ízbavlénije polúčim, tomú poklaňájuščesja, podajúščemu mírovi véliju mílosť."),
   ))
   #colbreak()
 
@@ -669,7 +669,7 @@
 
     // B Stich na 4
     sText("4:"),
-    gText("Blážéni mílostivïi, jáko tíji pomílovani búdut."),
+    gText("Blážéni mílostiviji, jáko tíji pomílovani búdut."),
     "",
     jObj4("",none, "", "Razbójnik na kresťí Boha ťá býti vírovav, Christé, íspovída ťá čísťi ot sérdca: pomjaní mja Hospodi, vopijá, vo cárstviji tvojém."),
 

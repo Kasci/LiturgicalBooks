@@ -57,11 +57,11 @@ stichiry_Stichovni_Utrena = {
 }
 
 stichiry_Blazenny = [
-  "Blážéni níščïi Dúchom, jáko ťích jésť cárstvo nebésnoje.",
-  "Blážéni pláčuščïi, jáko tíji úťíšatsja.",
+  "Blážéni níščiji Dúchom, jáko ťích jésť cárstvo nebésnoje.",
+  "Blážéni pláčuščiji, jáko tíji úťíšatsja.",
   "Blážéni krótcyi, jáko tíji nasľíďat zémľu.",
-  "Blážéni álčuščïi í žážduščïi právdy, jáko tíji nasýťatsja.",
-  "Blážéni mílostivïi, jáko tíji pomílovani búdut.",
+  "Blážéni álčuščiji í žážduščiji právdy, jáko tíji nasýťatsja.",
+  "Blážéni mílostiviji, jáko tíji pomílovani búdut.",
   "Blážéni čístiji sérdcem, jáko tíji Boha úzrjat.",
   "Blážéni mirotvórcy, jáko tíji Sýnove Božiji narekútsja.",
   "Blážéni ízhnáni právdy rádi, jáko ťích jésť cárstvo nebésnoje.",
@@ -92,7 +92,7 @@ kanony = {
   ],
   "2": [
     "Kanón pokajánen",
-    "Kanón svjatómu velíkomu proróku íoánnu predtéči"
+    "Kanón svjatómu velíkomu proróku Joánnu predtéči"
   ],
   "3": [
     "Kanón čestnómu í životvorjáščemu krestú",
@@ -100,7 +100,7 @@ kanony = {
   ],
   "4": [
     "Kanón svjatým Apostolom",
-    "Kanón nijkoláju čudotvórcu"
+    "Kanón Nijkoláju čudotvórcu"
   ],
   "5": [
     "Kanón čestnómu í životvorjáščemu krestú",

@@ -1,7 +1,6 @@
 #import "../../../../all.typ": *
 
 #show: book
-
 = #translation.at("HLAS") 1
 
 #include "../Hlas1/0_Nedela.typ"

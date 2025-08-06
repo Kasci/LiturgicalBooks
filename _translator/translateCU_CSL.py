@@ -164,6 +164,8 @@ dictionary = {
     "ѕ": "z",
     "і": "i",
     "ї": "ij",
+    "ï": "ij",
+    "ï": "ij",
     "ѝ": "í",
     "Ѡ": "O",
     "ѡ": "o",
@@ -273,7 +275,7 @@ words = {
     "Pr-d*": "Pred",
     "pr-o**": "pro",
     "Pr-o**": "Pro",
-    "mt*": "mat",
+    "mt*": "Mat",
     "Mt*": "Mat",
     "mr*": "Mar",
     "Mr*": "Mar",
@@ -369,12 +371,14 @@ words = {
     " slóv": " Slóv",
     " hedeón": " Hedéon",
     " marí": " Marí",
+    "nijkol": "Nijkol",
 
     # fix
     "Ďivd": "David",
     "íósif": "Jósif",
     "íón": "Jón",
     "Íón": "Jón",
+    "íoán": "Joán",
 }
 
 def translate(a):

@@ -41,7 +41,7 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("Bohoródičen",none, "", "Car nebésnyj za čelovikoľúbije na zemlí jávísja, í s čelovíki poživé: ot Ďivy bo čestyja plóť prijémyj, í íz nejá prošédyj s vosprijátijem: jédín jesť Sýn, suhúb jéstestvóm, no ne ńpostásiju. ťímže soveršénna tohó Boha, í soveršénna čelovíka vojístinnu propovídajušče, íspovídujem Christá Boha nášeho: jéhóže molí mati beznevístnaja, pomílovatisja dušám nášym."),
+    jObj4("Bohoródičen",none, "", "Car nebésnyj za čelovikoľúbije na zemlí jávísja, í s čelovíki poživé: ot Ďivy bo čestyja plóť prijémyj, í íz nejá prošédyj s vosprijátijem: jédín jesť Sýn, suhúb jéstestvóm, no ne ńpostásiju. ťímže soveršénna tohó Boha, í soveršénna čelovíka vojístinnu propovídajušče, íspovídujem Christá Boha nášeho: jéhóže molí Mati beznevístnaja, pomílovatisja dušám nášym."),
   ))
   ==== #translation.at("STICHOVNI")
   #generateTable((
@@ -65,7 +65,7 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("Bohoródičen",none, "", "Čestaja Ďivo, Slóva vratá, Boha nášeho mati, molí Spastísja nám."),
+    jObj4("Bohoródičen",none, "", "Čestaja Ďivo, Slóva vratá, Boha nášeho Mati, molí Spastísja nám."),
   ))
   #colbreak()
 
@@ -114,7 +114,7 @@
     jObj4("",none, "", "Izbávi mjá molitvami tvojími prečestaja, vrážijich stríl: í ot pomyšlénij nachoďáščich, poščadí sérdce mojé."),
 
     sText("2:"),
-    jObj4("",none, "", "Iscilí preneporóčnaja duší mojejá rány, mati Božija, útiší tvojími molitvami serdéčnoje smuščénije."),
+    jObj4("",none, "", "Iscilí preneporóčnaja duší mojejá rány, Mati Božija, útiší tvojími molitvami serdéčnoje smuščénije."),
 
     // S:
     col2(gText(translation.at("S"))),
@@ -124,7 +124,7 @@
     // I:
     col2(gText(translation.at("IN"))),
     "",
-    jObj4("",none, "", "Rádujsja, Spasénije pritekájuščich k tebí, Ďivo mati Christóva: rádujsja, Apostolov í mučenikov pochvaló."),
+    jObj4("",none, "", "Rádujsja, Spasénije pritekájuščich k tebí, Ďivo Mati Christóva: rádujsja, Apostolov í mučenikov pochvaló."),
   ))
   ===== #translation.at("PIESEN") 4
   #generateTable((
@@ -221,7 +221,7 @@
     // S:
     col2(gText(translation.at("S"))),
     "",
-    jObj4("",none, "", "Vížď skórb mojú Ďivo, juže navedé mnóžestvo zól mojích: í préžde otšéstvija pokój mí podážď, matrnimi tvojími molitvami úmoľájušči Sýna tvojehó."),
+    jObj4("",none, "", "Vížď skórb mojú Ďivo, juže navedé mnóžestvo zól mojích: í préžde otšéstvija pokój mí podážď, Matrnimi tvojími molitvami úmoľájušči Sýna tvojehó."),
 
     // I:
     col2(gText(translation.at("IN"))),
@@ -571,7 +571,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Tjá neiskusobráčnuju matr Boha výšňaho, ťá páče úmá róždšuju Slóvom vojístinnu Boha, výššuju prečestych síl, nemólčnymi slavoslovléniji veličájem."),
+    jObj4("Írmós",none, "", "Tjá neiskusobráčnuju Matr Boha výšňaho, ťá páče úmá róždšuju Slóvom vojístinnu Boha, výššuju prečestych síl, nemólčnymi slavoslovléniji veličájem."),
     sText("1:"),
     jObj4("",none, "", "Stojáchu mučenicy pred neprávednymi sudíšči, vsjú neprávdu bláhodátiju Christóvoju ósudívše, í jáže ot ních deržímyja ízémľušče, í vincý právdy prijémľušče."),
     sText("2:"),
@@ -596,7 +596,7 @@
     sText("3:"),
     jObj4("",none, "", "Vés jésí Spase sládosť: vés jésí želánije, í ľubóv vojístinnu nenasýtnaja: vés jésí dobróta neskazánnaja: prestávľšyjasja úbo k tebí, tvojejá krasotý naslaždátisja bláhovolí, í Božéstvennyja dobróty tvojejá spodóbi."),
     sText("4:"),
-    jObj4("",none, "", "Spasí mja mati Božija, róždšaja Christá Spasa mojehó, Boha í čelovíka, suhúba jéstestvóm, ne ńpostásiju: jédinoródna úbo ot Ótcá, íz tebé že pervoródna vsejá tvári: jéhóže v suhúbom jésteství veličájem."),
+    jObj4("",none, "", "Spasí mja Mati Božija, róždšaja Christá Spasa mojehó, Boha í čelovíka, suhúba jéstestvóm, ne ńpostásiju: jédinoródna úbo ot Ótcá, íz tebé že pervoródna vsejá tvári: jéhóže v suhúbom jésteství veličájem."),
   ))
   ==== #translation.at("CHVALITE")
   #generateTable((
@@ -659,7 +659,7 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("",none, "", "Jáko začénši beznačáľnoje Slóvo Boha Ótcá, matrnim tvojím derznovénijem priľížno molí, Bohorodíteľnice, účiníti rabý tvojá, íďíže likovánije právednych neprestánnoje veseľáščichsja í chváľaščich ťá, íďíže svítlosť víčnujuščaja, í sládkij hlás prázdnujuščaho."),
+    jObj4("",none, "", "Jáko začénši beznačáľnoje Slóvo Boha Ótcá, Matrnim tvojím derznovénijem priľížno molí, Bohorodíteľnice, účiníti rabý tvojá, íďíže likovánije právednych neprestánnoje veseľáščichsja í chváľaščich ťá, íďíže svítlosť víčnujuščaja, í sládkij hlás prázdnujuščaho."),
   ))
   #colbreak()
 
@@ -676,7 +676,7 @@
 
     // B Stich na 4
     sText("4:"),
-    gText("Blážéni mílostivïi, jáko tíji pomílovani búdut."),
+    gText("Blážéni mílostiviji, jáko tíji pomílovani búdut."),
     "",
     jObj4("",none, "", "Pomjaní nás Christé Spase míra, jákože razbójnika pomjanúl jésí na drévi: í spodóbi vsích, jédíne ščédre, nebésnomu cárstviju tvojemú."),
 

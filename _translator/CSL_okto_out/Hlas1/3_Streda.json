@@ -4,11 +4,11 @@
       {"PODOBEN": "Prechváľniji mučenicy", "TEXT": "Na kresťí prihvoždájem, Christé Bože, jako čelovík, čelovíčeskoje jéstestvó óbožíl jésí, í načalozlóbnaho úmertvíl jésí zmíja. nás svobodíl jésí kľátvy jaže ot dréva, jako bláhoutróben býv kľátva: prišél jésí, jako da vsím podási bláhoslovénije, í véliju mílosť."},
       {"TEXT": "Vsjákija prevýšši čésti sýj Vladýko, óbezčéstitisja bláhovolíl jésí, ponósnuju preterpív ščédre na drévi smérť, jéjáže rádi bezsmértije, óbját ród čelovíčeskij, í žízň pérvuju vospriját, tebí úméršu plótiju vsesíľne."},
       {"TEXT": "Kreste vsečestnýj, vírnych vsích óčistílišče, vsjá ósvjatí tebí poklaňájuščyjasja í Christá slávjaščyja, rúci prečísťii prostéršaho na tebí neizrečénnaho rádi bláhoutróbija í koncý zemlí vsjá vo jédíno sobrávšaho."},
-      {"PODOBEN": "Nebésnych činóv", "TEXT": "Ú krestá predstojášči Sýna í Boha tvojehó, í dolhoterpínije tohó smotrjájušči, hlahólaše pláčušči mati čestaja: úvý mňí, čádo sladčájšeje! čtó sijá stráždeši neprávedno Slóve Božij; da Spaséši čelovíčestvo."},
+      {"PODOBEN": "Nebésnych činóv", "TEXT": "Ú krestá predstojášči Sýna í Boha tvojehó, í dolhoterpínije tohó smotrjájušči, hlahólaše pláčušči Mati čestaja: úvý mňí, čádo sladčájšeje! čtó sijá stráždeši neprávedno Slóve Božij; da Spaséši čelovíčestvo."},
       {"TEXT": "Ú krestá predstojášči, nevísto neiskusomúžnaja, í jaže ot boľíznej jazvy prijémľušči, vopijáše: da ne bezčádnu mjá jávíši, čádo mojé, róždšuju ťá Slóve Božij: ne óstávi mjá jédínu jédinoródnyj, Ótcú soprisnosúščnyj."},
       {"TEXT": "Vnehdá ťa raždách, boľízni nikákože ímích: í káko nýňi boľízni podémľu, tebí Slóve neprávedno raspinájemu; vopijáše hórko Ďiva slezjášči. úvý mňí! ne terpľú víďiti na krest, vozdvížena ťá čelovikoľúbče."}
     ],
-    "HV_B": {"TITLE": "KrestoBohoródičen", "TEXT": "Tvojehó Sýna í Vladýku, drévle jako víďila jésí, na kresťí rúci rasprostérša, í kopijém rébra ískopovájema, mati čestaja rydájušči vzyvála jésí: úvý mňí! káko stráždeši, strásti čelovíkov otjémľaj čelovikoľúbče;"},
+    "HV_B": {"TITLE": "KrestoBohoródičen", "TEXT": "Tvojehó Sýna í Vladýku, drévle jako víďila jésí, na kresťí rúci rasprostérša, í kopijém rébra ískopovájema, Mati čestaja rydájušči vzyvála jésí: úvý mňí! káko stráždeši, strásti čelovíkov otjémľaj čelovikoľúbče;"},
     "S": [
       {"TEXT": "Krest vodruzísja na lóbňim, í procvité nám bezsmértije, ot ístóčnika prisnotekúščaho rebrá Spasova."},
       {"TEXT": "Nerazrušéna sťiná nám jesť čestnýj krest Spasov: na nehó bo naďíjuščesja, Spasájemsja vsí."},
@@ -21,7 +21,7 @@
       {"TITLE": "Írmós", "TEXT": "Tvojá pobidíteľnaja desníca Bohoľípno v kríposti proslávisja: tá bo bezsmértne, jako vsemohúščaja, protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."},
       {"TEXT": "Iže vóinstvom nebésnym nedovídomyj, ótrokovíce vseneporóčnaja, plóť priját ot plóti tvojejá, í óbnoví ístľívšuju prestuplénijem pérvym."},
       {"TEXT": "Písňmi úblažím vírniji, Božija Slóva páče slovesé rodíteľnicu: sijá bo preneporóčnaja, zemným jávísja úkrašénije, í vsím sohrišájuščym predstáteľnica býsť."},
-      {"TEXT": "Javílasja jésí prostránňijši nebes: tvorcá bo vsjáčeskich vmíščši mati prisnoďivo. ťímže vopijú ti: ťisnotý vsjákija mjá smertoródnyja ízbávi Bohorádovannaja."},
+      {"TEXT": "Javílasja jésí prostránňijši nebes: tvorcá bo vsjáčeskich vmíščši Mati prisnoďivo. ťímže vopijú ti: ťisnotý vsjákija mjá smertoródnyja ízbávi Bohorádovannaja."},
       {"TEXT": "Dážď nám pómošč čestaja, óbureváemym moľbóju skorbéj, nizloží vrahóv nášich lukávaja voznošénija, í podážď vsím Spasénije, bláhočéstno ťá slávjaščym."}
     ],
     "3": [
@@ -33,7 +33,7 @@
     ],
     "4": [
       {"TITLE": "Írmós", "TEXT": "Hóru ťá bláhodátiju Božijeju prijosinénnuju, prozorlívyma ávvakúm úsmotrív óčíma, íz tebé ízýti Izráilevu provozhlašáše svjatómu, vo Spasénije náše í óbnovlénije."},
-      {"TEXT": "Božéstvennuju ťá palátu Slóva znájem, v ňúže vselísja plótiju, óbnoví nás ístľívšich strasťmí. ťímže čístaja, Božiju matr ťá čtím, í ot tebé róždšahosja slávim."},
+      {"TEXT": "Božéstvennuju ťá palátu Slóva znájem, v ňúže vselísja plótiju, óbnoví nás ístľívšich strasťmí. ťímže čístaja, Božiju Matr ťá čtím, í ot tebé róždšahosja slávim."},
       {"TEXT": "Vselísja vo útróbu tvojú Ďivo, Slóvo voplóščšejesja, í vséľšujusja préžde kľátvu v jéstestvó čelovíčeskoje ízhná, í svojím Božéstvennym sovokuplénijem óboží Bohoľípno, sehó rádi ťá vospivájem."},
       {"TEXT": "Mértvosť podját Ádám vseneporóčnaja, otnéľiže vkusí plodá tľínnaho: nýňi že tvojím roždestvóm óživé, í v selénijich rájskich vodvorájetsja. sehó rádi ťá po dólhu vospivájem."},
       {"TEXT": "Ústávila jésí tók smértnyj, róždši bezsmértija ístóčnik Christá Boha, čístaja. tohó ubo molí Bohoblahodátnaja, duší mojejá úmorívšyja íscilíti strásti, í Spastí mja."}
@@ -64,9 +64,9 @@
     ],
     "8": [
       {"TITLE": "Írmós", "TEXT": "V peščí ótrocy Izráilevy, jákože v horníľi dobrótoju bláhočéstija čisťíe zláta bleščáchusja, hlahóľušče: bláhoslovíte vsjá ďilá Hospodňa Hospoda, pójte í prevoznosíte vo vsjá víki."},
-      {"TEXT": "Zakónniji obrazi, í prédňaja hadánija Ďivo, Hospodňu ťá čestuju matr predskazáša javi: mý že sbytijé veščéj nýňi víďašče, pojém ťá sohlásno, í slavoslóvim vo vsjá víki."},
+      {"TEXT": "Zakónniji obrazi, í prédňaja hadánija Ďivo, Hospodňu ťá čestuju Matr predskazáša javi: mý že sbytijé veščéj nýňi víďašče, pojém ťá sohlásno, í slavoslóvim vo vsjá víki."},
       {"TEXT": "Úkrasísja Božéstvennymi dobrótami, bez razsuždénija v dobrótach, Slóvo Božije róždši vseneporóčnaja, krasotámi Božéstvennymi vsích serdcá újasňájuščeje, víroju pisnoslóvjaščich jéhó vo vsjá víki."},
-      {"TEXT": "Svjaščénnymi hlásy ízdaléča skazáša prorócy, matr ťá býti vseneporóčnaja Vladícii Bohu, jémúže vsí zovém: bláhoslovíte vsjá ďilá Hospoda, pójte í prevoznosíte jéhó vo víki."},
+      {"TEXT": "Svjaščénnymi hlásy ízdaléča skazáša prorócy, Matr ťá býti vseneporóčnaja Vladícii Bohu, jémúže vsí zovém: bláhoslovíte vsjá ďilá Hospoda, pójte í prevoznosíte jéhó vo víki."},
       {"TEXT": "Jako krasná, jako predobrá Ďivo, krásnaho v dobrótach, páče viný rodilá jésí Christá, jémúže vsí zovém: bláhoslovíte vsjá ďilá Hospoda, pójte í prevoznosíte jéhó vo víki."}
     ],
     "9": [
@@ -209,7 +209,7 @@
           {"TITLE": "Írmós", "TEXT": "V peščí ótrocy Izráilevy, jákože v horníľi dobrótoju bláhočéstija čisťíe zláta bleščáchusja, hlahóľušče: bláhoslovíte vsjá ďilá Hospodňa Hospoda, pójte í prevoznosíte vo vsjá víki."},
           {"TEXT": "Prosvití mi óči serdéčnyja, jáže dvér svíta čestaja, óblak strastéj, í ťmú hlubókuju razhoňájušči, da pojú: vsjá ďilá Hospodňa Hospoda pójte, í prevoznosíte jéhó vo víki."},
           {"TEXT": "Prosvití mi óči serdéčnyja, jáže dvér svíta čestaja, óblak strastéj, í ťmú hlubókuju razhoňájušči, da pojú: vsjá ďilá Hospodňa Hospoda pójte, í prevoznosíte jéhó vo víki."},
-          {"TEXT": "Ó vsích Vladíčice čestaja, ne prestáj moľáščisja tebé prizyvájuščich jáko matr Božiju, Ďivo vseneporóčnaja, í vopijúščich: bláhoslovíte vsjá ďilá Hospodňa Hospoda, pójte í prevoznosíte jéhó vo víki."},
+          {"TEXT": "Ó vsích Vladíčice čestaja, ne prestáj moľáščisja tebé prizyvájuščich jáko Matr Božiju, Ďivo vseneporóčnaja, í vopijúščich: bláhoslovíte vsjá ďilá Hospodňa Hospoda, pójte í prevoznosíte jéhó vo víki."},
           {"TEXT": "Spasénija vinú Christá neizrečénno róždšaja, molí ó vsích vopijúščich priľížno Ďivo vsepítaja: bláhoslovíte vsjá ďilá Hospodňa Hospoda, pójte í prevoznosíte jéhó vo víki."}
         ]
       },
@@ -235,7 +235,7 @@
       {"TEXT": "Tebé na drévi prihvóždšahosja plótiju, í živót nám podávšaho, jáko Spasa í Vladýku, pojím neprestánno."},
       {"TEXT": "Tvojím krestóm Christé, jédíno stádo býsť Anhelov í čelovíkov, í vo jédínom sobóri nebeo í zemľá veselítsja, vopijá: Hospodi sláva tebí."},
       {"TEXT": "Vás vsechváľniji mučenicy, ni skórb, ni ťisnotá, ni hlád, ni honénije, nižé rány, ni járosť zviréj, ni méč, nižé óhň preťáščij razlučíti ot Boha vozmohóša: ľubóviju že páče k nemú, jáko v čuždích podvíhšesja ťilesích, jéstestvó zabýste, smérť prezrívše. ťímže í po dostojániju boľíznej vášich mzdú prijáste, í nebésnaho cárstvija nasľídnicy býste, neprestánno molítesja ó dušách nášich."},
-      {"TITLE": "KrestoBohoródičen", "TEXT": "Ú krestá tvojehó predstojášči Slóve Božij, áhnica í neporóčnaja mati tvojá, rydájušči vopijáše: úvý mňí Sýne, káko úmiráješi na kresťí; úvý mňí, svíte mój sládkij, hďí tvojejá dobróty nýňi zájde zrák; krasňíjšij páče vsích čelovík."}
+      {"TITLE": "KrestoBohoródičen", "TEXT": "Ú krestá tvojehó predstojášči Slóve Božij, áhnica í neporóčnaja Mati tvojá, rydájušči vopijáše: úvý mňí Sýne, káko úmiráješi na kresťí; úvý mňí, svíte mój sládkij, hďí tvojejá dobróty nýňi zájde zrák; krasňíjšij páče vsích čelovík."}
     ]
   },
   "L": {

@@ -87,7 +87,7 @@
     gText("Presvjatája Bohoródice Spasí nás."),
 
     sText("1:"),
-    jObj4("",none, "", "Voobrážsja íz tebé po nám, sólnce nevečérneje, ťá slovésnoje nebeo, í svitľíjšeje, javstvenňi pokazá. ťímže mjá ízbávi strástnaho smráda: jako da vospojú ľubóviju ťá jédínu matr Ďivu."),
+    jObj4("",none, "", "Voobrážsja íz tebé po nám, sólnce nevečérneje, ťá slovésnoje nebeo, í svitľíjšeje, javstvenňi pokazá. ťímže mjá ízbávi strástnaho smráda: jako da vospojú ľubóviju ťá jédínu Matr Ďivu."),
 
     sText("2:"),
     jObj4("",none, "", "Kleščú mýslennyj uhľ nosívšuju, í čelovíčeskoje jéstestvó óčístivšuju, moľú ťa Vladíčice: mnóhich mojích prehrišénij skvérnu ómýj, í ot óskverňájuščich strastéj ízbávi mjá molitvami tvojími."),
@@ -401,7 +401,7 @@
     sText("2:"),
     jObj4("",none, "", "Nýňi predstojášče želánijem krájnim Christú Spastísja vsím nám, Anheli molítesja."),
     sText("3:"),
-    jObj4("Bohoródičen",none, "", "Načálo podľítno prijém ízvístno íz tebé, íže ľít soďíteľ mati prisnoďivo."),
+    jObj4("Bohoródičen",none, "", "Načálo podľítno prijém ízvístno íz tebé, íže ľít soďíteľ Mati prisnoďivo."),
   ))
   ===== #translation.at("PIESEN") 4
   ====== Kanón úmilíteľnyj
@@ -640,7 +640,7 @@
 
     // B Stich na 4
     sText("4:"),
-    gText("Blážéni mílostivïi, jáko tíji pomílovani búdut."),
+    gText("Blážéni mílostiviji, jáko tíji pomílovani búdut."),
     "",
     jObj4("",none, "", "Hlás tí prinósim razbójnič, í mólimsja: pomjaní nás Hospodi vo cárstviji tvojém."),
 

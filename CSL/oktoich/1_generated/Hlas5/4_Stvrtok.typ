@@ -100,7 +100,7 @@
     // I:
     col2(gText(translation.at("IN"))),
     "",
-    jObj4("",none, "", "Vskúju, o dušé! vo únýniji mnózi vsé žitijé íždíla jésí; potščísja ubo próčeje, í vozopíj Hospodni matri: óčísti í Spasí mja, Bohorodíteľnice."),
+    jObj4("",none, "", "Vskúju, o dušé! vo únýniji mnózi vsé žitijé íždíla jésí; potščísja ubo próčeje, í vozopíj Hospodni Matri: óčísti í Spasí mja, Bohorodíteľnice."),
   ))
   ===== #translation.at("PIESEN") 3
   #generateTable((
@@ -232,7 +232,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Iz Ótcá préžde vík roždénnaho Sýna í Boha, í v posľídňaja ľíta voploščénnaho ot Ďivy matre, svjaščénnicy pójte, ľúdije prevoznosíte vo vsjá víki."),
+    jObj4("Írmós",none, "", "Iz Ótcá préžde vík roždénnaho Sýna í Boha, í v posľídňaja ľíta voploščénnaho ot Ďivy Matre, svjaščénnicy pójte, ľúdije prevoznosíte vo vsjá víki."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -256,7 +256,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Tjá páče úmá í slovesé matr Božiju, v ľíto bezľítnaho neizrečénno róždšuju, vírniji jédinomúdrenno veličájem."),
+    jObj4("Írmós",none, "", "Tjá páče úmá í slovesé Matr Božiju, v ľíto bezľítnaho neizrečénno róždšuju, vírniji jédinomúdrenno veličájem."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -357,7 +357,7 @@
     sText("5:"),
     jObj4("Bohoródičen",none, "", "Jédína bláhoslovénnaja, Bohorádovannaja, bláhoslovéňmi čelovíčeskij ród óbrádovavši, Christá molí s Božéstvennymi, prečestaja, Apostoly, pomílovatisja nám."),
   ))
-  ====== Kanón nijkoláju čudotvórcu
+  ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
     
     // Kanon 2
@@ -390,7 +390,7 @@
     sText("5:"),
     jObj4("Bohoródičen",none, "", "Jáže dóžď prijémšaja nebésnyj, so Apostoly tohó molí: ústáviti potóki mojích strastéj, pučínu ízsušájušči hrichá mojehó, í Spastí mja, čísto tebé slávjaščaho."),
   ))
-  ====== Kanón nijkoláju čudotvórcu
+  ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
     
     // Kanon 2
@@ -423,7 +423,7 @@
     sText("5:"),
     jObj4("Bohoródičen",none, "", "Božéstvennaho svjaščénija kovčéže, ósvjatí mojú dúšu, pomyšlénije prosvití, vsehdá moľášči Christá so Apostoly, da Spasét mjá."),
   ))
-  ====== Kanón nijkoláju čudotvórcu
+  ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
     
     // Kanon 2
@@ -456,7 +456,7 @@
     sText("5:"),
     jObj4("Bohoródičen",none, "", "Ne ósudí mené, ni otvérži mené ot licá tvojehó, mnohomílostive: mólit ťá čísto róždšaja, í Apostoľskij sobór."),
   ))
-  ====== Kanón nijkoláju čudotvórcu
+  ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
     
     // Kanon 2
@@ -487,9 +487,9 @@
     sText("4:"),
     jObj4("",none, "", "Sudijé právedňijšij, v déň sudá strášnaho, trépetnaho mjá ízbávi ósuždénija, bláhoslávnych Apostol tvojích moľbámi."),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Otčájannaho mjá ot mnóžestva bezzakónij, Spasénija Hospodi spodóbi, účeník í matre tvojejá moľbámi."),
+    jObj4("Bohoródičen",none, "", "Otčájannaho mjá ot mnóžestva bezzakónij, Spasénija Hospodi spodóbi, účeník í Matre tvojejá moľbámi."),
   ))
-  ====== Kanón nijkoláju čudotvórcu
+  ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
     
     // Kanon 2
@@ -502,7 +502,7 @@
     sText("3:"),
     jObj4("",none, "", "Vračá ťá ízjáščna Vladýka pokazá Christós: ťímže nedúhi íscilí, bláhočéstno k tebí pristupájuščich, nijkólaje."),
     sText("4:"),
-    jObj4("Bohoródičen",none, "", "Rodíteľnica bezmúžnaja, Bohomati bylá jésí, čestaja. sehó rádi víroju moľú ťá: duší mojejá únýnija razžení."),
+    jObj4("Bohoródičen",none, "", "Rodíteľnica bezmúžnaja, BohoMati bylá jésí, čestaja. sehó rádi víroju moľú ťá: duší mojejá únýnija razžení."),
   ))
   ===== #translation.at("PIESEN") 7
   ====== Kanón svjatým Apostolom
@@ -520,7 +520,7 @@
     sText("4:"),
     jObj4("Bohoródičen",none, "", "Jáže padénija Ádámova íspravlénije, vozdvíhni pádšaho mjá v própasť zlóbnuju, molitvami tvojími Ďivo, í Božéstvennych Apostol."),
   ))
-  ====== Kanón nijkoláju čudotvórcu
+  ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
     
     // Kanon 2
@@ -551,7 +551,7 @@
     sText("4:"),
     jObj4("Bohoródičen",none, "", "Sijóne ízbránnyj, cárskij hráde, výšňaho mjá hráda hraždanína sotvorí, s Božéstvennymi učenikí moľášči prečestaja Ďivo, bezľítnaho Sýna tvojehó."),
   ))
-  ====== Kanón nijkoláju čudotvórcu
+  ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
     
     // Kanon 2
@@ -584,7 +584,7 @@
     sText("4:"),
     jObj4("Bohoródičen",none, "", "Duší mojejá naprávi šéstvija Slóve Božij, k stezjám zápovidej tvojích nezablúdnych, ímíja moľáščujusja róždšuju ťá prečestuju Ďivu, í premúdryja Apostoly tvojá mnohomílostive."),
   ))
-  ====== Kanón nijkoláju čudotvórcu
+  ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
     
     // Kanon 2
@@ -597,7 +597,7 @@
     sText("3:"),
     jObj4("",none, "", "Tjá velíkoje sólnce, na vysoťí ležáščeje prísno cerkve Christóvy, prepodóbne pástyrju, vírno mólim ťá: svitonósnymi blistáňmi svíta, hlubókuju ťmú otžení hrichá dúš nášich."),
     sText("4:"),
-    jObj4("",none, "", "Priblížisja, jákože píšetsja, déň strášnyj prišéstvija Christóva. podvíhnisja dušé, otríni ľínosť, í úsérdno Christú vozopíj: Spasí mja Hospodi, nijkoláa tvojehó molénijem."),
+    jObj4("",none, "", "Priblížisja, jákože píšetsja, déň strášnyj prišéstvija Christóva. podvíhnisja dušé, otríni ľínosť, í úsérdno Christú vozopíj: Spasí mja Hospodi, Nijkoláa tvojehó molénijem."),
     sText("5:"),
     jObj4("Bohoródičen",none, "", "Svítel ťá svíščnik prorók províďaše prečestaja, sviščú razúmnuju, nosjáščuju Christá, ímže prosvitíchomsja, íže vo ťmí ležáščiji í strastéch, ťá úblážájem Bohoródice prisnoďivo."),
   ))
@@ -643,13 +643,13 @@
 
     // B Stich na 5
     sText("5:"),
-    gText("Blážéni álčuščïi í žážduščïi právdy, jáko tíji nasýťatsja."),
+    gText("Blážéni álčuščiji í žážduščiji právdy, jáko tíji nasýťatsja."),
     "",
     jObj4("",none, "", "Razbójnik na kresťí Boha ťá býti vírovav, Christé, íspovída ťá čísťi ot sérdca: pomjaní mja Hospodi, vopijá, vo cárstviji tvojém."),
 
     // B Stich na 4
     sText("4:"),
-    gText("Blážéni mílostivïi, jáko tíji pomílovani búdut."),
+    gText("Blážéni mílostiviji, jáko tíji pomílovani búdut."),
     "",
     jObj4("",none, "", "Jákože óblacy svítliji zémľu proidóste Božéstvenniji učenicý, vódu živótnuju ókropľájušče, í serdcá ístájavšaja prehrišéniji bohátno napoájete."),
 
