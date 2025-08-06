@@ -1,6 +1,7 @@
 .vscode/*
 **/*.pdf
 **/*.sh
+**/.env
 X_misal
 X_misal/*
 CU-SK
