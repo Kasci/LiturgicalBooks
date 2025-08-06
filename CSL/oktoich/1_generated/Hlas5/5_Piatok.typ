@@ -54,18 +54,18 @@
     
     // S Stich na 2
     sText("2:"),
-    jObj4("",none, "", "Krest tvój Christé, ášče í drévo vídimo jesť suščestvóm, no Božéstvennoju óďíjano jesť síloju: í čúvstvenno mírovi jávľájasja, mýslenno náše čudotvorít spasénije. jémúže poklaňájuščesja, slávim ťá Spase, pomíluj nás."),
+    jObj4("",none, "", "Krest tvój Christé, ášče í drévo vídimo jesť suščestvóm, no Božéstvennoju óďíjano jesť síloju, í čúvstvenňi mírovi jávľájem, umno náše čudotvorít Spasénije, jémúže kláňajuščesja slávim ťá Spase, pomíluj nás."),
     "",
     gText(jObj4("",none, "", "Pomíluj nás, Hospodi, pomíluj nás, jáko po mnóhu íspólnichomsja úničižénija: naipáče napólnisja dušá náša ponošénija hobzújuščich, í úničižénija hórdych.")),
     
     // S Stich na 3
     sText("3:"),
-    jObj4("Mučeničen",none, "", "Ó zemných vsích neradívše, í na múki múžeski derznúvše, blážénnych nadéžd ne pohrišíste: no nebésnomu cárstviju nasľídnicy býste, prechváľniji mučenicy, ímúšče derznovénije k čelovikoľubívomu Bohu, míru úmirénije ísprosíte, í dušám nášym véliju mílosť."),
+    jObj4("Mučeničen",none, "", "Ó zemných vsích neradívše, í na múki múžeski derznúvše, blážénnych nadéžd ne pohrišíste: no nebésnomu cárstviju nasľídnicy býste, prechváľniji mučenicy. ímúšče derznovénije k čelovikoľubívomu Bohu, míru úmirénije ísprosíte, í dušám nášym véliju mílosť."),
     
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("KrestoBohoródičen",none, "", "Zrjášči drévle áhnca í Sýna svojehó Ďiva mati í vseblážénnaja ótrokovíca, na kresťí vozvýšena, vopijáše slezjášči: úvý mňí Sýne mój, káko úmiráješi, Boh jéstestvóm sýj bezsmérten;"),
+    jObj4("KrestoBohoródičen",none, "", "Zrjášči drévle áhnca í Sýna svojehó, Ďiva mati í vseblážénnaja ótrokovíca, na krest vozdvížena, vopijáše slezjášči: úvý mňí, Sýne mój, káko úmiráješi. Boh jéstestvóm sýj bezsmérten;"),
   ))
   #colbreak()
 
@@ -82,7 +82,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Koňá í vsádnika v móre čermnóje, sokrušájaj bráni, mýšceju vysókoju Christós ístrjasé, Izráiľa že Spasé, pobídnuju písň pojúšča."),
+    jObj4("Írmós",none, "", "Koňá í vsádnika v móre čermnóje, sokrušájaj bráni mýšceju vysókoju, Christós ístrjasé: Izráiľa že Spasé, pobídnuju písň pojúšča."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -90,12 +90,12 @@
     jObj4("",none, "", "Druhíj ráj znájem ťá mýslennyj bez sravnénija, Ďivo Bohonevísto, ódoľivájuščij iže vo jédémi rajú, Bohomati: tý bo netľínije čelovíkom prozjablá jésí."),
 
     sText("2:"),
-    jObj4("",none, "", "Drévo žízni óbjáti v raí ádám vozbranén býsť, ot dréva pričastívsja razúmnaho: bezsmértije že podadé, plóť ot tebé Ďivo prijémyj."),
+    jObj4("",none, "", "Drévo žízni óbjáti v raí Ádám vozbranén býsť, ot dréva pričastívsja razúmnaho: bezsmértije že podadé, plóť ot tebé Ďivo prijémyj."),
 
     // S:
     col2(gText(translation.at("S"))),
     "",
-    jObj4("",none, "", "Pérvie ot zemlí sózdan býsť ádám, prečestyma rukáma vsederžíteľa: ot tebé že Bohoródice Ďivo rodísja bez símene nóvyj ádám, ziždíteľ čelovíčestva."),
+    jObj4("",none, "", "Pérvie ot zemlí sózdan býsť Ádám, prečestyma rukáma vsederžíteľa: ot tebé že Bohoródice Ďivo rodísja bez símene nóvyj Ádám, ziždíteľ čelovíčestva."),
 
     // I:
     col2(gText(translation.at("IN"))),
@@ -138,7 +138,7 @@
     jObj4("",none, "", "Jena povinúvšisja zmíju, rodí pečáľ ženám: tý že Ďivo vírovavši Božijim viščánijem, vsemú míru rádosť procvilá jésí."),
 
     sText("2:"),
-    jObj4("",none, "", "Pérvie ot rébr ádámovych roždéna jena: nýňi že Boh ot matre Bohonevísty, jéhóže voploščénna Ďiva bez Ótcá rodilá jesť."),
+    jObj4("",none, "", "Pérvie ot rébr Ádámovych roždéna jena: nýňi že Boh ot matre Bohonevísty, jéhóže voploščénna Ďiva bez Ótcá rodilá jesť."),
 
     // S:
     col2(gText(translation.at("S"))),
@@ -178,7 +178,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Neístovstvujuščejesja búreju dušetľínnoju, Vladýko Christé, strastéj móre úkrotí, í ot tlí vozvedí mja jako bláhoutróben."),
+    jObj4("Írmós",none, "", "Neístovstvujuščejesja búreju dušetľínnoju, Vladýko Christé, strastéj móre úkrotí, í ot tlí vozvedí mja, jako bláhoutróben."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -208,7 +208,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Prevoznosímyj ótcév Hospodi, plámeň úhasí, otroki órosí sohlásno pojúščyja: Bože bláhoslovén jésí."),
+    jObj4("Írmós",none, "", "Prevoznosímyj ótcév Hospod, plámeň úhasí, otroki órosí sohlásno pojúščyja: Bože, bláhoslovén jésí."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -256,7 +256,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Isáije likúj, Ďiva ímí vo črévi, í rodí Sýna Jémmanúila: Boha že í čelovíka, vostók imja jémú: jéhóže veličájušče, Ďivu úblážájem."),
+    jObj4("Írmós",none, "", "Isáije likúj, Ďiva ímí vo črévi, í rodí Sýna Jémmanúila, Boha že í čelovíka, vostók imja jémú: jéhóže veličájušče, Ďivu úblážájem."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -291,7 +291,7 @@
     
     // Sidalen 1, 1
     sText("1:"),
-    jObj4("",none, "", "Místo lóbnoje ráj býsť: tóčiju bo vodruzísja drévo krestnoje, ábije ízrastí hrózd živótnyj, tebé Spase v náše vesélije, sláva tebí."),
+    jObj4("",none, "", "Místo lóbnoje ráj býsť, tóčiju bo vodruzísja drévo krestnoje, ábije ízrastí hrózd živótnyj, v náše vesélije, tebé Spase: sláva tebí."),
     
     // Sidalen 1, 2
     sText("2:"),
@@ -315,7 +315,7 @@
     
     // Sidalen 2, 3
     sText("3:"),
-    jObj4("",none, "", "Sijáet dnés pámjať strástotérpec ímať bo í ot nebes zarjú: lík Anheľskij toržestvújet, í čelovíčeskij ród sprázdnujet. ťímže móľatsja Hospodevi, pomílovatisja dušám nášym."),
+    jObj4("",none, "", "Sijáet dnés pámjať pámjať, ímať bo í ot nebes zarjú: lík Anheľskij toržestvújet, í čelovíčeskij ród sprázdnujet. ťímže móľatsja Hospodevi, pomílovatisja dušám nášym."),
     
     // S:I:
     col2(gText(translation.at("SI"))),
@@ -331,7 +331,7 @@
     
     // Sidalen 3, 2
     sText("2:"),
-    jObj4("",none, "", "Ot dréva hóresť ádám óbját, k tľíniju popólzsja závistiju zmijínoju: tebí že prihvoždénu bývšu Izráise, životá nasladísja, í dréva rádi krestnaho páki vseľájem byvájet na nebesích. í úprazdnísja zmíj, í tľá požérta býsť: í vsí slávu tí prinósim."),
+    jObj4("",none, "", "Ot dréva hóresť Ádám óbját, k tľíniju popólzsja závistiju zmijínoju: tebí že prihvoždénu bývšu Izráise, životá nasladísja, í dréva rádi krestnaho páki vseľájem byvájet na nebesích. í úprazdnísja zmíj, í tľá požérta býsť: í vsí slávu tí prinósim."),
     
     // S:I:
     col2(gText(translation.at("SI"))),
@@ -444,7 +444,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Útreňujušče vopijém tí Hospodi, Spasí ny: tý bo jésí Boh náš, rázvi vo tebé ínóho ne znájem."),
+    jObj4("Írmós",none, "", "Útreňujušče vopijém tí, Hospodi, Spasí ny: tý bo jésí Boh náš: rázvi tebé ínóho ne vímy.               "),
     sText("1:"),
     jObj4("",none, "", "Kámenije ťá na kámeni óščutívše Christé, vozdvížena, raspadóšasja, í zemlí potrjasóšasja ósnovánija."),
     sText("2:"),
@@ -461,7 +461,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Útreňujušče vopijém tí Hospodi, Spasí ny: tý bo jésí Boh náš, rázvi vo tebé ínóho ne znájem."),
+    jObj4("Írmós",none, "", "Útreňujušče vopijém tí, Hospodi, Spasí ny: tý bo jésí Boh náš: rázvi tebé ínóho ne vímy.               "),
     sText("1:"),
     jObj4("",none, "", "Vseťilésnuju mí jázvu prijémšu hrichá, býlijem úvračúj mílosrdija tvojehó Vladíčice."),
     sText("2:"),
@@ -477,7 +477,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Óbýde mjá bézdna, hrób mňí kít býsť, áz že vozopích k tebí čelovikoľúbcu, í Spasé mja desníca tvojá Hospodi."),
+    jObj4("Írmós",none, "", "Óbýde mjá bézdna, hrób mňí kít býsť: áz že vozopích k tebí čelovikoľúbcu, í Spasé mja desníca tvojá Hospodi."),
     sText("1:"),
     jObj4("",none, "", "Krest na zemlí vodružášesja, í padénije bisóm byváše: í víra útverždénija načálo prijimáše, í zlóba ot sredý othoníma byváše."),
     sText("2:"),
@@ -494,13 +494,13 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Óbýde mjá bézdna, hrób mňí kít býsť, áz že vozopích k tebí čelovikoľúbcu, í Spasé mja desníca tvojá Hospodi."),
+    jObj4("Írmós",none, "", "Óbýde mjá bézdna, hrób mňí kít býsť: áz že vozopích k tebí čelovikoľúbcu, í Spasé mja desníca tvojá Hospodi."),
     sText("1:"),
     jObj4("",none, "", "Óbýde mjá bézdna prehrišénij, í hlubiná soderžít mjá hrichóvnaja, í ko otčájaniju prinósit pohíbeľnomu: svjatája Vladíčice, tý mja nýňi Spasí."),
     sText("2:"),
     jObj4("",none, "", "Vozdvíhni mjá ležášča na ódrí sohrišénij, presvjatája Vladíčice: í dážď mí ósijánije Spasíteľnoje pokajánijem."),
     sText("3:"),
-    jObj4("",none, "", "Óčísti čelovikoľúbče, molitvami čísto róždšija ťá: í ízbávi mír tvój ot vsjákija skórbi, í víčnyja slávy spodóbi."),
+    jObj4("",none, "", "Óčísti čelovikoľúbče, molitvami čísto róždšija ťá, í ízbávi mír tvój ot vsjákija skórbi, í víčnyja slávy spodóbi."),
     sText("4:"),
     jObj4("",none, "", "Prísno óbiščavájusja ďíl zlých otstupíti, no vsehdá lhú, í óskorbľáju Vladýku mojehó: prečestaja Vladíčice, tý mi dážď íspravlénije."),
   ))
@@ -514,7 +514,7 @@
     sText("1:"),
     jObj4("",none, "", "Da ízbávimsja mý slástnaho hrichá, žélči vkusíl jésí Christé, sládoste žíznennaja."),
     sText("2:"),
-    jObj4("",none, "", "Tebí na drévi Christé újázvenu, ísciľíša jázvy ádámovy mnohoľítnyja."),
+    jObj4("",none, "", "Tebí na drévi Christé újázvenu, ísciľíša jázvy Ádámovy mnohoľítnyja."),
     sText("3:"),
     jObj4("Mučeničen",none, "", "Svojími vóľnymi ústremléňmi otlučíšasja ko stradániju, strástotérpcy, í pobidítelije jávíšasja."),
     sText("4:"),
@@ -543,7 +543,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Íz Ótcá préžde vík roždénnaho Sýna í Boha, í v posľídňaja ľíta voploščénnaho ot Ďivy matre, svjaščénnicy pójte, ľúdije prevoznosíte vo vsjá víki."),
+    jObj4("Írmós",none, "", "Iz Ótcá préžde vík roždénnaho Sýna í Boha, í v posľídňaja ľíta voploščénnaho ot Ďivy matre, svjaščénnicy pójte, ľúdije prevoznosíte vo vsjá víki."),
     sText("1:"),
     jObj4("",none, "", "Íže kľátvu dréva drévom íscilívyj, í bláhoslovénije ístočívyj čelovíkom prebláhíj: tebé Spase pojém, í tebé slavoslóvim vo víki."),
     sText("2:"),
@@ -560,7 +560,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Íz Ótcá préžde vík roždénnaho Sýna í Boha, í v posľídňaja ľíta voploščénnaho ot Ďivy matre, svjaščénnicy pójte, ľúdije prevoznosíte vo vsjá víki."),
+    jObj4("Írmós",none, "", "Iz Ótcá préžde vík roždénnaho Sýna í Boha, í v posľídňaja ľíta voploščénnaho ot Ďivy matre, svjaščénnicy pójte, ľúdije prevoznosíte vo vsjá víki."),
     sText("1:"),
     jObj4("",none, "", "V nedoumíniji sýj, í sérdcem, í mýsliju, preščénija hejénskaho ne bojásja, sohrišáju prísno: no tý Ďivo, nedoumínije mojé razriší, í óhňá ízbávi mjá."),
     sText("2:"),
@@ -653,7 +653,7 @@
     sText("3:"),
     gText("Blážéni čístiji sérdcem, jáko tíji Boha úzrjat."),
     "",
-    jObj4("",none, "", "Úmertvívsja na kresťí, sňídi rádi úméršaho ádáma: jéhóže óživíl jésí žiznodávče ščédryj, í žíteľa páki bláže rajá pokazál jésí."),
+    jObj4("",none, "", "Úmertvívsja na kresťí, sňídi rádi úméršaho Ádáma: jéhóže óživíl jésí žiznodávče ščédryj, í žíteľa páki bláže rajá pokazál jésí."),
 
     // B Stich na 2
     sText("2:"),

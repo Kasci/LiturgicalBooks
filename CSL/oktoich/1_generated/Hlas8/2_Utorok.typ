@@ -48,7 +48,7 @@
     
     // S Stich na 1
     sText("1:"),
-    jObj4("",none, "", "Tebé cerjá í Vladýku, Anheli neprestánno vospivájut, áz že tí pripádaju jako mytár zovýj: Bože óčísti mjá, í pomíluj mjá."),
+    jObj4("",none, "", "Tebé cerjá í Vladýku, Anheli neprestánno vospivájut, áz že tí pripádaju, jako mytár zovýj: Bože, óčísti mjá, í pomíluj mjá."),
     "",
     gText(jObj4("",none, "", "K tebí vozvedóch óči moí, živúščemu na nebesí. sé jáko óči ráb v rukú hospódij svojích, jáko óči rabýni v rukú hospoží svojejá: táko óči náši ko Hospodu Bohu nášemu, dóndeže úščédrit ný.")),
     
@@ -130,7 +130,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Úslýšach Hospodi, smotrénija tvojehó táinstvo: razumích ďilá tvojá, í proslávich tvojé Božestvó."),
+    jObj4("Írmós",none, "", "Úslýšach Hospodi, smotrénija tvojehó táinstvo, razumích ďilá tvojá, í proslávich tvojé Božestvó."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -291,7 +291,7 @@
     
     // Sidalen 1, 1
     sText("1:"),
-    jObj4("",none, "", "Ókom bláhoutróbnym Hospodi, vížď mojé smirénije, jáko pomáľi žízň mojá skončavájetsja, í ot ďíl ňísť mňí Spasénija. sehó rádi moľúsja: ókom bláhoutróbnym vížď mojé smirénije, í Spasí mja."),
+    jObj4("",none, "", "Ókom bláhoutróbnym, Hospodi, vížď mojé smirénije, jáko vmáľi žízň mojá skončavájetsja, í ot ďíl ňísť mňí Spasénija. sehó rádi moľúsja: ókom bláhoutróbnym, Hospodi, vížď mojé smirénije, í Spasí mja."),
     
     // Sidalen 1, 2
     sText("2:"),
@@ -378,7 +378,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Útverdísja sérdce mojé vo Hospodi, voznesésja róh mój v Bózi mojém, razširíšasja na vrahí mojá ústá mojá, vozveselíchsja ó Spaséniji tvojém."),
+    jObj4("Írmós",none, "", "Útverdísja sérdce mojé v Hospodi, voznesésja róh mój v Bózi mojém: razširíšasja na vrahí mojá ústá mojá, vozveselíchsja ó Spaséniji tvojém."),
     sText("1:"),
     jObj4("",none, "", "Skvérny zlóbnyja otmýv mojehó sérdca, í jávítisja mí neporóčnu pred tobóju v déň strášnyj spodóbi Christé mój, jáko prebláhíj."),
     sText("2:"),
@@ -428,7 +428,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Úslýšach Hospodi, smotrénija tvojehó táinstvo: razumích ďilá tvojá, í proslávich tvojé Božestvó."),
+    jObj4("Írmós",none, "", "Úslýšach Hospodi, smotrénija tvojehó táinstvo, razumích ďilá tvojá, í proslávich tvojé Božestvó."),
     sText("1:"),
     jObj4("",none, "", "Sebé samohó pláču, žitijé neisprávleno ímíja vsehdá: Spasí í úščédri mjá predtéče, hrichí pohibájuščaho."),
     sText("2:"),
@@ -610,7 +610,7 @@
     sText("4:"),
     gText("Chvalíte jéhó v tympáňi í líci, chvalíte jéhó vo strúnach í órháňi."),
     "",
-    jObj4("",none, "", "Jéhdá prijimú vo úmí mnóžestvo soďíjannych mnóju zól, í v pomyšlénije prijidú strášnaho ónaho íspytánija; trépetom soderžím k tebí pribiháju čelovikoľúbcu Bohu. ťímže ne prézri mené, moľú ťa, jédíne bezhríšne: dáruj úmilénije smirénňij mojéj duší préžde koncá, í Spasí mja."),
+    jObj4("",none, "", "Jéhdá prijimú vo úmí mnóžestvo soďíjannych mnóju zól, í v pomyšlénije prijidú strášnaho ónaho íspytánija, trépetom soderžím k tebí pribiháju čelovikoľúbcu Bohu. ťímže ne prézri mené, moľú ťá, jédíne bezhríšne: dáruj úmilénije smirénňij mojéj duší préžde koncá, í Spasí mja."),
 
     // CH Stich na 3
     sText("3:"),

@@ -82,7 +82,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Písň posľídňuju pojím vsí Bohu, sotvóršemu dívnaja čudesá mýšceju vysókoju, í Spasšemu Izráiľa, jako proslávisja."),
+    jObj4("Írmós",none, "", "Písň pobídnuju pojím vsí Bohu, sotvóršemu dívnaja čudesá mýšceju vysókoju, í Spasšemu Izráiľa, jako proslávisja."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -111,7 +111,7 @@
     gText("Presvjatája Bohoródice Spasí nás."),
 
     sText("1:"),
-    jObj4("",none, "", "Da óbožít čelovíčestvo, Boh býsť čelovík, íz tebé Ďivo čestaja, páče Slóva í smýsla: sehó rádi ťá sohlásno vírniji úblážájem."),
+    jObj4("",none, "", "Da óbožít čelovíčestvo, Boh býsť čelovík íz tebé Ďivo čestaja, páče Slóva í smýsla: sehó rádi ťá sohlásno vsí vírniji úblažájem."),
 
     sText("2:"),
     jObj4("",none, "", "Iže jéstestvóm neopísannyj, voplóščsja íz tebé napisásja, Bohobláhodátnaja čestaja: jéhóže neprestánno molí, úščédriti, í prosvitíti dúšy blážáščich ťá."),
@@ -245,7 +245,7 @@
     // S:
     col2(gText(translation.at("S"))),
     "",
-    jObj4("",none, "", "Iscilívšaho sokrušénije ádáma pérstnaho Spasa róždšaja prečestaja í Boha: jéhóže molí, jazvy duší mojejá íscilíti, neiscíľno boľáščyja."),
+    jObj4("",none, "", "Iscilívšaho sokrušénije Ádáma pérstnaho Spasa róždšaja prečestaja í Boha: jéhóže molí, jazvy duší mojejá íscilíti, neiscíľno boľáščyja."),
 
     // I:
     col2(gText(translation.at("IN"))),
@@ -315,7 +315,7 @@
     
     // Sidalen 2, 3
     sText("3:"),
-    jObj4("Mučeničen",none, "", "Mučeniiki Christóvy mólim vsí ot ľubvé prišédše k ním s víroju: síji bo ó nášem Spaséniji prósjat, síji ístočájut íscilénij bláhodáť, síji polkí othoňájut bisóvskija, jáko sochránnicy víry."),
+    jObj4("Mučeničen",none, "", "Mučeniki Christóvy mólim vsí, í ľubóviju prijídem k ním s víroju: síji bo ó nášem Spaséniji prósjat, í síji vsí ístočájut íscilénij bláhodáť, síji polkí othoňájut bisóvskija, jáko sochránnicy víry."),
     
     // S:I:
     col2(gText(translation.at("SI"))),
@@ -345,7 +345,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Tvojá pobidíteľnaja desníca Bohoľípno v kríposti proslávisja: tá vo bezsmértne, jáko vsemohúščaja, protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."),
+    jObj4("Írmós",none, "", "Tvojá pobidíteľnaja desníca Bohoľípno v kríposti proslávisja: tá bo bezsmértne, jako vsemohúščaja, protívnyja sotré, Izráiľťanom púť hlubiný novosoďílavšaja."),
     sText("1:"),
     jObj4("",none, "", "Božéstvennymi prosvitívšesja zarjámi trisólnečnaho sijánija slávniji, položénijem narekóstesja vojístinnu bózi, svitovídniji Apostoli: ťímže po dólhu vás víroju počitájem."),
     sText("2:"),
@@ -477,7 +477,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Óbýde nás posľídňaja bézdna, ňísť ízbavľájaj, vminíchomsja jako ovcy zakolénija, Spasí ľúdi tvojá, Bože náš: tý bo kríposť nemoščstvújuščich í íspravlénije."),
+    jObj4("Írmós",none, "", "Óbýde nás posľídňaja bézdna, ňísť ízbavľájaj, vminíchomsja jako ovcy zakolénija, Spasí ľúdi tvojá Bože náš: tý bo kríposť nemoščstvújuščich í íspravlénije."),
     sText("1:"),
     jObj4("",none, "", "Mréžami slovésnymi úlovíste jázýki, k rázumu jávlénnaho nazdánija čelovíkov, o Bohoblážénniji ápóstoli: jéhóže priľížno ó míri molíte."),
     sText("2:"),
@@ -494,7 +494,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Proróka Jónu podražája vopijú: živót mój bláže, svobodí íz tlí, í Spasí mja, Spase míra, zovúšča: sláva tebí."),
+    jObj4("Írmós",none, "", "Proróka Jónu podražája vopijú: živót mój bláže svobodí íz tlí, í Spasí mja Spase míra, zovúšča: sláva tebí."),
     sText("1:"),
     jObj4("",none, "", "Ímíjaj mnóžestvo ščedrót Christé, mnóžestvo mojích zól otžení molitvami nijkoláa, ókormľája mojú žízň, volnámi hrichá óburevájemuju prísno."),
     sText("2:"),
@@ -527,7 +527,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Súščym v peščí ótrokóm tvoím Spase, ne prikosnúsja, nižé stuží óhň. tohdá trijé, jáko jédíňimi ústý pojáchu í bláhoslovľáchu, hlahóľušče: bláhoslovén Boh ótéc nášich."),
+    jObj4("Írmós",none, "", "Súščym v peščí ótrokóm tvoím Spase, ne prikosnúsja, nižé stuží ohň. tohdá trijé jako jédíňimi ústý pojáchu í bláhoslovľáchu, hlahóľušče: bláhoslovén Boh ótéc nášich."),
     sText("1:"),
     jObj4("",none, "", "Račíteľnoju molitvoju tvojéju múdre, sérdca mojehó útverdí hlézňi ízvístno, na kámeni Božijich zápovidej presvítlych, Spasája nepremínno nijkólaje, ot kovárstv pákostnych zlonačáľnaho vrahá."),
     sText("2:"),
@@ -543,7 +543,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "V peščí ótrocy Izráilevy, jákože v horníľi, dobrótoju bláhočéstija čisťíe zláta bleščáchusja, hlahóľušče: bláhoslovíte vsjá ďilá Hospodňa Hospoda, pójte í prevoznosíte vo vsjá víki."),
+    jObj4("Írmós",none, "", "V peščí ótrocy Izráilevy, jákože v horníľi dobrótoju bláhočéstija čisťíe zláta bleščáchusja, hlahóľušče: bláhoslovíte vsjá ďilá Hospodňa Hospoda, pójte í prevoznosíte vo vsjá víki."),
     sText("1:"),
     jObj4("",none, "", "Jáko lučý sólnce velíkoje vás prostré vo vsjú vselénnuju, ózarjája víroju pojúščich Apostoli: bláhoslovíte vsjá ďilá Hospodňa Hospoda, pójte í prevoznosíte jéhó vo víki."),
     sText("2:"),
@@ -576,7 +576,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Obraz čístaho roždestvá tvojehó, óhnepalímaja kupiná pokazá neopáľnaja: í nýňi na nás napástej svirípijuščuju úhasíti mólimsja péšč, da ťá Bohoródice neprestánno veličájem."),
+    jObj4("Írmós",none, "", "Obraz čístaho roždestvá tvojehó óhnepalímaja kupiná pokazá neopáľnaja: í nýňi na nás napástej svirípijuščuju úhasíti mólimsja péšč, da ťá Bohoródice neprestánno veličájem."),
     sText("1:"),
     jObj4("",none, "", "Božéstvenniji svjatáho Dúcha, í svitozárniji svitíľnicy pokazástesja, svitozarénijem čestnáho í premúdraho propovídanija blážénniji, prosvitíste vsjú vselénnuju, ťmú ídoľskuju othnávše."),
     sText("2:"),
@@ -614,7 +614,7 @@
 
     // ST Stich na 2
     sText("2:"),
-    jObj4("",none, "", "Petrá í pánla sohlásno pochválim: lukú, matthéa, márka, íoánna, ándréa, thomú, vartholoméa, símona kananíta, íákova í fijlíppa, í vés lík účeníčeskij dostójno da voschválim."),
+    jObj4("",none, "", "Petrá í pánla sohlásno pochválim, lukú, matthéa, márka, íoánna, ándréa, thomú, vartholoméa, símona kananíta, íákova í fijlíppa, í vés lík učeničeskij dostójno da voschválim."),
     "",
     gText("Í búdi svítlosť Hospoda Boha nášeho na nás, í ďilá rúk nášich ísprávi na nás, í ďílo rúk nášich ísprávi."),
 
@@ -644,7 +644,7 @@
     sText("4:"),
     gText("Blážéni mílostivïi, jáko tíji pomílovani búdut."),
     "",
-    jObj4("",none, "", "Sňídiju ízvedé íz rajá vráh ádáma: krestóm že vvedé Christós vóň razbójnika, pomjaní mja Hospodi, vopijúšča, jéhdá prijídeši vo cárstviji tvojém."),
+    jObj4("",none, "", "Sňídiju ízvedé íz rajá vráh Ádáma: krestóm že vvedé Christós vóň razbójnika, pomjaní mja, Hospodi, vopijúšča, jéhdá prijídeši vo cárstviji tvojém."),
 
     // B Stich na 3
     sText("3:"),
