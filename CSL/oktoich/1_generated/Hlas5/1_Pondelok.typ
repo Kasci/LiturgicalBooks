@@ -135,7 +135,7 @@
     gText("Presvjatája Bohoródice Spasí nás."),
 
     sText("1:"),
-    jObj4("",none, "", "Istkávšaja vnútr ot krovéj tvojích Ďivíčeskich, nebeo oblaki Ďivo, óďivájušča ódéždeju netľínija, préžde léstiju óbnažénnaho mjá óblecý."),
+    jObj4("",none, "", "Istkávšaja vnútr ot krovéj tvojích Ďivíčeskich, nebo oblaki Ďivo, óďivájušča ódéždeju netľínija, préžde léstiju óbnažénnaho mjá óblecý."),
 
     sText("2:"),
     jObj4("",none, "", "Útróba tvojá Ďivo, paláta svjatá cerjá í Boha neskazánna býsť, v ňúže vselívsja, cerkvi nás soďíla."),
@@ -208,7 +208,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Prevoznosímyj ótcév Hospod, plámeň úhasí, otroki órosí sohlásno pojúščyja: Bože, bláhoslovén jésí."),
+    jObj4("Írmós",none, "", "Prevoznosímyj ótcév Hospoď, plámeň úhasí, otroki órosí sohlásno pojúščyja: Bože, bláhoslovén jésí."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -417,7 +417,7 @@
     sText("4:"),
     jObj4("Mučeničen",none, "", "Pokolebáti vás stradáľcy ot Božéstvennaho stojánija, ne vozmóže vsjáčeski lukávyj: ťímže mnóhim koléblemym, dóbliji útverždénije Božéstvennoje pokazástesja."),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Voploščájetsja ot čestych krovéj tvojích Hospod, pokajánije čtúščym ťá podavája vsepítaja, tvojím bláhím chodátajstvom, jáko bláhoutróben, í jédín čelovikoľúbec."),
+    jObj4("Bohoródičen",none, "", "Voploščájetsja ot čestych krovéj tvojích Hospoď, pokajánije čtúščym ťá podavája vsepítaja, tvojím bláhím chodátajstvom, jáko bláhoutróben, í jédín čelovikoľúbec."),
   ))
   ====== Kanón bezplótnym
   #generateTable((
@@ -523,7 +523,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Prevoznosímyj ótcév Hospod, plámeň úhasí, otroki órosí sohlásno pojúščyja: Bože, bláhoslovén jésí."),
+    jObj4("Írmós",none, "", "Prevoznosímyj ótcév Hospoď, plámeň úhasí, otroki órosí sohlásno pojúščyja: Bože, bláhoslovén jésí."),
     sText("1:"),
     jObj4("",none, "", "Neisčetnosíľnuju Christós jávľája kríposť, vás árchijstratízi postávil jésť, naučí vospiváti: Bože, bláhoslovén jésí."),
     sText("2:"),
@@ -572,11 +572,11 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Tjá blážénnuju v ženách, í bláhoslovénnuju Bohom, čelovíčeskij ród, písňmi veličájem."),
+    jObj4("Írmós",none, "", "Ťá blážénnuju v ženách, í bláhoslovénnuju Bohom, čelovíčeskij ród, písňmi veličájem."),
     sText("1:"),
     jObj4("",none, "", "Mílostiv búdi mí Hospodi, bez čislá bezúmno sohrišívšemu, í tvojehó cárstvija Slóve spodóbi mjá."),
     sText("2:"),
-    jObj4("",none, "", "Jákože nijneníťany Spasl jésí drévle pokájavšyjasja jédíne Spase, í nás pojúščich ťá Spasí mílostiju tvojéju."),
+    jObj4("",none, "", "Jákože nijneyíťany Spasl jésí drévle pokájavšyjasja jédíne Spase, í nás pojúščich ťá Spasí mílostiju tvojéju."),
     sText("3:"),
     jObj4("Mučeničen",none, "", "Plóť predávše vsjáčeskim jázvam, neujázvlenu Spaslí jésté dúšu strástotérpcy Hospodni, Božéstvennyja slávy pričástnicy."),
     sText("4:"),

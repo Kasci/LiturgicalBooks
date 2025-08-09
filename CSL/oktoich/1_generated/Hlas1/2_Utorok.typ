@@ -138,7 +138,7 @@
     jObj4("",none, "", "Sedmosvítloje zercálo Božéstvennych prorók mnohoobrázno pojét óbrazovánija tvojá: mý že ďílom známenija íschóda tvojehó vosprijémše, Bohoródicu ťá vojístinnu, veščmí víďašči vírujem."),
 
     sText("2:"),
-    jObj4("",none, "", "Božiju ťá dostójno Matr, vojístinnu Ďivo čístaja, čtúšče slávim mý, svójstvennyj prinosjášče hlás tebí, v zakóňi í prorócich propovídanňij: rádujsja óbrádovannaja, Hospod s tobóju."),
+    jObj4("",none, "", "Božiju ťá dostójno Matr, vojístinnu Ďivo čístaja, čtúšče slávim mý, svójstvennyj prinosjášče hlás tebí, v zakóňi í prorócich propovídanňij: rádujsja óbrádovannaja, Hospoď s tobóju."),
 
     // S:
     col2(gText(translation.at("S"))),
@@ -213,7 +213,7 @@
     gText("Presvjatája Bohoródice Spasí nás."),
 
     sText("1:"),
-    jObj4("",none, "", "Preukrašénna jávísja dobroďíteľmi Bohonevísto, slávoju í čéstiju Ďivstva: krasňíjša bo bláhoľípijem dobróta tvojá vojístinnu, račíteľ Hospod tebé privedé Matr Božéstvennuju sebí."),
+    jObj4("",none, "", "Preukrašénna jávísja dobroďíteľmi Bohonevísto, slávoju í čéstiju Ďivstva: krasňíjša bo bláhoľípijem dobróta tvojá vojístinnu, račíteľ Hospoď tebé privedé Matr Božéstvennuju sebí."),
 
     sText("2:"),
     jObj4("",none, "", "Žézl čestaja, právosti javi bylá jésí, žézl cárstvija prečestňíjšij. ťímže plód Božija slovesé prozjablá jésí, ježe í čúdo ízdaléča áarónov javi žézl proobrazí."),
@@ -274,7 +274,7 @@
     // I:
     col2(gText(translation.at("IN"))),
     "",
-    jObj4("",none, "", "Voploščénna Slóva, no neprelóžna vím. ťímže vospiváju jéhó vírno, vo dvojú ubo suščestvú, ńpostási že jédíňij: jéhóže vojístinnu jako Boha í čelovíka propovídaja,"),
+    jObj4("",none, "", "Voploščénna Slóva, no neprelóžna vím. ťímže vospiváju jéhó vírno, vo dvojú ubo suščestvú, ýpostási že jédíňij: jéhóže vojístinnu jako Boha í čelovíka propovídaja,"),
   ))
   #colbreak()
 
@@ -307,7 +307,7 @@
     
     // Sidalen 2, 1
     sText("1:"),
-    jObj4("",none, "", "Óbjátija Ótča otvérsti mí potščísja, blúdno mojé íždích žitijé, na bohátstvo neiždivájemoje vzirája ščedrót tvojích Spase. nýňi óbniščávšeje mojé da ne prézriši sérdce, tebí bo Hospodi, úmilénijem zovú: sohriších, Ótče, na nebeo í pred tobóju, Spasí mja."),
+    jObj4("",none, "", "Óbjátija Ótča otvérsti mí potščísja, blúdno mojé íždích žitijé, na bohátstvo neiždivájemoje vzirája ščedrót tvojích Spase. nýňi óbniščávšeje mojé da ne prézriši sérdce, tebí bo Hospodi, úmilénijem zovú: sohriších, Ótče, na nebo í pred tobóju, Spasí mja."),
     
     // Sidalen 2, 2
     sText("2:"),
@@ -320,7 +320,7 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("Bohoródičen",none, "", "Otčájanije nijnenítskoje predvaríl jésí, vozviščénnoje zapreščénije mimovoďá, í hňív pobidí mílosť tvojá Hospodi, úmilosérdisja nýňi na ľúdi í stádo tvojé: dlániju deržávnoju vrahí náša nizloží, molitvami Bohoródicy dáruj nám mílosť tvojú."),
+    jObj4("Bohoródičen",none, "", "Otčájanije nijneyítskoje predvaríl jésí, vozviščénnoje zapreščénije mimovoďá, í hňív pobidí mílosť tvojá Hospodi, úmilosérdisja nýňi na ľúdi í stádo tvojé: dlániju deržávnoju vrahí náša nizloží, molitvami Bohoródicy dáruj nám mílosť tvojú."),
   ))
   ===== #translation.at("SIDALEN_PO") 3
   #generateTable((
@@ -434,7 +434,7 @@
     sText("2:"),
     jObj4("",none, "", "Kápľu Spasénija ódoždí mňí predtéče, ístajavájemu razždizánijem póchotej, pohruzívyj vo strujách íordánskich sládosti potóka, Izráisa žiznodávca: jáko da po dólhu ťá slávľu."),
     sText("3:"),
-    jObj4("",none, "", "Ni Anhel, ni chodátaj Spasé nás, no sám Hospod prišédyj na zémľu: jémúže právyja putí úhotóval jésí blážénne. jéhóže nýňi molí, pokazáti mí stezjú, k cárstviju nastavľájuščuju."),
+    jObj4("",none, "", "Ni Anhel, ni chodátaj Spasé nás, no sám Hospoď prišédyj na zémľu: jémúže právyja putí úhotóval jésí blážénne. jéhóže nýňi molí, pokazáti mí stezjú, k cárstviju nastavľájuščuju."),
     sText("4:"),
     jObj4("Bohoródičen",none, "", "Chrám ósvjaščén jávílasja jésí Božij, v ťá vséľšahosja Ďivo páče úmá: tohó molí hrichóvnych skvérn nás óčístiti, jáko da chrám jávímsja í vselénije Božéstvennaho Dúcha."),
   ))
@@ -454,7 +454,7 @@
     sText("4:"),
     jObj4("Mučeničen",none, "", "Jáko prečestnóje kámenije, tebé kámene živótnaho, Vladýko, vozľúbľše múčenicy múkami vaľájemi, zdánije vsjáko nizverhóša prélesti."),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Vo dvojú vóľach jédínaho ot presvjatýja Trójcy rodilá jésí vseneporóčnaja, nosjáščaho jédínu ńpostás: jéhóže priľížno molí vsím Spastísja nám."),
+    jObj4("Bohoródičen",none, "", "Vo dvojú vóľach jédínaho ot presvjatýja Trójcy rodilá jésí vseneporóčnaja, nosjáščaho jédínu ýpostás: jéhóže priľížno molí vsím Spastísja nám."),
   ))
   ====== Kanón svjatómu velíkomu proróku Joánnu predtéči
   #generateTable((
@@ -518,7 +518,7 @@
     sText("3:"),
     jObj4("Mučeničen",none, "", "Ízbávleni múčenicy múdriji króviju, plótiju postradávšaho nás rádi, za nehóže úsérdno ízvóliste ízlijáti svojá króvi: ťímže neprestánno s ním cárstvujete."),
     sText("4:"),
-    jObj4("Mučeničen",none, "", "Nazdánijem stradáľčestv svjaščénnych paláta jávístesja múdriji, v néjže rádostno Christós počíl jésť, jédín cer í Hospod, íže ko óbítelem nebésnym privedýj vás."),
+    jObj4("Mučeničen",none, "", "Nazdánijem stradáľčestv svjaščénnych paláta jávístesja múdriji, v néjže rádostno Christós počíl jésť, jédín cer í Hospoď, íže ko óbítelem nebésnym privedýj vás."),
     sText("5:"),
     jObj4("Bohoródičen",none, "", "Ot rodóv ťá vsích Christós vsepítaja, jédínu ízvóli sebí, jáko čestnúju í čístuju v žilíšče: í íz tebé jáko sólnce vozsijáv, zémľu vsjú prosvití."),
   ))
@@ -629,7 +629,7 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("Bohoródičen",none, "", "Bludnícu í blúdnaho áz, í razbójnika pobidích, í mytarjá prehrišéniji preminúch, í nijneníťany. úvý mňí, čtó búdu; káko úbíhnu múki áz ókajánnyj; čestaja, pripádaju tí, úščédri mjá mílostiju tvojéju, jákože ónyja Sýn tvój Spasl jésť."),
+    jObj4("Bohoródičen",none, "", "Bludnícu í blúdnaho áz, í razbójnika pobidích, í mytarjá prehrišéniji preminúch, í nijneyíťany. úvý mňí, čtó búdu; káko úbíhnu múki áz ókajánnyj; čestaja, pripádaju tí, úščédri mjá mílostiju tvojéju, jákože ónyja Sýn tvój Spasl jésť."),
   ))
   #colbreak()
 

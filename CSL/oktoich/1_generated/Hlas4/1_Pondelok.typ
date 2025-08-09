@@ -300,7 +300,7 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("Bohoródičen",none, "", "Sťiná nepobidímaja nám Christijánom jésí Bohoródice Ďivo: k tebí bo pribihájušče nevredími prebyvájem, í páki sohrišájušče, ímamy ťá molitvennicu. ťím bláhodárstvenno vopijém tí: rádujsja bláhodátnaja, Hospod s tobóju."),
+    jObj4("Bohoródičen",none, "", "Sťiná nepobidímaja nám Christijánom jésí Bohoródice Ďivo: k tebí bo pribihájušče nevredími prebyvájem, í páki sohrišájušče, ímamy ťá molitvennicu. ťím bláhodárstvenno vopijém tí: rádujsja bláhodátnaja, Hospoď s tobóju."),
   ))
   ===== #translation.at("SIDALEN_PO") 2
   #generateTable((
@@ -403,7 +403,7 @@
     sText("3:"),
     jObj4("",none, "", "Ljubóviju téploju, privjazánijem račíteľnym pričaščájuščesja pérvomu ístóčniku služíteľňi predstoité, pojúšče nemólčno, jédíno suščestvó Božestvá beznačáľnaho, Božéstvenniji Archánheli."),
     sText("4:"),
-    jObj4("Bohoródičen",none, "", "Jéninu drévňuju kľátvu, Christá róždši Mati čestaja, presvítlo razrišíla jésí, vsích vinčájuščaho bláhoslovéňmi: ňísť bo prečestaja, rázvi tebé pomóščnicy."),
+    jObj4("Bohoródičen",none, "", "Jéyinu drévňuju kľátvu, Christá róždši Mati čestaja, presvítlo razrišíla jésí, vsích vinčájuščaho bláhoslovéňmi: ňísť bo prečestaja, rázvi tebé pomóščnicy."),
   ))
   ===== #translation.at("PIESEN") 4
   ====== Kanón úmilíteľnyj
@@ -576,7 +576,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Jena ubo nedúhom preslušánija kľátvu vselíla jesť, tý že Ďivo Bohoródice, prozjabénijem črevonošénija mírovi bláhoslovénije procvilá jésí: ťím ťá vsí veličájem."),
+    jObj4("Írmós",none, "", "Jeya ubo nedúhom preslušánija kľátvu vselíla jesť, tý že Ďivo Bohoródice, prozjabénijem črevonošénija mírovi bláhoslovénije procvilá jésí: ťím ťá vsí veličájem."),
     sText("1:"),
     jObj4("",none, "", "Sé pokajánija vrémja, čtó ľinímsja, čtó snóm pohružájemsja; únýnija da otstúpim, úkrasím sviščý, jákože píšet, jéléem bláhotvorénija: da ne óstánem vňiúdu dveréj rydájušči."),
     sText("2:"),

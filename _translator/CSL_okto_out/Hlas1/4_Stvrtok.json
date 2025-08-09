@@ -3,7 +3,7 @@
     "HV": [
       {"PODOBEN": "Prechváľniji mučenicy", "TEXT": "Apostoli slávniji, Christóvy učenicý Bohozvánniji, vselénnyja účítelije, óbrítše Hospoda Boha, í čelovíkov chodátaja súšča, tomú Bohoľípno priľipístesja: í jako Boha tohó, í jako čelovíka vsesoveršénna, v míri javi propovídaste."},
       {"TEXT": "Apostoli vsemúdriji, Christóvy učenicý Bohozvánniji, vselénnyja účítelije, vášimi molitvami, Božéstvennym účénijem vnimáti úkripíte mjá, í stezéju ťísnoju pomohájte chodíti mí vsehdá, jako da dospíju v prebyvánije rájskoje prostránňijšeje."},
-      {"TEXT": "Petrá pervoprestóľnaho vospiváju, pánla, íákova, ándréa že í fijlíppa, símona, vartholoméa že í thomú, matthéa že í Joánna, márka že í lukú, bláhovístija spisávšich, lík Bohoizbránnyj, so ínými sedmijúdesjaťmi, jako Slóva samovídcy í propovídniki."},
+      {"TEXT": "Petrá pervoprestóľnaho vospiváju, páyla, Jákova, ándréa že í fijlíppa, símona, vartholoméa že í thomú, matthéa že í Joánna, márka že í lukú, bláhovístija spisávšich, lík Bohoizbránnyj, so ínými sedmijúdesjaťmi, jako Slóva samovídcy í propovídniki."},
       {"PODOBEN": "Nebésnych činóv", "TEXT": "Carkóvnyja cvíty preletájaj: jakože ptenéc výšňaho hňizdá Anheľskaho, nijkólaje treblážénne, zovéši prísno k Bohu ó vsích ľúdech, iže v núždnych bidách í ískušénijich, í ízbavľáješi molitvami tvojími."},
       {"TEXT": "Nebésnyja dobróty prochoďáj, strášnuju onu razumíl jésí slávu, svjatúju svjatých. ťímže í nám nebésnaja slovesá, prísno živótnych oňich zrínij jávľáješi, svjaščénňijšij otče."},
       {"TEXT": "Svjaščénnyja ódéždy úkrašénije, ďílateľnymi soďílal jésí dobroďíteľmi svitľíjšo, otče Bohonóse. ťímže í nám svjaščennoďíjstvuješi dívnaja slávnych čudés Christá rádi ľútych nás ízbavľája."}
@@ -11,7 +11,7 @@
     "HV_B": {"TITLE": "Bohoródičen", "TEXT": "Prehrišénij pučínoju óburevájem, k tíchomu pristánišču pribíh, prečísťij molitvi tvojéj, Bohorodíteľnice, vzyváju tí: Spasí mja, krípkuju tvojú desnícu prostérši rabú tvojemú, vseneporóčnaja."},
     "S": [
       {"TEXT": "Apostoľskaja vseslíčnaja civníca, svjatým Dúchom dvížima, mérzkija bisóv žértvy úprazdníla jesť, í jédínaho Hospoda propovídavši, jázýki ízbávi ot prélesti idoľskija, í poklaňátisja naučí Trójci jédinosúščňij."},
-      {"TEXT": "Petrá í pánla sohlásno pochválim, lukú, matthéa, márka, Joánna, ándréa, thomú, vartholoméa, símona kananíta, íákova í fijlíppa, í vés lík učeničeskij dostójno da voschválim."},
+      {"TEXT": "Petrá í páyla sohlásno pochválim, lukú, matthéa, márka, Joánna, ándréa, thomú, vartholoméa, símona kananíta, Jákova í fijlíppa, í vés lík učeničeskij dostójno da voschválim."},
       {"TITLE": "Mučeničen", "PODOBEN": "Podóben", "TEXT": "Prechváľniji mučenicy, vás ni zemľá potaíla jesť, no nébo priját vý, í otverzóšasja vám rájskija dvéri, í vnútr bývše, dréva živótnaho naslaždájetesja, Christóvi molítesja, darováti dušám nášym mír í véliju mílosť."}
     ],
     "S_B": {"TITLE": "Bohoródičen", "TEXT": "Rádujsja rádoste práďidov, Apostolov í mučeniikov vesélije, í pokróv nás Ďivo, tvojích rabóv."}
@@ -25,7 +25,7 @@
       {"TEXT": "Jaže jédína bezľítnaho Boha v ľíto róždši voploščénna, prečestaja Vladíčice, strástnyja mojejá duší vseľítnyja strásti íscilí."}
     ],
     "3": [
-      {"TITLE": "Írmós", "TEXT": "Da útverdítsja sérdce mojé v vóli tvojéj Christé Bože, iže nad vodámi nebeo útverždéj vtoróje, í ósnovávyj na vodách zémľu vsesíľne."},
+      {"TITLE": "Írmós", "TEXT": "Da útverdítsja sérdce mojé v vóli tvojéj Christé Bože, iže nad vodámi nebo útverždéj vtoróje, í ósnovávyj na vodách zémľu vsesíľne."},
       {"TEXT": "Da óbožít čelovíčestvo, Boh býsť čelovík íz tebé Ďivo čestaja, páče Slóva í smýsla: sehó rádi ťá sohlásno vsí vírniji úblažájem."},
       {"TEXT": "Iže jéstestvóm neopísannyj, voplóščsja íz tebé napisásja, Bohobláhodátnaja čestaja: jéhóže neprestánno molí, úščédriti, í prosvitíti dúšy blážáščich ťá."},
       {"TEXT": "Neplódstvovavšija mýsli mojejá neplódija vsjá otžení, í plodonósnu dobroďíteľmi dúšu mojú pokaží, presvjatája Bohoródice, vírnych pomóščnice."},
@@ -91,7 +91,7 @@
     "S2_B": {"TITLE": "Bohoródičen", "TEXT": "Úpovánije Christiján, presvjatája Ďivo, jéhóže rodilá jésí Boha, páče úmá í Slóva, neprestánno molí ó vospivájuščich ťá, podáti óstavlénije hrichóv nášich vsích í íspravlénije žitijá, víroju í ľubóviju prísno slávjaščym ťá."},
     "S3": [
       {"TEXT": "Svitíla mýslennaja učenicý Spasovy svítliji, jáko óhň ózaríste vsejá zemlí íspolnénije Božéstvennymi účéniji: ťímže moľúsja, jáže vo ťmí dúšu mojú prosvitíte, svitozárnymi lučámi vášimi vseblážénniji."},
-      {"TEXT": "V mńrich živýj čúvstvenno svjatíteľu, jáko mńrom razúmno Dúchóvnym jávílsja jésí pomázan ótče nijkólaje, í mńry čudés tvojích óblahouchál jésí, mńro prisnotekúščeje prolivája, mńrnymi tvojími bláhouchájemi písňmi, í pámjatiju tvojéju."}
+      {"TEXT": "V mýrich živýj čúvstvenno svjatíteľu, jáko mýrom razúmno Dúchóvnym jávílsja jésí pomázan ótče nijkólaje, í mýry čudés tvojích óblahouchál jésí, mýro prisnotekúščeje prolivája, mýrnymi tvojími bláhouchájemi písňmi, í pámjatiju tvojéju."}
     ],
     "S3_B": {"TITLE": "Bohoródičen", "TEXT": "Prorócy ťá jásno provozvistíša ótrokovíce, Matr Božiju: í Apostoli Božéstvenniji v míri propovídaša, í mý vírovachom. ťímže vsí bláhočestnomúdrenňi počitájušče vospivájem ťá, í Bohoródicu vojístinnu prísno ímenújem."},
     "K": {
@@ -122,7 +122,7 @@
           {"TITLE": "Bohoródičen", "TEXT": "S neveščéstvennymi služíteli, Ďivo neiskusobráčnaja, so vsími výšnimi sílami, s mučeniki í Apostoly, Christá, jéhóže voplotíla jésí ot čestych krovéj tvojích: úmolí Spastísja rabóm tvoím."}
         ],
         "2": [
-          {"TITLE": "Írmós", "TEXT": "Da útverdítsja sérdce mojé v vóli tvojéj Christé Bože, iže nad vodámi nebeo útverždéj vtoróje, í ósnovávyj na vodách zémľu vsesíľne."},
+          {"TITLE": "Írmós", "TEXT": "Da útverdítsja sérdce mojé v vóli tvojéj Christé Bože, iže nad vodámi nebo útverždéj vtoróje, í ósnovávyj na vodách zémľu vsesíľne."},
           {"TEXT": "Pervosvjaščénnikov údobrénije, bláhouchánije Božéstvennaho Dúcha, myrovónnymi tvojími molitvami zlosmrádnyja strásti otžení sérdca mojehó, nijkólaje múdre, ľubóviju moľúsja."},
           {"TEXT": "V ľínosti skončaváju mojú žízň ókajánnyj, í bojúsja strášnaho tvojehó sudíšča Christé: na némže ne posramí mené, Nijkoláa chodátajstvy svjaščénnymi úmolén byvája."},
           {"TEXT": "Preispeščrén Božéstvennoju bláhodátiju, svjatíteľu nijkólaje ótče, ot razlíčnych ískušénij í bíd Spasí, pribihájuščyja v króv tvój prísno vseblažénne."},
@@ -176,15 +176,15 @@
           {"TITLE": "Írmós", "TEXT": "Proróka Jónu podražája vopijú: živót mój bláže svobodí íz tlí, í Spasí mja Spase míra, zovúšča: sláva tebí."},
           {"TEXT": "Ímíjaj mnóžestvo ščedrót Christé, mnóžestvo mojích zól otžení molitvami Nijkoláa, ókormľája mojú žízň, volnámi hrichá óburevájemuju prísno."},
           {"TEXT": "Krípko vrahá poprál jésí múdre, jéhóže sokrušáti í nás tvojími molitvami úkripí nijkólaje, tobóju predstátelem Božéstvennym óbohatívšichsja."},
-          {"TEXT": "Íže mńrjanom býv pervosvjatíteľ ístinnyj, óblahoucháj náša čúvstva dušévnaja ótče nijkólaje, í vraždújuščyja na ný zlosmrádnyja strásti othoňáj prísno."},
+          {"TEXT": "Íže mýrjanom býv pervosvjatíteľ ístinnyj, óblahoucháj náša čúvstva dušévnaja ótče nijkólaje, í vraždújuščyja na ný zlosmrádnyja strásti othoňáj prísno."},
           {"TITLE": "Bohoródičen", "TEXT": "Velíčija tebí čestaja, sotvorí Christós: jéhóže molí prísno, vozvelíčiti v nás bohátyja jéhó mílosti, Bohobláhodátnaja."}
         ]
       },
       "P7": {
         "1": [
           {"TITLE": "Írmós", "TEXT": "Tebé umnuju Bohoródice, péšč razsmotrájem vírniji: jakože bo otroki Spasé trí prevoznosímyj, mír óbnoví, vo črévi tvojém vsecíl, chváľnyj ótcév Boh, í preproslávlen."},
-          {"TEXT": "Ístóčnik životá Izráis Hospod sýj, vás óstávi účenikí jákože ríki, vodámi napajájuščyja Bohorazúmija vsjú podsólnečnuju, í pojúščyja: chváľnyj ótcév Boh í preproslávlen."},
-          {"TEXT": "Ístóčnik životá Izráis Hospod sýj, vás óstávi účenikí jákože ríki, vodámi napajájuščyja Bohorazúmija vsjú podsólnečnuju, í pojúščyja: chváľnyj ótcév Boh í preproslávlen."},
+          {"TEXT": "Ístóčnik životá Izráis Hospoď sýj, vás óstávi účenikí jákože ríki, vodámi napajájuščyja Bohorazúmija vsjú podsólnečnuju, í pojúščyja: chváľnyj ótcév Boh í preproslávlen."},
+          {"TEXT": "Ístóčnik životá Izráis Hospoď sýj, vás óstávi účenikí jákože ríki, vodámi napajájuščyja Bohorazúmija vsjú podsólnečnuju, í pojúščyja: chváľnyj ótcév Boh í preproslávlen."},
           {"TEXT": "Óhň mýslennyj v sérdcy nosjášče, Božéstvennuju bláhodáť Christóvu, požhóste učenicý véšč bezbóžija. ťímže véščnyja mojá strásti popalíte vopijúščaho: chváľnyj ótcév Boh, í preproslávlen."},
           {"TEXT": "Óhnennaho mučénija ízbávi mjá Bože, molitvami slávnych tvojích účeník, í ne otvérži mené ot licá tvojehó Hospodi, v pokajániji vzyvájušča: chváľnyj ótcév Boh, í preproslávlen."},
           {"TITLE": "Bohoródičen", "TEXT": "Tletvórnych hrichóv í strastéj ízmí mja Hospodi, íže netľínno rodívyjsja ot Ďivy Bohomátere, vsím že netľínije dáruja, písnenno pojúščym: chváľnyj ótcév Boh, í preproslávlen."}
@@ -226,7 +226,7 @@
         "2": [
           {"TITLE": "Írmós", "TEXT": "Svitonósnyj oblak, vóňže vsích Vladýka, jako dóžď s nebesé na runó sníde, í voplotísja nás rádi, býv čelovík, beznačáľnyj, veličájem vsí jako Matr Boha nášeho čístuju."},
           {"TEXT": "Jáko Christóva svjatíteľa, jáko svitozárnuju zvizdú, jáko čudés samoďíjstvennika, jáko ístóčnika íscilénij, jáko súščym v skórbech pomóščnika, jáko ízbáviteľa tepľíjša prizyvájuščym ťá v bidách ótče, voschvaľájem písňmi svjaščénnymi."},
-          {"TEXT": "Tjá pástyrja velíkaho, í podražáteľa vo vsém načáľnaho pástyrja Christá, priľížno mólim nijkólaje: ot vysót svjaščénnych úpasí rabý tvojá, í ízbavľáj ot vsích žitéjskich napástej vsehdá."},
+          {"TEXT": "Ťá pástyrja velíkaho, í podražáteľa vo vsém načáľnaho pástyrja Christá, priľížno mólim nijkólaje: ot vysót svjaščénnych úpasí rabý tvojá, í ízbavľáj ot vsích žitéjskich napástej vsehdá."},
           {"TEXT": "Úžé konéc približájetsja, čtó ľiníšisja, o dušé mojá; počtó ne tščíšisja Bohovi bláhouhódno požíti; potščísja í vozníkni próčeje, í vozopíj: čelovikoľúbče, úščédri mjá, Nijkoláa molitvami ókormľája mojú žízň, jáko bláh."},
           {"TITLE": "Bohoródičen", "TEXT": "Jáže svít róždšaja Božéstvennyj, ómračénaho mjá vsími prilóhi lukávaho, í vo únýniji živúšča, í prohňívajušča Boha, prosvití vseneporóčnaja, í nastávi k dóbrym ďílanijem, jáko viná súšči vsích dóbrych."}
         ]
@@ -234,7 +234,7 @@
     },
     "ST": [
       {"TEXT": "Apostoli slávniji, prosvitívše vselénnuju, prísno Boha molíte, Spastísja dušám nášym."},
-      {"TEXT": "Petrá í pánla sohlásno pochválim, lukú, matthéa, márka, Joánna, ándréa, thomú, vartholoméa, símona kananíta, íákova í fijlíppa, í vés lík učeničeskij dostójno da voschválim."},
+      {"TEXT": "Petrá í páyla sohlásno pochválim, lukú, matthéa, márka, Joánna, ándréa, thomú, vartholoméa, símona kananíta, Jákova í fijlíppa, í vés lík učeničeskij dostójno da voschválim."},
       {"TITLE": "Mučeničen", "TEXT": "Veselítesja mučenicy ó Hospodi, jáko pódvihom dóbrym podvizástesja: protívistesja carém, í mučítelej pobidíste: óhňá í mečá ne ústrašístesja, í zviréj dívijich sňidájuščich ťilesá váša: Christú so Anhely písň vozsylájušče, s nebesé vincý prijáste: prosíte darováti míru mír, í dušám nášym véliju mílosť."},
       {"TITLE": "Bohoródičen", "TEXT": "Rádujsja Bohoródice Ďivo, rádujsja pochvaló vsejá vselénnyja, rádujsja prečestaja Mati Božija bláhoslovénnaja."}
     ]
@@ -243,7 +243,7 @@
     "B": [
       {"TEXT": "Sňídiju ízvedé íz rajá vráh Ádáma: krestóm že vvedé Christós vóň razbójnika, pomjaní mja, Hospodi, vopijúšča, jéhdá prijídeši vo cárstviji tvojém."},
       {"TEXT": "Koncý prosvitívše Božéstvennymi lučámi účénij vášich, ómračénije ľútaho bezbóžija razoríli jésté, í k svítu nezachodímomu prišédše, prísno blážími jésté."},
-      {"TEXT": "Ótčeskuju ńpostásnuju ímívše premúdrosť, učenicý Christóvy, vsích vás úmudrjájuščuju, bújstvom propovídanija mír úmudríli jésté, í k rázumu Božéstvennomu privedóste."},
+      {"TEXT": "Ótčeskuju ýpostásnuju ímívše premúdrosť, učenicý Christóvy, vsích vás úmudrjájuščuju, bújstvom propovídanija mír úmudríli jésté, í k rázumu Božéstvennomu privedóste."},
       {"TITLE": "Mučeničen", "TEXT": "Múki preterpívše, jákože bezplótniji Christóvy stradáľcy, í vsjá bezplótnyja vrahí krípko pobidíli jésté. ťím blážími jésté vo víki dostójno, vsechváľniji."},
       {"TEXT": "Trójci poklonímsja, so Ótcém Sýnu, í Dúchu právomu vírniji, nerazďíľňij, í nerazlúčňij, í soprestóľňij jédínici, vopijúšče: svjat, svjat, svjat jésí, Trójce vsečestnája."},
       {"TEXT": "Blážím ťá prečestaja, jákože proreklá jésí, Boha vo vo plóti rodilá jésí, jéhóže propovída lík ápóstoľskij: s nímiže ísprosí nám prehrišénij razrišénije, vsepítaja."}

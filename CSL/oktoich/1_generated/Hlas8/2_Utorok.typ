@@ -82,7 +82,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Vódu prošéd jako súšu, í jéhńpetskaho zlá ízbižáv, Izráiľťanin vopijáše: ízbáviteľu í Bohu nášemu pojím."),
+    jObj4("Írmós",none, "", "Vódu prošéd jako súšu, í jéhýpetskaho zlá ízbižáv, Izráiľťanin vopijáše: ízbáviteľu í Bohu nášemu pojím."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -213,7 +213,7 @@
     gText("Presvjatája Bohoródice Spasí nás."),
 
     sText("1:"),
-    jObj4("",none, "", "Tjážkija boľízni vozdajánija óbritóch, í mnóhim nedúhom óderžím boľú: no moľú ťa Bohoródice, pomozí mi, í podážď zdrávije vskóri tvojími molitvami."),
+    jObj4("",none, "", "Ťážkija boľízni vozdajánija óbritóch, í mnóhim nedúhom óderžím boľú: no moľú ťa Bohoródice, pomozí mi, í podážď zdrávije vskóri tvojími molitvami."),
 
     sText("2:"),
     jObj4("",none, "", "Blážénnaja Ďivo, pribížišče skorbjáščich vsích vírnych, ot vsjákaho ískušénija í pečáli í zlóby zavíďaščich mňí ízmí, í ot hrích í razlíčnych nedúh ízbávi."),
@@ -221,7 +221,7 @@
     // S:
     col2(gText(translation.at("S"))),
     "",
-    jObj4("",none, "", "Zlatokovánnaja stámno, íz nejáže ístečé mńro životvórnoje vírnym, otimí duší mojejá í ťíla nedúh, í prehrišénij skvérnu, zastupléňmi tvojími čestaja Bohorodíteľnice."),
+    jObj4("",none, "", "Zlatokovánnaja stámno, íz nejáže ístečé mýro životvórnoje vírnym, otimí duší mojejá í ťíla nedúh, í prehrišénij skvérnu, zastupléňmi tvojími čestaja Bohorodíteľnice."),
 
     // I:
     col2(gText(translation.at("IN"))),
@@ -307,7 +307,7 @@
     
     // Sidalen 2, 1
     sText("1:"),
-    jObj4("",none, "", "Jáko bludníca pripádaju tí, da prijimú óstavlénije, í vmísto mńra slézy ot sérdca prinošú ti: da jáko ónuju úščédriši mjá Spase, í podási mí óčiščénije hrichóv. jáko ónaja bo zovú ti: ízbávi mjá ot timínija ďíl mojích."),
+    jObj4("",none, "", "Jáko bludníca pripádaju tí, da prijimú óstavlénije, í vmísto mýra slézy ot sérdca prinošú ti: da jáko ónuju úščédriši mjá Spase, í podási mí óčiščénije hrichóv. jáko ónaja bo zovú ti: ízbávi mjá ot timínija ďíl mojích."),
     
     // Sidalen 2, 2
     sText("2:"),
@@ -479,7 +479,7 @@
     sText(super("1")),
     jObj4("Írmós",none, "", "Jákože proróka ízbávil jésí íz hlubiný preispódnija Christé Bože, í mené ot hrichóv mojích ízbávi jáko čelovikoľúbec, í úprávi živót mój, moľúsja."),
     sText("1:"),
-    jObj4("",none, "", "Kájuščasja prijimí mja, jákože ínohdá nijneníťany, vírovavšyja Božéstvenňij própovidi, Christé, proróka tvojehó: í ókormí živót mój, moľúsja tí."),
+    jObj4("",none, "", "Kájuščasja prijimí mja, jákože ínohdá nijneyíťany, vírovavšyja Božéstvenňij própovidi, Christé, proróka tvojehó: í ókormí živót mój, moľúsja tí."),
     sText("2:"),
     jObj4("",none, "", "Jáko mytár vozdycháju, jákože bludníca slezjú, jáko pétr vopijú, mnóhimi pohružájem prehrišéniji Christé: pómošči mí rúku dážď, í Spasí mja."),
     sText("3:"),
@@ -576,7 +576,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Bláhoslovén Hospod Boh Izráilev, vozdvíhnuvyj róh Spasénija nám, v domú Davidovi ótroka svojehó. v níchže posití nás vostók s vysotý, í naprávil ný jésť na púť míra."),
+    jObj4("Írmós",none, "", "Bláhoslovén Hospoď Boh Izráilev, vozdvíhnuvyj róh Spasénija nám, v domú Davidovi ótroka svojehó. v níchže posití nás vostók s vysotý, í naprávil ný jésť na púť míra."),
     sText("1:"),
     jObj4("",none, "", "Da í áz Spasájem bláhodárstvenno tebé, Christé, veličáju, prízri na mjá mnóhi rány na pleščú prijémšaho, í íscilí, vijnó na ních í jéléj vozlivája, tvojehó Spase bláhoutróbija poznánije."),
     sText("2:"),
@@ -616,7 +616,7 @@
     sText("3:"),
     gText("Chvalíte jéhó v kymváľich dobrohlásnych, chvalíte jéhó v kymváľich vosklicánija: vsjákoje dychánije da chválit Hospoda."),
     "",
-    jObj4("",none, "", "Slézy mí dážď Bože, jákože ínohdá žeňí hríšnici, í spodóbi mjá ómočíti nózi tvoí, jáže mjá ot putí prélesti svobodívšyja, í mńro bláhouchánija tebí prinosíti žitijé čísto, pokajánijem mí sozdánoje, da úslýšu í áz želájemyj tvój hlás: víra tvojá Spasé ťa, ídí v míri."),
+    jObj4("",none, "", "Slézy mí dážď Bože, jákože ínohdá žeňí hríšnici, í spodóbi mjá ómočíti nózi tvoí, jáže mjá ot putí prélesti svobodívšyja, í mýro bláhouchánija tebí prinosíti žitijé čísto, pokajánijem mí sozdánoje, da úslýšu í áz želájemyj tvój hlás: víra tvojá Spasé ťa, ídí v míri."),
 
     // CH Stich na 2
     sText("2:"),

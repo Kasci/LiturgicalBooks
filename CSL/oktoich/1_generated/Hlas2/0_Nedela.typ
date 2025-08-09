@@ -41,7 +41,7 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("Dohmátijk",none, "", "Ó prevélija táinstva! zrjá čudesá, propovíduju Božestvó, Jémmanúil bo jéstestvá ubo vratá otvérze jako čelovikoľúbec, ďívstva že kľučí ne razruší jako Boh: no síce ot útróby prójde, jakože slúchom vníde: táko voplotísja, jakože začátsja: bezstrástno vníde, neskazánno ízýde, po proróku hlahóľuščemu: sijá vratá zakľučéna búdut: niktóže prójdet imi, tókmo jédín Hospod Boh Izráilev, ímíjaj véliju mílosť."),
+    jObj4("Dohmátijk",none, "", "Ó prevélija táinstva! zrjá čudesá, propovíduju Božestvó, Jémmanúil bo jéstestvá ubo vratá otvérze jako čelovikoľúbec, ďívstva že kľučí ne razruší jako Boh: no síce ot útróby prójde, jakože slúchom vníde: táko voplotísja, jakože začátsja: bezstrástno vníde, neskazánno ízýde, po proróku hlahóľuščemu: sijá vratá zakľučéna búdut: niktóže prójdet imi, tókmo jédín Hospoď Boh Izráilev, ímíjaj véliju mílosť."),
   ))
   ==== #translation.at("STICHOVNI")
   #generateTable((
@@ -146,7 +146,7 @@
     sText("1:"),
     jObj4("",none, "", "Voskresnije tvojé Christé Spase, vsjú prosvití vselénnuju í prizvál jésí tvojé sozdánije: vsesíľne Hospodi sláva tebí."),
     "",
-    gText(jObj4("",none, "", "Hospod vocarísja, v ľípotu óblečésja.")),
+    gText(jObj4("",none, "", "Hospoď vocarísja, v ľípotu óblečésja.")),
     
     // S Stich na 2
     sText("2:"),
@@ -196,7 +196,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Vo hlubiňí postlá ínohdá, faraonítskoje vsevóinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jesť, preproslávlennyj Hospod, slávno bo proslávisja."),
+    jObj4("Írmós",none, "", "Vo hlubiňí postlá ínohdá, faraonítskoje vsevóinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jesť, preproslávlennyj Hospoď, slávno bo proslávisja."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -404,7 +404,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Vo hlubiňí postlá ínohdá, faraonítskoje vsevóinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jesť, preproslávlennyj Hospod, slávno bo proslávisja."),
+    jObj4("Írmós",none, "", "Vo hlubiňí postlá ínohdá, faraonítskoje vsevóinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jesť, preproslávlennyj Hospoď, slávno bo proslávisja."),
     sText(translation.at("PR")),
     gText("Presvjatája Trójce Bože náš, sláva tebí."),
 
@@ -452,7 +452,7 @@
   #generateTable((
 
     sText($#sym.dot$),
-    jObj4("",none, "Bláhoutróbija:", "Jehdá v načáľi Ádáma sozdál jésí Hospodi, tohdá Slóvu tvojemú ńpostásnomu vozopíl jésí bláhoutróbne: sotvorím po nášemu podóbiju, Dúch že svjatýj soprisútstvovaše soďíteľ. ťímže vopijém tí: tvórče Bože náš, sláva tebí."),
+    jObj4("",none, "Bláhoutróbija:", "Jehdá v načáľi Ádáma sozdál jésí Hospodi, tohdá Slóvu tvojemú ýpostásnomu vozopíl jésí bláhoutróbne: sotvorím po nášemu podóbiju, Dúch že svjatýj soprisútstvovaše soďíteľ. ťímže vopijém tí: tvórče Bože náš, sláva tebí."),
 
     // S:I:
     col2(gText(translation.at("SI"))),
@@ -476,7 +476,7 @@
     // S:
     col2(gText(translation.at("S"))),
     "",
-    jObj4("",none, "", "Jedínicy načáľnyja nesmísna trí líca vospivájem, jako svójstvenňi ímúščaja, í razďíľňi ńpostási: no ubo sojedinéna í nerazďíľna, v sovíťi že, í slávi, í Božeství."),
+    jObj4("",none, "", "Jedínicy načáľnyja nesmísna trí líca vospivájem, jako svójstvenňi ímúščaja, í razďíľňi ýpostási: no ubo sojedinéna í nerazďíľna, v sovíťi že, í slávi, í Božeství."),
 
     // I:
     col2(gText(translation.at("IN"))),
@@ -645,7 +645,7 @@
     
     // Sidalen 1, 2
     sText("2:"),
-    jObj4("",none, "", "Myronósicam ženám pri hróbi predstáv Anhel vopijáše: mńra mértvym súť prilíčna, Christós že ístľínija jávísja čúžď. no vozopíjte: voskrese Hospod, podajá mírovi véliju mílosť."),
+    jObj4("",none, "", "Myronósicam ženám pri hróbi predstáv Anhel vopijáše: mýra mértvym súť prilíčna, Christós že ístľínija jávísja čúžď. no vozopíjte: voskrese Hospoď, podajá mírovi véliju mílosť."),
     
     // S:I:
     col2(gText(translation.at("SI"))),
@@ -666,20 +666,20 @@
     // S:I:
     col2(gText(translation.at("SI"))),
     "",
-    jObj4("Bohoródičen",none, "", "Prebláhoslovénna jésí Bohoródice Ďivo, voplóščšim bo sja íz tebé ád pľinísja, Ádám vozzvásja, kľátva potrebísja, jéna svobodísja, smérť úmertvísja, í mý óžíchom. ťím vospivájušče vopijém: bláhoslovén Christós Boh bláhovolívyj táko, sláva tebí."),
+    jObj4("Bohoródičen",none, "", "Prebláhoslovénna jésí Bohoródice Ďivo, voplóščšim bo sja íz tebé ád pľinísja, Ádám vozzvásja, kľátva potrebísja, jéya svobodísja, smérť úmertvísja, í mý óžíchom. ťím vospivájušče vopijém: bláhoslovén Christós Boh bláhovolívyj táko, sláva tebí."),
   ))
   ==== #translation.at("YPAKOJ")
   #generateTable((
 
     sText($#sym.dot$),
-    jObj4("",none, "", "Po strásti šédša vo hrób žený, vo jéže pomázati ťílo tvojé Christé Bože, víďiša Anhely vo hróbi, í úžasóšasja: hlás bo slýšachu ot ních, jáko voskrese Hospod, dáruja mírovi véliju mílosť."),
+    jObj4("",none, "", "Po strásti šédša vo hrób žený, vo jéže pomázati ťílo tvojé Christé Bože, víďiša Anhely vo hróbi, í úžasóšasja: hlás bo slýšachu ot ních, jáko voskrese Hospoď, dáruja mírovi véliju mílosť."),
   ))
   ==== #translation.at("STEPENNY")
   ===== #translation.at("ANTIFON") 1
   #generateTable((
 
     sText("1:"),
-    jObj4("",none, "", "Na nebeo óči puščáju mojehó sérdca, k tebí Spase, Spasí mja tvojím ósijánijem."),
+    jObj4("",none, "", "Na nebo óči puščáju mojehó sérdca, k tebí Spase, Spasí mja tvojím ósijánijem."),
 
     sText("2:"),
     jObj4("",none, "", "Pomíluj nás sohrišájuščich tebí mnóho, na vsjákij čás, o Christé mój, í dážď óbraz préžde koncá pokájatisja tebí."),
@@ -693,7 +693,7 @@
   #generateTable((
 
     sText("1:"),
-    jObj4("",none, "", "Ášče ne Hospod by býl v nás, któ dovólen cíl sochranén býti ot vrahá, kúpno í čelovikoubíjcy;"),
+    jObj4("",none, "", "Ášče ne Hospoď by býl v nás, któ dovólen cíl sochranén býti ot vrahá, kúpno í čelovikoubíjcy;"),
 
     sText("2:"),
     jObj4("",none, "", "Zubóm ích ne predážď Spase, tvojehó rabá: íbo ľvóvym óbrazom na mjá podvizájutsja vrazí moí."),
@@ -731,7 +731,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Vo hlubiňí postlá ínohdá, faraonítskoje vsevóinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jesť, preproslávlennyj Hospod, slávno bo proslávisja."),
+    jObj4("Írmós",none, "", "Vo hlubiňí postlá ínohdá, faraonítskoje vsevóinstvo preoružénnaja síla, voplóščšejesja že Slóvo vsezlóbnyj hrích potrebílo jesť, preproslávlennyj Hospoď, slávno bo proslávisja."),
     sText(translation.at("PR")),
     gText("Sláva Hospodi svjatómu voskreséniju tvojemú."),
     sText("1:"),
@@ -765,7 +765,7 @@
     sText("1:"),
     jObj4("",none, "", "Neveščéstvennaja drévle ľístvica, í stránno óledeňívšij púť mórja, tvojé jávľáše roždestvó čestaja, jéže pojém vsí: jáko proslávisja."),
     sText("2:"),
-    jObj4("",none, "", "Síla výšňaho, ńpostás soveršénnaja, Božija múdrosť, voplóščšisja prečestaja, íz tebé, k čelovíkom besídova jáko proslávisja."),
+    jObj4("",none, "", "Síla výšňaho, ýpostás soveršénnaja, Božija múdrosť, voplóščšisja prečestaja, íz tebé, k čelovíkom besídova jáko proslávisja."),
     sText("3:"),
     jObj4("",none, "", "Prójde skvozí dvér neprochódnuju, zakľučénnyja útróby tvojejá, právdy Sólnce čestaja, í mírovi vozsijá: jáko proslávisja."),
   ))
@@ -825,7 +825,7 @@
     sText("2:"),
     jObj4("",none, "", "Strástiju tvojéju Christé, vrahú óskuďíša órúžija, protívnym že jéže vo ád schoždénijem tvojím, hrády razrušíšasja, í mučíteleva dérzosť nizložéna býsť."),
     sText("3:"),
-    jObj4("Bohoródičen",none, "", "Tjá pristánišče Spasénija, í sťínu nedvížimu, Bohoródice Vladíčice, vsí vírniji svímy: tý bo molitvami tvojími ízbavľáješi ot bíd dúšy náša."),
+    jObj4("Bohoródičen",none, "", "Ťá pristánišče Spasénija, í sťínu nedvížimu, Bohoródice Vladíčice, vsí vírniji svímy: tý bo molitvami tvojími ízbavľáješi ot bíd dúšy náša."),
   ))
   ====== Kanón krestovoskrésen
   #generateTable((
@@ -863,7 +863,7 @@
     sText(translation.at("PR")),
     gText("Sláva Hospodi svjatómu voskreséniju tvojemú."),
     sText("1:"),
-    jObj4("",none, "", "Jáko kédry Christé, jázýkov šatánije sokrušíl jésí vóleju Vladýko: jáko ízvólil jésí na kyparísi, í na pénki, í kédri, plótiju sovozvyšájem."),
+    jObj4("",none, "", "Jáko kédry Christé, jázýkov šatánije sokrušíl jésí vóleju Vladýko: jáko ízvólil jésí na kyparísi, í na péyki, í kédri, plótiju sovozvyšájem."),
     sText("2:"),
     jObj4("",none, "", "V róvi Christé preispódňim položíša ťá bezdychánna mértva: no tvojéju jázvoju zabvénnyja mértvyja, íže vo hrobích spjáščyja, újázven s sobóju voskresíl jésí."),
     sText("3:"),
@@ -991,9 +991,9 @@
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice, Spasí nás."),
     sText("1:"),
-    jObj4("",none, "", "Zrjáše v noščí úbo íákov, jáko v hadániji Boha voploščénna, íz tebé že svítlostiju jávísja pojúščym: prebožéstvennyj ótcév Boh, í preproslávlen."),
+    jObj4("",none, "", "Zrjáše v noščí úbo Jákov, jáko v hadániji Boha voploščénna, íz tebé že svítlostiju jávísja pojúščym: prebožéstvennyj ótcév Boh, í preproslávlen."),
     sText("2:"),
-    jObj4("",none, "", "Známenija jáže v tebí neizrečénnaho projavľája sňátija, so íákovom bóretsja: ímže vóleju sojedinísja čelovíkom čestaja: prebožéstvennyj ótcév Boh, í preproslávlen."),
+    jObj4("",none, "", "Známenija jáže v tebí neizrečénnaho projavľája sňátija, so Jákovom bóretsja: ímže vóleju sojedinísja čelovíkom čestaja: prebožéstvennyj ótcév Boh, í preproslávlen."),
     sText("3:"),
     jObj4("",none, "", "Mérzok íže ne propovídujet ťá Ďivy Sýna, jédínaho ot prepítyja Trójcy nesumňínnoju víroju, í jázýkom vopijá: prebožéstvennyj ótcév Boh, í preproslávlen."),
   ))
@@ -1045,7 +1045,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Beznačáľna rodíteľa Sýn, Boh í Hospod, voplóščsja ot Ďivy nám jávísja, ómračénnaja prosvitíti, sobráti rastočénnaja: ťím vsepítuju Bohoródicu veličájem."),
+    jObj4("Írmós",none, "", "Beznačáľna rodíteľa Sýn, Boh í Hospoď, voplóščsja ot Ďivy nám jávísja, ómračénnaja prosvitíti, sobráti rastočénnaja: ťím vsepítuju Bohoródicu veličájem."),
     sText(translation.at("PR")),
     gText("Sláva Hospodi svjatómu voskreséniju tvojemú."),
     sText("1:"),
@@ -1112,7 +1112,7 @@
     sText("4:"),
     gText("Chvalíte jéhó v tympáňi í líci, chvalíte jéhó vo strúnach í órháňi."),
     "",
-    jObj4("",none, "", "Vozlijáša mńra so slezámi na hrób tvój žený, í íspólnišasja rádosti ústá ích, vnehdá hlahólati: voskrese Hospod."),
+    jObj4("",none, "", "Vozlijáša mýra so slezámi na hrób tvój žený, í íspólnišasja rádosti ústá ích, vnehdá hlahólati: voskrese Hospoď."),
 
     // CH Stich na 3
     sText("3:"),
@@ -1194,14 +1194,14 @@
   ==== #translation.at("PROKIMEN")
   #generateTable((
     sText($#sym.dot$),
-    jObj4("",none, "", "Kríposť mojá í pínije mojé Hospod, í býsť mňí vo Spasénije."),
+    jObj4("",none, "", "Kríposť mojá í pínije mojé Hospoď, í býsť mňí vo Spasénije."),
     sText(translation.at("VV")),
-    jObj4("",none, "", "Nakazúja nakazá mja Hospod, smérti že ne predadé mja."),
+    jObj4("",none, "", "Nakazúja nakazá mja Hospoď, smérti že ne predadé mja."),
   ))
   ===== #translation.at("ALLILUJA")
   #generateTable((
     sText($#sym.dot$),
-    jObj4("",none, "", "Úslýšit ťá Hospod v déň pečáli, zaščítit ťá ímja Boha íákovľa."),
+    jObj4("",none, "", "Úslýšit ťá Hospoď v déň pečáli, zaščítit ťá ímja Boha Jákovľa."),
     sText(translation.at("VV")),
     jObj4("",none, "", "Hospodi Spasí cer﻿já, í úslýši ný, vóňže ášče déň prizovém ťá."),
   ))

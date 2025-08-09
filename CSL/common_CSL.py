@@ -18,7 +18,7 @@ stichiry_Stichovni = {
     {"TEXT": "Licú tvojemú pomóľatsja bohátiji ľúdstiji."},
   ],
   "0": [
-    {"TEXT": "Hospod vocarísja, v ľípotu óblečésja."},
+    {"TEXT": "Hospoď vocarísja, v ľípotu óblečésja."},
     {"TEXT": "Íbo útverdí vselénnuju, jáže ne podvížitsja."},
     {"TEXT": "Dómu tvojemú podobájet svjatýňa Hospodi, v dolhotú dníj."},
   ],

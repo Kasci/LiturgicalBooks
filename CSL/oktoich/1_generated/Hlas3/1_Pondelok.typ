@@ -87,15 +87,15 @@
     gText("Presvjatája Bohoródice Spasí nás."),
 
     sText("1:"),
-    jObj4("",none, "", "Velikoimenítaja jédína, presvjatája Ďivo Maríe cheruvím slávňijšaja Davidova dščí, í dobróta íákovľa, Mati Boha nášeho: vozvelíčisja ziló sláva tvojá, í mý vsí ťa víroju slávim."),
+    jObj4("",none, "", "Velikoimenítaja jédína, presvjatája Ďivo Maríe cheruvím slávňijšaja Davidova dščí, í dobróta Jákovľa, Mati Boha nášeho: vozvelíčisja ziló sláva tvojá, í mý vsí ťa víroju slávim."),
 
     sText("2:"),
-    jObj4("",none, "", "Propénšaho Slóvom nebeo jako kóžu, tvojíma rukáma jako čelovíka nosíla jésí: sehó ubo molí neizmínno čestaja strastéj bezslovésija dúšu mojú ízbáviti, í ot vsjákija skórbi."),
+    jObj4("",none, "", "Propénšaho Slóvom nebo jako kóžu, tvojíma rukáma jako čelovíka nosíla jésí: sehó ubo molí neizmínno čestaja strastéj bezslovésija dúšu mojú ízbáviti, í ot vsjákija skórbi."),
 
     // S:
     col2(gText(translation.at("S"))),
     "",
-    jObj4("",none, "", "Jaže préžde vsích vík, pronarečénnaja Ďivo, cerjá slávy porfńra prečestaja: v ňúže óbléklsja v posľídňaja vremená, pokrý kóžnyja rízy Ádáma práotca, í mené nýňi pokrýj."),
+    jObj4("",none, "", "Jaže préžde vsích vík, pronarečénnaja Ďivo, cerjá slávy porfýra prečestaja: v ňúže óbléklsja v posľídňaja vremená, pokrý kóžnyja rízy Ádáma práotca, í mené nýňi pokrýj."),
 
     // I:
     col2(gText(translation.at("IN"))),
@@ -111,7 +111,7 @@
     gText("Presvjatája Bohoródice Spasí nás."),
 
     sText("1:"),
-    jObj4("",none, "", "Iže ohnennym vladýčestvom Vladýka í Hospod tvój Sýn narečésja čestaja: ťímže ízbávi mjá Vladíčice, strástnych rabót tvojími molitvami."),
+    jObj4("",none, "", "Iže ohnennym vladýčestvom Vladýka í Hospoď tvój Sýn narečésja čestaja: ťímže ízbávi mjá Vladíčice, strástnych rabót tvojími molitvami."),
 
     sText("2:"),
     jObj4("",none, "", "Ot búri plotskích strastéj ízbávi mjá rabá tvojehó skóro prečestaja, tišinú róždši Spasénija, í ístóčnik bezstrástija."),
@@ -138,7 +138,7 @@
     jObj4("",none, "", "Prijíde na mjá plotskáho mudrovánija bráň, í pľiňáet mojú dúšu: no iže vsják um preimúščij mír róždšaja, tvój mír Vladíčice podážď mí."),
 
     sText("2:"),
-    jObj4("",none, "", "Mńro umnoje íz čréva ístočíla jésí míru: ťímže ot skvérn strastéj dúšu mojú svobodí, í dážď mí, prečestaja, bezstrástija mńro tvojími molitvami."),
+    jObj4("",none, "", "Mýro umnoje íz čréva ístočíla jésí míru: ťímže ot skvérn strastéj dúšu mojú svobodí, í dážď mí, prečestaja, bezstrástija mýro tvojími molitvami."),
 
     // S:
     col2(gText(translation.at("S"))),
@@ -148,7 +148,7 @@
     // I:
     col2(gText(translation.at("IN"))),
     "",
-    jObj4("",none, "", "Jena ubo préžde neuderžánno vvedé smérť: tý že Ďivstvom čestym istinnuju žízň vvelá jésí. ťímže smérti mjá hrichóvnyja ízbávi, tvojími molitvami."),
+    jObj4("",none, "", "Jeya ubo préžde neuderžánno vvedé smérť: tý že Ďivstvom čestym istinnuju žízň vvelá jésí. ťímže smérti mjá hrichóvnyja ízbávi, tvojími molitvami."),
   ))
   ===== #translation.at("PIESEN") 5
   #generateTable((
@@ -578,7 +578,7 @@
     sText(super("1")),
     jObj4("Írmós",none, "", "Na sijnájsťij horí víďi ťá v kupiňí moyséj, neopáľno óhň Božestvá začénšuju vo črévi: danijíl že ťá víďi hóru nesikómuju, žézl prozjábšij, ísáija vzyváše, ot kórene Davidova."),
     sText("1:"),
-    jObj4("",none, "", "Íákov pérvenstvo priját, rádi vozderžánija ínohdá, ísán že staríjšinstvo otdadé, ne úderžáv črévo. kóľ zló nevozderžánije, í kóľ velíko vozderžánije! bíhaj nepodóbija, vozľubí, o dušé, dóbrych pribavlénije."),
+    jObj4("",none, "", "Jákov pérvenstvo priját, rádi vozderžánija ínohdá, ísáy že staríjšinstvo otdadé, ne úderžáv črévo. kóľ zló nevozderžánije, í kóľ velíko vozderžánije! bíhaj nepodóbija, vozľubí, o dušé, dóbrych pribavlénije."),
     sText("2:"),
     jObj4("",none, "", "Jáko mnóhaja preterpív neporóčnyj, vinčásja íov: ískušénij bo stékšesja potócy, ne pokolebáša jémú serdéčnaho stolpá. tomú revnúj vsehdá, neprelóžna prebyvájušči, o dušé, lukávaho kozňmí."),
     sText("3:"),
@@ -601,7 +601,7 @@
     sText("3:"),
     jObj4("",none, "", "Ravnosíľnuju Trójcu sláviti spodóbľšesja jásno, tojá sijánijem pérvie ósviščájemi, ósvitítisja vtorým sijánijem spodóbite nás, íže vás bláhočéstno veličájuščich."),
     sText("4:"),
-    jObj4("Bohoródičen",none, "", "Tjá nášeho Spasénija ósnovánije vsí vímy: tvojé bo prečestoje roždestvó Spasló jésť, króviju Bohoďíteľnoju, pojúščyja ťá Bohoródice, í vírno slávjaščyja."),
+    jObj4("Bohoródičen",none, "", "Ťá nášeho Spasénija ósnovánije vsí vímy: tvojé bo prečestoje roždestvó Spasló jésť, króviju Bohoďíteľnoju, pojúščyja ťá Bohoródice, í vírno slávjaščyja."),
   ))
   ==== #translation.at("STICHOVNI")
   #generateTable((

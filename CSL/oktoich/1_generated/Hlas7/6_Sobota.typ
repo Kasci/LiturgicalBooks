@@ -54,7 +54,7 @@
     
     // S Stich na 2
     sText("2:"),
-    jObj4("",none, "", "Vsechváľniji mučenicy, óvčáta Dúchóvnaja, vsesožžénija slovésnaja, žértva prijátna bláhouhódna Bohu, vás ni zemľá potaíla jesť, no nebeo priját vý, Anhelom sopričástnicy býste. s nímiže molíte, mólim vý, Spasa í Boha nášeho, úmiríti mír, í Spastí dúšy náša."),
+    jObj4("",none, "", "Vsechváľniji mučenicy, óvčáta Dúchóvnaja, vsesožžénija slovésnaja, žértva prijátna bláhouhódna Bohu, vás ni zemľá potaíla jesť, no nebo priját vý, Anhelom sopričástnicy býste. s nímiže molíte, mólim vý, Spasa í Boha nášeho, úmiríti mír, í Spastí dúšy náša."),
     "",
     gText(jObj4("",none, "", "Dúšy ích vo bláhích vodvorjátsja.")),
     
@@ -117,7 +117,7 @@
     gText("Presvjatája Bohoródice Spasí nás."),
 
     sText("1:"),
-    jObj4("",none, "", "Tjá moľú Ďivo, Spasénije duší mojéj, í óčiščénije podážď, í bláhodáť nezavístnu, jako siľná í bláha, í jako čelovikoľubíva ótrokovíca, í žízni netľínnyja spodóbi."),
+    jObj4("",none, "", "Ťá moľú Ďivo, Spasénije duší mojéj, í óčiščénije podážď, í bláhodáť nezavístnu, jako siľná í bláha, í jako čelovikoľubíva ótrokovíca, í žízni netľínnyja spodóbi."),
 
     sText("2:"),
     jObj4("",none, "", "Nelóžnoje Spasénije í predstáteľnice míra, róždšaja ziždíteľa čestaja Ďivo, ot bíd ízbávi vospivájuščich ťá vírno, í napástej žitijá, í víčnaho ósuždénija."),
@@ -202,7 +202,7 @@
     // I:
     col2(gText(translation.at("IN"))),
     "",
-    jObj4("",none, "", "Tjá oblak lehók drévle zrít, prosviščájem dúchom prorók ísáija, na némže síde slávy Hospod, prijíde, í nizloží jéhńpetskija vsjá ístukánnyja, Ďivo Mati prečestaja."),
+    jObj4("",none, "", "Ťá oblak lehók drévle zrít, prosviščájem dúchom prorók ísáija, na némže síde slávy Hospoď, prijíde, í nizloží jéhýpetskija vsjá ístukánnyja, Ďivo Mati prečestaja."),
   ))
   ===== #translation.at("SIDALEN")
   #generateTable((
@@ -335,7 +335,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Pospíšestvovavšemu Bohu vo jéhńpťi moyséovi, ízvestí Izráiľa, tomú jédínomu pojím, jáko proslávisja."),
+    jObj4("Írmós",none, "", "Pospíšestvovavšemu Bohu vo jéhýpťi moyséovi, ízvestí Izráiľa, tomú jédínomu pojím, jáko proslávisja."),
     sText("1:"),
     jObj4("",none, "", "Lík mučenik neľstívych vsjá prélesti pobidí borcá, likújet rádujasja pred licém sozdávšaho í."),
     sText("2:"),
@@ -358,7 +358,7 @@
     sText("2:"),
     jObj4("",none, "", "Zarjú nepristúpnaho í trisólnečnaho sijánija úlučíti spodóbi prestávľšyjasja rabý tvojá, mnohomílostive Hospodi, otňúduže otbižé vsjáka boľízň, í pečáľ, í vozdychánije."),
     sText("3:"),
-    jObj4("",none, "", "Úmerščvlénijem ósuždénoje jéstestvó, živót ńpostásnyj, žiznodávče sám sýj Christé, vozdvíhl jésí: ťímže jáko jédín ščédr, víroju k tebí prestávľšyjasja úpokój."),
+    jObj4("",none, "", "Úmerščvlénijem ósuždénoje jéstestvó, živót ýpostásnyj, žiznodávče sám sýj Christé, vozdvíhl jésí: ťímže jáko jédín ščédr, víroju k tebí prestávľšyjasja úpokój."),
     sText("4:"),
     jObj4("",none, "", "Í správila jésí prečestaja, pramáterneje padénije, róždši Hospoda Slóva, sijú voskresívšaho, í súščym vo hrobích vdochnúvša živót, vlástiju Božéstvennoju."),
   ))
@@ -457,9 +457,9 @@
     sText("2:"),
     jObj4("",none, "", "Ot neiznurímych sokróvišč, prolivájaj bláhoutróbije Spase, dúšy jáže prestávil jésí, s pervoródnymi tvojími v žilíščach nebésnych bláhovolí vodvorítisja."),
     sText("3:"),
-    jObj4("",none, "", "Tjahotú otložívšyja, í ot úz razrišívšyjasja, í k výšnemu životú rabý tvojá prešédšyja Christé, naslaždátisja tvojích svjatých svítlostej Spase, bláhoizvóli."),
+    jObj4("",none, "", "Ťahotú otložívšyja, í ot úz razrišívšyjasja, í k výšnemu životú rabý tvojá prešédšyja Christé, naslaždátisja tvojích svjatých svítlostej Spase, bláhoizvóli."),
     sText("4:"),
-    jObj4("",none, "", "Vladíčice Bohomáti, mojích sohrišénij razrišénije podážď, í dáruj mí proščénije hrichóv mojích, jáže žízň ńpostásnuju míru róždši, vseneporóčnaja."),
+    jObj4("",none, "", "Vladíčice Bohomáti, mojích sohrišénij razrišénije podážď, í dáruj mí proščénije hrichóv mojích, jáže žízň ýpostásnuju míru róždši, vseneporóčnaja."),
   ))
   ===== #translation.at("PIESEN") 6
   ====== Kanón svjatým mučenikom, í svjatítelem, í prepodóbnym í úsópšym

@@ -208,7 +208,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Prevoznosímyj ótcév Hospod, plámeň úhasí, otroki órosí sohlásno pojúščyja: Bože, bláhoslovén jésí."),
+    jObj4("Írmós",none, "", "Prevoznosímyj ótcév Hospoď, plámeň úhasí, otroki órosí sohlásno pojúščyja: Bože, bláhoslovén jésí."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -471,7 +471,7 @@
     sText("4:"),
     jObj4("",none, "", "Prestávlenyja ot nás vírnyja rabý tvojá, likóm ízbránnych sopričtáv bláže, úpokój Hospodi, vsjá ťích sohrišénija prezirája za mílosrdije."),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Sozdávyj v načátci jénu Hospodi, Ďivy v ložesná všéd, náše soďílovaješi óbnovlénije v rábij óbraz óbólksja, íže Vladýka vsjáčeskich."),
+    jObj4("Bohoródičen",none, "", "Sozdávyj v načátci jéyu Hospodi, Ďivy v ložesná všéd, náše soďílovaješi óbnovlénije v rábij óbraz óbólksja, íže Vladýka vsjáčeskich."),
   ))
   ====== Kanón úsópšym
   #generateTable((
@@ -498,7 +498,7 @@
     sText("1:"),
     jObj4("",none, "", "Vý razžizájemi ľútych mučénij óhném, ľublénije tepľíjšeje mučenicy slávniji pokazáste ko Hospodu, prochlaždájušče vás pómyslom bláhočestívym."),
     sText("2:"),
-    jObj4("",none, "", "Premúdrostiju Dúcha úkrasívšesja premúdriji, í svítlo požíste, svjaščennoďíjstvujušče bláhodáti jevanhélija, í jáko Božija služíteli pochvaľájem vás."),
+    jObj4("",none, "", "Premúdrostiju Dúcha úkrasívšesja premúdriji, í svítlo požíste, svjaščennoďíjstvujušče bláhodáti jéy-h**lija, í jáko Božija služíteli pochvaľájem vás."),
     sText("3:"),
     jObj4("",none, "", "Vý úmertvívše plóť boľízňmi mnóhimi, žízni spodóbistesja búduščija prepodóbniji, moľáščesja sijú polučíti nám úmerščvlénym strastéj priložéňmi."),
     sText("4:"),
@@ -529,7 +529,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Anhelov sónm, čelovíkov sobór, cerjá í ziždíteľa vsích, svjaščénnicy pójte, bláhoslovíte leníti, ľúdije prevoznosíte vo vsjá víki."),
+    jObj4("Írmós",none, "", "Anhelov sónm, čelovíkov sobór, cerjá í ziždíteľa vsích, svjaščénnicy pójte, bláhoslovíte leyíti, ľúdije prevoznosíte vo vsjá víki."),
     sText("1:"),
     jObj4("",none, "", "Preplývše mučénij pučínu ókormlénijem Slóva, stradáľcy krovéj tečénijem pohruzíste vsjá polkí ľstívaho, í živeté vo víki."),
     sText("2:"),
@@ -581,7 +581,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Tjá páče úmá í slovesé Matr Božiju, v ľíto bezľítnaho neizrečénno róždšuju, vírniji jédinomúdrenno veličájem."),
+    jObj4("Írmós",none, "", "Ťá páče úmá í slovesé Matr Božiju, v ľíto bezľítnaho neizrečénno róždšuju, vírniji jédinomúdrenno veličájem."),
     sText("1:"),
     jObj4("",none, "", "Stradánij svjaščénnych mučenicy, vozdajánija prijémše, darováti ťá nýňi móľat, víroju prestávlenym Spase, óslablénije."),
     sText("2:"),

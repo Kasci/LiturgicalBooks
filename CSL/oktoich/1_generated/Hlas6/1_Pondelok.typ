@@ -130,7 +130,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Christós mojá síla, Boh í Hospod, čestnája cerkov Bohoľípno pojét vzyvájušči, ot smýsla čísta, ó Hospodi prázdnujušči."),
+    jObj4("Írmós",none, "", "Christós mojá síla, Boh í Hospoď, čestnája cerkov Bohoľípno pojét vzyvájušči, ot smýsla čísta, ó Hospodi prázdnujušči."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -428,7 +428,7 @@
     
     // Kanon 2
     sText(super("2")),
-    jObj4("Írmós",none, "", "Christós mojá síla, Boh í Hospod, čestnája cerkov Bohoľípno pojét vzyvájušči, ot smýsla čísta, ó Hospodi prázdnujušči."),
+    jObj4("Írmós",none, "", "Christós mojá síla, Boh í Hospoď, čestnája cerkov Bohoľípno pojét vzyvájušči, ot smýsla čísta, ó Hospodi prázdnujušči."),
     sText("1:"),
     jObj4("",none, "", "Tlí neprijátnoje jéstestvó ímúšče, Božéstvenňijšiji úmí tvoí čestníji, prestól óbstoját, bezsmértija ťá ístóčnik nasľídovavšiji čelovikoľúbče."),
     sText("2:"),
@@ -496,7 +496,7 @@
     sText(super("2")),
     jObj4("Írmós",none, "", "Žitéjskoje móre vozdvizájemoje zrjá napástej búreju, k tíchomu pristánišču tvojemú priték vopijú ti: vozvedí ot tlí živót mój, mnohomílostive."),
     sText("1:"),
-    jObj4("",none, "", "Úmá čistotóju zrjá íákov, na ľístvici nizchoďáščja Anhely tvojá Vladýko svítlo, ízdaléča tvojemú naučášesja v plóti prišéstviju jávstvenňijše."),
+    jObj4("",none, "", "Úmá čistotóju zrjá Jákov, na ľístvici nizchoďáščja Anhely tvojá Vladýko svítlo, ízdaléča tvojemú naučášesja v plóti prišéstviju jávstvenňijše."),
     sText("2:"),
     jObj4("",none, "", "Úmá čistotóju zrjá ..."),
     sText("3:"),
@@ -535,7 +535,7 @@
     sText("3:"),
     jObj4("",none, "", "Mýslenno ó tebí Vladýko, óbraščájuščesja Anheli, nepostížno svitojavlénije tvojé prijémľut prisnosúščňi, pojúšče í hlahóľušče vsehdá: bláhoslovén jésí Bože vo víki."),
     sText("4:"),
-    jObj4("Bohoródičen",none, "", "S tobóju bláhoslovénnaja Hospod, bezplótnyj Archánhel rečé: ístľívšeje bo jéstestvó óbnovíti choťá, vo črévo tvojé vselísja čestaja, bláhoslovénnaja, jáže Boha plótiju róždšaja."),
+    jObj4("Bohoródičen",none, "", "S tobóju bláhoslovénnaja Hospoď, bezplótnyj Archánhel rečé: ístľívšeje bo jéstestvó óbnovíti choťá, vo črévo tvojé vselísja čestaja, bláhoslovénnaja, jáže Boha plótiju róždšaja."),
   ))
   ===== #translation.at("PIESEN") 8
   ====== Kanón úmilíteľnyj

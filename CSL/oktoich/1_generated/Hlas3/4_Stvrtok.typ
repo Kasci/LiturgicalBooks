@@ -388,7 +388,7 @@
     sText("4:"),
     jObj4("",none, "", "Úvý dušé mojá ókajánnaja í smirénnaja, částo sohrišájušči, í Boha prohňívajušči, káko ísprósiši proščénije zlých, íchže ne prestajéši tvorjášči;"),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Božéstvennaja ľístvice, júže víďi íákov, po néjže sníde Boh, voznosjá nás, priľížno molí so Apostoly, úščédriti nás."),
+    jObj4("Bohoródičen",none, "", "Božéstvennaja ľístvice, júže víďi Jákov, po néjže sníde Boh, voznosjá nás, priľížno molí so Apostoly, úščédriti nás."),
   ))
   ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
@@ -520,7 +520,7 @@
     sText("4:"),
     jObj4("",none, "", "Óbjuroďívšuju dúšu mojú plotskími strasťmí sóľ Božéstvennaja súšče Bohohlahóliviji Hospodni Apostoli, óčístite vírno óživľájušče."),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Dobróto íákovľa, dóbrymi mjá zráki prosvití, moľúsja, moľáščisja nýňi so Apostoly, róždšemusja ot tvojích čístych krovéj."),
+    jObj4("Bohoródičen",none, "", "Dobróto Jákovľa, dóbrymi mjá zráki prosvití, moľúsja, moľáščisja nýňi so Apostoly, róždšemusja ot tvojích čístych krovéj."),
   ))
   ====== Kanón Nijkoláju čudotvórcu
   #generateTable((
@@ -667,7 +667,7 @@
     // S:
     col2(gText(translation.at("S"))),
     "",
-    jObj4("",none, "", "Trójcy svjaščénniji propovídnicy, pétre, í pánle, márko, í lukó, matthée, símone, íákove, ándrée, Joánne, thomó, vartholomée í fijlíppe múdre, priľížno vsehdá sijú molíte, ízbávitisja nám ot vsjákaho óbstojánija."),
+    jObj4("",none, "", "Trójcy svjaščénniji propovídnicy, pétre, í páyle, márko, í lukó, matthée, símone, Jákove, ándrée, Joánne, thomó, vartholomée í fijlíppe múdre, priľížno vsehdá sijú molíte, ízbávitisja nám ot vsjákaho óbstojánija."),
 
     // I:
     col2(gText(translation.at("IN"))),

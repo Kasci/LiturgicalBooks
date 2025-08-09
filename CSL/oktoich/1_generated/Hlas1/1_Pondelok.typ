@@ -30,7 +30,7 @@
     sText("4:"),
     gText("Ot stráži útrennija do nóšči, ot stráži útrennija, da úpovájet Izráiľ na Hospoda."),
     "",
-    jObj4("",none, "", "Hrjadí vseokajánaja dušé mojá ko preblahómu, téplymi slezámi pristupí, soďíjannaja tobóju préžde sudá tvojehó vsjá íspovíduj, í mílostiva sozdáteľa, ókajánnaja, sebí soďílaj, í proščénije ísprosí, préžde dáže dvéri ne zakľučít tebí Hospod."),
+    jObj4("",none, "", "Hrjadí vseokajánaja dušé mojá ko preblahómu, téplymi slezámi pristupí, soďíjannaja tobóju préžde sudá tvojehó vsjá íspovíduj, í mílostiva sozdáteľa, ókajánnaja, sebí soďílaj, í proščénije ísprosí, préžde dáže dvéri ne zakľučít tebí Hospoď."),
     
     // Notes:
     cText[$#sym.ast.circle$],
@@ -380,7 +380,7 @@
     sText(super("1")),
     jObj4("Írmós",none, "", "Jedíne vídyj čelovíčeskaho suščestvá némošč, í mílostivno v né voobrážsja, prepojáši mjá s vysotý síloju, ježe vopíti tebí svjatýj: óduševlénnyj chráme neizrečénnyja slávy tvojejá čelovikoľúbče."),
     sText("1:"),
-    jObj4("",none, "", "Vozníkni, hrjadí, o dušé! í vozopíj sozdáteľu tvojemú, tájnaja tvojá vsjá víduščemu, í pokajánija plodý pokaží: jako da pomílujet ťá ščédryj Hospod, í óhňá víčnaho ízbávit."),
+    jObj4("",none, "", "Vozníkni, hrjadí, o dušé! í vozopíj sozdáteľu tvojemú, tájnaja tvojá vsjá víduščemu, í pokajánija plodý pokaží: jako da pomílujet ťá ščédryj Hospoď, í óhňá víčnaho ízbávit."),
     sText("2:"),
     jObj4("",none, "", "Óčísti jédíne bláže, óčísti í Spasí mja, jako mytár so stráchom zovú ti: mnóžestvom hrichóv vlekíjsja, í prekloňáem jesm ťahotóju prehrišénij, í studá bezmírnaho íspolňájajsja."),
     sText("3:"),
@@ -421,7 +421,7 @@
     sText("4:"),
     jObj4("Mučeničen",none, "", "Veľmí podvíhšesja Božéstvenniji mučenicy, óhňá bo í mečá, í ľútych vsích preterpíša tomlénije. ťích moléňmi Slóve Božij, prevelíkija ízbávi múki víčnyja, víroju pojúščyja ťá."),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Iže drévle íz Ótcá neroždénna Sýn roždéjsja, roždestvó ímí ľítnoje, íz tebé Ďivo voplóščsja, ľítnuju bráň zemnoródnych otjáti choťá bláhoutróbnyj, iže dnéj í ľít prevýše sýj."),
+    jObj4("Bohoródičen",none, "", "Iže drévle íz Ótcá neroždénna Sýn roždéjsja, roždestvó ímí ľítnoje, íz tebé Ďivo voplóščsja, ľítnuju bráň zemnoródnych oťáti choťá bláhoutróbnyj, iže dnéj í ľít prevýše sýj."),
   ))
   ====== Kanón bezplótnym
   #generateTable((
@@ -531,7 +531,7 @@
     sText("1:"),
     jObj4("",none, "", "Beznačáľnyj svít tý jésí Vladýko, ot Ótcá svíta vozsijávyj, Anhelov vóinstva svíty ústróil jésí, zercála prijémľušča, blistánije tvojé nezachodímoje: prepítyj ótcév Boh, í preproslávlen."),
     sText("2:"),
-    jObj4("",none, "", "Ród čelovíč, iže vsích Hospod, pristavléňmi Anheľskimi javi Spasáješi: sijá bo predstávil jésí vsím vírujuščym, í pravoslávno pojúščym ťá, prepítaho ótcév Boha, í preproslávlena."),
+    jObj4("",none, "", "Ród čelovíč, iže vsích Hospoď, pristavléňmi Anheľskimi javi Spasáješi: sijá bo predstávil jésí vsím vírujuščym, í pravoslávno pojúščym ťá, prepítaho ótcév Boha, í preproslávlena."),
     sText("3:"),
     jObj4("",none, "", "Jázýk í um ne móžet, Vladýko, tvojích čudés ízreščí, í ďíl bláhoľípnoje: tý bo prosvitíl jésí vsjákoje údobrénije nebésnych síl: prepítyj ótcév Boh, í preproslávlen."),
     sText("4:"),

@@ -24,33 +24,33 @@
 
 #set text(font: "Monomakh Unicode", lang: "cs", fill: black)
 
-#include("/covers/oktoich/H1_CSL.typ")
+// #include("/covers/oktoich/H1_CSL.typ")
 // #include("/covers/oktoich/H12_CSL.typ")
-// #include("/covers/oktoich/H34_CSL.typ")
+#include("/covers/oktoich/H34_CSL.typ")
 // #include("/covers/oktoich/H56_CSL.typ")
 // #include("/covers/oktoich/H78_CSL.typ")
 
-#set page(header: "")
+// #set page(header: "")
 #outline(title: "Ohlavlénije", depth: 3, indent: 2em)
 
-#counter(page).update(0)
-#set page(
-  header: context {
-    counter(page).display("1")
-  }, 
-  numbering: "1", 
-  number-align: top+right
-)
-#pagebreak()
-#include("/CSL/oktoich/1_generated/0_all/Hlas1.typ")
+// #counter(page).update(0)
+// #set page(
+//   header: context {
+//     counter(page).display("1")
+//   }, 
+//   numbering: "1", 
+//   number-align: top+right
+// )
+// #pagebreak()
+// #include("/CSL/oktoich/1_generated/0_all/Hlas1.typ")
 // #include("/CSL/oktoich/1_generated/0_all/Hlas2.typ")
-// #include("/CSL/oktoich/1_generated/0_all/Hlas3.typ")
-// #include("/CSL/oktoich/1_generated/0_all/Hlas4.typ")
+#include("/CSL/oktoich/1_generated/0_all/Hlas3.typ")
+#include("/CSL/oktoich/1_generated/0_all/Hlas4.typ")
 // #include("/CSL/oktoich/1_generated/0_all/Hlas5.typ")
 // #include("/CSL/oktoich/1_generated/0_all/Hlas6.typ")
 // #include("/CSL/oktoich/1_generated/0_all/Hlas7.typ")
 // #include("/CSL/oktoich/1_generated/0_all/Hlas8.typ")
-#pagebreak()
+// #pagebreak()
 // #pagebreak()
 // #pagebreak()
 

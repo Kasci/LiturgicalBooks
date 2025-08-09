@@ -351,7 +351,7 @@
     sText("2:"),
     jObj4("",none, "", "Pokájavsja drévle manassía ot vsejá duší, Spasésja: vozopí bo ot sredý úz svjázan ko jédínomu Vladícii. tomú revnúj dušé, í Spaséšisja údób."),
     sText("3:"),
-    jObj4("Mučeničen",none, "", "Óčés sľipotú, rúk lišénije, jázýka úrízanije, nóh že otjátije, bédr í mýšcej sokrušénije, preterpíša Božéstvenniji stradáľcy, bláhodarjášče Izráisu Christú."),
+    jObj4("Mučeničen",none, "", "Óčés sľipotú, rúk lišénije, jázýka úrízanije, nóh že oťátije, bédr í mýšcej sokrušénije, preterpíša Božéstvenniji stradáľcy, bláhodarjášče Izráisu Christú."),
     sText("4:"),
     jObj4("Mučeničen",none, "", "Vračébnica jávísja nám ráka moščéj vášich, svjatíji mučenicy vsím vírnym: íz nejáže počerpájem íscilénija, dúš že í ťilés, po dólhu vás čtúščiji prísno."),
     sText("5:"),
@@ -446,7 +446,7 @@
     sText(super("1")),
     jObj4("Írmós",none, "", "Útreňujušče vospivájem ťá Slóve, Sýne Božij jédinoródne: tvój mír dážď nám, í pomíluj ný pojúščyja ťá, í vírno poklaňájuščyjasja."),
     sText("1:"),
-    jObj4("",none, "", "Ókropív mjá pokajánija ńssópom, óčísti ot skvérn strastéj, da jávľúsja tebí číst, jéhdá chóščeši Izráise, sudíti vsjáčeskim, právednym tvojím sudóm."),
+    jObj4("",none, "", "Ókropív mjá pokajánija ýssópom, óčísti ot skvérn strastéj, da jávľúsja tebí číst, jéhdá chóščeši Izráise, sudíti vsjáčeskim, právednym tvojím sudóm."),
     sText("2:"),
     jObj4("",none, "", "Rány sohníšasja Spase preokajánnyja mojejá duší: íscilíteľu boľáščich, í dáteľu bláhích, íscilív Spasí mja, mnóhija rádi tvojejá mílosti."),
     sText("3:"),
@@ -553,7 +553,7 @@
     sText("4:"),
     jObj4("Mučeničen",none, "", "Sovlekóstesja ko stradánijem úsérdno, í k velíkim borénijem, óbnažíste vrahá, í v stúd óblekóste: ťímže na nebesích vincenóscy likújete, slávniji strástotérpcy."),
     sText("5:"),
-    jObj4("Bohoródičen",none, "", "Íákovľu ťá dobrótu, íže krásnyj dobrótoju Hospod vozľubív, vo tvojé črévo vseneporóčnaja vselísja, čelovíčeskoje suščestvó dobrótami prosvitív, páče úmá darováňmi."),
+    jObj4("Bohoródičen",none, "", "Jákovľu ťá dobrótu, íže krásnyj dobrótoju Hospoď vozľubív, vo tvojé črévo vseneporóčnaja vselísja, čelovíčeskoje suščestvó dobrótami prosvitív, páče úmá darováňmi."),
   ))
   ====== Kanón svjatómu velíkomu proróku Joánnu predtéči
   #generateTable((
@@ -576,7 +576,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Bláhoslovén Hospod Boh Izráilev, vozdvíhnuvyj róh Spasénija nám, v domú Davida ótroka svojehó, mílosrdija rádi mílosti, v níchže posití nás vostók s vysotý, í naprávil ný jésť na púť míra."),
+    jObj4("Írmós",none, "", "Bláhoslovén Hospoď Boh Izráilev, vozdvíhnuvyj róh Spasénija nám, v domú Davida ótroka svojehó, mílosrdija rádi mílosti, v níchže posití nás vostók s vysotý, í naprávil ný jésť na púť míra."),
     sText("1:"),
     jObj4("",none, "", "Sé vrémja blahoprijátno, í déň óčiščénija: óbratítisja voschoščí próčeje, o dušé, tvoríti plodý pokajánija: da ne bezplódnu ťá óbrjáščet smértnaja sikíra strášnaja, í jáko smokóvnicu drévňuju posíkši, óhňú támošnemu póslet."),
     sText("2:"),
@@ -667,7 +667,7 @@
     // S:
     col2(gText(translation.at("S"))),
     "",
-    jObj4("",none, "", "Svít í živót, í vseďíteľ, trijypostásnaja jédínica, jáko vojístinnu jésť, júže slávim: Ótc bo, í Sýn, í Dúch, jédínica í soderžáščaja vsjá, Vladýka í Hospod jédín Boh v trijéch lícach poznavájetsja."),
+    jObj4("",none, "", "Svít í živót, í vseďíteľ, trijypostásnaja jédínica, jáko vojístinnu jésť, júže slávim: Ótc bo, í Sýn, í Dúch, jédínica í soderžáščaja vsjá, Vladýka í Hospoď jédín Boh v trijéch lícach poznavájetsja."),
 
     // I:
     col2(gText(translation.at("IN"))),

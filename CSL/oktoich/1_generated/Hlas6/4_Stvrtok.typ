@@ -106,7 +106,7 @@
   #generateTable((
 
     "",
-    jObj4("Írmós",none, "", "Útverdí Hospodi, na kámeni zápovidej tvojích, podvíhšejesja sérdce mojé, jako jédín svjat jésí í Hospod."),
+    jObj4("Írmós",none, "", "Útverdí Hospodi, na kámeni zápovidej tvojích, podvíhšejesja sérdce mojé, jako jédín svjat jésí í Hospoď."),
     sText(translation.at("PR")),
     gText("Presvjatája Bohoródice Spasí nás."),
 
@@ -411,7 +411,7 @@
     
     // Kanon 1
     sText(super("1")),
-    jObj4("Írmós",none, "", "Christós mojá síla, Boh í Hospod, čestnája cerkov Bohoľípno pojét vzyvájušči, ot smýsla čísta, ó Hospodi prázdnujušči."),
+    jObj4("Írmós",none, "", "Christós mojá síla, Boh í Hospoď, čestnája cerkov Bohoľípno pojét vzyvájušči, ot smýsla čísta, ó Hospodi prázdnujušči."),
     sText("1:"),
     jObj4("",none, "", "Pristánišča bláhoutíšnaja, pristánišča nebúrnaja, k tíchomu mjá pristánišču dovedíte, prehrišénij ľútych trevolnénijem óburevájema."),
     sText("2:"),
@@ -434,7 +434,7 @@
     sText("2:"),
     jObj4("",none, "", "Sokrušíl jésí kápišča pohíbeli, Christóv úhódniče: ťímže víroju moľú ťa nijkólaje, úmá mojehó zlóbnyja kumíry potrebí."),
     sText("3:"),
-    jObj4("",none, "", "Myrodochnovénen býl jésí právednymi ďilesý Bohomúdre, í v mńrich úkrasíl jésí prestól, ótče svjatíteľu nijkólaje."),
+    jObj4("",none, "", "Myrodochnovénen býl jésí právednymi ďilesý Bohomúdre, í v mýrich úkrasíl jésí prestól, ótče svjatíteľu nijkólaje."),
     sText("4:"),
     jObj4("Bohoródičen",none, "", "Beznevístnaja Vladíčice, bláhoslovénnaja Bohorodíteľnice, pojúščyja ťá Spasáj ot vsjákaho vréda, jédína čelovíkov pomóščnice."),
   ))
@@ -599,7 +599,7 @@
     sText("2:"),
     jObj4("",none, "", "Jákože drévle úzniki ízbávil jésí ot smérti: táko í nás ízbávi ískušénij žitéjskich, nijkólaje."),
     sText("3:"),
-    jObj4("",none, "", "Tý v mńrich lykíjskich pohrebén býl jésí, mńro tóčiši vsehdá nijkólaje, zlovónija strastéj othoňája prísno."),
+    jObj4("",none, "", "Tý v mýrich lykíjskich pohrebén býl jésí, mýro tóčiši vsehdá nijkólaje, zlovónija strastéj othoňája prísno."),
     sText("4:"),
     jObj4("",none, "", "Ziždíteľa prišéstvije pri dvérech, ne ľinísja dušé mojá, no vozopíj: Nijkoláa molitvami Christé, Spasí mja."),
     sText("5:"),

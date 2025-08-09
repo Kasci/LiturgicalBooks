@@ -8,13 +8,13 @@
       {"TEXT": "Jehdá ťa na kresťí prihvoždéna Ďiva í Mati tvojá úzrí, Christé mój, sudóm zakonoprestúpnym ot íudéj na mísťi lóbňim, úvý mňí, vopijáše, Sýne mój ľubézňijšij! čtó stránnoje viďínije sijé; káko ťá ko krestú prihvoždájut ďíti nerazúmniji jévréjstiji, vsích Hospoda;"},
       {"TEXT": "Jedínu ťá vsesvjatája Vladíčice, po roždeství poznáchom vsí Ďivu javľšujusja, í jéhóže bez símene róždši, na drévi víďašči rúci svoí vóleju prihvozdívšaho, prečestaja pláčušči vzyváše: vóleju dolhoterpilíve, úmiráješi, ízbavľája vsích ot smérti pojúščich ťá."}
     ],
-    "HV_B": {"TITLE": "KrestoBohoródičen", "TEXT": "Vladície vsesvjatája Ďivo, róždšaja Hospoda, za bláhoutróbije na kresťí prihvozdívšahosja, í žízni struí ístočívša míru, tohó úmolí Spastísja dušám nášym: tebé bo jédínu imamy vírniji pribížišče, í sťínu, í zastuplénije. ťímže í pritekájem k pokróvu tvojemú."},
+    "HV_B": {"TITLE": "Krestobohoródičen", "TEXT": "Vladície vsesvjatája Ďivo, róždšaja Hospoda, za bláhoutróbije na kresťí prihvozdívšahosja, í žízni struí ístočívša míru, tohó úmolí Spastísja dušám nášym: tebé bo jédínu imamy vírniji pribížišče, í sťínu, í zastuplénije. ťímže í pritekájem k pokróvu tvojemú."},
     "S": [
       {"TEXT": "Ne ktomú vozbraňáemi jésmý dréva živótnaho, úpovánije ímúšče krest tvój: Hospodi, sláva tebí."},
       {"TEXT": "Povíšen býv na drévi bezsmértne, razrušíl jésí síti dijávoli, Hospodi sláva tebí."},
       {"TITLE": "Mučeničen", "TEXT": "Neradívše ó vsích zemných svjatíji mučenicy, í na sudíšči Christá múžeski propovídavše, vozmézdija ó múkach ot nehó prijáste: no jako ímúšče derznovénije, tohó úmolíte, jako vsesíľnaho Boha, dúšy náša Spastí, pritekájuščich k vám, mólimsja."}
     ],
-    "S_B": {"TITLE": "KrestoBohoródičen", "TEXT": "Svojehó Sýna na drévi víďašči drévle, sérdce tvojé órúžijem pečáli újazvľáše prečestaja."}
+    "S_B": {"TITLE": "Krestobohoródičen", "TEXT": "Svojehó Sýna na drévi víďašči drévle, sérdce tvojé órúžijem pečáli újazvľáše prečestaja."}
   },
   "P": {
     "1": [
@@ -29,7 +29,7 @@
       {"TEXT": "Voznésšahosja na krest, í nizlóžšaho áda, Bohoródice sehó priľížno molí ó vírno pojúščich ťá vsehdá hlásy í písňmi svjaščénnymi, nadéžde míra, í vírnych zastuplénije."},
       {"TEXT": "Výššaja nebes, í slávňijšaja cheruvím, začénši rodilá jésí Boha: ťímže molí jéhó, prehrišénij ízbáviti mjá, í ósuždénija strášnaho, tvojéju mílosrdoju moľbóju, í páče Slóva síloju tvojéju."},
       {"TEXT": "Izminívšaja čelovíki ot tlí smérti, roždestvóm tvojím Vladíčice, tľínija mjá strastéj í nedúh ízbávi, í prehrišénij ľútych: í živót nestaríjuščijsja dáruj mí, Božéstvennym chodátajstvom tvojím."},
-      {"TEXT": "Neizmínno čelovíkom úpodóbľsja po vsemú Božij Slóve, ot Ďivy čestyja prošél jésí javi, í vsím jávíl jésí Bohonačálije trisvítloje, v nerazlíčňi suščeství, neizmínnych ńpostásech."}
+      {"TEXT": "Neizmínno čelovíkom úpodóbľsja po vsemú Božij Slóve, ot Ďivy čestyja prošél jésí javi, í vsím jávíl jésí Bohonačálije trisvítloje, v nerazlíčňi suščeství, neizmínnych ýpostásech."}
     ],
     "4": [
       {"TITLE": "Írmós", "TEXT": "Otča ňídra ne óstávľ, í sošéd na zémľu Christé Bože, tájnu úslýšach smotrénija tvojehó, í proslávich ťá jédíne čelovikoľúbče."},
@@ -40,7 +40,7 @@
     ],
     "5": [
       {"TITLE": "Írmós", "TEXT": "Nóšč nesvitlá nevírnym Christé, vírnym že prosviščénije v sládosti slovés tvojích: sehó rádi k tebí utreňuju, í vospiváju tvojé Božestvó."},
-      {"TEXT": "Tjá moľú Ďivo čestaja, ot mráčnaho hrichá dúšu mojú ízbáviti, í ózaríti Božéstvennoju zaréju pokajánija mílosti tvojejá."},
+      {"TEXT": "Ťá moľú Ďivo čestaja, ot mráčnaho hrichá dúšu mojú ízbáviti, í ózaríti Božéstvennoju zaréju pokajánija mílosti tvojejá."},
       {"TEXT": "Súščyja v pučíňi ľútych napástej, í núžnych strastéj, presvjatája čestaja, tvojími molitvami í moľbámi ízbávi, í Spasí chváľaščich ťá."},
       {"TEXT": "Jaže Boha začénši vo útróbi Ďivíčesťij, í róždši Bohoródice presvjatája, ťá pojúščyja ot vsjákaho ízbávi víčnaho ósuždénija."},
       {"TEXT": "Vídušče Božiju ťá Matr čestaja, í zastúpnicu nášu, ťá chodátaicu predlahájem Spasénija nášeho ko ščédromu Hospodu."}
@@ -79,21 +79,21 @@
   },
   "U": {
     "S1": [
-      {"TEXT": "Carkov vopijét tí Christé Bože, v pénki, í kédri, í kyparísi poklaňájuščisja tebí: pobídy vírnym dáruj, Bohoródicy rádi, í pomíluj nás."},
+      {"TEXT": "Carkov vopijét tí Christé Bože, v péyki, í kédri, í kyparísi poklaňájuščisja tebí: pobídy vírnym dáruj, Bohoródicy rádi, í pomíluj nás."},
       {"TEXT": "Íže mené rádi preterpívyj, jéže na kresťí prihvoždénije, prijimí mojé bódrennoje chvalénije Christé Bože, í Spasí mja."}
     ],
-    "S1_B": {"TITLE": "KrestoBohoródičen", "TEXT": "Raspénšahosja nás rádi Christá Boha, í Boha smérti deržávu, neprestánno smérti Bohoródice Ďivo, da Spasét dúšy náša.   "},
+    "S1_B": {"TITLE": "Krestobohoródičen", "TEXT": "Raspénšahosja nás rádi Christá Boha, í Boha smérti deržávu, neprestánno smérti Bohoródice Ďivo, da Spasét dúšy náša.   "},
     "S2": [
       {"TEXT": "Óhňá svitľíjšeje, í plámene ďíjstvenňijšeje drévo pokazál jésí Christé, krestá tvojehó, popaľájuščeje hrichí čelovíkov, í prosviščájuščeje serdcá pojúščich vóľnoje tvojé raspjátije: Christé Bože, sláva tebí."},
       {"TEXT": "Óbladájaj bezplótnymi sílami, í svídyj duší mojejá ľínostnoje, krestóm tvojím Spasí mja Christé Bože, jáko čelovikoľúbec."},
       {"TITLE": "Mučeničen", "TEXT": "Rádujtesja právedniji, da veseľátsja nebésnaja: na zemlí bo mučenicy podvizávšesja, vrahá popráša: da íhrájet cerkov pobidíteľnaja, prázdnujušči podvihopolóžniku jédínomu, í pobidotvórcu Christú Bohu, podajúščemu mírovi véliju mílosť."}
     ],
-    "S2_B": {"TITLE": "KrestoBohoródičen", "TEXT": "Jéhdá zrjášči ťá Hospodi Ďiva, raspinájema, pláčušči vopijáše tí: vospiváju tvojé neizrečénnoje, o Sýne mój, dolhoterpínije, í jéže k čelovíkom krájneje í Božéstvennoje sošéstvije."},
+    "S2_B": {"TITLE": "Krestobohoródičen", "TEXT": "Jéhdá zrjášči ťá Hospodi Ďiva, raspinájema, pláčušči vopijáše tí: vospiváju tvojé neizrečénnoje, o Sýne mój, dolhoterpínije, í jéže k čelovíkom krájneje í Božéstvennoje sošéstvije."},
     "S3": [
       {"TEXT": "Raspénšusja tí Vladýko Christé, vráh svjázan býsť, í smérť úmertvísja: dúšy, jáže vo áďi v preispódnich soderžímyja, ot úz razrišáchusja."},
       {"TEXT": "Íže nás rádi vóľnoje prijémyj raspjátije, sokruší vrahí nevíduščyja ťá Boha ístinnaho, í Spasí nás."}
     ],
-    "S3_B": {"TITLE": "KrestoBohoródičen", "TEXT": "Krestóm Sýna tvojehó prísno sobľudájemi Ďivo, prilóh bisóvskich ízbihájem: ťímže ťá po dólhu vospivájušče slávim, Bohoródice vsepítaja."},
+    "S3_B": {"TITLE": "Krestobohoródičen", "TEXT": "Krestóm Sýna tvojehó prísno sobľudájemi Ďivo, prilóh bisóvskich ízbihájem: ťímže ťá po dólhu vospivájušče slávim, Bohoródice vsepítaja."},
     "K": {
       "P1": {
         "1": [
@@ -115,7 +115,7 @@
       "P3": {
         "1": [
           {"TITLE": "Írmós", "TEXT": "V načáľi nebesá vsesíľnym Slóvom tvojím útverždéj Hospodi Spase, í vseďíteľnym í Božijim Dúchom, vsjú sílu ích: na nedvížimim mjá kámeni íspovídanija tvojehó útverdí."},
-          {"TEXT": "Propnýj nebeo jáko kóžu, na drévi rasprostérl jésí rúci Izráise, rukí neuderžánije Ádámova hrichá ísciľája, jáko mílostiv, í íschiščája vsích ot rukí ľstívaho borcá."},
+          {"TEXT": "Propnýj nebo jáko kóžu, na drévi rasprostérl jésí rúci Izráise, rukí neuderžánije Ádámova hrichá ísciľája, jáko mílostiv, í íschiščája vsích ot rukí ľstívaho borcá."},
           {"TEXT": "Tebé térnijem cerjú, ľúdije zakonoprestúpniji vinčavájut, slávoju vinčávšaho čelovíki, í preslušánija Ádámova térnije ískorenívšaho, Christé, í nasadívšaho vsím Bohorazúmija prozjabénije."},
           {"TITLE": "Mučeničen", "TEXT": "Jéstestvóm súšče smértni, bezsmértiju v tóm poučítisja ízvóliste premúdriji: ťímže rány í skórbi, mučenicy, honénija že, bijénija, í údóv otsičénija, vsjá rádujuščesja, preterpíste."},
           {"TITLE": "Mučeničen", "TEXT": "Tvérdym pómyslom, potrebíti vsjá preťáščaho ľstívaho vrahá vý stradáľcy smiríste, smirívšesja ó Chrisťí, í voznesóstesja deržávoju Božéstvennoju, na tohó vooružívšesja."},
@@ -140,7 +140,7 @@
         ],
         "2": [
           {"TITLE": "Írmós", "TEXT": "Otča ňídra ne óstávľ, í sošéd na zémľu Christé Bože, tájnu úslýšach smotrénija tvojehó, í proslávich ťá jédíne čelovikoľúbče."},
-          {"TEXT": "Tjá ávvakúm hóru drévle vozhlasív, prečestaja Bohoródice, dobroďíteľmi prijosinénnuju, vsích Vladíčice ósiňájuščuju, ot ópalénija zlóby načáľnaho borcá."},
+          {"TEXT": "Ťá ávvakúm hóru drévle vozhlasív, prečestaja Bohoródice, dobroďíteľmi prijosinénnuju, vsích Vladíčice ósiňájuščuju, ot ópalénija zlóby načáľnaho borcá."},
           {"TEXT": "Molénije Hospodu prinesí, voploščénnomu íz tvojích Vladíčice, prečestych krovéj, Spastí ľúdi tvojá vsjákaho vréda, tebé po dólhu blážáščyja."},
           {"TEXT": "Tvojá preslávnaja sijá Bohobláhodátnaja cerkov býsť vo íscilénije dúš že í ťilés: ústavľájet bo vsjáku boľízň, í óčiščájet ot strastéj vírno tebé blážáščyja."},
           {"TEXT": "Posiščénijem tvojím Ďivo, Spasí téplym í čestným, vsích s ľubóviju pribihájuščich Vladíčice, k tvojemú zastupléniju, posiščáj í daváj jáže k žízni prošénija."}
@@ -149,7 +149,7 @@
       "P5": {
         "1": [
           {"TITLE": "Írmós", "TEXT": "Hospodi Bože mój, ot nóšči utrenevav tebí moľúsja: podážď mí óstavlénije prehrišénij mojích, í k svítu tvojích poveľínij putí mojá naprávi, moľúsja."},
-          {"TEXT": "Raspjátije priját vo zlých otjátije, Božij Slóve, žélči že vkusíl jésí, sládostnaho brášna hórkij vréd potrebľája. sláva mnóhomu bláhoutróbiju tvojemú."},
+          {"TEXT": "Raspjátije priját vo zlých oťátije, Božij Slóve, žélči že vkusíl jésí, sládostnaho brášna hórkij vréd potrebľája. sláva mnóhomu bláhoutróbiju tvojemú."},
           {"TEXT": "Íže na kresťí vozdvíženijem tvojím, vsjú zémľu pokolebál jésí Božéstvennoju tvojéju deržávoju, í ísciľáješi jéjá Vladýko, sokrušénija, í koléblemaja serdcá k tvojemú útverždáješi poznániju."},
           {"TITLE": "Mučeničen", "TEXT": "Rasprostér velijár vsjúdu síti zlóbnyja, no ne óbjál jésť Christóvy mučeniki: kriľí bo prijémše óhnennyja, ko óbítelem Božéstvennym dostihóša."},
           {"TITLE": "Mučeničen", "TEXT": "Mánijem neoskúdnym ot Boha óbožájemi strastotérpcy, boľíznennych mučénij otňúd ne ústrašístesja, jákože ínómu stráždušču, síce premúdriji sámi prebýste."},
@@ -177,7 +177,7 @@
           {"TEXT": "Jédína nám Spasénija ístočíla jésí vódu, jédína čestaja, raspalénije prélesti ízsušívši, órošáješi rázum ístinnyj rabóm tvoím."},
           {"TEXT": "Óduševlénnyj Boha nášeho hráde, stádo tvojé ot bezbóžnych várvar, trúsa že í núždi, í vsjáčeskaho ískušénija svobodí."},
           {"TEXT": "Jázvy dúš nášich, Bohoródice otžení, molitv tvojích ókroplénijem, í ťilésnyja nedúhi: da Božéstvennymi hlásy vospivájem ťá."},
-          {"TEXT": "Jáže razrišívšaja ot boľíznej Ďivo jénu, roždestvóm tvojím prečestym ótrokovíce, razriší mi boľízni strástnyja duší že í ťilesé."}
+          {"TEXT": "Jáže razrišívšaja ot boľíznej Ďivo jéyu, roždestvóm tvojím prečestym ótrokovíce, razriší mi boľízni strástnyja duší že í ťilesé."}
         ]
       },
       "P7": {
@@ -237,7 +237,7 @@
       {"TEXT": "Vladýka sýj čelovikoľúbče žiznodávče, ískupíl jésí krestóm tvojím vselénnuju, Hospodi, sláva tebí."},
       {"TEXT": "Na kresťí prihvozdísja lozá ístinnaja, í óbimáša jázýcy ráj s razbójnikom: sijá sláva cerkóvnaja, sijé bohátstvo cárstvija. postradávyj nás rádi, Hospodi, sláva tebí."},
       {"TITLE": "Mučeničen", "TEXT": "Svitíla jávíšasja vselénňij vsechváľniji strastotérpcy Christóvy, vopijúšče: Hospodi, sláva tebí."},
-      {"TITLE": "KrestoBohoródičen", "TEXT": "Na drévi prihvoždénna ťá vóleju vseneporóčnaja jako víďi, pláčušči pojášče deržávu tvojú."}
+      {"TITLE": "Krestobohoródičen", "TEXT": "Na drévi prihvoždénna ťá vóleju vseneporóčnaja jako víďi, pláčušči pojášče deržávu tvojú."}
     ]
   },
   "L": {

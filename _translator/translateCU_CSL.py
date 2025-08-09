@@ -129,6 +129,7 @@ dictionary = {
     "Ѧ": "Ja",
     "Й": "J",
     "Ѣ": "I",
+    "Ѵ": "Y",
     "а": "a",
     "б": "b",
     "в": "v",
@@ -176,7 +177,7 @@ dictionary = {
     "Ѱ": "Ps",
     "ѱ": "ps",
     "ѳ": "th",
-    "ѵ": "n",
+    "ѵ": "y",
     "ѷ": "y",
     "Ѻ": "O",
     "Ѳ": "Ó",
@@ -351,7 +352,7 @@ words = {
     "m-d*r": "múdr",
     "ml-d*": "mladé",
     "íi*": "Izrái",
-    "nb*": "nebe",
+    "nb*": "neb",
     "cr*": "cer",
     "rž-s**": "roždes",
     "cr-s**": "cárs",
@@ -372,6 +373,7 @@ words = {
     " hedeón": " Hedéon",
     " marí": " Marí",
     "nijkol": "Nijkol",
+    "nebs": "nebes",
 
     # fix
     "Ďivd": "David",
@@ -379,6 +381,19 @@ words = {
     "íón": "Jón",
     "Íón": "Jón",
     "íoán": "Joán",
+    "Íákov": "Jákov",
+    "íákov": "Jákov",
+    "Hospod ": "Hospoď ",
+    "Hospod,": "Hospoď,",
+    "Hospod.": "Hospoď.",
+}
+
+last = {
+    "KrestoBohoródičen": "Krestobohoródičen",
+    "Tjá": "Ťá",
+    "Tja": "Ťa",
+    "tjá": "ťá",
+    "tja": "ťa",
 }
 
 def translate(a):
@@ -391,6 +406,8 @@ def transform(b):
         b = b.replace(k, merge[k])
     for k in words:
         b = b.replace(k, words[k])
+    for k in last:
+        b = b.replace(k, last[k])
     return b
 
 def getUnf(c):
