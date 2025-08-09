@@ -21,11 +21,13 @@ This repository uses [https://typst.app/docs](Typst) to generate PDFs from sourc
 ## Command
 
 To generate pdf use command
+
 ```
 typst _general/NAME.typ
 ```
 
 To update sources use command
+
 ````
 git submodule update --remote
 ````
@@ -40,7 +42,11 @@ git submodule update --remote
 
 ## Changelog
 
-### v. 0.5 
+## v. 0.6
+
+- CSL texts are using own transcription (still work in progress)
+
+### v. 0.5
 
 - CU, CSL and GR text are moved to separate repository, to allow it's independent reuse
 - Vespers for general minea are added
@@ -59,7 +65,7 @@ git submodule update --remote
 
 ### v. 0.2
 
-- Added voice 1 and 2 in Church Slavonic and Slovak transcription of Church Slavonic 
+- Added voice 1 and 2 in Church Slavonic and Slovak transcription of Church Slavonic
 - TODO: there are some differences in Lviv and Moscow oktoich, that need to be somehow resolved
 
 ### v. 0.1
