@@ -119,8 +119,8 @@
   show heading.where(level:5): header5
   show heading.where(level:6): header6
 
-  set text(font: "Monomakh Unicode", lang: "cs", fill: black, size: 13pt, hyphenate: auto)
-  // set text(font: "Monomakh Unicode", lang: "ru", fill: black, size: 13pt, hyphenate: auto)
+  // set text(font: "Monomakh Unicode", lang: "cs", fill: black, size: 13pt, hyphenate: true)
+  set text(font: "Monomakh Unicode", lang: "ru", fill: black, size: 13pt, hyphenate: true)
   // set text(font: "Arimo", lang: "gr", fill: black, weight: "bold", hyphenate: true)
 
   set par(justify: true, linebreaks: "optimized")
@@ -147,8 +147,8 @@
 // TEXTS INFO
 // *************
 
-#import "CSL/texts.typ": *
-// #import "CU/texts.typ": *
+// #import "CSL/texts.typ": *
+#import "CU/texts.typ": *
 // #import "GR/texts.typ": *
 // *************
 // OKTOICH INFO

@@ -7,11 +7,11 @@
 
 // #include "CU/0_casoslov/main.typ"
 // #include("/_general/oktoich.typ")
-// #include("/_general/minea.typ")
+#include("/_general/minea.typ")
 // #include("/_general/casoslov.typ")
 
 // #include "/_general/oktoich.typ"
-#include "/_general/psaltyr.typ"
+// #include "/_general/psaltyr.typ"
 
 
 // #include "MULTI/0_casoslov/vecieren_CU-GR-SK-EN.typ"

@@ -49,7 +49,7 @@ def generate(f: io.FileIO, json, index, dn):
     if LETTER in json:
         f.writelines([
             '\n\n// ---------------------------------------\n',
-            '// VECIEREN V NEDELU VECER\n',
+            '// VELKA VECIEREN\n',
             '// ---------------------------------------\n\n\n',
         ])
         f.writelines([f"  === #translation.at(\"V\")\n"])
@@ -219,14 +219,17 @@ Dn = [
     "M_DIVOTVORCA_JEDEN"
 ]
 
+# LS = "LiturgicalSource"
+LS = "../Liturgical_books_source"
+
 for i,d in enumerate(D):
-    if not os.path.exists(f"../../LiturgicalSource/CU/minea/0_vseobecna/{d}.json"):
+    if not os.path.exists(f"../../"+LS+f"/CU/minea/0_vseobecna/{d}.json"):
         continue
     with io.open(f"1_generated/0_vseobecna/{d}.typ", "w", encoding="utf-8") as f:
         f.writelines([
             '#import "../../../../all.typ": *\n',
             "#columns(2, gutter: 2pt, [\n\n"])
-        with io.open(f"../../LiturgicalSource/CU/minea/0_vseobecna/{d}.json", "r", encoding="utf-8") as inp:
+        with io.open(f"../../"+LS+f"/CU/minea/0_vseobecna/{d}.json", "r", encoding="utf-8") as inp:
             j = json.load(inp)
             generate(f,j,i,Dn[i])
     
@@ -270,13 +273,13 @@ Ds = {
     #     ("25", "M_NARODENIE"),
     #     # ("26", "M_ZHROM_BOHORODICKA"),
     # ],
-    # "05_januar": [
-    #     ("01", "M_OBREZANIE"),
-    #     ("06", "M_BOHOZJAVENIE"),
-    #     ("17", "M_ANTON"),
-    #     ("20", "M_EUTMIOS"),
-    #     ("30", "M_TRAJA_SVATITELIA"),
-    # ],
+    "05_januar": [
+        ("01", "M_OBREZANIE"),
+        # ("06", "M_BOHOZJAVENIE"),
+        ("17", "M_ANTON"),
+        ("20", "M_EUTMIOS"),
+        ("30", "M_TRAJA_SVATITELIA"),
+    ],
     # "06_februar": [
     #     ("02", "M_OBETOVANIE"),
     # ],
@@ -311,14 +314,14 @@ with io.open(f'1_generated/00_all/1_minea.typ', "w", encoding="utf-8") as all:
         D = Ds[t]
         i = 0
         for d,dn in D:
-            if not os.path.exists(f"../../LiturgicalSource/CU/minea/{t}/{d}.json"):
+            if not os.path.exists("../../"+LS+f"/CU/minea/{t}/{d}.json"):
                 continue
             with io.open(f"1_generated/{t}/{d}.typ", "w", encoding="utf-8") as f:
                 f.writelines([
                     '#import "../../../../all.typ": *\n',
                     f'  == ({d}.) #translation.at(\"{dn}\")\n',
                     "#columns(2, gutter: 2pt, [\n\n"])
-                with io.open(f"../../LiturgicalSource/CU/minea/{t}/{d}.json", "r", encoding="utf-8") as inp:
+                with io.open(f"../../"+LS+f"/CU/minea/{t}/{d}.json", "r", encoding="utf-8") as inp:
                     j = json.load(inp)
                     generate(f,j,i,None)
             
