@@ -34,13 +34,16 @@ git submodule update --remote
 
 ## Plans and TODO
 
-- Find a way how to use second and third glory/now and how to render it properly
 - Finalize general minea - add matins and liturgy/typica
 - Add also lower feasts into minea
 - Add lenten and flowely triodion
 - Add different sources - Lviv, etc.
 
 ## Changelog
+
+## v. 0.7
+
+* Added CU and CSL Psaltir
 
 ## v. 0.6
 
