@@ -361,7 +361,9 @@ words = {
     "Nb*": "Neb",
     "Voskr*": "Voskré",
     "Íer-s**l": "Jerúsaľ",
+    "íer-s**l": "Jerúsaľ",
     "Rž-s**": "Roždes",
+    "blh-s**v": "blahoslov",
 
     # small to CAPS
     " sijón": " Sijón",
@@ -410,6 +412,9 @@ def transform(b):
         b = b.replace(k, last[k])
     return b
 
+def fix_nums(c):
+    pass
+
 def getUnf(c):
     for t in c.split(" "):
         if "*" in t:
@@ -431,24 +436,60 @@ def generate(i):
     else:
         return transform(translate(i))
 
-for h in range(1,9):
-    for d in ["0_Nedela","1_Pondelok","2_Utorok","3_Streda","4_Stvrtok","5_Piatok","6_Sobota"]:
-        IN = None
-        with io.open(f"../LiturgicalSource/CU/oktoich/Hlas{h}/{d}.json", "r", encoding="utf-8") as f:  
-            IN = json.load(f)
-        with io.open(f"CSL_okto_out/Hlas{h}/{d}.json", "w", encoding="utf-8") as o:
-            OUT = generate(IN)
-            s = json.dumps(OUT, ensure_ascii=False, indent=2).encode('utf8').decode()
-            s = re.sub('",\s*"', '", "', s)
-            s = re.sub('{\s*"(TITLE|TEXT|PODOBEN|HLAS)', '{"\g<1>', s)
-            s = re.sub('"\s*}(,?)', '"}\g<1>', s)
-            o.writelines(s)
-
 def translateFile(inf, ouf):
     with io.open(inf, "r", encoding="utf-8") as f:  
         IN = f.readlines()
         with io.open(ouf, "w", encoding="utf-8") as o:
             o.writelines([transform(translate(i)) for i in IN])
 
-translateFile("../CU/common_CU.py", "../CSL/common_CSL.py")
-translateFile("../CU/texts.typ", "../CSL/texts.typ")
+################
+# OKTOICH
+################
+def translateOktoich():
+    for h in range(1,9):
+        for d in ["0_Nedela","1_Pondelok","2_Utorok","3_Streda","4_Stvrtok","5_Piatok","6_Sobota"]:
+            IN = None
+            with io.open(f"../LiturgicalSource/CU/oktoich/Hlas{h}/{d}.json", "r", encoding="utf-8") as f:  
+                IN = json.load(f)
+            with io.open(f"CSL_okto_out/Hlas{h}/{d}.json", "w", encoding="utf-8") as o:
+                OUT = generate(IN)
+                s = json.dumps(OUT, ensure_ascii=False, indent=2).encode('utf8').decode()
+                s = re.sub('",\s*"', '", "', s)
+                s = re.sub('{\s*"(TITLE|TEXT|PODOBEN|HLAS)', '{"\g<1>', s)
+                s = re.sub('"\s*}(,?)', '"}\g<1>', s)
+                o.writelines(s)
+
+################
+# PSALTYR
+################
+import re
+
+PATH = "../../Liturgical_books_source/"
+def fixKaftizmaNumbers():
+    PSN = 0
+    VSN = 0
+    for i in range(1, 21):
+        ouf = PATH+f"CSL/psaltyr/kaftizmy/K{i}.json"
+        IN = []
+        with io.open(ouf, "r", encoding="utf-8") as f:  
+            IN = f.readlines()
+        with io.open(ouf, "w", encoding="utf-8") as o:
+            for idx,i in enumerate(IN):
+                if "PSALM_NUM" in IN[idx]:
+                    PSN += 1
+                    VSN = 0
+                    IN[idx] = re.sub(r'"PSALM_NUM": "[^"]+"', f'"PSALM_NUM": "{PSN}"', IN[idx])
+                if re.search(r'"VERSE_NUM": "[^"]+"', IN[idx]):
+                    VSN += 1
+                    IN[idx] = re.sub(r'"VERSE_NUM": "[^"]+"', f'"VERSE_NUM": "{VSN}"', IN[idx])
+            o.writelines(IN)
+
+def translatePsaltyr():
+    translateFile(PATH+"CU/psaltyr/general.json", PATH+"CSL/psaltyr/general.json")
+    for i in range(1, 21):
+        translateFile(PATH+f"CU/psaltyr/kaftizmy/K{i}.json", PATH+f"CSL/psaltyr/kaftizmy/K{i}.json")
+    fixKaftizmaNumbers()
+translatePsaltyr()
+
+# translateFile("../CU/common_CU.py", "../CSL/common_CSL.py")
+# translateFile("../CU/texts.typ", "../CSL/texts.typ")

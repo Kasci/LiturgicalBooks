@@ -4,13 +4,13 @@ Respository for my implementation of liturgical books for Orthodox and Byzantine
 
 I decided to open this repo as public, for anyone to use.
 
-CSL texts are here temporarily, they are compiled from texts from OSBM monks, that they published long time ago on their former web page. They are here just as test data and will be replaced later by original transcription. Do not use without their permision.
-
 GR texts are compiled from [https://glt.goarch.org/](GOA).
 
 CU texts are compiled from [https://www.ponomar.net/](Ponomar).
 
-SK texts are mostly from various sources, especially from [https://casoslov.sk/](Casoslov.sk). They also serve as test texts and will be replaced by original translation. Do not use without their permision.
+CSL texts are created by transcription of CU texts. It is work in progress, but we are moving in some good direction. 	There were temporarily old texts, they are compiled from texts from OSBM monks, that they published long time ago on their former web page. They are here just as test data and will be replaced later by original transcription. Do not use without their permision.
+
+SK texts are mostly from various sources, especially from [https://casoslov.sk/](Casoslov.sk). They also serve as test texts and will be replaced by original translation. Do not use without their permision. There is a plan to create automatic translation later.
 
 Other texts are here just as test data, and will be removed or replaced in later versions.
 

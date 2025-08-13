@@ -111,3 +111,27 @@ kanony = {
     "Канѡ́нъ ᲂу҆со́пшымъ"
   ]
 }
+
+def number(i):
+    out = ""
+    while i > 0:
+      if i == 0:
+          return "-" 
+      if i < 10:
+          out += ["а", "в", "г", "д", "є", "ѕ", "з", "и", "ѳ"][i-1]
+          i //= 10
+          continue
+      if i < 100:
+          if i < 20:
+              out = out + "і"
+          else:
+              out = ["к","л","м","н","ѯ","ѻ","п","ч"][i // 10 - 2] + out
+          i %= 10
+          continue
+      if i < 1000:
+          out = ["р","с","т","у","ф","х","ѱ","ѿ","ц"][i // 100 - 1] + out
+          i %= 100
+          continue
+    if len(out) == 1:
+        return out + "҃" # tilda
+    return out[:-1] + "҃" + out[-1] #tilda

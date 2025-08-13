@@ -111,3 +111,6 @@ kanony = {
     "Kanón úsópšym"
   ]
 }
+
+def number(i):
+    return i

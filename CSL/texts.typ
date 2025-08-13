@@ -83,6 +83,7 @@
 
   "HLAS": "Hlás",
   "TYZDEN": "Neďíľa svjatáho postá",
+  "KAFTIZMA": "Kathísma",
 
   "Ne": "Neďíľa",
   "Po": "Poneďíľnik",
@@ -148,6 +149,8 @@
   "IRMOS": "Írmós",
   "JEDINORODNY": "Jédinoródnyj Sýne í Slóve",
   "VCHOD": "Vchódnoje",
+  "HOSPODI_POMILUJ": "Hospodi pomíluj",
+  "MOLITVA": "Molitva",
   
   "HV_MINEA": "Táže stijchíry 3 íz minéi ílí íz minéi óbščej.",
   "HV_NOTE": "Sláva: íz minéi, Í nýňi: Bohoródičen, ášče ne búdet, Sláva: Í nýňi: Bohoródičen",
@@ -156,4 +159,7 @@
 
   "NACALO": "Načálo",
   "PSALM": "Psalóm",
+  "PSALTYR": "Psaltír",
+
+  "AFTER_KAFTIZMA": "Po kathísmi, trisvjatóje. Táže troparí",
 )

@@ -31,6 +31,9 @@ class Table:
     self.addLine(f'{left},')
     self.addLine(f'{right},')
 
+  def addRight(self, right):
+    self.add('""', right)
+
   def addDot(self, right):
     self.add(f'sText($#sym.dot$)', right)
 
@@ -91,7 +94,15 @@ def isNotPrayer(prefix, prayer):
 def isPrayer(prefix, prayer):
   return prefix in prayer or prefix+"_S" in prayer or prefix+"_N" in prayer or prefix+"_B" in prayer
 
-
+def lettrice(text):
+  i = 0
+  while (
+    ord(text[i+1]) > 0x300 and ord(text[i+1]) < 0x370) or \
+    (ord(text[i+1]) > 0x482 and ord(text[i+1]) < 0x48A) or \
+    (ord(text[i+1]) >= 0x2DE0 and ord(text[i+1]) <= 0x2DFF) or \
+    (ord(text[i+1]) >= 0xA66F and ord(text[i+1]) <= 0xA67F):
+    i += 1
+  return f'sText("{text[0:i+1]}")+"{text[i+1:]}"'
 
 
 
@@ -114,9 +125,9 @@ def addSNB(table: Table, prefix, prayer):
     if isinstance(prayer[prefix+"_S"], list):
       print(f'ERROR: {prefix}_S is list not object!')
     if previous == prayer[prefix+"_S"]["TEXT"]:
-      table.add(f'""', f'"{shorten(previous)}"')
+      table.addRight(f'"{shorten(previous)}"')
     else:
-      table.add(f'""', jObj(prayer[prefix+"_S"]))
+      table.addRight(jObj(prayer[prefix+"_S"]))
 
   # get I Nyni and compare to last one
   if prefix+"_N" in prayer:
@@ -128,9 +139,9 @@ def addSNB(table: Table, prefix, prayer):
     if prefix+"_S" in prayer and prayer[prefix+"_S"]["TEXT"] == prayer[prefix+"_N"]["TEXT"]:
       previous = prayer[prefix+"_S"]["TEXT"]
     if previous == prayer[prefix+"_N"]["TEXT"]:
-      table.add(f'""', f'"{shorten(previous)}"')
+      table.addRight(f'"{shorten(previous)}"')
     else:
-      table.add(f'""', jObj(prayer[prefix+"_N"]))
+      table.addRight(jObj(prayer[prefix+"_N"]))
   
   # get Slava I Nyni and compare to last one
   if prefix+"_B" in prayer:
@@ -139,9 +150,9 @@ def addSNB(table: Table, prefix, prayer):
     if isinstance(prayer[prefix+"_B"], list):
       print(f'ERROR: {prefix}_B is list not object!')
     if previous == prayer[prefix+"_B"]["TEXT"]:
-      table.add(f'""', f'"{shorten(previous)}"')
+      table.addRight(f'"{shorten(previous)}"')
     else:
-      table.add(f'""', jObj(prayer[prefix+"_B"]))
+      table.addRight(jObj(prayer[prefix+"_B"]))
 
 def generateKanon(f: io.FileIO, pisn, kan, kanon_header, pripiv, kidx):
   if kanon_header != None:
@@ -279,7 +290,7 @@ def generateV_HV(f: io.FileIO, prayer, stichiry_HospodyVozvach, skip = 0, note =
   for i,x in enumerate(HV[:skip]):
     table.addComment(f'HV Stich na {length_HV - i + offset}')
     table.add(f'sText("{length_HV - i + offset}:")', f'gText("{stichiras[i]}")')
-    table.add(f'""', f'{jObj(x)}')
+    table.addRight(f'{jObj(x)}')
   if note:
     table.addComment(f'Notes:')
     table.addNote(f'translation.at("HV_MINEA")')
@@ -300,7 +311,7 @@ def generateV_PAR(f: io.FileIO, prayer):
   table = Table()
   for i,p in enumerate(prayer[LETTER]):
     table.addComment(f'Paramia {i+1}')
-    table.add(f'""', f'sText("{p["TITLE"]}")')
+    table.addRight(f'sText("{p["TITLE"]}")')
     table.add2Col(f'"{p["TEXT"]}"')
   table.generate(f)
 
@@ -323,7 +334,7 @@ def generateV_PAR_LENT(f: io.FileIO, prayer):
           table.add(f'sText([#translation.at("ST")#super("{i+1}")])', jObj(x))
 
     table.addComment(f'Paramia {i+1}')
-    table.add(f'""', f'sText("{p["TITLE"]}")')
+    table.addRight(f'sText("{p["TITLE"]}")')
     table.add2Col(f'"{p["TEXT"]}"')
   addNote(table, LETTER, prayer, True)
   table.generate(f)
@@ -372,7 +383,7 @@ def generateV_S(f: io.FileIO, prayer, stichiry):
     for i,x in enumerate(SS[:-1]):
       table.addComment(f'S Stich na {i+1}')
       table.add(f'sText("{i+1}:")', jObj(x))
-      table.add(f'""', f'gText({jObj(stichiras[i])})')
+      table.addRight(f'gText({jObj(stichiras[i])})')
       
     table.addComment(f'S Stich na {length_SS}')
     table.add(f'sText("{length_SS}:")', jObj(SS[-1]))
@@ -647,7 +658,7 @@ def generateU_CH(f: io.FileIO, prayer, stichiry_Chvalite, day = None):
         if len(stichiras) >= length_CH - i:
           table.add(f'sText("{length_CH - i}:")', 
                     f'gText("{stichiras[len(stichiras) - length_CH + i]}")')
-          table.add(f'""', jObj(x))
+          table.addRight(jObj(x))
         else:
           table.add(f'sText("{length_CH - i}:")', jObj(x))
     addNote(table, LETTER, prayer, False)
@@ -737,8 +748,8 @@ def generateL_A(f: io.FileIO, prayer):
             table.add(f'sText(translation.at("ST"))', f'gText({jObj(ST)})')
           elif ix == 2:
             table.addComment(f'Antifon {ix}, SI')
-            table.add(f'""', f'translation.at("SI")')
-            table.add(f'""', f'translation.at("JEDINORODNY")')
+            table.addRight(f'translation.at("SI")')
+            table.addRight(f'translation.at("JEDINORODNY")')
           addSNB(table, LETTER_IN, prayer)
           table.generate(f)
           addNote(table, LETTER_IN, prayer, False)
@@ -763,7 +774,7 @@ def generateL_B(f: io.FileIO, prayer, stichiry_Blazenny):
     for i,x in enumerate(B):
       table.addComment(f'B Stich na {length_B - i}')
       table.add(f'sText("{length_B - i}:")', f'gText("{stichiras[i]}")')
-      table.add(f'""', jObj(x))
+      table.addRight(jObj(x))
     addNote(table, LETTER, prayer, False)
   
   addSNB(table, LETTER, prayer)
@@ -854,6 +865,6 @@ def generate6_PAR(f: io.FileIO, prayer):
   table = Table()
   for i,p in enumerate(prayer[LETTER]):
     table.addComment(f'Paramia {i+1}')
-    table.add(f'""', f'sText("{p["TITLE"]}")')
+    table.addRight(f'sText("{p["TITLE"]}")')
     table.add2Col(f'"{p["TEXT"]}"')
   table.generate(f)
