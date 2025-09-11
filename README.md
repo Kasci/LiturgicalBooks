@@ -41,11 +41,11 @@ git submodule update --remote
 
 ## Changelog
 
-## v. 0.7
+### v. 0.7
 
 * Added CU and CSL Psaltir
 
-## v. 0.6
+### v. 0.6
 
 - CSL texts are using own transcription (still work in progress)
 
