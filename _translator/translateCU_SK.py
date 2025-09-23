@@ -57,3 +57,21 @@ def translateShort():
                 print(response.output_text)
                 out.write(response.output_text + "\n")
                 print(f"-"*20)
+
+def createSK():
+    with io.open("../../Liturgical_books_source/CU/oktoich/VU6_texts.txt", "r", encoding="utf-8") as f:
+        cu_text = f.readlines()
+    with io.open("../../Liturgical_books_source/SK/oktoich/VU6_texts.txt", "r", encoding="utf-8") as f:
+        sk_text = f.readlines()
+    for name in ["0_Nedela", "1_Pondelok", "2_Utorok", "3_Streda", "4_Stvrtok", "5_Piatok", "6_Sobota"]:
+        with io.open(f"../../Liturgical_books_source/SK/oktoich/Hlas6/{name}.json", "w", encoding="utf-8") as out:
+            with io.open(f"../../Liturgical_books_source/CU/oktoich/Hlas6/{name}.json", "r", encoding="utf-8") as f:
+                for line in f:
+                    for i, cu in enumerate(cu_text):
+                        if cu.strip() == "":
+                            continue
+                        if cu.strip() in line:
+                            sk = sk_text[i].strip()
+                            line = line.replace(cu.strip(), sk)
+                    out.write(line)
+createSK()
