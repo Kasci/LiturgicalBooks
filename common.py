@@ -46,6 +46,48 @@ class Table:
       [f'  ))\n']
     )
 
+class Grid:
+  
+  def __init__(self):
+      self.lines = []
+    
+  def addLine(self, line):
+      self.lines.append(f'table.cell(colspan: 12, par([{line}])),')
+
+  def addSpace(self):
+      self.lines.append('table.cell(colspan: 12, []),')
+
+  def add10(self, line):
+      self.lines.append(f'..grid10(par([{line}])),')
+
+  def add8(self, line, lNote=""):
+      if lNote != "":
+          self.lines.append(f'..grid8Note([{lNote}], par([{line}])),')
+      else:
+          self.lines.append(f'..grid8(par([{line}])),')
+
+  def add6(self, line):
+      self.lines.append(f'..grid6(par([{line}])),')
+
+  def addLeft(self, line): 
+      self.lines.append(f'..gridLeft([{line}]),')
+
+  def addHeader(self, line, level): 
+      self.lines.append(f'..gridHeader(d(), ['+('='*(level+1))+f' {line}]),')
+
+  def generate(self, f: io.FileIO):
+    if len(self.lines) == 0:
+       return
+    f.writelines(
+      ["""#context {
+  let w = (page.width - page.margin.left - page.margin.right - 10pt)/12
+  generateGrid(w, (\n"""]+
+      [(' '*4)+line+'\n' for line in self.lines]+
+      ["""  ))
+  }"""]
+
+    )
+
 ###############################
 #
 # ███████ ██████   ██████  ██       ██████   ██████ ███    ██ ███████ 

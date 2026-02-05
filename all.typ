@@ -149,6 +149,7 @@
 
 // #import "CSL/texts.typ": *
 #import "CU/texts.typ": *
+// #import "SK/texts.typ": *
 // #import "GR/texts.typ": *
 // *************
 // OKTOICH INFO
@@ -199,3 +200,49 @@
 ]
 
 #let col2(txt) = table.cell(colspan: 2, align: left, txt)
+
+// *************
+// GRID TABLE
+// *************
+
+#let generateGrid(w, tbl) = [
+  #table(
+    columns: (w, w, w, w, w, w, w, w, w, w, w, w),
+    column-gutter: 1pt, 
+    stroke: none,
+    align: left,
+    ..tbl
+  )
+]
+
+#let gridHeader(id, text) = (
+  table.cell(sText(id)),
+  // table.cell(colspan: 2, []),
+  table.cell(colspan: 10, text),
+  table.cell(colspan: 1, []),
+)
+#let grid6(text) = (
+  table.cell(colspan: 3, []),
+  table.cell(colspan: 6, text),
+  table.cell(colspan: 3, []),
+)
+#let grid8(text) = (
+  table.cell(colspan: 2, []),
+  table.cell(colspan: 8, text),
+  table.cell(colspan: 2, []),
+)
+#let grid8Note(lNote, text) = (
+  table.cell(colspan: 2, lNote),
+  table.cell(colspan: 8, text),
+  table.cell(colspan: 2, []),
+)
+#let grid10(text) = (
+  table.cell(colspan: 1, []),
+  table.cell(colspan: 10, text),
+  table.cell(colspan: 1, []),
+)
+#let gridLeft(text) = (
+  table.cell(colspan: 1, []),
+  table.cell(colspan: 6, text),
+  table.cell(colspan: 5, []),
+)

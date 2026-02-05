@@ -8,9 +8,10 @@
 // #include "CU/0_casoslov/main.typ"
 // #include("/_general/oktoich.typ")
 // #include("/_general/minea.typ")
-#include("CU/shortBook/1_generated/Short.typ")
-#include("SK/shortBook/1_generated/Short.typ")
 // #include("/_general/casoslov.typ")
+
+#include("CU/shortBook/1_generated/Short.typ")
+// #include("SK/shortBook/1_generated/Short.typ")
 
 // #include "/_general/oktoich.typ"
 // #include "/_general/psaltyr.typ"
